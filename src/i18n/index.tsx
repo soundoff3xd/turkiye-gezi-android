@@ -2,18 +2,31 @@ import React, { createContext, useCallback, useContext, useEffect, useMemo, useS
 import AsyncStorage from '@react-native-async-storage/async-storage';
 import site from './site.json';
 import extra from './app.json';
+import more20 from './more20.json';
 
-/* Web sitesiyle aynı çeviri sistemi: Türkçe metin anahtar, çeviriler 19 dilde dizi olarak.
+/* Web sitesiyle aynı çeviri sistemi: Türkçe metin anahtar, çeviriler 39 dilde dizi olarak
+   (ilk 19 dil site.json/app.json'da, eklenen 20 dil more20.json'da).
    Bir dilde çeviri yoksa İngilizceye, o da yoksa Türkçeye düşer. */
 export const LANGS: Record<string, string> = {
   tr: 'Türkçe', en: 'English', de: 'Deutsch', ru: 'Русский', ar: 'العربية', fa: 'فارسی', fr: 'Français', es: 'Español',
   it: 'Italiano', pt: 'Português', nl: 'Nederlands', pl: 'Polski', ro: 'Română', el: 'Ελληνικά', uk: 'Українська',
   bg: 'Български', az: 'Azərbaycanca', zh: '中文', ja: '日本語', ko: '한국어',
+  ku: 'Kurdî', ka: 'ქართული', kk: 'Қазақша', uz: 'Oʻzbekcha', sq: 'Shqip', sr: 'Српски', hr: 'Hrvatski', cs: 'Čeština',
+  hu: 'Magyar', sv: 'Svenska', no: 'Norsk', da: 'Dansk', fi: 'Suomi', he: 'עברית', hi: 'हिन्दी', ur: 'اردو',
+  id: 'Bahasa Indonesia', ms: 'Bahasa Melayu', th: 'ไทย', vi: 'Tiếng Việt',
 };
-const ORDER = ['en', 'de', 'ru', 'fr', 'es', 'it', 'pt', 'nl', 'pl', 'ro', 'el', 'uk', 'bg', 'az', 'ar', 'fa', 'zh', 'ja', 'ko'];
+const L20 = ['ku', 'ka', 'kk', 'uz', 'sq', 'sr', 'hr', 'cs', 'hu', 'sv', 'no', 'da', 'fi', 'he', 'hi', 'ur', 'id', 'ms', 'th', 'vi'];
+// cihaz dil kodlarının eş anlamlıları
+const ALIAS: Record<string, string> = { nb: 'no', nn: 'no', iw: 'he', in: 'id', ckb: 'ku', kmr: 'ku', bs: 'hr' };
+const ORDER = ['en', 'de', 'ru', 'fr', 'es', 'it', 'pt', 'nl', 'pl', 'ro', 'el', 'uk', 'bg', 'az', 'ar', 'fa', 'zh', 'ja', 'ko', ...L20];
 const LIDX: Record<string, number> = Object.fromEntries(ORDER.map((l, i) => [l, i]));
 const DICT: Record<string, (string | null)[]> = { ...(site as any), ...(extra as any) };
-export const RTL = new Set(['ar', 'fa']);
+for (const [k, arr] of Object.entries(more20 as Record<string, (string | null)[]>)) {
+  const base = (DICT[k] || []).slice(0, 19);
+  while (base.length < 19) base.push(null);
+  DICT[k] = base.concat(arr);
+}
+export const RTL = new Set(['ar', 'fa', 'he', 'ur']);
 
 function look(s: string, lang: string): string {
   if (lang === 'tr' || !s) return s;
@@ -30,7 +43,8 @@ export const useT = () => useContext(LangCtx) as Ctx;
 
 function deviceLang() {
   try {
-    const l = Intl.DateTimeFormat().resolvedOptions().locale.split('-')[0];
+    const raw = Intl.DateTimeFormat().resolvedOptions().locale.split('-')[0];
+    const l = ALIAS[raw] || raw;
     return LANGS[l] ? l : 'tr';
   } catch { return 'tr'; }
 }
