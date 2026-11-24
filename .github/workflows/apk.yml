@@ -19,13 +19,13 @@ jobs:
     runs-on: ubuntu-latest
     timeout-minutes: 75
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v5
 
-      - uses: actions/setup-node@v4
+      - uses: actions/setup-node@v5
         with:
           node-version: 22
 
-      - uses: actions/setup-java@v4
+      - uses: actions/setup-java@v5
         with:
           distribution: temurin
           java-version: 17
@@ -43,14 +43,20 @@ jobs:
           # sürüm numarasını her derlemede artır (telefonda güncelleme olarak kurulsun)
           node -e "const f='app.json',j=require('./'+f);j.expo.version='0.1.${{ github.run_number }}';j.expo.android.versionCode=${{ github.run_number }};require('fs').writeFileSync(f,JSON.stringify(j,null,2))"
           npm install
-          npx expo install @supabase/supabase-js @react-native-async-storage/async-storage react-native-url-polyfill react-native-safe-area-context expo-status-bar
-          npm install @maplibre/maplibre-react-native@^11.3.3
+          npx expo install @supabase/supabase-js @react-native-async-storage/async-storage react-native-url-polyfill react-native-safe-area-context expo-status-bar expo-image-picker expo-image-manipulator
+          npm install @maplibre/maplibre-react-native@^11.3.3 base64-arraybuffer
           npm install -D @types/geojson
           echo "APP_DIR=$PWD" >> "$GITHUB_ENV"
 
       - name: Kod denetimi (TypeScript)
         working-directory: ${{ env.APP_DIR }}
-        run: npx tsc --noEmit || echo "::warning::TypeScript uyarıları var (derlemeyi durdurmaz)"
+        run: |
+          npx tsc --noEmit --pretty false > tsc.txt 2>&1 || true
+          n=$(grep -c "error TS" tsc.txt || true)
+          echo "TypeScript hata sayısı: $n"
+          if [ "$n" != "0" ]; then
+            grep "error TS" tsc.txt | head -40 | paste -sd'|' | fold -w 3500 | head -9 | while IFS= read -r l; do echo "::warning title=TS ($n)::$l"; done
+          fi
 
       - name: Android projesini üret
         working-directory: ${{ env.APP_DIR }}

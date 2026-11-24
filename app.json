@@ -2,7 +2,7 @@
   "expo": {
     "name": "Türkiye Gezi Rehberi",
     "slug": "turkiye-gezi-rehberi",
-    "version": "0.1.0",
+    "version": "0.2.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
     "userInterfaceStyle": "light",
@@ -18,12 +18,28 @@
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#B8321F"
       },
-      "permissions": ["INTERNET"]
+      "permissions": [
+        "INTERNET",
+        "CAMERA"
+      ],
+      "blockedPermissions": [
+        "android.permission.RECORD_AUDIO"
+      ]
     },
     "ios": {
       "bundleIdentifier": "com.turkiyegezirehberi.app",
       "supportsTablet": true
     },
-    "plugins": ["@maplibre/maplibre-react-native"]
+    "plugins": [
+      "@maplibre/maplibre-react-native",
+      [
+        "expo-image-picker",
+        {
+          "photosPermission": "Yorum ve öneri fotoğrafı seçmek için galerine erişmemiz gerekiyor.",
+          "cameraPermission": "Gezdiğin yerin fotoğrafını çekmek için kameraya erişmemiz gerekiyor.",
+          "microphonePermission": false
+        }
+      ]
+    ]
   }
 }
