@@ -286,7 +286,9 @@ button{cursor:pointer}
 #zoom button+button{border-top:1px solid var(--line)}
 #credit{position:absolute;z-index:15;left:max(12px,env(safe-area-inset-left,0px));bottom:calc(var(--sheet) + 8px);font-size:11px;color:var(--muted);background:color-mix(in srgb,var(--bg) 80%,transparent);padding:2px 8px;border-radius:8px;transition:bottom .3s ease}
 #panel{position:absolute;z-index:30;left:0;right:0;bottom:0;height:var(--sheet);background:var(--bg);border-radius:24px 24px 0 0;box-shadow:var(--shadow);display:flex;flex-direction:column;overflow:hidden;transition:height .3s ease;padding-bottom:env(safe-area-inset-bottom,0px)}
-#grip{flex:none;height:28px;border:0;background:none;display:flex;align-items:center;justify-content:center;width:100%}
+#grip{flex:none;height:34px;border:0;background:none;display:flex;align-items:center;justify-content:center;width:100%;touch-action:none;cursor:grab}
+#panel.dragging{transition:none!important}#panel.dragging #grip{cursor:grabbing}
+#grip:active span{background:var(--muted)}
 #grip span{width:40px;height:5px;border-radius:3px;background:var(--chip-line)}
 .view{display:flex;flex-direction:column;flex:1;min-height:0}
 .vh{flex:none;padding:0 max(16px,env(safe-area-inset-left,0px)) 4px max(16px,env(safe-area-inset-right,0px))}
@@ -359,7 +361,7 @@ textarea.in{height:auto;padding:12px;resize:none;line-height:1.45;width:100%}
 .prev span{flex:1;min-width:0;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
 .go{width:100%;height:52px;margin-top:16px;border-radius:14px;border:0;background:var(--accent);color:var(--on-accent);font-size:16px;font-weight:600}
 .go:disabled{opacity:.45;cursor:not-allowed}
-#toast{position:absolute;z-index:60;left:50%;top:124px;transform:translateX(-50%);background:var(--ink);color:var(--bg);padding:10px 16px;border-radius:12px;font-size:14px;font-weight:600;box-shadow:var(--shadow)}
+#toast{position:absolute;z-index:60;left:50%;top:124px;transform:translateX(-50%);background:var(--ink);color:var(--bg);padding:10px 16px;border-radius:12px;font-size:14px;font-weight:600;box-shadow:var(--shadow);pointer-events:none}
 @media (min-width:820px){
   #app{display:grid;grid-template-columns:var(--panel) 1fr}
   #panel{position:relative;grid-column:1;grid-row:1;height:100%;border-radius:0;box-shadow:none;border-inline-end:1px solid var(--line)}
@@ -625,6 +627,8 @@ $('world').innerHTML =
 const wide = () => matchMedia('(min-width:820px)').matches;
 function sheetPx() {
   if (wide()) return 0;
+  if (S.dragH) return S.dragH;
+  if (S.full && !S.collapsed) return Math.round(innerHeight - ($('top').offsetHeight || 60) - 24);
   return S.collapsed ? 64 : Math.round(innerHeight * (S.sel ? 0.62 : 0.46));
 }
 function setSheet() {
@@ -917,7 +921,7 @@ $('cform').addEventListener('submit', e => {
 
 /* olaylar */
 const A = {
-  grip: () => { S.collapsed = !S.collapsed; setSheet(); },
+  grip: () => { if (S.gripDragged) { S.gripDragged = false; return; } if (S.full) { S.full = false; } else S.collapsed = !S.collapsed; setSheet(); },
   reg: v => { S.reg = +v; renderChips(); renderList(); if (S.sel) back(); fitResults(); },
   sort: v => { S.sort = v; renderChips(); renderList(); $('rows').parentElement.scrollTop = 0; },
   cat: v => { S.cat = v; S.sub = 'all'; renderChips(); renderList(); fitResults(); },
@@ -2972,6 +2976,76 @@ Object.assign(A, {
 // ziyaret ve yorum sonrası rozet kontrolü
 ['visit', 'send'].forEach(k => { const f = A[k]; if (f) A[k] = v => { const r = f(v); setTimeout(() => { try { checkBadges(); } catch (_) { } }, 1500); return r; }; });
 document.addEventListener('keydown', e => { if (e.key === 'Escape' && NAV && !document.querySelector('dialog[open]')) { /* navigasyonu yanlışlıkla kapatma */ } });
+
+/* ---------- mobil alt panel: parmakla sürükle, bırakınca en yakın konuma otur ---------- */
+(function sheetDrag() {
+  const grip = $('grip'), panel = $('panel');
+  let drag = null;
+  const snaps = () => {
+    const full = Math.round(innerHeight - ($('top').offsetHeight || 60) - 24);
+    const half = Math.round(innerHeight * (S.sel ? 0.62 : 0.46));
+    return [[64, 'c'], [half, 'h'], [full, 'f']];
+  };
+  const start = e => {
+    if (wide() || (e.button != null && e.button !== 0)) return;
+    const y = e.touches ? e.touches[0].clientY : e.clientY;
+    drag = { y0: y, h0: panel.getBoundingClientRect().height, t0: performance.now(), moved: false, last: [[performance.now(), y]] };
+  };
+  const move = e => {
+    if (!drag) return;
+    const y = e.touches ? e.touches[0].clientY : e.clientY, dy = y - drag.y0;
+    if (!drag.moved && Math.abs(dy) < 6) return;
+    if (!drag.moved) { drag.moved = true; panel.classList.add('dragging'); }
+    if (e.cancelable) e.preventDefault();
+    const [[mn], , [mx]] = snaps();
+    let h = drag.h0 - dy;
+    if (h < mn) h = mn - (mn - h) * 0.3; else if (h > mx) h = mx + (h - mx) * 0.3;   // kenarda yumuşak direnç
+    S.dragH = Math.round(h);
+    document.documentElement.style.setProperty('--sheet', S.dragH + 'px');
+    drag.last.push([performance.now(), y]); if (drag.last.length > 5) drag.last.shift();
+  };
+  const end = () => {
+    if (!drag) return;
+    const d = drag; drag = null;
+    panel.classList.remove('dragging');
+    if (!d.moved) return;
+    S.gripDragged = true; setTimeout(() => { S.gripDragged = false; }, 350);
+    const [a, b] = [d.last[0], d.last[d.last.length - 1]];
+    const v = (b[1] - a[1]) / Math.max(1, b[0] - a[0]);          // px/ms, + aşağı
+    const h = S.dragH || d.h0, ss = snaps();
+    let pick;
+    if (Math.abs(v) > 0.6) {                                         // hızlı fırlatma: o yöndeki bir sonraki konum
+      const sorted = ss.slice().sort((x, y) => x[0] - y[0]);
+      pick = v < 0 ? (sorted.find(x => x[0] > h + 10) || sorted[sorted.length - 1]) : (sorted.slice().reverse().find(x => x[0] < h - 10) || sorted[0]);
+    } else pick = ss.reduce((best, x) => Math.abs(x[0] - h) < Math.abs(best[0] - h) ? x : best, ss[0]);
+    S.dragH = 0;
+    S.collapsed = pick[1] === 'c'; S.full = pick[1] === 'f';
+    setSheet(); setTimeout(draw, 320);
+  };
+  grip.addEventListener('touchstart', start, { passive: true });
+  grip.addEventListener('touchmove', move, { passive: false });
+  grip.addEventListener('touchend', end); grip.addEventListener('touchcancel', end);
+  grip.addEventListener('mousedown', start);
+  addEventListener('mousemove', e => { if (drag && !e.touches) move(e); });
+  addEventListener('mouseup', () => { if (drag) end(); });
+  // panelin üst kısmından (başlık, sekmeler) da sürüklenebilsin: içerik en üstteyken aşağı çekince panel iner
+  panel.addEventListener('touchstart', e => {
+    if (wide() || e.target.closest('#grip')) return;
+    const sc = e.target.closest('.vs, #list, #detail, #prof, #pend, #photos, #xbody');
+    if (sc && sc.scrollTop > 0) return;
+    if (e.target.closest('input,textarea,select,button,a,label,.chips,.wrapc')) return;
+    start(e); if (drag) drag.soft = true;
+  }, { passive: true });
+  panel.addEventListener('touchmove', e => {
+    if (!drag || !drag.soft) return;
+    const dy = e.touches[0].clientY - drag.y0;
+    if (!drag.moved && dy < 0 && S.full) { drag = null; return; }   // tam boyda yukarı kaydırma içeriği kaydırır
+    move(e);
+  }, { passive: false });
+  panel.addEventListener('touchend', () => { if (drag && drag.soft) end(); });
+  const sel0 = select; select = function (id) { S.full = false; S.dragH = 0; return sel0(id); };
+  addEventListener('resize', () => { if (!wide()) setSheet(); });
+})();
 
 /* ---------- dil desteği: Türkçe kaynak metin anahtar, çeviriler I18N içinde ---------- */
 const LANGS = { tr: 'Türkçe', en: 'English', de: 'Deutsch', ru: 'Русский', ar: 'العربية', fa: 'فارسی', fr: 'Français', es: 'Español', it: 'Italiano', pt: 'Português', nl: 'Nederlands', pl: 'Polski', ro: 'Română', el: 'Ελληνικά', uk: 'Українська', bg: 'Български', az: 'Azərbaycanca', zh: '中文', ja: '日本語', ko: '한국어' };
