@@ -1,5 +1,5 @@
 import React, { useEffect, useRef, useState } from 'react';
-import { Animated, Easing, InteractionManager, StyleSheet, Text, View, useWindowDimensions, type StyleProp, type ViewStyle } from 'react-native';
+import { Animated, Easing, StyleSheet, Text, View, useWindowDimensions, type StyleProp, type ViewStyle } from 'react-native';
 import { C, R } from '../theme';
 
 /* Akıcı geçişler ve yükleme animasyonları (yalnızca React Native Animated, yerel sürücüyle) */
@@ -10,8 +10,10 @@ export function useDeferred(min = 0) {
   const [ready, setReady] = useState(false);
   useEffect(() => {
     let live = true;
-    const t = setTimeout(() => { InteractionManager.runAfterInteractions(() => { if (live) setReady(true); }); }, min);
-    return () => { live = false; clearTimeout(t); };
+    // geçiş animasyonu (~280 ms) bitene kadar ağır içeriği bekletir
+    let raf = 0;
+    const t = setTimeout(() => { raf = requestAnimationFrame(() => { if (live) setReady(true); }); }, Math.max(min, 180));
+    return () => { live = false; clearTimeout(t); cancelAnimationFrame(raf); };
   }, [min]);
   return ready;
 }
