@@ -5,6 +5,7 @@ name: Android APK
 on:
   push:
     branches: [main]
+    paths-ignore: ['web/**']
   workflow_dispatch:
 
 permissions:
