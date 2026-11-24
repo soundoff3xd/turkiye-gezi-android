@@ -1,0 +1,75 @@
+# Her "main" güncellemesinde Android APK'sını derler ve Releases sayfasına koyar.
+# Sabit indirme bağlantısı: https://github.com/<kullanıcı>/<depo>/releases/latest/download/turkiye-gezi-rehberi.apk
+name: Android APK
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: apk
+  cancel-in-progress: true
+
+jobs:
+  apk:
+    runs-on: ubuntu-latest
+    timeout-minutes: 75
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+
+      - uses: actions/setup-java@v4
+        with:
+          distribution: temurin
+          java-version: 17
+
+      - uses: gradle/actions/setup-gradle@v4
+
+      - name: Expo projesini hazırla
+        run: |
+          set -euo pipefail
+          mkdir -p "$RUNNER_TEMP/w" && cd "$RUNNER_TEMP/w"
+          npx --yes create-expo-app@latest app --template blank-typescript --no-install
+          cd app
+          rm -rf App.tsx index.ts app.json assets
+          cp -r "$GITHUB_WORKSPACE"/{App.tsx,index.ts,app.json,src,assets} .
+          # sürüm numarasını her derlemede artır (telefonda güncelleme olarak kurulsun)
+          node -e "const f='app.json',j=require('./'+f);j.expo.version='0.1.${{ github.run_number }}';j.expo.android.versionCode=${{ github.run_number }};require('fs').writeFileSync(f,JSON.stringify(j,null,2))"
+          npm install
+          npx expo install @supabase/supabase-js @react-native-async-storage/async-storage react-native-url-polyfill react-native-safe-area-context expo-status-bar
+          npm install @maplibre/maplibre-react-native@^11.3.3
+          npm install -D @types/geojson
+          echo "APP_DIR=$PWD" >> "$GITHUB_ENV"
+
+      - name: Kod denetimi (TypeScript)
+        working-directory: ${{ env.APP_DIR }}
+        run: npx tsc --noEmit || echo "::warning::TypeScript uyarıları var (derlemeyi durdurmaz)"
+
+      - name: Android projesini üret
+        working-directory: ${{ env.APP_DIR }}
+        run: npx expo prebuild --platform android --no-install
+
+      - name: APK derle
+        working-directory: ${{ env.APP_DIR }}/android
+        run: ./gradlew assembleRelease --no-daemon -PreactNativeArchitectures=arm64-v8a,armeabi-v7a
+
+      - name: APK'yı adlandır
+        run: cp "$APP_DIR/android/app/build/outputs/apk/release/app-release.apk" turkiye-gezi-rehberi.apk
+
+      - name: Releases sayfasına koy
+        uses: softprops/action-gh-release@v2
+        with:
+          tag_name: v0.1.${{ github.run_number }}
+          name: Türkiye Gezi Rehberi 0.1.${{ github.run_number }}
+          body: |
+            Telefonuna kurmak için aşağıdaki **turkiye-gezi-rehberi.apk** dosyasına dokun.
+            Değişiklik: ${{ github.event.head_commit.message }}
+          files: turkiye-gezi-rehberi.apk
+          make_latest: true

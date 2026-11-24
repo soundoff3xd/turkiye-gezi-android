@@ -1,0 +1,29 @@
+{
+  "expo": {
+    "name": "Türkiye Gezi Rehberi",
+    "slug": "turkiye-gezi-rehberi",
+    "version": "0.1.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash-icon.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#FBF8F1"
+    },
+    "android": {
+      "package": "com.turkiyegezirehberi.app",
+      "versionCode": 1,
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#B8321F"
+      },
+      "permissions": ["INTERNET"]
+    },
+    "ios": {
+      "bundleIdentifier": "com.turkiyegezirehberi.app",
+      "supportsTablet": true
+    },
+    "plugins": ["@maplibre/maplibre-react-native"]
+  }
+}
