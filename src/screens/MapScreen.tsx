@@ -1,5 +1,5 @@
 import React, { useEffect, useMemo, useRef, useState } from 'react';
-import { FlatList, Keyboard, Modal, Pressable, ScrollView, StyleSheet, Text, TextInput, View, useWindowDimensions } from 'react-native';
+import { FlatList, Keyboard, Pressable, ScrollView, StyleSheet, Text, TextInput, View, useWindowDimensions } from 'react-native';
 import { useSafeAreaInsets } from 'react-native-safe-area-context';
 import AsyncStorage from '@react-native-async-storage/async-storage';
 import { Camera, GeoJSONSource, Layer, Map, type CameraRef, type GeoJSONSourceRef } from '@maplibre/maplibre-react-native';
@@ -10,6 +10,7 @@ import { trError } from '../lib/auth';
 import { useNav, useToast } from '../lib/ui';
 import { REGIONS, catName, fold, type Place } from '../data/catalog';
 import PlaceSheet from '../components/PlaceSheet';
+import AccountMenu from '../components/AccountMenu';
 import { C, R, shadow } from '../theme';
 
 /* Web sitesindeki gerçek haritanın aynısı: OpenFreeMap (ücretsiz, anahtarsız) */
@@ -139,9 +140,7 @@ export default function MapScreen() {
               onSubmitEditing={() => { if (matches[0]) select(matches[0]); }} />
             {!!q && <Pressable onPress={() => setQ('')} hitSlop={10} accessibilityLabel={t('Aramayı temizle')}><Text style={{ color: C.muted, fontSize: 16 }}>✕</Text></Pressable>}
           </View>
-          <Pressable onPress={() => setLayers(true)} style={s.round} accessibilityRole="button" accessibilityLabel={t('Harita stili')}>
-            <Text style={{ fontSize: 20 }}>🗺</Text>
-          </Pressable>
+          <AccountMenu />
         </View>
         {searching && q.trim().length > 0 ? (
           <View style={s.results}>
@@ -166,9 +165,14 @@ export default function MapScreen() {
       </View>
 
       {!place && (
-        <Pressable onPress={locate} style={[s.round, { position: 'absolute', right: 14, bottom: 82 }]} accessibilityRole="button" accessibilityLabel={t('Konumum')}>
-          <Text style={{ fontSize: 20, color: '#1F6FEB' }}>◎</Text>
-        </Pressable>
+        <View style={s.tools} pointerEvents="box-none">
+          <Pressable onPress={() => setLayers((v) => !v)} style={[s.round, layers && { backgroundColor: C.ink }]} accessibilityRole="button" accessibilityLabel={t('Harita stili')} accessibilityState={{ expanded: layers }}>
+            <Text style={{ fontSize: 19 }}>🗺</Text>
+          </Pressable>
+          <Pressable onPress={locate} style={s.round} accessibilityRole="button" accessibilityLabel={t('Konumum')}>
+            <Text style={{ fontSize: 20, color: '#1F6FEB' }}>◎</Text>
+          </Pressable>
+        </View>
       )}
       {place ? (
         <PlaceSheet place={place} bottom={8} onToggle={onToggle} onClose={() => setSel(null)} onMore={() => push({ name: 'place', id: place.id })} />
@@ -180,21 +184,26 @@ export default function MapScreen() {
         </View>
       )}
 
-      <Modal visible={layers} transparent animationType="fade" onRequestClose={() => setLayers(false)}>
-        <Pressable style={{ flex: 1, backgroundColor: 'rgba(20,49,58,0.35)', justifyContent: 'flex-end' }} onPress={() => setLayers(false)}>
-          <Pressable style={{ backgroundColor: C.bg, borderTopLeftRadius: 22, borderTopRightRadius: 22, padding: 20, paddingBottom: insets.bottom + 20 }}>
-            <Text style={{ fontSize: 18, fontWeight: '800', color: C.ink }}>{t('Harita stili')}</Text>
-            <View style={{ flexDirection: 'row', gap: 10, marginTop: 14 }}>
+      {/* harita stili: sağ alttaki düğmenin yanında açılan küçük pencere (web sitesindeki gibi) */}
+      {layers && !place && (
+        <>
+          <Pressable style={StyleSheet.absoluteFill} onPress={() => setLayers(false)} accessibilityLabel={t('Kapat')} />
+          <View style={s.pop}>
+            <Text style={s.popH}>{t('Harita stili')}</Text>
+            <View style={{ flexDirection: 'row', gap: 8, marginTop: 10 }}>
               {Object.entries(MAP_STYLES).map(([k, [l, , bg]]) => (
-                <Pressable key={k} onPress={() => chooseStyle(k)} style={{ flex: 1, alignItems: 'center', gap: 6 }} accessibilityRole="radio" accessibilityState={{ checked: style === k }}>
-                  <View style={{ width: '100%', aspectRatio: 1.3, borderRadius: R.md, backgroundColor: bg, borderWidth: style === k ? 3 : 1, borderColor: style === k ? C.accent : C.chipLine }} />
-                  <Text style={{ fontWeight: style === k ? '800' : '600', color: C.ink }}>{t(l)}</Text>
+                <Pressable key={k} onPress={() => chooseStyle(k)} style={{ width: 68, alignItems: 'center', gap: 5 }} accessibilityRole="radio" accessibilityState={{ checked: style === k }}>
+                  <View style={[s.thumb, { backgroundColor: bg }, style === k && { borderWidth: 3, borderColor: C.accent }]}>
+                    <View style={[s.thumbRoad, { backgroundColor: k === 'dark' ? '#4A565B' : k === 'std' ? '#F6CF8E' : '#FFFFFF' }]} />
+                    <View style={[s.thumbWater, { backgroundColor: k === 'dark' ? '#1B2A30' : k === 'std' ? '#AAD3DF' : '#DDE5E8' }]} />
+                  </View>
+                  <Text style={{ fontSize: 13, fontWeight: style === k ? '800' : '600', color: style === k ? C.accent : C.ink }} numberOfLines={1}>{t(l)}</Text>
                 </Pressable>
               ))}
             </View>
-          </Pressable>
-        </Pressable>
-      </Modal>
+          </View>
+        </>
+      )}
     </View>
   );
 }
@@ -215,5 +224,11 @@ const s = StyleSheet.create({
   resName: { color: C.ink, fontSize: 16, fontWeight: '700' },
   resSub: { color: C.muted, fontSize: 13.5, marginTop: 2 },
   bar: { position: 'absolute', left: 12, right: 12, bottom: 12, backgroundColor: C.surface, borderRadius: R.pill, paddingHorizontal: 18, paddingVertical: 14, flexDirection: 'row', justifyContent: 'space-between', alignItems: 'center', ...shadow },
+  tools: { position: 'absolute', right: 14, bottom: 82, gap: 12 },
+  pop: { position: 'absolute', right: 74, bottom: 82, backgroundColor: C.surface, borderRadius: R.lg, padding: 14, borderWidth: 1, borderColor: C.line, ...shadow, elevation: 12 },
+  popH: { fontSize: 14, fontWeight: '800', color: C.muted },
+  thumb: { width: 68, height: 56, borderRadius: R.sm, overflow: 'hidden', borderWidth: 1, borderColor: C.chipLine },
+  thumbRoad: { position: 'absolute', left: -6, right: -6, top: 24, height: 6, transform: [{ rotate: '-18deg' }] },
+  thumbWater: { position: 'absolute', right: -10, bottom: -14, width: 40, height: 34, borderRadius: 20 },
   barTxt: { color: C.ink, fontSize: 14.5, fontWeight: '700' },
 });

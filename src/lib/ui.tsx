@@ -5,7 +5,7 @@ import { useT } from '../i18n';
 import { C, R } from '../theme';
 
 /* Basit gezinme: alt sekmeler + üstte açılan ekran yığını (Android geri tuşu yığını kapatır) */
-export type Tab = 'map' | 'explore' | 'photos' | 'profile';
+export type Tab = 'map' | 'explore' | 'photos';
 export type Route =
   | { name: 'place'; id: string; tab?: 'ov' | 'rev' | 'pho' }
   | { name: 'compose'; id: string }
@@ -14,7 +14,9 @@ export type Route =
   | { name: 'photo'; id: string }
   | { name: 'lang' }
   | { name: 'support' }
-  | { name: 'route'; id: string };
+  | { name: 'route'; id: string }
+  | { name: 'profile' }
+  | { name: 'interests' };
 export type MapFocus = { id?: string; lat?: number; lng?: number; ts: number } | null;
 
 type Nav = {

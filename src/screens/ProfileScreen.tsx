@@ -6,7 +6,8 @@ import { useAuth, trError } from '../lib/auth';
 import { useStore } from '../lib/store';
 import { pickImage } from '../lib/images';
 import { useNav, useToast } from '../lib/ui';
-import { Avatar, Btn, Empty, PlaceRow, Stars, b } from '../components/common';
+import { Avatar, Btn, Empty, Header, PlaceRow, Stars, b } from '../components/common';
+import { INTERESTS, usePrefs } from '../lib/prefs';
 import { LEVELS, NEED, STATUS_TXT, level } from '../data/catalog';
 import { C, R } from '../theme';
 
@@ -17,7 +18,8 @@ export default function ProfileScreen() {
   const insets = useSafeAreaInsets();
   const { me, signOut, setAvatar, deleteAccount } = useAuth();
   const { visited, faved, posts, sugg, byId } = useStore();
-  const { push } = useNav();
+  const { push, pop } = useNav();
+  const { interests } = usePrefs();
   const toast = useToast();
   const [tab, setTab] = useState<PTab>('visited');
   const [busy, setBusy] = useState(false);
@@ -59,7 +61,9 @@ export default function ProfileScreen() {
   };
 
   return (
-    <ScrollView style={{ flex: 1, backgroundColor: C.bg }} contentContainerStyle={{ padding: 16, paddingTop: insets.top + 16, paddingBottom: insets.bottom + 90 }}>
+    <View style={{ flex: 1, backgroundColor: C.bg }}>
+    <Header onBack={pop} title={t('Profilim')} />
+    <ScrollView style={{ flex: 1, backgroundColor: C.bg }} contentContainerStyle={{ padding: 16, paddingBottom: insets.bottom + 28 }}>
       <View style={{ flexDirection: 'row', alignItems: 'center', gap: 16 }}>
         <Pressable onPress={photoMenu} disabled={busy} accessibilityRole="button" accessibilityLabel={me.av ? t('Profil fotoğrafını değiştir') : t('Profil fotoğrafı ekle')} style={{ opacity: busy ? 0.5 : 1 }}>
           <Avatar name={me.name} url={me.av} size={76} />
@@ -130,11 +134,16 @@ export default function ProfileScreen() {
         <Text style={{ fontWeight: '700', color: C.ink }}>{t('Dil')}</Text>
         <Text style={{ color: C.muted }}>{`${LANGS[lang]}  ›`}</Text>
       </Pressable>
+      <Pressable onPress={() => push({ name: 'interests' })} style={[b.card, { flexDirection: 'row', justifyContent: 'space-between', alignItems: 'center', gap: 12 }]} accessibilityRole="button">
+        <Text style={{ fontWeight: '700', color: C.ink }}>{t('İlgi alanlarım')}</Text>
+        <Text style={{ color: C.muted, flexShrink: 1, textAlign: 'right' }} numberOfLines={1}>{`${interests.length ? INTERESTS.filter(([k]) => interests.includes(k)).map(([, i]) => i).join(' ') : t('Seçilmedi')}  ›`}</Text>
+      </Pressable>
       <View style={{ flexDirection: 'row', gap: 8, marginTop: 16 }}>
         <Btn label={t('Çıkış yap')} onPress={() => signOut()} style={{ flex: 1 }} />
         <Btn label={t('Hesabı sil')} onPress={confirmDelete} style={{ flex: 1, borderColor: C.danger }} />
       </View>
       <Text style={b.fine}>{t('Hesabın web sitesinde de geçerlidir.')}</Text>
     </ScrollView>
+    </View>
   );
 }

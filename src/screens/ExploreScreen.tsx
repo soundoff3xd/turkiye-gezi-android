@@ -1,4 +1,4 @@
-import React, { useMemo, useState } from 'react';
+import React, { useEffect, useMemo, useState } from 'react';
 import { FlatList, Pressable, ScrollView, Text, TextInput, View } from 'react-native';
 import { useSafeAreaInsets } from 'react-native-safe-area-context';
 import { useT } from '../i18n';
@@ -9,11 +9,13 @@ import { trError } from '../lib/auth';
 import { Chip, PlaceRow, b } from '../components/common';
 import { GROUPS, REGIONS, SORTS, SUBS, catName, fold, groupOf, type SortKey } from '../data/catalog';
 import { C, R, shadow } from '../theme';
+import { forYouGroups, usePrefs } from '../lib/prefs';
+import AccountMenu from '../components/AccountMenu';
 
 type Sort = SortKey | 'near';
 const SORT_ICON: Record<Sort, string> = { near: '📍', visits: '👣', favs: '♥', rating: '★', reviews: '💬' };
 const ALL_SORTS: [Sort, string][] = [['near', 'Bana en yakın'], ...SORTS];
-const GROUP_ICON: Record<string, string> = { all: '◎', kultur: '🏛', doga: '🌲', deniz: '🌊', sehir: '🏘', manzara: '🌄' };
+const GROUP_ICON: Record<string, string> = { foryou: '✨', all: '◎', kultur: '🏛', doga: '🌲', deniz: '🌊', sehir: '🏘', manzara: '🌄' };
 
 /* Keşfet: arama, sıralama, kategori ve bölgeye göre tüm yerler */
 export default function ExploreScreen() {
@@ -29,13 +31,19 @@ export default function ExploreScreen() {
     if (k === 'near' && !pos) { request().then(() => setSort('near')).catch((e) => toast(trError(e))); return; }
     setSort(k);
   };
-  const [cat, setCat] = useState('all');
+  const { interests, start, clearStart } = usePrefs();
+  const mineG = useMemo(() => forYouGroups(interests), [interests]);
+  // ilk açılışta ilgi alanı seçildiyse "Senin için" ile başla
+  const [cat, setCat] = useState(() => (start === 'foryou' && interests.length ? 'foryou' : 'all'));
+  useEffect(() => { if (start === 'foryou') clearStart(); }, [start, clearStart]);
+  useEffect(() => { if (cat === 'foryou' && !mineG.size) setCat('all'); }, [cat, mineG]);
+  const inCat = (c: string, g: string) => g === 'all' || (g === 'foryou' ? mineG.has(groupOf(c)) : groupOf(c) === g);
   const [sub, setSub] = useState('all');
   const [reg, setReg] = useState(-1);
 
   const match = (p: typeof places[number], ignoreSub = false, ignoreCat = false) => {
     const f = fold(q.trim());
-    return (reg < 0 || p.r === reg) && (ignoreCat || cat === 'all' || groupOf(p.c) === cat) && (ignoreSub || sub === 'all' || p.c === sub)
+    return (reg < 0 || p.r === reg) && (ignoreCat || inCat(p.c, cat)) && (ignoreSub || sub === 'all' || p.c === sub)
       && (!f || fold(`${p.n} ${p.il} ${p.semt || ''} ${catName(p.c)} ${t(catName(p.c))}`).includes(f));
   };
   const rows = useMemo(() => {
@@ -46,14 +54,17 @@ export default function ExploreScreen() {
     };
     return places.filter((p) => match(p)).map((p) => ({ p, s: stats(p.id), d: distTo(p.lat, p.lng) })).sort(cmp[sort]);
     // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [places, stats, q, sort, cat, sub, reg, t, distTo]);
-  const groupCount = (g: string) => places.filter((p) => match(p, true, true) && (g === 'all' || groupOf(p.c) === g)).length;
-  const subs = cat === 'all' ? [] : Object.entries(SUBS).filter(([, v]) => v[0] === cat);
+  }, [places, stats, q, sort, cat, sub, reg, t, distTo, mineG]);
+  const groupCount = (g: string) => places.filter((p) => match(p, true, true) && inCat(p.c, g)).length;
+  const subs = cat === 'all' || cat === 'foryou' ? [] : Object.entries(SUBS).filter(([, v]) => v[0] === cat);
   const waiting = sugg.filter((g) => g.state === 'wait' || g.state === 'mod').length;
 
   const head = (
     <View style={{ paddingHorizontal: 16, paddingTop: insets.top + 12 }}>
-      <Text style={[b.h2, { fontSize: 26 }]} accessibilityRole="header">{t('Keşfet')}</Text>
+      <View style={{ flexDirection: 'row', alignItems: 'center', justifyContent: 'space-between' }}>
+        <Text style={[b.h2, { fontSize: 26 }]} accessibilityRole="header">{t('Keşfet')}</Text>
+        <AccountMenu size={44} top={insets.top + 60} />
+      </View>
       <View style={{ flexDirection: 'row', alignItems: 'center', backgroundColor: C.surface, borderRadius: R.pill, paddingHorizontal: 16, height: 48, marginTop: 12, borderWidth: 1, borderColor: C.chipLine }}>
         <Text style={{ fontSize: 20, color: C.muted, marginRight: 8 }}>⌕</Text>
         <TextInput value={q} onChangeText={setQ} placeholder={t('İl veya yer ara')} placeholderTextColor={C.muted} style={{ flex: 1, fontSize: 16, color: C.ink }} autoCorrect={false} returnKeyType="search" />
@@ -84,8 +95,9 @@ export default function ExploreScreen() {
 
       <Text style={[b.boxH, { marginTop: 16 }]}>{t('Kategori')}</Text>
       <View style={{ flexDirection: 'row', flexWrap: 'wrap', gap: 8 }}>
-        {[['all', 'Tümü'] as [string, string], ...GROUPS].map(([k, l]) => (
-          <Pressable key={k} onPress={() => { setCat(k); setSub('all'); }} style={[{ width: '31.6%', borderRadius: R.md, paddingVertical: 10, paddingHorizontal: 8, borderWidth: 1, alignItems: 'center' }, cat === k ? { backgroundColor: C.ink, borderColor: C.ink } : { backgroundColor: C.surface, borderColor: C.line }]}
+        {[...(mineG.size ? [['foryou', 'Senin için'] as [string, string]] : []), ['all', 'Tümü'] as [string, string], ...GROUPS].map(([k, l]) => (
+          <Pressable key={k} onPress={() => { setCat(k); setSub('all'); }} style={[{ width: '31.6%', borderRadius: R.md, paddingVertical: 10, paddingHorizontal: 8, borderWidth: 1, alignItems: 'center' }, cat === k ? { backgroundColor: C.ink, borderColor: C.ink } : k === 'foryou' ? { backgroundColor: C.soft, borderColor: C.accent } : { backgroundColor: C.surface, borderColor: C.line },
+            k === 'foryou' && { width: '100%', flexDirection: 'row', justifyContent: 'center', gap: 10 }]}
             accessibilityRole="button" accessibilityState={{ selected: cat === k }}>
             <Text style={{ fontSize: 20 }}>{GROUP_ICON[k]}</Text>
             <Text style={{ fontWeight: '700', fontSize: 13, color: cat === k ? '#FFFFFF' : C.ink, textAlign: 'center' }} numberOfLines={2}>{t(l)}</Text>

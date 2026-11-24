@@ -6,6 +6,7 @@ import { useStore } from '../lib/store';
 import { trError } from '../lib/auth';
 import { useNav, useToast } from '../lib/ui';
 import { Avatar, Chip, Empty, b } from '../components/common';
+import AccountMenu from '../components/AccountMenu';
 import { C, R } from '../theme';
 
 /* Fotoğraf vitrini: en çok beğenilen ve en yeni fotoğraflar, en çok beğeni alan fotoğrafçılar */
@@ -26,7 +27,10 @@ export default function ShowcaseScreen() {
 
   return (
     <ScrollView style={{ flex: 1, backgroundColor: C.bg }} contentContainerStyle={{ padding: 16, paddingTop: insets.top + 12, paddingBottom: insets.bottom + 90 }}>
-      <Text style={[b.h2, { fontSize: 26 }]} accessibilityRole="header">{t('Fotoğraf vitrini')}</Text>
+      <View style={{ flexDirection: 'row', alignItems: 'center', justifyContent: 'space-between', gap: 10 }}>
+        <Text style={[b.h2, { fontSize: 26, flexShrink: 1 }]} accessibilityRole="header">{t('Fotoğraf vitrini')}</Text>
+        <AccountMenu size={44} top={insets.top + 60} />
+      </View>
       <Text style={{ color: C.muted, marginTop: 4, lineHeight: 20 }}>{t('Gezginlerin çektiği en güzel kareler. Beğendiğin fotoğrafa kalp bırak.')}</Text>
       <View style={{ flexDirection: 'row', gap: 8, marginTop: 12 }}>
         <Chip label={t('En çok beğenilen')} on={sort === 'top'} onPress={() => setSort('top')} />

@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import { ActivityIndicator, Pressable, StyleSheet, Text, View } from 'react-native';
 import { StatusBar } from 'expo-status-bar';
 import { SafeAreaProvider, useSafeAreaInsets } from 'react-native-safe-area-context';
@@ -11,6 +11,8 @@ import MapScreen from './src/screens/MapScreen';
 import ExploreScreen from './src/screens/ExploreScreen';
 import ShowcaseScreen from './src/screens/ShowcaseScreen';
 import ProfileScreen from './src/screens/ProfileScreen';
+import OnboardingScreen, { InterestsScreen } from './src/screens/OnboardingScreen';
+import { PrefsProvider, usePrefs } from './src/lib/prefs';
 import PlaceScreen from './src/screens/PlaceScreen';
 import ComposeScreen from './src/screens/ComposeScreen';
 import SuggestScreen from './src/screens/SuggestScreen';
@@ -22,7 +24,7 @@ import RouteScreen from './src/screens/RouteScreen';
 import { LocationProvider } from './src/lib/location';
 import { C } from './src/theme';
 
-const TABS: [Tab, string, string][] = [['map', '🗺', 'Harita'], ['explore', '🧭', 'Keşfet'], ['photos', '📷', 'Vitrin'], ['profile', '👤', 'Profil']];
+const TABS: [Tab, string, string][] = [['map', '🗺', 'Harita'], ['explore', '🧭', 'Keşfet'], ['photos', '📷', 'Vitrin']];
 
 function Screen({ r }: { r: Route }) {
   switch (r.name) {
@@ -34,6 +36,8 @@ function Screen({ r }: { r: Route }) {
     case 'lang': return <LangScreen />;
     case 'support': return <SupportScreen />;
     case 'route': return <RouteScreen id={r.id} />;
+    case 'profile': return <ProfileScreen />;
+    case 'interests': return <InterestsScreen />;
   }
 }
 
@@ -41,6 +45,12 @@ function Shell() {
   const { t } = useT();
   const insets = useSafeAreaInsets();
   const { tab, setTab, stack, reset } = useNav();
+  const { start, clearStart } = usePrefs();
+  // ilk açılışta seçilen ilgi alanına göre başla: fotoğraf → vitrin, diğerleri → Keşfet "Senin için"
+  useEffect(() => {
+    if (start === 'photos') { setTab('photos'); clearStart(); }
+    else if (start === 'foryou') setTab('explore');
+  }, [start, setTab, clearStart]);
   return (
     <View style={{ flex: 1, backgroundColor: C.bg }}>
       <View style={{ flex: 1 }}>
@@ -48,7 +58,6 @@ function Shell() {
         <MapScreen />
         {tab === 'explore' && <View style={StyleSheet.absoluteFill}><ExploreScreen /></View>}
         {tab === 'photos' && <View style={StyleSheet.absoluteFill}><ShowcaseScreen /></View>}
-        {tab === 'profile' && <View style={StyleSheet.absoluteFill}><ProfileScreen /></View>}
       </View>
       <View style={[s.tabs, { paddingBottom: insets.bottom + 6 }]} accessibilityRole="tablist">
         {TABS.map(([k, icon, label]) => (
@@ -67,9 +76,12 @@ function Shell() {
 
 function Root() {
   const { ready, me } = useAuth();
-  if (!ready) {
+  const prefs = usePrefs();
+  if (!ready || !prefs.ready) {
     return <View style={{ flex: 1, alignItems: 'center', justifyContent: 'center', backgroundColor: C.bg }}><ActivityIndicator size="large" color={C.accent} /></View>;
   }
+  // ilk açılış: dil ve ilgi alanları
+  if (!prefs.onboarded) return <OnboardingScreen />;
   // Hesap olmadan uygulama kullanılamaz
   if (!me) return <AuthScreen />;
   return (
@@ -87,10 +99,12 @@ export default function App() {
   return (
     <SafeAreaProvider>
       <LangProvider>
-        <AuthProvider>
-          <StatusBar style="dark" />
-          <Root />
-        </AuthProvider>
+        <PrefsProvider>
+          <AuthProvider>
+            <StatusBar style="dark" />
+            <Root />
+          </AuthProvider>
+        </PrefsProvider>
       </LangProvider>
     </SafeAreaProvider>
   );
