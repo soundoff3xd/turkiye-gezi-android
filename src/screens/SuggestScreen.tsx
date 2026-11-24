@@ -11,6 +11,7 @@ import { Btn, Header, b } from '../components/common';
 import { BAD_WORDS, DAILY, GROUPS, NEED, PROVINCES, SUBS, fold, inTurkey, meters, nearestProvince } from '../data/catalog';
 import { C, R } from '../theme';
 import { MAP_STYLE } from './MapScreen';
+import { useLocation } from '../lib/location';
 
 type Pt = { lat: number; lng: number; inTr: boolean };
 
@@ -134,6 +135,16 @@ function PickMap({ initial, onPick, onCancel }: { initial: Pt | null; onPick: (p
   const { t } = useT();
   const insets = useSafeAreaInsets();
   const [p, setP] = useState<Pt | null>(initial);
+  const { request } = useLocation();
+  const [locErr, setLocErr] = useState('');
+  const camRef = useRef<any>(null);
+  async function here() {
+    setLocErr('');
+    try {
+      const v = await request();
+      if (v) { setP({ lat: v.lat, lng: v.lng, inTr: inTurkey(v.lat, v.lng) }); camRef.current?.flyTo({ center: [v.lng, v.lat], zoom: 15, duration: 800 }); }
+    } catch (e) { setLocErr(t(trError(e))); }
+  }
   const data = useMemo<GeoJSON.FeatureCollection>(() => ({ type: 'FeatureCollection', features: p ? [{ type: 'Feature', properties: {}, geometry: { type: 'Point', coordinates: [p.lng, p.lat] } }] : [] }), [p]);
   return (
     <View style={{ flex: 1, backgroundColor: C.bg }}>
@@ -141,13 +152,15 @@ function PickMap({ initial, onPick, onCancel }: { initial: Pt | null; onPick: (p
       <View style={{ flex: 1 }}>
         <Map style={{ flex: 1 }} mapStyle={MAP_STYLE} touchRotate={false} touchPitch={false} compass={false} logo={false}
           onPress={(e) => { const [lng, lat] = e.nativeEvent.lngLat; setP({ lat, lng, inTr: inTurkey(lat, lng) }); }}>
-          <Camera initialViewState={initial ? { center: [initial.lng, initial.lat], zoom: 13 } : { bounds: [25.7, 35.8, 44.8, 42.2], padding: { top: 20, right: 20, bottom: 20, left: 20 } }} />
+          <Camera ref={camRef} initialViewState={initial ? { center: [initial.lng, initial.lat], zoom: 13 } : { bounds: [25.7, 35.8, 44.8, 42.2], padding: { top: 20, right: 20, bottom: 20, left: 20 } }} />
           <GeoJSONSource id="pick" data={data}>
             <Layer type="circle" id="pick-dot" paint={{ 'circle-radius': 11, 'circle-color': C.accent, 'circle-stroke-color': '#FFFFFF', 'circle-stroke-width': 3 }} />
           </GeoJSONSource>
         </Map>
         <View style={{ position: 'absolute', top: 12, left: 12, right: 12, backgroundColor: C.surface, borderRadius: R.md, padding: 12 }}>
           <Text style={{ color: C.ink }}>{p ? (p.inTr ? `${t('Seçilen konum')}: ${nearestProvince(p.lat, p.lng)}` : t('Seçilen konum Türkiye sınırları dışında.')) : t('Yaklaşıp yerin tam üstüne dokun.')}</Text>
+          <Btn small label={`📍 ${t('Şu an buradayım')}`} onPress={here} style={{ marginTop: 8, alignSelf: 'flex-start' }} />
+          {!!locErr && <Text style={{ color: C.danger, marginTop: 6 }}>{locErr}</Text>}
         </View>
       </View>
       <View style={{ padding: 14, paddingBottom: insets.bottom + 14, flexDirection: 'row', gap: 8 }}>

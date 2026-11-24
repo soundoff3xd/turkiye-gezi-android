@@ -1,7 +1,9 @@
 import React from 'react';
-import { Linking, Pressable, ScrollView, StyleSheet, Text, View, useWindowDimensions } from 'react-native';
+import { Pressable, ScrollView, StyleSheet, Text, View, useWindowDimensions } from 'react-native';
 import { useT } from '../i18n';
 import { useStore } from '../lib/store';
+import { fmtDist, useLocation } from '../lib/location';
+import { useNav } from '../lib/ui';
 import { Btn, Stars } from './common';
 import { C, shadow } from '../theme';
 import { catName, type Place } from '../data/catalog';
@@ -13,6 +15,9 @@ export default function PlaceSheet({ place: p, bottom, onToggle, onClose, onMore
   const { t, num } = useT();
   const { stats, visited, faved, posts } = useStore();
   const { height } = useWindowDimensions();
+  const { distTo } = useLocation();
+  const { push } = useNav();
+  const far = distTo(p.lat, p.lng);
   const st = stats(p.id), v = visited.has(p.id), f = faved.has(p.id);
   const photos = posts.filter((x) => x.pid === p.id && x.photo).length;
   return (
@@ -29,10 +34,11 @@ export default function PlaceSheet({ place: p, bottom, onToggle, onClose, onMore
             : <Text style={s.stat}>{t('Henüz puan yok')}</Text>}
         </View>
         <Text style={s.stat}>{`${t('{1} kişi gitti', num(st.visits))} · ${t('{1} favori', num(st.favs))}`}</Text>
+        {far != null && <Text style={[s.stat, { color: C.ink, fontWeight: '700' }]}>{`📍 ${t('Senden {1} uzakta', fmtDist(far, num))}`}</Text>}
         <View style={s.acts}>
           <Btn label={v ? `✓ ${t('Gittim')}` : t('Gittim mi?')} kind={v ? 'on' : 'out'} onPress={() => onToggle('visits')} style={{ flex: 1 }} small />
           <Btn label={f ? `♥ ${t('Favoride')}` : `♡ ${t('Favori')}`} kind={f ? 'on' : 'out'} onPress={() => onToggle('favorites')} style={{ flex: 1 }} small />
-          <Btn label={t('Yol tarifi')} kind="pri" onPress={() => Linking.openURL(`https://www.google.com/maps/dir/?api=1&destination=${p.lat},${p.lng}`)} style={{ flex: 1 }} small />
+          <Btn label={t('Yol tarifi')} kind="pri" onPress={() => push({ name: 'route', id: p.id })} style={{ flex: 1 }} small />
         </View>
         {!!p.d && <Text style={s.desc} numberOfLines={4}>{t(p.d)}</Text>}
         <Btn label={`${t('Yorumlar')} (${num(st.count)}) · ${t('Fotoğraflar')} (${num(photos)})  ›`} onPress={onMore} style={{ marginTop: 14 }} />

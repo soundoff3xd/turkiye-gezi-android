@@ -13,7 +13,8 @@ export type Route =
   | { name: 'pending' }
   | { name: 'photo'; id: string }
   | { name: 'lang' }
-  | { name: 'support' };
+  | { name: 'support' }
+  | { name: 'route'; id: string };
 export type MapFocus = { id?: string; lat?: number; lng?: number; ts: number } | null;
 
 type Nav = {

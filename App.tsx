@@ -18,6 +18,8 @@ import PendingScreen from './src/screens/PendingScreen';
 import PhotoScreen from './src/screens/PhotoScreen';
 import LangScreen from './src/screens/LangScreen';
 import SupportScreen from './src/screens/SupportScreen';
+import RouteScreen from './src/screens/RouteScreen';
+import { LocationProvider } from './src/lib/location';
 import { C } from './src/theme';
 
 const TABS: [Tab, string, string][] = [['map', '🗺', 'Harita'], ['explore', '🧭', 'Keşfet'], ['photos', '📷', 'Vitrin'], ['profile', '👤', 'Profil']];
@@ -31,6 +33,7 @@ function Screen({ r }: { r: Route }) {
     case 'photo': return <PhotoScreen id={r.id} />;
     case 'lang': return <LangScreen />;
     case 'support': return <SupportScreen />;
+    case 'route': return <RouteScreen id={r.id} />;
   }
 }
 
@@ -71,9 +74,11 @@ function Root() {
   if (!me) return <AuthScreen />;
   return (
     <StoreProvider>
-      <UIProvider>
-        <Shell />
-      </UIProvider>
+      <LocationProvider>
+        <UIProvider>
+          <Shell />
+        </UIProvider>
+      </LocationProvider>
     </StoreProvider>
   );
 }

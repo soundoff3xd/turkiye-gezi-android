@@ -5,6 +5,7 @@ import AsyncStorage from '@react-native-async-storage/async-storage';
 import { Camera, GeoJSONSource, Layer, Map, type CameraRef, type GeoJSONSourceRef } from '@maplibre/maplibre-react-native';
 import { useT } from '../i18n';
 import { useStore } from '../lib/store';
+import { useLocation } from '../lib/location';
 import { trError } from '../lib/auth';
 import { useNav, useToast } from '../lib/ui';
 import { REGIONS, catName, fold, type Place } from '../data/catalog';
@@ -28,6 +29,7 @@ export default function MapScreen() {
   const { places, toggle, error, reload } = useStore();
   const { push, focus } = useNav();
   const toast = useToast();
+  const { pos, request } = useLocation();
   const cam = useRef<CameraRef>(null);
   const src = useRef<GeoJSONSourceRef>(null);
   const [reg, setReg] = useState(-1);
@@ -53,6 +55,13 @@ export default function MapScreen() {
     return places.filter((p) => fold(`${p.n} ${p.il} ${p.semt || ''} ${catName(p.c)} ${t(catName(p.c))}`).includes(f)).slice(0, 8);
   }, [q, places, t]);
   const place = sel ? places.find((p) => p.id === sel) || null : null;
+  const meData = useMemo<GeoJSON.FeatureCollection>(() => ({ type: 'FeatureCollection', features: pos ? [{ type: 'Feature', properties: {}, geometry: { type: 'Point', coordinates: [pos.lng, pos.lat] } }] : [] }), [pos]);
+  async function locate() {
+    try {
+      const v = pos || (await request());
+      if (v) cam.current?.flyTo({ center: [v.lng, v.lat], zoom: 13, duration: 900, padding: { top: topH, right: 0, left: 0, bottom: 120 } });
+    } catch (e) { toast(trError(e)); }
+  }
 
   function fly(lng: number, lat: number) {
     cam.current?.flyTo({ center: [lng, lat], zoom: PLACE_ZOOM, duration: 900, padding: { top: topH, right: 0, left: 0, bottom: height * 0.45 } });
@@ -111,6 +120,10 @@ export default function MapScreen() {
             layout={{ 'text-field': ['get', 'n'], 'text-font': ['Noto Sans Bold'], 'text-size': 12.5, 'text-offset': [0, 1.3], 'text-anchor': 'top', 'text-max-width': 9, 'text-optional': true }}
             paint={{ 'text-color': style === 'dark' ? '#FFFFFF' : C.ink, 'text-halo-color': style === 'dark' ? '#14313A' : '#FFFFFF', 'text-halo-width': 1.6 }} />
         </GeoJSONSource>
+        <GeoJSONSource id="me" data={meData}>
+          <Layer type="circle" id="me-halo" paint={{ 'circle-radius': 18, 'circle-color': '#1F6FEB', 'circle-opacity': 0.18 }} />
+          <Layer type="circle" id="me-dot" paint={{ 'circle-radius': 8, 'circle-color': '#1F6FEB', 'circle-stroke-color': '#FFFFFF', 'circle-stroke-width': 3 }} />
+        </GeoJSONSource>
         <GeoJSONSource id="pin" data={pinData}>
           <Layer type="circle" id="pin-dot" paint={{ 'circle-color': C.ok, 'circle-radius': 11, 'circle-stroke-color': '#FFFFFF', 'circle-stroke-width': 3 }} />
         </GeoJSONSource>
@@ -152,6 +165,11 @@ export default function MapScreen() {
         )}
       </View>
 
+      {!place && (
+        <Pressable onPress={locate} style={[s.round, { position: 'absolute', right: 14, bottom: 82 }]} accessibilityRole="button" accessibilityLabel={t('Konumum')}>
+          <Text style={{ fontSize: 20, color: '#1F6FEB' }}>◎</Text>
+        </Pressable>
+      )}
       {place ? (
         <PlaceSheet place={place} bottom={8} onToggle={onToggle} onClose={() => setSel(null)} onMore={() => push({ name: 'place', id: place.id })} />
       ) : (

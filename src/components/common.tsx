@@ -73,7 +73,7 @@ export function Empty({ title, note, action, onAction }: { title: string; note?:
 }
 
 /* liste satırı: ad, il · kategori, puan ve sayılar */
-export function PlaceRow({ p, onPress, hot }: { p: Place; onPress: () => void; hot?: string }) {
+export function PlaceRow({ p, onPress, hot, dist }: { p: Place; onPress: () => void; hot?: string; dist?: string }) {
   const { t, num } = useT();
   const { stats } = useStore();
   const s = stats(p.id);
@@ -81,7 +81,7 @@ export function PlaceRow({ p, onPress, hot }: { p: Place; onPress: () => void; h
     <Pressable onPress={onPress} style={({ pressed }) => [b.row, pressed && { backgroundColor: C.line }]} accessibilityRole="button">
       <View style={{ flex: 1 }}>
         <Text style={b.rowN}>{p.n}</Text>
-        <Text style={b.rowM}>{`${p.il} · ${t(catName(p.c))}`}</Text>
+        <Text style={b.rowM}>{`${p.il} · ${t(catName(p.c))}`}{dist ? <Text style={[b.rowM, hot === 'near' && b.hot]}>{`  ·  📍 ${dist}`}</Text> : null}</Text>
         <View style={b.rowS}>
           {s.count ? (<><Text style={{ color: C.star }}>★</Text><Text style={[b.rowSt, hot === 'rating' && b.hot]}>{num(s.rating, 1)}</Text><Text style={[b.rowSt, hot === 'reviews' && b.hot]}>{t('({1} yorum)', num(s.count))}</Text></>)
             : <Text style={b.rowSt}>{t('Henüz puan yok')}</Text>}

@@ -3,12 +3,16 @@ import { FlatList, Pressable, ScrollView, Text, TextInput, View } from 'react-na
 import { useSafeAreaInsets } from 'react-native-safe-area-context';
 import { useT } from '../i18n';
 import { useStore } from '../lib/store';
-import { useNav } from '../lib/ui';
+import { useNav, useToast } from '../lib/ui';
+import { fmtDist, useLocation } from '../lib/location';
+import { trError } from '../lib/auth';
 import { Chip, PlaceRow, b } from '../components/common';
 import { GROUPS, REGIONS, SORTS, SUBS, catName, fold, groupOf, type SortKey } from '../data/catalog';
 import { C, R, shadow } from '../theme';
 
-const SORT_ICON: Record<SortKey, string> = { visits: '👣', favs: '♥', rating: '★', reviews: '💬' };
+type Sort = SortKey | 'near';
+const SORT_ICON: Record<Sort, string> = { near: '📍', visits: '👣', favs: '♥', rating: '★', reviews: '💬' };
+const ALL_SORTS: [Sort, string][] = [['near', 'Bana en yakın'], ...SORTS];
 const GROUP_ICON: Record<string, string> = { all: '◎', kultur: '🏛', doga: '🌲', deniz: '🌊', sehir: '🏘', manzara: '🌄' };
 
 /* Keşfet: arama, sıralama, kategori ve bölgeye göre tüm yerler */
@@ -17,8 +21,14 @@ export default function ExploreScreen() {
   const insets = useSafeAreaInsets();
   const { places, stats, sugg } = useStore();
   const { push } = useNav();
+  const toast = useToast();
+  const { pos, distTo, request } = useLocation();
   const [q, setQ] = useState('');
-  const [sort, setSort] = useState<SortKey>('visits');
+  const [sort, setSort] = useState<Sort>('visits');
+  const pickSort = (k: Sort) => {
+    if (k === 'near' && !pos) { request().then(() => setSort('near')).catch((e) => toast(trError(e))); return; }
+    setSort(k);
+  };
   const [cat, setCat] = useState('all');
   const [sub, setSub] = useState('all');
   const [reg, setReg] = useState(-1);
@@ -29,13 +39,14 @@ export default function ExploreScreen() {
       && (!f || fold(`${p.n} ${p.il} ${p.semt || ''} ${catName(p.c)} ${t(catName(p.c))}`).includes(f));
   };
   const rows = useMemo(() => {
-    const cmp: Record<SortKey, (a: any, b: any) => number> = {
+    const cmp: Record<Sort, (a: any, b: any) => number> = {
+      near: (a, b) => (a.d ?? 1e12) - (b.d ?? 1e12),
       visits: (a, b) => b.s.visits - a.s.visits, favs: (a, b) => b.s.favs - a.s.favs,
       rating: (a, b) => (b.s.rating - a.s.rating) || (b.s.count - a.s.count), reviews: (a, b) => b.s.count - a.s.count,
     };
-    return places.filter((p) => match(p)).map((p) => ({ p, s: stats(p.id) })).sort(cmp[sort]);
+    return places.filter((p) => match(p)).map((p) => ({ p, s: stats(p.id), d: distTo(p.lat, p.lng) })).sort(cmp[sort]);
     // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [places, stats, q, sort, cat, sub, reg, t]);
+  }, [places, stats, q, sort, cat, sub, reg, t, distTo]);
   const groupCount = (g: string) => places.filter((p) => match(p, true, true) && (g === 'all' || groupOf(p.c) === g)).length;
   const subs = cat === 'all' ? [] : Object.entries(SUBS).filter(([, v]) => v[0] === cat);
   const waiting = sugg.filter((g) => g.state === 'wait' || g.state === 'mod').length;
@@ -62,8 +73,8 @@ export default function ExploreScreen() {
 
       <Text style={[b.boxH, { marginTop: 18 }]}>{t('Sırala')}</Text>
       <View style={{ flexDirection: 'row', flexWrap: 'wrap', gap: 8 }}>
-        {SORTS.map(([k, l]) => (
-          <Pressable key={k} onPress={() => setSort(k)} style={[{ width: '48.6%', borderRadius: R.md, padding: 12, borderWidth: 1, flexDirection: 'row', alignItems: 'center', gap: 8 }, sort === k ? { backgroundColor: C.ink, borderColor: C.ink } : { backgroundColor: C.surface, borderColor: C.line }]}
+        {ALL_SORTS.map(([k, l]) => (
+          <Pressable key={k} onPress={() => pickSort(k)} style={[{ width: '48.6%', borderRadius: R.md, padding: 12, borderWidth: 1, flexDirection: 'row', alignItems: 'center', gap: 8 }, sort === k ? { backgroundColor: C.ink, borderColor: C.ink } : { backgroundColor: C.surface, borderColor: C.line }]}
             accessibilityRole="button" accessibilityState={{ selected: sort === k }}>
             <Text style={{ fontSize: 17, color: sort === k ? '#FFFFFF' : C.accent }}>{SORT_ICON[k]}</Text>
             <Text style={{ fontWeight: '700', color: sort === k ? '#FFFFFF' : C.ink, flexShrink: 1 }}>{t(l)}</Text>
@@ -102,7 +113,7 @@ export default function ExploreScreen() {
       keyExtractor={(r) => r.p.id}
       ListHeaderComponent={head}
       keyboardShouldPersistTaps="handled"
-      renderItem={({ item }) => <PlaceRow p={item.p} hot={sort} onPress={() => push({ name: 'place', id: item.p.id })} />}
+      renderItem={({ item }) => <PlaceRow p={item.p} hot={sort} dist={item.d != null ? fmtDist(item.d, num) : undefined} onPress={() => push({ name: 'place', id: item.p.id })} />}
       ListEmptyComponent={<Text style={[b.fine, { textAlign: 'center', padding: 24 }]}>{t('Sonuç bulunamadı.')}</Text>}
       contentContainerStyle={{ paddingBottom: insets.bottom + 90 }}
     />

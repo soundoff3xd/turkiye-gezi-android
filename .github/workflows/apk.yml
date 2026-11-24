@@ -43,7 +43,7 @@ jobs:
           # sürüm numarasını her derlemede artır (telefonda güncelleme olarak kurulsun)
           node -e "const f='app.json',j=require('./'+f);j.expo.version='0.1.${{ github.run_number }}';j.expo.android.versionCode=${{ github.run_number }};require('fs').writeFileSync(f,JSON.stringify(j,null,2))"
           npm install
-          npx expo install @supabase/supabase-js @react-native-async-storage/async-storage react-native-url-polyfill react-native-safe-area-context expo-status-bar expo-image-picker expo-image-manipulator
+          npx expo install @supabase/supabase-js @react-native-async-storage/async-storage react-native-url-polyfill react-native-safe-area-context expo-status-bar expo-image-picker expo-image-manipulator expo-location
           npm install @maplibre/maplibre-react-native@^11.3.3 base64-arraybuffer
           npm install -D @types/geojson
           echo "APP_DIR=$PWD" >> "$GITHUB_ENV"

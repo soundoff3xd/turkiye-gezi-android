@@ -1,8 +1,9 @@
 import React, { useState } from 'react';
-import { Image, Linking, Pressable, ScrollView, Text, View } from 'react-native';
+import { Image, Pressable, ScrollView, Text, View } from 'react-native';
 import { useSafeAreaInsets } from 'react-native-safe-area-context';
 import { useT } from '../i18n';
 import { useStore } from '../lib/store';
+import { fmtDist, useLocation } from '../lib/location';
 import { trError } from '../lib/auth';
 import { useNav, useToast } from '../lib/ui';
 import { Btn, Empty, Header, Stars, b } from '../components/common';
@@ -18,6 +19,7 @@ export default function PlaceScreen({ id, initialTab = 'ov' }: { id: string; ini
   const { pop, push, showOnMap } = useNav();
   const toast = useToast();
   const [tab, setTab] = useState(initialTab);
+  const { distTo } = useLocation();
   const p = byId(id);
   if (!p) return <View style={{ flex: 1, backgroundColor: C.bg }}><Header onBack={pop} /><Empty title={t('Bu yer bulunamadı.')} /></View>;
   const s = stats(p.id), mine = posts.filter((x) => x.pid === p.id), media = mine.filter((x) => x.photo);
@@ -43,11 +45,12 @@ export default function PlaceScreen({ id, initialTab = 'ov' }: { id: string; ini
         </View>
         <Text style={{ color: C.muted, marginTop: 4 }}>{`${t('{1} kişi gitti', num(s.visits))} · ${t('{1} favori', num(s.favs))}`}</Text>
         {!!p.added && <Text style={{ color: C.muted, marginTop: 4 }}>{t('{1} önerdi, topluluk onayladı', p.added)}</Text>}
+        {distTo(p.lat, p.lng) != null && <Text style={{ color: C.ink, fontWeight: '700', marginTop: 4 }}>{`📍 ${t('Senden {1} uzakta', fmtDist(distTo(p.lat, p.lng) as number, num))}`}</Text>}
 
         <View style={{ flexDirection: 'row', gap: 8, marginTop: 16 }}>
           <Btn label={v ? `✓ ${t('Gittim')}` : t('Gittim mi?')} kind={v ? 'on' : 'out'} onPress={() => onToggle('visits')} style={{ flex: 1 }} />
           <Btn label={f ? `♥ ${t('Favoride')}` : `♡ ${t('Favori')}`} kind={f ? 'on' : 'out'} onPress={() => onToggle('favorites')} style={{ flex: 1 }} />
-          <Btn label={t('Yol tarifi')} kind="pri" onPress={() => Linking.openURL(`https://www.google.com/maps/dir/?api=1&destination=${p.lat},${p.lng}`)} style={{ flex: 1 }} />
+          <Btn label={t('Yol tarifi')} kind="pri" onPress={() => push({ name: 'route', id: p.id })} style={{ flex: 1 }} />
         </View>
         <View style={{ flexDirection: 'row', gap: 8, marginTop: 8 }}>
           <Btn label={t('Yorum yaz')} onPress={() => push({ name: 'compose', id: p.id })} style={{ flex: 1 }} />

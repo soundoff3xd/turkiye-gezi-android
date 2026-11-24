@@ -2,7 +2,7 @@
   "expo": {
     "name": "Türkiye Gezi Rehberi",
     "slug": "turkiye-gezi-rehberi",
-    "version": "0.3.0",
+    "version": "0.4.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
     "userInterfaceStyle": "light",
@@ -20,7 +20,9 @@
       },
       "permissions": [
         "INTERNET",
-        "CAMERA"
+        "CAMERA",
+        "ACCESS_COARSE_LOCATION",
+        "ACCESS_FINE_LOCATION"
       ],
       "blockedPermissions": [
         "android.permission.RECORD_AUDIO"
@@ -38,6 +40,13 @@
           "photosPermission": "Yorum ve öneri fotoğrafı seçmek için galerine erişmemiz gerekiyor.",
           "cameraPermission": "Gezdiğin yerin fotoğrafını çekmek için kameraya erişmemiz gerekiyor.",
           "microphonePermission": false
+        }
+      ],
+      [
+        "expo-location",
+        {
+          "locationWhenInUsePermission": "Yakındaki yerleri göstermek ve yol tarifi için konumunu kullanırız. Konumun sunucuya kaydedilmez.",
+          "isAndroidBackgroundLocationEnabled": false
         }
       ]
     ]
