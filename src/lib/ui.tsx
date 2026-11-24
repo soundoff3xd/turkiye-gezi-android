@@ -14,9 +14,16 @@ export type Route =
   | { name: 'photo'; id: string }
   | { name: 'lang' }
   | { name: 'support' }
-  | { name: 'route'; id: string }
+  | { name: 'route'; id?: string; ids?: string[] }
+  | { name: 'nav'; ids: string[]; mode: string }
   | { name: 'profile' }
-  | { name: 'interests' };
+  | { name: 'interests' }
+  | { name: 'trip' }
+  | { name: 'recommend' }
+  | { name: 'city'; il: string; subs: string[] }
+  | { name: 'feedback' }
+  | { name: 'mod' }
+  | { name: 'privacy' };
 export type MapFocus = { id?: string; lat?: number; lng?: number; ts: number } | null;
 
 type Nav = {

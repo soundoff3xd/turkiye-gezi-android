@@ -8,6 +8,9 @@ import { trError } from '../lib/auth';
 import { useNav, useToast } from '../lib/ui';
 import { Btn, Empty, Header, Stars, b } from '../components/common';
 import ReviewCard from '../components/ReviewCard';
+import Weather from '../components/Weather';
+import { useTrip } from '../lib/trip';
+import { sharePlace } from '../lib/share';
 import { REGIONS, catName } from '../data/catalog';
 import { C, R } from '../theme';
 
@@ -20,6 +23,7 @@ export default function PlaceScreen({ id, initialTab = 'ov' }: { id: string; ini
   const toast = useToast();
   const [tab, setTab] = useState(initialTab);
   const { distTo } = useLocation();
+  const trip = useTrip();
   const p = byId(id);
   if (!p) return <View style={{ flex: 1, backgroundColor: C.bg }}><Header onBack={pop} /><Empty title={t('Bu yer bulunamadı.')} /></View>;
   const s = stats(p.id), mine = posts.filter((x) => x.pid === p.id), media = mine.filter((x) => x.photo);
@@ -56,6 +60,11 @@ export default function PlaceScreen({ id, initialTab = 'ov' }: { id: string; ini
           <Btn label={t('Yorum yaz')} onPress={() => push({ name: 'compose', id: p.id })} style={{ flex: 1 }} />
           <Btn label={t('Fotoğraf ekle')} onPress={() => push({ name: 'compose', id: p.id })} style={{ flex: 1 }} />
         </View>
+        <View style={{ flexDirection: 'row', gap: 8, marginTop: 8 }}>
+          <Btn label={trip.has(p.id) ? `✓ ${t('Gezi listende')}` : `＋ ${t('Gezi listeme ekle')}`} kind={trip.has(p.id) ? 'on' : 'out'} style={{ flex: 1 }}
+            onPress={() => { if (trip.has(p.id)) { trip.remove(p.id); toast('Gezi listenden çıkarıldı'); } else if (trip.add(p.id)) toast('Gezi listene eklendi'); else toast('Gezi listen dolu (en fazla {1} yer).', 24); }} />
+          <Btn label={`↗ ${t('Paylaş')}`} onPress={() => sharePlace(p, t)} style={{ flex: 1 }} />
+        </View>
 
         <View style={{ flexDirection: 'row', marginTop: 18, borderBottomWidth: 1, borderBottomColor: C.line }} accessibilityRole="tablist">
           {tabs.map(([k, l]) => (
@@ -72,6 +81,7 @@ export default function PlaceScreen({ id, initialTab = 'ov' }: { id: string; ini
             <View style={b.box}><Text style={b.boxH}>{t('Konum')}</Text>
               <Text style={b.boxT}>{[p.il, p.semt, REGIONS[p.r] ? t(REGIONS[p.r] + ' Bölgesi') : ''].filter(Boolean).join(' · ')}</Text></View>
             {!!p.h && <View style={b.box}><Text style={b.boxH}>{t('Nasıl gidilir')}</Text><Text style={b.boxT}>{t(p.h)}</Text></View>}
+            <Weather lat={p.lat} lng={p.lng} />
             <Text style={b.fine}>{t('Açılış saatleri ve giriş ücretleri değişebilir; gitmeden önce resmi kaynaktan kontrol edin.')}</Text>
           </View>
         )}

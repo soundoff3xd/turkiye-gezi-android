@@ -8,6 +8,8 @@ import { pickImage } from '../lib/images';
 import { useNav, useToast } from '../lib/ui';
 import { Avatar, Btn, Empty, Header, PlaceRow, Stars, b } from '../components/common';
 import { INTERESTS, usePrefs } from '../lib/prefs';
+import { BADGES, needOf } from '../data/badges';
+import { VERSION } from '../lib/update';
 import { LEVELS, NEED, STATUS_TXT, level } from '../data/catalog';
 import { C, R } from '../theme';
 
@@ -17,7 +19,7 @@ export default function ProfileScreen() {
   const { t, num, lang } = useT();
   const insets = useSafeAreaInsets();
   const { me, signOut, setAvatar, deleteAccount } = useAuth();
-  const { visited, faved, posts, sugg, byId } = useStore();
+  const { visited, faved, posts, sugg, byId, places } = useStore();
   const { push, pop } = useNav();
   const { interests } = usePrefs();
   const toast = useToast();
@@ -89,6 +91,31 @@ export default function ProfileScreen() {
         <Text style={b.fine}>{lv.next ? `${t('Sonraki seviye:')} ${t(lv.next[1])} · ${t('{1} puan', num(lv.next[0]))}` : t('En üst seviyedesin.')}</Text>
         <Text style={b.fine}>{t('Puanlar: gidilen yer 1, yorum 3, onaylanan öneri 10. Güvenilir rehberlerin onayı 2 oy sayılır.')}</Text>
       </View>
+      {(() => {
+        const ctx = { visited: [...visited].map((id) => byId(id)).filter(Boolean) as NonNullable<ReturnType<typeof byId>>[], reviews: mine.length, photos: mine.filter((x) => x.photo).length, all: places };
+        const rows = BADGES.map((bd) => ({ bd, c: bd.count(ctx), n: needOf(bd, ctx) }));
+        const got = rows.filter((r) => r.c >= r.n).length;
+        return (
+          <View style={b.box}>
+            <Text style={b.boxH}>{`${t('Rozetler')} · ${num(got)}/${num(rows.length)}`}</Text>
+            <View style={{ flexDirection: 'row', flexWrap: 'wrap', gap: 8, marginTop: 6 }}>
+              {rows.map(({ bd, c, n }) => {
+                const ok = c >= n;
+                return (
+                  <View key={bd.id} style={{ width: '31.5%', alignItems: 'center', padding: 8, borderRadius: R.md, backgroundColor: ok ? C.soft : C.bg, borderWidth: 1, borderColor: ok ? C.accent : C.line }}
+                    accessible accessibilityLabel={`${t(bd.name)}: ${t(bd.desc)} (${num(Math.min(c, n))}/${num(n)})`}>
+                    <Text style={{ fontSize: 26, opacity: ok ? 1 : 0.35 }}>{bd.icon}</Text>
+                    <Text style={{ fontSize: 12.5, fontWeight: '800', color: ok ? C.ink : C.muted, textAlign: 'center' }} numberOfLines={2}>{t(bd.name)}</Text>
+                    <Text style={{ fontSize: 11, color: C.muted, textAlign: 'center', marginTop: 2 }} numberOfLines={3}>{t(bd.desc)}</Text>
+                    {!ok && <View style={{ alignSelf: 'stretch', height: 4, backgroundColor: C.line, borderRadius: 2, marginTop: 5, overflow: 'hidden' }}><View style={{ width: `${Math.round((100 * c) / n)}%`, height: '100%', backgroundColor: C.accent }} /></View>}
+                    <Text style={{ fontSize: 11, color: ok ? C.ok : C.muted, fontWeight: '700', marginTop: 3 }}>{ok ? `✓ ${t('Kazanıldı')}` : `${num(c)}/${num(n)}`}</Text>
+                  </View>
+                );
+              })}
+            </View>
+          </View>
+        );
+      })()}
 
       <ScrollView horizontal showsHorizontalScrollIndicator={false} contentContainerStyle={{ gap: 6, marginTop: 16 }} accessibilityRole="tablist">
         {tabs.map(([k, l]) => (
@@ -138,11 +165,17 @@ export default function ProfileScreen() {
         <Text style={{ fontWeight: '700', color: C.ink }}>{t('İlgi alanlarım')}</Text>
         <Text style={{ color: C.muted, flexShrink: 1, textAlign: 'right' }} numberOfLines={1}>{`${interests.length ? INTERESTS.filter(([k]) => interests.includes(k)).map(([, i]) => i).join(' ') : t('Seçilmedi')}  ›`}</Text>
       </Pressable>
+      {([['trip', '🧳', 'Gezi listem'], ['feedback', '💬', 'Görüş ve öneri gönder'], ['privacy', '🔒', 'Gizlilik ve KVKK'], ...(me.isMod ? [['mod', '🛡', 'Moderatör paneli']] : [])] as ['trip' | 'feedback' | 'privacy' | 'mod', string, string][]).map(([k, i, l]) => (
+        <Pressable key={k} onPress={() => push({ name: k })} style={[b.card, { flexDirection: 'row', justifyContent: 'space-between', alignItems: 'center' }]} accessibilityRole="button">
+          <Text style={{ fontWeight: '700', color: C.ink }}>{`${i}  ${t(l)}`}</Text><Text style={{ color: C.muted }}>›</Text>
+        </Pressable>
+      ))}
       <View style={{ flexDirection: 'row', gap: 8, marginTop: 16 }}>
         <Btn label={t('Çıkış yap')} onPress={() => signOut()} style={{ flex: 1 }} />
         <Btn label={t('Hesabı sil')} onPress={confirmDelete} style={{ flex: 1, borderColor: C.danger }} />
       </View>
       <Text style={b.fine}>{t('Hesabın web sitesinde de geçerlidir.')}</Text>
+      <Text style={[b.fine, { textAlign: 'center' }]}>{t('Sürüm {1}', VERSION)}</Text>
     </ScrollView>
     </View>
   );

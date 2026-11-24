@@ -11,6 +11,7 @@ import { GROUPS, REGIONS, SORTS, SUBS, catName, fold, groupOf, type SortKey } fr
 import { C, R, shadow } from '../theme';
 import { forYouGroups, usePrefs } from '../lib/prefs';
 import AccountMenu from '../components/AccountMenu';
+import { useTrip } from '../lib/trip';
 
 type Sort = SortKey | 'near';
 const SORT_ICON: Record<Sort, string> = { near: '📍', visits: '👣', favs: '♥', rating: '★', reviews: '💬' };
@@ -32,6 +33,7 @@ export default function ExploreScreen() {
     setSort(k);
   };
   const { interests, start, clearStart } = usePrefs();
+  const trip = useTrip();
   const mineG = useMemo(() => forYouGroups(interests), [interests]);
   // ilk açılışta ilgi alanı seçildiyse "Senin için" ile başla
   const [cat, setCat] = useState(() => (start === 'foryou' && interests.length ? 'foryou' : 'all'));
@@ -72,6 +74,16 @@ export default function ExploreScreen() {
       </View>
 
       <View style={{ flexDirection: 'row', gap: 8, marginTop: 12 }}>
+        <Pressable onPress={() => push({ name: 'recommend' })} style={{ flex: 1.3, backgroundColor: C.ink, borderRadius: R.md, padding: 12 }} accessibilityRole="button">
+          <Text style={{ color: '#FFFFFF', fontWeight: '800', fontSize: 15.5 }}>{`🧭 ${t('Nereye gitmeliyim?')}`}</Text>
+          <Text style={{ color: '#D6E0E3', fontSize: 12.5, marginTop: 2 }}>{t('İlgine göre şehir ve gezi planı öner')}</Text>
+        </Pressable>
+        <Pressable onPress={() => push({ name: 'trip' })} style={{ flex: 1, backgroundColor: C.surface, borderRadius: R.md, padding: 12, borderWidth: 1, borderColor: C.line }} accessibilityRole="button">
+          <Text style={{ color: C.ink, fontWeight: '800' }}>{`🧳 ${t('Gezi listem')}`}</Text>
+          <Text style={{ color: C.muted, fontSize: 12.5, marginTop: 2 }}>{t('{1} durak', num(trip.ids.length))}</Text>
+        </Pressable>
+      </View>
+      <View style={{ flexDirection: 'row', gap: 8, marginTop: 8 }}>
         <Pressable onPress={() => push({ name: 'suggest' })} style={{ flex: 1, backgroundColor: C.accent, borderRadius: R.md, padding: 12 }} accessibilityRole="button">
           <Text style={{ color: '#FFFFFF', fontWeight: '800' }}>{`＋ ${t('Yer öner')}`}</Text>
           <Text style={{ color: '#FBE3DD', fontSize: 12.5, marginTop: 2 }}>{t('Uygulamada olmayan bir yeri ekle')}</Text>

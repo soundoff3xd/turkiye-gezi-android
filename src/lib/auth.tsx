@@ -26,6 +26,10 @@ const ERR: [RegExp, string][] = [
   [/network|fetch|timed? ?out/i, 'Bağlantı kurulamadı. İnternetini kontrol edip tekrar dene.'],
   [/password should be/i, 'Şifre en az 8 karakter olmalı.'],
   [/payload too large|exceeded the maximum/i, 'Fotoğraf en fazla 5 MB olabilir.'],
+  [/own_content/i, 'Kendi paylaşımını şikâyet edemezsin.'],
+  [/report_limit/i, 'Bugün çok fazla şikâyette bulundun. Yarın tekrar deneyebilirsin.'],
+  [/feedback_limit/i, 'Bugün çok fazla mesaj gönderdin. Yarın tekrar deneyebilirsin.'],
+  [/no_target/i, 'Bu içerik artık yok.'],
   [/duplicate key|already voted|unique/i, 'Bunu zaten yaptın.'],
 ];
 export const trError = (e: unknown) => {

@@ -4,6 +4,7 @@ import { useSafeAreaInsets } from 'react-native-safe-area-context';
 import { LANGS, useT } from '../i18n';
 import { useAuth } from '../lib/auth';
 import { useNav } from '../lib/ui';
+import { useTrip } from '../lib/trip';
 import { Avatar } from './common';
 import { C, R, shadow } from '../theme';
 
@@ -14,12 +15,18 @@ export default function AccountMenu({ size = 50, top }: { size?: number; top?: n
   const { me, signOut } = useAuth();
   const { push } = useNav();
   const [open, setOpen] = useState(false);
+  const trip = useTrip();
   if (!me) return null;
   const go = (fn: () => void) => { setOpen(false); fn(); };
   const items: [string, string, () => void, string?][] = [
     ['👤', 'Profilim', () => push({ name: 'profile' })],
+    ['🧳', 'Gezi listem', () => push({ name: 'trip' }), trip.ids.length ? String(trip.ids.length) : undefined],
+    ['🧭', 'Nereye gitmeliyim?', () => push({ name: 'recommend' })],
     ['✨', 'İlgi alanlarım', () => push({ name: 'interests' })],
     ['🌐', 'Dil', () => push({ name: 'lang' }), LANGS[lang]],
+    ['💬', 'Görüş ve öneri gönder', () => push({ name: 'feedback' })],
+    ...(me.isMod ? [['🛡', 'Moderatör paneli', () => push({ name: 'mod' })] as [string, string, () => void]] : []),
+    ['🔒', 'Gizlilik ve KVKK', () => push({ name: 'privacy' })],
     ['♥', 'Bize destek olun', () => push({ name: 'support' })],
   ];
   return (
@@ -61,7 +68,7 @@ const s = StyleSheet.create({
   head: { flexDirection: 'row', alignItems: 'center', gap: 12, paddingHorizontal: 14, paddingVertical: 10, borderBottomWidth: 1, borderBottomColor: C.line, marginBottom: 4 },
   name: { fontSize: 16, fontWeight: '800', color: C.ink },
   mail: { fontSize: 12.5, color: C.muted },
-  item: { flexDirection: 'row', alignItems: 'center', gap: 12, paddingHorizontal: 14, paddingVertical: 12 },
+  item: { flexDirection: 'row', alignItems: 'center', gap: 12, paddingHorizontal: 14, paddingVertical: 10.5 },
   icon: { width: 22, textAlign: 'center', fontSize: 17, color: C.ink },
   label: { flex: 1, fontSize: 15.5, fontWeight: '700', color: C.ink },
   note: { fontSize: 13, color: C.muted, maxWidth: 100 },

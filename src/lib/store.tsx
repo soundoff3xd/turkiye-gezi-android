@@ -5,11 +5,13 @@ import { useAuth } from './auth';
 import { BASE_PLACES, EMPTY_STATS, regionOf, type Place, type Stats } from '../data/catalog';
 
 /* Web sitesiyle aynı veritabanı: yerler, istatistikler, yorumlar, beğeniler, öneriler */
-export type Reply = { a: string; t: string; av: string | null };
+export type Reply = { id: string; uid: string; a: string; t: string; av: string | null; hidden?: boolean };
 export type Review = {
   id: string; pid: string; uid: string; author: string; av: string | null; rating: number; text: string;
-  photo: string | null; likes: number; replies: Reply[]; at: string;
+  photo: string | null; likes: number; replies: Reply[]; at: string; hidden?: boolean; photoHidden?: boolean;
 };
+export type ReportTarget = 'review' | 'reply' | 'photo';
+export type FeedbackKind = 'oneri' | 'hata' | 'gorus';
 export type Suggestion = {
   id: string; n: string; il: string; c: string; lat: number; lng: number; d: string; by: string; av: string | null; uid: string;
   ok: number; bad: number; at: string; own: boolean; photo: string | null; state: 'wait' | 'mod' | 'ok' | 'no'; placeId: string | null;
@@ -30,6 +32,8 @@ type Store = {
   addSuggestion: (f: { n: string; il: string; c: string; lat: number; lng: number; d: string; img: Picked }) => Promise<void>;
   vote: (id: string, val: 1 | -1) => Promise<'added' | 'mod' | 'reported' | 'ok'>;
   moderate: (id: string, approve: boolean) => Promise<void>;
+  report: (type: ReportTarget, id: string, reason: string) => Promise<void>;
+  sendFeedback: (f: { kind: FeedbackKind; rating: number | null; body: string; version: string }) => Promise<void>;
 };
 const Ctx = createContext<Store | null>(null);
 export const useStore = () => useContext(Ctx) as Store;
@@ -73,7 +77,7 @@ export function StoreProvider({ children }: { children: React.ReactNode }) {
   }, []);
   const loadReviews = useCallback(async () => {
     const { data, error } = await supabase.from('reviews')
-      .select('id,place_id,user_id,rating,body,photo_path,created_at,profiles!reviews_user_id_fkey(name,avatar_path),replies(id,body,created_at,user_id,profiles!replies_user_id_fkey(name,avatar_path)),review_likes(user_id),photo_likes(user_id)')
+      .select('id,place_id,user_id,rating,body,photo_path,hidden,photo_hidden,created_at,profiles!reviews_user_id_fkey(name,avatar_path),replies(id,body,hidden,created_at,user_id,profiles!replies_user_id_fkey(name,avatar_path)),review_likes(user_id),photo_likes(user_id)')
       .order('created_at', { ascending: false }).limit(400);
     if (error) throw error;
     const me = uidRef.current, L = new Set<string>(), P = new Set<string>(), base: Record<string, number> = {};
@@ -84,8 +88,10 @@ export function StoreProvider({ children }: { children: React.ReactNode }) {
       base[r.id] = r.photo_likes.length - (minePhoto ? 1 : 0);
       return {
         id: r.id, pid: r.place_id, uid: r.user_id, author: r.profiles?.name || '?', av: publicUrl(r.profiles?.avatar_path), rating: r.rating, text: r.body || '',
-        photo: publicUrl(r.photo_path), likes: r.review_likes.length - (mineLike ? 1 : 0), at: r.created_at,
-        replies: (r.replies as any[]).sort((a, b) => a.created_at.localeCompare(b.created_at)).map((x) => ({ a: x.profiles?.name || '?', t: x.body, av: publicUrl(x.profiles?.avatar_path) })),
+        // şikâyetle gizlenen fotoğrafı yalnızca sahibi görür
+        photo: r.photo_hidden && r.user_id !== me ? null : publicUrl(r.photo_path), likes: r.review_likes.length - (mineLike ? 1 : 0), at: r.created_at,
+        hidden: !!r.hidden, photoHidden: !!r.photo_hidden,
+        replies: (r.replies as any[]).sort((a, b) => a.created_at.localeCompare(b.created_at)).map((x) => ({ id: x.id, uid: x.user_id, a: x.profiles?.name || '?', t: x.body, av: publicUrl(x.profiles?.avatar_path), hidden: !!x.hidden })),
       } as Review;
     });
     setPosts(list); setLiked(L); setPlikes(P); setPhotoBase(base);
@@ -159,9 +165,9 @@ export function StoreProvider({ children }: { children: React.ReactNode }) {
   const reply = useCallback(async (rid: string, text: string) => {
     if (!uid || !me) return;
     const t = text.trim(); if (!t) return;
-    const { error } = await supabase.from('replies').insert({ review_id: rid, user_id: uid, body: t.slice(0, 500) });
+    const { data, error } = await supabase.from('replies').insert({ review_id: rid, user_id: uid, body: t.slice(0, 500) }).select('id').single();
     if (error) throw error;
-    setPosts((ps) => ps.map((p) => (p.id === rid ? { ...p, replies: [...p.replies, { a: me.name, t, av: me.av }] } : p)));
+    setPosts((ps) => ps.map((p) => (p.id === rid ? { ...p, replies: [...p.replies, { id: (data as any)?.id || '', uid, a: me.name, t, av: me.av }] } : p)));
   }, [uid, me]);
 
   const addReview = useCallback(async (placeId: string, rating: number, text: string, img: Picked | null) => {
@@ -200,7 +206,20 @@ export function StoreProvider({ children }: { children: React.ReactNode }) {
     await reload();
   }, [reload]);
 
-  const photos = useMemo<Photo[]>(() => posts.filter((p) => p.photo && index.has(p.pid)).map((p) => ({
+  /* şikâyet: 3 farklı kişi şikâyet edince içerik otomatik gizlenir (veritabanında) */
+  const report = useCallback(async (type: ReportTarget, id: string, reason: string) => {
+    if (!uid) return;
+    const { error } = await supabase.from('reports').insert({ user_id: uid, target_type: type, target_id: id, reason });
+    if (error) throw error;
+    loadReviews().catch(() => {});
+  }, [uid, loadReviews]);
+  const sendFeedback = useCallback(async (f: { kind: FeedbackKind; rating: number | null; body: string; version: string }) => {
+    if (!uid) return;
+    const { error } = await supabase.from('feedback').insert({ user_id: uid, kind: f.kind, rating: f.rating, body: f.body.trim().slice(0, 2000), platform: 'android', version: f.version });
+    if (error) throw error;
+  }, [uid]);
+
+  const photos = useMemo<Photo[]>(() => posts.filter((p) => p.photo && !p.photoHidden && !p.hidden && index.has(p.pid)).map((p) => ({
     id: 'pp' + p.id, rid: p.id, pid: p.pid, by: p.author, uid: p.uid, av: p.av, cap: p.text.slice(0, 60), url: p.photo as string,
     likes: (photoBase[p.id] || 0) + (plikes.has(p.id) ? 1 : 0), at: p.at,
   })), [posts, index, photoBase, plikes]);
@@ -208,7 +227,7 @@ export function StoreProvider({ children }: { children: React.ReactNode }) {
   const value: Store = {
     places, byId: (id) => index.get(id), stats: (id) => agg[id] || EMPTY_STATS,
     visited, faved, posts, liked, plikes, sugg, myVotes, mineToday, photos, loading, error,
-    reload, toggle, like, photoLike, reply, addReview, addSuggestion, vote, moderate,
+    reload, toggle, like, photoLike, reply, addReview, addSuggestion, vote, moderate, report, sendFeedback,
   };
   return <Ctx.Provider value={value}>{children}</Ctx.Provider>;
 }

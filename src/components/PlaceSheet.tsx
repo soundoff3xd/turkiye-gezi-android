@@ -7,6 +7,9 @@ import { useNav } from '../lib/ui';
 import { Btn, Stars } from './common';
 import { C, shadow } from '../theme';
 import { catName, type Place } from '../data/catalog';
+import { useTrip } from '../lib/trip';
+import { sharePlace } from '../lib/share';
+import { useToast } from '../lib/ui';
 
 type Props = { place: Place; bottom: number; onToggle: (kind: 'visits' | 'favorites') => void; onClose: () => void; onMore: () => void };
 
@@ -17,6 +20,7 @@ export default function PlaceSheet({ place: p, bottom, onToggle, onClose, onMore
   const { height } = useWindowDimensions();
   const { distTo } = useLocation();
   const { push } = useNav();
+  const trip = useTrip(), toast = useToast(), inTrip = trip.has(p.id);
   const far = distTo(p.lat, p.lng);
   const st = stats(p.id), v = visited.has(p.id), f = faved.has(p.id);
   const photos = posts.filter((x) => x.pid === p.id && x.photo).length;
@@ -39,6 +43,11 @@ export default function PlaceSheet({ place: p, bottom, onToggle, onClose, onMore
           <Btn label={v ? `✓ ${t('Gittim')}` : t('Gittim mi?')} kind={v ? 'on' : 'out'} onPress={() => onToggle('visits')} style={{ flex: 1 }} small />
           <Btn label={f ? `♥ ${t('Favoride')}` : `♡ ${t('Favori')}`} kind={f ? 'on' : 'out'} onPress={() => onToggle('favorites')} style={{ flex: 1 }} small />
           <Btn label={t('Yol tarifi')} kind="pri" onPress={() => push({ name: 'route', id: p.id })} style={{ flex: 1 }} small />
+        </View>
+        <View style={[s.acts, { marginTop: 8 }]}>
+          <Btn small label={inTrip ? `✓ ${t('Gezi listende')}` : `＋ ${t('Gezi listeme ekle')}`} kind={inTrip ? 'on' : 'out'} style={{ flex: 2 }}
+            onPress={() => { if (inTrip) { trip.remove(p.id); toast('Gezi listenden çıkarıldı'); } else if (trip.add(p.id)) toast('Gezi listene eklendi'); else toast('Gezi listen dolu (en fazla {1} yer).', 24); }} />
+          <Btn small label={`↗ ${t('Paylaş')}`} onPress={() => sharePlace(p, t)} style={{ flex: 1 }} />
         </View>
         {!!p.d && <Text style={s.desc} numberOfLines={4}>{t(p.d)}</Text>}
         <Btn label={`${t('Yorumlar')} (${num(st.count)}) · ${t('Fotoğraflar')} (${num(photos)})  ›`} onPress={onMore} style={{ marginTop: 14 }} />

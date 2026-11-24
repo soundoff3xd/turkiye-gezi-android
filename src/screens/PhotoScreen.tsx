@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { Image, Pressable, Text, View } from 'react-native';
 import { useSafeAreaInsets } from 'react-native-safe-area-context';
 import { useT } from '../i18n';
@@ -7,6 +7,8 @@ import { trError } from '../lib/auth';
 import { useNav, useToast } from '../lib/ui';
 import { Avatar, Empty, Header } from '../components/common';
 import { C, R } from '../theme';
+import ReportSheet, { type ReportReq } from '../components/ReportSheet';
+import { useAuth } from '../lib/auth';
 
 /* Fotoğrafı tam ekran göster: beğen, yer kartına git */
 export default function PhotoScreen({ id }: { id: string }) {
@@ -15,6 +17,8 @@ export default function PhotoScreen({ id }: { id: string }) {
   const { photos, plikes, photoLike, byId } = useStore();
   const { pop, push } = useNav();
   const toast = useToast();
+  const { me } = useAuth();
+  const [rep, setRep] = useState<ReportReq>(null);
   const ph = photos.find((x) => x.id === id);
   if (!ph) {
     return (
@@ -47,12 +51,20 @@ export default function PhotoScreen({ id }: { id: string }) {
           </Pressable>
         </View>
         {!!ph.cap && <Text style={{ color: '#E6ECEE', fontSize: 15 }}>{ph.cap}</Text>}
-        {p && (
-          <Pressable onPress={() => { pop(); push({ name: 'place', id: p.id }); }} accessibilityRole="link">
-            <Text style={{ color: '#F3B5A9', fontWeight: '800' }}>{`${t('Yeri gör')} ›`}</Text>
-          </Pressable>
-        )}
+        <View style={{ flexDirection: 'row', justifyContent: 'space-between', alignItems: 'center' }}>
+          {p ? (
+            <Pressable onPress={() => { pop(); push({ name: 'place', id: p.id }); }} accessibilityRole="link">
+              <Text style={{ color: '#F3B5A9', fontWeight: '800' }}>{`${t('Yeri gör')} ›`}</Text>
+            </Pressable>
+          ) : <View />}
+          {me?.id !== ph.uid && (
+            <Pressable onPress={() => setRep({ type: 'photo', id: ph.rid })} hitSlop={10} accessibilityRole="button">
+              <Text style={{ color: '#B8C4C8', fontWeight: '700' }}>{`⚑ ${t('Şikâyet et')}`}</Text>
+            </Pressable>
+          )}
+        </View>
       </View>
+      <ReportSheet req={rep} onClose={() => setRep(null)} />
     </View>
   );
 }

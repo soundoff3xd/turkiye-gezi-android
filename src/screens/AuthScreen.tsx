@@ -6,6 +6,7 @@ import { useSafeAreaInsets } from 'react-native-safe-area-context';
 import { useAuth } from '../lib/auth';
 import { LANGS, useT } from '../i18n';
 import LangScreen from './LangScreen';
+import PrivacyScreen from './PrivacyScreen';
 import { Modal } from 'react-native';
 import { C, R } from '../theme';
 
@@ -15,6 +16,7 @@ export default function AuthScreen() {
   const insets = useSafeAreaInsets();
   const { t, lang } = useT();
   const [langOpen, setLangOpen] = useState(false);
+  const [privOpen, setPrivOpen] = useState(false);
   const [mode, setMode] = useState<'in' | 'up'>('up');
   const [name, setName] = useState('');
   const [email, setEmail] = useState('');
@@ -82,7 +84,14 @@ export default function AuthScreen() {
           {busy ? <ActivityIndicator color={C.onAccent} /> : <Text style={s.goTxt}>{mode === 'up' ? t('Hesap oluştur') : t('Giriş yap')}</Text>}
         </Pressable>
         <Text style={s.fine}>{t('Hesabın web sitesinde de geçerlidir.')}</Text>
+        <Text style={s.fine}>
+          {t('Devam ederek gizlilik politikasını kabul etmiş olursun.')}{' '}
+          <Text onPress={() => setPrivOpen(true)} style={{ color: C.accent, fontWeight: '800' }} accessibilityRole="link">{t('Gizlilik ve KVKK')}</Text>
+        </Text>
       </ScrollView>
+      <Modal visible={privOpen} animationType="slide" onRequestClose={() => setPrivOpen(false)}>
+        <PrivacyScreen onClose={() => setPrivOpen(false)} />
+      </Modal>
       <Modal visible={langOpen} animationType="slide" onRequestClose={() => setLangOpen(false)}>
         <LangScreen onClose={() => setLangOpen(false)} />
       </Modal>
