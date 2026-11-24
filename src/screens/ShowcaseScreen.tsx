@@ -7,6 +7,7 @@ import { trError } from '../lib/auth';
 import { useNav, useToast } from '../lib/ui';
 import { Avatar, Chip, Empty, b } from '../components/common';
 import AccountMenu from '../components/AccountMenu';
+import { SkeletonGrid, useDeferred } from '../components/Anim';
 import { C, R } from '../theme';
 
 /* Fotoğraf vitrini: en çok beğenilen ve en yeni fotoğraflar, en çok beğeni alan fotoğrafçılar */
@@ -25,6 +26,7 @@ export default function ShowcaseScreen() {
     return [...m.values()].sort((a, b) => b.likes - a.likes).slice(0, 5);
   }, [photos]);
 
+  const ready = useDeferred(40);
   return (
     <ScrollView style={{ flex: 1, backgroundColor: C.bg }} contentContainerStyle={{ padding: 16, paddingTop: insets.top + 12, paddingBottom: insets.bottom + 90 }}>
       <View style={{ flexDirection: 'row', alignItems: 'center', justifyContent: 'space-between', gap: 10 }}>
@@ -37,7 +39,7 @@ export default function ShowcaseScreen() {
         <Chip label={t('En yeni')} on={sort === 'new'} onPress={() => setSort('new')} />
       </View>
 
-      {list.length ? (
+      {!ready ? <View style={{ marginHorizontal: -16 }}><SkeletonGrid /></View> : list.length ? (
         <View style={{ flexDirection: 'row', flexWrap: 'wrap', gap: 10, marginTop: 14 }}>
           {list.map((ph, i) => {
             const p = byId(ph.pid), on = plikes.has(ph.rid);

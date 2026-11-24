@@ -1,5 +1,5 @@
 import React, { useEffect, useRef } from 'react';
-import { ActivityIndicator, Linking, Modal, Pressable, StyleSheet, Text, View } from 'react-native';
+import { Linking, Modal, Pressable, StyleSheet, Text, View } from 'react-native';
 import AsyncStorage from '@react-native-async-storage/async-storage';
 import { StatusBar } from 'expo-status-bar';
 import { SafeAreaProvider, useSafeAreaInsets } from 'react-native-safe-area-context';
@@ -32,6 +32,7 @@ import { TripProvider } from './src/lib/trip';
 import { APK_URL, useUpdate } from './src/lib/update';
 import { BADGES, earned } from './src/data/badges';
 import { Btn } from './src/components/common';
+import { Splash, StackHost, TabLayer } from './src/components/Anim';
 import { C } from './src/theme';
 
 const TABS: [Tab, string, string][] = [['map', '🗺', 'Harita'], ['explore', '🧭', 'Keşfet'], ['photos', '📷', 'Vitrin']];
@@ -75,8 +76,8 @@ function Shell() {
       <View style={{ flex: 1 }}>
         {/* harita her zaman yerinde durur; diğer sekmeler üstüne açılır */}
         <MapScreen />
-        {tab === 'explore' && <View style={StyleSheet.absoluteFill}><ExploreScreen /></View>}
-        {tab === 'photos' && <View style={StyleSheet.absoluteFill}><ShowcaseScreen /></View>}
+        <TabLayer visible={tab === 'explore'}><ExploreScreen /></TabLayer>
+        <TabLayer visible={tab === 'photos'}><ShowcaseScreen /></TabLayer>
       </View>
       <View style={[s.tabs, { paddingBottom: insets.bottom + 6 }]} accessibilityRole="tablist">
         {TABS.map(([k, icon, label]) => (
@@ -86,9 +87,7 @@ function Shell() {
           </Pressable>
         ))}
       </View>
-      {stack.map((r, i) => (
-        <View key={i} style={[StyleSheet.absoluteFill, { backgroundColor: C.bg }]}><Screen r={r} /></View>
-      ))}
+      <StackHost stack={stack} render={(r) => <Screen r={r} />} />
       <Modal visible={up.show} transparent animationType="fade" onRequestClose={up.later}>
         <View style={s.dim}>
           <View style={s.card}>
@@ -136,10 +135,11 @@ function useBadgeToasts() {
 }
 
 function Root() {
+  const { t } = useT();
   const { ready, me } = useAuth();
   const prefs = usePrefs();
   if (!ready || !prefs.ready) {
-    return <View style={{ flex: 1, alignItems: 'center', justifyContent: 'center', backgroundColor: C.bg }}><ActivityIndicator size="large" color={C.accent} /></View>;
+    return <Splash label={t('Türkiye Gezi Rehberi')} />;
   }
   // ilk açılış: dil ve ilgi alanları
   if (!prefs.onboarded) return <OnboardingScreen />;

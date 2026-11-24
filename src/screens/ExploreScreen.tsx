@@ -11,6 +11,7 @@ import { GROUPS, REGIONS, SORTS, SUBS, catName, fold, groupOf, type SortKey } fr
 import { C, R, shadow } from '../theme';
 import { forYouGroups, usePrefs } from '../lib/prefs';
 import AccountMenu from '../components/AccountMenu';
+import { SkeletonRows, useDeferred } from '../components/Anim';
 import { useTrip } from '../lib/trip';
 
 type Sort = SortKey | 'near';
@@ -22,7 +23,8 @@ const GROUP_ICON: Record<string, string> = { foryou: '✨', all: '◎', kultur: 
 export default function ExploreScreen() {
   const { t, num } = useT();
   const insets = useSafeAreaInsets();
-  const { places, stats, sugg } = useStore();
+  const { places, stats, sugg, loading } = useStore();
+  const ready = useDeferred(40);
   const { push } = useNav();
   const toast = useToast();
   const { pos, distTo, request } = useLocation();
@@ -133,12 +135,15 @@ export default function ExploreScreen() {
   return (
     <FlatList
       style={{ flex: 1, backgroundColor: C.bg }}
-      data={rows}
+      data={ready ? rows : []}
+      initialNumToRender={14}
+      windowSize={9}
+      removeClippedSubviews
       keyExtractor={(r) => r.p.id}
       ListHeaderComponent={head}
       keyboardShouldPersistTaps="handled"
       renderItem={({ item }) => <PlaceRow p={item.p} hot={sort} dist={item.d != null ? fmtDist(item.d, num) : undefined} onPress={() => push({ name: 'place', id: item.p.id })} />}
-      ListEmptyComponent={<Text style={[b.fine, { textAlign: 'center', padding: 24 }]}>{t('Sonuç bulunamadı.')}</Text>}
+      ListEmptyComponent={!ready || (loading && !places.length) ? <SkeletonRows /> : <Text style={[b.fine, { textAlign: 'center', padding: 24 }]}>{t('Sonuç bulunamadı.')}</Text>}
       contentContainerStyle={{ paddingBottom: insets.bottom + 90 }}
     />
   );

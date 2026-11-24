@@ -9,6 +9,7 @@ import { useNav, useToast } from '../lib/ui';
 import { Btn, Empty, Header, Stars, b } from '../components/common';
 import ReviewCard from '../components/ReviewCard';
 import Weather from '../components/Weather';
+import { SkeletonPage, useDeferred } from '../components/Anim';
 import { useTrip } from '../lib/trip';
 import { sharePlace } from '../lib/share';
 import { REGIONS, catName } from '../data/catalog';
@@ -24,6 +25,7 @@ export default function PlaceScreen({ id, initialTab = 'ov' }: { id: string; ini
   const [tab, setTab] = useState(initialTab);
   const { distTo } = useLocation();
   const trip = useTrip();
+  const ready = useDeferred(0);
   const p = byId(id);
   if (!p) return <View style={{ flex: 1, backgroundColor: C.bg }}><Header onBack={pop} /><Empty title={t('Bu yer bulunamadı.')} /></View>;
   const s = stats(p.id), mine = posts.filter((x) => x.pid === p.id), media = mine.filter((x) => x.photo);
@@ -40,7 +42,7 @@ export default function PlaceScreen({ id, initialTab = 'ov' }: { id: string; ini
       <Header onBack={pop} title={p.n} right={
         <Pressable onPress={() => showOnMap({ id: p.id })} hitSlop={8} accessibilityRole="button"><Text style={{ color: C.accent, fontWeight: '800' }}>{t('Haritada gör')}</Text></Pressable>
       } />
-      <ScrollView contentContainerStyle={{ padding: 18, paddingBottom: insets.bottom + 40 }}>
+      {!ready ? <SkeletonPage /> : <ScrollView contentContainerStyle={{ padding: 18, paddingBottom: insets.bottom + 40 }}>
         <Text style={{ color: C.accent, fontSize: 12, fontWeight: '800', letterSpacing: 0.6 }}>{`${p.il} · ${t(catName(p.c))}`.toLocaleUpperCase(undefined)}</Text>
         <Text style={{ color: C.ink, fontSize: 28, fontWeight: '800', marginTop: 4 }} accessibilityRole="header">{p.n}</Text>
         <View style={{ flexDirection: 'row', alignItems: 'center', gap: 6, marginTop: 8, flexWrap: 'wrap' }}>
@@ -108,7 +110,7 @@ export default function PlaceScreen({ id, initialTab = 'ov' }: { id: string; ini
             </View>
           ) : <Empty title={t('Henüz fotoğraf yok')} note={t('Çektiğin kareleri paylaş, gelecek gezginler ne bekleyeceğini görsün.')} action={t('Fotoğraf ekle')} onAction={() => push({ name: 'compose', id: p.id })} />
         )}
-      </ScrollView>
+      </ScrollView>}
     </View>
   );
 }

@@ -10,6 +10,7 @@ import { Avatar, Btn, Empty, Header, PlaceRow, Stars, b } from '../components/co
 import { INTERESTS, usePrefs } from '../lib/prefs';
 import { BADGES, needOf } from '../data/badges';
 import { VERSION } from '../lib/update';
+import { SkeletonPage, useDeferred } from '../components/Anim';
 import { LEVELS, NEED, STATUS_TXT, level } from '../data/catalog';
 import { C, R } from '../theme';
 
@@ -22,6 +23,7 @@ export default function ProfileScreen() {
   const { visited, faved, posts, sugg, byId, places } = useStore();
   const { push, pop } = useNav();
   const { interests } = usePrefs();
+  const ready = useDeferred(0);
   const toast = useToast();
   const [tab, setTab] = useState<PTab>('visited');
   const [busy, setBusy] = useState(false);
@@ -65,7 +67,7 @@ export default function ProfileScreen() {
   return (
     <View style={{ flex: 1, backgroundColor: C.bg }}>
     <Header onBack={pop} title={t('Profilim')} />
-    <ScrollView style={{ flex: 1, backgroundColor: C.bg }} contentContainerStyle={{ padding: 16, paddingBottom: insets.bottom + 28 }}>
+    {!ready ? <SkeletonPage /> : <ScrollView style={{ flex: 1, backgroundColor: C.bg }} contentContainerStyle={{ padding: 16, paddingBottom: insets.bottom + 28 }}>
       <View style={{ flexDirection: 'row', alignItems: 'center', gap: 16 }}>
         <Pressable onPress={photoMenu} disabled={busy} accessibilityRole="button" accessibilityLabel={me.av ? t('Profil fotoğrafını değiştir') : t('Profil fotoğrafı ekle')} style={{ opacity: busy ? 0.5 : 1 }}>
           <Avatar name={me.name} url={me.av} size={76} />
@@ -176,7 +178,7 @@ export default function ProfileScreen() {
       </View>
       <Text style={b.fine}>{t('Hesabın web sitesinde de geçerlidir.')}</Text>
       <Text style={[b.fine, { textAlign: 'center' }]}>{t('Sürüm {1}', VERSION)}</Text>
-    </ScrollView>
+    </ScrollView>}
     </View>
   );
 }
