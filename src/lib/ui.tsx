@@ -12,7 +12,8 @@ export type Route =
   | { name: 'suggest' }
   | { name: 'pending' }
   | { name: 'photo'; id: string }
-  | { name: 'lang' };
+  | { name: 'lang' }
+  | { name: 'support' };
 export type MapFocus = { id?: string; lat?: number; lng?: number; ts: number } | null;
 
 type Nav = {

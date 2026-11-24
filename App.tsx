@@ -17,6 +17,7 @@ import SuggestScreen from './src/screens/SuggestScreen';
 import PendingScreen from './src/screens/PendingScreen';
 import PhotoScreen from './src/screens/PhotoScreen';
 import LangScreen from './src/screens/LangScreen';
+import SupportScreen from './src/screens/SupportScreen';
 import { C } from './src/theme';
 
 const TABS: [Tab, string, string][] = [['map', '🗺', 'Harita'], ['explore', '🧭', 'Keşfet'], ['photos', '📷', 'Vitrin'], ['profile', '👤', 'Profil']];
@@ -29,6 +30,7 @@ function Screen({ r }: { r: Route }) {
     case 'pending': return <PendingScreen />;
     case 'photo': return <PhotoScreen id={r.id} />;
     case 'lang': return <LangScreen />;
+    case 'support': return <SupportScreen />;
   }
 }
 

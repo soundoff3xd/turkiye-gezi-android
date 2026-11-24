@@ -116,6 +116,15 @@ export default function ProfileScreen() {
         </View>
       )) : <Empty title={t('Henüz öneri yapmadın.')} note={t('Uygulamada olmayan bir yeri “Yer öner” ile ekleyebilirsin.')} action={t('Yer öner')} onAction={() => push({ name: 'suggest' })} />)}
 
+      <Pressable onPress={() => push({ name: 'support' })} style={[b.card, { flexDirection: 'row', alignItems: 'center', gap: 12, borderColor: C.accent, backgroundColor: C.soft, marginTop: 24 }]} accessibilityRole="button">
+        <Text style={{ fontSize: 26, color: C.accent }}>♥</Text>
+        <View style={{ flex: 1 }}>
+          <Text style={{ fontWeight: '800', color: C.ink, fontSize: 16 }}>{t('Bize destek olun')}</Text>
+          <Text style={{ color: C.muted, fontSize: 13 }}>{t('Kredi veya banka kartıyla öde')}</Text>
+        </View>
+        <Text style={{ color: C.accent, fontSize: 22 }}>›</Text>
+      </Pressable>
+
       <Text style={[b.h2, { fontSize: 18, marginTop: 26 }]}>{t('Ayarlar')}</Text>
       <Pressable onPress={() => push({ name: 'lang' })} style={[b.card, { flexDirection: 'row', justifyContent: 'space-between', alignItems: 'center' }]} accessibilityRole="button">
         <Text style={{ fontWeight: '700', color: C.ink }}>{t('Dil')}</Text>

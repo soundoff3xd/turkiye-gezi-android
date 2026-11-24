@@ -52,7 +52,9 @@ function inRing(x: number, y: number, ring: [number, number][]) {
   }
   return inside;
 }
-export const inTurkey = (lat: number, lng: number) => TR_RINGS.some((r) => inRing(lng, lat, r));
+/* Sınır çizgisi sadeleştirildiği için kıyıdaki noktalar dışarıda kalabilir: kıyıya 8 km'ye kadar olanları da kabul et */
+export const inTurkey = (lat: number, lng: number) =>
+  TR_RINGS.some((r) => inRing(lng, lat, r)) || TR_RINGS.some((r) => r.some(([x, y]) => meters(lat, lng, y, x) < 8000));
 export const meters = (a: number, b: number, c: number, d: number) => {
   const R = 6371000, r = Math.PI / 180, x = (d - b) * r * Math.cos(((a + c) / 2) * r), y = (c - a) * r;
   return Math.hypot(x, y) * R;
