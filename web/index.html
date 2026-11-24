@@ -372,6 +372,20 @@ textarea.in{height:auto;padding:12px;resize:none;line-height:1.45;width:100%}
   #top{max-width:640px}
   dialog{margin:auto;border-radius:24px}
 }
+/* panel geçişleri */
+@keyframes vinR{from{opacity:0;transform:translateX(32px)}to{opacity:1;transform:none}}
+@keyframes vinL{from{opacity:0;transform:translateX(-32px)}to{opacity:1;transform:none}}
+@keyframes vinU{from{opacity:0;transform:translateY(14px)}to{opacity:1;transform:none}}
+@keyframes pop{from{opacity:0;transform:translateY(10px) scale(.97)}to{opacity:1;transform:none}}
+.view.vin-r{animation:vinR .34s cubic-bezier(.22,1,.36,1)}
+.view.vin-l{animation:vinL .34s cubic-bezier(.22,1,.36,1)}
+.view.vin-u{animation:vinU .3s cubic-bezier(.22,1,.36,1)}
+.pop{animation:pop .42s cubic-bezier(.22,1,.36,1) both;animation-delay:calc(var(--i,0) * 35ms)}
+.seg{position:relative;isolation:isolate}
+.seg::before{content:"";position:absolute;z-index:-1;top:4px;bottom:4px;left:4px;width:calc(50% - 6px);border-radius:10px;background:var(--surface);box-shadow:0 1px 4px rgba(0,0,0,.12);transition:transform .32s cubic-bezier(.22,1,.36,1)}
+.seg[data-m="photos"]::before{transform:translateX(calc(100% + 4px))}
+.seg button[aria-selected="true"]{background:none;box-shadow:none;transition:color .25s}
+@media (prefers-reduced-motion:reduce){.view.vin-r,.view.vin-l,.view.vin-u,.pop{animation:none}}
 @media (prefers-reduced-motion:reduce){*{transition:none!important}}
 </style>
 <div id="app">
@@ -3047,6 +3061,55 @@ document.addEventListener('keydown', e => { if (e.key === 'Escape' && NAV && !do
   panel.addEventListener('touchend', () => { if (drag && drag.soft) end(); });
   const sel0 = select; select = function (id) { S.full = false; S.dragH = 0; return sel0(id); };
   addEventListener('resize', () => { if (!wide()) setSheet(); });
+})();
+
+/* ---------- panel geçiş animasyonları: görünüm değişince yöne göre kayarak gelir ---------- */
+(() => {
+  const RANK = { listv: 0, photov: 1, detailv: 2, profv: 2, pendv: 2, xv: 2 };
+  const still = () => matchMedia('(prefers-reduced-motion: reduce)').matches;
+  let shown = 'listv';
+  const play = (el, cls) => {
+    el.classList.remove('vin-r', 'vin-l', 'vin-u');
+    void el.offsetWidth;                       // animasyonu yeniden başlat
+    el.classList.add(cls);
+    el.addEventListener('animationend', () => el.classList.remove(cls), { once: true });
+  };
+  const stagger = el => {
+    el.querySelectorAll('.pgrid .pcard, #rows > li').forEach((c, i) => {
+      if (i > 14) return;
+      c.style.setProperty('--i', i);
+      c.classList.remove('pop'); void c.offsetWidth; c.classList.add('pop');
+    });
+  };
+  new MutationObserver(ms => {
+    for (const m of ms) {
+      const el = m.target;
+      if (el.hidden || !(el.id in RANK) || el.id === shown) continue;
+      const prev = shown; shown = el.id;
+      if (still()) continue;
+      const d = RANK[el.id] - RANK[prev];
+      play(el, d > 0 ? 'vin-r' : d < 0 ? 'vin-l' : 'vin-u');
+      if (el.id === 'photov' || (el.id === 'listv' && prev === 'photov')) stagger(el);
+    }
+  }).observe($('panel'), { subtree: true, attributes: true, attributeFilter: ['hidden'] });
+
+  /* Yerler / Fotoğraf vitrini seçicisinde vurgu kayarak yer değiştirir */
+  const slideSeg = (from, to) => {
+    document.querySelectorAll('.seg').forEach(s => {
+      if (s.offsetParent === null) return;
+      s.dataset.m = from; void s.offsetWidth; s.dataset.m = to;
+    });
+  };
+  const baseShowPhotos = showPhotos;
+  showPhotos = function (on) {
+    const from = S.pmode || 'places';
+    baseShowPhotos(on);
+    if (!still()) requestAnimationFrame(() => slideSeg(from, on ? 'photos' : 'places'));
+    else document.querySelectorAll('.seg').forEach(s => { s.dataset.m = on ? 'photos' : 'places'; });
+  };
+  // ilk çizimde vurgu doğru tarafta dursun
+  new MutationObserver(() => document.querySelectorAll('.seg:not([data-m])').forEach(s => { s.dataset.m = S.pmode || 'places'; }))
+    .observe($('panel'), { subtree: true, childList: true });
 })();
 
 /* ---------- dil desteği: Türkçe kaynak metin anahtar, çeviriler I18N içinde ---------- */

@@ -32,7 +32,7 @@ import { TripProvider } from './src/lib/trip';
 import { APK_URL, useUpdate } from './src/lib/update';
 import { BADGES, earned } from './src/data/badges';
 import { Btn } from './src/components/common';
-import { Splash, StackHost, TabLayer } from './src/components/Anim';
+import { Splash, StackHost, TabIndicator, TabLayer } from './src/components/Anim';
 import { C } from './src/theme';
 
 const TABS: [Tab, string, string][] = [['map', '🗺', 'Harita'], ['explore', '🧭', 'Keşfet'], ['photos', '📷', 'Vitrin']];
@@ -64,6 +64,11 @@ function Shell() {
   const insets = useSafeAreaInsets();
   const { tab, setTab, stack, reset } = useNav();
   const { start, clearStart } = usePrefs();
+  // sekme değişiminin yönü: sağdaki sekmeye geçiş +1, soldakine −1
+  const order = TABS.findIndex(([k]) => k === tab);
+  const prevOrder = useRef(order);
+  const dir = order === prevOrder.current ? 1 : Math.sign(order - prevOrder.current);
+  useEffect(() => { prevOrder.current = order; }, [order]);
   // ilk açılışta seçilen ilgi alanına göre başla: fotoğraf → vitrin, diğerleri → Keşfet "Senin için"
   useEffect(() => {
     if (start === 'photos') { setTab('photos'); clearStart(); }
@@ -76,10 +81,11 @@ function Shell() {
       <View style={{ flex: 1 }}>
         {/* harita her zaman yerinde durur; diğer sekmeler üstüne açılır */}
         <MapScreen />
-        <TabLayer visible={tab === 'explore'}><ExploreScreen /></TabLayer>
-        <TabLayer visible={tab === 'photos'}><ShowcaseScreen /></TabLayer>
+        <TabLayer visible={tab === 'explore'} dir={dir}><ExploreScreen /></TabLayer>
+        <TabLayer visible={tab === 'photos'} dir={dir}><ShowcaseScreen /></TabLayer>
       </View>
       <View style={[s.tabs, { paddingBottom: insets.bottom + 6 }]} accessibilityRole="tablist">
+        <TabIndicator index={Math.max(0, order)} count={TABS.length} color={C.accent} />
         {TABS.map(([k, icon, label]) => (
           <Pressable key={k} onPress={() => { reset(); setTab(k); }} style={s.tab} accessibilityRole="tab" accessibilityState={{ selected: tab === k }} accessibilityLabel={t(label)}>
             <Text style={{ fontSize: 20, opacity: tab === k ? 1 : 0.55 }}>{icon}</Text>

@@ -18,22 +18,48 @@ export function useDeferred(min = 0) {
   return ready;
 }
 
-/* Sekme katmanı: bir kez açılınca bellekte kalır (geri dönüş anında olur), görünürken yumuşakça belirir */
-export function TabLayer({ visible, children }: { visible: boolean; children: React.ReactNode }) {
+/* Sekme katmanı: bir kez açılınca bellekte kalır. Sekme değişince yöne göre kayarak girer ve çıkar:
+   sağdaki sekmeye geçerken yeni ekran sağdan gelir, eskisi sola kayarak kaybolur (geri dönüşte tersi). */
+export function TabLayer({ visible, dir = 1, children }: { visible: boolean; dir?: number; children: React.ReactNode }) {
+  const { width } = useWindowDimensions();
   const [mounted, setMounted] = useState(visible);
-  const a = useRef(new Animated.Value(visible ? 1 : 0)).current;
+  const [shown, setShown] = useState(visible);
+  const a = useRef(new Animated.Value(visible ? 1 : 0)).current;      // 0 = görünmez, 1 = yerinde
+  const off = useRef(new Animated.Value(0)).current;                    // görünmezken durduğu yatay konum
+  const first = useRef(true);
   useEffect(() => {
+    if (first.current) { first.current = false; return; }
+    const d = dir || 1;
     if (visible) {
-      setMounted(true);
-      a.setValue(0);
-      Animated.timing(a, { toValue: 1, duration: 240, easing: EASE_OUT, useNativeDriver: true }).start();
+      setMounted(true); setShown(true);
+      off.setValue(d * width * 0.28); a.setValue(0);
+      Animated.timing(a, { toValue: 1, duration: 320, easing: EASE_OUT, useNativeDriver: true }).start();
+    } else {
+      off.setValue(-d * width * 0.28);
+      Animated.timing(a, { toValue: 0, duration: 240, easing: Easing.in(Easing.cubic), useNativeDriver: true })
+        .start(({ finished }) => { if (finished) setShown(false); });
     }
-  }, [visible, a]);
+  }, [visible]); // eslint-disable-line
   if (!mounted) return null;
   return (
     <Animated.View pointerEvents={visible ? 'auto' : 'none'}
-      style={[StyleSheet.absoluteFill, { backgroundColor: C.bg, display: visible ? 'flex' : 'none', opacity: a, transform: [{ translateY: a.interpolate({ inputRange: [0, 1], outputRange: [14, 0] }) }] }]}>
+      style={[StyleSheet.absoluteFill, { backgroundColor: C.bg, display: shown ? 'flex' : 'none', opacity: a,
+        transform: [{ translateX: Animated.multiply(Animated.subtract(1, a), off) }, { scale: a.interpolate({ inputRange: [0, 1], outputRange: [0.985, 1] }) }] }]}>
       {children}
+    </Animated.View>
+  );
+}
+
+/* Alt sekme çubuğunda seçili sekmenin altında kayan çizgi */
+export function TabIndicator({ index, count, color }: { index: number; count: number; color: string }) {
+  const { width } = useWindowDimensions();
+  const x = useRef(new Animated.Value(index)).current;
+  useEffect(() => { Animated.spring(x, { toValue: index, useNativeDriver: true, speed: 16, bounciness: 6 }).start(); }, [index, x]);
+  const w = width / count;
+  return (
+    <Animated.View pointerEvents="none" style={{ position: 'absolute', top: 0, left: 0, width: w, alignItems: 'center',
+      transform: [{ translateX: x.interpolate({ inputRange: [0, Math.max(1, count - 1)], outputRange: [0, w * Math.max(1, count - 1)] }) }] }}>
+      <View style={{ width: Math.min(46, w * 0.5), height: 3, borderBottomLeftRadius: 3, borderBottomRightRadius: 3, backgroundColor: color }} />
     </Animated.View>
   );
 }
