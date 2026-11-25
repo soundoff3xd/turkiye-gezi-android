@@ -8,7 +8,7 @@ import { fmtDist, useLocation } from '../lib/location';
 import { useNav, useToast } from '../lib/ui';
 import { nearestOrder } from '../lib/routing';
 import { shareTrip } from '../lib/share';
-import { deletePack, downloadTrip, packInfo, tripBox } from '../lib/offline';
+import OfflineBox from '../components/OfflineBox';
 import { track } from '../lib/telemetry';
 import { Btn, Empty, Header, b } from '../components/common';
 import { catName, meters } from '../data/catalog';
@@ -25,15 +25,6 @@ export default function TripScreen({ shared }: { shared?: string[] }) {
   const toast = useToast();
   const items = trip.ids.map((id) => byId(id)).filter(Boolean) as NonNullable<ReturnType<typeof byId>>[];
   const inc = (shared || []).map((id) => byId(id)).filter(Boolean) as NonNullable<ReturnType<typeof byId>>[];
-  const [dl, setDl] = useState<{ state: 'none' | 'busy' | 'done' | 'error'; pct: number }>({ state: 'none', pct: 0 });
-  useEffect(() => { packInfo().then((i) => { if (i) setDl({ state: i.state === 'complete' || i.pct >= 100 ? 'done' : 'none', pct: i.pct }); }); }, []);
-  async function download() {
-    const bx = tripBox(items); if (!bx) return;
-    setDl({ state: 'busy', pct: 0 }); track('act:offline_map');
-    try {
-      await downloadTrip(bx, (pct, done) => setDl({ state: done ? 'done' : 'busy', pct }), () => setDl({ state: 'error', pct: 0 }));
-    } catch { setDl({ state: 'error', pct: 0 }); }
-  }
   const total = items.reduce((a, p, i) => a + (i ? meters(items[i - 1].lat, items[i - 1].lng, p.lat, p.lng) : 0), 0);
 
   return (
@@ -79,18 +70,7 @@ export default function TripScreen({ shared }: { shared?: string[] }) {
             )}
             <Btn kind="pri" label={`🧭 ${t('Rotayı göster')}`} onPress={() => push({ name: 'route', ids: items.map((p) => p.id) })} style={{ marginTop: 10 }} />
             <Btn label={`↗ ${t('Listeyi paylaş')}`} onPress={() => shareTrip(items.map((p) => p.id), t, num)} style={{ marginTop: 8 }} />
-            <View style={b.box}>
-              <Text style={b.boxH}>{`📥 ${t('Çevrimdışı harita')}`}</Text>
-              <Text style={b.boxT}>{dl.state === 'done' ? t('Bu gezinin haritası telefonuna indirildi. İnternet olmadan da açılır.') : t('İnternetin zayıf olduğu yerler için gezi listendeki yerlerin çevresini telefonuna indir.')}</Text>
-              {dl.state === 'busy' && (
-                <View style={{ height: 8, backgroundColor: C.line, borderRadius: 4, marginTop: 10, overflow: 'hidden' }}><View style={{ width: `${Math.max(3, dl.pct)}%`, height: '100%', backgroundColor: C.accent }} /></View>
-              )}
-              {dl.state === 'error' && <Text style={[b.fine, { color: C.danger }]}>{t('İndirme tamamlanamadı. İnternet bağlantını kontrol edip tekrar dene.')}</Text>}
-              <View style={{ flexDirection: 'row', gap: 8, marginTop: 10 }}>
-                <Btn small kind={dl.state === 'done' ? 'out' : 'pri'} busy={dl.state === 'busy'} label={dl.state === 'busy' ? `%${num(dl.pct)}` : dl.state === 'done' ? t('Yeniden indir') : t('Haritayı indir')} onPress={download} style={{ flex: 1 }} />
-                {dl.state === 'done' && <Btn small label={t('Sil')} onPress={() => { deletePack().then(() => { setDl({ state: 'none', pct: 0 }); toast('Çevrimdışı harita silindi'); }); }} style={{ flex: 1 }} />}
-              </View>
-            </View>
+            <OfflineBox pts={items} doneText="Bu gezinin haritası telefonuna indirildi. İnternet olmadan da açılır." introText="İnternetin zayıf olduğu yerler için gezi listendeki yerlerin çevresini telefonuna indir." />
             <Text style={b.fine}>{t('Rota konumundan başlar ve durakları bu sırayla dolaşır. Rota ekranından sesli navigasyonu başlatabilirsin.')}</Text>
           </>
         )}

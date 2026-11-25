@@ -47,7 +47,7 @@ export default function ReviewCard({ x, showPlace }: { x: Review; showPlace?: bo
         )}
       </View>
       {(x.hidden || (mine && x.photoHidden)) && (
-        <Text style={{ marginTop: 8, color: C.danger, fontSize: 13, fontWeight: '700' }}>{t(x.hidden ? 'Bu yorum şikâyetler nedeniyle gizlendi; moderatör inceliyor.' : 'Bu fotoğraf şikâyetler nedeniyle gizlendi; moderatör inceliyor.')}</Text>
+        <Text style={{ marginTop: 8, color: x.photoPending && !x.hidden ? C.muted : C.danger, fontSize: 13, fontWeight: '700' }}>{t(x.hidden ? 'Bu yorum şikâyetler nedeniyle gizlendi; moderatör inceliyor.' : x.photoPending ? 'Fotoğrafın kısa bir kontrolden sonra herkese görünecek.' : 'Bu fotoğraf şikâyetler nedeniyle gizlendi; moderatör inceliyor.')}</Text>
       )}
       <View style={{ marginTop: 8 }}><Stars value={x.rating} /></View>
       {!!x.text && <Text style={{ color: C.ink, fontSize: 15.5, lineHeight: 22, marginTop: 6 }}>{x.text}</Text>}

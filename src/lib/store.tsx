@@ -14,7 +14,7 @@ import { BASE_PLACES, EMPTY_STATS, regionOf, type Place, type Stats } from '../d
 export type Reply = { id: string; uid: string; a: string; t: string; av: string | null; hidden?: boolean };
 export type Review = {
   id: string; pid: string; uid: string; author: string; av: string | null; rating: number; text: string;
-  photo: string | null; likes: number; replies: Reply[]; at: string; hidden?: boolean; photoHidden?: boolean;
+  photo: string | null; likes: number; replies: Reply[]; at: string; hidden?: boolean; photoHidden?: boolean; photoPending?: boolean;
 };
 export type ReportTarget = 'review' | 'reply' | 'photo';
 export type FeedbackKind = 'oneri' | 'hata' | 'gorus';
@@ -98,7 +98,7 @@ export function StoreProvider({ children }: { children: React.ReactNode }) {
   }, []);
   const loadReviews = useCallback(async () => {
     const { data, error } = await supabase.from('reviews')
-      .select('id,place_id,user_id,rating,body,photo_path,hidden,photo_hidden,created_at,profiles!reviews_user_id_fkey(name,avatar_path),replies(id,body,hidden,created_at,user_id,profiles!replies_user_id_fkey(name,avatar_path)),review_likes(user_id),photo_likes(user_id)')
+      .select('id,place_id,user_id,rating,body,photo_path,hidden,photo_hidden,photo_pending,created_at,profiles!reviews_user_id_fkey(name,avatar_path),replies(id,body,hidden,created_at,user_id,profiles!replies_user_id_fkey(name,avatar_path)),review_likes(user_id),photo_likes(user_id)')
       .order('created_at', { ascending: false }).limit(400);
     if (error) throw error;
     const me = uidRef.current, L = new Set<string>(), P = new Set<string>(), base: Record<string, number> = {};
@@ -111,7 +111,7 @@ export function StoreProvider({ children }: { children: React.ReactNode }) {
         id: r.id, pid: r.place_id, uid: r.user_id, author: r.profiles?.name || '?', av: publicUrl(r.profiles?.avatar_path), rating: r.rating, text: r.body || '',
         // şikâyetle gizlenen fotoğrafı yalnızca sahibi görür
         photo: r.photo_hidden && r.user_id !== me ? null : publicUrl(r.photo_path), likes: r.review_likes.length - (mineLike ? 1 : 0), at: r.created_at,
-        hidden: !!r.hidden, photoHidden: !!r.photo_hidden,
+        hidden: !!r.hidden, photoHidden: !!r.photo_hidden, photoPending: !!r.photo_pending,
         replies: (r.replies as any[]).sort((a, b) => a.created_at.localeCompare(b.created_at)).map((x) => ({ id: x.id, uid: x.user_id, a: x.profiles?.name || '?', t: x.body, av: publicUrl(x.profiles?.avatar_path), hidden: !!x.hidden })),
       } as Review;
     });

@@ -10,7 +10,7 @@ import { Btn, Empty, Header, Stars, b } from '../components/common';
 import ReviewCard from '../components/ReviewCard';
 import Weather from '../components/Weather';
 import CorrectionSheet from '../components/CorrectionSheet';
-import { Dishes, NearbyFood, PlaceHero, SeasonBox } from '../components/Extras';
+import { AccessBox, Dishes, MuseumBox, NearbyFood, PlaceHero, SeasonBox } from '../components/Extras';
 import { SkeletonPage, useDeferred } from '../components/Anim';
 import { useTrip } from '../lib/trip';
 import { sharePlace } from '../lib/share';
@@ -90,6 +90,8 @@ export default function PlaceScreen({ id, initialTab = 'ov' }: { id: string; ini
               <Text style={b.boxT}>{[p.il, p.semt, REGIONS[p.r] ? t(REGIONS[p.r] + ' Bölgesi') : ''].filter(Boolean).join(' · ')}</Text></View>
             {!!p.h && <View style={b.box}><Text style={b.boxH}>{t('Nasıl gidilir')}</Text><Text style={b.boxT}>{t(p.h)}</Text></View>}
             <SeasonBox p={p} />
+            <MuseumBox p={p} />
+            <AccessBox p={p} />
             <Dishes il={p.il} />
             <NearbyFood p={p} />
             <Weather lat={p.lat} lng={p.lng} />

@@ -7,6 +7,11 @@ on:
     branches: [main]
     paths-ignore: ['web/**']
   workflow_dispatch:
+    inputs:
+      play:
+        description: 'Google Play için imzalı AAB de üret (UPLOAD_KEYSTORE_* gizli değişkenleri gerekir)'
+        type: boolean
+        default: false
 
 permissions:
   contents: write
@@ -77,6 +82,38 @@ jobs:
       - name: APK derle
         working-directory: ${{ env.APP_DIR }}/android
         run: ./gradlew assembleRelease --no-daemon -PreactNativeArchitectures=arm64-v8a,armeabi-v7a
+
+      # Google Play: yükleme anahtarıyla imzalı .aab (yalnızca elle başlatılınca ve play seçilince)
+      - name: Play paketi (AAB) derle
+        if: github.event_name == 'workflow_dispatch' && inputs.play
+        working-directory: ${{ env.APP_DIR }}/android
+        env:
+          UPLOAD_KEYSTORE_B64: ${{ secrets.UPLOAD_KEYSTORE_B64 }}
+          UPLOAD_KEYSTORE_PASSWORD: ${{ secrets.UPLOAD_KEYSTORE_PASSWORD }}
+          UPLOAD_KEY_ALIAS: ${{ secrets.UPLOAD_KEY_ALIAS }}
+          UPLOAD_KEY_PASSWORD: ${{ secrets.UPLOAD_KEY_PASSWORD }}
+        run: |
+          set -euo pipefail
+          if [ -z "${UPLOAD_KEYSTORE_B64:-}" ]; then echo "::error title=Play::UPLOAD_KEYSTORE_B64 gizli değişkeni yok"; exit 1; fi
+          printf '%s' "$UPLOAD_KEYSTORE_B64" | base64 -d > "$RUNNER_TEMP/upload.jks"
+          export UPLOAD_STORE_FILE="$RUNNER_TEMP/upload.jks"
+          node -e "
+            const fs=require('fs'),f='app/build.gradle';let g=fs.readFileSync(f,'utf8');
+            g=g.replace(/signingConfigs\s*\{/, m=>m+'\n        upload { storeFile file(System.getenv(\'UPLOAD_STORE_FILE\')); storePassword System.getenv(\'UPLOAD_KEYSTORE_PASSWORD\'); keyAlias System.getenv(\'UPLOAD_KEY_ALIAS\'); keyPassword System.getenv(\'UPLOAD_KEY_PASSWORD\') }');
+            const i=g.indexOf('release {', g.indexOf('buildTypes'));
+            g=g.slice(0,i)+g.slice(i).replace('signingConfig signingConfigs.debug','signingConfig signingConfigs.upload');
+            fs.writeFileSync(f,g);"
+          ./gradlew bundleRelease --no-daemon
+          cp app/build/outputs/bundle/release/app-release.aab "$GITHUB_WORKSPACE/turkiye-gezi-rehberi.aab"
+          rm -f "$RUNNER_TEMP/upload.jks"
+
+      - name: Play paketini sakla
+        if: github.event_name == 'workflow_dispatch' && inputs.play
+        uses: actions/upload-artifact@v4
+        with:
+          name: turkiye-gezi-rehberi-play
+          path: turkiye-gezi-rehberi.aab
+          retention-days: 30
 
       - name: APK'yı adlandır
         run: cp "$APP_DIR/android/app/build/outputs/apk/release/app-release.apk" turkiye-gezi-rehberi.apk

@@ -1,4 +1,4 @@
-import React, { useEffect, useMemo, useState } from 'react';
+import React, { useCallback, useEffect, useMemo, useState } from 'react';
 import { Image, Linking, Pressable, Text, View } from 'react-native';
 import { useT } from '../i18n';
 import { b } from './common';
@@ -165,6 +165,67 @@ export function NearbyFood({ p }: { p: Place }) {
         );
       })}
       <Text style={[b.fine, { marginTop: 6 }]}>{t('Kaynak: OpenStreetMap katkıcıları. Açılış saatlerini gitmeden önce kontrol et.')}</Text>
+    </View>
+  );
+}
+
+/* Müze ve ören yerleri: ücretler sık değiştiği için rakam yazılmaz; resmi siteye yönlendirilir */
+const MUZE_CATS = new Set(['muze', 'antik', 'saray']);
+export function MuseumBox({ p }: { p: Place }) {
+  const { t } = useT();
+  if (!MUZE_CATS.has(p.c)) return null;
+  return (
+    <View style={b.box}>
+      <Text style={b.boxH}>{`🎟 ${t('Giriş ücreti ve Müzekart')}`}</Text>
+      <Text style={b.boxT}>{t('Kültür ve Turizm Bakanlığına bağlı müze ve ören yerlerinin çoğuna Müzekart ile girilir. Bazı saraylar, belediye ve özel müzeler Müzekart kabul etmez.')}</Text>
+      <Text style={[b.boxT, { marginTop: 6 }]}>{t('Ücretler yılda birkaç kez değişebilir; gitmeden önce güncel ücreti resmi siteden kontrol et.')}</Text>
+      <Pressable onPress={() => Linking.openURL('https://muze.gov.tr').catch(() => {})} accessibilityRole="link" style={{ marginTop: 8 }}>
+        <Text style={{ color: C.link, fontWeight: '700' }}>{`muze.gov.tr ↗`}</Text>
+      </Pressable>
+    </View>
+  );
+}
+
+/* Erişilebilirlik: ziyaretçilerin işaretlemesiyle (2 evet, 1 kısmen, 0 hayır) */
+const ACC: [number, string, string][] = [[2, '♿', 'Erişilebilir'], [1, '◐', 'Kısmen'], [0, '✕', 'Erişilemez']];
+export function AccessBox({ p }: { p: Place }) {
+  const { t, num } = useT();
+  const [rows, setRows] = useState<{ val: number; user_id: string }[] | null>(null);
+  const [uid, setUid] = useState<string | null>(null);
+  const [busy, setBusy] = useState(false);
+  const load = useCallback(async () => {
+    const { data } = await supabase.from('place_access').select('val,user_id').eq('place_id', p.id).limit(500);
+    setRows((data as any[]) || []);
+  }, [p.id]);
+  useEffect(() => { load(); supabase.auth.getSession().then(({ data }) => setUid(data.session?.user.id || null)).catch(() => {}); }, [load]);
+  if (!rows) return null;
+  const mine = rows.find((r) => r.user_id === uid)?.val;
+  const cnt = [0, 1, 2].map((v) => rows.filter((r) => r.val === v).length);
+  const top = rows.length ? [2, 1, 0].reduce((a, v) => (cnt[v] > cnt[a] ? v : a), 2) : -1;
+  async function vote(v: number) {
+    if (!uid || busy) return;
+    setBusy(true);
+    const q = mine === v ? supabase.from('place_access').delete().eq('place_id', p.id).eq('user_id', uid)
+      : supabase.from('place_access').upsert({ place_id: p.id, user_id: uid, val: v });
+    await q; setBusy(false); load();
+  }
+  const sum = top < 0 ? t('Henüz bilgi yok. Gittiysen tekerlekli sandalye ve bebek arabasıyla gezilebiliyor mu, işaretle.')
+    : `${t(ACC.find((a) => a[0] === top)![2])} · ${t('{1} ziyaretçiye göre', num(rows.length))}`;
+  return (
+    <View style={b.box}>
+      <Text style={b.boxH}>{`♿ ${t('Erişilebilirlik')}`}</Text>
+      <Text style={b.boxT}>{sum}</Text>
+      {uid && (
+        <View style={{ flexDirection: 'row', gap: 6, marginTop: 8 }}>
+          {ACC.map(([v, ic, l]) => (
+            <Pressable key={v} onPress={() => vote(v)} disabled={busy} accessibilityRole="button" accessibilityState={{ selected: mine === v }}
+              style={{ flex: 1, alignItems: 'center', paddingVertical: 8, borderRadius: R.sm, borderWidth: 1, borderColor: mine === v ? C.accent : C.chipLine, backgroundColor: mine === v ? C.soft : 'transparent' }}>
+              <Text style={{ color: C.ink, fontWeight: '700', fontSize: 13 }}>{`${ic} ${t(l)}${cnt[v] ? ` (${num(cnt[v])})` : ''}`}</Text>
+            </Pressable>
+          ))}
+        </View>
+      )}
+      <Text style={[b.fine, { marginTop: 6 }]}>{t('Ziyaretçilerin bildirdiği bilgidir; rampa, asansör ve uygun tuvalet için gitmeden önce yeri arayıp sor.')}</Text>
     </View>
   );
 }

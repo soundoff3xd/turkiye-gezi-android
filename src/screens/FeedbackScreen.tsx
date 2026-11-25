@@ -86,7 +86,7 @@ export default function FeedbackScreen() {
 }
 
 type Rep = { target_type: 'review' | 'reply' | 'photo'; target_id: string; reports: number; reasons: string[]; last_at: string; hidden: boolean; body: string; photo_path: string | null; place_id: string | null; author: string | null };
-const REASON_TXT: Record<string, string> = { spam: 'Spam veya reklam', hakaret: 'Hakaret veya nefret söylemi', uygunsuz: 'Uygunsuz içerik', yanlis: 'Yanlış veya yanıltıcı bilgi', diger: 'Diğer' };
+const REASON_TXT: Record<string, string> = { spam: 'Spam veya reklam', hakaret: 'Hakaret veya nefret söylemi', uygunsuz: 'Uygunsuz içerik', yanlis: 'Yanlış veya yanıltıcı bilgi', diger: 'Diğer', onay: 'Yeni kullanıcı fotoğrafı, onay bekliyor' };
 const TYPE_TXT: Record<string, string> = { review: 'Yorum', reply: 'Yanıt', photo: 'Fotoğraf' };
 
 type Cor = { id: string; place_id: string; user_id: string; kind: 'konum' | 'bilgi' | 'kapali' | 'diger'; note: string | null; lat: number | null; lng: number | null; status: 'open' | 'done' | 'rejected'; created_at: string };
@@ -207,7 +207,7 @@ export function ModScreen() {
                 <View key={r.target_type + r.target_id} style={b.card}>
                   <Text style={{ fontWeight: '800', color: C.ink }}>{`${t(TYPE_TXT[r.target_type])} · ${r.author || '?'}${r.place_id && byId(r.place_id) ? ` · ${byId(r.place_id)!.n}` : ''}`}</Text>
                   <Text style={{ color: r.hidden ? C.danger : C.muted, fontSize: 13, fontWeight: '700', marginTop: 2 }}>
-                    {`${t('{1} şikâyet', num(r.reports))} · ${r.reasons.map((x) => t(REASON_TXT[x] || x)).join(', ')}${r.hidden ? ` · ${t('Gizlendi')}` : ''}`}
+                    {`${r.reports ? `${t('{1} şikâyet', num(r.reports))} · ` : ''}${r.reasons.map((x) => t(REASON_TXT[x] || x)).join(', ')}${r.hidden && r.reports ? ` · ${t('Gizlendi')}` : ''}`}
                   </Text>
                   {r.target_type === 'photo' && r.photo_path ? <Image source={{ uri: publicUrl(r.photo_path) || undefined }} style={{ width: '100%', aspectRatio: 4 / 3, borderRadius: R.sm, marginTop: 8, backgroundColor: C.line }} />
                     : <Text style={{ color: C.ink, marginTop: 8, lineHeight: 21 }}>{r.body || '—'}</Text>}
