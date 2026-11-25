@@ -12,7 +12,7 @@ export default function LangScreen({ onClose }: { onClose?: () => void }) {
   const close = onClose || (() => nav?.pop());
   const insets = useSafeAreaInsets();
   return (
-    <View style={{ flex: 1, backgroundColor: C.bg }}>
+    <View style={{ flex: 1, backgroundColor: C.screen }}>
       <Header onBack={close} title={t('Dil')} />
       <FlatList
         data={Object.entries(LANGS)} keyExtractor={([k]) => k} contentContainerStyle={{ paddingBottom: insets.bottom + 20 }}

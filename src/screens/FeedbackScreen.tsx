@@ -41,7 +41,7 @@ export default function FeedbackScreen() {
   }
 
   return (
-    <View style={{ flex: 1, backgroundColor: C.bg }}>
+    <View style={{ flex: 1, backgroundColor: C.screen }}>
       <Header onBack={pop} title={t('Görüş ve öneri gönder')} />
       <ScrollView contentContainerStyle={{ padding: 16, paddingBottom: insets.bottom + 30 }} keyboardShouldPersistTaps="handled">
         <Text style={{ color: C.ink, fontSize: 15.5, lineHeight: 22 }}>{t('Uygulamayı birlikte geliştiriyoruz. Aklına gelen her öneriyi, karşılaştığın hataları ve görüşlerini yaz; hepsini okuyoruz.')}</Text>
@@ -137,7 +137,7 @@ export function ModScreen() {
   useEffect(() => { if (me?.isMod) load(); }, [me?.isMod, load]);
   useEffect(() => { if (me?.isMod && tab === 'stat') loadUsage(); }, [me?.isMod, tab, loadUsage]);
 
-  if (!me?.isMod) return <View style={{ flex: 1, backgroundColor: C.bg }}><Header onBack={pop} title={t('Moderatör paneli')} /><Empty title={t('Bu bölüm yalnızca moderatörler içindir.')} /></View>;
+  if (!me?.isMod) return <View style={{ flex: 1, backgroundColor: C.screen }}><Header onBack={pop} title={t('Moderatör paneli')} /><Empty title={t('Bu bölüm yalnızca moderatörler içindir.')} /></View>;
   const handled = async (f: Fb) => { const { error } = await supabase.from('feedback').update({ handled: !f.handled }).eq('id', f.id); if (error) toast(trError(error)); else load(); };
   const resolve = async (r: Rep, act: 'restore' | 'delete') => {
     const { error } = await supabase.rpc('mod_resolve', { t: r.target_type, tid: r.target_id, act });
@@ -173,7 +173,7 @@ export function ModScreen() {
   const plat = usage ? Object.entries(usage.reduce<Record<string, number>>((m, u) => { m[u.platform] = (m[u.platform] || 0) + u.n; return m; }, {})) : [];
 
   return (
-    <View style={{ flex: 1, backgroundColor: C.bg }}>
+    <View style={{ flex: 1, backgroundColor: C.screen }}>
       <Header onBack={pop} title={t('Moderatör paneli')} right={<Pressable onPress={() => { load(); if (tab === 'stat') loadUsage(); }} hitSlop={8}><Text style={{ color: C.accent, fontWeight: '800' }}>↻</Text></Pressable>} />
       <View style={{ borderBottomWidth: 1, borderBottomColor: C.line }}>
         <ScrollView horizontal showsHorizontalScrollIndicator={false} contentContainerStyle={{ paddingHorizontal: 12 }} accessibilityRole="tablist">

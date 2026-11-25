@@ -37,7 +37,7 @@ export default function PendingScreen() {
   const color = (st: string) => (st === 'ok' ? C.ok : st === 'wait' ? C.star : C.danger);
 
   return (
-    <View style={{ flex: 1, backgroundColor: C.bg }}>
+    <View style={{ flex: 1, backgroundColor: C.screen }}>
       <Header onBack={pop} title={t('Önerilen yerler')} right={<Btn label={`＋ ${t('Yer öner')}`} kind="pri" small onPress={() => push({ name: 'suggest' })} />} />
       <ScrollView contentContainerStyle={{ padding: 16, paddingBottom: insets.bottom + 30 }}>
         <View style={b.box}>

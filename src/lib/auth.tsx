@@ -2,6 +2,7 @@ import React, { createContext, useCallback, useContext, useEffect, useState } fr
 import type { Session } from '@supabase/supabase-js';
 import { supabase, SITE_URL } from './supabase';
 import { unregisterPush } from './push';
+import { readThemeCfg, saveThemeCfg } from '../Boot';
 import { publicUrl, uploadImage, type Picked } from './images';
 import { BAD_WORDS, fold } from '../data/catalog';
 
@@ -48,7 +49,11 @@ export function AuthProvider({ children }: { children: React.ReactNode }) {
   const load = useCallback(async (session: Session | null) => {
     if (!session?.user) { setMe(null); setReady(true); return; }
     const u = session.user;
-    const { data: prof } = await supabase.from('profiles').select('name,is_moderator,created_at,avatar_path').eq('id', u.id).maybeSingle();
+    const { data: prof } = await supabase.from('profiles').select('name,is_moderator,created_at,avatar_path,theme').eq('id', u.id).maybeSingle();
+    // hesaba kayıtlı tema bu telefondakinden farklıysa kaydet (bir sonraki açılışta uygulanır)
+    if (prof?.theme && typeof prof.theme === 'object') {
+      readThemeCfg().then((local) => { if (JSON.stringify(local) !== JSON.stringify(prof.theme)) saveThemeCfg(prof.theme); }).catch(() => {});
+    }
     if (!prof) {
       // hesap silinmiş ama telefonda eski oturum kalmış olabilir
       const { error } = await supabase.auth.getUser();

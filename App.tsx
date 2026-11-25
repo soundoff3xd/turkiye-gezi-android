@@ -31,6 +31,7 @@ import PrivacyScreen from './src/screens/PrivacyScreen';
 import ThemeScreen from './src/screens/ThemeScreen';
 import PaintScreen from './src/screens/PaintScreen';
 import InboxScreen from './src/screens/InboxScreen';
+import JournalScreen, { JournalsScreen } from './src/screens/JournalScreen';
 import { TripProvider } from './src/lib/trip';
 import { APK_URL, useUpdate } from './src/lib/update';
 import { BADGES, earned } from './src/data/badges';
@@ -70,6 +71,8 @@ const ScreenM = React.memo(function Screen({ r }: { r: Route }) {
     case 'theme': return <ThemeScreen />;
     case 'paint': return <PaintScreen />;
     case 'inbox': return <InboxScreen />;
+    case 'journals': return <JournalsScreen />;
+    case 'journal': return <JournalScreen id={r.id} />;
     case 'profile': return <ProfileScreen />;
     case 'interests': return <InterestsScreen />;
   }
@@ -102,7 +105,7 @@ function Shell() {
   usePushOpen();
   const up = useUpdate();
   return (
-    <View style={{ flex: 1, backgroundColor: C.bg }}>
+    <View style={{ flex: 1, backgroundColor: C.screen }}>
       <View style={{ flex: 1 }}>
         {/* harita her zaman yerinde durur; diğer sekmeler üstüne açılır */}
         <ErrorBoundary label="map" t={t}><MapM /></ErrorBoundary>
@@ -156,7 +159,8 @@ function useDeepLinks() {
     if (!url) return;
     const l = parseLink(url); if (!l) return;
     track('act:open_link');
-    if (l.gezi && l.gezi.length) push({ name: 'trip', shared: l.gezi.filter((id) => !!byId(id)) });
+    if (l.gunluk) push({ name: 'journal', id: l.gunluk });
+    else if (l.gezi && l.gezi.length) push({ name: 'trip', shared: l.gezi.filter((id) => !!byId(id)) });
     else if (l.yer && byId(l.yer)) push({ name: 'place', id: l.yer });
   };
   useEffect(() => {

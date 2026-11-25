@@ -13,7 +13,7 @@ export default class ErrorBoundary extends React.Component<P, { err: boolean }> 
     if (!this.state.err) return this.props.children;
     const t = this.props.t || ((s: string) => s);
     return (
-      <View style={{ flex: 1, backgroundColor: C.bg, alignItems: 'center', justifyContent: 'center', padding: 28 }}>
+      <View style={{ flex: 1, backgroundColor: C.screen, alignItems: 'center', justifyContent: 'center', padding: 28 }}>
         <Text style={{ fontSize: 40 }}>🧭</Text>
         <Text style={{ fontSize: 19, fontWeight: '800', color: C.ink, marginTop: 10, textAlign: 'center' }}>{t('Bir şeyler ters gitti')}</Text>
         <Text style={{ color: C.muted, marginTop: 6, textAlign: 'center', lineHeight: 20 }}>{t('Sorunu kaydettik ve inceleyeceğiz. Tekrar deneyebilirsin.')}</Text>

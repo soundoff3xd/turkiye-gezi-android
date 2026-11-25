@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Image, Pressable, ScrollView, Text, View } from 'react-native';
+import { Image, Pressable, ScrollView, Text, View, useWindowDimensions } from 'react-native';
 import { useSafeAreaInsets } from 'react-native-safe-area-context';
 import { useT } from '../i18n';
 import { useStore } from '../lib/store';
@@ -10,7 +10,7 @@ import { Btn, Empty, Header, Stars, b } from '../components/common';
 import ReviewCard from '../components/ReviewCard';
 import Weather from '../components/Weather';
 import CorrectionSheet from '../components/CorrectionSheet';
-import { Dishes, SeasonBox } from '../components/Extras';
+import { Dishes, NearbyFood, PlaceHero, SeasonBox } from '../components/Extras';
 import { SkeletonPage, useDeferred } from '../components/Anim';
 import { useTrip } from '../lib/trip';
 import { sharePlace } from '../lib/share';
@@ -21,6 +21,7 @@ import { C, R } from '../theme';
 export default function PlaceScreen({ id, initialTab = 'ov' }: { id: string; initialTab?: 'ov' | 'rev' | 'pho' }) {
   const { t, num } = useT();
   const insets = useSafeAreaInsets();
+  const { width } = useWindowDimensions();
   const { byId, stats, visited, faved, toggle, posts } = useStore();
   const { pop, push, showOnMap } = useNav();
   const toast = useToast();
@@ -30,7 +31,7 @@ export default function PlaceScreen({ id, initialTab = 'ov' }: { id: string; ini
   const trip = useTrip();
   const ready = useDeferred(0);
   const p = byId(id);
-  if (!p) return <View style={{ flex: 1, backgroundColor: C.bg }}><Header onBack={pop} /><Empty title={t('Bu yer bulunamadı.')} /></View>;
+  if (!p) return <View style={{ flex: 1, backgroundColor: C.screen }}><Header onBack={pop} /><Empty title={t('Bu yer bulunamadı.')} /></View>;
   const s = stats(p.id), mine = posts.filter((x) => x.pid === p.id), media = mine.filter((x) => x.photo);
   const v = visited.has(p.id), f = faved.has(p.id);
 
@@ -41,11 +42,12 @@ export default function PlaceScreen({ id, initialTab = 'ov' }: { id: string; ini
   const tabs: [typeof tab, string][] = [['ov', t('Genel bakış')], ['rev', t('Yorumlar')], ['pho', media.length ? t('Fotoğraflar ({1})', num(media.length)) : t('Fotoğraflar')]];
 
   return (
-    <View style={{ flex: 1, backgroundColor: C.bg }}>
+    <View style={{ flex: 1, backgroundColor: C.screen }}>
       <Header onBack={pop} title={p.n} right={
         <Pressable onPress={() => showOnMap({ id: p.id })} hitSlop={8} accessibilityRole="button"><Text style={{ color: C.accent, fontWeight: '800' }}>{t('Haritada gör')}</Text></Pressable>
       } />
       {!ready ? <SkeletonPage /> : <ScrollView contentContainerStyle={{ padding: 18, paddingBottom: insets.bottom + 40 }}>
+        <View style={{ marginHorizontal: -18, marginTop: -18, marginBottom: 12 }}><PlaceHero id={p.id} width={width} height={Math.round(width * 0.58)} /></View>
         <Text style={{ color: C.accent, fontSize: 12, fontWeight: '800', letterSpacing: 0.6 }}>{`${p.il} · ${t(catName(p.c))}`.toLocaleUpperCase(undefined)}</Text>
         <Text style={{ color: C.ink, fontSize: 28, fontWeight: '800', marginTop: 4 }} accessibilityRole="header">{p.n}</Text>
         <View style={{ flexDirection: 'row', alignItems: 'center', gap: 6, marginTop: 8, flexWrap: 'wrap' }}>
@@ -69,7 +71,7 @@ export default function PlaceScreen({ id, initialTab = 'ov' }: { id: string; ini
         <View style={{ flexDirection: 'row', gap: 8, marginTop: 8 }}>
           <Btn label={trip.has(p.id) ? `✓ ${t('Gezi listende')}` : `＋ ${t('Gezi listeme ekle')}`} kind={trip.has(p.id) ? 'on' : 'out'} style={{ flex: 1 }}
             onPress={() => { if (trip.has(p.id)) { trip.remove(p.id); toast('Gezi listenden çıkarıldı'); } else if (trip.add(p.id)) toast('Gezi listene eklendi'); else toast('Gezi listen dolu (en fazla {1} yer).', 24); }} />
-          <Btn label={`↗ ${t('Paylaş')}`} onPress={() => sharePlace(p, t)} style={{ flex: 1 }} />
+          <Btn label={`↗ ${t('Yeri paylaş')}`} onPress={() => sharePlace(p, t)} style={{ flex: 1 }} />
         </View>
 
         <View style={{ flexDirection: 'row', marginTop: 18, borderBottomWidth: 1, borderBottomColor: C.line }} accessibilityRole="tablist">
@@ -89,6 +91,7 @@ export default function PlaceScreen({ id, initialTab = 'ov' }: { id: string; ini
             {!!p.h && <View style={b.box}><Text style={b.boxH}>{t('Nasıl gidilir')}</Text><Text style={b.boxT}>{t(p.h)}</Text></View>}
             <SeasonBox p={p} />
             <Dishes il={p.il} />
+            <NearbyFood p={p} />
             <Weather lat={p.lat} lng={p.lng} />
             <Text style={b.fine}>{t('Açılış saatleri ve giriş ücretleri değişebilir; gitmeden önce resmi kaynaktan kontrol edin.')}</Text>
             <Pressable onPress={() => setFix(true)} hitSlop={8} accessibilityRole="button" style={{ alignSelf: 'flex-start', marginTop: 10, paddingVertical: 6 }}>

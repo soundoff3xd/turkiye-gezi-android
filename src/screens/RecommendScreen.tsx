@@ -30,7 +30,7 @@ export default function RecommendScreen() {
   const rows = useMemo(() => rankCities(places, stats, subs, near && pos ? pos : null).slice(0, 10), [places, stats, subs, near, pos]);
 
   return (
-    <View style={{ flex: 1, backgroundColor: C.bg }}>
+    <View style={{ flex: 1, backgroundColor: C.screen }}>
       <Header onBack={pop} title={t('Nereye gitmeliyim?')} />
       <ScrollView contentContainerStyle={{ padding: 16, paddingBottom: insets.bottom + 30 }}>
         <Text style={[b.h2, { fontSize: 20 }]}>{t('Ne gezmek istiyorsun?')}</Text>
@@ -101,7 +101,7 @@ export function CityScreen({ il, subs }: { il: string; subs: string[] }) {
   const all = useMemo(() => places.filter((p) => p.il === il).sort((a, b) => Number(subs.includes(b.c)) - Number(subs.includes(a.c))), [places, il, subs]);
 
   return (
-    <View style={{ flex: 1, backgroundColor: C.bg }}>
+    <View style={{ flex: 1, backgroundColor: C.screen }}>
       <Header onBack={pop} title={il} />
       <ScrollView contentContainerStyle={{ padding: 16, paddingBottom: insets.bottom + 30 }}>
         <Text style={{ color: C.muted }}>{subs.map((k) => t(catName(k))).join(' · ')}</Text>

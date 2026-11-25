@@ -10,6 +10,7 @@ import { catName, type Place } from '../data/catalog';
 import { useTrip } from '../lib/trip';
 import { sharePlace } from '../lib/share';
 import { useToast } from '../lib/ui';
+import { PlaceHero } from './Extras';
 
 type Props = { place: Place; bottom: number; onToggle: (kind: 'visits' | 'favorites') => void; onClose: () => void; onMore: () => void };
 
@@ -17,7 +18,7 @@ type Props = { place: Place; bottom: number; onToggle: (kind: 'visits' | 'favori
 export default function PlaceSheet({ place: p, bottom, onToggle, onClose, onMore }: Props) {
   const { t, num } = useT();
   const { stats, visited, faved, posts } = useStore();
-  const { height } = useWindowDimensions();
+  const { height, width } = useWindowDimensions();
   const { distTo } = useLocation();
   const { push } = useNav();
   const trip = useTrip(), toast = useToast(), inTrip = trip.has(p.id);
@@ -31,6 +32,7 @@ export default function PlaceSheet({ place: p, bottom, onToggle, onClose, onMore
         <Text style={{ fontSize: 18, color: C.muted }}>✕</Text>
       </Pressable>
       <ScrollView contentContainerStyle={{ paddingHorizontal: 20 }} showsVerticalScrollIndicator={false}>
+        <View style={{ marginTop: 6, marginBottom: 8, marginRight: 44 }}><PlaceHero id={p.id} width={Math.min(width, 640) - 84} height={Math.round((Math.min(width, 640) - 84) * 0.45)} radius={14} /></View>
         <Text style={s.kicker}>{`${p.il} · ${t(catName(p.c))}`.toLocaleUpperCase()}</Text>
         <Pressable onPress={onMore} accessibilityRole="button"><Text style={s.name}>{p.n}</Text></Pressable>
         <View style={s.statsRow}>
@@ -47,7 +49,7 @@ export default function PlaceSheet({ place: p, bottom, onToggle, onClose, onMore
         <View style={[s.acts, { marginTop: 8 }]}>
           <Btn small label={inTrip ? `✓ ${t('Gezi listende')}` : `＋ ${t('Gezi listeme ekle')}`} kind={inTrip ? 'on' : 'out'} style={{ flex: 2 }}
             onPress={() => { if (inTrip) { trip.remove(p.id); toast('Gezi listenden çıkarıldı'); } else if (trip.add(p.id)) toast('Gezi listene eklendi'); else toast('Gezi listen dolu (en fazla {1} yer).', 24); }} />
-          <Btn small label={`↗ ${t('Paylaş')}`} onPress={() => sharePlace(p, t)} style={{ flex: 1 }} />
+          <Btn small label={`↗ ${t('Yeri paylaş')}`} onPress={() => sharePlace(p, t)} style={{ flex: 1 }} />
         </View>
         {!!p.d && <Text style={s.desc} numberOfLines={4}>{t(p.d)}</Text>}
         <Btn label={`${t('Yorumlar')} (${num(st.count)}) · ${t('Fotoğraflar')} (${num(photos)})  ›`} onPress={onMore} style={{ marginTop: 14 }} />

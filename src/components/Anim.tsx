@@ -1,3 +1,4 @@
+import Svg, { Defs, LinearGradient, Rect, Stop } from 'react-native-svg';
 import React, { useEffect, useRef, useState } from 'react';
 import { Animated, Easing, StyleSheet, Text, View, useWindowDimensions, type StyleProp, type ViewStyle } from 'react-native';
 import { C, R } from '../theme';
@@ -45,8 +46,21 @@ export function TabLayer({ visible, dir = 1, children }: { visible: boolean; dir
     <Animated.View pointerEvents={visible ? 'auto' : 'none'}
       style={[StyleSheet.absoluteFill, { backgroundColor: C.bg, display: shown ? 'flex' : 'none', opacity: a,
         transform: [{ translateX: Animated.multiply(Animated.subtract(1, a), off) }, { scale: a.interpolate({ inputRange: [0, 1], outputRange: [0.985, 1] }) }] }]}>
+      <ThemeBg />
       {children}
     </Animated.View>
+  );
+}
+
+/* degrade temalarda arka plan (düz temalarda hiçbir şey çizmez) */
+export function ThemeBg() {
+  if (!C.grad) return null;
+  const [a, b] = C.grad.split(',');
+  return (
+    <Svg style={StyleSheet.absoluteFill} pointerEvents="none" preserveAspectRatio="none">
+      <Defs><LinearGradient id="tg" x1="0" y1="0" x2="0.35" y2="1"><Stop offset="0" stopColor={a} /><Stop offset="1" stopColor={b} /></LinearGradient></Defs>
+      <Rect x="0" y="0" width="100%" height="100%" fill="url(#tg)" />
+    </Svg>
   );
 }
 
@@ -106,6 +120,7 @@ function Slide({ leaving, covered, onGone, children }: { leaving: boolean; cover
     <Animated.View pointerEvents={leaving || covered ? 'none' : 'auto'}
       style={[StyleSheet.absoluteFill, { backgroundColor: C.bg, transform: [{ translateX: Animated.add(x, dim.interpolate({ inputRange: [0, 1], outputRange: [0, -width * 0.18] })) }] },
         { shadowColor: '#000', shadowOpacity: 0.18, shadowRadius: 12, elevation: 8 }]}>
+      <ThemeBg />
       {children}
       <Animated.View pointerEvents="none" style={[StyleSheet.absoluteFill, { backgroundColor: '#000', opacity: dim.interpolate({ inputRange: [0, 1], outputRange: [0, 0.12] }) }]} />
     </Animated.View>

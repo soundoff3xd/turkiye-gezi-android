@@ -37,7 +37,7 @@ export default function TripScreen({ shared }: { shared?: string[] }) {
   const total = items.reduce((a, p, i) => a + (i ? meters(items[i - 1].lat, items[i - 1].lng, p.lat, p.lng) : 0), 0);
 
   return (
-    <View style={{ flex: 1, backgroundColor: C.bg }}>
+    <View style={{ flex: 1, backgroundColor: C.screen }}>
       <Header onBack={pop} title={t('Gezi listem')} right={items.length ? (
         <Pressable onPress={() => { trip.clear(); toast('Gezi listen temizlendi'); }} hitSlop={8} accessibilityRole="button"><Text style={{ color: C.muted, fontWeight: '700' }}>{t('Temizle')}</Text></Pressable>
       ) : undefined} />

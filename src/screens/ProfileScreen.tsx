@@ -65,9 +65,9 @@ export default function ProfileScreen() {
   };
 
   return (
-    <View style={{ flex: 1, backgroundColor: C.bg }}>
+    <View style={{ flex: 1, backgroundColor: C.screen }}>
     <Header onBack={pop} title={t('Profilim')} />
-    {!ready ? <SkeletonPage /> : <ScrollView style={{ flex: 1, backgroundColor: C.bg }} contentContainerStyle={{ padding: 16, paddingBottom: insets.bottom + 28 }}>
+    {!ready ? <SkeletonPage /> : <ScrollView style={{ flex: 1, backgroundColor: C.screen }} contentContainerStyle={{ padding: 16, paddingBottom: insets.bottom + 28 }}>
       <View style={{ flexDirection: 'row', alignItems: 'center', gap: 16 }}>
         <Pressable onPress={photoMenu} disabled={busy} accessibilityRole="button" accessibilityLabel={me.av ? t('Profil fotoğrafını değiştir') : t('Profil fotoğrafı ekle')} style={{ opacity: busy ? 0.5 : 1 }}>
           <Avatar name={me.name} url={me.av} size={76} />

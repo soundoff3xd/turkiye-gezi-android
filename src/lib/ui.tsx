@@ -26,7 +26,9 @@ export type Route =
   | { name: 'privacy' }
   | { name: 'theme' }
   | { name: 'paint' }
-  | { name: 'inbox' };
+  | { name: 'inbox' }
+  | { name: 'journals' }
+  | { name: 'journal'; id: string };
 export type MapFocus = { id?: string; lat?: number; lng?: number; ts: number } | null;
 
 /* Gezinme iki parça: eylemler (hiç değişmez) ve durum (sekme, yığın, harita odağı).

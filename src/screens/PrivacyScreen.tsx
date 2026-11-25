@@ -15,7 +15,7 @@ export default function PrivacyScreen({ onClose }: { onClose?: () => void }) {
   let date = PRIVACY_DATE;
   try { date = new Date(PRIVACY_DATE + 'T12:00:00').toLocaleDateString(lang, { day: 'numeric', month: 'long', year: 'numeric' }); } catch { /* */ }
   return (
-    <View style={{ flex: 1, backgroundColor: C.bg }}>
+    <View style={{ flex: 1, backgroundColor: C.screen }}>
       <Header onBack={onClose || (() => nav?.pop())} title={t('Gizlilik ve KVKK')} />
       <ScrollView contentContainerStyle={{ padding: 18, paddingBottom: insets.bottom + 30 }}>
         <Text style={{ color: C.ink, fontSize: 16, lineHeight: 23 }}>{t('Türkiye Gezi Rehberi’ni kullanırken bilgilerinin nasıl işlendiğini burada sade bir dille anlatıyoruz.')}</Text>

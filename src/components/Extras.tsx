@@ -1,10 +1,18 @@
-import React from 'react';
-import { Text, View } from 'react-native';
+import React, { useEffect, useMemo, useState } from 'react';
+import { Image, Linking, Pressable, Text, View } from 'react-native';
 import { useT } from '../i18n';
 import { b } from './common';
 import { bestMonths, inSeason, monthsText } from '../lib/season';
 import { dishesOf } from '../data/dishes';
-import type { Place } from '../data/catalog';
+import { fold, type Place } from '../data/catalog';
+import { photoOf } from '../data/photos';
+import { MARKER_IMAGES } from '../data/markers';
+import { useStore } from '../lib/store';
+import { supabase } from '../lib/supabase';
+import { useLocation } from '../lib/location';
+import { useNav } from '../lib/ui';
+import { getWeather, wmo } from './Weather';
+import { WX_TEXT, weatherPicks, wxMode } from '../lib/weatherpick';
 import { C, R } from '../theme';
 
 /* "En iyi zaman" kutusu; şu an mevsimiyse rozet */
@@ -46,6 +54,117 @@ export function Dishes({ il, title }: { il: string; title?: boolean }) {
           {lang !== 'tr' ? <Text style={{ color: C.muted }}>{` — ${en}`}</Text> : null}
         </Text>
       ))}
+    </View>
+  );
+}
+
+/* Yerin kapak fotoğrafı (Wikimedia Commons) + fotoğrafçı ve lisans; dokununca Commons sayfası açılır */
+export function PlaceHero({ id, width, height, radius = 0, credit = true }: { id: string; width: number; height: number; radius?: number; credit?: boolean }) {
+  const ph = photoOf(id);
+  if (!ph) return null;
+  return (
+    <View>
+      <Image source={{ uri: ph.url(width * 2) }} style={{ width, height, borderRadius: radius, backgroundColor: C.line }} resizeMode="cover" accessibilityIgnoresInvertColors />
+      {credit && (
+        <Pressable onPress={() => Linking.openURL(ph.page).catch(() => {})} hitSlop={6} accessibilityRole="link">
+          <Text style={{ color: C.muted, fontSize: 11, marginTop: 4 }} numberOfLines={1}>{`📷 ${ph.author} · ${ph.license} · Wikimedia Commons`}</Text>
+        </Pressable>
+      )}
+    </View>
+  );
+}
+/* listelerde küçük görsel: fotoğraf yoksa kategori simgesi */
+export function PlaceThumb({ p, size = 56 }: { p: Place; size?: number }) {
+  const ph = photoOf(p.id);
+  const icon = (MARKER_IMAGES as Record<string, any>)[`cat_${p.c}`];
+  return ph
+    ? <Image source={{ uri: ph.url(size * 3) }} style={{ width: size, height: size, borderRadius: R.sm, backgroundColor: C.line }} />
+    : <View style={{ width: size, height: size, borderRadius: R.sm, backgroundColor: C.soft, alignItems: 'center', justifyContent: 'center' }}>
+        {icon ? <Image source={icon} style={{ width: size * 0.6, height: size * 0.6 }} resizeMode="contain" /> : null}
+      </View>;
+}
+
+/* Keşfet: bugünün havasına göre yakındaki öneriler (konum izni varsa) */
+export function WeatherPicks() {
+  const { t, num } = useT();
+  const { places, stats } = useStore();
+  const { pos, request } = useLocation();
+  const { push } = useNav();
+  const [w, setW] = useState<{ t: number; c: number } | null>(null);
+  useEffect(() => {
+    if (!pos) return; let live = true;
+    getWeather(pos.lat, pos.lng).then((x) => { if (live) setW(x.now); }).catch(() => {});
+    return () => { live = false; };
+  }, [pos?.lat.toFixed(1), pos?.lng.toFixed(1)]); // eslint-disable-line
+  const mode = w ? wxMode(w.c, w.t) : null;
+  const picks = useMemo(() => (pos && mode ? weatherPicks(places, stats, pos, mode) : []), [pos?.lat.toFixed(2), pos?.lng.toFixed(2), mode, places]); // eslint-disable-line
+  if (!pos) {
+    return (
+      <Pressable onPress={() => request().catch(() => {})} style={[b.box, { flexDirection: 'row', alignItems: 'center', gap: 10 }]} accessibilityRole="button">
+        <Text style={{ fontSize: 20 }}>🌤</Text><Text style={{ color: C.ink, fontWeight: '700', flex: 1 }}>{t('Konumuna göre bugünün önerileri')}</Text><Text style={{ color: C.muted }}>›</Text>
+      </Pressable>
+    );
+  }
+  if (!w || !picks.length) return null;
+  const [ic] = wmo(w.c);
+  return (
+    <View style={b.box}>
+      <Text style={b.boxH}>{`${ic} ${num(Math.round(w.t))}° · ${t('Bugün için öneriler')}`}</Text>
+      <Text style={{ color: C.ink, fontWeight: '700' }}>{t(WX_TEXT[mode!])}</Text>
+      <View style={{ flexDirection: 'row', flexWrap: 'wrap', gap: 10, marginTop: 10 }}>
+        {picks.map(({ p, km }) => (
+          <Pressable key={p.id} onPress={() => push({ name: 'place', id: p.id })} style={{ width: '22%', minWidth: 72 }} accessibilityRole="button">
+            <PlaceThumb p={p} size={72} />
+            <Text style={{ color: C.ink, fontSize: 12, fontWeight: '700', marginTop: 4 }} numberOfLines={2}>{p.n}</Text>
+            <Text style={{ color: C.muted, fontSize: 11 }}>{`${num(Math.max(1, Math.round(km)))} km`}</Text>
+          </Pressable>
+        ))}
+      </View>
+    </View>
+  );
+}
+
+/* Yakında ne yenir: yerin çevresindeki lokanta ve kafeler (OpenStreetMap). İlin yöresel lezzetlerinden birini sunan "Yöresel" rozeti alır. */
+const CUISINE: Record<string, string> = {
+  turkish: 'Türk mutfağı', kebab: 'Kebap', regional: 'Yöresel', fish: 'Balık', seafood: 'Balık', pizza: 'Pizza', burger: 'Burger',
+  coffee_shop: 'Kahve', breakfast: 'Kahvaltı', pide: 'Pide', dessert: 'Tatlı', ice_cream: 'Dondurma', italian: 'İtalyan', chinese: 'Çin mutfağı',
+  vegetarian: 'Vejetaryen', vegan: 'Vegan', meat: 'Et', steak_house: 'Et', sandwich: 'Sandviç', bakery: 'Fırın', tea: 'Çay', international: 'Dünya mutfağı',
+};
+const KIND: Record<string, string> = { restaurant: 'Restoran', cafe: 'Kafe', fast_food: 'Hızlı yemek' };
+type Food = { n: string; k: string; c: string; lat: number; lng: number; d: number };
+export function NearbyFood({ p }: { p: Place }) {
+  const { t, num } = useT();
+  const [items, setItems] = useState<Food[] | null>(null);
+  const [err, setErr] = useState(false);
+  useEffect(() => {
+    let live = true; setItems(null); setErr(false);
+    supabase.functions.invoke('food', { body: { place_id: p.id } })
+      .then((r: any) => { if (!live) return; if (r.error || !r.data?.items) setErr(true); else setItems(r.data.items); })
+      .catch(() => live && setErr(true));
+    return () => { live = false; };
+  }, [p.id]);
+  const local = useMemo(() => dishesOf(p.il).map(([tr]) => fold(tr).split(' ')[0]).filter((w) => w.length >= 4), [p.il]);
+  if (err || (items && !items.length)) return null;
+  const open = (f: Food) => Linking.openURL(`geo:${f.lat},${f.lng}?q=${f.lat},${f.lng}(${encodeURIComponent(f.n)})`)
+    .catch(() => Linking.openURL(`https://www.google.com/maps/search/?api=1&query=${f.lat},${f.lng}`).catch(() => {}));
+  return (
+    <View style={b.box}>
+      <Text style={b.boxH}>{`🍽 ${t('Yakında ne yenir')}`}</Text>
+      {!items ? <Text style={{ color: C.muted }}>{t('Yükleniyor…')}</Text> : items.slice(0, 8).map((f, i) => {
+        const tags = f.c.split(';').map((x) => CUISINE[x.trim()]).filter(Boolean);
+        const isLocal = local.some((w) => fold(`${f.n} ${f.c}`).includes(w)) || f.c.includes('regional');
+        return (
+          <Pressable key={i} onPress={() => open(f)} accessibilityRole="link" style={{ flexDirection: 'row', alignItems: 'center', gap: 8, paddingVertical: 7, borderTopWidth: i ? 1 : 0, borderTopColor: C.line }}>
+            <View style={{ flex: 1 }}>
+              <Text style={{ color: C.ink, fontWeight: '700' }} numberOfLines={1}>{f.n}</Text>
+              <Text style={{ color: C.muted, fontSize: 12.5 }} numberOfLines={1}>{[t(KIND[f.k] || 'Restoran'), ...tags.map((x) => t(x))].join(' · ')}</Text>
+            </View>
+            {isLocal && <View style={{ backgroundColor: C.soft, borderRadius: R.pill, paddingHorizontal: 8, paddingVertical: 2 }}><Text style={{ color: C.accent, fontSize: 11.5, fontWeight: '800' }}>{t('Yöresel')}</Text></View>}
+            <Text style={{ color: C.muted, fontSize: 12.5 }}>{f.d < 1000 ? `${num(f.d)} m` : `${num(f.d / 1000, 1)} km`}</Text>
+          </Pressable>
+        );
+      })}
+      <Text style={[b.fine, { marginTop: 6 }]}>{t('Kaynak: OpenStreetMap katkıcıları. Açılış saatlerini gitmeden önce kontrol et.')}</Text>
     </View>
   );
 }

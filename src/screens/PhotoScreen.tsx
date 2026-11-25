@@ -22,7 +22,7 @@ export default function PhotoScreen({ id }: { id: string }) {
   const ph = photos.find((x) => x.id === id);
   if (!ph) {
     return (
-      <View style={{ flex: 1, backgroundColor: C.bg }}>
+      <View style={{ flex: 1, backgroundColor: C.screen }}>
         <Header onBack={pop} />
         <Empty title={t('Bu fotoğraf artık yok.')} />
       </View>

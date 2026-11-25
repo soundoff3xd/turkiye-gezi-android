@@ -73,12 +73,15 @@ export function Empty({ title, note, action, onAction }: { title: string; note?:
 }
 
 /* liste satırı: ad, il · kategori, puan ve sayılar */
+// Extras common'u içe aktarıyor; döngüyü kırmak için burada geç yüklenir
+function PlaceThumb(props: { p: Place; size?: number }) { const X = require('./Extras'); return <X.PlaceThumb {...props} />; }
 export function PlaceRow({ p, onPress, hot, dist }: { p: Place; onPress: () => void; hot?: string; dist?: string }) {
   const { t, num } = useT();
   const { stats } = useStore();
   const s = stats(p.id);
   return (
     <Pressable onPress={onPress} style={({ pressed }) => [b.row, pressed && { backgroundColor: C.line }]} accessibilityRole="button">
+      <View style={{ marginRight: 12 }}><PlaceThumb p={p} /></View>
       <View style={{ flex: 1 }}>
         <Text style={b.rowN}>{p.n}</Text>
         <Text style={b.rowM}>{`${p.il} · ${t(catName(p.c))}`}{dist ? <Text style={[b.rowM, hot === 'near' && b.hot]}>{`  ·  📍 ${dist}`}</Text> : null}</Text>
@@ -102,13 +105,13 @@ export const b = StyleSheet.create({
   chip: { backgroundColor: C.surface, borderRadius: R.pill, paddingHorizontal: 15, paddingVertical: 9, borderWidth: 1, borderColor: C.chipLine },
   chipOn: { backgroundColor: C.solid, borderColor: C.solid },
   chipTxt: { color: C.ink, fontSize: 14, fontWeight: '600' },
-  header: { flexDirection: 'row', alignItems: 'center', paddingHorizontal: 8, paddingBottom: 8, backgroundColor: C.bg, borderBottomWidth: StyleSheet.hairlineWidth, borderBottomColor: C.line, gap: 6 },
+  header: { flexDirection: 'row', alignItems: 'center', paddingHorizontal: 8, paddingBottom: 8, backgroundColor: C.screen, borderBottomWidth: StyleSheet.hairlineWidth, borderBottomColor: C.line, gap: 6 },
   back: { width: 40, height: 40, borderRadius: 20, alignItems: 'center', justifyContent: 'center' },
   htitle: { flex: 1, fontSize: 18, fontWeight: '800', color: C.ink },
   empty: { backgroundColor: C.surface, borderRadius: R.md, borderWidth: 1, borderColor: C.line, padding: 18, alignItems: 'center', marginTop: 12 },
   emptyT: { fontSize: 16, fontWeight: '800', color: C.ink, textAlign: 'center' },
   note: { color: C.muted, fontSize: 13.5, lineHeight: 19, marginTop: 6, textAlign: 'center' },
-  row: { flexDirection: 'row', alignItems: 'center', paddingVertical: 13, paddingHorizontal: 16, borderBottomWidth: StyleSheet.hairlineWidth, borderBottomColor: C.line, backgroundColor: C.bg },
+  row: { flexDirection: 'row', alignItems: 'center', paddingVertical: 13, paddingHorizontal: 16, borderBottomWidth: StyleSheet.hairlineWidth, borderBottomColor: C.line, backgroundColor: C.screen },
   rowN: { fontSize: 16.5, fontWeight: '800', color: C.ink },
   rowM: { fontSize: 13.5, color: C.muted, marginTop: 2 },
   rowS: { flexDirection: 'row', flexWrap: 'wrap', alignItems: 'center', gap: 4, marginTop: 4 },

@@ -13,6 +13,7 @@ import { forYouGroups, usePrefs } from '../lib/prefs';
 import AccountMenu from '../components/AccountMenu';
 import { SkeletonRows, useDeferred } from '../components/Anim';
 import { inSeason } from '../lib/season';
+import { WeatherPicks } from '../components/Extras';
 import { useTrip } from '../lib/trip';
 
 type Sort = SortKey | 'near';
@@ -113,6 +114,7 @@ export default function ExploreScreen() {
         </Pressable>
       </View>
 
+      <WeatherPicks />
       <Text style={[b.boxH, { marginTop: 18 }]}>{t('Sırala')}</Text>
       <View style={{ flexDirection: 'row', flexWrap: 'wrap', gap: 8 }}>
         {ALL_SORTS.map(([k, l]) => (
@@ -152,7 +154,7 @@ export default function ExploreScreen() {
 
   return (
     <FlatList
-      style={{ flex: 1, backgroundColor: C.bg }}
+      style={{ flex: 1, backgroundColor: C.screen }}
       data={ready ? rows : []}
       initialNumToRender={14}
       windowSize={9}

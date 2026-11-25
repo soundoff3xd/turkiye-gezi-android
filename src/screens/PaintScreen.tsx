@@ -60,7 +60,7 @@ export default function PaintScreen() {
 
   const visitedIl = Object.entries(per).sort((a, b2) => b2[1] - a[1]);
   return (
-    <View style={{ flex: 1, backgroundColor: C.bg }}>
+    <View style={{ flex: 1, backgroundColor: C.screen }}>
       <Header onBack={pop} title={t('Türkiye haritam')} />
       <ScrollView contentContainerStyle={{ padding: 16, paddingBottom: insets.bottom + 30 }}>
         <View ref={card} collapsable={false} style={{ backgroundColor: C.surface, borderRadius: R.lg, padding: 16, borderWidth: 1, borderColor: C.line }}>

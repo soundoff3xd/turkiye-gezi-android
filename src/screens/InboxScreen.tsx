@@ -34,7 +34,7 @@ export default function InboxScreen() {
     push({ name: 'place', id: n.place_id, tab: n.kind === 'photo_like' ? 'pho' : n.kind === 'approved' ? 'ov' : 'rev' });
   };
   return (
-    <View style={{ flex: 1, backgroundColor: C.bg }}>
+    <View style={{ flex: 1, backgroundColor: C.screen }}>
       <Header onBack={pop} title={t('Bildirimler')} right={<Pressable onPress={load} hitSlop={8} accessibilityLabel={t('Yenile')}><Text style={{ color: C.accent, fontWeight: '800' }}>↻</Text></Pressable>} />
       <ScrollView contentContainerStyle={{ padding: 16, paddingBottom: insets.bottom + 30 }}>
         {list == null ? <ActivityIndicator color={C.accent} style={{ marginTop: 30 }} />

@@ -36,7 +36,7 @@ export default function OnboardingScreen() {
   const [picked, setPicked] = useState<string[]>([]);
 
   return (
-    <View style={{ flex: 1, backgroundColor: C.bg, paddingTop: insets.top + 8 }}>
+    <View style={{ flex: 1, backgroundColor: C.screen, paddingTop: insets.top + 8 }}>
       <View style={s.top}>
         <View style={{ flexDirection: 'row', gap: 6 }}>
           {[0, 1].map((i) => <View key={i} style={[s.dot, step === i && s.dotOn]} />)}
@@ -89,7 +89,7 @@ export function InterestsScreen() {
   const toast = useToast();
   const [picked, setPicked] = useState<string[]>(interests);
   return (
-    <View style={{ flex: 1, backgroundColor: C.bg }}>
+    <View style={{ flex: 1, backgroundColor: C.screen }}>
       <Header onBack={pop} title={t('İlgi alanlarım')} />
       <ScrollView contentContainerStyle={{ padding: 20 }}>
         <Text style={s.lead}>{t('Sana uygun yerleri öne çıkaralım. Birden fazla seçebilirsin.')}</Text>

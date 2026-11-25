@@ -73,7 +73,7 @@ export default function SuggestScreen() {
   );
 
   return (
-    <KeyboardAvoidingView style={{ flex: 1, backgroundColor: C.bg }} behavior={Platform.OS === 'ios' ? 'padding' : undefined}>
+    <KeyboardAvoidingView style={{ flex: 1, backgroundColor: C.screen }} behavior={Platform.OS === 'ios' ? 'padding' : undefined}>
       <Header onBack={pop} title={t('Yer öner')} />
       <ScrollView contentContainerStyle={{ padding: 18, paddingBottom: insets.bottom + 30 }} keyboardShouldPersistTaps="handled">
         <Text style={{ color: C.muted, lineHeight: 20 }}>{t('Önerin otomatik kontrollerden geçer, sonra {1} kullanıcı onaylayınca haritaya eklenir. Şikâyet alan öneriler moderatöre gider.', NEED)}</Text>
@@ -147,7 +147,7 @@ function PickMap({ initial, onPick, onCancel }: { initial: Pt | null; onPick: (p
   }
   const data = useMemo<GeoJSON.FeatureCollection>(() => ({ type: 'FeatureCollection', features: p ? [{ type: 'Feature', properties: {}, geometry: { type: 'Point', coordinates: [p.lng, p.lat] } }] : [] }), [p]);
   return (
-    <View style={{ flex: 1, backgroundColor: C.bg }}>
+    <View style={{ flex: 1, backgroundColor: C.screen }}>
       <Header onBack={onCancel} title={t('Konumu işaretle')} />
       <View style={{ flex: 1 }}>
         <Map style={{ flex: 1 }} mapStyle={MAP_STYLE} touchRotate={false} touchPitch={false} compass={false} logo={false}
@@ -174,7 +174,7 @@ function PickMap({ initial, onPick, onCancel }: { initial: Pt | null; onPick: (p
 function ListPick({ title, items, value, onPick, onClose }: { title: string; items: [string, string][]; value: string; onPick: (v: string) => void; onClose: () => void }) {
   const insets = useSafeAreaInsets();
   return (
-    <View style={{ flex: 1, backgroundColor: C.bg }}>
+    <View style={{ flex: 1, backgroundColor: C.screen }}>
       <Header onBack={onClose} title={title} />
       <FlatList data={items} keyExtractor={([k]) => k} contentContainerStyle={{ paddingBottom: insets.bottom + 20 }}
         renderItem={({ item: [k, l] }) => k.startsWith('#') ? (

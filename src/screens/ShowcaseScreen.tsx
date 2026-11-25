@@ -29,7 +29,7 @@ export default function ShowcaseScreen() {
 
   const ready = useDeferred(40);
   return (
-    <ScrollView style={{ flex: 1, backgroundColor: C.bg }} contentContainerStyle={{ padding: 16, paddingTop: insets.top + 12, paddingBottom: insets.bottom + 90 }}>
+    <ScrollView style={{ flex: 1, backgroundColor: C.screen }} contentContainerStyle={{ padding: 16, paddingTop: insets.top + 12, paddingBottom: insets.bottom + 90 }}>
       <View style={{ flexDirection: 'row', alignItems: 'center', justifyContent: 'space-between', gap: 10 }}>
         <Text style={[b.h2, { fontSize: 26, flexShrink: 1 }]} accessibilityRole="header">{t('Fotoğraf vitrini')}</Text>
         <AccountMenu size={44} top={insets.top + 60} />

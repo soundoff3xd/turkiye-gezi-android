@@ -46,7 +46,7 @@ export default function AuthScreen() {
   }
 
   return (
-    <KeyboardAvoidingView style={{ flex: 1, backgroundColor: C.bg }} behavior={Platform.OS === 'ios' ? 'padding' : undefined}>
+    <KeyboardAvoidingView style={{ flex: 1, backgroundColor: C.screen }} behavior={Platform.OS === 'ios' ? 'padding' : undefined}>
       <ScrollView contentContainerStyle={[s.wrap, { paddingTop: insets.top + 16, paddingBottom: insets.bottom + 24 }]} keyboardShouldPersistTaps="handled">
         <Pressable onPress={() => setLangOpen(true)} style={s.langBtn} accessibilityRole="button" accessibilityLabel={t('Dil')}>
           <Text style={{ color: C.ink, fontWeight: '700' }}>{`🌐 ${LANGS[lang]}`}</Text>

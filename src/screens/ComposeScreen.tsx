@@ -40,7 +40,7 @@ export default function ComposeScreen({ id }: { id: string }) {
   }
 
   return (
-    <KeyboardAvoidingView style={{ flex: 1, backgroundColor: C.bg }} behavior={Platform.OS === 'ios' ? 'padding' : undefined}>
+    <KeyboardAvoidingView style={{ flex: 1, backgroundColor: C.screen }} behavior={Platform.OS === 'ios' ? 'padding' : undefined}>
       <Header onBack={pop} title={t('Deneyimini paylaş')} />
       <ScrollView contentContainerStyle={{ padding: 18, paddingBottom: insets.bottom + 30 }} keyboardShouldPersistTaps="handled">
         <Text style={b.h2}>{p?.n}</Text>

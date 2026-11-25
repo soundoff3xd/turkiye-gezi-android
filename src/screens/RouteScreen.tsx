@@ -77,12 +77,12 @@ export default function RouteScreen({ id, ids }: { id?: string; ids?: string[] }
     ] as any,
   }), [origin, stops, multi]);
 
-  if (!stops.length) return <View style={{ flex: 1, backgroundColor: C.bg }}><Header onBack={pop} /><Empty title={t('Bu yer bulunamadı.')} /></View>;
+  if (!stops.length) return <View style={{ flex: 1, backgroundColor: C.screen }}><Header onBack={pop} /><Empty title={t('Bu yer bulunamadı.')} /></View>;
   const xs = [...stops.map((p) => p.lng), ...(origin ? [origin.lng] : [])], ys = [...stops.map((p) => p.lat), ...(origin ? [origin.lat] : [])];
   const canNav = !!origin && mode !== 'transit' && !!route;
 
   return (
-    <View style={{ flex: 1, backgroundColor: C.bg }}>
+    <View style={{ flex: 1, backgroundColor: C.screen }}>
       <Header onBack={pop} title={multi ? `${t('Yol tarifi')} · ${t('{1} durak', num(stops.length))}` : `${t('Yol tarifi')} · ${last.n}`} />
       <View style={{ height: '40%' }}>
         <Map style={{ flex: 1 }} mapStyle={MAP_STYLE} touchRotate={false} touchPitch={false} compass={false} logo={false}>
