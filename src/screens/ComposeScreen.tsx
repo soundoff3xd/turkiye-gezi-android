@@ -5,7 +5,7 @@ import { useT } from '../i18n';
 import { useStore } from '../lib/store';
 import { trError } from '../lib/auth';
 import { pickImage, type Picked } from '../lib/images';
-import { useNav, useToast } from '../lib/ui';
+import { useNav, useNavState, useToast } from '../lib/ui';
 import { Btn, Header, b } from '../components/common';
 import { C, R } from '../theme';
 
@@ -14,7 +14,8 @@ export default function ComposeScreen({ id }: { id: string }) {
   const { t } = useT();
   const insets = useSafeAreaInsets();
   const { byId, addReview } = useStore();
-  const { pop, stack, push } = useNav();
+  const { pop, push } = useNav();
+  const { stack } = useNavState();
   const toast = useToast();
   const [rating, setRating] = useState(0);
   const [text, setText] = useState('');

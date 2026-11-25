@@ -5,7 +5,7 @@ import { useT } from '../i18n';
 import { useStore } from '../lib/store';
 import { trError } from '../lib/auth';
 import { useNav, useToast } from '../lib/ui';
-import { Avatar, Chip, Empty, b } from '../components/common';
+import { Avatar, Chip, Empty, b, Btn } from '../components/common';
 import AccountMenu from '../components/AccountMenu';
 import { SkeletonGrid, useDeferred } from '../components/Anim';
 import { C, R } from '../theme';
@@ -18,6 +18,7 @@ export default function ShowcaseScreen() {
   const { push, setTab } = useNav();
   const toast = useToast();
   const [sort, setSort] = useState<'top' | 'new'>('top');
+  const [limit, setLimit] = useState(24);   // fotoğraflar 24'er 24'er yüklenir
 
   const list = useMemo(() => photos.slice().sort((a, b) => (sort === 'top' ? (b.likes - a.likes) || b.at.localeCompare(a.at) : b.at.localeCompare(a.at))), [photos, sort]);
   const people = useMemo(() => {
@@ -35,13 +36,13 @@ export default function ShowcaseScreen() {
       </View>
       <Text style={{ color: C.muted, marginTop: 4, lineHeight: 20 }}>{t('Gezginlerin çektiği en güzel kareler. Beğendiğin fotoğrafa kalp bırak.')}</Text>
       <View style={{ flexDirection: 'row', gap: 8, marginTop: 12 }}>
-        <Chip label={t('En çok beğenilen')} on={sort === 'top'} onPress={() => setSort('top')} />
-        <Chip label={t('En yeni')} on={sort === 'new'} onPress={() => setSort('new')} />
+        <Chip label={t('En çok beğenilen')} on={sort === 'top'} onPress={() => { setSort('top'); setLimit(24); }} />
+        <Chip label={t('En yeni')} on={sort === 'new'} onPress={() => { setSort('new'); setLimit(24); }} />
       </View>
 
       {!ready ? <View style={{ marginHorizontal: -16 }}><SkeletonGrid /></View> : list.length ? (
         <View style={{ flexDirection: 'row', flexWrap: 'wrap', gap: 10, marginTop: 14 }}>
-          {list.map((ph, i) => {
+          {list.slice(0, limit).map((ph, i) => {
             const p = byId(ph.pid), on = plikes.has(ph.rid);
             return (
               <View key={ph.id} style={{ width: '48.4%', backgroundColor: C.surface, borderRadius: R.md, overflow: 'hidden', borderWidth: 1, borderColor: C.line }}>
@@ -66,6 +67,7 @@ export default function ShowcaseScreen() {
               </View>
             );
           })}
+          {list.length > limit && <Btn label={t('Daha fazla göster')} onPress={() => setLimit(limit + 24)} style={{ width: '100%' }} />}
         </View>
       ) : (
         <Empty title={t('Henüz fotoğraf yok')} note={t('Bir yerin kartından yorum yazarken fotoğraf ekle; en çok beğenilenler burada öne çıkar.')} action={t('Yerlere göz at')} onAction={() => setTab('explore')} />

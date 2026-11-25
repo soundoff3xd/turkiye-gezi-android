@@ -47,21 +47,36 @@ export default function ExploreScreen() {
   const [reg, setReg] = useState(-1);
   const [now, setNow] = useState(false);
 
-  const match = (p: typeof places[number], ignoreSub = false, ignoreCat = false) => {
-    const f = fold(q.trim());
-    return (reg < 0 || p.r === reg) && (!now || inSeason(p)) && (ignoreCat || inCat(p.c, cat)) && (ignoreSub || sub === 'all' || p.c === sub)
-      && (!f || fold(`${p.n} ${p.il} ${p.semt || ''} ${catName(p.c)} ${t(catName(p.c))}`).includes(f));
-  };
+  // her yerin arama metni bir kez hazırlanır (her tuşta 1340 yeri yeniden sadeleştirmemek için)
+  const hay = useMemo(() => new Map(places.map((p) => [p.id, fold(`${p.n} ${p.il} ${p.semt || ''} ${catName(p.c)} ${t(catName(p.c))}`)])), [places, t]);
+  const seasonOk = useMemo(() => new Set(places.filter((p) => inSeason(p)).map((p) => p.id)), [places]);
+  const fq = fold(q.trim());
+  const match = (p: typeof places[number], ignoreSub = false, ignoreCat = false) =>
+    (reg < 0 || p.r === reg) && (!now || seasonOk.has(p.id)) && (ignoreCat || inCat(p.c, cat)) && (ignoreSub || sub === 'all' || p.c === sub)
+      && (!fq || (hay.get(p.id) || '').includes(fq));
+  const showDist = sort === 'near' || !!pos;
   const rows = useMemo(() => {
     const cmp: Record<Sort, (a: any, b: any) => number> = {
       near: (a, b) => (a.d ?? 1e12) - (b.d ?? 1e12),
       visits: (a, b) => b.s.visits - a.s.visits, favs: (a, b) => b.s.favs - a.s.favs,
       rating: (a, b) => (b.s.rating - a.s.rating) || (b.s.count - a.s.count), reviews: (a, b) => b.s.count - a.s.count,
     };
-    return places.filter((p) => match(p)).map((p) => ({ p, s: stats(p.id), d: distTo(p.lat, p.lng) })).sort(cmp[sort]);
+    return places.filter((p) => match(p)).map((p) => ({ p, s: stats(p.id), d: showDist ? distTo(p.lat, p.lng) : null })).sort(cmp[sort]);
     // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [places, stats, q, sort, cat, sub, reg, now, t, distTo, mineG]);
-  const groupCount = (g: string) => places.filter((p) => match(p, true, true) && inCat(p.c, g)).length;
+  }, [places, stats, fq, sort, cat, sub, reg, now, hay, showDist ? distTo : null, mineG]);
+  // kategori ve alt kategori sayıları: yalnızca filtreler değişince hesaplanır
+  const counts = useMemo(() => {
+    const g: Record<string, number> = {}, c: Record<string, number> = {};
+    places.forEach((p) => {
+      if (!match(p, true, true)) return;
+      const gr = groupOf(p.c); g[gr] = (g[gr] || 0) + 1; g.all = (g.all || 0) + 1;
+      if (mineG.has(gr)) g.foryou = (g.foryou || 0) + 1;
+      if (inCat(p.c, cat)) c[p.c] = (c[p.c] || 0) + 1;
+    });
+    return { g, c };
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [places, fq, reg, now, hay, cat, mineG]);
+  const groupCount = (g: string) => counts.g[g] || 0;
   const subs = cat === 'all' || cat === 'foryou' ? [] : Object.entries(SUBS).filter(([, v]) => v[0] === cat);
   const waiting = sugg.filter((g) => g.state === 'wait' || g.state === 'mod').length;
 
@@ -124,7 +139,7 @@ export default function ExploreScreen() {
       {subs.length > 0 && (
         <ScrollView horizontal showsHorizontalScrollIndicator={false} contentContainerStyle={{ gap: 8, paddingVertical: 10 }}>
           <Chip label={t('Tümü')} on={sub === 'all'} onPress={() => setSub('all')} />
-          {subs.map(([k, v]) => <Chip key={k} label={t(v[1])} on={sub === k} onPress={() => setSub(k)} count={places.filter((p) => match(p, true) && p.c === k).length} />)}
+          {subs.map(([k, v]) => <Chip key={k} label={t(v[1])} on={sub === k} onPress={() => setSub(k)} count={counts.c[k] || 0} />)}
         </ScrollView>
       )}
       <ScrollView horizontal showsHorizontalScrollIndicator={false} contentContainerStyle={{ gap: 8, paddingVertical: 10 }}>

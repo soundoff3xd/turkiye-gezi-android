@@ -37,8 +37,9 @@ export function level(points: number) {
 }
 
 /* Türkçe karakterleri sadeleştirerek arama: "goreme" → "Göreme" */
-export const fold = (s: string) =>
-  s.toLocaleLowerCase('tr').replace(/ı/g, 'i').replace(/i̇/g, 'i').replace(/ş/g, 's').replace(/ç/g, 'c').replace(/ğ/g, 'g').replace(/ö/g, 'o').replace(/ü/g, 'u').replace(/â/g, 'a');
+/* arama için sadeleştirme (Türkçe harfler → düz harf, küçük harf). toLocaleLowerCase('tr') Android'de çok yavaş olduğu için elle yapılır */
+const FOLD: Record<string, string> = { ı: 'i', İ: 'i', I: 'i', ş: 's', Ş: 's', ç: 'c', Ç: 'c', ğ: 'g', Ğ: 'g', ö: 'o', Ö: 'o', ü: 'u', Ü: 'u', â: 'a', Â: 'a', î: 'i', Î: 'i', û: 'u', Û: 'u', '\u0307': '' };
+export const fold = (s: string) => s.replace(/[ıİIşŞçÇğĞöÖüÜâÂîÎûÛ\u0307]/g, (c) => FOLD[c]).toLowerCase();
 export const BAD_WORDS = ['amk', 'aq', 'siktir', 'orospu', 'piç', 'pic', 'yarrak', 'göt', 'salak', 'aptal', 'gerizekal'];
 
 /* coğrafya: 81 il ve Türkiye sınırı (web sitesindeki haritadan) */

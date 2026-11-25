@@ -1,4 +1,4 @@
-import React, { createContext, useCallback, useContext, useEffect, useRef, useState } from 'react';
+import React, { createContext, useCallback, useMemo, useContext, useEffect, useRef, useState } from 'react';
 import { AppState } from 'react-native';
 import * as Location from 'expo-location';
 import { meters } from '../data/catalog';
@@ -57,7 +57,8 @@ export function LocationProvider({ children }: { children: React.ReactNode }) {
   }, [start]);
 
   const distTo = useCallback((lat: number, lng: number) => (pos ? meters(pos.lat, pos.lng, lat, lng) : null), [pos]);
-  return <LocCtx.Provider value={{ pos, status, request, distTo }}>{children}</LocCtx.Provider>;
+  const value = useMemo(() => ({ pos, status, request, distTo }), [pos, status, request, distTo]);
+  return <LocCtx.Provider value={value}>{children}</LocCtx.Provider>;
 }
 
 /* 850 m · 4,2 km · 128 km */

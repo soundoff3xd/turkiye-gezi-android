@@ -1,4 +1,4 @@
-import React, { createContext, useCallback, useContext, useEffect, useRef, useState } from 'react';
+import React, { createContext, useCallback, useContext, useEffect, useMemo, useRef, useState } from 'react';
 import { BackHandler, StyleSheet, Text, View } from 'react-native';
 import { useSafeAreaInsets } from 'react-native-safe-area-context';
 import { useT } from '../i18n';
@@ -29,13 +29,17 @@ export type Route =
   | { name: 'inbox' };
 export type MapFocus = { id?: string; lat?: number; lng?: number; ts: number } | null;
 
-type Nav = {
-  tab: Tab; setTab: (t: Tab) => void;
-  stack: Route[]; push: (r: Route) => void; pop: () => void; reset: () => void;
-  focus: MapFocus; showOnMap: (f: { id?: string; lat?: number; lng?: number }) => void;
+/* Gezinme iki parça: eylemler (hiç değişmez) ve durum (sekme, yığın, harita odağı).
+   Ekranların çoğu yalnızca eylemleri kullanır; böylece sekme değişince ya da bildirim çıkınca hepsi yeniden çizilmez. */
+type NavActions = {
+  setTab: (t: Tab) => void; push: (r: Route) => void; pop: () => void; reset: () => void;
+  showOnMap: (f: { id?: string; lat?: number; lng?: number }) => void;
 };
-const NavCtx = createContext<Nav | null>(null);
-export const useNav = () => useContext(NavCtx) as Nav;
+type NavState = { tab: Tab; stack: Route[]; focus: MapFocus };
+const NavCtx = createContext<NavActions | null>(null);
+const NavStateCtx = createContext<NavState>({ tab: 'map', stack: [], focus: null });
+export const useNav = () => useContext(NavCtx) as NavActions;
+export const useNavState = () => useContext(NavStateCtx);
 
 type Toast = (msg: string, ...args: (string | number)[]) => void;
 const ToastCtx = createContext<Toast>(() => {});
@@ -72,8 +76,11 @@ export function UIProvider({ children }: { children: React.ReactNode }) {
     timer.current = setTimeout(() => setMsg(null), 2600);
   }, [t]);
 
+  const actions = useMemo<NavActions>(() => ({ setTab, push, pop, reset, showOnMap }), [push, pop, reset, showOnMap]);
+  const navState = useMemo<NavState>(() => ({ tab, stack, focus }), [tab, stack, focus]);
   return (
-    <NavCtx.Provider value={{ tab, setTab, stack, push, pop, reset, focus, showOnMap }}>
+    <NavCtx.Provider value={actions}>
+      <NavStateCtx.Provider value={navState}>
       <ToastCtx.Provider value={toast}>
         {children}
         {msg && (
@@ -82,6 +89,7 @@ export function UIProvider({ children }: { children: React.ReactNode }) {
           </View>
         )}
       </ToastCtx.Provider>
+      </NavStateCtx.Provider>
     </NavCtx.Provider>
   );
 }

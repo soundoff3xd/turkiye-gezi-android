@@ -6,7 +6,7 @@ import { SafeAreaProvider, useSafeAreaInsets } from 'react-native-safe-area-cont
 import { LangProvider, useT } from './src/i18n';
 import { AuthProvider, useAuth } from './src/lib/auth';
 import { StoreProvider, useStore } from './src/lib/store';
-import { UIProvider, useNav, useToast, type Route, type Tab } from './src/lib/ui';
+import { UIProvider, useNav, useNavState, useToast, type Route, type Tab } from './src/lib/ui';
 import AuthScreen from './src/screens/AuthScreen';
 import MapScreen from './src/screens/MapScreen';
 import ExploreScreen from './src/screens/ExploreScreen';
@@ -44,9 +44,12 @@ import { parseLink } from './src/lib/share';
 
 installCrashHandler();
 
+// sekme değişince ya da üst bileşen yeniden çizilince bu ekranlar boşuna yeniden çizilmesin
+const MapM = React.memo(MapScreen), ExploreM = React.memo(ExploreScreen), ShowcaseM = React.memo(ShowcaseScreen);
+
 const TABS: [Tab, string, string][] = [['map', '🗺', 'Harita'], ['explore', '🧭', 'Keşfet'], ['photos', '📷', 'Vitrin']];
 
-function Screen({ r }: { r: Route }) {
+const ScreenM = React.memo(function Screen({ r }: { r: Route }) {
   switch (r.name) {
     case 'place': return <PlaceScreen id={r.id} initialTab={r.tab} />;
     case 'compose': return <ComposeScreen id={r.id} />;
@@ -69,12 +72,14 @@ function Screen({ r }: { r: Route }) {
     case 'profile': return <ProfileScreen />;
     case 'interests': return <InterestsScreen />;
   }
-}
+  return null;
+});
 
 function Shell() {
   const { t } = useT();
   const insets = useSafeAreaInsets();
-  const { tab, setTab, stack, reset } = useNav();
+  const { setTab, reset } = useNav();
+  const { tab, stack } = useNavState();
   const { start, clearStart } = usePrefs();
   // sekme değişiminin yönü: sağdaki sekmeye geçiş +1, soldakine −1
   const order = TABS.findIndex(([k]) => k === tab);
@@ -98,9 +103,9 @@ function Shell() {
     <View style={{ flex: 1, backgroundColor: C.bg }}>
       <View style={{ flex: 1 }}>
         {/* harita her zaman yerinde durur; diğer sekmeler üstüne açılır */}
-        <ErrorBoundary label="map" t={t}><MapScreen /></ErrorBoundary>
-        <TabLayer visible={tab === 'explore'} dir={dir}><ErrorBoundary label="explore" t={t}><ExploreScreen /></ErrorBoundary></TabLayer>
-        <TabLayer visible={tab === 'photos'} dir={dir}><ErrorBoundary label="photos" t={t}><ShowcaseScreen /></ErrorBoundary></TabLayer>
+        <ErrorBoundary label="map" t={t}><MapM /></ErrorBoundary>
+        <TabLayer visible={tab === 'explore'} dir={dir}><ErrorBoundary label="explore" t={t}><ExploreM /></ErrorBoundary></TabLayer>
+        <TabLayer visible={tab === 'photos'} dir={dir}><ErrorBoundary label="photos" t={t}><ShowcaseM /></ErrorBoundary></TabLayer>
       </View>
       <View style={[s.tabs, { paddingBottom: insets.bottom + 6 }]} accessibilityRole="tablist">
         <TabIndicator index={Math.max(0, order)} count={TABS.length} color={C.accent} />
@@ -111,7 +116,7 @@ function Shell() {
           </Pressable>
         ))}
       </View>
-      <StackHost stack={stack} render={(r) => <ErrorBoundary label={r.name} t={t}><Screen r={r} /></ErrorBoundary>} />
+      <StackHost stack={stack} render={(r) => <ErrorBoundary label={r.name} t={t}><ScreenM r={r} /></ErrorBoundary>} />
       <PageLoader signal={`${tab}|${stack.length}|${stack.length ? JSON.stringify(stack[stack.length - 1]) : ''}`} />
       <Modal visible={up.show} transparent animationType="fade" onRequestClose={up.later}>
         <View style={s.dim}>

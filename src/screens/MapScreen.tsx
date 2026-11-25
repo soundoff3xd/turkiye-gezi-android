@@ -9,7 +9,7 @@ import { useT } from '../i18n';
 import { useStore } from '../lib/store';
 import { useLocation } from '../lib/location';
 import { trError } from '../lib/auth';
-import { useNav, useToast } from '../lib/ui';
+import { useNav, useNavState, useToast } from '../lib/ui';
 import { REGIONS, catName, fold, type Place } from '../data/catalog';
 import PlaceSheet from '../components/PlaceSheet';
 import AccountMenu from '../components/AccountMenu';
@@ -30,7 +30,8 @@ export default function MapScreen() {
   const insets = useSafeAreaInsets();
   const { height } = useWindowDimensions();
   const { places, toggle, error, reload, offline } = useStore();
-  const { push, focus } = useNav();
+  const { push } = useNav();
+  const { focus } = useNavState();
   const toast = useToast();
   const { pos, request } = useLocation();
   const cam = useRef<CameraRef>(null);
@@ -63,11 +64,21 @@ export default function MapScreen() {
     const scale = 256 * Math.pow(2, zi), R = zi >= 12 ? 0 : 40;
     const px = (p: Place) => [((p.lng + 180) / 360) * scale, ((1 - Math.log(Math.tan(Math.PI / 4 + (p.lat * Math.PI) / 360)) / Math.PI) / 2) * scale];
     const prio = (p: Place) => (LANDMARKS.has(p.id) ? 10 : p.t || 3);
-    const cl: { x: number; y: number; m: Place[] }[] = [];
+    // ızgara ile kümeleme: her yer için yalnızca çevresindeki 9 hücreye bakılır (önceden tüm kümeler taranıyordu)
+    type Cl = { x: number; y: number; m: Place[] };
+    const cl: Cl[] = [], grid = new globalThis.Map<string, Cl[]>();
     shown.filter((p) => p.id !== sel).sort((a, b) => prio(b) - prio(a)).forEach((p) => {
       const [x, y] = px(p);
-      const c = R ? cl.find((k) => Math.abs(k.x - x) < R && Math.abs(k.y - y) < R) : undefined;
-      if (c) c.m.push(p); else cl.push({ x, y, m: [p] });
+      let c: Cl | undefined;
+      if (R) {
+        const gx = Math.floor(x / R), gy = Math.floor(y / R);
+        for (let i = -1; i <= 1 && !c; i++) for (let j = -1; j <= 1 && !c; j++) {
+          const arr = grid.get(`${gx + i},${gy + j}`);
+          if (arr) c = arr.find((k) => Math.abs(k.x - x) < R && Math.abs(k.y - y) < R);
+        }
+        if (!c) { c = { x, y, m: [] }; cl.push(c); const key = `${gx},${gy}`; (grid.get(key) || grid.set(key, []).get(key)!).push(c); }
+        c.m.push(p);
+      } else cl.push({ x, y, m: [p] });
     });
     const sp = sel ? shown.find((p) => p.id === sel) : undefined;
     const feat = (p: Place, props: Record<string, unknown>) => ({ type: 'Feature', properties: props, geometry: { type: 'Point', coordinates: [p.lng, p.lat] } });
@@ -85,9 +96,10 @@ export default function MapScreen() {
     } as GeoJSON.FeatureCollection;
   }, [shown, sel, zi]);
   const pinData = useMemo<GeoJSON.FeatureCollection>(() => ({ type: 'FeatureCollection', features: pin ? [{ type: 'Feature', properties: {}, geometry: { type: 'Point', coordinates: pin } }] : [] }), [pin]);
+  const hay = useMemo(() => new globalThis.Map(places.map((p) => [p.id, fold(`${p.n} ${p.il} ${p.semt || ''} ${catName(p.c)} ${t(catName(p.c))}`)])), [places, t]);
   const matches = useMemo(() => {
     const f = fold(q.trim()); if (!f) return [];
-    return places.filter((p) => fold(`${p.n} ${p.il} ${p.semt || ''} ${catName(p.c)} ${t(catName(p.c))}`).includes(f)).slice(0, 8);
+    return places.filter((p) => hay.get(p.id)?.includes(f)).slice(0, 8);
   }, [q, places, t]);
   const place = sel ? places.find((p) => p.id === sel) || null : null;
   const meData = useMemo<GeoJSON.FeatureCollection>(() => ({ type: 'FeatureCollection', features: pos ? [{ type: 'Feature', properties: {}, geometry: { type: 'Point', coordinates: [pos.lng, pos.lat] } }] : [] }), [pos]);

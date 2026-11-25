@@ -60,9 +60,16 @@ export function LangProvider({ children }: { children: React.ReactNode }) {
       args.forEach((a, i) => { out = out.split(`{${i + 1}}`).join(String(a)); });
       return out;
     };
+    // biçimlendirici her çağrıda yeniden kurulursa Android'de çok yavaş: dil + basamak başına bir kez kur, sonuçları da sakla
+    const fmts: Record<number, Intl.NumberFormat | null> = {}, memo = new Map<string, string>();
     const num = (n: number, digits = 0) => {
-      try { return n.toLocaleString(lang + '-u-nu-latn', { minimumFractionDigits: digits, maximumFractionDigits: digits }); }
-      catch { return digits ? n.toFixed(digits) : String(Math.round(n)); }
+      const key = digits + '|' + n; const hit = memo.get(key); if (hit !== undefined) return hit;
+      let f = fmts[digits];
+      if (f === undefined) { try { f = new Intl.NumberFormat(lang + '-u-nu-latn', { minimumFractionDigits: digits, maximumFractionDigits: digits }); } catch { f = null; } fmts[digits] = f; }
+      let out: string;
+      try { out = f ? f.format(n) : digits ? n.toFixed(digits) : String(Math.round(n)); } catch { out = digits ? n.toFixed(digits) : String(Math.round(n)); }
+      if (memo.size < 5000) memo.set(key, out);
+      return out;
     };
     const ago = (ts: string | number) => {
       const s = Math.max(0, (Date.now() - new Date(ts).getTime()) / 1000);

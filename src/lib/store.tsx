@@ -278,10 +278,14 @@ export function StoreProvider({ children }: { children: React.ReactNode }) {
     likes: (photoBase[p.id] || 0) + (plikes.has(p.id) ? 1 : 0), at: p.at,
   })), [posts, index, photoBase, plikes]);
 
-  const value: Store = {
-    places, byId: (id) => index.get(id), stats: (id) => agg[id] || EMPTY_STATS,
+  // aynı nesne korunur: yalnızca veriler değişince ekranlar yeniden çizilir
+  const byId = useCallback((id: string) => index.get(id), [index]);
+  const stats = useCallback((id: string) => agg[id] || EMPTY_STATS, [agg]);
+  const value: Store = useMemo(() => ({
+    places, byId, stats,
     visited, faved, posts, liked, plikes, sugg, myVotes, mineToday, photos, loading, error, offline,
     reload, toggle, like, photoLike, reply, addReview, addSuggestion, vote, moderate, report, sendFeedback, correct,
-  };
+  }), [places, byId, stats, visited, faved, posts, liked, plikes, sugg, myVotes, mineToday, photos, loading, error, offline,
+    reload, toggle, like, photoLike, reply, addReview, addSuggestion, vote, moderate, report, sendFeedback, correct]);
   return <Ctx.Provider value={value}>{children}</Ctx.Provider>;
 }
