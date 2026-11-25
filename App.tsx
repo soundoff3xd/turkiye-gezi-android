@@ -28,12 +28,21 @@ import TripScreen from './src/screens/TripScreen';
 import RecommendScreen, { CityScreen } from './src/screens/RecommendScreen';
 import FeedbackScreen, { ModScreen } from './src/screens/FeedbackScreen';
 import PrivacyScreen from './src/screens/PrivacyScreen';
+import ThemeScreen from './src/screens/ThemeScreen';
+import PaintScreen from './src/screens/PaintScreen';
+import InboxScreen from './src/screens/InboxScreen';
 import { TripProvider } from './src/lib/trip';
 import { APK_URL, useUpdate } from './src/lib/update';
 import { BADGES, earned } from './src/data/badges';
 import { Btn } from './src/components/common';
-import { Splash, StackHost, TabIndicator, TabLayer } from './src/components/Anim';
-import { C } from './src/theme';
+import { PageLoader, Splash, StackHost, TabIndicator, TabLayer } from './src/components/Anim';
+import { C, isDark } from './src/theme';
+import ErrorBoundary from './src/components/ErrorBoundary';
+import { installCrashHandler, track } from './src/lib/telemetry';
+import { useInboxPoll } from './src/lib/inbox';
+import { parseLink } from './src/lib/share';
+
+installCrashHandler();
 
 const TABS: [Tab, string, string][] = [['map', '🗺', 'Harita'], ['explore', '🧭', 'Keşfet'], ['photos', '📷', 'Vitrin']];
 
@@ -48,12 +57,15 @@ function Screen({ r }: { r: Route }) {
     case 'support': return <SupportScreen />;
     case 'route': return <RouteScreen id={r.id} ids={r.ids} />;
     case 'nav': return <NavScreen ids={r.ids} mode={r.mode} />;
-    case 'trip': return <TripScreen />;
+    case 'trip': return <TripScreen shared={r.shared} />;
     case 'recommend': return <RecommendScreen />;
     case 'city': return <CityScreen il={r.il} subs={r.subs} />;
     case 'feedback': return <FeedbackScreen />;
     case 'mod': return <ModScreen />;
     case 'privacy': return <PrivacyScreen />;
+    case 'theme': return <ThemeScreen />;
+    case 'paint': return <PaintScreen />;
+    case 'inbox': return <InboxScreen />;
     case 'profile': return <ProfileScreen />;
     case 'interests': return <InterestsScreen />;
   }
@@ -69,20 +81,26 @@ function Shell() {
   const prevOrder = useRef(order);
   const dir = order === prevOrder.current ? 1 : Math.sign(order - prevOrder.current);
   useEffect(() => { prevOrder.current = order; }, [order]);
+  // anonim kullanım sayıları: hangi sekme/ekran açıldı
+  useEffect(() => { track(`tab:${tab}`); }, [tab]);
+  const top = stack.length ? stack[stack.length - 1].name : '';
+  useEffect(() => { if (top) track(`screen:${top}`); }, [top, stack.length]);
   // ilk açılışta seçilen ilgi alanına göre başla: fotoğraf → vitrin, diğerleri → Keşfet "Senin için"
   useEffect(() => {
     if (start === 'photos') { setTab('photos'); clearStart(); }
     else if (start === 'foryou') setTab('explore');
   }, [start, setTab, clearStart]);
   useBadgeToasts();
+  useInboxPoll(true);
+  useDeepLinks();
   const up = useUpdate();
   return (
     <View style={{ flex: 1, backgroundColor: C.bg }}>
       <View style={{ flex: 1 }}>
         {/* harita her zaman yerinde durur; diğer sekmeler üstüne açılır */}
-        <MapScreen />
-        <TabLayer visible={tab === 'explore'} dir={dir}><ExploreScreen /></TabLayer>
-        <TabLayer visible={tab === 'photos'} dir={dir}><ShowcaseScreen /></TabLayer>
+        <ErrorBoundary label="map" t={t}><MapScreen /></ErrorBoundary>
+        <TabLayer visible={tab === 'explore'} dir={dir}><ErrorBoundary label="explore" t={t}><ExploreScreen /></ErrorBoundary></TabLayer>
+        <TabLayer visible={tab === 'photos'} dir={dir}><ErrorBoundary label="photos" t={t}><ShowcaseScreen /></ErrorBoundary></TabLayer>
       </View>
       <View style={[s.tabs, { paddingBottom: insets.bottom + 6 }]} accessibilityRole="tablist">
         <TabIndicator index={Math.max(0, order)} count={TABS.length} color={C.accent} />
@@ -93,7 +111,8 @@ function Shell() {
           </Pressable>
         ))}
       </View>
-      <StackHost stack={stack} render={(r) => <Screen r={r} />} />
+      <StackHost stack={stack} render={(r) => <ErrorBoundary label={r.name} t={t}><Screen r={r} /></ErrorBoundary>} />
+      <PageLoader signal={`${tab}|${stack.length}|${stack.length ? JSON.stringify(stack[stack.length - 1]) : ''}`} />
       <Modal visible={up.show} transparent animationType="fade" onRequestClose={up.later}>
         <View style={s.dim}>
           <View style={s.card}>
@@ -107,6 +126,27 @@ function Shell() {
       </Modal>
     </View>
   );
+}
+
+/* site bağlantıları uygulamada açılır: ?yer=… yer kartı, ?gezi=… paylaşılan gezi listesi */
+function useDeepLinks() {
+  const { push } = useNav();
+  const { byId, loading } = useStore();
+  const pending = useRef<string | null>(null);
+  const handle = (url: string | null) => {
+    if (!url) return;
+    const l = parseLink(url); if (!l) return;
+    track('act:open_link');
+    if (l.gezi && l.gezi.length) push({ name: 'trip', shared: l.gezi.filter((id) => !!byId(id)) });
+    else if (l.yer && byId(l.yer)) push({ name: 'place', id: l.yer });
+  };
+  useEffect(() => {
+    Linking.getInitialURL().then((u: string | null) => { pending.current = u; }).catch(() => {});
+    const sub = Linking.addEventListener('url', (e: { url: string }) => handle(e.url));
+    return () => sub.remove();
+  }, []); // eslint-disable-line
+  // yerler yüklendikten sonra ilk açılış bağlantısını işle
+  useEffect(() => { if (!loading && pending.current) { const u = pending.current; pending.current = null; handle(u); } }, [loading]); // eslint-disable-line
 }
 
 /* yeni rozet kazanınca haber ver (ilk yüklemede sessizce kaydeder) */
@@ -170,7 +210,7 @@ export default function App() {
       <LangProvider>
         <PrefsProvider>
           <AuthProvider>
-            <StatusBar style="dark" />
+            <StatusBar style={isDark ? 'light' : 'dark'} />
             <Root />
           </AuthProvider>
         </PrefsProvider>
@@ -183,6 +223,6 @@ const s = StyleSheet.create({
   tabs: { flexDirection: 'row', backgroundColor: C.surface, borderTopWidth: StyleSheet.hairlineWidth, borderTopColor: C.chipLine, paddingTop: 6 },
   tab: { flex: 1, alignItems: 'center', gap: 2, paddingVertical: 2 },
   tabTxt: { fontSize: 12, fontWeight: '700', color: C.muted },
-  dim: { flex: 1, backgroundColor: 'rgba(0,0,0,.45)', alignItems: 'center', justifyContent: 'center', padding: 24 },
+  dim: { flex: 1, backgroundColor: C.scrim, alignItems: 'center', justifyContent: 'center', padding: 24 },
   card: { backgroundColor: C.surface, borderRadius: 22, padding: 22, alignItems: 'center', alignSelf: 'stretch' },
 });

@@ -18,12 +18,15 @@ export type Route =
   | { name: 'nav'; ids: string[]; mode: string }
   | { name: 'profile' }
   | { name: 'interests' }
-  | { name: 'trip' }
+  | { name: 'trip'; shared?: string[] }
   | { name: 'recommend' }
   | { name: 'city'; il: string; subs: string[] }
   | { name: 'feedback' }
   | { name: 'mod' }
-  | { name: 'privacy' };
+  | { name: 'privacy' }
+  | { name: 'theme' }
+  | { name: 'paint' }
+  | { name: 'inbox' };
 export type MapFocus = { id?: string; lat?: number; lng?: number; ts: number } | null;
 
 type Nav = {
@@ -84,6 +87,6 @@ export function UIProvider({ children }: { children: React.ReactNode }) {
 }
 
 const s = StyleSheet.create({
-  toast: { position: 'absolute', alignSelf: 'center', maxWidth: '90%', backgroundColor: C.ink, borderRadius: R.pill, paddingHorizontal: 18, paddingVertical: 12, zIndex: 100, elevation: 20 },
+  toast: { position: 'absolute', alignSelf: 'center', maxWidth: '90%', backgroundColor: C.solid, borderRadius: R.pill, paddingHorizontal: 18, paddingVertical: 12, zIndex: 100, elevation: 20 },
   txt: { color: '#FFFFFF', fontSize: 14.5, fontWeight: '600', textAlign: 'center' },
 });

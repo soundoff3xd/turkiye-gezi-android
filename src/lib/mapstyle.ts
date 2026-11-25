@@ -1,4 +1,5 @@
 import { useEffect, useMemo, useState } from 'react';
+import AsyncStorage from '@react-native-async-storage/async-storage';
 
 /* Harita stilini indirip katman ayarlarını uygular (web sitesindeki "Katmanlar" ile aynı):
    il sınırları, yer adları (seçili dilde), göller. İndirilemezse stil adresi olduğu gibi kullanılır. */
@@ -12,7 +13,10 @@ export function useMapStyle(key: string, url: string, layers: MapLayers, lang: s
   useEffect(() => {
     if (cache[url]) { setBase(cache[url]); return; }
     let live = true; setBase(null);
-    fetch(url).then((r) => r.json()).then((j) => { cache[url] = j; if (live) setBase(j); }).catch(() => {});
+    const key = `gezi-style-${url}`;
+    fetch(url).then((r) => r.json()).then((j) => { cache[url] = j; if (live) setBase(j); AsyncStorage.setItem(key, JSON.stringify(j)).catch(() => {}); })
+      // çevrimdışı: en son indirilen stil
+      .catch(() => AsyncStorage.getItem(key).then((v: string | null) => { if (v && live) { const j = JSON.parse(v); cache[url] = j; setBase(j); } }).catch(() => {}));
     return () => { live = false; };
   }, [url]);
   return useMemo(() => {

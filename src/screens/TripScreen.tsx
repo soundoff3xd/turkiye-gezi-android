@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 import { Pressable, ScrollView, Text, View } from 'react-native';
 import { useSafeAreaInsets } from 'react-native-safe-area-context';
 import { useT } from '../i18n';
@@ -7,12 +7,15 @@ import { useTrip } from '../lib/trip';
 import { fmtDist, useLocation } from '../lib/location';
 import { useNav, useToast } from '../lib/ui';
 import { nearestOrder } from '../lib/routing';
+import { shareTrip } from '../lib/share';
+import { deletePack, downloadTrip, packInfo, tripBox } from '../lib/offline';
+import { track } from '../lib/telemetry';
 import { Btn, Empty, Header, b } from '../components/common';
 import { catName, meters } from '../data/catalog';
 import { C, R } from '../theme';
 
 /* Gezi listem: gezmek istediğin yerleri sırala, tek rotada birleştir */
-export default function TripScreen() {
+export default function TripScreen({ shared }: { shared?: string[] }) {
   const { t, num } = useT();
   const insets = useSafeAreaInsets();
   const { byId } = useStore();
@@ -21,6 +24,16 @@ export default function TripScreen() {
   const { pop, push } = useNav();
   const toast = useToast();
   const items = trip.ids.map((id) => byId(id)).filter(Boolean) as NonNullable<ReturnType<typeof byId>>[];
+  const inc = (shared || []).map((id) => byId(id)).filter(Boolean) as NonNullable<ReturnType<typeof byId>>[];
+  const [dl, setDl] = useState<{ state: 'none' | 'busy' | 'done' | 'error'; pct: number }>({ state: 'none', pct: 0 });
+  useEffect(() => { packInfo().then((i) => { if (i) setDl({ state: i.state === 'complete' || i.pct >= 100 ? 'done' : 'none', pct: i.pct }); }); }, []);
+  async function download() {
+    const bx = tripBox(items); if (!bx) return;
+    setDl({ state: 'busy', pct: 0 }); track('act:offline_map');
+    try {
+      await downloadTrip(bx, (pct, done) => setDl({ state: done ? 'done' : 'busy', pct }), () => setDl({ state: 'error', pct: 0 }));
+    } catch { setDl({ state: 'error', pct: 0 }); }
+  }
   const total = items.reduce((a, p, i) => a + (i ? meters(items[i - 1].lat, items[i - 1].lng, p.lat, p.lng) : 0), 0);
 
   return (
@@ -29,6 +42,18 @@ export default function TripScreen() {
         <Pressable onPress={() => { trip.clear(); toast('Gezi listen temizlendi'); }} hitSlop={8} accessibilityRole="button"><Text style={{ color: C.muted, fontWeight: '700' }}>{t('Temizle')}</Text></Pressable>
       ) : undefined} />
       <ScrollView contentContainerStyle={{ padding: 16, paddingBottom: insets.bottom + 30 }}>
+        {inc.length > 0 && (
+          <View style={[b.card, { borderColor: C.accent, backgroundColor: C.soft, marginTop: 0, marginBottom: 14 }]}>
+            <Text style={{ color: C.ink, fontWeight: '800', fontSize: 16 }}>{`📬 ${t('Seninle bir gezi listesi paylaşıldı')}`}</Text>
+            <Text style={{ color: C.muted, marginTop: 2 }}>{t('{1} durak', num(inc.length))}</Text>
+            {inc.slice(0, 8).map((p, i) => <Text key={p.id} style={{ color: C.ink, marginTop: 4 }} numberOfLines={1}>{`${i + 1}. ${p.n} · ${p.il}`}</Text>)}
+            {inc.length > 8 && <Text style={{ color: C.muted, marginTop: 4 }}>{`+${num(inc.length - 8)}`}</Text>}
+            <View style={{ flexDirection: 'row', gap: 8, marginTop: 12 }}>
+              <Btn small kind="pri" label={`＋ ${t('Listeme ekle')}`} style={{ flex: 1 }} onPress={() => { const n = trip.addMany(inc.map((p) => p.id)); toast(n ? 'Gezi listene {1} yer eklendi' : 'Bu yerler zaten gezi listende', n); pop(); push({ name: 'trip' }); }} />
+              <Btn small label={`🧭 ${t('Rotayı göster')}`} style={{ flex: 1 }} onPress={() => push({ name: 'route', ids: inc.map((p) => p.id) })} />
+            </View>
+          </View>
+        )}
         {!items.length ? (
           <Empty title={t('Gezi listen boş')} note={t('Yer kartlarındaki “Gezi listeme ekle” düğmesiyle gezmek istediğin yerleri buraya topla; uygulama hepsini tek rotada birleştirsin.')}
             action={t('Nereye gitmeliyim?')} onAction={() => push({ name: 'recommend' })} />
@@ -53,6 +78,19 @@ export default function TripScreen() {
               <Btn label={`⇅ ${t('Sırayı en kısa yap')}`} onPress={() => { trip.setAll(nearestOrder(items, pos).map((p) => p.id)); toast('Duraklar en kısa sıraya dizildi'); }} style={{ marginTop: 14 }} />
             )}
             <Btn kind="pri" label={`🧭 ${t('Rotayı göster')}`} onPress={() => push({ name: 'route', ids: items.map((p) => p.id) })} style={{ marginTop: 10 }} />
+            <Btn label={`↗ ${t('Listeyi paylaş')}`} onPress={() => shareTrip(items.map((p) => p.id), t, num)} style={{ marginTop: 8 }} />
+            <View style={b.box}>
+              <Text style={b.boxH}>{`📥 ${t('Çevrimdışı harita')}`}</Text>
+              <Text style={b.boxT}>{dl.state === 'done' ? t('Bu gezinin haritası telefonuna indirildi. İnternet olmadan da açılır.') : t('İnternetin zayıf olduğu yerler için gezi listendeki yerlerin çevresini telefonuna indir.')}</Text>
+              {dl.state === 'busy' && (
+                <View style={{ height: 8, backgroundColor: C.line, borderRadius: 4, marginTop: 10, overflow: 'hidden' }}><View style={{ width: `${Math.max(3, dl.pct)}%`, height: '100%', backgroundColor: C.accent }} /></View>
+              )}
+              {dl.state === 'error' && <Text style={[b.fine, { color: C.danger }]}>{t('İndirme tamamlanamadı. İnternet bağlantını kontrol edip tekrar dene.')}</Text>}
+              <View style={{ flexDirection: 'row', gap: 8, marginTop: 10 }}>
+                <Btn small kind={dl.state === 'done' ? 'out' : 'pri'} busy={dl.state === 'busy'} label={dl.state === 'busy' ? `%${num(dl.pct)}` : dl.state === 'done' ? t('Yeniden indir') : t('Haritayı indir')} onPress={download} style={{ flex: 1 }} />
+                {dl.state === 'done' && <Btn small label={t('Sil')} onPress={() => { deletePack().then(() => { setDl({ state: 'none', pct: 0 }); toast('Çevrimdışı harita silindi'); }); }} style={{ flex: 1 }} />}
+              </View>
+            </View>
             <Text style={b.fine}>{t('Rota konumundan başlar ve durakları bu sırayla dolaşır. Rota ekranından sesli navigasyonu başlatabilirsin.')}</Text>
           </>
         )}

@@ -1,6 +1,7 @@
 import { meters, PROVINCES, type Place, type Stats } from '../data/catalog';
 import { LANDMARKS } from '../data/markers';
 import { nearestOrder } from './routing';
+import { inSeason } from './season';
 
 /* "Nereye gitmeliyim?": seçilen türdeki yerlerin sayısına, popülerliğine ve puanlarına göre illeri sıralar */
 export function weight(p: Place, s: Stats) {
@@ -8,6 +9,8 @@ export function weight(p: Place, s: Stats) {
   if (s.count > 0) w += (s.rating - 3) * 0.3;
   w += Math.log10(1 + s.visits) * 0.4;
   if (LANDMARKS.has(p.id)) w += 0.8;
+  // gezmek için tam mevsimiyse öne çıkar, mevsim dışıysa biraz geriye at
+  w *= inSeason(p) ? 1.25 : 0.85;
   return w;
 }
 export type CityPick = { il: string; score: number; matches: Place[]; avg: number; km: number | null };

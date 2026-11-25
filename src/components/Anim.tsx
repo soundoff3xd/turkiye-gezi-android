@@ -186,3 +186,61 @@ export function Splash({ label }: { label?: string }) {
     </View>
   );
 }
+
+/* Yükleme yıldızı: 12 ışın sırayla parlar (dönen ışık), yıldız nefes alır, ortada harita iğnesi atar */
+export function Spark({ size = 56, color = C.accent }: { size?: number; color?: string }) {
+  const spin = useRef(new Animated.Value(0)).current;
+  const breath = useRef(new Animated.Value(0)).current;
+  useEffect(() => {
+    const a = Animated.loop(Animated.timing(spin, { toValue: 1, duration: 960, easing: (t) => Math.floor(t * 12) / 12, useNativeDriver: true }));
+    const b = Animated.loop(Animated.sequence([
+      Animated.timing(breath, { toValue: 1, duration: 700, easing: Easing.inOut(Easing.quad), useNativeDriver: true }),
+      Animated.timing(breath, { toValue: 0, duration: 700, easing: Easing.inOut(Easing.quad), useNativeDriver: true }),
+    ]));
+    a.start(); b.start();
+    return () => { a.stop(); b.stop(); };
+  }, [spin, breath]);
+  const bar = size * 0.2, thick = Math.max(3, size * 0.075), r = size / 2;
+  return (
+    <View style={{ width: size, height: size, alignItems: 'center', justifyContent: 'center' }} accessibilityRole="progressbar" accessibilityLabel="…">
+      <Animated.View style={{ position: 'absolute', width: size, height: size,
+        transform: [{ rotate: spin.interpolate({ inputRange: [0, 1], outputRange: ['0deg', '360deg'] }) }, { scale: breath.interpolate({ inputRange: [0, 1], outputRange: [0.9, 1.06] }) }] }}>
+        {Array.from({ length: 12 }).map((_, i) => (
+          <View key={i} style={{ position: 'absolute', left: 0, top: 0, width: size, height: size, alignItems: 'center', transform: [{ rotate: `${i * 30}deg` }] }}>
+            <View style={{ width: thick, height: bar, borderRadius: thick / 2, backgroundColor: color, opacity: 0.12 + (0.88 * i) / 11 }} />
+          </View>
+        ))}
+      </Animated.View>
+      <Animated.View style={{ width: r * 0.5, height: r * 0.5, borderRadius: r * 0.25, borderBottomRightRadius: r * 0.06, backgroundColor: color, alignItems: 'center', justifyContent: 'center',
+        transform: [{ rotate: '45deg' }, { scale: breath.interpolate({ inputRange: [0, 1], outputRange: [1.05, 0.85] }) }] }}>
+        <View style={{ width: r * 0.17, height: r * 0.17, borderRadius: r * 0.085, backgroundColor: C.surface }} />
+      </Animated.View>
+    </View>
+  );
+}
+
+/* Sayfa değişirken ekranın ortasında kısa bir an beliren yükleme kartı (dokunmayı engellemez) */
+export function PageLoader({ signal }: { signal: string }) {
+  const a = useRef(new Animated.Value(0)).current;
+  const [on, setOn] = useState(false);
+  const first = useRef(true);
+  useEffect(() => {
+    if (first.current) { first.current = false; return; }
+    setOn(true); a.stopAnimation();
+    Animated.sequence([
+      Animated.timing(a, { toValue: 1, duration: 140, easing: EASE_OUT, useNativeDriver: true }),
+      Animated.delay(340),
+      Animated.timing(a, { toValue: 0, duration: 220, easing: Easing.in(Easing.quad), useNativeDriver: true }),
+    ]).start(({ finished }) => { if (finished) setOn(false); });
+  }, [signal]); // eslint-disable-line
+  if (!on) return null;
+  return (
+    <View pointerEvents="none" style={[StyleSheet.absoluteFill, { alignItems: 'center', justifyContent: 'center' }]}>
+      <Animated.View style={{ padding: 16, borderRadius: 26, backgroundColor: C.surface, opacity: a,
+        transform: [{ scale: a.interpolate({ inputRange: [0, 1], outputRange: [0.8, 1] }) }],
+        shadowColor: '#000', shadowOpacity: 0.18, shadowRadius: 16, shadowOffset: { width: 0, height: 6 }, elevation: 10 }}>
+        <Spark size={52} />
+      </Animated.View>
+    </View>
+  );
+}

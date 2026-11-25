@@ -5,8 +5,9 @@ import { LANGS, useT } from '../i18n';
 import { useAuth } from '../lib/auth';
 import { useNav } from '../lib/ui';
 import { useTrip } from '../lib/trip';
+import { useUnread } from '../lib/inbox';
 import { Avatar } from './common';
-import { C, R, shadow } from '../theme';
+import { C, R, isDark, shadow } from '../theme';
 
 /* Sağ üstteki profil düğmesi ve web sitesindeki gibi açılan küçük hesap penceresi */
 export default function AccountMenu({ size = 50, top }: { size?: number; top?: number }) {
@@ -16,14 +17,17 @@ export default function AccountMenu({ size = 50, top }: { size?: number; top?: n
   const { push } = useNav();
   const [open, setOpen] = useState(false);
   const trip = useTrip();
+  const unread = useUnread();
   if (!me) return null;
   const go = (fn: () => void) => { setOpen(false); fn(); };
   const items: [string, string, () => void, string?][] = [
+    ['🔔', 'Bildirimler', () => push({ name: 'inbox' }), unread ? String(unread) : undefined],
     ['👤', 'Profilim', () => push({ name: 'profile' })],
     ['🧳', 'Gezi listem', () => push({ name: 'trip' }), trip.ids.length ? String(trip.ids.length) : undefined],
     ['🧭', 'Nereye gitmeliyim?', () => push({ name: 'recommend' })],
     ['✨', 'İlgi alanlarım', () => push({ name: 'interests' })],
     ['🌐', 'Dil', () => push({ name: 'lang' }), LANGS[lang]],
+    ['🌓', 'Görünüm', () => push({ name: 'theme' }), isDark ? t('Koyu') : t('Açık')],
     ['💬', 'Görüş ve öneri gönder', () => push({ name: 'feedback' })],
     ...(me.isMod ? [['🛡', 'Moderatör paneli', () => push({ name: 'mod' })] as [string, string, () => void]] : []),
     ['🔒', 'Gizlilik ve KVKK', () => push({ name: 'privacy' })],
@@ -33,6 +37,7 @@ export default function AccountMenu({ size = 50, top }: { size?: number; top?: n
     <>
       <Pressable onPress={() => setOpen(true)} style={[s.btn, { width: size, height: size, borderRadius: size / 2 }]} accessibilityRole="button" accessibilityLabel={t('Hesabım')}>
         <Avatar name={me.name} url={me.av} size={size - 6} />
+        {unread > 0 && <View style={s.dot}><Text style={s.dotTxt}>{unread > 9 ? '9+' : unread}</Text></View>}
       </Pressable>
       <Modal visible={open} transparent animationType="fade" onRequestClose={() => setOpen(false)}>
         <Pressable style={StyleSheet.absoluteFill} onPress={() => setOpen(false)} accessibilityLabel={t('Kapat')} />
@@ -48,7 +53,7 @@ export default function AccountMenu({ size = 50, top }: { size?: number; top?: n
             <Pressable key={label} onPress={() => go(fn)} style={({ pressed }) => [s.item, pressed && { backgroundColor: C.line }]} accessibilityRole="button">
               <Text style={[s.icon, label === 'Bize destek olun' && { color: C.accent }]}>{icon}</Text>
               <Text style={[s.label, label === 'Bize destek olun' && { color: C.accent }]} numberOfLines={1}>{t(label)}</Text>
-              {!!note && <Text style={s.note} numberOfLines={1}>{note}</Text>}
+              {!!note && <Text style={[s.note, label === 'Bildirimler' && s.badge]} numberOfLines={1}>{note}</Text>}
             </Pressable>
           ))}
           <View style={s.sep} />
@@ -72,5 +77,8 @@ const s = StyleSheet.create({
   icon: { width: 22, textAlign: 'center', fontSize: 17, color: C.ink },
   label: { flex: 1, fontSize: 15.5, fontWeight: '700', color: C.ink },
   note: { fontSize: 13, color: C.muted, maxWidth: 100 },
+  dot: { position: 'absolute', top: -2, right: -2, minWidth: 20, height: 20, borderRadius: 10, backgroundColor: C.accent, alignItems: 'center', justifyContent: 'center', paddingHorizontal: 4, borderWidth: 2, borderColor: C.surface },
+  dotTxt: { color: '#FFFFFF', fontSize: 10.5, fontWeight: '900' },
+  badge: { backgroundColor: C.accent, color: '#FFFFFF', fontWeight: '800', borderRadius: 10, overflow: 'hidden', paddingHorizontal: 7, paddingVertical: 1 },
   sep: { height: 1, backgroundColor: C.line, marginVertical: 4 },
 });

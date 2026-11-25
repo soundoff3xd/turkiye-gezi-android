@@ -90,7 +90,7 @@ export default function ReviewCard({ x, showPlace }: { x: Review; showPlace?: bo
             <TextInput value={draft} onChangeText={setDraft} placeholder={t('Yanıt yaz…')} placeholderTextColor={C.muted} maxLength={500}
               style={{ flex: 1, borderWidth: 1, borderColor: C.chipLine, borderRadius: R.pill, paddingHorizontal: 14, paddingVertical: 8, color: C.ink, backgroundColor: C.bg }}
               onSubmitEditing={send} returnKeyType="send" />
-            <Pressable onPress={send} disabled={busy || !draft.trim()} style={{ backgroundColor: C.ink, borderRadius: R.pill, paddingHorizontal: 14, paddingVertical: 9, opacity: busy || !draft.trim() ? 0.5 : 1 }}>
+            <Pressable onPress={send} disabled={busy || !draft.trim()} style={{ backgroundColor: C.solid, borderRadius: R.pill, paddingHorizontal: 14, paddingVertical: 9, opacity: busy || !draft.trim() ? 0.5 : 1 }}>
               <Text style={{ color: '#FFFFFF', fontWeight: '700' }}>{t('Gönder')}</Text>
             </Pressable>
           </View>

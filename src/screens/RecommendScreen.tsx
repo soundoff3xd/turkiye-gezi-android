@@ -11,6 +11,7 @@ import { useTrip } from '../lib/trip';
 import { Btn, Chip, Empty, Header, PlaceRow, b } from '../components/common';
 import { GROUPS, SUBS, catName, meters } from '../data/catalog';
 import { MARKER_IMAGES } from '../data/markers';
+import { Dishes } from '../components/Extras';
 import { C, R } from '../theme';
 
 const img = (k: string) => (MARKER_IMAGES as Record<string, any>)[`cat_${k}`];
@@ -139,6 +140,7 @@ export function CityScreen({ il, subs }: { il: string; subs: string[] }) {
           </View>
         )}
         <Text style={b.fine}>{t('Plan, yerleri birbirine en yakın sırayla dizer. Açılış saatlerini gitmeden önce kontrol et.')}</Text>
+        <Dishes il={il} />
 
         <Text style={[b.h2, { marginTop: 22, marginBottom: 6 }]}>{t('{1} içindeki tüm yerler ({2})', il, num(all.length))}</Text>
         <View style={{ marginHorizontal: -16 }}>
@@ -151,9 +153,9 @@ export function CityScreen({ il, subs }: { il: string; subs: string[] }) {
 
 const s = StyleSheet.create({
   chip: { flexDirection: 'row', alignItems: 'center', gap: 6, backgroundColor: C.surface, borderRadius: R.pill, paddingLeft: 6, paddingRight: 13, paddingVertical: 6, borderWidth: 1, borderColor: C.chipLine },
-  chipOn: { backgroundColor: C.ink, borderColor: C.ink },
+  chipOn: { backgroundColor: C.solid, borderColor: C.solid },
   chipTxt: { color: C.ink, fontSize: 14, fontWeight: '600' },
-  rank: { width: 28, height: 28, borderRadius: 14, backgroundColor: C.ink, color: '#FFFFFF', textAlign: 'center', lineHeight: 28, fontWeight: '800', overflow: 'hidden' },
+  rank: { width: 28, height: 28, borderRadius: 14, backgroundColor: C.solid, color: '#FFFFFF', textAlign: 'center', lineHeight: 28, fontWeight: '800', overflow: 'hidden' },
   sw: { width: 42, height: 24, borderRadius: 12, backgroundColor: C.chipLine, padding: 3, justifyContent: 'center' },
   knob: { width: 18, height: 18, borderRadius: 9, backgroundColor: '#FFFFFF' },
 });

@@ -13,7 +13,7 @@ import { useNav, useToast } from '../lib/ui';
 import { REGIONS, catName, fold, type Place } from '../data/catalog';
 import PlaceSheet from '../components/PlaceSheet';
 import AccountMenu from '../components/AccountMenu';
-import { C, R, shadow } from '../theme';
+import { C, R, isDark, shadow } from '../theme';
 
 /* Web sitesindeki gerçek haritanın aynısı: OpenFreeMap (ücretsiz, anahtarsız) */
 export const MAP_STYLES: Record<string, [string, string, string]> = {
@@ -29,7 +29,7 @@ export default function MapScreen() {
   const { t, num, lang } = useT();
   const insets = useSafeAreaInsets();
   const { height } = useWindowDimensions();
-  const { places, toggle, error, reload } = useStore();
+  const { places, toggle, error, reload, offline } = useStore();
   const { push, focus } = useNav();
   const toast = useToast();
   const { pos, request } = useLocation();
@@ -40,7 +40,7 @@ export default function MapScreen() {
   const [searching, setSearching] = useState(false);
   const [sel, setSel] = useState<string | null>(null);
   const [pin, setPin] = useState<[number, number] | null>(null);
-  const [style, setStyle] = useState('std');
+  const [style, setStyle] = useState(isDark ? 'dark' : 'std');
   const [layers, setLayers] = useState(false);
   const [lay, setLay] = useState<MapLayers>(DEFAULT_LAYERS);
   const mapStyle = useMapStyle(style, MAP_STYLES[style][1], lay, lang);
@@ -149,7 +149,7 @@ export default function MapScreen() {
             } else { const p = places.find((x) => x.id === f.properties?.id); if (p) select(p); }
           }}>
           <Layer type="circle" id="clusters" filter={['all', ['==', ['get', 'k'], 'c'], ['==', ['get', 'lm'], 0]]}
-            paint={{ 'circle-color': C.ink, 'circle-stroke-color': '#FFFFFF', 'circle-stroke-width': 2.5, 'circle-radius': ['step', ['get', 'n'], 17, 10, 21, 30, 26] }} />
+            paint={{ 'circle-color': C.solid, 'circle-stroke-color': '#FFFFFF', 'circle-stroke-width': 2.5, 'circle-radius': ['step', ['get', 'n'], 17, 10, 21, 30, 26] }} />
           <Layer type="symbol" id="cluster-count" filter={['all', ['==', ['get', 'k'], 'c'], ['==', ['get', 'lm'], 0]]}
             layout={{ 'text-field': ['to-string', ['get', 'n']], 'text-font': ['Noto Sans Bold'], 'text-size': 13, 'text-allow-overlap': true, 'text-ignore-placement': true }}
             paint={{ 'text-color': '#FFFFFF' }} />
@@ -213,7 +213,7 @@ export default function MapScreen() {
 
       {!place && (
         <View style={s.tools} pointerEvents="box-none">
-          <Pressable onPress={() => setLayers((v) => !v)} style={[s.round, layers && { backgroundColor: C.ink }]} accessibilityRole="button" accessibilityLabel={t('Harita stili')} accessibilityState={{ expanded: layers }}>
+          <Pressable onPress={() => setLayers((v) => !v)} style={[s.round, layers && { backgroundColor: C.solid }]} accessibilityRole="button" accessibilityLabel={t('Harita stili')} accessibilityState={{ expanded: layers }}>
             <Text style={{ fontSize: 19 }}>🗺</Text>
           </Pressable>
           <Pressable onPress={locate} style={s.round} accessibilityRole="button" accessibilityLabel={t('Konumum')}>
@@ -225,7 +225,7 @@ export default function MapScreen() {
         <PlaceSheet place={place} bottom={8} onToggle={onToggle} onClose={() => setSel(null)} onMore={() => push({ name: 'place', id: place.id })} />
       ) : (
         <View style={s.bar}>
-          <Text style={s.barTxt}>{`${t('{1} yer', num(shown.length))} · ${reg < 0 ? t('Tüm Türkiye') : t(REGIONS[reg])}`}</Text>
+          <Text style={s.barTxt} numberOfLines={1}>{offline ? `📴 ${t('Çevrimdışı: kayıtlı bilgiler gösteriliyor')}` : `${t('{1} yer', num(shown.length))} · ${reg < 0 ? t('Tüm Türkiye') : t(REGIONS[reg])}`}</Text>
           {error ? <Pressable onPress={reload} hitSlop={8}><Text style={[s.barTxt, { color: C.accent }]}>{t('Yeniden dene')}</Text></Pressable>
             : <Text style={[s.barTxt, { color: C.muted, fontWeight: '500' }]}>{t('Bir yere dokun')}</Text>}
         </View>
@@ -271,7 +271,7 @@ const s = StyleSheet.create({
   round: { width: 50, height: 50, borderRadius: 25, backgroundColor: C.surface, alignItems: 'center', justifyContent: 'center', ...shadow },
   chips: { paddingHorizontal: 12, paddingVertical: 10, gap: 8 },
   chip: { backgroundColor: C.surface, borderRadius: R.pill, paddingHorizontal: 16, paddingVertical: 9, borderWidth: 1, borderColor: C.chipLine },
-  chipOn: { backgroundColor: C.ink, borderColor: C.ink },
+  chipOn: { backgroundColor: C.solid, borderColor: C.solid },
   chipTxt: { color: C.ink, fontSize: 14.5, fontWeight: '600' },
   results: { marginHorizontal: 12, marginTop: 8, backgroundColor: C.surface, borderRadius: R.md, maxHeight: 360, overflow: 'hidden', ...shadow },
   res: { paddingHorizontal: 16, paddingVertical: 12, borderBottomWidth: StyleSheet.hairlineWidth, borderBottomColor: C.line },

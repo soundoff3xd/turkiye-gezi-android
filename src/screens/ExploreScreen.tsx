@@ -12,6 +12,7 @@ import { C, R, shadow } from '../theme';
 import { forYouGroups, usePrefs } from '../lib/prefs';
 import AccountMenu from '../components/AccountMenu';
 import { SkeletonRows, useDeferred } from '../components/Anim';
+import { inSeason } from '../lib/season';
 import { useTrip } from '../lib/trip';
 
 type Sort = SortKey | 'near';
@@ -44,10 +45,11 @@ export default function ExploreScreen() {
   const inCat = (c: string, g: string) => g === 'all' || (g === 'foryou' ? mineG.has(groupOf(c)) : groupOf(c) === g);
   const [sub, setSub] = useState('all');
   const [reg, setReg] = useState(-1);
+  const [now, setNow] = useState(false);
 
   const match = (p: typeof places[number], ignoreSub = false, ignoreCat = false) => {
     const f = fold(q.trim());
-    return (reg < 0 || p.r === reg) && (ignoreCat || inCat(p.c, cat)) && (ignoreSub || sub === 'all' || p.c === sub)
+    return (reg < 0 || p.r === reg) && (!now || inSeason(p)) && (ignoreCat || inCat(p.c, cat)) && (ignoreSub || sub === 'all' || p.c === sub)
       && (!f || fold(`${p.n} ${p.il} ${p.semt || ''} ${catName(p.c)} ${t(catName(p.c))}`).includes(f));
   };
   const rows = useMemo(() => {
@@ -58,7 +60,7 @@ export default function ExploreScreen() {
     };
     return places.filter((p) => match(p)).map((p) => ({ p, s: stats(p.id), d: distTo(p.lat, p.lng) })).sort(cmp[sort]);
     // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [places, stats, q, sort, cat, sub, reg, t, distTo, mineG]);
+  }, [places, stats, q, sort, cat, sub, reg, now, t, distTo, mineG]);
   const groupCount = (g: string) => places.filter((p) => match(p, true, true) && inCat(p.c, g)).length;
   const subs = cat === 'all' || cat === 'foryou' ? [] : Object.entries(SUBS).filter(([, v]) => v[0] === cat);
   const waiting = sugg.filter((g) => g.state === 'wait' || g.state === 'mod').length;
@@ -76,9 +78,9 @@ export default function ExploreScreen() {
       </View>
 
       <View style={{ flexDirection: 'row', gap: 8, marginTop: 12 }}>
-        <Pressable onPress={() => push({ name: 'recommend' })} style={{ flex: 1.3, backgroundColor: C.ink, borderRadius: R.md, padding: 12 }} accessibilityRole="button">
+        <Pressable onPress={() => push({ name: 'recommend' })} style={{ flex: 1.3, backgroundColor: C.solid, borderRadius: R.md, padding: 12 }} accessibilityRole="button">
           <Text style={{ color: '#FFFFFF', fontWeight: '800', fontSize: 15.5 }}>{`🧭 ${t('Nereye gitmeliyim?')}`}</Text>
-          <Text style={{ color: '#D6E0E3', fontSize: 12.5, marginTop: 2 }}>{t('İlgine göre şehir ve gezi planı öner')}</Text>
+          <Text style={{ color: C.solidSub, fontSize: 12.5, marginTop: 2 }}>{t('İlgine göre şehir ve gezi planı öner')}</Text>
         </Pressable>
         <Pressable onPress={() => push({ name: 'trip' })} style={{ flex: 1, backgroundColor: C.surface, borderRadius: R.md, padding: 12, borderWidth: 1, borderColor: C.line }} accessibilityRole="button">
           <Text style={{ color: C.ink, fontWeight: '800' }}>{`🧳 ${t('Gezi listem')}`}</Text>
@@ -99,7 +101,7 @@ export default function ExploreScreen() {
       <Text style={[b.boxH, { marginTop: 18 }]}>{t('Sırala')}</Text>
       <View style={{ flexDirection: 'row', flexWrap: 'wrap', gap: 8 }}>
         {ALL_SORTS.map(([k, l]) => (
-          <Pressable key={k} onPress={() => pickSort(k)} style={[{ width: '48.6%', borderRadius: R.md, padding: 12, borderWidth: 1, flexDirection: 'row', alignItems: 'center', gap: 8 }, sort === k ? { backgroundColor: C.ink, borderColor: C.ink } : { backgroundColor: C.surface, borderColor: C.line }]}
+          <Pressable key={k} onPress={() => pickSort(k)} style={[{ width: '48.6%', borderRadius: R.md, padding: 12, borderWidth: 1, flexDirection: 'row', alignItems: 'center', gap: 8 }, sort === k ? { backgroundColor: C.solid, borderColor: C.solid } : { backgroundColor: C.surface, borderColor: C.line }]}
             accessibilityRole="button" accessibilityState={{ selected: sort === k }}>
             <Text style={{ fontSize: 17, color: sort === k ? '#FFFFFF' : C.accent }}>{SORT_ICON[k]}</Text>
             <Text style={{ fontWeight: '700', color: sort === k ? '#FFFFFF' : C.ink, flexShrink: 1 }}>{t(l)}</Text>
@@ -110,12 +112,12 @@ export default function ExploreScreen() {
       <Text style={[b.boxH, { marginTop: 16 }]}>{t('Kategori')}</Text>
       <View style={{ flexDirection: 'row', flexWrap: 'wrap', gap: 8 }}>
         {[...(mineG.size ? [['foryou', 'Senin için'] as [string, string]] : []), ['all', 'Tümü'] as [string, string], ...GROUPS].map(([k, l]) => (
-          <Pressable key={k} onPress={() => { setCat(k); setSub('all'); }} style={[{ width: '31.6%', borderRadius: R.md, paddingVertical: 10, paddingHorizontal: 8, borderWidth: 1, alignItems: 'center' }, cat === k ? { backgroundColor: C.ink, borderColor: C.ink } : k === 'foryou' ? { backgroundColor: C.soft, borderColor: C.accent } : { backgroundColor: C.surface, borderColor: C.line },
+          <Pressable key={k} onPress={() => { setCat(k); setSub('all'); }} style={[{ width: '31.6%', borderRadius: R.md, paddingVertical: 10, paddingHorizontal: 8, borderWidth: 1, alignItems: 'center' }, cat === k ? { backgroundColor: C.solid, borderColor: C.solid } : k === 'foryou' ? { backgroundColor: C.soft, borderColor: C.accent } : { backgroundColor: C.surface, borderColor: C.line },
             k === 'foryou' && { width: '100%', flexDirection: 'row', justifyContent: 'center', gap: 10 }]}
             accessibilityRole="button" accessibilityState={{ selected: cat === k }}>
             <Text style={{ fontSize: 20 }}>{GROUP_ICON[k]}</Text>
             <Text style={{ fontWeight: '700', fontSize: 13, color: cat === k ? '#FFFFFF' : C.ink, textAlign: 'center' }} numberOfLines={2}>{t(l)}</Text>
-            <Text style={{ fontSize: 12, color: cat === k ? '#D6E0E3' : C.muted }}>{num(groupCount(k))}</Text>
+            <Text style={{ fontSize: 12, color: cat === k ? C.solidSub : C.muted }}>{num(groupCount(k))}</Text>
           </Pressable>
         ))}
       </View>
@@ -126,6 +128,7 @@ export default function ExploreScreen() {
         </ScrollView>
       )}
       <ScrollView horizontal showsHorizontalScrollIndicator={false} contentContainerStyle={{ gap: 8, paddingVertical: 10 }}>
+        <Chip label={`🗓 ${t('Bu mevsim')}`} on={now} onPress={() => setNow(!now)} />
         {[-1, ...REGIONS.map((_, i) => i)].map((i) => <Chip key={i} label={i < 0 ? t('Tüm Türkiye') : t(REGIONS[i])} on={reg === i} onPress={() => setReg(i)} />)}
       </ScrollView>
       <Text style={[b.boxH, { marginTop: 4, marginBottom: 6 }]}>{t('{1} yer', num(rows.length))}</Text>

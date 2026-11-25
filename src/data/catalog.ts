@@ -4,7 +4,7 @@ import trRaw from './turkey.json';
 
 export type Place = {
   id: string; n: string; il: string; semt?: string; r: number; c: string;
-  lat: number; lng: number; d?: string; h?: string; t?: number; added?: string;
+  lat: number; lng: number; d?: string; h?: string; t?: number; added?: string; closed?: boolean;
 };
 export type Stats = { visits: number; favs: number; count: number; rating: number };
 

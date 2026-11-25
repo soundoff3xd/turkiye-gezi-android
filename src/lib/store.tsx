@@ -2,6 +2,12 @@ import React, { createContext, useCallback, useContext, useEffect, useMemo, useR
 import { supabase } from './supabase';
 import { publicUrl, uploadImage, type Picked } from './images';
 import { useAuth } from './auth';
+import { track } from './telemetry';
+import AsyncStorage from '@react-native-async-storage/async-storage';
+
+/* çevrimdışı kullanım: son yüklenen veriler telefonda saklanır, bağlantı yokken bunlar gösterilir */
+const cacheSet = (k: string, v: unknown) => { try { AsyncStorage.setItem(`gezi-c-${k}`, JSON.stringify(v)).catch(() => {}); } catch { /* çok büyük */ } };
+const cacheGet = async <T,>(k: string): Promise<T | null> => { try { const v = await AsyncStorage.getItem(`gezi-c-${k}`); return v ? (JSON.parse(v) as T) : null; } catch { return null; } };
 import { BASE_PLACES, EMPTY_STATS, regionOf, type Place, type Stats } from '../data/catalog';
 
 /* Web sitesiyle aynı veritabanı: yerler, istatistikler, yorumlar, beğeniler, öneriler */
@@ -22,7 +28,7 @@ type Store = {
   places: Place[]; byId: (id: string) => Place | undefined; stats: (id: string) => Stats;
   visited: Set<string>; faved: Set<string>; posts: Review[]; liked: Set<string>; plikes: Set<string>;
   sugg: Suggestion[]; myVotes: Record<string, 'ok' | 'bad'>; mineToday: number; photos: Photo[];
-  loading: boolean; error: string | null;
+  loading: boolean; error: string | null; offline: boolean;
   reload: () => Promise<void>;
   toggle: (kind: 'visits' | 'favorites', placeId: string) => Promise<boolean>;
   like: (reviewId: string) => Promise<void>;
@@ -34,7 +40,9 @@ type Store = {
   moderate: (id: string, approve: boolean) => Promise<void>;
   report: (type: ReportTarget, id: string, reason: string) => Promise<void>;
   sendFeedback: (f: { kind: FeedbackKind; rating: number | null; body: string; version: string }) => Promise<void>;
+  correct: (placeId: string, kind: CorrectionKind, note: string, lat?: number | null, lng?: number | null) => Promise<void>;
 };
+export type CorrectionKind = 'konum' | 'bilgi' | 'kapali' | 'diger';
 const Ctx = createContext<Store | null>(null);
 export const useStore = () => useContext(Ctx) as Store;
 
@@ -42,6 +50,7 @@ export function StoreProvider({ children }: { children: React.ReactNode }) {
   const { me } = useAuth();
   const uid = me?.id ?? null;
   const [community, setCommunity] = useState<Place[]>([]);
+  const [over, setOver] = useState<Record<string, { lat: number | null; lng: number | null; closed: boolean }>>({});
   const [agg, setAgg] = useState<Record<string, Stats>>({});
   const [visited, setVisited] = useState<Set<string>>(new Set());
   const [faved, setFaved] = useState<Set<string>>(new Set());
@@ -54,26 +63,38 @@ export function StoreProvider({ children }: { children: React.ReactNode }) {
   const [mineToday, setMineToday] = useState(0);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState<string | null>(null);
+  const [offline, setOffline] = useState(false);
+  const fresh = useRef<Record<string, boolean>>({});
   const uidRef = useRef(uid); uidRef.current = uid;
 
-  const places = useMemo(() => {
+  // moderatörün onayladığı düzeltmeler (konum, kapandı) paketteki verinin üstüne uygulanır
+  const all = useMemo(() => {
     const ids = new Set(BASE_PLACES.map((p) => p.id));
-    return [...BASE_PLACES, ...community.filter((p) => !ids.has(p.id))];
-  }, [community]);
-  const index = useMemo(() => new Map(places.map((p) => [p.id, p])), [places]);
+    return [...BASE_PLACES, ...community.filter((p) => !ids.has(p.id))].map((p) => {
+      const o = over[p.id]; if (!o) return p;
+      return { ...p, lat: o.lat ?? p.lat, lng: o.lng ?? p.lng, closed: o.closed || undefined };
+    });
+  }, [community, over]);
+  const places = useMemo(() => all.filter((p) => !p.closed), [all]);
+  const index = useMemo(() => new Map(all.map((p) => [p.id, p])), [all]);
 
   /* ---- yükleyiciler ---- */
   const loadStats = useCallback(async () => {
     const { data, error } = await supabase.rpc('get_place_stats'); if (error) throw error;
     const m: Record<string, Stats> = {};
     (data as any[]).forEach((r) => { m[r.place_id] = { visits: +r.visits, favs: +r.favs, count: +r.reviews, rating: r.rating ? +r.rating : 0 }; });
-    setAgg(m);
+    setAgg(m); fresh.current.agg = true; cacheSet('agg', m);
   }, []);
   const loadPlaces = useCallback(async () => {
     const { data, error } = await supabase.from('places')
       .select('id,name,province,region,category,lat,lng,description,added_by,profiles!places_added_by_fkey(name)').not('added_by', 'is', null);
     if (error) throw error;
-    setCommunity((data as any[]).map((r) => ({ id: r.id, n: r.name, il: r.province, r: r.region, c: r.category, lat: r.lat, lng: r.lng, d: r.description, t: 1, added: r.profiles?.name || '' })));
+    const com = (data as any[]).map((r) => ({ id: r.id, n: r.name, il: r.province, r: r.region, c: r.category, lat: r.lat, lng: r.lng, d: r.description, t: 1, added: r.profiles?.name || '' }));
+    const ov = await supabase.from('place_overrides').select('place_id,lat,lng,closed');
+    const o = ov.error ? null : Object.fromEntries((ov.data as any[]).map((r) => [r.place_id, { lat: r.lat, lng: r.lng, closed: !!r.closed }]));
+    if (o) setOver(o);
+    setCommunity(com);
+    fresh.current.places = true; cacheSet('places', { com, over: o || {} });
   }, []);
   const loadReviews = useCallback(async () => {
     const { data, error } = await supabase.from('reviews')
@@ -95,6 +116,7 @@ export function StoreProvider({ children }: { children: React.ReactNode }) {
       } as Review;
     });
     setPosts(list); setLiked(L); setPlikes(P); setPhotoBase(base);
+    fresh.current.reviews = true; cacheSet('reviews', { list, L: [...L], P: [...P], base });
   }, []);
   const loadSuggestions = useCallback(async () => {
     const { data, error } = await supabase.from('suggestions')
@@ -117,16 +139,34 @@ export function StoreProvider({ children }: { children: React.ReactNode }) {
     if (!uidRef.current) { setVisited(new Set()); setFaved(new Set()); return; }
     const [v, f] = await Promise.all([supabase.from('visits').select('place_id'), supabase.from('favorites').select('place_id')]);
     if (v.error) throw v.error; if (f.error) throw f.error;
-    setVisited(new Set((v.data as any[]).map((x) => x.place_id)));
-    setFaved(new Set((f.data as any[]).map((x) => x.place_id)));
+    const vs = (v.data as any[]).map((x) => x.place_id), fs = (f.data as any[]).map((x) => x.place_id);
+    setVisited(new Set(vs)); setFaved(new Set(fs));
+    fresh.current.mine = true; cacheSet(`mine-${uidRef.current}`, { vs, fs });
   }, []);
 
   const reload = useCallback(async () => {
     setError(null);
     const res = await Promise.allSettled([loadPlaces(), loadStats(), loadReviews(), loadSuggestions(), loadMine()]);
     if (res.some((r) => r.status === 'rejected')) setError('Bazı bilgiler yüklenemedi. İnternet bağlantını kontrol et.');
+    setOffline(res.filter((r) => r.status === 'rejected').length >= 3);
     setLoading(false);
   }, [loadPlaces, loadStats, loadReviews, loadSuggestions, loadMine]);
+  // kayıtlı verileri hemen göster; sunucudan gelen yenisi gelince üzerine yazılır
+  useEffect(() => {
+    let live = true;
+    (async () => {
+      const [a, pl, rv, mi] = await Promise.all([
+        cacheGet<Record<string, Stats>>('agg'), cacheGet<{ com: Place[]; over: Record<string, any> }>('places'),
+        cacheGet<{ list: Review[]; L: string[]; P: string[]; base: Record<string, number> }>('reviews'), uid ? cacheGet<{ vs: string[]; fs: string[] }>(`mine-${uid}`) : null,
+      ]);
+      if (!live) return;
+      if (a && !fresh.current.agg) setAgg(a);
+      if (pl && !fresh.current.places) { setCommunity(pl.com || []); setOver(pl.over || {}); }
+      if (rv && !fresh.current.reviews) { setPosts(rv.list || []); setLiked(new Set(rv.L || [])); setPlikes(new Set(rv.P || [])); setPhotoBase(rv.base || {}); }
+      if (mi && !fresh.current.mine) { setVisited(new Set(mi.vs || [])); setFaved(new Set(mi.fs || [])); }
+    })();
+    return () => { live = false; };
+  }, [uid]);
   useEffect(() => { reload(); }, [uid, reload]);
 
   /* ---- işlemler (önce ekranda değiştir, veritabanı reddederse geri al) ---- */
@@ -141,6 +181,7 @@ export function StoreProvider({ children }: { children: React.ReactNode }) {
     apply(on);
     const { error } = on ? await supabase.from(kind).insert({ user_id: uid, place_id: placeId }) : await supabase.from(kind).delete().eq('user_id', uid).eq('place_id', placeId);
     if (error) { apply(!on); throw error; }
+    if (on) track(kind === 'visits' ? 'act:visit' : 'act:fav');
     return on;
   }, [uid, visited, faved]);
 
@@ -152,6 +193,7 @@ export function StoreProvider({ children }: { children: React.ReactNode }) {
     const on = !liked.has(rid); flip(setLiked, rid, on);
     const { error } = on ? await supabase.from('review_likes').insert({ review_id: rid, user_id: uid }) : await supabase.from('review_likes').delete().eq('review_id', rid).eq('user_id', uid);
     if (error) { flip(setLiked, rid, !on); throw error; }
+    if (on) track('act:like');
   }, [uid, liked]);
 
   const photoLike = useCallback(async (rid: string) => {
@@ -159,6 +201,7 @@ export function StoreProvider({ children }: { children: React.ReactNode }) {
     const on = !plikes.has(rid); flip(setPlikes, rid, on);
     const { error } = on ? await supabase.from('photo_likes').insert({ review_id: rid, user_id: uid }) : await supabase.from('photo_likes').delete().eq('review_id', rid).eq('user_id', uid);
     if (error) { flip(setPlikes, rid, !on); throw error; }
+    if (on) track('act:photo_like');
     return on;
   }, [uid, plikes]);
 
@@ -167,6 +210,7 @@ export function StoreProvider({ children }: { children: React.ReactNode }) {
     const t = text.trim(); if (!t) return;
     const { data, error } = await supabase.from('replies').insert({ review_id: rid, user_id: uid, body: t.slice(0, 500) }).select('id').single();
     if (error) throw error;
+    track('act:reply');
     setPosts((ps) => ps.map((p) => (p.id === rid ? { ...p, replies: [...p.replies, { id: (data as any)?.id || '', uid, a: me.name, t, av: me.av }] } : p)));
   }, [uid, me]);
 
@@ -175,6 +219,7 @@ export function StoreProvider({ children }: { children: React.ReactNode }) {
     const path = img ? await uploadImage(uid, img) : null;
     const { error } = await supabase.from('reviews').insert({ place_id: placeId, user_id: uid, rating, body: text.trim().slice(0, 1000), photo_path: path });
     if (error) { if (path) supabase.storage.from('photos').remove([path]).catch(() => {}); throw error; }
+    track(path ? 'act:review_photo' : 'act:review');
     await Promise.all([loadReviews(), loadStats()]).catch(() => {});
   }, [uid, loadReviews, loadStats]);
 
@@ -185,6 +230,7 @@ export function StoreProvider({ children }: { children: React.ReactNode }) {
       user_id: uid, name: f.n.trim(), province: f.il, category: f.c, lat: f.lat, lng: f.lng, description: f.d.trim(), photo_path: path, region: regionOf(f.il, places),
     });
     if (error) { supabase.storage.from('photos').remove([path]).catch(() => {}); throw error; }
+    track('act:suggest');
     await loadSuggestions();
   }, [uid, places, loadSuggestions]);
 
@@ -217,6 +263,14 @@ export function StoreProvider({ children }: { children: React.ReactNode }) {
     if (!uid) return;
     const { error } = await supabase.from('feedback').insert({ user_id: uid, kind: f.kind, rating: f.rating, body: f.body.trim().slice(0, 2000), platform: 'android', version: f.version });
     if (error) throw error;
+    track('act:feedback');
+  }, [uid]);
+  /* "bilgi yanlış": yer hakkında düzeltme önerisi → moderatör paneline düşer */
+  const correct = useCallback(async (placeId: string, kind: CorrectionKind, note: string, lat?: number | null, lng?: number | null) => {
+    if (!uid) return;
+    const { error } = await supabase.from('corrections').insert({ place_id: placeId, kind, note: note.trim().slice(0, 600), lat: lat ?? null, lng: lng ?? null });
+    if (error) throw error;
+    track('act:correct');
   }, [uid]);
 
   const photos = useMemo<Photo[]>(() => posts.filter((p) => p.photo && !p.photoHidden && !p.hidden && index.has(p.pid)).map((p) => ({
@@ -226,8 +280,8 @@ export function StoreProvider({ children }: { children: React.ReactNode }) {
 
   const value: Store = {
     places, byId: (id) => index.get(id), stats: (id) => agg[id] || EMPTY_STATS,
-    visited, faved, posts, liked, plikes, sugg, myVotes, mineToday, photos, loading, error,
-    reload, toggle, like, photoLike, reply, addReview, addSuggestion, vote, moderate, report, sendFeedback,
+    visited, faved, posts, liked, plikes, sugg, myVotes, mineToday, photos, loading, error, offline,
+    reload, toggle, like, photoLike, reply, addReview, addSuggestion, vote, moderate, report, sendFeedback, correct,
   };
   return <Ctx.Provider value={value}>{children}</Ctx.Provider>;
 }

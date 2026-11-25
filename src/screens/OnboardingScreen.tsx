@@ -114,7 +114,7 @@ const s = StyleSheet.create({
   fine: { color: C.muted, fontSize: 13, lineHeight: 18, marginTop: 16, textAlign: 'center' },
   grid: { flexDirection: 'row', flexWrap: 'wrap', gap: 10 },
   tile: { width: '48.4%', minHeight: 112, borderRadius: R.md, backgroundColor: C.surface, borderWidth: 1, borderColor: C.line, alignItems: 'center', justifyContent: 'center', padding: 12, gap: 8 },
-  tileOn: { backgroundColor: C.ink, borderColor: C.ink },
+  tileOn: { backgroundColor: C.solid, borderColor: C.solid },
   tileTxt: { fontWeight: '800', fontSize: 15, color: C.ink, textAlign: 'center' },
   tick: { position: 'absolute', top: 8, right: 8, width: 22, height: 22, borderRadius: 11, backgroundColor: '#FFFFFF', alignItems: 'center', justifyContent: 'center' },
   lang: { width: '48.4%', flexDirection: 'row', justifyContent: 'space-between', alignItems: 'center', borderRadius: R.md, backgroundColor: C.surface, borderWidth: 1, borderColor: C.line, paddingVertical: 14, paddingHorizontal: 14 },

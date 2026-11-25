@@ -19,7 +19,7 @@ export function Avatar({ name, url, size = 40 }: { name: string; url?: string | 
   const st = { width: size, height: size, borderRadius: size / 2 };
   if (url) return <Image source={{ uri: url }} style={[st, { backgroundColor: C.line }]} accessibilityIgnoresInvertColors />;
   return (
-    <View style={[st, { backgroundColor: C.ink, alignItems: 'center', justifyContent: 'center' }]}>
+    <View style={[st, { backgroundColor: C.solid, alignItems: 'center', justifyContent: 'center' }]}>
       <Text style={{ color: '#FFFFFF', fontWeight: '800', fontSize: size * 0.42 }}>{(name || '?').charAt(0).toLocaleUpperCase('tr')}</Text>
     </View>
   );
@@ -27,7 +27,7 @@ export function Avatar({ name, url, size = 40 }: { name: string; url?: string | 
 
 type BtnProps = { label: string; onPress: () => void; kind?: 'pri' | 'out' | 'on' | 'ghost'; disabled?: boolean; busy?: boolean; style?: StyleProp<ViewStyle>; small?: boolean };
 export function Btn({ label, onPress, kind = 'out', disabled, busy, style, small }: BtnProps) {
-  const bg = kind === 'pri' ? C.accent : kind === 'on' ? C.ink : kind === 'ghost' ? 'transparent' : C.surface;
+  const bg = kind === 'pri' ? C.accent : kind === 'on' ? C.solid : kind === 'ghost' ? 'transparent' : C.surface;
   const fg = kind === 'pri' || kind === 'on' ? '#FFFFFF' : C.ink;
   return (
     <Pressable onPress={onPress} disabled={disabled || busy} accessibilityRole="button" accessibilityState={{ disabled: !!(disabled || busy), selected: kind === 'on' }}
@@ -100,7 +100,7 @@ export const b = StyleSheet.create({
   out: { borderWidth: 1.5, borderColor: C.ink },
   txt: { fontSize: 15, fontWeight: '700' },
   chip: { backgroundColor: C.surface, borderRadius: R.pill, paddingHorizontal: 15, paddingVertical: 9, borderWidth: 1, borderColor: C.chipLine },
-  chipOn: { backgroundColor: C.ink, borderColor: C.ink },
+  chipOn: { backgroundColor: C.solid, borderColor: C.solid },
   chipTxt: { color: C.ink, fontSize: 14, fontWeight: '600' },
   header: { flexDirection: 'row', alignItems: 'center', paddingHorizontal: 8, paddingBottom: 8, backgroundColor: C.bg, borderBottomWidth: StyleSheet.hairlineWidth, borderBottomColor: C.line, gap: 6 },
   back: { width: 40, height: 40, borderRadius: 20, alignItems: 'center', justifyContent: 'center' },

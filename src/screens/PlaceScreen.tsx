@@ -9,6 +9,8 @@ import { useNav, useToast } from '../lib/ui';
 import { Btn, Empty, Header, Stars, b } from '../components/common';
 import ReviewCard from '../components/ReviewCard';
 import Weather from '../components/Weather';
+import CorrectionSheet from '../components/CorrectionSheet';
+import { Dishes, SeasonBox } from '../components/Extras';
 import { SkeletonPage, useDeferred } from '../components/Anim';
 import { useTrip } from '../lib/trip';
 import { sharePlace } from '../lib/share';
@@ -23,6 +25,7 @@ export default function PlaceScreen({ id, initialTab = 'ov' }: { id: string; ini
   const { pop, push, showOnMap } = useNav();
   const toast = useToast();
   const [tab, setTab] = useState(initialTab);
+  const [fix, setFix] = useState(false);
   const { distTo } = useLocation();
   const trip = useTrip();
   const ready = useDeferred(0);
@@ -50,6 +53,7 @@ export default function PlaceScreen({ id, initialTab = 'ov' }: { id: string; ini
             : <Text style={{ color: C.muted }}>{t('Henüz puan yok')}</Text>}
         </View>
         <Text style={{ color: C.muted, marginTop: 4 }}>{`${t('{1} kişi gitti', num(s.visits))} · ${t('{1} favori', num(s.favs))}`}</Text>
+        {!!p.closed && <Text style={{ color: C.danger, fontWeight: '800', marginTop: 6 }}>{`🚫 ${t('Bu yerin kapandığı bildirildi.')}`}</Text>}
         {!!p.added && <Text style={{ color: C.muted, marginTop: 4 }}>{t('{1} önerdi, topluluk onayladı', p.added)}</Text>}
         {distTo(p.lat, p.lng) != null && <Text style={{ color: C.ink, fontWeight: '700', marginTop: 4 }}>{`📍 ${t('Senden {1} uzakta', fmtDist(distTo(p.lat, p.lng) as number, num))}`}</Text>}
 
@@ -83,8 +87,13 @@ export default function PlaceScreen({ id, initialTab = 'ov' }: { id: string; ini
             <View style={b.box}><Text style={b.boxH}>{t('Konum')}</Text>
               <Text style={b.boxT}>{[p.il, p.semt, REGIONS[p.r] ? t(REGIONS[p.r] + ' Bölgesi') : ''].filter(Boolean).join(' · ')}</Text></View>
             {!!p.h && <View style={b.box}><Text style={b.boxH}>{t('Nasıl gidilir')}</Text><Text style={b.boxT}>{t(p.h)}</Text></View>}
+            <SeasonBox p={p} />
+            <Dishes il={p.il} />
             <Weather lat={p.lat} lng={p.lng} />
             <Text style={b.fine}>{t('Açılış saatleri ve giriş ücretleri değişebilir; gitmeden önce resmi kaynaktan kontrol edin.')}</Text>
+            <Pressable onPress={() => setFix(true)} hitSlop={8} accessibilityRole="button" style={{ alignSelf: 'flex-start', marginTop: 10, paddingVertical: 6 }}>
+              <Text style={{ color: C.link, fontWeight: '700' }}>{`⚑ ${t('Bilgi yanlış mı? Düzeltme öner')}`}</Text>
+            </Pressable>
           </View>
         )}
         {tab === 'rev' && (
@@ -111,6 +120,7 @@ export default function PlaceScreen({ id, initialTab = 'ov' }: { id: string; ini
           ) : <Empty title={t('Henüz fotoğraf yok')} note={t('Çektiğin kareleri paylaş, gelecek gezginler ne bekleyeceğini görsün.')} action={t('Fotoğraf ekle')} onAction={() => push({ name: 'compose', id: p.id })} />
         )}
       </ScrollView>}
+      <CorrectionSheet placeId={p.id} open={fix} onClose={() => setFix(false)} />
     </View>
   );
 }

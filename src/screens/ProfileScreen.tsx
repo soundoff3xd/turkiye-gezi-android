@@ -94,6 +94,19 @@ export default function ProfileScreen() {
         <Text style={b.fine}>{t('Puanlar: gidilen yer 1, yorum 3, onaylanan öneri 10. Güvenilir rehberlerin onayı 2 oy sayılır.')}</Text>
       </View>
       {(() => {
+        const ils = new Set([...visited].map((id) => byId(id)?.il).filter(Boolean));
+        return (
+          <Pressable onPress={() => push({ name: 'paint' })} style={[b.box, { flexDirection: 'row', alignItems: 'center', gap: 12 }]} accessibilityRole="button">
+            <Text style={{ fontSize: 28 }}>🗺</Text>
+            <View style={{ flex: 1 }}>
+              <Text style={{ color: C.ink, fontWeight: '800', fontSize: 16 }}>{t('Türkiye haritam')}</Text>
+              <Text style={{ color: C.muted, marginTop: 2 }}>{`${t('{1} / {2} il', num(ils.size), num(81))} · ${t('Gezdiğin illeri boya, paylaş')}`}</Text>
+            </View>
+            <Text style={{ color: C.muted, fontSize: 22 }}>›</Text>
+          </Pressable>
+        );
+      })()}
+      {(() => {
         const ctx = { visited: [...visited].map((id) => byId(id)).filter(Boolean) as NonNullable<ReturnType<typeof byId>>[], reviews: mine.length, photos: mine.filter((x) => x.photo).length, all: places };
         const rows = BADGES.map((bd) => ({ bd, c: bd.count(ctx), n: needOf(bd, ctx) }));
         const got = rows.filter((r) => r.c >= r.n).length;
@@ -121,7 +134,7 @@ export default function ProfileScreen() {
 
       <ScrollView horizontal showsHorizontalScrollIndicator={false} contentContainerStyle={{ gap: 6, marginTop: 16 }} accessibilityRole="tablist">
         {tabs.map(([k, l]) => (
-          <Pressable key={k} onPress={() => setTab(k)} style={{ paddingVertical: 9, paddingHorizontal: 14, borderRadius: R.pill, backgroundColor: tab === k ? C.ink : C.surface, borderWidth: 1, borderColor: tab === k ? C.ink : C.chipLine }}
+          <Pressable key={k} onPress={() => setTab(k)} style={{ paddingVertical: 9, paddingHorizontal: 14, borderRadius: R.pill, backgroundColor: tab === k ? C.solid : C.surface, borderWidth: 1, borderColor: tab === k ? C.solid : C.chipLine }}
             accessibilityRole="tab" accessibilityState={{ selected: tab === k }}>
             <Text style={{ fontWeight: '700', color: tab === k ? '#FFFFFF' : C.ink }}>{l}</Text>
           </Pressable>
