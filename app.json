@@ -22,7 +22,8 @@
         "INTERNET",
         "CAMERA",
         "ACCESS_COARSE_LOCATION",
-        "ACCESS_FINE_LOCATION"
+        "ACCESS_FINE_LOCATION",
+        "POST_NOTIFICATIONS"
       ],
       "blockedPermissions": [
         "android.permission.RECORD_AUDIO"
@@ -63,6 +64,14 @@
         {
           "locationWhenInUsePermission": "Yakındaki yerleri göstermek ve yol tarifi için konumunu kullanırız. Konumun sunucuya kaydedilmez.",
           "isAndroidBackgroundLocationEnabled": false
+        }
+      ],
+      [
+        "expo-notifications",
+        {
+          "icon": "./assets/notification-icon.png",
+          "color": "#B8321F",
+          "defaultChannel": "default"
         }
       ]
     ],

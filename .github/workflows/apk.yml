@@ -34,6 +34,8 @@ jobs:
       - uses: gradle/actions/setup-gradle@v4
 
       - name: Expo projesini hazırla
+        env:
+          GOOGLE_SERVICES_JSON: ${{ secrets.GOOGLE_SERVICES_JSON }}
         run: |
           set -euo pipefail
           mkdir -p "$RUNNER_TEMP/w" && cd "$RUNNER_TEMP/w"
@@ -45,9 +47,17 @@ jobs:
           node -e "const f='app.json',j=require('./'+f);j.expo.version='0.1.${{ github.run_number }}';j.expo.android.versionCode=${{ github.run_number }};require('fs').writeFileSync(f,JSON.stringify(j,null,2))"
           echo '{ "run": ${{ github.run_number }} }' > src/build.json
           npm install
-          npx expo install @supabase/supabase-js @react-native-async-storage/async-storage react-native-url-polyfill react-native-safe-area-context expo-status-bar expo-image-picker expo-image-manipulator expo-location expo-speech expo-keep-awake react-native-svg react-native-view-shot expo-sharing
+          npx expo install @supabase/supabase-js @react-native-async-storage/async-storage react-native-url-polyfill react-native-safe-area-context expo-status-bar expo-image-picker expo-image-manipulator expo-location expo-speech expo-keep-awake react-native-svg react-native-view-shot expo-sharing expo-notifications
           npm install @maplibre/maplibre-react-native@^11.3.3 base64-arraybuffer
           npm install -D @types/geojson
+          # telefona bildirim: Firebase ayar dosyası GitHub gizli değişkeninden gelir (yoksa bildirimsiz derlenir)
+          if [ -n "${GOOGLE_SERVICES_JSON:-}" ]; then
+            printf '%s' "$GOOGLE_SERVICES_JSON" > google-services.json
+            node -e "const g=require('./google-services.json');const ok=(g.client||[]).some(c=>c.client_info&&c.client_info.android_client_info&&c.client_info.android_client_info.package_name==='com.turkiyegezirehberi.app');if(!ok){console.log('::error title=Firebase::google-services.json içinde com.turkiyegezirehberi.app paket adı yok');process.exit(1)}console.log('Firebase ayar dosyası tamam: proje '+g.project_info.project_id)"
+            node -e "const f='app.json',j=require('./'+f);j.expo.android.googleServicesFile='./google-services.json';require('fs').writeFileSync(f,JSON.stringify(j,null,2))"
+          else
+            echo "::warning title=Firebase::GOOGLE_SERVICES_JSON yok, telefona bildirim olmadan derleniyor"
+          fi
           echo "APP_DIR=$PWD" >> "$GITHUB_ENV"
 
       - name: Kod denetimi (TypeScript)
@@ -71,7 +81,17 @@ jobs:
       - name: APK'yı adlandır
         run: cp "$APP_DIR/android/app/build/outputs/apk/release/app-release.apk" turkiye-gezi-rehberi.apk
 
+      # main dışındaki dallar (deneme derlemesi): sürüm yayınlanmaz, telefona güncelleme bildirimi gitmez
+      - name: Deneme derlemesini sakla
+        if: github.ref != 'refs/heads/main'
+        uses: actions/upload-artifact@v4
+        with:
+          name: turkiye-gezi-rehberi-deneme
+          path: turkiye-gezi-rehberi.apk
+          retention-days: 7
+
       - name: Releases sayfasına koy
+        if: github.ref == 'refs/heads/main'
         uses: softprops/action-gh-release@v2
         with:
           tag_name: v0.1.${{ github.run_number }}

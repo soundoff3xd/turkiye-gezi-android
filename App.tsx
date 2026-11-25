@@ -41,6 +41,7 @@ import ErrorBoundary from './src/components/ErrorBoundary';
 import { installCrashHandler, track } from './src/lib/telemetry';
 import { useInboxPoll } from './src/lib/inbox';
 import { parseLink } from './src/lib/share';
+import { usePush } from './src/lib/push';
 
 installCrashHandler();
 
@@ -98,6 +99,7 @@ function Shell() {
   useBadgeToasts();
   useInboxPoll(true);
   useDeepLinks();
+  usePushOpen();
   const up = useUpdate();
   return (
     <View style={{ flex: 1, backgroundColor: C.bg }}>
@@ -131,6 +133,18 @@ function Shell() {
       </Modal>
     </View>
   );
+}
+
+/* telefona gelen bildirim: dokununca ilgili yeri aç (yorum/fotoğraf sekmesiyle) */
+function usePushOpen() {
+  const { lang } = useT();
+  const { push } = useNav();
+  const { byId, loading } = useStore();
+  usePush(lang, (id, kind) => {
+    if (!byId(id)) return;
+    track('act:open_push');
+    push({ name: 'place', id, tab: kind === 'photo_like' ? 'pho' : kind === 'approved' ? 'ov' : 'rev' });
+  }, !loading);
 }
 
 /* site bağlantıları uygulamada açılır: ?yer=… yer kartı, ?gezi=… paylaşılan gezi listesi */

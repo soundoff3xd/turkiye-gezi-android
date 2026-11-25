@@ -1,6 +1,7 @@
 import React, { createContext, useCallback, useContext, useEffect, useState } from 'react';
 import type { Session } from '@supabase/supabase-js';
 import { supabase, SITE_URL } from './supabase';
+import { unregisterPush } from './push';
 import { publicUrl, uploadImage, type Picked } from './images';
 import { BAD_WORDS, fold } from '../data/catalog';
 
@@ -86,7 +87,7 @@ export function AuthProvider({ children }: { children: React.ReactNode }) {
       if (data.user && Array.isArray(data.user.identities) && data.user.identities.length === 0) throw new Error('Bu e-postayla zaten bir hesap var. Giriş yapmayı dene.');
       return data.session ? 'done' : 'confirm';
     },
-    async signOut() { await supabase.auth.signOut(); },
+    async signOut() { await unregisterPush(); await supabase.auth.signOut(); },
     async setAvatar(img) {
       if (!me) return;
       const old = me.avPath;

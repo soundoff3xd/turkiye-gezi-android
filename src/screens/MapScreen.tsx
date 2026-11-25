@@ -20,6 +20,7 @@ export const MAP_STYLES: Record<string, [string, string, string]> = {
   std: ['Standart', 'https://tiles.openfreemap.org/styles/liberty', '#F2EFE9'],
   dark: ['Koyu', 'https://tiles.openfreemap.org/styles/dark', '#2B3134'],
   plain: ['Sade', 'https://tiles.openfreemap.org/styles/positron', '#F5F5F3'],
+  sat: ['Uydu', 'https://tiles.openfreemap.org/styles/liberty', '#1B2A2E'],
 };
 export const MAP_STYLE = MAP_STYLES.std[1];
 const TR_BOUNDS: [number, number, number, number] = [25.7, 35.8, 44.8, 42.2];
@@ -171,7 +172,7 @@ export default function MapScreen() {
             layout={{ 'icon-image': ['get', 'ic'], 'icon-size': ['case', ['==', ['get', 'sel'], 1], 1.35, 1], 'icon-allow-overlap': true, 'icon-ignore-placement': true, 'symbol-sort-key': ['get', 't'] }} />
           <Layer type="symbol" id="names" filter={['==', ['get', 'k'], 'p']} minzoom={9}
             layout={{ 'text-field': ['get', 'n'], 'text-font': ['Noto Sans Bold'], 'text-size': 12.5, 'text-offset': ['case', ['==', ['get', 'lm'], 1], ['literal', [0, 0.3]], ['literal', [0, 1.3]]], 'text-anchor': 'top', 'text-max-width': 9, 'text-optional': true }}
-            paint={{ 'text-color': style === 'dark' ? '#FFFFFF' : C.ink, 'text-halo-color': style === 'dark' ? '#14313A' : '#FFFFFF', 'text-halo-width': 1.6 }} />
+            paint={{ 'text-color': (style === 'dark' || style === 'sat') ? '#FFFFFF' : C.ink, 'text-halo-color': (style === 'dark' || style === 'sat') ? '#14313A' : '#FFFFFF', 'text-halo-width': 1.6 }} />
           {/* ünlü yerler ve ünlü yer içeren kümeler: özel çizim (+ sayı rozeti) */}
           <Layer type="symbol" id="lm-icons" filter={['==', ['get', 'lm'], 1]}
             layout={{ 'icon-image': ['get', 'ic'], 'icon-anchor': 'bottom', 'icon-allow-overlap': true, 'icon-ignore-placement': true, 'symbol-sort-key': ['get', 't'],
