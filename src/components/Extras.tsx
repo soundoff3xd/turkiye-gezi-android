@@ -5,7 +5,7 @@ import { b } from './common';
 import { bestMonths, inSeason, monthsText } from '../lib/season';
 import { dishesOf } from '../data/dishes';
 import { fold, type Place } from '../data/catalog';
-import { photoOf } from '../data/photos';
+import { photoOf, photoSrc } from '../data/photos';
 import { MARKER_IMAGES } from '../data/markers';
 import { useStore } from '../lib/store';
 import { supabase } from '../lib/supabase';
@@ -64,7 +64,7 @@ export function PlaceHero({ id, width, height, radius = 0, credit = true }: { id
   if (!ph) return null;
   return (
     <View>
-      <Image source={{ uri: ph.url(width * 2) }} style={{ width, height, borderRadius: radius, backgroundColor: C.line }} resizeMode="cover" accessibilityIgnoresInvertColors />
+      <Image source={photoSrc(ph.url(width * 2))} style={{ width, height, borderRadius: radius, backgroundColor: C.line }} resizeMode="cover" accessibilityIgnoresInvertColors />
       {credit && (
         <Pressable onPress={() => Linking.openURL(ph.page).catch(() => {})} hitSlop={6} accessibilityRole="link">
           <Text style={{ color: C.muted, fontSize: 11, marginTop: 4 }} numberOfLines={1}>{`📷 ${ph.author} · ${ph.license} · Wikimedia Commons`}</Text>
@@ -78,7 +78,7 @@ export function PlaceThumb({ p, size = 56 }: { p: Place; size?: number }) {
   const ph = photoOf(p.id);
   const icon = (MARKER_IMAGES as Record<string, any>)[`cat_${p.c}`];
   return ph
-    ? <Image source={{ uri: ph.url(size * 3) }} style={{ width: size, height: size, borderRadius: R.sm, backgroundColor: C.line }} />
+    ? <Image source={photoSrc(ph.url(size * 3))} style={{ width: size, height: size, borderRadius: R.sm, backgroundColor: C.line }} />
     : <View style={{ width: size, height: size, borderRadius: R.sm, backgroundColor: C.soft, alignItems: 'center', justifyContent: 'center' }}>
         {icon ? <Image source={icon} style={{ width: size * 0.6, height: size * 0.6 }} resizeMode="contain" /> : null}
       </View>;
