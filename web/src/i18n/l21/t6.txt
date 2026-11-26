@@ -1,0 +1,366 @@
+@hi
+0	रूप-रंग
+1	फ़ोन की सेटिंग
+2	थीम ऐप बंद करके दोबारा खोलने पर बदलेगी।
+3	गुमनाम उपयोग गिनती और त्रुटि लॉग
+4	ऐप को बेहतर बनाने के लिए हम केवल यह दैनिक कुल गिनती रखते हैं कि कौन-सी स्क्रीन और सुविधाएँ कितनी बार इस्तेमाल हुईं; इन संख्याओं में यह नहीं होता कि आप कौन हैं। ऐप क्रैश होने पर त्रुटि संदेश, संस्करण और प्लेटफ़ॉर्म दर्ज होते हैं। किसी जगह के बारे में आपके भेजे सुधार केवल आप और मॉडरेटर देख सकते हैं।
+5	कुछ गड़बड़ हो गई
+6	हमने समस्या दर्ज कर ली है और इसे देखेंगे। आप फिर से कोशिश कर सकते हैं।
+7	स्थान गलत है
+8	विवरण या जानकारी गलत है
+9	यह जगह बंद हो गई है / अब नहीं है
+10	कुछ और
+11	कुछ गलत है?
+12	बताइए क्या गलत है, मॉडरेटर जाँचकर ठीक करेगा।
+13	मैं अभी यहीं हूँ, सही स्थान मेरा स्थान है
+14	मेरा स्थान इस्तेमाल करें
+15	सही क्या है? संक्षेप में लिखें…
+16	धन्यवाद! आपका सुझाव मॉडरेटर को भेज दिया गया।
+17	कुछ गलत है? सुधार सुझाएँ
+18	इस जगह के बंद होने की सूचना मिली है।
+19	घूमने का सबसे अच्छा समय
+20	अभी बिल्कुल सही समय है!
+21	इस मौसम
+22	स्थानीय व्यंजन
+23	{1} के स्थानीय व्यंजन
+24	मेरा तुर्किये नक्शा
+25	{1} / {2} प्रांत
+26	{1} जगहें घूमीं
+27	तुर्किये का लगभग {1}%
+28	आपने इस प्रांत में अभी तक कोई जगह नहीं देखी है।
+29	प्रांत की जगहें देखें
+30	विवरण देखने के लिए किसी प्रांत पर टैप करें।
+31	विवरण देखने के लिए किसी प्रांत पर क्लिक करें।
+32	मेरा नक्शा साझा करें
+33	घूमे हुए प्रांत
+34	किसी जगह के पेज पर “%G%” दबाते ही यहाँ प्रांत रंग जाते हैं।
+35	घूमे हुए प्रांतों को रंगें और साझा करें
+36	चित्र डाउनलोड हुआ
+37	सूचनाएँ
+38	{1} ने आपकी समीक्षा का जवाब दिया
+39	{1} को आपकी समीक्षा पसंद आई
+40	{1} को आपकी फ़ोटो पसंद आई
+41	आपकी सुझाई जगह स्वीकृत होकर नक्शे में जोड़ दी गई
+42	आपके पास अभी कोई सूचना नहीं है
+43	जब कोई आपकी समीक्षा का जवाब देगा या उसे पसंद करेगा, तो आप यहाँ देखेंगे।
+44	सूचनाएँ लोड नहीं हो सकीं।
+45	अपना इंटरनेट कनेक्शन जाँचें।
+46	रीफ़्रेश करें
+47	किसी ने आपके साथ यात्रा सूची साझा की
+48	मेरी सूची में जोड़ें
+49	सूची साझा करें
+50	आपने आज बहुत सारे सुझाव भेजे हैं। कल फिर कोशिश करें।
+51	ऑफ़लाइन: सहेजी गई जानकारी दिखाई जा रही है
+52	ऑफ़लाइन नक्शा
+53	इस यात्रा का नक्शा आपके फ़ोन में डाउनलोड है। यह इंटरनेट के बिना भी खुलता है।
+54	कमज़ोर इंटरनेट वाली जगहों के लिए अपनी यात्रा सूची के आसपास का इलाका फ़ोन में डाउनलोड करें।
+55	डाउनलोड पूरा नहीं हुआ। कनेक्शन जाँचकर फिर कोशिश करें।
+56	फिर से डाउनलोड करें
+57	नक्शा डाउनलोड करें
+58	ऑफ़लाइन नक्शा हटा दिया गया
+59	आप ऑफ़लाइन हैं। पहले खोले गए नक्शे के हिस्से और जगहें दिखती रहेंगी; समीक्षा और साझा करने के लिए इंटरनेट चाहिए।
+@ur
+0	ظاہری شکل
+1	فون کی ترتیب
+2	تھیم ایپ بند کر کے دوبارہ کھولنے پر بدلے گی۔
+3	گمنام استعمال کی گنتی اور خرابی کے ریکارڈ
+4	ایپ کو بہتر بنانے کے لیے ہم صرف روزانہ کی مجموعی گنتی رکھتے ہیں کہ کون سی اسکرینیں اور سہولتیں کتنی بار استعمال ہوئیں؛ ان اعداد میں یہ شامل نہیں کہ آپ کون ہیں۔ اگر ایپ بند ہو جائے تو خرابی کا پیغام، ورژن اور پلیٹ فارم محفوظ ہوتے ہیں۔ کسی جگہ کے بارے میں آپ کی بھیجی گئی اصلاحات صرف آپ اور ماڈریٹر دیکھ سکتے ہیں۔
+5	کچھ غلط ہو گیا
+6	ہم نے مسئلہ درج کر لیا ہے اور اسے دیکھیں گے۔ آپ دوبارہ کوشش کر سکتے ہیں۔
+7	مقام غلط ہے
+8	تفصیل یا معلومات غلط ہیں
+9	یہ جگہ بند ہو گئی ہے / اب موجود نہیں
+10	کچھ اور
+11	کچھ غلط ہے؟
+12	بتائیں کیا غلط ہے، ماڈریٹر جانچ کر درست کرے گا۔
+13	میں ابھی یہیں ہوں، درست مقام میرا مقام ہے
+14	میرا مقام استعمال کریں
+15	درست کیا ہے؟ مختصر لکھیں…
+16	شکریہ! آپ کی تجویز ماڈریٹرز کو بھیج دی گئی۔
+17	کچھ غلط ہے؟ اصلاح تجویز کریں
+18	اس جگہ کے بند ہونے کی اطلاع دی گئی ہے۔
+19	سیر کا بہترین وقت
+20	ابھی بالکل صحیح وقت ہے!
+21	یہ موسم
+22	مقامی ذائقے
+23	{1} کے مقامی ذائقے
+24	میرا ترکیہ کا نقشہ
+25	{1} / {2} صوبے
+26	{1} جگہیں دیکھیں
+27	ترکیہ کا تقریباً {1}%
+28	آپ نے اس صوبے میں ابھی کوئی جگہ نہیں دیکھی۔
+29	صوبے کی جگہیں دیکھیں
+30	تفصیل دیکھنے کے لیے کسی صوبے کو تھپتھپائیں۔
+31	تفصیل دیکھنے کے لیے کسی صوبے پر کلک کریں۔
+32	میرا نقشہ شیئر کریں
+33	دیکھے ہوئے صوبے
+34	کسی جگہ کے صفحے پر “%G%” دبانے سے صوبے یہاں رنگین ہوتے جاتے ہیں۔
+35	دیکھے ہوئے صوبوں کو رنگیں اور شیئر کریں
+36	تصویر ڈاؤن لوڈ ہو گئی
+37	اطلاعات
+38	{1} نے آپ کے تبصرے کا جواب دیا
+39	{1} کو آپ کا تبصرہ پسند آیا
+40	{1} کو آپ کی تصویر پسند آئی
+41	آپ کی تجویز کردہ جگہ منظور ہو کر نقشے میں شامل کر دی گئی
+42	ابھی آپ کے پاس کوئی اطلاع نہیں
+43	جب کوئی آپ کے تبصروں کا جواب دے گا یا انہیں پسند کرے گا تو آپ یہاں دیکھیں گے۔
+44	اطلاعات لوڈ نہیں ہو سکیں۔
+45	اپنا انٹرنیٹ کنکشن چیک کریں۔
+46	تازہ کریں
+47	کسی نے آپ کے ساتھ سفری فہرست شیئر کی
+48	میری فہرست میں شامل کریں
+49	فہرست شیئر کریں
+50	آپ نے آج بہت زیادہ تجاویز بھیجی ہیں۔ کل دوبارہ کوشش کریں۔
+51	آف لائن: محفوظ معلومات دکھائی جا رہی ہیں
+52	آف لائن نقشہ
+53	اس سفر کا نقشہ آپ کے فون میں ڈاؤن لوڈ ہے۔ یہ انٹرنیٹ کے بغیر بھی کھلتا ہے۔
+54	کمزور انٹرنیٹ والی جگہوں کے لیے اپنی سفری فہرست کے آس پاس کا علاقہ فون میں ڈاؤن لوڈ کریں۔
+55	ڈاؤن لوڈ مکمل نہیں ہوا۔ کنکشن چیک کر کے دوبارہ کوشش کریں۔
+56	دوبارہ ڈاؤن لوڈ کریں
+57	نقشہ ڈاؤن لوڈ کریں
+58	آف لائن نقشہ حذف ہو گیا
+59	آپ آف لائن ہیں۔ پہلے کھولے گئے نقشے کے حصے اور جگہیں نظر آتی رہیں گی؛ تبصروں اور شیئر کرنے کے لیے انٹرنیٹ درکار ہے۔
+@id
+0	Tampilan
+1	Pengaturan ponsel
+2	Tema berubah setelah kamu menutup dan membuka lagi aplikasi.
+3	Hitungan penggunaan anonim dan log kesalahan
+4	Untuk meningkatkan aplikasi, kami hanya menyimpan total harian berapa kali layar dan fitur digunakan; angka ini tidak mencakup siapa kamu. Jika aplikasi mogok, pesan kesalahan, versi, dan platform dicatat. Koreksi yang kamu kirim tentang suatu tempat hanya bisa dilihat olehmu dan moderator.
+5	Terjadi kesalahan
+6	Kami sudah mencatat masalahnya dan akan memeriksanya. Kamu bisa mencoba lagi.
+7	Lokasi salah
+8	Deskripsi atau informasi salah
+9	Tempat ini sudah tutup / tidak ada lagi
+10	Hal lain
+11	Ada yang salah?
+12	Beri tahu kami apa yang salah, moderator akan memeriksa dan memperbaikinya.
+13	Saya sedang di sini, lokasi saya yang benar
+14	Gunakan lokasi saya
+15	Apa yang benar? Tulis singkat…
+16	Terima kasih! Saranmu sudah diteruskan ke moderator.
+17	Ada yang salah? Sarankan koreksi
+18	Tempat ini dilaporkan sudah tutup.
+19	Waktu terbaik berkunjung
+20	Sekarang waktu yang pas!
+21	Musim ini
+22	Cita rasa lokal
+23	Cita rasa lokal {1}
+24	Peta Turki saya
+25	{1} / {2} provinsi
+26	{1} tempat dikunjungi
+27	sekitar {1}% Turki
+28	Kamu belum mengunjungi tempat mana pun di provinsi ini.
+29	Lihat tempat di provinsi ini
+30	Ketuk provinsi untuk melihat detail.
+31	Klik provinsi untuk melihat detail.
+32	Bagikan peta saya
+33	Provinsi yang dikunjungi
+34	Provinsi akan berwarna di sini setiap kali kamu mengetuk “%G%” di halaman suatu tempat.
+35	Warnai provinsi yang kamu kunjungi dan bagikan
+36	Gambar diunduh
+37	Notifikasi
+38	{1} membalas ulasanmu
+39	{1} menyukai ulasanmu
+40	{1} menyukai fotomu
+41	Tempat yang kamu sarankan disetujui dan ditambahkan ke peta
+42	Kamu belum punya notifikasi
+43	Kamu akan melihatnya di sini saat seseorang membalas atau menyukai ulasanmu.
+44	Notifikasi tidak dapat dimuat.
+45	Periksa koneksi internetmu.
+46	Muat ulang
+47	Seseorang membagikan daftar perjalanan denganmu
+48	Tambah ke daftar saya
+49	Bagikan daftar
+50	Kamu mengirim terlalu banyak saran hari ini. Coba lagi besok.
+51	Offline: menampilkan informasi tersimpan
+52	Peta offline
+53	Peta perjalanan ini sudah diunduh ke ponselmu. Bisa dibuka tanpa internet.
+54	Untuk tempat dengan internet lemah, unduh area sekitar daftar perjalananmu ke ponsel.
+55	Unduhan tidak selesai. Periksa koneksi dan coba lagi.
+56	Unduh lagi
+57	Unduh peta
+58	Peta offline dihapus
+59	Kamu sedang offline. Area peta dan tempat yang pernah kamu buka tetap terlihat; ulasan dan berbagi memerlukan internet.
+@ms
+0	Paparan
+1	Tetapan telefon
+2	Tema akan bertukar selepas anda menutup dan membuka semula aplikasi.
+3	Kiraan penggunaan tanpa nama dan log ralat
+4	Untuk menambah baik aplikasi, kami hanya menyimpan jumlah harian berapa kali skrin dan ciri digunakan; nombor ini tidak merangkumi siapa anda. Jika aplikasi ranap, mesej ralat, versi dan platform direkodkan. Pembetulan yang anda hantar tentang sesuatu tempat hanya dapat dilihat oleh anda dan moderator.
+5	Sesuatu tidak kena
+6	Kami telah merekodkan masalah ini dan akan menyemaknya. Anda boleh cuba lagi.
+7	Lokasi salah
+8	Penerangan atau maklumat salah
+9	Tempat ini sudah ditutup / tidak wujud lagi
+10	Perkara lain
+11	Ada yang salah?
+12	Beritahu kami apa yang salah, moderator akan menyemak dan membetulkannya.
+13	Saya berada di sini sekarang, lokasi saya yang betul
+14	Guna lokasi saya
+15	Apa yang betul? Tulis ringkas…
+16	Terima kasih! Cadangan anda telah dihantar kepada moderator.
+17	Ada yang salah? Cadangkan pembetulan
+18	Tempat ini dilaporkan sudah ditutup.
+19	Masa terbaik untuk melawat
+20	Sekarang masa yang sesuai!
+21	Musim ini
+22	Rasa tempatan
+23	Rasa tempatan {1}
+24	Peta Turkiye saya
+25	{1} / {2} wilayah
+26	{1} tempat dilawati
+27	kira-kira {1}% Turkiye
+28	Anda belum melawat mana-mana tempat di wilayah ini.
+29	Lihat tempat di wilayah ini
+30	Ketik wilayah untuk melihat butiran.
+31	Klik wilayah untuk melihat butiran.
+32	Kongsi peta saya
+33	Wilayah yang dilawati
+34	Wilayah akan berwarna di sini setiap kali anda mengetik “%G%” di halaman sesuatu tempat.
+35	Warnakan wilayah yang dilawati dan kongsi
+36	Imej dimuat turun
+37	Pemberitahuan
+38	{1} membalas ulasan anda
+39	{1} menyukai ulasan anda
+40	{1} menyukai foto anda
+41	Tempat yang anda cadangkan telah diluluskan dan ditambah ke peta
+42	Anda belum ada pemberitahuan
+43	Anda akan melihatnya di sini apabila seseorang membalas atau menyukai ulasan anda.
+44	Pemberitahuan tidak dapat dimuatkan.
+45	Semak sambungan internet anda.
+46	Muat semula
+47	Seseorang berkongsi senarai perjalanan dengan anda
+48	Tambah ke senarai saya
+49	Kongsi senarai
+50	Anda telah menghantar terlalu banyak cadangan hari ini. Cuba lagi esok.
+51	Luar talian: memaparkan maklumat yang disimpan
+52	Peta luar talian
+53	Peta perjalanan ini telah dimuat turun ke telefon anda. Ia boleh dibuka tanpa internet.
+54	Untuk tempat yang internetnya lemah, muat turun kawasan sekitar senarai perjalanan anda ke telefon.
+55	Muat turun tidak selesai. Semak sambungan dan cuba lagi.
+56	Muat turun semula
+57	Muat turun peta
+58	Peta luar talian dipadam
+59	Anda di luar talian. Kawasan peta dan tempat yang pernah dibuka masih kelihatan; ulasan dan perkongsian memerlukan internet.
+@th
+0	ลักษณะที่ปรากฏ
+1	ตามการตั้งค่าโทรศัพท์
+2	ธีมจะเปลี่ยนเมื่อคุณปิดแล้วเปิดแอปใหม่
+3	สถิติการใช้งานแบบไม่ระบุตัวตนและบันทึกข้อผิดพลาด
+4	เพื่อปรับปรุงแอป เราเก็บเฉพาะยอดรวมรายวันว่าแต่ละหน้าจอและฟีเจอร์ถูกใช้กี่ครั้ง ตัวเลขเหล่านี้ไม่มีข้อมูลว่าคุณเป็นใคร หากแอปขัดข้อง จะบันทึกข้อความแสดงข้อผิดพลาด เวอร์ชัน และแพลตฟอร์ม การแก้ไขที่คุณส่งเกี่ยวกับสถานที่จะเห็นได้เฉพาะคุณและผู้ดูแล
+5	เกิดข้อผิดพลาด
+6	เราบันทึกปัญหาไว้แล้วและจะตรวจสอบ คุณลองอีกครั้งได้
+7	ตำแหน่งไม่ถูกต้อง
+8	คำอธิบายหรือข้อมูลไม่ถูกต้อง
+9	สถานที่นี้ปิดแล้ว / ไม่มีอยู่แล้ว
+10	อย่างอื่น
+11	มีอะไรไม่ถูกต้องไหม?
+12	บอกเราว่าอะไรไม่ถูกต้อง แล้วผู้ดูแลจะตรวจสอบและแก้ไข
+13	ฉันอยู่ที่นี่ตอนนี้ ตำแหน่งของฉันคือตำแหน่งที่ถูกต้อง
+14	ใช้ตำแหน่งของฉัน
+15	ที่ถูกต้องคืออะไร? เขียนสั้น ๆ…
+16	ขอบคุณ! ส่งข้อเสนอแนะของคุณถึงผู้ดูแลแล้ว
+17	มีอะไรไม่ถูกต้องไหม? เสนอการแก้ไข
+18	มีการแจ้งว่าสถานที่นี้ปิดแล้ว
+19	ช่วงเวลาที่ดีที่สุด
+20	ตอนนี้เหมาะที่สุด!
+21	ฤดูนี้
+22	อาหารท้องถิ่น
+23	อาหารท้องถิ่นของ {1}
+24	แผนที่ตุรกีของฉัน
+25	{1} / {2} จังหวัด
+26	ไปมาแล้ว {1} แห่ง
+27	ประมาณ {1}% ของตุรกี
+28	คุณยังไม่เคยไปสถานที่ใดในจังหวัดนี้
+29	ดูสถานที่ในจังหวัดนี้
+30	แตะที่จังหวัดเพื่อดูรายละเอียด
+31	คลิกที่จังหวัดเพื่อดูรายละเอียด
+32	แชร์แผนที่ของฉัน
+33	จังหวัดที่เคยไป
+34	จังหวัดจะถูกระบายสีที่นี่ทุกครั้งที่คุณแตะ “%G%” ในหน้าของสถานที่
+35	ระบายสีจังหวัดที่เคยไปแล้วแชร์
+36	ดาวน์โหลดรูปภาพแล้ว
+37	การแจ้งเตือน
+38	{1} ตอบกลับรีวิวของคุณ
+39	{1} ถูกใจรีวิวของคุณ
+40	{1} ถูกใจรูปภาพของคุณ
+41	สถานที่ที่คุณเสนอได้รับอนุมัติและเพิ่มลงในแผนที่แล้ว
+42	คุณยังไม่มีการแจ้งเตือน
+43	คุณจะเห็นที่นี่เมื่อมีคนตอบกลับหรือถูกใจรีวิวของคุณ
+44	โหลดการแจ้งเตือนไม่ได้
+45	ตรวจสอบการเชื่อมต่ออินเทอร์เน็ต
+46	รีเฟรช
+47	มีคนแชร์รายการทริปกับคุณ
+48	เพิ่มในรายการของฉัน
+49	แชร์รายการ
+50	วันนี้คุณส่งข้อเสนอแนะมากเกินไป ลองใหม่พรุ่งนี้
+51	ออฟไลน์: กำลังแสดงข้อมูลที่บันทึกไว้
+52	แผนที่ออฟไลน์
+53	ดาวน์โหลดแผนที่ของทริปนี้ลงโทรศัพท์แล้ว เปิดได้แม้ไม่มีอินเทอร์เน็ต
+54	สำหรับที่ที่สัญญาณอินเทอร์เน็ตอ่อน ให้ดาวน์โหลดพื้นที่รอบรายการทริปลงโทรศัพท์
+55	ดาวน์โหลดไม่สำเร็จ ตรวจสอบการเชื่อมต่อแล้วลองอีกครั้ง
+56	ดาวน์โหลดอีกครั้ง
+57	ดาวน์โหลดแผนที่
+58	ลบแผนที่ออฟไลน์แล้ว
+59	คุณออฟไลน์อยู่ พื้นที่แผนที่และสถานที่ที่เคยเปิดไว้ยังมองเห็นได้ การรีวิวและแชร์ต้องใช้อินเทอร์เน็ต
+@vi
+0	Giao diện
+1	Theo cài đặt điện thoại
+2	Chủ đề sẽ đổi khi bạn đóng và mở lại ứng dụng.
+3	Số liệu sử dụng ẩn danh và nhật ký lỗi
+4	Để cải thiện ứng dụng, chúng tôi chỉ lưu tổng số lần mỗi ngày các màn hình và tính năng được dùng; các con số này không cho biết bạn là ai. Nếu ứng dụng gặp sự cố, thông báo lỗi, phiên bản và nền tảng sẽ được ghi lại. Các đề xuất sửa về một địa điểm mà bạn gửi chỉ bạn và người kiểm duyệt nhìn thấy.
+5	Đã xảy ra lỗi
+6	Chúng tôi đã ghi lại sự cố và sẽ xem xét. Bạn có thể thử lại.
+7	Vị trí sai
+8	Mô tả hoặc thông tin sai
+9	Địa điểm đã đóng cửa / không còn nữa
+10	Vấn đề khác
+11	Có gì sai không?
+12	Hãy cho chúng tôi biết điều gì sai, người kiểm duyệt sẽ kiểm tra và sửa.
+13	Tôi đang ở đây, vị trí của tôi mới đúng
+14	Dùng vị trí của tôi
+15	Đúng là gì? Viết ngắn gọn…
+16	Cảm ơn! Đề xuất của bạn đã được gửi tới người kiểm duyệt.
+17	Có gì sai không? Đề xuất sửa
+18	Địa điểm này được báo là đã đóng cửa.
+19	Thời điểm đẹp nhất
+20	Bây giờ là lúc lý tưởng!
+21	Mùa này
+22	Hương vị địa phương
+23	Hương vị địa phương của {1}
+24	Bản đồ Thổ Nhĩ Kỳ của tôi
+25	{1} / {2} tỉnh
+26	Đã đến {1} địa điểm
+27	khoảng {1}% Thổ Nhĩ Kỳ
+28	Bạn chưa đến địa điểm nào ở tỉnh này.
+29	Xem địa điểm trong tỉnh
+30	Chạm vào một tỉnh để xem chi tiết.
+31	Nhấp vào một tỉnh để xem chi tiết.
+32	Chia sẻ bản đồ của tôi
+33	Các tỉnh đã đến
+34	Các tỉnh sẽ được tô màu ở đây mỗi khi bạn chạm “%G%” trên trang của một địa điểm.
+35	Tô màu các tỉnh bạn đã đến và chia sẻ
+36	Đã tải ảnh xuống
+37	Thông báo
+38	{1} đã trả lời đánh giá của bạn
+39	{1} đã thích đánh giá của bạn
+40	{1} đã thích ảnh của bạn
+41	Địa điểm bạn đề xuất đã được duyệt và thêm vào bản đồ
+42	Bạn chưa có thông báo nào
+43	Bạn sẽ thấy ở đây khi có người trả lời hoặc thích đánh giá của bạn.
+44	Không tải được thông báo.
+45	Kiểm tra kết nối internet của bạn.
+46	Làm mới
+47	Có người đã chia sẻ danh sách chuyến đi với bạn
+48	Thêm vào danh sách của tôi
+49	Chia sẻ danh sách
+50	Hôm nay bạn đã gửi quá nhiều đề xuất. Hãy thử lại vào ngày mai.
+51	Ngoại tuyến: đang hiển thị thông tin đã lưu
+52	Bản đồ ngoại tuyến
+53	Bản đồ chuyến đi này đã được tải về điện thoại. Có thể mở cả khi không có internet.
+54	Với những nơi internet yếu, hãy tải khu vực quanh danh sách chuyến đi về điện thoại.
+55	Tải xuống chưa hoàn tất. Hãy kiểm tra kết nối và thử lại.
+56	Tải lại
+57	Tải bản đồ
+58	Đã xóa bản đồ ngoại tuyến
+59	Bạn đang ngoại tuyến. Các vùng bản đồ và địa điểm đã mở trước đó vẫn hiển thị; đánh giá và chia sẻ cần internet.

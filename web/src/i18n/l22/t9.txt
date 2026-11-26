@@ -1,0 +1,504 @@
+@hu
+0	Értesítések a telefonon
+1	Ha elfogadod a telefonos értesítéseket, a Firebase által az eszközödnek adott értesítési azonosítót a fiókoddal együtt tároljuk, hogy küldeni tudjuk őket. Kijelentkezéskor ez az azonosító törlődik. Az értesítéseket bármikor kikapcsolhatod a telefon beállításaiban.
+2	Hely megosztása
+3	Világos téma
+4	Sötét téma
+5	Előnézet
+6	Kész témák
+7	Saját téma készítése
+8	Kiemelőszín
+9	Alkalmaz
+10	Háttér árnyalata
+11	Színátmenetes háttér
+12	A háttér árnyalatából a kiemelőszínbe megy át
+13	Betűtípus
+14	Szövegméret
+15	Kicsi
+16	Normál
+17	Nagy
+18	Nagyon nagy
+19	Mentés
+20	Téma mentve. Az alkalmazás bezárása és újranyitása után érvényes.
+21	Téma mentve
+22	A színt kicsit sötétítettük, hogy a szöveg olvasható maradjon.
+23	A választásod a fiókodba is mentődik, így a weboldalon és a többi telefonodon is ugyanígy néz ki.
+24	A választásod a fiókodba is mentődik, így az alkalmazásban és a többi eszközödön is ugyanígy néz ki.
+25	Adj meg érvényes színkódot (pl. #3B82F6).
+26	Levendula
+27	Naplemente
+28	Éjkék
+29	Erdő
+30	Rendszer
+31	Lekerekített
+32	Modern
+33	Klasszikus
+34	Játékos
+35	Kappadókia
+36	Ma esik: fedett helyeket ajánlunk
+37	Havazik: múzeumok, termálfürdők és síterepek
+38	Nagyon meleg van: tenger, tavak, barlangok és hűvös helyek
+39	Hideg van: múzeumok, bazárok és termálfürdők
+40	Remek idő a felfedezéshez: szabadtéri helyek
+41	Mai ajánlatok
+42	Mai ajánlatok a közeledben
+43	Hol egyél a közelben
+44	Helyi
+45	Étterem
+46	Kávézó
+47	Gyorsétterem
+48	Török konyha
+49	Kebab
+50	Hal
+51	Pizza
+52	Burger
+53	Kávé
+54	Reggeli
+55	Pide
+56	Desszertek
+57	Fagylalt
+58	Olasz
+59	Kínai
+60	Vegetáriánus
+61	Vegán
+62	Hús
+63	Szendvicsek
+64	Pékség
+65	Tea
+66	Nemzetközi
+67	Forrás: az OpenStreetMap közreműködői. Indulás előtt nézd meg a nyitvatartást.
+68	Útinaplóim
+69	Útinapló
+70	Jegyezd fel napról napra a meglátogatott helyeket, adj hozzá fotókat, és ha szeretnéd, oszd meg linkkel a barátaiddal.
+71	Az új napló neve (pl. Kappadókia, október)
+72	Létrehozás
+73	Még nincs naplód
+74	Készíts naplót egy utazáshoz; a történeted minden hozzáadott hellyel bővül.
+75	{1} bejegyzés
+76	Megosztva
+77	Megosztás linkkel
+78	Bárki, akinél megvan a link, láthatja a naplódat.
+79	Most csak te látod.
+80	Még nincs bejegyzés
+81	Kezdd egy meglátogatott hellyel, egy jegyzettel és egy fotóval.
+82	Napló törlése
+83	Bejegyzés hozzáadása
+84	Hely
+85	Hely keresése (nem kötelező)
+86	Nap (ÉÉÉÉ-HH-NN)
+87	Nap
+88	Jegyzet
+89	Mit éltél át? Mit ettél, kivel ismerkedtél meg?
+90	Fotót az alkalmazásban adhatsz hozzá.
+91	A Törökország útikalauzzal te is vezethetsz útinaplót.
+92	Regisztrálj, és örökítsd meg az utadat
+93	Tovább a weboldalra
+94	Ez a napló nem található.
+95	Napló törölve
+96	Törlöd ezt a naplót és minden bejegyzését?
+97	A hely nem található, válassz a listából
+98	Válassz helyet, vagy írj jegyzetet
+99	A fotód egy rövid ellenőrzés után mindenki számára látható lesz.
+100	Új felhasználó fotója, jóváhagyásra vár
+101	Belépő és Müzekart
+102	A Kulturális és Turisztikai Minisztérium múzeumainak és régészeti helyszíneinek többsége elfogadja a Müzekart múzeumbérletet. Néhány palota és városi vagy magánmúzeum nem.
+103	Az árak évente többször is változhatnak; indulás előtt nézd meg az aktuális árat a hivatalos oldalon.
+104	Akadálymentesség
+105	Akadálymentes
+106	Részben
+107	Nem akadálymentes
+108	{1} látogató szerint
+109	Még nincs információ. Ha jártál itt, jelöld, hogy kerekesszékkel vagy babakocsival bejárható-e.
+110	Látogatóktól származó információ; rámpákról, liftekről és akadálymentes mosdóról előre telefonon érdeklődj.
+111	A megye térképe le van töltve a telefonodra. Internet nélkül is megnyílik.
+112	Töltsd le a telefonodra az egész megye térképét; hegyen, falun és bárhol térerő nélkül is megnyílik.
+113	Válassz támogatási csomagot
+114	Hívj meg minket egy teára
+115	Támogatói csomag
+116	Nagy támogatás
+117	Egy kicsi, de nagyon értékes köszönet
+118	Segít a szerver- és térképköltségekben
+119	Segít új funkciók fejlesztésében
+120	A támogatás önkéntes; cserébe nem küldünk terméket.
+121	Távollévők közötti szerződés
+122	Lemondás és visszatérítés
+123	Útinapló és akadálymentességi információk
+124	Az útinaplóidat csak te látod; ha bekapcsolod a „Megosztás linkkel” lehetőséget, bárki láthatja, akinél megvan a link. Egy hely akadálymentességéről adott jelöléseid csak összesítve jelennek meg, anélkül hogy látszana, ki adta őket. Az új fiókok első fotóit közzététel előtt moderátor ellenőrzi.
+@sv
+0	Aviseringar i telefonen
+1	Om du godkänner aviseringar i telefonen sparas det aviserings-ID som Firebase ger din enhet tillsammans med ditt konto så att vi kan skicka dem. ID:t raderas när du loggar ut. Du kan stänga av aviseringar när som helst i telefonens inställningar.
+2	Dela plats
+3	Ljust tema
+4	Mörkt tema
+5	Förhandsvisning
+6	Färdiga teman
+7	Skapa ditt eget tema
+8	Accentfärg
+9	Använd
+10	Bakgrundston
+11	Bakgrund med toning
+12	Tonar från bakgrundstonen till accentfärgen
+13	Typsnitt
+14	Textstorlek
+15	Liten
+16	Normal
+17	Stor
+18	Mycket stor
+19	Spara
+20	Temat har sparats. Det används när du stänger och öppnar appen igen.
+21	Temat har sparats
+22	Färgen gjordes lite mörkare så att texten går att läsa.
+23	Ditt val sparas även i ditt konto, så det ser likadant ut på webbplatsen och dina andra telefoner.
+24	Ditt val sparas även i ditt konto, så det ser likadant ut i appen och på dina andra enheter.
+25	Ange en giltig färgkod (t.ex. #3B82F6).
+26	Lavendel
+27	Solnedgång
+28	Midnattsblå
+29	Skog
+30	System
+31	Rundad
+32	Modern
+33	Klassisk
+34	Lekfull
+35	Kappadokien
+36	Det regnar i dag: vi föreslår platser inomhus
+37	Det snöar: museer, varma källor och skidorter
+38	Det är mycket varmt: hav, sjöar, grottor och svala platser
+39	Det är kallt: museer, basarer och varma källor
+40	Perfekt väder för att utforska: platser utomhus
+41	Förslag för i dag
+42	Dagens förslag nära dig
+43	Var du kan äta i närheten
+44	Lokalt
+45	Restaurang
+46	Kafé
+47	Snabbmat
+48	Turkiskt kök
+49	Kebab
+50	Fisk
+51	Pizza
+52	Hamburgare
+53	Kaffe
+54	Frukost
+55	Pide
+56	Desserter
+57	Glass
+58	Italienskt
+59	Kinesiskt
+60	Vegetariskt
+61	Veganskt
+62	Kött
+63	Smörgåsar
+64	Bageri
+65	Te
+66	Internationellt
+67	Källa: OpenStreetMaps bidragsgivare. Kontrollera öppettiderna innan du går.
+68	Mina resedagböcker
+69	Resedagbok
+70	Anteckna dag för dag platserna du besöker, lägg till foton och dela med vänner via länk om du vill.
+71	Namn på ny dagbok (t.ex. Kappadokien, oktober)
+72	Skapa
+73	Du har ingen dagbok än
+74	Skapa en dagbok för en resa; din berättelse växer för varje plats du lägger till.
+75	{1} inlägg
+76	Delad
+77	Dela via länk
+78	Alla med länken kan se din dagbok.
+79	Just nu ser bara du den.
+80	Inga inlägg än
+81	Börja med en plats du besökt, en anteckning och ett foto.
+82	Radera dagbok
+83	Lägg till inlägg
+84	Plats
+85	Sök en plats (valfritt)
+86	Dag (ÅÅÅÅ-MM-DD)
+87	Dag
+88	Anteckning
+89	Vad upplevde du? Vad åt du, vem träffade du?
+90	Lägg till foton i appen.
+91	Även du kan föra resedagbok med Reseguide till Turkiet.
+92	Registrera dig och spara din resa
+93	Fortsätt till webbplatsen
+94	Dagboken hittades inte.
+95	Dagboken raderades
+96	Radera den här dagboken och alla inlägg?
+97	Platsen hittades inte, välj i listan
+98	Välj en plats eller skriv en anteckning
+99	Ditt foto syns för alla efter en kort granskning.
+100	Foto från ny användare, väntar på godkännande
+101	Inträde och Müzekart
+102	De flesta museer och fornlämningar som drivs av kultur- och turistministeriet godtar museikortet Müzekart. Vissa palats och kommunala eller privata museer gör det inte.
+103	Priserna kan ändras flera gånger om året; kontrollera aktuellt pris på den officiella webbplatsen innan du åker.
+104	Tillgänglighet
+105	Tillgängligt
+106	Delvis
+107	Inte tillgängligt
+108	enligt {1} besökare
+109	Ingen information än. Om du har varit där, markera om det går att besöka med rullstol eller barnvagn.
+110	Uppgifter från besökare; ring i förväg och fråga om ramper, hissar och anpassade toaletter.
+111	Kartan över provinsen finns i din telefon. Den öppnas även utan internet.
+112	Ladda ner kartan över hela provinsen till telefonen; den öppnas i bergen, på landet och överallt utan täckning.
+113	Välj ett stödpaket
+114	Bjud oss på te
+115	Supporterpaket
+116	Stort stöd
+117	Ett litet men mycket uppskattat tack
+118	Hjälper till med server- och kartkostnader
+119	Hjälper till att bygga nya funktioner
+120	Stödet är frivilligt; ingen produkt skickas i gengäld.
+121	Avtal om distansförsäljning
+122	Avbokning och återbetalning
+123	Resedagbok och tillgänglighetsinformation
+124	Dina resedagböcker syns bara för dig; om du slår på ”Dela via länk” kan alla med länken se dem. Dina markeringar om en plats tillgänglighet delas bara som totaler, utan att visa vem som gjort dem. De första fotona från nya konton granskas av en moderator innan de publiceras.
+@no
+0	Varsler på telefonen
+1	Hvis du godtar varsler på telefonen, lagres varslings-ID-en Firebase gir enheten din sammen med kontoen din, slik at vi kan sende dem. ID-en slettes når du logger ut. Du kan når som helst slå av varsler i telefoninnstillingene.
+2	Del sted
+3	Lyst tema
+4	Mørkt tema
+5	Forhåndsvisning
+6	Ferdige temaer
+7	Lag ditt eget tema
+8	Aksentfarge
+9	Bruk
+10	Bakgrunnstone
+11	Bakgrunn med fargeovergang
+12	Går fra bakgrunnstonen til aksentfargen
+13	Skrifttype
+14	Tekststørrelse
+15	Liten
+16	Normal
+17	Stor
+18	Svært stor
+19	Lagre
+20	Temaet er lagret. Det tas i bruk når du lukker og åpner appen igjen.
+21	Temaet er lagret
+22	Fargen ble gjort litt mørkere så teksten er lett å lese.
+23	Valget ditt lagres også på kontoen, så det ser likt ut på nettstedet og de andre telefonene dine.
+24	Valget ditt lagres også på kontoen, så det ser likt ut i appen og på de andre enhetene dine.
+25	Skriv inn en gyldig fargekode (f.eks. #3B82F6).
+26	Lavendel
+27	Solnedgang
+28	Midnattsblå
+29	Skog
+30	System
+31	Avrundet
+32	Moderne
+33	Klassisk
+34	Leken
+35	Kappadokia
+36	Det regner i dag: vi foreslår innendørssteder
+37	Det snør: museer, varme kilder og skisteder
+38	Det er veldig varmt: sjø, innsjøer, grotter og kjølige steder
+39	Det er kaldt: museer, basarer og varme kilder
+40	Perfekt vær for å utforske: steder utendørs
+41	Forslag for i dag
+42	Dagens forslag i nærheten
+43	Hvor du kan spise i nærheten
+44	Lokalt
+45	Restaurant
+46	Kafé
+47	Hurtigmat
+48	Tyrkisk mat
+49	Kebab
+50	Fisk
+51	Pizza
+52	Burger
+53	Kaffe
+54	Frokost
+55	Pide
+56	Desserter
+57	Iskrem
+58	Italiensk
+59	Kinesisk
+60	Vegetarisk
+61	Vegansk
+62	Kjøtt
+63	Smørbrød
+64	Bakeri
+65	Te
+66	Internasjonalt
+67	Kilde: OpenStreetMap-bidragsytere. Sjekk åpningstidene før du drar.
+68	Mine reisedagbøker
+69	Reisedagbok
+70	Noter stedene du besøker dag for dag, legg til bilder og del med venner via lenke hvis du vil.
+71	Navn på ny dagbok (f.eks. Kappadokia, oktober)
+72	Opprett
+73	Du har ingen dagbok ennå
+74	Lag en dagbok for en reise; historien din vokser for hvert sted du legger til.
+75	{1} innlegg
+76	Delt
+77	Del via lenke
+78	Alle med lenken kan se dagboken din.
+79	Akkurat nå er det bare du som ser den.
+80	Ingen innlegg ennå
+81	Begynn med et sted du har besøkt, et notat og et bilde.
+82	Slett dagbok
+83	Legg til innlegg
+84	Sted
+85	Søk etter sted (valgfritt)
+86	Dag (ÅÅÅÅ-MM-DD)
+87	Dag
+88	Notat
+89	Hva opplevde du? Hva spiste du, hvem møtte du?
+90	Legg til bilder i appen.
+91	Også du kan føre reisedagbok med Reiseguide til Tyrkia.
+92	Registrer deg og ta vare på reisen din
+93	Fortsett til nettstedet
+94	Fant ikke denne dagboken.
+95	Dagboken er slettet
+96	Slette denne dagboken og alle innleggene?
+97	Fant ikke stedet, velg fra listen
+98	Velg et sted eller skriv et notat
+99	Bildet ditt blir synlig for alle etter en kort kontroll.
+100	Bilde fra ny bruker, venter på godkjenning
+101	Inngang og Müzekart
+102	De fleste museer og utgravningssteder under kultur- og turismedepartementet godtar museumskortet Müzekart. Noen palasser og kommunale eller private museer gjør det ikke.
+103	Prisene kan endres flere ganger i året; sjekk gjeldende pris på det offisielle nettstedet før du drar.
+104	Tilgjengelighet
+105	Tilgjengelig
+106	Delvis
+107	Ikke tilgjengelig
+108	ifølge {1} besøkende
+109	Ingen informasjon ennå. Har du vært der, marker om det kan besøkes med rullestol eller barnevogn.
+110	Opplysninger fra besøkende; ring på forhånd og spør om ramper, heiser og tilrettelagte toaletter.
+111	Kartet over denne provinsen er lastet ned på telefonen. Det åpnes også uten internett.
+112	Last ned kartet over hele provinsen på telefonen; det åpnes på fjellet, på landet og overalt uten dekning.
+113	Velg en støttepakke
+114	Spander en te på oss
+115	Støttespillerpakke
+116	Stor støtte
+117	En liten, men veldig verdsatt takk
+118	Hjelper med server- og kartkostnader
+119	Hjelper med å utvikle nye funksjoner
+120	Støtten er frivillig; ingen produkt sendes i retur.
+121	Avtale om fjernsalg
+122	Avbestilling og refusjon
+123	Reisedagbok og informasjon om tilgjengelighet
+124	Reisedagbøkene dine er bare synlige for deg; slår du på «Del via lenke», kan alle med lenken se dem. Markeringene dine om tilgjengeligheten til et sted deles bare som totaler, uten å vise hvem som gjorde dem. De første bildene fra nye kontoer kontrolleres av en moderator før de publiseres.
+@da
+0	Notifikationer på telefonen
+1	Hvis du accepterer notifikationer på telefonen, gemmes det notifikations-id, Firebase giver din enhed, sammen med din konto, så vi kan sende dem. Id’et slettes, når du logger ud. Du kan altid slå notifikationer fra i telefonens indstillinger.
+2	Del sted
+3	Lyst tema
+4	Mørkt tema
+5	Forhåndsvisning
+6	Færdige temaer
+7	Lav dit eget tema
+8	Accentfarve
+9	Anvend
+10	Baggrundstone
+11	Baggrund med farveovergang
+12	Går fra baggrundstonen til accentfarven
+13	Skrifttype
+14	Tekststørrelse
+15	Lille
+16	Normal
+17	Stor
+18	Meget stor
+19	Gem
+20	Temaet er gemt. Det bruges, når du lukker og åbner appen igen.
+21	Temaet er gemt
+22	Farven er gjort lidt mørkere, så teksten kan læses.
+23	Dit valg gemmes også på din konto, så det ser ens ud på hjemmesiden og dine andre telefoner.
+24	Dit valg gemmes også på din konto, så det ser ens ud i appen og på dine andre enheder.
+25	Skriv en gyldig farvekode (f.eks. #3B82F6).
+26	Lavendel
+27	Solnedgang
+28	Midnatsblå
+29	Skov
+30	System
+31	Afrundet
+32	Moderne
+33	Klassisk
+34	Legende
+35	Kappadokien
+36	Det regner i dag: vi foreslår indendørs steder
+37	Det sner: museer, varme kilder og skisportssteder
+38	Det er meget varmt: hav, søer, grotter og kølige steder
+39	Det er koldt: museer, basarer og varme kilder
+40	Perfekt vejr til at udforske: udendørs steder
+41	Forslag til i dag
+42	Dagens forslag nær dig
+43	Hvor du kan spise i nærheden
+44	Lokalt
+45	Restaurant
+46	Café
+47	Fastfood
+48	Tyrkisk køkken
+49	Kebab
+50	Fisk
+51	Pizza
+52	Burgere
+53	Kaffe
+54	Morgenmad
+55	Pide
+56	Desserter
+57	Is
+58	Italiensk
+59	Kinesisk
+60	Vegetarisk
+61	Vegansk
+62	Kød
+63	Sandwich
+64	Bageri
+65	Te
+66	Internationalt
+67	Kilde: OpenStreetMaps bidragydere. Tjek åbningstiderne, før du tager afsted.
+68	Mine rejsedagbøger
+69	Rejsedagbog
+70	Skriv dag for dag de steder ned, du besøger, tilføj billeder, og del dem med venner via link, hvis du vil.
+71	Navn på ny dagbog (f.eks. Kappadokien, oktober)
+72	Opret
+73	Du har ingen dagbog endnu
+74	Lav en dagbog til en rejse; din historie vokser for hvert sted, du tilføjer.
+75	{1} opslag
+76	Delt
+77	Del via link
+78	Alle med linket kan se din dagbog.
+79	Lige nu er det kun dig, der kan se den.
+80	Ingen opslag endnu
+81	Start med et sted, du har besøgt, en note og et billede.
+82	Slet dagbog
+83	Tilføj opslag
+84	Sted
+85	Søg efter et sted (valgfrit)
+86	Dag (ÅÅÅÅ-MM-DD)
+87	Dag
+88	Note
+89	Hvad oplevede du? Hvad spiste du, hvem mødte du?
+90	Tilføj billeder i appen.
+91	Du kan også føre rejsedagbog med Rejseguide til Tyrkiet.
+92	Tilmeld dig og gem din rejse
+93	Fortsæt til hjemmesiden
+94	Dagbogen blev ikke fundet.
+95	Dagbogen er slettet
+96	Slet denne dagbog og alle opslag?
+97	Stedet blev ikke fundet, vælg fra listen
+98	Vælg et sted, eller skriv en note
+99	Dit billede bliver synligt for alle efter en kort kontrol.
+100	Billede fra ny bruger, venter på godkendelse
+101	Entré og Müzekart
+102	De fleste museer og udgravninger under Kultur- og Turismeministeriet tager imod museumskortet Müzekart. Nogle paladser og kommunale eller private museer gør ikke.
+103	Priserne kan ændre sig flere gange om året; tjek den aktuelle pris på den officielle hjemmeside, før du tager afsted.
+104	Tilgængelighed
+105	Tilgængeligt
+106	Delvist
+107	Ikke tilgængeligt
+108	ifølge {1} besøgende
+109	Ingen oplysninger endnu. Hvis du har været der, så marker, om det kan besøges i kørestol eller med barnevogn.
+110	Oplysninger fra besøgende; ring i forvejen og spørg om ramper, elevatorer og handicaptoiletter.
+111	Kortet over denne provins er hentet til din telefon. Det åbner også uden internet.
+112	Hent kortet over hele provinsen til telefonen; det åbner i bjergene, på landet og overalt uden dækning.
+113	Vælg en støttepakke
+114	Giv os en te
+115	Støttepakke
+116	Stor støtte
+117	Et lille, men meget værdsat tak
+118	Hjælper med server- og kortudgifter
+119	Hjælper med at udvikle nye funktioner
+120	Støtten er frivillig; der sendes intet produkt til gengæld.
+121	Fjernsalgsaftale
+122	Annullering og refusion
+123	Rejsedagbog og tilgængelighedsoplysninger
+124	Dine rejsedagbøger kan kun ses af dig; slår du “Del via link” til, kan alle med linket se dem. Dine markeringer af et steds tilgængelighed deles kun som totaler, uden at vise hvem der lavede dem. De første billeder fra nye konti kontrolleres af en moderator, før de offentliggøres.

@@ -1,0 +1,43 @@
+Telefon bildirimleri	Phone notifications
+Telefonuna bildirim almayı kabul edersen, bildirim gönderebilmek için Firebase’in cihazına verdiği bildirim kimliği hesabınla birlikte saklanır. Çıkış yaptığında bu kimlik silinir. Bildirimleri istediğin zaman telefonunun ayarlarından kapatabilirsin.	If you agree to receive notifications on your phone, the notification ID that Firebase gives your device is stored with your account so we can send them. This ID is deleted when you sign out. You can turn notifications off at any time in your phone settings.
+Yeri paylaş	Share place
+Açık tema	Light theme
+Koyu tema	Dark theme
+Önizleme	Preview
+Hazır temalar	Ready-made themes
+Kendi temanı oluştur	Create your own theme
+Vurgu rengi	Accent colour
+Uygula	Apply
+Arka plan tonu	Background tone
+Degrade arka plan	Gradient background
+Arka plan tonundan vurgu rengine geçiş	Blends from the background tone into the accent colour
+Yazı tipi	Font
+Yazı boyutu	Text size
+Küçük	Small
+Normal	Normal
+Büyük	Large
+Çok büyük	Extra large
+Kaydet	Save
+Tema kaydedildi. Uygulamayı kapatıp açınca uygulanır.	Theme saved. It applies when you close and reopen the app.
+Tema kaydedildi	Theme saved
+Yazılar okunsun diye renk biraz koyulaştırıldı.	The colour was darkened a little so text stays readable.
+Seçimin hesabına da kaydedilir; sitede ve diğer telefonlarında da aynı görünür.	Your choice is also saved to your account, so it looks the same on the website and your other phones.
+Seçimin hesabına da kaydedilir; uygulamada ve diğer cihazlarında da aynı görünür.	Your choice is also saved to your account, so it looks the same in the app and on your other devices.
+Geçerli bir renk kodu yaz (ör. #3B82F6).	Enter a valid colour code (e.g. #3B82F6).
+Lavanta	Lavender
+Gün batımı	Sunset
+Gece mavisi	Midnight blue
+Orman	Forest
+Sistem	System
+Yuvarlak	Rounded
+Modern	Modern
+Klasik	Classic
+Eğlenceli	Playful
+Kapadokya	Cappadocia
+Bugün yağmur var: kapalı mekânları öneriyoruz	It's raining today: we suggest indoor places
+Kar yağıyor: müzeler, kaplıcalar ve kayak merkezleri	It's snowing: museums, hot springs and ski resorts
+Hava çok sıcak: deniz, göl, mağara ve serin yerler	It's very hot: the sea, lakes, caves and cool spots
+Hava soğuk: müzeler, çarşılar ve kaplıcalar	It's cold: museums, bazaars and hot springs
+Hava gezmeye çok uygun: açık havada gezilecek yerler	Great weather for exploring: outdoor places to visit
+Bugün için öneriler	Suggestions for today
+Konumuna göre bugünün önerileri	Today's suggestions for your location

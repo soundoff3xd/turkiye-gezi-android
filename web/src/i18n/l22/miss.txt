@@ -1,0 +1,83 @@
+Yakında ne yenir
+Yöresel
+Restoran
+Kafe
+Hızlı yemek
+Türk mutfağı
+Kebap
+Balık
+Pizza
+Burger
+Kahve
+Kahvaltı
+Pide
+Tatlı
+Dondurma
+İtalyan
+Çin mutfağı
+Vejetaryen
+Vegan
+Et
+Sandviç
+Fırın
+Çay
+Dünya mutfağı
+Kaynak: OpenStreetMap katkıcıları. Açılış saatlerini gitmeden önce kontrol et.
+Gezi günlüklerim
+Gezi günlüğü
+Gezdiğin yerleri gün gün not et, fotoğraf ekle; istersen arkadaşlarınla bağlantıyla paylaş.
+Yeni günlük adı (ör. Kapadokya, Ekim)
+Oluştur
+Henüz günlüğün yok
+Bir gezi için günlük oluştur, gittiğin yerleri ekledikçe hikâyen oluşsun.
+Henüz günlüğün yok. Bir gezi için günlük oluştur, gittiğin yerleri ekledikçe hikâyen oluşsun.
+{1} kayıt
+Paylaşıldı
+Bağlantıyla paylaş
+Bağlantıyı bilen herkes günlüğünü görebilir.
+Şu an yalnızca sen görüyorsun.
+Henüz kayıt yok
+Gittiğin bir yeri, notunu ve fotoğrafını ekleyerek başla.
+Günlüğü sil
+Kayıt ekle
+Yer
+Yer ara (isteğe bağlı)
+Gün (YYYY-AA-GG)
+Gün
+Not
+Neler yaşadın? Ne yedin, kimle tanıştın?
+Fotoğraf eklemek için uygulamayı kullanabilirsin.
+Türkiye Gezi Rehberi ile sen de gezi günlüğü tutabilirsin.
+Sen de üye ol, gezini kaydet
+Siteye devam et
+Bu günlük bulunamadı.
+Günlük silindi
+Bu günlük ve tüm kayıtları silinsin mi?
+Yer bulunamadı, listeden seç
+Bir yer seç ya da not yaz
+Fotoğrafın kısa bir kontrolden sonra herkese görünecek.
+Yeni kullanıcı fotoğrafı, onay bekliyor
+Giriş ücreti ve Müzekart
+Kültür ve Turizm Bakanlığına bağlı müze ve ören yerlerinin çoğuna Müzekart ile girilir. Bazı saraylar, belediye ve özel müzeler Müzekart kabul etmez.
+Ücretler yılda birkaç kez değişebilir; gitmeden önce güncel ücreti resmi siteden kontrol et.
+Erişilebilirlik
+Erişilebilir
+Kısmen
+Erişilemez
+{1} ziyaretçiye göre
+Henüz bilgi yok. Gittiysen tekerlekli sandalye ve bebek arabasıyla gezilebiliyor mu, işaretle.
+Ziyaretçilerin bildirdiği bilgidir; rampa, asansör ve uygun tuvalet için gitmeden önce yeri arayıp sor.
+Bu ilin haritası telefonuna indirildi. İnternet olmadan da açılır.
+Bu ilin tamamının haritasını telefonuna indir; dağda, köyde, internetin çekmediği yerde de harita açılır.
+Destek paketini seç
+Çay ısmarla
+Destekçi paketi
+Büyük destek
+Küçük ama çok değerli bir teşekkür
+Sunucu ve harita masraflarına katkı
+Yeni özelliklerin geliştirilmesine katkı
+Destek gönüllüdür; karşılığında ürün gönderilmez.
+Mesafeli satış sözleşmesi
+İptal ve iade
+Gezi günlüğü ve erişilebilirlik bilgisi
+Gezi günlüklerin yalnızca sana görünür; “Bağlantıyla paylaş”ı açarsan bağlantıyı bilen herkes görebilir. Bir yerin erişilebilirliği için yaptığın işaretleme, kimin yaptığı gösterilmeden toplam sayı olarak paylaşılır. Yeni hesapların ilk fotoğrafları yayınlanmadan önce bir moderatör tarafından kontrol edilir.

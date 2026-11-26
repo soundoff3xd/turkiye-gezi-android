@@ -1,0 +1,576 @@
+0	Místa k návštěvě
+1	{1} míst
+2	Navrhnout místo
+3	Čeká na schválení ({1})
+4	Čeká na schválení
+5	Řadit
+6	Řadit a filtrovat
+7	Nejnavštěvovanější
+8	Nejoblíbenější
+9	Nejlépe hodnocené
+10	Nejvíce recenzí
+11	Vše
+12	Historické stavby
+13	Muzeum a palác
+14	Město a tržiště
+15	Vyhlídka
+16	Příroda
+17	Moře
+19	Všechna místa
+20	Celé Turecko
+21	Marmara
+22	Egejská oblast
+23	Středomoří
+24	Střední Anatolie
+25	Černé moře
+26	Východní Anatolie
+27	Jihovýchodní Anatolie
+28	Mapová data: Natural Earth
+29	Zmenšit panel
+30	Zvětšit panel
+31	Mapa Turecka
+32	Seznam míst
+33	Hledat místa
+34	Region
+35	Kategorie
+36	Přiblížit
+37	Oddálit
+38	Zavřít
+39	Jazyk
+40	{1} recenzí
+41	({1} recenzí)
+42	{1} návštěvníků
+43	{1} oblíbení
+44	Nové
+45	Přidala komunita
+46	Tomuto hledání nebo filtru neodpovídají žádná místa.
+47	Byl jsi tu?
+48	Byl jsem
+49	Oblíbené
+50	V oblíbených
+51	Trasa
+52	Napsat recenzi
+53	Přidat fotku
+54	Přehled
+55	Recenze
+56	Fotky
+57	Fotky ({1})
+58	Poloha
+59	Jak se tam dostat
+60	Zatím bez hodnocení
+61	Navrhl {1}, schválila komunita
+62	Otevírací doba a vstupné se mění; před cestou si ověř oficiální zdroj.
+63	{1} z 5
+68	před {1} dny
+69	před 1 dnem
+70	před {1} týdny
+71	před 1 týdnem
+72	před {1} hodinami
+73	Právě teď
+74	Ty
+75	Líbí se mi
+76	Odpovědět
+77	Napsat odpověď
+78	Odeslat
+79	K tomuto místu zatím nejsou recenze
+80	Byl jsi tam? Poděl se o první zážitek.
+81	Zatím žádné fotky ani videa
+82	Sdílej své snímky, ať budoucí cestovatelé vědí, co je čeká.
+83	Sdílená fotka
+84	Vybraná fotka
+85	Poděl se o svůj zážitek
+86	Tvé hodnocení
+87	Tvůj zážitek
+88	{1} hvězdiček
+89	Přidat fotku nebo video
+90	Odebrat
+91	Zveřejnit
+92	Co jsi viděl a dělal? Nech tip dalším návštěvníkům.
+93	Je potřeba hodnocení a text nebo médium. Příspěvky jsou veřejné; nesdílej osobní údaje ani tváře jiných lidí.
+94	Tvá recenze byla zveřejněna
+95	Přidáno do navštívených míst
+96	Přidáno do oblíbených
+97	Navržená místa
+98	Jak se to ověřuje?
+99	1. Automatické kontroly: zda je místo v Turecku, zda už neexistuje, zda neobsahuje urážlivá slova nebo odkazy, zda je přiložena fotka jako důkaz.
+100	2. Schválení komunitou: když {1} uživatelů potvrdí „Toto místo je skutečné“, přidá se na mapu. Nikdo nemůže schválit vlastní návrh.
+101	3. Moderátor: návrh s {1} nahlášeními „Chybné nebo nevhodné“ se odebere a pošle moderátorovi.
+102	Každý může navrhnout {1} míst denně.
+104	navrhl {1}, {2}
+105	Čeká na schválení komunitou
+106	Nahlášeno, u moderátora
+107	Schváleno, na mapě
+108	Zamítnuto
+109	{1}/{2} schválení
+110	{1}/{2} schválení · {3} nahlášení
+111	Zobrazit na mapě
+112	Toto místo je skutečné
+113	Chybné / nevhodné
+114	Moderátor: schválit
+115	Moderátor: zamítnout
+117	{1} bylo přidáno na mapu
+118	Návrh byl odeslán moderátorovi
+119	Nahlášení přijato
+120	Návrh byl zamítnut
+121	Tvůj návrh se posuzuje
+122	Navrhnout nové místo
+123	Místo, které jsi navštívil a v aplikaci zatím není
+124	Název místa
+125	Například: vodopád Tortum
+126	Označit na mapě
+127	Změnit polohu
+128	Poloha zatím není vybrána
+129	{1} (mimo Turecko)
+130	Provincie
+131	Krátký popis
+132	Co se tam dá vidět a proč tam jet?
+133	Přidat fotku jako důkaz (pořízenou na místě)
+134	Toto místo jsem osobně navštívil
+135	Odeslat ke kontrole
+136	Po automatických kontrolách se tvůj návrh přidá, jakmile ho schválí {1} uživatelů. Nahlášené návrhy jdou k moderátorovi.
+137	Klepni na mapu a vyber polohu
+138	Zrušit
+139	Tvůj návrh nebyl odeslán:
+140	Název musí mít {1} až {2} znaků.
+141	Popis musí mít alespoň {1} znaků; v několika slovech řekni, co se dá vidět.
+142	Odkazy nejsou povoleny.
+143	Nepoužívej opakovaná písmena ani jen velká písmena.
+144	Obsahuje urážlivá slova.
+145	Označ polohu na mapě.
+146	Vybraná poloha je mimo Turecko.
+147	Toto místo už existuje nebo je velmi blízko: {1}.
+148	Jako důkaz přidej fotku, kterou jsi tam pořídil.
+149	Potvrď, že jsi místo osobně navštívil.
+150	Denně můžeš navrhnout nejvýše {1} míst.
+165	Region Marmara
+166	Egejský region
+167	Středomořský region
+168	Region Střední Anatolie
+169	Černomořský region
+170	Region Východní Anatolie
+171	Region Jihovýchodní Anatolie
+172	Nový cestovatel
+173	Cestovatel
+174	Zkušený cestovatel
+175	Důvěryhodný průvodce
+176	Můj profil
+177	Přihlásit se nebo registrovat
+178	Pro pokračování se přihlas nebo registruj.
+179	Tvůj účet
+180	Přihlášení
+181	Registrace
+182	Tvé jméno
+183	E-mail
+184	Heslo
+185	Alespoň 8 znaků
+186	Vyzkoušet demo účet
+188	Zadej platnou e-mailovou adresu.
+189	Heslo musí mít alespoň 8 znaků.
+190	Jméno musí mít 2 až 30 znaků.
+191	Toto jméno nelze použít.
+192	Účet s tímto e-mailem už existuje. Zkus se přihlásit.
+193	Nesprávný e-mail nebo heslo.
+194	Účet vytvořen, vítej {1}
+195	Vítej zpět {1}
+196	Přihlášen demo účtem
+197	Byl jsi odhlášen
+198	Odhlásit se
+199	Byl jsem ({1})
+200	Oblíbené ({1})
+201	Moje recenze ({1})
+202	Moje návrhy ({1})
+203	Navštívená místa označ tlačítkem „Byl jsi tu?“ na kartě místa.
+204	Místa, která se ti líbí, si ulož tlačítkem „Oblíbené“.
+205	Zatím jsi nenapsal žádnou recenzi.
+206	Chybějící místo můžeš přidat přes „Navrhnout místo“.
+207	Členem od {1}
+208	Úroveň cestovatele
+209	{1} bodů
+210	Další úroveň:
+211	Jsi na nejvyšší úrovni.
+212	Body: navštívené místo 1, recenze 3, schválený návrh 10. Schválení důvěryhodného průvodce má váhu 2 hlasů.
+213	Smazat účet
+214	Smazat účet a všechna jeho data v tomto prohlížeči?
+215	Ano, smazat
+216	Tvůj účet byl smazán
+219	Cestovní průvodce po Turecku
+220	Objevuj místa k návštěvě po celém Turecku, označ, kde jsi byl, a sdílej zážitky a fotky.
+221	Pro používání aplikace si vytvoř bezplatný účet nebo se přihlas.
+222	Místa
+223	Galerie fotek
+224	Nejoblíbenější fotky
+225	Nejkrásnější snímky cestovatelů. Dej srdíčko fotkám, které se ti líbí.
+226	Nejoblíbenější
+227	Nejnovější
+228	Nejoblíbenější fotografové
+229	{1} lajků
+230	Přejít na místo
+231	Líbí se mi fotka
+232	Fotka se ti líbí
+234	Fotka
+249	Poslali jsme ti e-mailem odkaz k potvrzení účtu. Po kliknutí na něj se přihlas.
+250	Tvůj e-mail ještě není potvrzen. Zkontroluj doručenou poštu.
+251	Zatím lze nahrávat jen fotky.
+252	Fotky mohou mít nejvýše 5 MB.
+253	Něco se pokazilo, zkus to znovu.
+254	Nemůžeš schválit vlastní návrh.
+256	Nabídka účtu
+257	Nastavení účtu
+258	Podpoř nás
+259	Cestovní průvodce po Turecku je nezávislý a bezplatný projekt. Tvá podpora pomáhá se servery, mapovými službami a novými funkcemi.
+260	Jednorázově
+261	Měsíčně
+262	Částka
+263	Jiná částka
+264	Zadej částku
+265	Podpořit částkou {1} ₺
+266	Vyber částku
+267	Platba proběhne na zabezpečené platební stránce; tato aplikace nikdy nežádá údaje o kartě.
+268	Kam jde tvá podpora?
+269	Servery a databáze
+270	Mapová a satelitní služba
+271	Nové funkce a vývoj
+272	Platební stránka se otevře v nové kartě
+274	Zaplatit kreditní nebo debetní kartou
+275	Údaje o kartě zadáš na platební stránce
+276	Styl mapy a vrstvy
+277	Styl mapy
+278	Standardní
+279	Tmavý
+280	Jednoduchý
+281	Vrstvy
+282	Hranice provincií
+283	Názvy míst
+284	Jezera
+285	Zpět na celé Turecko
+286	Historie a kultura
+287	Moře a pobřeží
+288	Města a městečka
+289	Mešity a hrobky
+290	Kostely a kláštery
+291	Antická místa a ruiny
+292	Hrady a hradby
+293	Paláce a pavilony
+294	Muzea
+295	Památníky
+296	Parky a národní parky
+297	Jezera
+298	Vodopády
+299	Kaňony a údolí
+300	Hory a náhorní plošiny
+301	Jeskyně a závrty
+302	Přírodní divy
+303	Termální prameny
+304	Pláže a zátoky
+305	Ostrovy
+306	Přímořská letoviska
+307	Bazary a tržiště
+308	Historické čtvrti
+309	Městečka a vesnice
+310	Náměstí a ulice
+311	Vyhlídky
+312	Věže
+313	Změnit profilovou fotku
+314	Přidat profilovou fotku
+315	Změnit fotku
+316	Profilová fotka aktualizována
+317	Profilová fotka odebrána
+318	Vyber fotku ve formátu JPG, PNG nebo WEBP.
+319	Fotky mohou mít nejvýše 15 MB.
+320	Tuto fotku nelze otevřít.
+321	Příliš mnoho pokusů. Zkus to později.
+322	Připojení se nezdařilo. Zkontroluj internet a zkus to znovu.
+323	Satelit
+324	Nejblíž mně
+325	Moje poloha
+326	Výpočet trasy…
+327	Trasa nebyla nalezena.
+328	Pokyny krok za krokem
+329	Spustit navigaci
+330	Hlasové pokyny se otevřou v Google Maps.
+331	Trasy v aplikaci brzy dorazí. Zatím můžeš pokračovat přes Google Maps.
+332	{1} min
+333	{1} h {2} min
+334	Teď jsem tady
+335	Auto
+336	Pěšky
+337	Kolo
+338	MHD
+339	od tebe
+340	Tento prohlížeč nepodporuje polohu.
+341	Oprávnění k poloze nebylo uděleno. Můžeš ho povolit v nastavení webu v prohlížeči.
+342	Tvoji polohu se nepodařilo zjistit. Zkontroluj, zda jsou zapnuté služby určování polohy.
+343	Přeskočit
+344	Pokračovat
+345	Jdeme na to
+346	Pokračovat bez výběru
+347	Vítej!
+348	V jakém jazyce chceš aplikaci používat?
+349	Co máš rád?
+350	Zvýrazníme místa, která ti sednou. Můžeš vybrat víc možností.
+351	Později to můžeš změnit v části „Moje zájmy“ v nabídce účtu.
+352	Moje zájmy
+353	Tvé zájmy byly uloženy
+354	Tvůj výběr se zobrazí v kategorii „Pro tebe“.
+355	Uložit
+356	Fotografování
+357	Můj účet
+358	Nic nevybráno
+359	Pro tebe
+360	Zpět
+361	Navštiv 10 přírodních divů
+362	Navštiv místa v 10 různých provinciích
+363	Sdílej 10 fotek
+364	Navštiv 10 míst
+365	Napiš 10 recenzí
+366	Cestovatel 10 provincií
+367	Navštiv 100 míst
+368	Navštiv 3 vodopády
+369	Navštiv 5 antických měst a ruin
+370	Navštiv 5 mešit, kostelů nebo klášterů
+371	Navštiv 5 hradů
+372	Navštiv 5 pláží, ostrovů nebo přímořských letovisek
+373	Navštiv 50 míst
+374	Průzkumník Středomoří
+375	Navštiv 10 míst ve Středomořském regionu
+376	Napiš, co si myslíš…
+377	Cestovatel do antiky
+378	Vymazat
+379	Posunout dolů
+380	Můžeš vybrat víc možností. Seřadíme města s nejvíce a nejlepšími místy daného typu.
+381	Dokončit
+382	Tyto údaje se používají jen pro chod aplikace: abychom rozpoznali tvůj účet, ukázali tvé příspěvky ostatním cestovatelům a vylepšovali aplikaci. Nezobrazujeme reklamy a tvá data nikomu neprodáváme.
+383	Tato sekce je jen pro moderátory.
+384	Tato provincie má zatím jen {1} míst, proto je plán zkrácen.
+385	Tento obsah už neexistuje.
+386	Nebylo nalezeno žádné místo tohoto typu.
+387	Dnes
+388	Dnes jsi poslal příliš mnoho zpráv. Zkus to zítra.
+389	Dnes jsi poslal příliš mnoho nahlášení. Zkus to zítra.
+390	Zataženo
+391	Milovník moře
+392	Pokračováním souhlasíš se zásadami ochrany soukromí.
+393	Jiné
+394	Průzkumník přírody
+395	Průzkumník Východní Anatolie
+396	Navštiv 10 míst ve Východní Anatolii
+397	Zastávky seřazeny nejkratším pořadím
+398	Legendární cestovatel
+399	Průzkumník Egejské oblasti
+400	Navštiv 10 míst v Egejském regionu
+401	Fotograf
+402	Nahlásit fotku
+403	Zpětná vazba
+404	Cestovatelský duch
+405	Můj cestovní seznam
+406	Přidat do cestovního seznamu
+407	Tvůj cestovní seznam je prázdný
+408	Cestovní seznam je plný (nejvýše {1} míst).
+409	Cestovní seznam vymazán
+410	Ve tvém cestovním seznamu
+411	Odebráno z cestovního seznamu
+412	Přidáno do cestovního seznamu
+413	Plán cesty
+414	Skryto
+415	Skryto; moderátor to posuzuje.
+416	Soukromí a ochrana údajů
+417	Otevřít v Google Maps
+418	Bouřka
+419	Moje odeslané
+420	Názor
+421	Poslat názor
+422	Navštiv 10 míst v Jihovýchodní Anatolii
+423	Průzkumník jihovýchodu
+424	Urážky nebo nenávistné projevy
+425	Tvá práva (KVKK)
+426	Jaké údaje shromažďujeme?
+427	Navštiv alespoň jedno místo v každé provincii na mapě
+428	Hlášení chyby
+429	Počasí
+430	Počasí teď není k dispozici.
+431	Dorazil jsi: {1}
+432	Zatím žádná zpětná vazba
+433	Jméno a e-mailová adresa, které zadáš při registraci; volitelná profilová fotka; recenze, které píšeš, fotky, které nahráváš, místa, která navrhuješ, navštívená a oblíbená místa a také zpětná vazba a nahlášení, která posíláš.
+434	Lovec hradů
+435	Průzkumník Černého moře
+436	Navštiv 10 míst v Černomořském regionu
+437	Sníh
+438	Zdroj: Open-Meteo
+439	Získáno
+440	Vlastní příspěvek nahlásit nemůžeš.
+441	Šťastnou cestu!
+442	Kdo to vidí?
+443	Téma
+444	Blízko mé polohy
+445	Tvoji polohu se nepodařilo zjistit, trasa proto začíná od první zastávky.
+446	Tvá poloha se používá jen v tvém zařízení: k řazení míst poblíž, zobrazení vzdáleností a tras. Historie polohy se neukládá. Když požádáš o trasu, počáteční a cílový bod se odešlou službě OpenRouteService jen kvůli výpočtu trasy.
+447	Celkem {1} vzdušnou čarou
+448	Odebrat ze seznamu
+449	Popiš to několika slovy.
+450	Průzkumník Marmary
+451	Navštiv 10 míst v regionu Marmara
+452	Tvá zpráva
+453	Tvá zpráva dorazila. Děkujeme!
+454	Se zprávou se ukládá jen tvůj účet a verze aplikace.
+455	Panel moderátora
+456	Pro navigaci je potřeba oprávnění k poloze.
+457	Co chceš vidět?
+458	K čemu je používáme?
+459	Co se stalo? Na které obrazovce, při čem? Pokud můžeš, krok za krokem.
+460	Kde jsou uloženy?
+461	Kam mám jet?
+462	Co chceš nahlásit?
+463	Přečteno
+464	Označit jako přečtené
+465	Označit jako nepřečtené
+466	Vycentrovat
+467	Polojasno
+468	Plán řadí místa podle vzájemné blízkosti. Před cestou si ověř otevírací dobu.
+469	Trasa začíná od tvé polohy a vede přes zastávky v tomto pořadí. Hlasovou navigaci můžeš spustit z obrazovky trasy.
+470	Přepočítání trasy
+471	Přepočítávání trasy…
+472	Zobrazit trasu
+473	Odznaky
+474	Města, která ti doporučujeme
+475	Zapnout zvuk
+476	Vypnout zvuk
+477	Živá navigace s hlasovými pokyny se otevře v aplikaci.
+478	Smazat
+479	Mlha
+480	Poslední aktualizace: {1}
+481	Potom
+482	S dotazy a žádostmi nám napiš přes „Poslat názor“ v aplikaci.
+483	V pořádku, zobrazit
+484	Spam nebo reklama
+485	Verze {1}
+486	Nejkratší pořadí
+487	Vymazat
+488	Zde jednoduše vysvětlujeme, jak se zpracovávají tvé údaje, když používáš Cestovního průvodce po Turecku.
+489	Cesta kolem Turecka
+490	Ostřílený cestovatel
+491	Jak jsi s aplikací spokojen? (nepovinné)
+492	Aplikaci tvoříme společně. Napiš jakýkoli nápad, chybu nebo názor; čteme všechno.
+493	Nevhodný obsah
+494	Příjezd {1}
+495	Data jsou uložena na infrastruktuře Supabase a přenášena šifrovaným spojením. Mapa pochází z OpenFreeMap a počasí z Open-Meteo; tvé jméno ani e-mail se těmto službám neposílají.
+496	Blízká města jsou první.
+497	Nepravdivé nebo zavádějící informace
+498	Odpověď
+499	Nahlásit odpověď
+500	Déšť
+501	Získán nový odznak: {1}
+502	Je k dispozici nová verze
+503	{1} s novými funkcemi a opravami je připravena ke stažení. Stačí ji stáhnout a nainstalovat; účet i data zůstanou zachovány.
+504	Shromažďuj tu místa, která chceš navštívit, tlačítkem „Přidat do cestovního seznamu“ na kartách míst; aplikace je spojí do jedné trasy.
+505	Recenze
+506	Recenzent
+507	Nahlásit recenzi
+508	Posunout nahoru
+509	a {1} dalších
+510	{1} zastávek
+511	Dorazil jsi do {1}
+512	{1} dní
+513	Všechna místa v {1} ({2})
+514	{1} km daleko
+515	Pro {1}
+516	{1} odpovídajících míst
+517	{1} nahlášení
+518	Den {1}
+519	Mrholení
+520	Nejdřív vyber výše alespoň jeden typ
+521	Návrh
+522	Navštiv 5 slavných míst se zvláštní značkou
+523	Sběratel památek
+524	~{1} km od předchozí zastávky
+525	Doručeno
+526	Kontakt
+527	Města a plán cesty podle tvých zájmů
+528	První krok
+529	Označ své první místo jako „Byl jsem“
+530	Poutník
+531	Průzkumník Střední Anatolie
+532	Navštiv 10 míst ve Střední Anatolii
+533	Obsah byl smazán
+534	Obsah je znovu viditelný
+535	Lovec vodopádů
+536	Žádný nahlášený obsah
+537	Nahlásit
+538	Nahlášení přijato. Děkujeme!
+539	Nahlášení
+540	Nahlášení jsou důvěrná. Pokud něco nahlásí tři různí lidé, obsah se automaticky skryje a posoudí ho moderátor.
+541	Stáhnout nyní
+542	Do cestovního seznamu přidáno {1} míst
+543	Tato místa už jsou ve tvém cestovním seznamu
+544	Odkaz zkopírován
+545	Kopírovat odkaz
+546	Tato funkce funguje na zveřejněném webu.
+547	Vymazat seznam
+548	Pro trasu jsou potřeba alespoň dva body. Povol polohu nebo přidej další místo.
+549	Živá navigace s hlasovými pokyny se otevře přímo tady na webu.
+550	Načítání…
+551	Trasa
+552	Podle tureckého zákona č. 6698 o ochraně osobních údajů (KVKK) máš právo na přístup ke svým údajům a můžeš žádat jejich opravu nebo smazání. Účet můžeš kdykoli trvale smazat tlačítkem „Smazat účet“ na stránce profilu; recenze, fotky a všechny záznamy se smažou spolu s ním.
+553	Tvé jméno, profilová fotka, recenze a fotky jsou veřejné. E-mail, navštívená a oblíbená místa vidíš jen ty. Zpětnou vazbu a nahlášení vidíš jen ty a moderátoři.
+554	Trasa začíná od tvé polohy a vede přes zastávky v tomto pořadí.
+555	Vymazat hledání
+556	Nastavení
+557	Už se mi nelíbí
+558	Klepni na místo
+559	Přidej fotku při psaní recenze na kartě místa; nejoblíbenější se zobrazí tady.
+560	Tato fotka už není dostupná.
+561	Použít tuto polohu
+562	Toto místo nebylo nalezeno.
+563	To už jsi udělal.
+564	Co se tu dá vidět a proč sem jet?
+565	Změnit
+566	Toto jméno uvidí ostatní cestovatelé
+567	Užitečné
+568	Vyfotit
+569	Zvětšit fotku
+570	Vybrat z galerie
+571	Objevuj místa k návštěvě, označ, kde jsi byl, a sdílej své zážitky.
+572	Mapa
+573	Zatím žádné fotky
+574	Zatím jsi nenavrhl žádné místo.
+575	Smazat tvůj účet?
+576	Tvůj účet funguje i na webu.
+577	Tvůj účet, recenze, fotky a návrhy budou trvale smazány. Tuto akci nelze vrátit.
+578	Vytvořit účet
+579	Fotka jako důkaz
+580	Vyber kategorii
+581	Vyber kategorii.
+582	Objevovat
+583	Označit polohu
+584	Moderátor
+585	Co jsi viděl, co bys doporučil?
+586	Tvůj hlas byl zaznamenán
+587	Profil
+588	Vybraná poloha
+589	Žádné výsledky.
+590	Přidat chybějící místo
+591	Galerie
+592	Přibliž a klepni na přesné místo.
+593	Napiš odpověď…
+594	Zkusit znovu
+595	Název místa
+596	Zobrazit místo
+597	Procházet místa
+598	Tvá recenze
+599	Je potřeba hodnocení hvězdičkami a recenze nebo fotka.
+600	právě teď
+601	před {1} min
+602	před {1} měsíci
+603	před {1} lety
+604	{1} fotek
+605	Zkontrolovat návrhy
+606	Odeslat návrh
+607	např. vodopád Tortum
+608	Vyber provincii
+609	Vyber provincii.
+610	Žádné čekající návrhy.
+611	Otevírá se platební stránka
+612	Stránka pro platbu kartou se tu brzy bude otevírat.
+613	Oprávnění k poloze nebylo uděleno. Můžeš ho povolit v nastavení telefonu.
+614	Oprávnění k fotoaparátu nebylo uděleno. Můžeš ho povolit v nastavení telefonu.
+615	Tvoji polohu se nepodařilo zjistit. Zkontroluj, zda jsou zapnuté služby určování polohy.
+616	{1} od tebe

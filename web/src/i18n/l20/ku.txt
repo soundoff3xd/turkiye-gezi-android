@@ -1,0 +1,576 @@
+0	Cihên ku bên dîtin
+1	{1} cih
+2	Cihekî pêşniyar bike
+3	Li benda pejirandinê ({1})
+4	Li benda pejirandinê
+5	Rêz bike
+6	Rêz bike û parzûn bike
+7	Herî zêde hatin serdan
+8	Herî zêde hezkirî
+9	Herî bilind nirxandî
+10	Herî zêde şîrovekirî
+11	Hemû
+12	Avahiyên dîrokî
+13	Mûze û qesr
+14	Bajar û bazar
+15	Cihê temaşeyê
+16	Xweza
+17	Derya
+19	Hemû cih
+20	Hemû Tirkiye
+21	Marmara
+22	Ege
+23	Deryaya Spî
+24	Anatoliya Navîn
+25	Deryaya Reş
+26	Anatoliya Rojhilat
+27	Anatoliya Başûrê Rojhilat
+28	Daneyên nexşeyê: Natural Earth
+29	Panelê biçûk bike
+30	Panelê mezin bike
+31	Nexşeya Tirkiyeyê
+32	Lîsteya cihan
+33	Li cihan bigere
+34	Herêm
+35	Kategorî
+36	Nêzîk bike
+37	Dûr bike
+38	Bigire
+39	Ziman
+40	{1} şîrove
+41	({1} şîrove)
+42	{1} kes çûn
+43	{1} hezkirî
+44	Nû
+45	Ji hêla civakê ve hate zêdekirin
+46	Bi vê lêgerînê an parzûnê re cih tune.
+47	Tu çûyî?
+48	Ez çûm
+49	Hezkirî
+50	Di hezkiriyan de
+51	Rêtarîf
+52	Şîrove binivîse
+53	Wêne zêde bike
+54	Nêrîna giştî
+55	Şîrove
+56	Wêne
+57	Wêne ({1})
+58	Cih
+59	Çawa tê çûn
+60	Hîn nirxandin tune
+61	{1} pêşniyar kir, civakê pejirand
+62	Demên vebûnê û bihayên bilêtan diguherin; berî çûnê ji çavkaniya fermî kontrol bike.
+63	Ji 5an {1}
+68	{1} roj berê
+69	1 roj berê
+70	{1} hefte berê
+71	1 hefte berê
+72	{1} saet berê
+73	Niha
+74	Tu
+75	Ecibandin
+76	Bersiv
+77	Bersivê binivîse
+78	Bişîne
+79	Ji bo vî cihî şîroveya ku were nîşandan tune
+80	Tu çûyî? Ezmûna yekem tu parve bike.
+81	Hîn wêne an vîdyo tune
+82	Wêneyên xwe parve bike da ku gerokên din bizanin çi li benda wan e.
+83	Wêneyê parvekirî
+84	Wêneyê hilbijartî
+85	Ezmûna xwe parve bike
+86	Nirxa te
+87	Ezmûna te
+88	{1} stêrk
+89	Wêne an vîdyo zêde bike
+90	Rake
+91	Parve bike
+92	Te çi dît û çi kir? Ji bo serdanên din şîretek bihêle.
+93	Nirx û nivîs an medya pêwîst e. Parvekirin gelemperî ne; agahiyên kesane û rûyê kesên din parve neke.
+94	Şîroveya te hate weşandin
+95	Li cihên ku tu çûyî hate zêdekirin
+96	Li hezkiriyan hate zêdekirin
+97	Cihên pêşniyarkirî
+98	Çawa tê piştrastkirin?
+99	1. Kontrola otomatîk: cih di nav Tirkiyeyê de ye an na, berê heye an na, peyvên nebaş an girêdan tê de hene an na, wêneyê delîlê heye an na.
+100	2. Pejirandina civakê: dema {1} bikarhêner “Ev cih rast e” bibêjin, li nexşeyê tê zêdekirin. Kes nikare pêşniyara xwe bipejirîne.
+101	3. Moderator: pêşniyara ku {1} ragihandinên “Şaş an neguncav” bistîne, tê rakirin û ji moderator re diçe.
+102	Her kes rojê dikare {1} cih pêşniyar bike.
+104	{1} pêşniyar kir, {2}
+105	Li benda pejirandina civakê
+106	Hate ragihandin, li cem moderator e
+107	Hate pejirandin, li ser nexşeyê ye
+108	Hate redkirin
+109	{1}/{2} pejirandin
+110	{1}/{2} pejirandin · {3} ragihandin
+111	Li ser nexşeyê nîşan bide
+112	Ev cih rast e
+113	Şaş / neguncav
+114	Moderator: bipejirîne
+115	Moderator: red bike
+117	{1} li nexşeyê hate zêdekirin
+118	Pêşniyar ji moderator re hate şandin
+119	Ragihandin hate wergirtin
+120	Pêşniyar hate redkirin
+121	Pêşniyara te tê nirxandin
+122	Cihekî nû pêşniyar bike
+123	Cihekî ku tu çûyî û hîn di sepanê de tune
+124	Navê cih
+125	Mînak: Sûlava Tortumê
+126	Li ser nexşeyê nîşan bike
+127	Cih biguherîne
+128	Hîn cih nehatiye hilbijartin
+129	{1} (li derveyî Tirkiyeyê)
+130	Parêzgeh
+131	Ravekirina kurt
+132	Li wir çi heye ku were dîtin, çima here?
+133	Wêneyekî delîlê zêde bike (li wir hatiye kişandin)
+134	Ez bi xwe çûme vî cihî
+135	Ji bo nirxandinê bişîne
+136	Pêşniyara te piştî kontrolên otomatîk, dema {1} bikarhêner bipejirînin tê zêdekirin. Pêşniyarên ragihandî diçin cem moderator.
+137	Ji bo hilbijartina cih li nexşeyê bitikîne
+138	Betal bike
+139	Pêşniyara te nehat şandin:
+140	Divê nav {1} heta {2} tîp be.
+141	Ravekirin herî kêm {1} tîp hewce dike; bi çend peyvan bibêje li wir çi heye.
+142	Girêdan nayên qebûlkirin.
+143	Tîpên dubarekirî an hemû tîpên mezin bi kar neyne.
+144	Gotinên nebaş tê de hene.
+145	Cih li ser nexşeyê nîşan bike.
+146	Cihê hilbijartî li derveyî Tirkiyeyê ye.
+147	Ev cih berê heye an pir nêzîkî vî cihî ye: {1}.
+148	Wekî delîl wêneyekî ku te li wir kişandiye zêde bike.
+149	Piştrast bike ku tu bi xwe çûyî wî cihî.
+150	Tu dikarî rojê herî zêde {1} cihan pêşniyar bikî.
+165	Herêma Marmarayê
+166	Herêma Egeyê
+167	Herêma Deryaya Spî
+168	Herêma Anatoliya Navîn
+169	Herêma Deryaya Reş
+170	Herêma Anatoliya Rojhilat
+171	Herêma Anatoliya Başûrê Rojhilat
+172	Gerokê nû
+173	Gerok
+174	Gerokê bi tecrûbe
+175	Rêberê pêbawer
+176	Profîla min
+177	Têkeve an tomar bibe
+178	Ji bo berdewamiyê têkeve an tomar bibe.
+179	Hesabê te
+180	Têkeve
+181	Tomar bibe
+182	Navê te
+183	E-name
+184	Şîfre
+185	Herî kêm 8 tîp
+186	Hesabê demoyê biceribîne
+188	Navnîşaneke e-nameyê ya derbasdar binivîse.
+189	Divê şîfre herî kêm 8 tîp be.
+190	Divê navê te 2 heta 30 tîp be.
+191	Ev nav nayê bikaranîn.
+192	Bi vê e-nameyê hesabek heye. Têketinê biceribîne.
+193	E-name an şîfre şaş e.
+194	Hesab hate afirandin, bi xêr hatî {1}
+195	Dîsa bi xêr hatî {1}
+196	Bi hesabê demoyê ketî hundir
+197	Derketî
+198	Derkeve
+199	Ez çûm ({1})
+200	Hezkirî ({1})
+201	Şîroveyên min ({1})
+202	Pêşniyarên min ({1})
+203	Cihên ku tu çûyî bi bişkoka “Tu çûyî?” ya li ser karta cih nîşan bike.
+204	Cihên ku tu jê hez dikî bi bişkoka “Hezkirî” tomar bike.
+205	Te hîn şîrove nenivîsandiye.
+206	Tu dikarî cihê kêm bi “Cihekî pêşniyar bike” zêde bikî.
+207	Ji {1} vir ve endam
+208	Asta gerokiyê
+209	{1} xal
+210	Asta paşîn:
+211	Tu li asta herî bilind î.
+212	Xal: cihê serdankirî 1, şîrove 3, pêşniyara pejirandî 10. Pejirandina rêberekî pêbawer wekî 2 deng tê hesibandin.
+213	Hesabê jê bibe
+214	Hesab û hemû daneyên wê di vê gerokê de jê bibe?
+215	Erê, jê bibe
+216	Hesabê te hate jêbirin
+219	Rêbera Gerê ya Tirkiyeyê
+220	Li seranserê Tirkiyeyê cihên ku bên dîtin keşf bike, cihên ku tu çûyî nîşan bike û ezmûn û wêneyên xwe parve bike.
+221	Ji bo bikaranîna sepanê hesabekî belaş biafirîne an têkeve.
+222	Cih
+223	Pêşangeha wêneyan
+224	Wêneyên herî hezkirî
+225	Wêneyên herî xweş ên ku gerokan kişandine. Dilekî li wêneyên ku tu jê hez dikî bihêle.
+226	Herî hezkirî
+227	Herî nû
+228	Wênekêşên herî hezkirî
+229	{1} ecibandin
+230	Here cih
+231	Wêneyê biecibîne
+232	Te wêne eciband
+234	Wêne
+249	Ji bo piştrastkirina hesabê te me girêdanek şand e-nameya te. Piştî ku te lê tikand, têkeve.
+250	E-nameya te hîn nehatiye piştrastkirin. Qutiya xwe ya e-nameyê kontrol bike.
+251	Niha tenê wêne dikarin werin barkirin.
+252	Wêne herî zêde dikarin 5 MB bin.
+253	Tiştek xelet çû, ji kerema xwe dîsa biceribîne.
+254	Tu nikarî pêşniyara xwe bipejirînî.
+256	Menûya hesabê
+257	Mîhengên hesabê
+258	Piştgiriya me bike
+259	Rêbera Gerê ya Tirkiyeyê projeyeke serbixwe û belaş e. Piştgiriya te ji bo server, karûbarên nexşeyê û taybetmendiyên nû alîkar e.
+260	Yek carî
+261	Mehane
+262	Mîqdar
+263	Mîqdareke din
+264	Mîqdarê binivîse
+265	Bi {1} ₺ piştgirî bide
+266	Mîqdarekê hilbijêre
+267	Dayîn li ser rûpeleke ewle tê qedandin; ev sepan qet agahiyên kartê naxwaze.
+268	Piştgiriya te diçe ku derê?
+269	Server û danegeh
+270	Karûbarê nexşe û satelîtê
+271	Taybetmendiyên nû û pêşxistin
+272	Rûpela dayînê di tabeke nû de vedibe
+274	Bi karta krediyê an bankê bide
+275	Agahiyên kartê li ser rûpela dayînê dinivîsî
+276	Şêwaz û qatên nexşeyê
+277	Şêwaza nexşeyê
+278	Standard
+279	Tarî
+280	Sade
+281	Qat
+282	Sînorên parêzgehan
+283	Navên cihan
+284	Gol
+285	Vegere hemû Tirkiyeyê
+286	Dîrok û çand
+287	Derya û perav
+288	Bajar û bajarok
+289	Mizgeft û tirb
+290	Dêr û keşîşxane
+291	Bajarên antîk û kavil
+292	Keleh û sûr
+293	Qesr û koşk
+294	Mûze
+295	Abîde
+296	Park û parkên neteweyî
+297	Gol
+298	Sûlav
+299	Kanyon û newal
+300	Çiya û zozan
+301	Şikeft û obruk
+302	Ecêbên xwezayî
+303	Germav
+304	Plaj û koy
+305	Girav
+306	Bajarokên peravê
+307	Bazar û çarşî
+308	Taxên dîrokî
+309	Bajarok û gund
+310	Meydan û kolan
+311	Cihên temaşeyê
+312	Birc
+313	Wêneyê profîlê biguherîne
+314	Wêneyê profîlê zêde bike
+315	Wêne biguherîne
+316	Wêneyê profîla te hate nûkirin
+317	Wêneyê profîla te hate rakirin
+318	Wêneyekî JPG, PNG an WEBP hilbijêre.
+319	Wêne herî zêde dikarin 15 MB bin.
+320	Ev wêne venebû.
+321	Gelek hewldan. Ji kerema xwe paşê dîsa biceribîne.
+322	Girêdan çênebû. Înterneta xwe kontrol bike û dîsa biceribîne.
+323	Satelît
+324	Herî nêzîkî min
+325	Cihê min
+326	Rê tê hesibandin…
+327	Rê nehat dîtin.
+328	Rêtarîfa gav bi gav
+329	Navîgasyonê dest pê bike
+330	Rêberiya dengî di Google Maps de vedibe.
+331	Rêtarîfa di nav sepanê de pir nêzîk e. Niha tu dikarî bi Google Maps berdewam bikî.
+332	{1} deq
+333	{1} st {2} deq
+334	Ez niha li vir im
+335	Erebe
+336	Peyatî
+337	Bîsîklet
+338	Veguhestina giştî
+339	ji te
+340	Ev gerok taybetmendiya cih piştgirî nake.
+341	Destûra cih nehat dayîn. Tu dikarî ji mîhengên malperê yên gerokê destûr bidî.
+342	Cihê te nehat dîtin. Piştrast bike ku karûbarên cih vekirî ne.
+343	Derbas bike
+344	Berdewam bike
+345	Em dest pê bikin
+346	Bêyî hilbijartinê berdewam bike
+347	Bi xêr hatî!
+348	Tu dixwazî bi kîjan zimanî sepanê bi kar bînî?
+349	Tu ji çi hez dikî?
+350	Em ê cihên ku li te tên derxin pêş. Tu dikarî ji yekê zêdetir hilbijêrî.
+351	Tu dikarî vê paşê ji menûya hesabê, beşa “Eleqeyên min” biguherînî.
+352	Eleqeyên min
+353	Eleqeyên te hatin tomarkirin
+354	Hilbijartinên te di kategoriya “Ji bo te” de xuya dibin.
+355	Tomar bike
+356	Wênekişandin
+357	Hesabê min
+358	Tiştek nehat hilbijartin
+359	Ji bo te
+360	Paşve
+361	10 ecêbên xwezayî bibîne
+362	Li 10 parêzgehên cuda cihan bibîne
+363	10 wêneyan parve bike
+364	10 cihan bibîne
+365	10 şîroveyan binivîse
+366	Gerokê 10 Parêzgehan
+367	100 cihan bibîne
+368	3 sûlavan bibîne
+369	5 bajarên antîk û kavilan bibîne
+370	5 mizgeft, dêr an keşîşxaneyan bibîne
+371	5 kelehan bibîne
+372	5 plaj, girav an bajarokên peravê bibîne
+373	50 cihan bibîne
+374	Keşifkarê Deryaya Spî
+375	Li herêma Deryaya Spî 10 cihan bibîne
+376	Tiştê di hişê te de binivîse…
+377	Gerokê Antîk
+378	Paqij bike
+379	Dakeve jêr
+380	Tu dikarî ji yekê zêdetir hilbijêrî. Em bajarên ku herî zêde û baştirîn cihên wî cureyî hene rêz dikin.
+381	Biqedîne
+382	Ev agahî tenê ji bo xebitandina sepanê tên bikaranîn: naskirina hesabê te, nîşandana parvekirinên te ji gerokên din re û pêşxistina sepanê. Em reklaman nîşan nadin û daneyên te ji kesî re nafiroşin.
+383	Ev beş tenê ji bo moderatoran e.
+384	Li vê parêzgehê niha tenê {1} cih hene; plan li gorî wê hate kurtkirin.
+385	Ev naverok êdî tune.
+386	Cihekî bi vî cureyî nehat dîtin.
+387	Îro
+388	Te îro gelek peyam şandin. Tu dikarî sibê dîsa biceribînî.
+389	Te îro gelek ragihandin kirin. Tu dikarî sibê dîsa biceribînî.
+390	Ewrayî
+391	Evîndarê Deryayê
+392	Bi berdewamkirinê tu siyaseta nepeniyê qebûl dikî.
+393	Din
+394	Keşifkarê Xwezayê
+395	Keşifkarê Anatoliya Rojhilat
+396	Li Anatoliya Rojhilat 10 cihan bibîne
+397	Rawestgeh li gorî rêza herî kurt hatin rêzkirin
+398	Gerokê Efsanewî
+399	Keşifkarê Egeyê
+400	Li herêma Egeyê 10 cihan bibîne
+401	Wênekêş
+402	Wêneyê ragihîne
+403	Nêrîn
+404	Ruhê Gerokiyê
+405	Lîsteya min a gerê
+406	Li lîsteya gerê zêde bike
+407	Lîsteya te ya gerê vala ye
+408	Lîsteya te ya gerê tije ye (herî zêde {1} cih).
+409	Lîsteya gerê hate paqijkirin
+410	Di lîsteya te ya gerê de
+411	Ji lîsteya gerê hate rakirin
+412	Li lîsteya gerê hate zêdekirin
+413	Plana gerê
+414	Veşartî
+415	Veşartî; moderatorek lê dinêre.
+416	Nepenî û parastina daneyan
+417	Di Google Maps de veke
+418	Bahoza birûskê
+419	Yên ku min şandin
+420	Nêrîn
+421	Nêrîn bişîne
+422	Li Anatoliya Başûrê Rojhilat 10 cihan bibîne
+423	Keşifkarê Başûrê Rojhilat
+424	Heqaret an gotina nefretê
+425	Mafên te (KVKK)
+426	Em kîjan agahiyan berhev dikin?
+427	Li her parêzgeha li ser nexşeyê herî kêm cihekî bibîne
+428	Ragihandina xeletiyê
+429	Rewşa hewayê
+430	Rewşa hewayê niha nayê wergirtin.
+431	Tu gihîştî: {1}
+432	Hîn nêrîn tune
+433	Nav û navnîşana e-nameyê ya ku di tomarbûnê de didî; wêneyê profîlê yê vebijarkî; şîroveyên ku dinivîsî, wêneyên ku bar dikî, pêşniyarên cihan, cihên ku çûyî û hez dikî, û nêrîn û ragihandinên ku dişînî.
+434	Nêçîrvanê Kelehan
+435	Keşifkarê Deryaya Reş
+436	Li herêma Deryaya Reş 10 cihan bibîne
+437	Berf
+438	Çavkanî: Open-Meteo
+439	Hate qezenckirin
+440	Tu nikarî parvekirina xwe ragihînî.
+441	Gera te xweş be!
+442	Kî dikare bibîne?
+443	Mijar
+444	Nêzîkî cihê min be
+445	Cihê te nehat dîtin, ji ber vê rê ji rawestgeha yekem dest pê dike.
+446	Cihê te tenê li ser cîhaza te tê bikaranîn: ji bo rêzkirina cihên nêzîk, nîşandana dûrahiyan û rêtarîfê. Dîroka cihê te nayê tomarkirin. Dema tu rêtarîfê dixwazî, xala destpêkê û armancê tenê ji bo hesabkirina rê ji OpenRouteService re tên şandin.
+447	Bi xeta rast bi giştî {1}
+448	Ji lîsteyê rake
+449	Ji kerema xwe bi çend peyvan rave bike.
+450	Keşifkarê Marmarayê
+451	Li herêma Marmarayê 10 cihan bibîne
+452	Peyama te
+453	Peyama te gihîşt me. Spas!
+454	Bi peyama te re tenê hesabê te û guhertoya sepanê tên tomarkirin.
+455	Panela moderatoran
+456	Ji bo navîgasyonê destûra cih pêwîst e.
+457	Tu dixwazî çi bibînî?
+458	Em ji bo çi bi kar tînin?
+459	Çi qewimî? Li kîjan ekranê, dema tu çi dikir? Heke gengaz be gav bi gav binivîse.
+460	Li ku tê hilanîn?
+461	Ez herim ku derê?
+462	Tu dixwazî çi ragihînî?
+463	Hate xwendin
+464	Wekî xwendî nîşan bike
+465	Wekî nexwendî nîşan bike
+466	Navend bike
+467	Hinek ewrayî
+468	Plan cihan li gorî nêzîkahiya wan rêz dike. Berî çûnê demên vebûnê kontrol bike.
+469	Rê ji cihê te dest pê dike û bi vê rêzê di rawestgehan re derbas dibe. Tu dikarî navîgasyona dengî ji ekrana rê dest pê bikî.
+470	Rê ji nû ve tê hesibandin
+471	Rê ji nû ve tê hesibandin…
+472	Rê nîşan bide
+473	Nîşan
+474	Bajarên ku em ji te re pêşniyar dikin
+475	Deng veke
+476	Deng bigire
+477	Navîgasyona zindî ya bi rêberiya dengî di nav sepanê de vedibe.
+478	Jê bibe
+479	Mij
+480	Nûkirina dawî: {1}
+481	Paşê
+482	Ji bo pirs û daxwazan, ji beşa “Nêrîn bişîne” ya sepanê ji me re binivîse.
+483	Pirsgirêk tune, nîşan bide
+484	Spam an reklam
+485	Guherto {1}
+486	Rêza herî kurt
+487	Paqij bike
+488	Li vir em bi zimanekî sade rave dikin ka agahiyên te dema tu Rêbera Gerê ya Tirkiyeyê bi kar tînî çawa tên şixulandin.
+489	Gera Tirkiyeyê
+490	Gerokê bi Tecrûbe
+491	Tu çiqas ji sepanê razî yî? (vebijarkî)
+492	Em sepanê bi hev re pêş dixin. Her raman, xeletî û nêrîna xwe binivîse; em hemûyan dixwînin.
+493	Naveroka neguncav
+494	Gihîştin {1}
+495	Dane li ser binesaziya Supabase tên hilanîn û bi girêdana şîfrekirî tên veguhestin. Nexşe ji OpenFreeMap, rewşa hewayê ji Open-Meteo tê; navê te an e-nameya te ji van karûbaran re nayê şandin.
+496	Bajarên nêzîk pêşî tên.
+497	Agahiya şaş an xapînok
+498	Bersiv
+499	Bersivê ragihîne
+500	Baran
+501	Nîşana nû hate qezenckirin: {1}
+502	Guhertoya nû amade ye
+503	{1}, bi taybetmendî û sererastkirinên nû, ji bo daxistinê amade ye. Tenê daxe û saz bike; hesab û daneyên te diparêzin.
+504	Cihên ku dixwazî bibînî bi bişkoka “Li lîsteya gerê zêde bike” ya li ser kartên cihan li vir kom bike; sepan wan dike yek rê.
+505	Şîrove
+506	Şîrovekar
+507	Şîroveyê ragihîne
+508	Derkeve jor
+509	û {1} cihên din
+510	{1} rawestgeh
+511	Tu gihîştî {1}
+512	{1} roj
+513	Hemû cihên li {1} ({2})
+514	{1} km dûr
+515	Piştî {1}
+516	{1} cihên guncav
+517	{1} ragihandin
+518	Roja {1}
+519	Baraneya hûr
+520	Pêşî ji jor herî kêm cureyekî hilbijêre
+521	Pêşniyar
+522	5 cihên navdar ên bi nîşana taybet bibîne
+523	Berhevkarê Cihên Navdar
+524	~{1} km ji rawestgeha berê
+525	Hate gihandin
+526	Têkilî
+527	Li gorî eleqeyên te bajar û plana gerê
+528	Gava Yekem
+529	Cihê xwe yê yekem wekî “Ez çûm” nîşan bike
+530	Zîyaretvan
+531	Keşifkarê Anatoliya Navîn
+532	Li Anatoliya Navîn 10 cihan bibîne
+533	Naverok hate jêbirin
+534	Naverok dîsa tê nîşandan
+535	Nêçîrvanê Sûlavan
+536	Naveroka ragihandî tune
+537	Ragihîne
+538	Ragihandina te hate wergirtin. Spas!
+539	Ragihandin
+540	Ragihandin veşartî dimînin. Heke sê kesên cuda ragihînin, naverok bixweber tê veşartin û moderator lê dinêre.
+541	Niha daxe
+542	{1} cih li lîsteya gerê hatin zêdekirin
+543	Ev cih berê di lîsteya te ya gerê de ne
+544	Girêdan hate kopîkirin
+545	Girêdanê kopî bike
+546	Ev taybetmendî li ser malpera weşandî dixebite.
+547	Lîsteyê paqij bike
+548	Ji bo rê herî kêm du xal pêwîst in. Destûra cih bide an cihekî din zêde bike.
+549	Navîgasyona zindî ya bi rêberiya dengî rasterast li ser malperê vedibe.
+550	Tê barkirin…
+551	Rê
+552	Li gorî Qanûna Parastina Daneyên Kesane ya Tirkiyeyê bi hejmara 6698 (KVKK), mafê te heye ku bigihîjî daneyên xwe û sererastkirin an jêbirina wan bixwazî. Tu dikarî her dem bi bişkoka “Hesabê jê bibe” ya li rûpela Profîlê hesabê xwe bi temamî jê bibî; şîrove, wêne û hemû tomarên te bi hev re tên jêbirin.
+553	Navê te, wêneyê profîlê, şîrove û wêneyên te gelemperî ne. Navnîşana e-nameya te û cihên ku tu çûyî û hez dikî tenê ji te re xuya ne. Nêrîn û ragihandinên te tenê tu û moderator dibînin.
+554	Rê ji cihê te dest pê dike û bi vê rêzê di rawestgehan re derbas dibe.
+555	Lêgerînê paqij bike
+556	Mîheng
+557	Ecibandinê rake
+558	Li cihekî bitikîne
+559	Dema tu li ser karta cihekî şîrove dinivîsî wêneyekî zêde bike; yên herî hezkirî li vir tên nîşandan.
+560	Ev wêne êdî tune.
+561	Vî cihî bi kar bîne
+562	Ev cih nehat dîtin.
+563	Te ev berê kiriye.
+564	Li vir çi tê dîtin, çima here?
+565	Biguherîne
+566	Gerokên din vî navî dibînin
+567	Kêrhatî
+568	Wêne bikişîne
+569	Wêneyê mezin bike
+570	Ji galeriyê hilbijêre
+571	Cihên ku bên dîtin keşf bike, cihên ku tu çûyî nîşan bike û ezmûnên xwe parve bike.
+572	Nexşe
+573	Hîn wêne tune
+574	Te hîn cih pêşniyar nekiriye.
+575	Hesabê te jê bibe?
+576	Hesabê te li ser malperê jî derbasdar e.
+577	Hesab, şîrove, wêne û pêşniyarên te dê bi temamî werin jêbirin. Ev nayê vegerandin.
+578	Hesab biafirîne
+579	Wêneyê delîlê
+580	Kategoriyekê hilbijêre
+581	Kategoriyekê hilbijêre.
+582	Keşf bike
+583	Cih nîşan bike
+584	Moderator
+585	Te çi dît, tu çi pêşniyar dikî?
+586	Dengê te hate tomarkirin
+587	Profîl
+588	Cihê hilbijartî
+589	Encam tune.
+590	Cihekî kêm zêde bike
+591	Pêşangeh
+592	Nêzîk bike û rast li ser cih bitikîne.
+593	Bersivekê binivîse…
+594	Dîsa biceribîne
+595	Navê cih
+596	Cih bibîne
+597	Li cihan binêre
+598	Şîroveya te
+599	Nirxa stêrkan û şîrove an wêne pêwîst e.
+600	niha
+601	{1} deq berê
+602	{1} meh berê
+603	{1} sal berê
+604	{1} wêne
+605	Pêşniyaran piştrast bike
+606	Pêşniyarê bişîne
+607	mînak: Sûlava Tortumê
+608	Parêzgehekê hilbijêre
+609	Parêzgehekê hilbijêre.
+610	Niha pêşniyara li bendê tune.
+611	Rûpela dayînê vedibe
+612	Rûpela dayînê bi kartê dê pir nêzîk li vir veke.
+613	Destûra cih nehat dayîn. Tu dikarî ji mîhengên telefona xwe destûr bidî.
+614	Destûra kamerayê nehat dayîn. Tu dikarî ji mîhengên telefona xwe destûr bidî.
+615	Cihê te nehat dîtin. Piştrast bike ku karûbarên cih vekirî ne.
+616	{1} ji te

@@ -1,0 +1,588 @@
+@@uk
+places|Що подивитися
+nplaces|Місць: {1}
+suggest|Запропонувати місце
+pending_n|На перевірці ({1})
+pending|На перевірці
+sortby|Сортування
+s_visits|Найвідвідуваніші
+s_favs|Найулюбленіші
+s_rating|Найкращий рейтинг
+s_reviews|Найбільше відгуків
+all|Усі
+c_tarih|Історичне місце
+c_muze|Музей і палац
+c_carsi|Місто і базар
+c_manzara|Оглядовий майданчик
+c_doga|Природа
+c_deniz|Море
+sample_note|Оцінки, відгуки, відвідування й обране — демонстраційні дані.
+allplaces|Усі місця
+allturkey|Уся Туреччина
+r_marmara|Мармуровоморський
+r_ege|Егейський
+r_akdeniz|Середземноморський
+r_ic|Центральна Анатолія
+r_karadeniz|Чорноморський
+r_dogu|Східна Анатолія
+r_gd|Південно-Східна Анатолія
+rg_marmara|Мармуровоморський регіон
+rg_ege|Егейський регіон
+rg_akdeniz|Середземноморський регіон
+rg_ic|Центральна Анатолія
+rg_karadeniz|Чорноморський регіон
+rg_dogu|Східна Анатолія
+rg_gd|Південно-Східна Анатолія
+mapdata|Картографічні дані: Natural Earth
+search|Пошук місць
+zin|Наблизити
+zout|Віддалити
+close|Закрити
+nrev|Відгуків: {1}
+nrevp|(відгуків: {1})
+nvisit|Відвідали: {1}
+nfav|В обраному: {1}
+new|Нове
+noresult|Немає місць за цим запитом або фільтром.
+beenq|Були тут?
+been|Був(ла) тут
+fav|В обране
+faved|В обраному
+dir|Маршрут
+write|Написати відгук
+addphoto|Додати фото
+overview|Огляд
+reviews|Відгуки
+photos|Фото
+photos_n|Фото ({1})
+location|Розташування
+getting|Як дістатися
+norating|Ще немає оцінок
+hours|Години роботи й ціни можуть змінюватися; перевірте офіційне джерело перед поїздкою.
+outof|{1} з 5
+sample|Приклад
+samplephoto|Приклад фото
+samplevideo|Приклад відео
+daysago|{1} дн. тому
+dayago|1 день тому
+weeksago|{1} тиж. тому
+weekago|1 тиждень тому
+hoursago|{1} год. тому
+now|Щойно
+like|Подобається
+replies|Відповіді
+replyw|Написати відповідь
+send|Надіслати
+norev|Для цього місця ще немає відгуків
+nophoto|Ще немає фото чи відео
+share|Поділіться враженнями
+yourrating|Ваша оцінка
+yourexp|Ваші враження
+nstars|Зірок: {1}
+addmedia|Додати фото або відео
+remove|Видалити
+post|Опублікувати
+posted|Відгук опубліковано
+addedvisited|Додано до відвіданих місць
+addedfav|Додано в обране
+suggested|Запропоновані місця
+howver|Як проходить перевірка?
+st_wait|Чекає на спільноту
+st_mod|Є скарги, у модератора
+st_ok|Схвалено, на карті
+st_no|Відхилено
+napprove|{1}/{2} схвалень
+showmap|Показати на карті
+real|Місце справжнє
+wrong|Неправильно / недоречно
+newplace|Запропонувати нове місце
+pname|Назва місця
+markmap|Позначити на карті
+chloc|Змінити місце
+province|Провінція
+category|Категорія
+shortdesc|Короткий опис
+proof|Додати фото-підтвердження (зняте на місці)
+visited_me|Я особисто бував(ла) тут
+submit|Надіслати на перевірку
+tapmap|Торкніться карти, щоб вибрати місце
+cancel|Скасувати
+underreview|Вашу пропозицію перевіряють
+welcome_t|Путівник Туреччиною
+welcome_s|Відкривайте цікаві місця по всій Туреччині, позначайте, де ви були, і діліться враженнями та фото.
+welcome_n|Щоб користуватися застосунком, створіть безкоштовний акаунт або увійдіть.
+login|Увійти
+signup|Зареєструватися
+yourname|Ваше ім’я
+email|Ел. пошта
+password|Пароль
+min8|Щонайменше 8 символів
+demo|Спробувати демо-акаунт
+bademail|Введіть дійсну адресу пошти.
+shortpw|Пароль має містити щонайменше 8 символів.
+exists|Акаунт із цією поштою вже існує. Спробуйте увійти.
+wrongpw|Неправильна пошта або пароль.
+created|Акаунт створено, ласкаво просимо, {1}
+wb|З поверненням, {1}
+logout|Вийти
+loggedout|Ви вийшли
+myprofile|Мій профіль
+loginsignup|Увійти або зареєструватися
+p_been|Відвідані ({1})
+p_fav|Обране ({1})
+p_rev|Мої відгуки ({1})
+p_sug|Мої пропозиції ({1})
+member|Учасник з {1}
+level|Рівень мандрівника
+npoints|Балів: {1}
+nextlevel|Наступний рівень:
+l0|Новачок
+l1|Мандрівник
+l2|Досвідчений мандрівник
+l3|Надійний гід
+delacct|Видалити акаунт
+yesdel|Так, видалити
+lang|Мова
+region|Регіон
+mapof|Карта Туреччини
+@@bg
+places|Места за посещение
+nplaces|{1} места
+suggest|Предложи място
+pending_n|Чакащи ({1})
+pending|Чакащи
+sortby|Подреди по
+s_visits|Най-посещавани
+s_favs|Най-любими
+s_rating|Най-висока оценка
+s_reviews|Най-много отзиви
+all|Всички
+c_tarih|Историческо място
+c_muze|Музей и дворец
+c_carsi|Град и базар
+c_manzara|Гледка
+c_doga|Природа
+c_deniz|Море
+sample_note|Оценките, отзивите, посещенията и любимите са примерни данни.
+allplaces|Всички места
+allturkey|Цяла Турция
+r_marmara|Мраморно море
+r_ege|Егейски регион
+r_akdeniz|Средиземноморие
+r_ic|Централна Анатолия
+r_karadeniz|Черноморие
+r_dogu|Източна Анатолия
+r_gd|Югоизточна Анатолия
+rg_marmara|Мраморноморски регион
+rg_ege|Егейски регион
+rg_akdeniz|Средиземноморски регион
+rg_ic|Централна Анатолия
+rg_karadeniz|Черноморски регион
+rg_dogu|Източна Анатолия
+rg_gd|Югоизточна Анатолия
+mapdata|Картни данни: Natural Earth
+search|Търси места
+zin|Приближи
+zout|Отдалечи
+close|Затвори
+nrev|{1} отзива
+nrevp|({1} отзива)
+nvisit|{1} посетители
+nfav|{1} любими
+new|Ново
+noresult|Няма места, отговарящи на търсенето или филтъра.
+beenq|Бил ли си тук?
+been|Бил съм тук
+fav|Любимо
+faved|В любими
+dir|Упътване
+write|Напиши отзив
+addphoto|Добави снимка
+overview|Общ преглед
+reviews|Отзиви
+photos|Снимки
+photos_n|Снимки ({1})
+location|Местоположение
+getting|Как да стигнеш
+norating|Все още няма оценки
+hours|Работното време и цените може да се променят; провери официалния източник, преди да тръгнеш.
+outof|{1} от 5
+sample|Пример
+samplephoto|Примерна снимка
+samplevideo|Примерно видео
+daysago|преди {1} дни
+dayago|преди 1 ден
+weeksago|преди {1} седмици
+weekago|преди 1 седмица
+hoursago|преди {1} часа
+now|Току-що
+like|Харесвам
+replies|Отговори
+replyw|Напиши отговор
+send|Изпрати
+norev|Няма отзиви за това място
+nophoto|Все още няма снимки или видео
+share|Сподели преживяването си
+yourrating|Твоята оценка
+yourexp|Твоето преживяване
+nstars|{1} звезди
+addmedia|Добави снимка или видео
+remove|Премахни
+post|Публикувай
+posted|Отзивът е публикуван
+addedvisited|Добавено към посетените места
+addedfav|Добавено към любими
+suggested|Предложени места
+howver|Как се проверява?
+st_wait|Чака общността
+st_mod|Докладвано, при модератор
+st_ok|Одобрено, на картата
+st_no|Отхвърлено
+napprove|{1}/{2} одобрения
+showmap|Покажи на картата
+real|Мястото е истинско
+wrong|Грешно / неподходящо
+newplace|Предложи ново място
+pname|Име на мястото
+markmap|Отбележи на картата
+chloc|Промени мястото
+province|Провинция
+category|Категория
+shortdesc|Кратко описание
+proof|Добави снимка-доказателство (направена там)
+visited_me|Лично съм посетил това място
+submit|Изпрати за проверка
+tapmap|Докосни картата, за да избереш мястото
+cancel|Отказ
+underreview|Предложението ти се проверява
+welcome_t|Пътеводител за Турция
+welcome_s|Открий места за посещение в цяла Турция, отбележи къде си бил и сподели преживявания и снимки.
+welcome_n|Създай безплатен профил или влез, за да използваш приложението.
+login|Вход
+signup|Регистрация
+yourname|Твоето име
+email|Имейл
+password|Парола
+min8|Поне 8 знака
+demo|Пробвай демо профила
+bademail|Въведи валиден имейл адрес.
+shortpw|Паролата трябва да е поне 8 знака.
+exists|Вече има профил с този имейл. Опитай да влезеш.
+wrongpw|Грешен имейл или парола.
+created|Профилът е създаден, добре дошъл {1}
+wb|Добре дошъл отново {1}
+logout|Изход
+loggedout|Излезе от профила
+myprofile|Моят профил
+loginsignup|Вход или регистрация
+p_been|Посетени ({1})
+p_fav|Любими ({1})
+p_rev|Моите отзиви ({1})
+p_sug|Моите предложения ({1})
+member|Член от {1}
+level|Ниво на пътешественик
+npoints|{1} точки
+nextlevel|Следващо ниво:
+l0|Нов пътешественик
+l1|Пътешественик
+l2|Опитен пътешественик
+l3|Доверен гид
+delacct|Изтрий профила
+yesdel|Да, изтрий
+lang|Език
+region|Регион
+mapof|Карта на Турция
+@@az
+places|Gəziləsi yerlər
+nplaces|{1} yer
+suggest|Yer təklif et
+pending_n|Təsdiq gözləyənlər ({1})
+pending|Təsdiq gözləyənlər
+sortby|Sırala
+s_visits|Ən çox gedilən
+s_favs|Ən sevimli
+s_rating|Ən yüksək bal
+s_reviews|Ən çox rəy
+all|Hamısı
+c_tarih|Tarixi abidə
+c_muze|Muzey və saray
+c_carsi|Şəhər və bazar
+c_manzara|Mənzərə
+c_doga|Təbiət
+c_deniz|Dəniz
+sample_note|Bal, rəy, gediş və sevimli sayları nümunə məlumatdır.
+allplaces|Bütün yerlər
+allturkey|Bütün Türkiyə
+r_marmara|Mərmərə
+r_ege|Egey
+r_akdeniz|Aralıq dənizi
+r_ic|Mərkəzi Anadolu
+r_karadeniz|Qara dəniz
+r_dogu|Şərqi Anadolu
+r_gd|Cənub-Şərqi Anadolu
+rg_marmara|Mərmərə bölgəsi
+rg_ege|Egey bölgəsi
+rg_akdeniz|Aralıq dənizi bölgəsi
+rg_ic|Mərkəzi Anadolu bölgəsi
+rg_karadeniz|Qara dəniz bölgəsi
+rg_dogu|Şərqi Anadolu bölgəsi
+rg_gd|Cənub-Şərqi Anadolu bölgəsi
+mapdata|Xəritə məlumatı: Natural Earth
+search|Yer axtar
+zin|Yaxınlaşdır
+zout|Uzaqlaşdır
+close|Bağla
+nrev|{1} rəy
+nrevp|({1} rəy)
+nvisit|{1} nəfər gedib
+nfav|{1} sevimli
+new|Yeni
+noresult|Bu axtarışa və ya filtrə uyğun yer yoxdur.
+beenq|Getmisən?
+been|Getmişəm
+fav|Sevimli
+faved|Sevimlilərdə
+dir|Marşrut
+write|Rəy yaz
+addphoto|Foto əlavə et
+overview|Ümumi baxış
+reviews|Rəylər
+photos|Fotolar
+photos_n|Fotolar ({1})
+location|Məkan
+getting|Necə getmək olar
+norating|Hələ bal yoxdur
+hours|İş saatları və giriş qiymətləri dəyişə bilər; getməzdən əvvəl rəsmi mənbəyə baxın.
+outof|5 üzərindən {1} bal
+sample|Nümunə
+samplephoto|Nümunə foto
+samplevideo|Nümunə video
+daysago|{1} gün əvvəl
+dayago|1 gün əvvəl
+weeksago|{1} həftə əvvəl
+weekago|1 həftə əvvəl
+hoursago|{1} saat əvvəl
+now|İndicə
+like|Bəyən
+replies|Cavablar
+replyw|Cavab yaz
+send|Göndər
+norev|Bu yer üçün rəy yoxdur
+nophoto|Hələ foto və ya video yoxdur
+share|Təcrübəni paylaş
+yourrating|Balın
+yourexp|Təcrübən
+nstars|{1} ulduz
+addmedia|Foto və ya video əlavə et
+remove|Sil
+post|Paylaş
+posted|Rəyin paylaşıldı
+addedvisited|Getdiyin yerlərə əlavə olundu
+addedfav|Sevimlilərə əlavə olundu
+suggested|Təklif olunan yerlər
+howver|Necə yoxlanılır?
+st_wait|İcma təsdiqi gözlənilir
+st_mod|Şikayət var, moderatordadır
+st_ok|Təsdiqləndi, xəritədə
+st_no|Rədd edildi
+napprove|{1}/{2} təsdiq
+showmap|Xəritədə göstər
+real|Bu yer realdır
+wrong|Yanlış / uyğunsuz
+newplace|Yeni yer təklif et
+pname|Yerin adı
+markmap|Xəritədə işarələ
+chloc|Məkanı dəyiş
+province|Vilayət
+category|Kateqoriya
+shortdesc|Qısa təsvir
+proof|Sübut fotosu əlavə et (orada çəkdiyin)
+visited_me|Bu yeri özüm ziyarət etmişəm
+submit|Yoxlamaya göndər
+tapmap|Məkanı seçmək üçün xəritəyə toxun
+cancel|İmtina
+underreview|Təklifin yoxlanılır
+welcome_t|Türkiyə səyahət bələdçisi
+welcome_s|Bütün Türkiyədə gəziləsi yerləri kəşf et, getdiyin yerləri işarələ, təcrübəni və fotolarını paylaş.
+welcome_n|Tətbiqdən istifadə etmək üçün pulsuz hesab yarat və ya daxil ol.
+login|Daxil ol
+signup|Qeydiyyat
+yourname|Adın
+email|E-poçt
+password|Şifrə
+min8|Ən azı 8 simvol
+demo|Demo hesabı yoxla
+bademail|Düzgün e-poçt ünvanı yaz.
+shortpw|Şifrə ən azı 8 simvol olmalıdır.
+exists|Bu e-poçtla artıq hesab var. Daxil olmağa çalış.
+wrongpw|E-poçt və ya şifrə yanlışdır.
+created|Hesab yaradıldı, xoş gəldin {1}
+wb|Yenidən xoş gəldin {1}
+logout|Çıxış
+loggedout|Çıxış edildi
+myprofile|Profilim
+loginsignup|Daxil ol və ya qeydiyyatdan keç
+p_been|Getdiklərim ({1})
+p_fav|Sevimlilərim ({1})
+p_rev|Rəylərim ({1})
+p_sug|Təkliflərim ({1})
+member|Üzvlük: {1}
+level|Səyyah səviyyəsi
+npoints|{1} bal
+nextlevel|Növbəti səviyyə:
+l0|Yeni səyyah
+l1|Səyyah
+l2|Təcrübəli səyyah
+l3|Etibarlı bələdçi
+delacct|Hesabı sil
+yesdel|Bəli, sil
+lang|Dil
+region|Bölgə
+mapof|Türkiyə xəritəsi
+@@ar
+places|أماكن للزيارة
+nplaces|{1} مكانًا
+suggest|اقترح مكانًا
+pending_n|بانتظار الموافقة ({1})
+pending|بانتظار الموافقة
+sortby|ترتيب حسب
+s_visits|الأكثر زيارة
+s_favs|الأكثر تفضيلًا
+s_rating|الأعلى تقييمًا
+s_reviews|الأكثر مراجعات
+all|الكل
+c_tarih|موقع تاريخي
+c_muze|متحف وقصر
+c_carsi|مدينة وسوق
+c_manzara|إطلالة
+c_doga|طبيعة
+c_deniz|بحر
+sample_note|التقييمات والمراجعات والزيارات والمفضلة بيانات تجريبية.
+allplaces|كل الأماكن
+allturkey|كل تركيا
+r_marmara|مرمرة
+r_ege|بحر إيجة
+r_akdeniz|البحر المتوسط
+r_ic|وسط الأناضول
+r_karadeniz|البحر الأسود
+r_dogu|شرق الأناضول
+r_gd|جنوب شرق الأناضول
+rg_marmara|منطقة مرمرة
+rg_ege|منطقة بحر إيجة
+rg_akdeniz|منطقة البحر المتوسط
+rg_ic|منطقة وسط الأناضول
+rg_karadeniz|منطقة البحر الأسود
+rg_dogu|منطقة شرق الأناضول
+rg_gd|منطقة جنوب شرق الأناضول
+mapdata|بيانات الخريطة: Natural Earth
+search|ابحث عن مكان
+zin|تكبير
+zout|تصغير
+close|إغلاق
+nrev|{1} مراجعة
+nrevp|({1} مراجعة)
+nvisit|زاره {1}
+nfav|{1} في المفضلة
+new|جديد
+noresult|لا توجد أماكن تطابق البحث أو التصفية.
+beenq|هل زرته؟
+been|زرته
+fav|مفضلة
+faved|في المفضلة
+dir|الاتجاهات
+write|اكتب مراجعة
+addphoto|أضف صورة
+overview|نظرة عامة
+reviews|المراجعات
+photos|الصور
+photos_n|الصور ({1})
+location|الموقع
+getting|كيف تصل
+norating|لا توجد تقييمات بعد
+hours|قد تتغير مواعيد العمل وأسعار الدخول؛ تحقق من المصدر الرسمي قبل الذهاب.
+outof|{1} من 5
+sample|مثال
+samplephoto|صورة تجريبية
+samplevideo|فيديو تجريبي
+daysago|قبل {1} أيام
+dayago|قبل يوم واحد
+weeksago|قبل {1} أسابيع
+weekago|قبل أسبوع
+hoursago|قبل {1} ساعات
+now|الآن
+like|إعجاب
+replies|الردود
+replyw|اكتب ردًا
+send|إرسال
+norev|لا توجد مراجعات لهذا المكان
+nophoto|لا توجد صور أو فيديوهات بعد
+share|شارك تجربتك
+yourrating|تقييمك
+yourexp|تجربتك
+nstars|{1} نجوم
+addmedia|أضف صورة أو فيديو
+remove|إزالة
+post|نشر
+posted|تم نشر مراجعتك
+addedvisited|أضيف إلى الأماكن التي زرتها
+addedfav|أضيف إلى المفضلة
+suggested|أماكن مقترحة
+howver|كيف يتم التحقق؟
+st_wait|بانتظار موافقة المجتمع
+st_mod|تم الإبلاغ عنه، لدى المشرف
+st_ok|تمت الموافقة، على الخريطة
+st_no|مرفوض
+napprove|{1}/{2} موافقات
+showmap|اعرض على الخريطة
+real|هذا المكان حقيقي
+wrong|خاطئ / غير لائق
+newplace|اقترح مكانًا جديدًا
+pname|اسم المكان
+markmap|حدّد على الخريطة
+chloc|غيّر الموقع
+province|المحافظة
+category|الفئة
+shortdesc|وصف قصير
+proof|أضف صورة إثبات (التقطتها هناك)
+visited_me|زرت هذا المكان بنفسي
+submit|أرسل للمراجعة
+tapmap|المس الخريطة لاختيار الموقع
+cancel|إلغاء
+underreview|اقتراحك قيد المراجعة
+welcome_t|دليل السفر في تركيا
+welcome_s|اكتشف أماكن للزيارة في كل أنحاء تركيا، وحدّد الأماكن التي زرتها، وشارك تجاربك وصورك.
+welcome_n|أنشئ حسابًا مجانيًا أو سجّل الدخول لاستخدام التطبيق.
+login|تسجيل الدخول
+signup|إنشاء حساب
+yourname|اسمك
+email|البريد الإلكتروني
+password|كلمة المرور
+min8|8 أحرف على الأقل
+demo|جرّب الحساب التجريبي
+bademail|أدخل بريدًا إلكترونيًا صحيحًا.
+shortpw|يجب أن تتكون كلمة المرور من 8 أحرف على الأقل.
+exists|يوجد حساب بهذا البريد بالفعل. جرّب تسجيل الدخول.
+wrongpw|البريد الإلكتروني أو كلمة المرور غير صحيحة.
+created|تم إنشاء الحساب، أهلًا {1}
+wb|مرحبًا بعودتك {1}
+logout|تسجيل الخروج
+loggedout|تم تسجيل الخروج
+myprofile|ملفي الشخصي
+loginsignup|سجّل الدخول أو أنشئ حسابًا
+p_been|زرتها ({1})
+p_fav|المفضلة ({1})
+p_rev|مراجعاتي ({1})
+p_sug|اقتراحاتي ({1})
+member|عضو منذ {1}
+level|مستوى المسافر
+npoints|{1} نقطة
+nextlevel|المستوى التالي:
+l0|مسافر جديد
+l1|مسافر
+l2|مسافر متمرس
+l3|دليل موثوق
+delacct|حذف الحساب
+yesdel|نعم، احذف
+lang|اللغة
+region|المنطقة
+mapof|خريطة تركيا

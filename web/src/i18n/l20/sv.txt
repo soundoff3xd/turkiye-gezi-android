@@ -1,0 +1,576 @@
+0	Sevärdheter
+1	{1} platser
+2	Föreslå en plats
+3	Väntar på godkännande ({1})
+4	Väntar på godkännande
+5	Sortera
+6	Sortera och filtrera
+7	Mest besökta
+8	Mest gillade
+9	Högst betyg
+10	Flest recensioner
+11	Alla
+12	Historiska byggnader
+13	Museum och palats
+14	Stad och marknad
+15	Utsiktsplats
+16	Natur
+17	Hav
+19	Alla platser
+20	Hela Turkiet
+21	Marmara
+22	Egeiska
+23	Medelhavet
+24	Centralanatolien
+25	Svarta havet
+26	Östra Anatolien
+27	Sydöstra Anatolien
+28	Kartdata: Natural Earth
+29	Minimera panelen
+30	Maximera panelen
+31	Karta över Turkiet
+32	Platslista
+33	Sök platser
+34	Region
+35	Kategori
+36	Zooma in
+37	Zooma ut
+38	Stäng
+39	Språk
+40	{1} recensioner
+41	({1} recensioner)
+42	{1} besökare
+43	{1} gillanden
+44	Ny
+45	Tillagd av gemenskapen
+46	Inga platser matchar sökningen eller filtret.
+47	Har du varit här?
+48	Jag har varit här
+49	Favorit
+50	Bland favoriter
+51	Vägbeskrivning
+52	Skriv en recension
+53	Lägg till foto
+54	Översikt
+55	Recensioner
+56	Foton
+57	Foton ({1})
+58	Plats
+59	Hitta hit
+60	Inga betyg än
+61	Föreslagen av {1}, godkänd av gemenskapen
+62	Öppettider och biljettpriser ändras; kontrollera den officiella källan innan du åker.
+63	{1} av 5
+68	för {1} dagar sedan
+69	för 1 dag sedan
+70	för {1} veckor sedan
+71	för 1 vecka sedan
+72	för {1} timmar sedan
+73	Just nu
+74	Du
+75	Gilla
+76	Svara
+77	Skriv ett svar
+78	Skicka
+79	Inga recensioner för den här platsen än
+80	Har du varit här? Dela den första upplevelsen.
+81	Inga foton eller videor än
+82	Dela dina bilder så att framtida resenärer vet vad som väntar.
+83	Delat foto
+84	Valt foto
+85	Dela din upplevelse
+86	Ditt betyg
+87	Din upplevelse
+88	{1} stjärnor
+89	Lägg till foto eller video
+90	Ta bort
+91	Publicera
+92	Vad såg och gjorde du? Lämna ett tips till nästa besökare.
+93	Betyg och text eller media krävs. Inlägg är offentliga; dela inte personuppgifter eller andra människors ansikten.
+94	Din recension har publicerats
+95	Tillagd bland platser du besökt
+96	Tillagd bland favoriter
+97	Föreslagna platser
+98	Hur kontrolleras det?
+99	1. Automatiska kontroller: om platsen ligger i Turkiet, om den redan finns, om den innehåller kränkande ord eller länkar, om ett bevisfoto finns.
+100	2. Gemenskapens godkännande: när {1} användare bekräftar ”Den här platsen är verklig” läggs den till på kartan. Ingen kan godkänna sitt eget förslag.
+101	3. Moderator: ett förslag med {1} anmälningar om ”Felaktig eller olämplig” tas bort och skickas till en moderator.
+102	Alla kan föreslå {1} platser per dag.
+104	föreslagen av {1}, {2}
+105	Väntar på gemenskapens godkännande
+106	Anmäld, hos moderator
+107	Godkänd, på kartan
+108	Avvisad
+109	{1}/{2} godkännanden
+110	{1}/{2} godkännanden · {3} anmälningar
+111	Visa på kartan
+112	Den här platsen är verklig
+113	Felaktig / olämplig
+114	Moderator: godkänn
+115	Moderator: avvisa
+117	{1} har lagts till på kartan
+118	Förslaget har skickats till en moderator
+119	Anmälan mottagen
+120	Förslaget avvisades
+121	Ditt förslag granskas
+122	Föreslå en ny plats
+123	En plats du besökt som inte finns i appen än
+124	Platsens namn
+125	Till exempel: Tortumvattenfallet
+126	Markera på kartan
+127	Ändra position
+128	Ingen position vald än
+129	{1} (utanför Turkiet)
+130	Provins
+131	Kort beskrivning
+132	Vad kan man se där och varför åka dit?
+133	Lägg till bevisfoto (taget på plats)
+134	Jag har personligen besökt den här platsen
+135	Skicka för granskning
+136	Efter automatiska kontroller läggs ditt förslag till när {1} användare godkänner det. Anmälda förslag går till en moderator.
+137	Tryck på kartan för att välja position
+138	Avbryt
+139	Ditt förslag skickades inte:
+140	Namnet måste vara {1}–{2} tecken.
+141	Beskrivningen måste vara minst {1} tecken; berätta med några ord vad som finns att se.
+142	Länkar är inte tillåtna.
+143	Använd inte upprepade bokstäver eller bara versaler.
+144	Innehåller kränkande ord.
+145	Markera positionen på kartan.
+146	Den valda positionen ligger utanför Turkiet.
+147	Den här platsen finns redan eller är mycket nära: {1}.
+148	Lägg till ett foto du tagit på plats som bevis.
+149	Bekräfta att du personligen har besökt platsen.
+150	Du kan föreslå högst {1} platser per dag.
+165	Marmararegionen
+166	Egeiska regionen
+167	Medelhavsregionen
+168	Centralanatoliska regionen
+169	Svartahavsregionen
+170	Östanatoliska regionen
+171	Sydöstanatoliska regionen
+172	Ny resenär
+173	Resenär
+174	Erfaren resenär
+175	Pålitlig guide
+176	Min profil
+177	Logga in eller registrera dig
+178	Logga in eller registrera dig för att fortsätta.
+179	Ditt konto
+180	Logga in
+181	Registrera
+182	Ditt namn
+183	E-post
+184	Lösenord
+185	Minst 8 tecken
+186	Prova demokontot
+188	Ange en giltig e-postadress.
+189	Lösenordet måste vara minst 8 tecken.
+190	Namnet måste vara 2–30 tecken.
+191	Det här namnet kan inte användas.
+192	Det finns redan ett konto med den här e-posten. Försök logga in.
+193	Fel e-post eller lösenord.
+194	Kontot har skapats, välkommen {1}
+195	Välkommen tillbaka {1}
+196	Inloggad med demokontot
+197	Du har loggats ut
+198	Logga ut
+199	Varit här ({1})
+200	Favoriter ({1})
+201	Mina recensioner ({1})
+202	Mina förslag ({1})
+203	Markera platser du besökt med knappen ”Har du varit här?” på platskortet.
+204	Spara platser du gillar med knappen ”Favorit”.
+205	Du har inte skrivit någon recension än.
+206	Du kan lägga till en saknad plats via ”Föreslå en plats”.
+207	Medlem sedan {1}
+208	Resenärsnivå
+209	{1} poäng
+210	Nästa nivå:
+211	Du är på högsta nivån.
+212	Poäng: besökt plats 1, recension 3, godkänt förslag 10. En pålitlig guides godkännande räknas som 2 röster.
+213	Radera konto
+214	Radera kontot och all dess data i den här webbläsaren?
+215	Ja, radera
+216	Ditt konto har raderats
+219	Reseguide till Turkiet
+220	Upptäck sevärdheter i hela Turkiet, markera var du har varit och dela upplevelser och foton.
+221	Skapa ett gratis konto eller logga in för att använda appen.
+222	Platser
+223	Fotogalleri
+224	Mest gillade foton
+225	Resenärernas vackraste bilder. Ge ett hjärta till foton du gillar.
+226	Mest gillade
+227	Nyast
+228	Mest gillade fotografer
+229	{1} gillanden
+230	Gå till platsen
+231	Gilla foto
+232	Du gillade fotot
+234	Foto
+249	Vi har skickat en länk till din e-post för att bekräfta kontot. Logga in när du har klickat på den.
+250	Din e-post är inte bekräftad än. Kolla din inkorg.
+251	Just nu kan bara foton laddas upp.
+252	Foton får vara högst 5 MB.
+253	Något gick fel, försök igen.
+254	Du kan inte godkänna ditt eget förslag.
+256	Kontomeny
+257	Kontoinställningar
+258	Stöd oss
+259	Reseguide till Turkiet är ett oberoende och gratis projekt. Ditt stöd hjälper till med servrar, karttjänster och nya funktioner.
+260	Engångsbelopp
+261	Månadsvis
+262	Belopp
+263	Annat belopp
+264	Ange belopp
+265	Stöd med {1} ₺
+266	Välj ett belopp
+267	Betalningen slutförs på en säker betalsida; den här appen frågar aldrig efter kortuppgifter.
+268	Vart går ditt stöd?
+269	Servrar och databas
+270	Kart- och satellittjänst
+271	Nya funktioner och utveckling
+272	Betalsidan öppnas i en ny flik
+274	Betala med kredit- eller betalkort
+275	Du anger kortuppgifterna på betalsidan
+276	Kartstil och lager
+277	Kartstil
+278	Standard
+279	Mörk
+280	Enkel
+281	Lager
+282	Provinsgränser
+283	Ortnamn
+284	Sjöar
+285	Tillbaka till hela Turkiet
+286	Historia och kultur
+287	Hav och kust
+288	Städer
+289	Moskéer och gravmonument
+290	Kyrkor och kloster
+291	Antika platser och ruiner
+292	Borgar och murar
+293	Palats och paviljonger
+294	Museer
+295	Monument
+296	Parker och nationalparker
+297	Sjöar
+298	Vattenfall
+299	Kanjoner och dalar
+300	Berg och högplatåer
+301	Grottor och slukhål
+302	Naturunder
+303	Varma källor
+304	Stränder och vikar
+305	Öar
+306	Badorter
+307	Basarer och marknader
+308	Historiska kvarter
+309	Småstäder och byar
+310	Torg och gator
+311	Utsiktsplatser
+312	Torn
+313	Byt profilbild
+314	Lägg till profilbild
+315	Byt foto
+316	Profilbilden har uppdaterats
+317	Profilbilden har tagits bort
+318	Välj ett foto i JPG, PNG eller WEBP.
+319	Foton får vara högst 15 MB.
+320	Det här fotot kan inte öppnas.
+321	För många försök. Försök senare.
+322	Det gick inte att ansluta. Kontrollera internet och försök igen.
+323	Satellit
+324	Närmast mig
+325	Min position
+326	Beräknar rutt…
+327	Ingen rutt hittades.
+328	Steg-för-steg-anvisningar
+329	Starta navigering
+330	Röstnavigering öppnas i Google Maps.
+331	Vägbeskrivningar i appen kommer snart. Tills vidare kan du fortsätta i Google Maps.
+332	{1} min
+333	{1} h {2} min
+334	Jag är här nu
+335	Bil
+336	Till fots
+337	Cykel
+338	Kollektivtrafik
+339	från dig
+340	Den här webbläsaren stöder inte platstjänster.
+341	Platsbehörighet har inte getts. Du kan tillåta den i webbläsarens webbplatsinställningar.
+342	Din position kunde inte hittas. Kontrollera att platstjänster är på.
+343	Hoppa över
+344	Fortsätt
+345	Nu kör vi
+346	Fortsätt utan att välja
+347	Välkommen!
+348	Vilket språk vill du använda appen på?
+349	Vad gillar du?
+350	Vi lyfter fram platser som passar dig. Du kan välja flera.
+351	Du kan ändra detta senare under ”Mina intressen” i kontomenyn.
+352	Mina intressen
+353	Dina intressen har sparats
+354	Ditt val visas i kategorin ”För dig”.
+355	Spara
+356	Fotografering
+357	Mitt konto
+358	Inget valt
+359	För dig
+360	Tillbaka
+361	Besök 10 naturunder
+362	Besök platser i 10 olika provinser
+363	Dela 10 foton
+364	Besök 10 platser
+365	Skriv 10 recensioner
+366	Resenär i 10 provinser
+367	Besök 100 platser
+368	Besök 3 vattenfall
+369	Besök 5 antika städer och ruiner
+370	Besök 5 moskéer, kyrkor eller kloster
+371	Besök 5 borgar
+372	Besök 5 stränder, öar eller badorter
+373	Besök 50 platser
+374	Medelhavsupptäckare
+375	Besök 10 platser i Medelhavsregionen
+376	Skriv vad du tycker…
+377	Tidsresenär till antiken
+378	Rensa
+379	Flytta ned
+380	Du kan välja flera. Vi rangordnar städerna med flest och bäst platser av den typen.
+381	Klar
+382	Uppgifterna används bara för att appen ska fungera: för att känna igen ditt konto, visa dina inlägg för andra resenärer och förbättra appen. Vi visar inga annonser och säljer inte dina uppgifter till någon.
+383	Det här avsnittet är bara för moderatorer.
+384	Den här provinsen har bara {1} platser än så länge, så planen har kortats.
+385	Det här innehållet finns inte längre.
+386	Ingen plats av den typen hittades.
+387	Idag
+388	Du har skickat för många meddelanden idag. Försök i morgon.
+389	Du har skickat för många anmälningar idag. Försök i morgon.
+390	Mulet
+391	Havsälskare
+392	Genom att fortsätta godkänner du integritetspolicyn.
+393	Annat
+394	Naturupptäckare
+395	Upptäckare av Östra Anatolien
+396	Besök 10 platser i Östra Anatolien
+397	Stoppen sorterade i kortaste ordning
+398	Legendarisk resenär
+399	Egeiska upptäckaren
+400	Besök 10 platser i Egeiska regionen
+401	Fotograf
+402	Anmäl foto
+403	Feedback
+404	Resande själ
+405	Min reselista
+406	Lägg till i reselistan
+407	Din reselista är tom
+408	Reselistan är full (högst {1} platser).
+409	Reselistan har rensats
+410	På din reselista
+411	Borttagen från reselistan
+412	Tillagd i reselistan
+413	Reseplan
+414	Dold
+415	Dold; en moderator granskar.
+416	Integritet och dataskydd
+417	Öppna i Google Maps
+418	Åska
+419	Mina skickade
+420	Åsikt
+421	Skicka feedback
+422	Besök 10 platser i Sydöstra Anatolien
+423	Sydöstupptäckare
+424	Förolämpningar eller hatpropaganda
+425	Dina rättigheter (KVKK)
+426	Vilka uppgifter samlar vi in?
+427	Besök minst en plats i varje provins på kartan
+428	Felrapport
+429	Väder
+430	Vädret är inte tillgängligt just nu.
+431	Du är framme: {1}
+432	Ingen feedback än
+433	Namn och e-postadress som du anger vid registreringen; valfri profilbild; recensioner du skriver, foton du laddar upp, platser du föreslår, besökta och favoritplatser samt feedback och anmälningar du skickar.
+434	Borgjägare
+435	Svartahavsupptäckare
+436	Besök 10 platser i Svartahavsregionen
+437	Snö
+438	Källa: Open-Meteo
+439	Upplåst
+440	Du kan inte anmäla ditt eget inlägg.
+441	Trevlig resa!
+442	Vem kan se?
+443	Ämne
+444	Nära min position
+445	Din position kunde inte hittas, så rutten börjar vid första stoppet.
+446	Din position används bara på din enhet: för att sortera platser i närheten och visa avstånd och rutter. Ingen platshistorik sparas. När du begär en rutt skickas start- och målpunkten till OpenRouteService endast för att beräkna rutten.
+447	Totalt {1} fågelvägen
+448	Ta bort från listan
+449	Beskriv med några ord.
+450	Marmaraupptäckare
+451	Besök 10 platser i Marmararegionen
+452	Ditt meddelande
+453	Ditt meddelande har kommit fram. Tack!
+454	Bara ditt konto och appversionen sparas med meddelandet.
+455	Moderatorpanel
+456	Platsbehörighet krävs för navigering.
+457	Vad vill du se?
+458	Vad använder vi dem till?
+459	Vad hände? På vilken skärm, medan du gjorde vad? Steg för steg om du kan.
+460	Var lagras de?
+461	Vart ska jag åka?
+462	Vad vill du anmäla?
+463	Läst
+464	Markera som läst
+465	Markera som oläst
+466	Centrera
+467	Halvklart
+468	Planen ordnar platserna efter närhet till varandra. Kontrollera öppettiderna innan du åker.
+469	Rutten börjar vid din position och passerar stoppen i den här ordningen. Du kan starta röstnavigering från ruttskärmen.
+470	Ny rutt beräknas
+471	Beräknar ny rutt…
+472	Visa rutt
+473	Märken
+474	Städer vi rekommenderar
+475	Slå på ljud
+476	Stäng av ljud
+477	Livenavigering med röstanvisningar öppnas i appen.
+478	Radera
+479	Dimma
+480	Senast uppdaterad: {1}
+481	Sedan
+482	Skriv till oss via ”Skicka feedback” i appen med frågor och önskemål.
+483	Okej, visa
+484	Spam eller reklam
+485	Version {1}
+486	Kortaste ordning
+487	Rensa
+488	Här förklarar vi enkelt hur dina uppgifter hanteras när du använder Reseguide till Turkiet.
+489	Turkiet runt
+490	Rutinerad resenär
+491	Hur nöjd är du med appen? (valfritt)
+492	Vi bygger appen tillsammans. Skriv vilken idé, vilket fel eller vilken åsikt som helst; vi läser allt.
+493	Olämpligt innehåll
+494	Ankomst {1}
+495	Uppgifterna lagras på Supabase-infrastruktur och överförs via krypterad anslutning. Kartan kommer från OpenFreeMap och vädret från Open-Meteo; ditt namn och din e-post skickas inte till dessa tjänster.
+496	Närliggande städer först.
+497	Falsk eller vilseledande information
+498	Svar
+499	Anmäl svar
+500	Regn
+501	Nytt märke upplåst: {1}
+502	En ny version finns
+503	{1} med nya funktioner och rättningar kan laddas ned. Ladda bara ned och installera; ditt konto och dina data finns kvar.
+504	Samla här platser du vill besöka med knappen ”Lägg till i reselistan” på platskorten; appen sätter ihop dem till en rutt.
+505	Recension
+506	Recensent
+507	Anmäl recension
+508	Flytta upp
+509	och {1} till
+510	{1} stopp
+511	Du är framme vid {1}
+512	{1} dagar
+513	Alla platser i {1} ({2})
+514	{1} km bort
+515	För {1}
+516	{1} matchande platser
+517	{1} anmälningar
+518	Dag {1}
+519	Duggregn
+520	Välj först minst en typ ovan
+521	Förslag
+522	Besök 5 kända platser med specialmarkering
+523	Landmärkessamlare
+524	~{1} km från föregående stopp
+525	Levererat
+526	Kontakt
+527	Städer och reseplan efter dina intressen
+528	Första steget
+529	Markera din första plats med ”Jag har varit här”
+530	Pilgrim
+531	Centralanatolisk upptäckare
+532	Besök 10 platser i Centralanatolien
+533	Innehållet har raderats
+534	Innehållet är synligt igen
+535	Vattenfallsjägare
+536	Inget anmält innehåll
+537	Anmäl
+538	Anmälan mottagen. Tack!
+539	Anmälningar
+540	Anmälningar är konfidentiella. Om tre olika personer anmäler något döljs innehållet automatiskt och en moderator granskar det.
+541	Ladda ned nu
+542	{1} platser har lagts till i reselistan
+543	De här platserna finns redan på din reselista
+544	Länken har kopierats
+545	Kopiera länk
+546	Den här funktionen fungerar på den publicerade webbplatsen.
+547	Rensa listan
+548	En rutt kräver minst två punkter. Tillåt platstjänster eller lägg till en plats till.
+549	Livenavigering med röstanvisningar öppnas här på webbplatsen.
+550	Laddar…
+551	Rutt
+552	Enligt Turkiets lag nr 6698 om skydd av personuppgifter (KVKK) har du rätt att få tillgång till dina uppgifter och begära rättelse eller radering. Du kan när som helst radera ditt konto permanent med knappen ”Radera konto” på profilsidan; recensioner, foton och alla poster raderas samtidigt.
+553	Ditt namn, din profilbild, dina recensioner och foton är offentliga. Din e-post samt besökta och favoritplatser ser bara du. Feedback och anmälningar ser bara du och moderatorerna.
+554	Rutten börjar vid din position och passerar stoppen i den här ordningen.
+555	Rensa sökning
+556	Inställningar
+557	Gilla inte längre
+558	Tryck på en plats
+559	Lägg till ett foto när du skriver en recension på platskortet; de mest gillade visas här.
+560	Det här fotot är inte längre tillgängligt.
+561	Använd den här positionen
+562	Platsen hittades inte.
+563	Det har du redan gjort.
+564	Vad kan man se här och varför komma hit?
+565	Ändra
+566	Andra resenärer ser det här namnet
+567	Användbart
+568	Ta foto
+569	Förstora foto
+570	Välj från galleriet
+571	Upptäck sevärdheter, markera var du har varit och dela dina upplevelser.
+572	Karta
+573	Inga foton än
+574	Du har inte föreslagit någon plats än.
+575	Radera ditt konto?
+576	Ditt konto fungerar även på webbplatsen.
+577	Ditt konto, dina recensioner, foton och förslag raderas permanent. Detta kan inte ångras.
+578	Skapa konto
+579	Bevisfoto
+580	Välj kategori
+581	Välj en kategori.
+582	Utforska
+583	Markera position
+584	Moderator
+585	Vad såg du, vad skulle du rekommendera?
+586	Din röst har registrerats
+587	Profil
+588	Vald position
+589	Inga resultat.
+590	Lägg till en saknad plats
+591	Galleri
+592	Zooma in och tryck på exakt rätt ställe.
+593	Skriv ett svar…
+594	Försök igen
+595	Platsnamn
+596	Visa platsen
+597	Bläddra bland platser
+598	Din recension
+599	Stjärnbetyg och en recension eller ett foto krävs.
+600	nyss
+601	för {1} min sedan
+602	för {1} månader sedan
+603	för {1} år sedan
+604	{1} foton
+605	Granska förslag
+606	Skicka förslag
+607	t.ex. Tortumvattenfallet
+608	Välj provins
+609	Välj en provins.
+610	Inga väntande förslag just nu.
+611	Öppnar betalsidan
+612	Sidan för kortbetalning öppnas snart här.
+613	Platsbehörighet har inte getts. Du kan tillåta den i telefonens inställningar.
+614	Kamerabehörighet har inte getts. Du kan tillåta den i telefonens inställningar.
+615	Din position kunde inte hittas. Kontrollera att platstjänster är på.
+616	{1} från dig

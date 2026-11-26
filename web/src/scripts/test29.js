@@ -1,0 +1,22 @@
+const { chromium } = require('playwright');
+const [file, out] = process.argv.slice(2);
+(async () => {
+  const b = await chromium.launch(); const errs = [];
+  const pg = await b.newPage({ viewport: { width: 1200, height: 860 } });
+  pg.on('pageerror', e => errs.push(e.message));
+  await pg.addInitScript(() => { try { localStorage.setItem('gezi-onboarded', '1'); } catch (_) {} });
+  await pg.goto('file://' + file); await pg.waitForTimeout(1500);
+  await pg.evaluate(() => { const bt = [...document.querySelectorAll('button')].find(x => x.dataset.a === 'demo'); bt && bt.click(); }); await pg.waitForTimeout(700);
+  await pg.evaluate(() => A.mtheme()); await pg.waitForTimeout(300);
+  await pg.evaluate(() => A.thpre('gunbatimi')); await pg.waitForTimeout(300);
+  await pg.screenshot({ path: out + '/theme1.png', clip: { x: 0, y: 0, width: 600, height: 860 } });
+  await pg.evaluate(() => { A.thtint('#EFF6FF'); A.thacc('#15803D'); A.thgrad(); A.thsize('1.12'); }); await pg.waitForTimeout(300);
+  const st = await pg.evaluate(() => ({ cfg: TH.draft, theme: document.documentElement.getAttribute('data-theme'), grad: document.documentElement.hasAttribute('data-grad'), accent: getComputedStyle(document.documentElement).getPropertyValue('--accent') }));
+  await pg.evaluate(() => A.thsave()); 
+  const saved = await pg.evaluate(() => localStorage.getItem('gezi-theme2'));
+  await pg.screenshot({ path: out + '/theme2.png', clip: { x: 0, y: 0, width: 600, height: 860 } });
+  await pg.evaluate(() => { A.xback(); select('ayasofya'); }); await pg.waitForTimeout(300);
+  await pg.screenshot({ path: out + '/theme3.png', clip: { x: 0, y: 0, width: 600, height: 860 } });
+  console.log(JSON.stringify({ st, saved }), '| hatalar:', errs.length ? errs : 'yok');
+  await b.close();
+})();

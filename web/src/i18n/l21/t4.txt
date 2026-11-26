@@ -1,0 +1,427 @@
+@ka
+0	იერსახე
+1	ტელეფონის პარამეტრი
+2	თემა შეიცვლება, როცა აპს დახურავ და თავიდან გახსნი.
+3	ანონიმური გამოყენების სტატისტიკა და შეცდომების ჟურნალი
+4	აპის გასაუმჯობესებლად ვინახავთ მხოლოდ დღიურ ჯამებს, რამდენჯერ იქნა გამოყენებული ეკრანები და ფუნქციები; ეს რიცხვები არ შეიცავს ინფორმაციას, ვინ ხარ. თუ აპი ავარიულად დაიხურა, ინახება შეცდომის შეტყობინება, ვერსია და პლატფორმა. ადგილის შესახებ გაგზავნილ შესწორებებს მხოლოდ შენ და მოდერატორები ხედავთ.
+5	რაღაც შეცდომა მოხდა
+6	პრობლემა ჩავიწერეთ და განვიხილავთ. შეგიძლია კვლავ სცადო.
+7	მდებარეობა არასწორია
+8	აღწერა ან ინფორმაცია არასწორია
+9	ადგილი დაიხურა / აღარ არსებობს
+10	სხვა რამ
+11	რამე არასწორია?
+12	გვითხარი, რა არის არასწორი, და მოდერატორი შეამოწმებს და გაასწორებს.
+13	ახლა აქ ვარ, სწორი მდებარეობა ჩემი მდებარეობაა
+14	ჩემი მდებარეობის გამოყენება
+15	რა არის სწორი? მოკლედ დაწერე…
+16	გმადლობთ! შენი შეთავაზება მოდერატორებს გადაეგზავნა.
+17	რამე არასწორია? შესწორების შეთავაზება
+18	ცნობილია, რომ ეს ადგილი დაიხურა.
+19	საუკეთესო დრო
+20	ახლა იდეალური დროა!
+21	ეს სეზონი
+22	ადგილობრივი გემოები
+23	{1} — ადგილობრივი გემოები
+24	ჩემი თურქეთის რუკა
+25	{1} / {2} პროვინცია
+26	მონახულებული ადგილები: {1}
+27	თურქეთის დაახლოებით {1}%
+28	ამ პროვინციაში ჯერ არცერთი ადგილი არ მოგინახულებია.
+29	პროვინციის ადგილების ნახვა
+30	დეტალების სანახავად შეეხე პროვინციას.
+31	დეტალების სანახავად დააწკაპუნე პროვინციაზე.
+32	ჩემი რუკის გაზიარება
+33	მონახულებული პროვინციები
+34	პროვინციები აქ ფერდება, როცა ადგილის გვერდზე „%G%“-ს შეეხები.
+35	გააფერადე მონახულებული პროვინციები და გააზიარე
+36	სურათი ჩამოიტვირთა
+37	შეტყობინებები
+38	{1}-მ შენს შეფასებას უპასუხა
+39	{1}-ს მოეწონა შენი შეფასება
+40	{1}-ს მოეწონა შენი ფოტო
+41	შენ მიერ შეთავაზებული ადგილი დამტკიცდა და რუკაზე დაემატა
+42	ჯერ შეტყობინებები არ გაქვს
+43	აქ დაინახავ, როცა ვინმე შენს შეფასებებს უპასუხებს ან მოიწონებს.
+44	შეტყობინებები ვერ ჩაიტვირთა.
+45	შეამოწმე ინტერნეტ-კავშირი.
+46	განახლება
+47	შენ გაგიზიარეს მოგზაურობის სია
+48	ჩემს სიაში დამატება
+49	სიის გაზიარება
+50	დღეს ძალიან ბევრი შეთავაზება გაგზავნე. სცადე ხვალ.
+51	ხაზგარეშე: ნაჩვენებია შენახული ინფორმაცია
+52	ხაზგარეშე რუკა
+53	ამ მოგზაურობის რუკა ტელეფონში ჩამოტვირთულია. ინტერნეტის გარეშეც გაიხსნება.
+54	სუსტი ინტერნეტის ადგილებისთვის ჩამოტვირთე ტელეფონში მოგზაურობის სიის მიდამოები.
+55	ჩამოტვირთვა ვერ დასრულდა. შეამოწმე კავშირი და სცადე ხელახლა.
+56	ხელახლა ჩამოტვირთვა
+57	რუკის ჩამოტვირთვა
+58	ხაზგარეშე რუკა წაიშალა
+59	ხაზგარეშე ხარ. ადრე გახსნილი რუკის ნაწილები და ადგილები ჩანს; შეფასებისა და გაზიარებისთვის ინტერნეტია საჭირო.
+@kk
+0	Көрініс
+1	Телефон параметрі
+2	Тақырып қолданбаны жауып, қайта ашқанда өзгереді.
+3	Анонимді пайдалану санағы және қате журналдары
+4	Қолданбаны жақсарту үшін экрандар мен мүмкіндіктердің қанша рет қолданылғанын тек күндік жалпы сан ретінде сақтаймыз; бұл сандарда сіздің кім екеніңіз жоқ. Қолданба істен шықса, қате хабары, нұсқа және платформа жазылады. Бір орын туралы жіберген түзетулеріңізді тек сіз және модераторлар көреді.
+5	Бірдеңе дұрыс болмады
+6	Мәселені тіркедік, қарап шығамыз. Қайта көріңіз.
+7	Орны қате
+8	Сипаттама не мәлімет қате
+9	Орын жабылған / енді жоқ
+10	Басқа нәрсе
+11	Мәлімет қате ме?
+12	Не қате екенін айтыңыз, модератор тексеріп түзетеді.
+13	Мен қазір осындамын, дұрыс орын — менің орным
+14	Менің орнымды пайдалану
+15	Дұрысы қандай? Қысқаша жазыңыз…
+16	Рақмет! Ұсынысыңыз модераторларға жіберілді.
+17	Мәлімет қате ме? Түзету ұсыну
+18	Бұл орын жабылғаны туралы хабарланған.
+19	Ең қолайлы уақыт
+20	Дәл қазір нағыз уақыты!
+21	Осы маусым
+22	Жергілікті тағамдар
+23	{1}: жергілікті тағамдар
+24	Менің Түркия картам
+25	{1} / {2} уәлаят
+26	{1} орын аралалды
+27	Түркияның шамамен {1}%
+28	Бұл уәлаятта әлі ешбір орынға бармадыңыз.
+29	Уәлаяттағы орындарды көру
+30	Толығырақ көру үшін уәлаятты түртіңіз.
+31	Толығырақ көру үшін уәлаятты басыңыз.
+32	Картамды бөлісу
+33	Барған уәлаяттар
+34	Орын бетінде «%G%» түймесін басқан сайын уәлаяттар осында боялады.
+35	Барған уәлаяттарды бояп, бөлісіңіз
+36	Сурет жүктелді
+37	Хабарландырулар
+38	{1} пікіріңізге жауап берді
+39	{1} пікіріңізді ұнатты
+40	{1} суретіңізді ұнатты
+41	Ұсынған орныңыз мақұлданып, картаға қосылды
+42	Әзірге хабарландыру жоқ
+43	Біреу пікірлеріңізге жауап берсе не ұнатса, осы жерде көресіз.
+44	Хабарландырулар жүктелмеді.
+45	Интернет қосылымын тексеріңіз.
+46	Жаңарту
+47	Сізбен саяхат тізімі бөлісілді
+48	Менің тізіміме қосу
+49	Тізімді бөлісу
+50	Бүгін тым көп ұсыныс жібердіңіз. Ертең қайта көріңіз.
+51	Офлайн: сақталған мәліметтер көрсетілуде
+52	Офлайн карта
+53	Бұл саяхаттың картасы телефоныңызға жүктелді. Интернетсіз де ашылады.
+54	Интернеті әлсіз жерлер үшін саяхат тізіміндегі орындардың маңын телефонға жүктеп алыңыз.
+55	Жүктеу аяқталмады. Қосылымды тексеріп, қайта көріңіз.
+56	Қайта жүктеу
+57	Картаны жүктеу
+58	Офлайн карта жойылды
+59	Сіз офлайнсыз. Бұрын ашылған карта аймақтары мен орындар көрінеді; пікір мен бөлісу үшін интернет керек.
+@uz
+0	Ko‘rinish
+1	Telefon sozlamasi
+2	Mavzu ilovani yopib, qayta ochganingizda o‘zgaradi.
+3	Anonim foydalanish hisoblari va xatolar jurnali
+4	Ilovani yaxshilash uchun ekranlar va funksiyalardan necha marta foydalanilganini faqat kunlik jami son sifatida saqlaymiz; bu sonlarda kim ekaningiz yo‘q. Ilova ishdan chiqsa, xato xabari, versiya va platforma qayd etiladi. Joy haqida yuborgan tuzatishlaringizni faqat siz va moderatorlar ko‘radi.
+5	Nimadir xato ketdi
+6	Muammoni qayd etdik va ko‘rib chiqamiz. Qayta urinib ko‘rishingiz mumkin.
+7	Joylashuv noto‘g‘ri
+8	Tavsif yoki ma’lumot noto‘g‘ri
+9	Bu joy yopilgan / endi yo‘q
+10	Boshqa narsa
+11	Ma’lumot noto‘g‘rimi?
+12	Nima noto‘g‘ri ekanini ayting, moderator tekshirib tuzatadi.
+13	Hozir shu yerdaman, to‘g‘ri joy — mening joylashuvim
+14	Joylashuvimdan foydalanish
+15	To‘g‘risi qanday? Qisqacha yozing…
+16	Rahmat! Taklifingiz moderatorlarga yuborildi.
+17	Ma’lumot noto‘g‘rimi? Tuzatish taklif qilish
+18	Bu joy yopilgani haqida xabar berilgan.
+19	Eng yaxshi vaqt
+20	Hozir ayni vaqti!
+21	Shu mavsum
+22	Mahalliy taomlar
+23	{1} mahalliy taomlari
+24	Mening Turkiya xaritam
+25	{1} / {2} viloyat
+26	{1} ta joy ko‘rildi
+27	Turkiyaning taxminan {1}%
+28	Bu viloyatda hali hech bir joyga bormagansiz.
+29	Viloyatdagi joylarni ko‘rish
+30	Batafsil ko‘rish uchun viloyatga teging.
+31	Batafsil ko‘rish uchun viloyatni bosing.
+32	Xaritamni ulashish
+33	Borgan viloyatlaringiz
+34	Joy sahifasida “%G%” tugmasini bosgan sari viloyatlar shu yerda bo‘yaladi.
+35	Borgan viloyatlaringizni bo‘yang va ulashing
+36	Rasm yuklab olindi
+37	Bildirishnomalar
+38	{1} sharhingizga javob berdi
+39	{1} sharhingizni yoqtirdi
+40	{1} rasmingizni yoqtirdi
+41	Siz taklif qilgan joy tasdiqlandi va xaritaga qo‘shildi
+42	Hozircha bildirishnoma yo‘q
+43	Kimdir sharhlaringizga javob bersa yoki yoqtirsa, shu yerda ko‘rasiz.
+44	Bildirishnomalar yuklanmadi.
+45	Internet aloqasini tekshiring.
+46	Yangilash
+47	Siz bilan sayohat ro‘yxati ulashildi
+48	Ro‘yxatimga qo‘shish
+49	Ro‘yxatni ulashish
+50	Bugun juda ko‘p taklif yubordingiz. Ertaga qayta urinib ko‘ring.
+51	Oflayn: saqlangan ma’lumotlar ko‘rsatilmoqda
+52	Oflayn xarita
+53	Bu sayohat xaritasi telefoningizga yuklab olindi. Internetsiz ham ochiladi.
+54	Interneti zaif joylar uchun sayohat ro‘yxatingizdagi joylar atrofini telefonga yuklab oling.
+55	Yuklab olish tugamadi. Aloqani tekshirib, qayta urinib ko‘ring.
+56	Qayta yuklab olish
+57	Xaritani yuklab olish
+58	Oflayn xarita o‘chirildi
+59	Siz oflaynsiz. Avval ochilgan xarita qismlari va joylar ko‘rinadi; sharh va ulashish uchun internet kerak.
+@sq
+0	Pamja
+1	Cilësimi i telefonit
+2	Tema ndryshon kur e mbyll dhe e hap sërish aplikacionin.
+3	Numërime anonime të përdorimit dhe regjistra gabimesh
+4	Për të përmirësuar aplikacionin ruajmë vetëm totale ditore se sa herë përdoren ekranet dhe funksionet; këta numra nuk përmbajnë se kush je. Nëse aplikacioni rrëzohet, regjistrohen mesazhi i gabimit, versioni dhe platforma. Korrigjimet që dërgon për një vend i shohin vetëm ti dhe moderatorët.
+5	Diçka shkoi keq
+6	E regjistruam problemin dhe do ta shqyrtojmë. Mund të provosh përsëri.
+7	Vendndodhja është e gabuar
+8	Përshkrimi ose informacioni është i gabuar
+9	Vendi është mbyllur / nuk ekziston më
+10	Diçka tjetër
+11	Diçka nuk shkon?
+12	Na thuaj çfarë është gabim dhe një moderator do ta kontrollojë e korrigjojë.
+13	Jam këtu tani, vendndodhja ime është e sakta
+14	Përdor vendndodhjen time
+15	Cila është e sakta? Shkruaj shkurt…
+16	Faleminderit! Sugjerimi yt iu dërgua moderatorëve.
+17	Diçka nuk shkon? Sugjero një korrigjim
+18	Ky vend është raportuar si i mbyllur.
+19	Koha më e mirë
+20	Tani është koha e duhur!
+21	Ky sezon
+22	Shije vendase
+23	Shije vendase të {1}
+24	Harta ime e Turqisë
+25	{1} / {2} provinca
+26	{1} vende të vizituara
+27	rreth {1}% e Turqisë
+28	Ende nuk ke vizituar asnjë vend në këtë provincë.
+29	Shiko vendet e provincës
+30	Prek një provincë për detaje.
+31	Kliko një provincë për detaje.
+32	Ndaj hartën time
+33	Provincat e vizituara
+34	Provincat ngjyrosen këtu sa herë prek “%G%” në faqen e një vendi.
+35	Ngjyros provincat që ke vizituar dhe ndaji
+36	Imazhi u shkarkua
+37	Njoftime
+38	{1} iu përgjigj vlerësimit tënd
+39	{1} pëlqeu vlerësimin tënd
+40	{1} pëlqeu foton tënde
+41	Vendi që sugjerove u miratua dhe u shtua në hartë
+42	Ende nuk ke njoftime
+43	Do ta shohësh këtu kur dikush u përgjigjet ose pëlqen vlerësimet e tua.
+44	Njoftimet nuk u ngarkuan.
+45	Kontrollo lidhjen me internetin.
+46	Rifresko
+47	Dikush ndau me ty një listë udhëtimi
+48	Shto në listën time
+49	Ndaj listën
+50	Sot ke dërguar shumë sugjerime. Mund të provosh sërish nesër.
+51	Jashtë linje: po shfaqen të dhënat e ruajtura
+52	Hartë jashtë linje
+53	Harta e këtij udhëtimi është shkarkuar në telefon. Hapet edhe pa internet.
+54	Për vende me internet të dobët, shkarko në telefon zonën përreth listës së udhëtimit.
+55	Shkarkimi nuk përfundoi. Kontrollo lidhjen dhe provo sërish.
+56	Shkarko përsëri
+57	Shkarko hartën
+58	Harta jashtë linje u fshi
+59	Je jashtë linje. Zonat e hartës dhe vendet që ke hapur më parë mbeten të dukshme; vlerësimet dhe ndarja kërkojnë internet.
+@sr
+0	Изглед
+1	Подешавање телефона
+2	Тема ће се променити када затвориш и поново отвориш апликацију.
+3	Анонимна статистика коришћења и евиденција грешака
+4	Да бисмо побољшали апликацију, чувамо само дневне укупне бројеве колико пута се користе екрани и функције; ти бројеви не садрже ко си. Ако се апликација сруши, бележе се порука о грешци, верзија и платформа. Исправке које шаљеш о неком месту видиш само ти и модератори.
+5	Нешто није у реду
+6	Забележили смо проблем и погледаћемо га. Можеш покушати поново.
+7	Локација је погрешна
+8	Опис или подаци су погрешни
+9	Место је затворено / више не постоји
+10	Нешто друго
+11	Нешто није тачно?
+12	Реци нам шта није тачно, а модератор ће проверити и исправити.
+13	Сада сам овде, моја локација је тачна
+14	Користи моју локацију
+15	Шта је тачно? Напиши укратко…
+16	Хвала! Твој предлог је послат модераторима.
+17	Нешто није тачно? Предложи исправку
+18	Пријављено је да је ово место затворено.
+19	Најбоље време за посету
+20	Сада је савршено време!
+21	Ова сезона
+22	Локални укуси
+23	Локални укуси: {1}
+24	Моја мапа Турске
+25	{1} / {2} провинција
+26	Посећено места: {1}
+27	око {1}% Турске
+28	Још ниси посетио ниједно место у овој провинцији.
+29	Погледај места у провинцији
+30	Додирни провинцију за детаље.
+31	Кликни на провинцију за детаље.
+32	Подели моју мапу
+33	Посећене провинције
+34	Провинције се овде боје сваки пут кад на страници места додирнеш „%G%“.
+35	Обој посећене провинције и подели
+36	Слика је преузета
+37	Обавештења
+38	{1} је одговорио/ла на твоју рецензију
+39	{1} се свидела твоја рецензија
+40	{1} се свидела твоја фотографија
+41	Место које си предложио је одобрено и додато на мапу
+42	Још немаш обавештења
+43	Видећеш овде када неко одговори на твоје рецензије или их лајкује.
+44	Обавештења нису учитана.
+45	Провери интернет везу.
+46	Освежи
+47	Неко је са тобом поделио листу путовања
+48	Додај на моју листу
+49	Подели листу
+50	Данас си послао превише предлога. Покушај поново сутра.
+51	Офлајн: приказују се сачувани подаци
+52	Офлајн мапа
+53	Мапа овог путовања је преузета на телефон. Отвара се и без интернета.
+54	За места са слабим интернетом преузми на телефон околину места са листе путовања.
+55	Преузимање није завршено. Провери везу и покушај поново.
+56	Преузми поново
+57	Преузми мапу
+58	Офлајн мапа је обрисана
+59	Ниси на мрежи. Раније отворени делови мапе и места остају видљиви; за рецензије и дељење потребан је интернет.
+@hr
+0	Izgled
+1	Postavka telefona
+2	Tema će se promijeniti kad zatvoriš i ponovno otvoriš aplikaciju.
+3	Anonimna statistika korištenja i zapisi pogrešaka
+4	Kako bismo poboljšali aplikaciju, čuvamo samo dnevne ukupne brojeve koliko se puta koriste zasloni i funkcije; ti brojevi ne sadrže tko si. Ako se aplikacija sruši, bilježe se poruka o pogrešci, verzija i platforma. Ispravke koje šalješ o nekom mjestu vidiš samo ti i moderatori.
+5	Nešto nije u redu
+6	Zabilježili smo problem i pogledat ćemo ga. Možeš pokušati ponovno.
+7	Lokacija je pogrešna
+8	Opis ili podaci su pogrešni
+9	Mjesto je zatvoreno / više ne postoji
+10	Nešto drugo
+11	Nešto nije točno?
+12	Reci nam što nije točno, a moderator će provjeriti i ispraviti.
+13	Sada sam ovdje, moja lokacija je točna
+14	Koristi moju lokaciju
+15	Što je točno? Napiši ukratko…
+16	Hvala! Tvoj prijedlog poslan je moderatorima.
+17	Nešto nije točno? Predloži ispravak
+18	Prijavljeno je da je ovo mjesto zatvoreno.
+19	Najbolje vrijeme za posjet
+20	Sada je savršeno vrijeme!
+21	Ova sezona
+22	Lokalni okusi
+23	Lokalni okusi: {1}
+24	Moja karta Turske
+25	{1} / {2} pokrajina
+26	Posjećenih mjesta: {1}
+27	oko {1} % Turske
+28	Još nisi posjetio nijedno mjesto u ovoj pokrajini.
+29	Pogledaj mjesta u pokrajini
+30	Dodirni pokrajinu za detalje.
+31	Klikni na pokrajinu za detalje.
+32	Podijeli moju kartu
+33	Posjećene pokrajine
+34	Pokrajine se ovdje boje svaki put kad na stranici mjesta dodirneš „%G%”.
+35	Oboji posjećene pokrajine i podijeli
+36	Slika je preuzeta
+37	Obavijesti
+38	{1} je odgovorio/la na tvoju recenziju
+39	{1} se sviđa tvoja recenzija
+40	{1} se sviđa tvoja fotografija
+41	Mjesto koje si predložio odobreno je i dodano na kartu
+42	Još nemaš obavijesti
+43	Vidjet ćeš ovdje kad netko odgovori na tvoje recenzije ili ih označi sa sviđa mi se.
+44	Obavijesti se nisu učitale.
+45	Provjeri internetsku vezu.
+46	Osvježi
+47	Netko je s tobom podijelio popis putovanja
+48	Dodaj na moj popis
+49	Podijeli popis
+50	Danas si poslao previše prijedloga. Pokušaj ponovno sutra.
+51	Izvan mreže: prikazuju se spremljeni podaci
+52	Karta izvan mreže
+53	Karta ovog putovanja preuzeta je na telefon. Otvara se i bez interneta.
+54	Za mjesta sa slabim internetom preuzmi na telefon okolicu mjesta s popisa putovanja.
+55	Preuzimanje nije dovršeno. Provjeri vezu i pokušaj ponovno.
+56	Preuzmi ponovno
+57	Preuzmi kartu
+58	Karta izvan mreže je izbrisana
+59	Nisi na mreži. Prije otvoreni dijelovi karte i mjesta ostaju vidljivi; za recenzije i dijeljenje treba internet.
+@cs
+0	Vzhled
+1	Nastavení telefonu
+2	Motiv se změní po zavření a opětovném otevření aplikace.
+3	Anonymní statistiky používání a záznamy chyb
+4	Abychom aplikaci zlepšovali, ukládáme jen denní součty toho, kolikrát se používají obrazovky a funkce; tato čísla neobsahují, kdo jsi. Pokud aplikace spadne, zaznamená se chybová zpráva, verze a platforma. Opravy, které o místě pošleš, vidíš jen ty a moderátoři.
+5	Něco se pokazilo
+6	Problém jsme zaznamenali a podíváme se na něj. Můžeš to zkusit znovu.
+7	Poloha je špatně
+8	Popis nebo údaje jsou špatně
+9	Místo je zavřené / už neexistuje
+10	Něco jiného
+11	Něco nesedí?
+12	Napiš nám, co je špatně, a moderátor to zkontroluje a opraví.
+13	Jsem tu právě teď, správná poloha je ta moje
+14	Použít mou polohu
+15	Co je správně? Napiš stručně…
+16	Díky! Tvůj návrh byl předán moderátorům.
+17	Něco nesedí? Navrhnout opravu
+18	Toto místo bylo nahlášeno jako zavřené.
+19	Nejlepší doba k návštěvě
+20	Teď je ta pravá chvíle!
+21	Tato sezóna
+22	Místní speciality
+23	Místní speciality: {1}
+24	Moje mapa Turecka
+25	{1} / {2} provincií
+26	Navštívená místa: {1}
+27	asi {1} % Turecka
+28	V této provincii jsi zatím žádné místo nenavštívil.
+29	Zobrazit místa v provincii
+30	Klepni na provincii pro podrobnosti.
+31	Klikni na provincii pro podrobnosti.
+32	Sdílet mou mapu
+33	Navštívené provincie
+34	Provincie se tu vybarví pokaždé, když na stránce místa klepneš na „%G%“.
+35	Vybarvi navštívené provincie a sdílej je
+36	Obrázek stažen
+37	Oznámení
+38	{1} odpověděl(a) na tvou recenzi
+39	{1} se líbí tvoje recenze
+40	{1} se líbí tvoje fotka
+41	Místo, které jsi navrhl, bylo schváleno a přidáno na mapu
+42	Zatím nemáš žádná oznámení
+43	Uvidíš to tady, když někdo odpoví na tvé recenze nebo se mu budou líbit.
+44	Oznámení se nepodařilo načíst.
+45	Zkontroluj připojení k internetu.
+46	Obnovit
+47	Někdo s tebou sdílel cestovní seznam
+48	Přidat do mého seznamu
+49	Sdílet seznam
+50	Dnes jsi poslal příliš mnoho návrhů. Zkus to znovu zítra.
+51	Offline: zobrazují se uložené informace
+52	Offline mapa
+53	Mapa této cesty je stažená v telefonu. Otevře se i bez internetu.
+54	Pro místa se slabým internetem si stáhni do telefonu okolí míst z cestovního seznamu.
+55	Stahování se nedokončilo. Zkontroluj připojení a zkus to znovu.
+56	Stáhnout znovu
+57	Stáhnout mapu
+58	Offline mapa smazána
+59	Jsi offline. Dříve otevřené části mapy a místa zůstávají viditelné; recenze a sdílení potřebují internet.

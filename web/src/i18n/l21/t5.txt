@@ -1,0 +1,366 @@
+@hu
+0	Megjelenés
+1	Telefon beállítása
+2	A téma az alkalmazás bezárása és újbóli megnyitása után változik meg.
+3	Névtelen használati számok és hibanaplók
+4	Az alkalmazás fejlesztéséhez csak napi összesítéseket tárolunk arról, hányszor használják az egyes képernyőket és funkciókat; ezek a számok nem tartalmazzák, ki vagy. Ha az alkalmazás összeomlik, rögzítjük a hibaüzenetet, a verziót és a platformot. Egy helyről küldött javításaidat csak te és a moderátorok látják.
+5	Valami hiba történt
+6	Rögzítettük a problémát, és megvizsgáljuk. Megpróbálhatod újra.
+7	Rossz a helyszín
+8	Rossz a leírás vagy az adat
+9	A hely bezárt / már nem létezik
+10	Valami más
+11	Valami nem stimmel?
+12	Írd meg, mi a hiba, és egy moderátor ellenőrzi és kijavítja.
+13	Most itt vagyok, az én helyzetem a helyes
+14	Saját helyzetem használata
+15	Mi a helyes? Írd le röviden…
+16	Köszönjük! A javaslatodat továbbítottuk a moderátoroknak.
+17	Valami nem stimmel? Javítás javaslata
+18	Ezt a helyet bezártként jelentették.
+19	Legjobb időszak
+20	Most van itt az ideje!
+21	Ez a szezon
+22	Helyi ízek
+23	{1} helyi ízei
+24	Törökország-térképem
+25	{1} / {2} tartomány
+26	{1} meglátogatott hely
+27	Törökország kb. {1}%-a
+28	Ebben a tartományban még egy helyen sem jártál.
+29	A tartomány helyei
+30	Koppints egy tartományra a részletekért.
+31	Kattints egy tartományra a részletekért.
+32	Térképem megosztása
+33	Meglátogatott tartományok
+34	A tartományok itt színeződnek ki, ahányszor egy hely oldalán a „%G%” gombra koppintasz.
+35	Színezd ki a meglátogatott tartományokat, és oszd meg
+36	Kép letöltve
+37	Értesítések
+38	{1} válaszolt az értékelésedre
+39	{1} kedveli az értékelésedet
+40	{1} kedveli a fotódat
+41	Az általad javasolt helyet jóváhagyták és felkerült a térképre
+42	Még nincsenek értesítéseid
+43	Itt látod majd, ha valaki válaszol az értékeléseidre vagy kedveli őket.
+44	Nem sikerült betölteni az értesítéseket.
+45	Ellenőrizd az internetkapcsolatot.
+46	Frissítés
+47	Valaki megosztott veled egy utazási listát
+48	Hozzáadás a listámhoz
+49	Lista megosztása
+50	Ma túl sok javaslatot küldtél. Holnap újra megpróbálhatod.
+51	Offline: mentett adatok láthatók
+52	Offline térkép
+53	Ennek az utazásnak a térképe le van töltve a telefonodra. Internet nélkül is megnyílik.
+54	A gyenge internetes helyekre töltsd le a telefonodra az utazási listád környékét.
+55	A letöltés nem fejeződött be. Ellenőrizd a kapcsolatot, és próbáld újra.
+56	Újra letöltés
+57	Térkép letöltése
+58	Offline térkép törölve
+59	Offline vagy. A korábban megnyitott térképrészek és helyek láthatók maradnak; értékeléshez és megosztáshoz internet kell.
+@sv
+0	Utseende
+1	Telefonens inställning
+2	Temat ändras när du stänger och öppnar appen igen.
+3	Anonym användningsstatistik och felloggar
+4	För att förbättra appen sparar vi bara dagliga totaler av hur ofta skärmar och funktioner används; siffrorna innehåller inte vem du är. Om appen kraschar sparas felmeddelandet, versionen och plattformen. Rättelser du skickar om en plats syns bara för dig och moderatorerna.
+5	Något gick fel
+6	Vi har loggat problemet och tittar på det. Du kan försöka igen.
+7	Platsen är fel
+8	Beskrivningen eller uppgifterna är fel
+9	Platsen har stängt / finns inte längre
+10	Något annat
+11	Stämmer något inte?
+12	Berätta vad som är fel så kontrollerar och rättar en moderator det.
+13	Jag är här nu, min position är den rätta
+14	Använd min position
+15	Vad är rätt? Skriv kort…
+16	Tack! Ditt förslag har skickats till moderatorerna.
+17	Stämmer något inte? Föreslå en rättelse
+18	Platsen har rapporterats som stängd.
+19	Bästa tiden att besöka
+20	Nu är det perfekt tid!
+21	Den här säsongen
+22	Lokala smaker
+23	Lokala smaker från {1}
+24	Min Turkietkarta
+25	{1} / {2} provinser
+26	{1} platser besökta
+27	ungefär {1} % av Turkiet
+28	Du har inte besökt någon plats i den här provinsen än.
+29	Visa platser i provinsen
+30	Tryck på en provins för att se detaljer.
+31	Klicka på en provins för att se detaljer.
+32	Dela min karta
+33	Besökta provinser
+34	Provinserna färgas här när du trycker på ”%G%” på en plats sida.
+35	Färglägg provinserna du besökt och dela
+36	Bilden har laddats ned
+37	Aviseringar
+38	{1} svarade på din recension
+39	{1} gillade din recension
+40	{1} gillade ditt foto
+41	Platsen du föreslog har godkänts och lagts till på kartan
+42	Du har inga aviseringar än
+43	Du ser det här när någon svarar på eller gillar dina recensioner.
+44	Aviseringarna kunde inte laddas.
+45	Kontrollera internetanslutningen.
+46	Uppdatera
+47	Någon har delat en reselista med dig
+48	Lägg till i min lista
+49	Dela listan
+50	Du har skickat för många förslag i dag. Försök igen i morgon.
+51	Offline: sparad information visas
+52	Offlinekarta
+53	Kartan för den här resan finns nedladdad i telefonen. Den öppnas även utan internet.
+54	För platser med svagt internet: ladda ned området kring din reselista till telefonen.
+55	Nedladdningen slutfördes inte. Kontrollera anslutningen och försök igen.
+56	Ladda ned igen
+57	Ladda ned karta
+58	Offlinekartan har raderats
+59	Du är offline. Kartområden och platser du öppnat tidigare syns fortfarande; recensioner och delning kräver internet.
+@no
+0	Utseende
+1	Telefonens innstilling
+2	Temaet endres når du lukker og åpner appen igjen.
+3	Anonym bruksstatistikk og feillogger
+4	For å forbedre appen lagrer vi bare daglige totaler for hvor ofte skjermer og funksjoner brukes; tallene inneholder ikke hvem du er. Hvis appen krasjer, lagres feilmeldingen, versjonen og plattformen. Rettelser du sender om et sted, er bare synlige for deg og moderatorene.
+5	Noe gikk galt
+6	Vi har registrert problemet og ser på det. Du kan prøve igjen.
+7	Stedet er feil plassert
+8	Beskrivelsen eller opplysningene er feil
+9	Stedet er stengt / finnes ikke lenger
+10	Noe annet
+11	Stemmer noe ikke?
+12	Fortell oss hva som er feil, så sjekker og retter en moderator det.
+13	Jeg er her nå, min posisjon er den riktige
+14	Bruk posisjonen min
+15	Hva er riktig? Skriv kort…
+16	Takk! Forslaget ditt er sendt til moderatorene.
+17	Stemmer noe ikke? Foreslå en rettelse
+18	Stedet er meldt som stengt.
+19	Beste tid å besøke
+20	Nå er det perfekt tid!
+21	Denne sesongen
+22	Lokale smaker
+23	Lokale smaker fra {1}
+24	Mitt Tyrkia-kart
+25	{1} / {2} provinser
+26	{1} steder besøkt
+27	omtrent {1} % av Tyrkia
+28	Du har ikke besøkt noe sted i denne provinsen ennå.
+29	Se steder i provinsen
+30	Trykk på en provins for å se detaljer.
+31	Klikk på en provins for å se detaljer.
+32	Del kartet mitt
+33	Besøkte provinser
+34	Provinsene fargelegges her når du trykker «%G%» på siden til et sted.
+35	Fargelegg provinsene du har besøkt, og del
+36	Bildet er lastet ned
+37	Varsler
+38	{1} svarte på anmeldelsen din
+39	{1} likte anmeldelsen din
+40	{1} likte bildet ditt
+41	Stedet du foreslo, er godkjent og lagt til på kartet
+42	Du har ingen varsler ennå
+43	Du ser det her når noen svarer på eller liker anmeldelsene dine.
+44	Kunne ikke laste inn varsler.
+45	Sjekk internettforbindelsen.
+46	Oppdater
+47	Noen har delt en reiseliste med deg
+48	Legg til i listen min
+49	Del listen
+50	Du har sendt for mange forslag i dag. Prøv igjen i morgen.
+51	Frakoblet: lagret informasjon vises
+52	Frakoblet kart
+53	Kartet for denne turen er lastet ned på telefonen. Det åpnes også uten internett.
+54	For steder med svakt internett kan du laste ned området rundt reiselisten til telefonen.
+55	Nedlastingen ble ikke fullført. Sjekk forbindelsen og prøv igjen.
+56	Last ned på nytt
+57	Last ned kart
+58	Frakoblet kart slettet
+59	Du er frakoblet. Kartområder og steder du har åpnet før, er fortsatt synlige; anmeldelser og deling krever internett.
+@da
+0	Udseende
+1	Telefonens indstilling
+2	Temaet skifter, når du lukker og åbner appen igen.
+3	Anonym brugsstatistik og fejllogge
+4	For at forbedre appen gemmer vi kun daglige totaler for, hvor ofte skærme og funktioner bruges; tallene indeholder ikke, hvem du er. Hvis appen går ned, gemmes fejlmeddelelsen, versionen og platformen. Rettelser, du sender om et sted, kan kun ses af dig og moderatorerne.
+5	Noget gik galt
+6	Vi har registreret problemet og kigger på det. Du kan prøve igen.
+7	Placeringen er forkert
+8	Beskrivelsen eller oplysningerne er forkerte
+9	Stedet er lukket / findes ikke længere
+10	Noget andet
+11	Er noget forkert?
+12	Fortæl os, hvad der er forkert, så tjekker og retter en moderator det.
+13	Jeg er her nu, min placering er den rigtige
+14	Brug min placering
+15	Hvad er rigtigt? Skriv kort…
+16	Tak! Dit forslag er sendt til moderatorerne.
+17	Er noget forkert? Foreslå en rettelse
+18	Stedet er meldt lukket.
+19	Bedste tid at besøge
+20	Nu er det det perfekte tidspunkt!
+21	Denne sæson
+22	Lokale smage
+23	Lokale smage fra {1}
+24	Mit Tyrkiet-kort
+25	{1} / {2} provinser
+26	{1} steder besøgt
+27	omkring {1} % af Tyrkiet
+28	Du har ikke besøgt noget sted i denne provins endnu.
+29	Se steder i provinsen
+30	Tryk på en provins for at se detaljer.
+31	Klik på en provins for at se detaljer.
+32	Del mit kort
+33	Besøgte provinser
+34	Provinserne farves her, hver gang du trykker på “%G%” på et steds side.
+35	Farvelæg de provinser, du har besøgt, og del
+36	Billedet er downloadet
+37	Notifikationer
+38	{1} svarede på din anmeldelse
+39	{1} kunne lide din anmeldelse
+40	{1} kunne lide dit foto
+41	Det sted, du foreslog, er godkendt og føjet til kortet
+42	Du har ingen notifikationer endnu
+43	Du ser det her, når nogen svarer på eller kan lide dine anmeldelser.
+44	Notifikationerne kunne ikke indlæses.
+45	Tjek din internetforbindelse.
+46	Opdater
+47	Nogen har delt en rejseliste med dig
+48	Føj til min liste
+49	Del listen
+50	Du har sendt for mange forslag i dag. Prøv igen i morgen.
+51	Offline: gemte oplysninger vises
+52	Offlinekort
+53	Kortet til denne rejse er downloadet på din telefon. Det åbner også uden internet.
+54	Til steder med svagt internet kan du downloade området omkring din rejseliste til telefonen.
+55	Downloaden blev ikke fuldført. Tjek forbindelsen, og prøv igen.
+56	Download igen
+57	Download kort
+58	Offlinekortet er slettet
+59	Du er offline. Kortområder og steder, du har åbnet før, er stadig synlige; anmeldelser og deling kræver internet.
+@fi
+0	Ulkoasu
+1	Puhelimen asetus
+2	Teema vaihtuu, kun suljet sovelluksen ja avaat sen uudelleen.
+3	Nimettömät käyttömäärät ja virhelokit
+4	Sovelluksen parantamiseksi tallennamme vain päivittäiset kokonaismäärät siitä, kuinka usein näkymiä ja toimintoja käytetään; luvuissa ei ole tietoa siitä, kuka olet. Jos sovellus kaatuu, virheilmoitus, versio ja alusta tallennetaan. Paikasta lähettämäsi korjaukset näkevät vain sinä ja moderaattorit.
+5	Jokin meni vikaan
+6	Kirjasimme ongelman ja selvitämme sen. Voit yrittää uudelleen.
+7	Sijainti on väärä
+8	Kuvaus tai tiedot ovat vääriä
+9	Paikka on suljettu / sitä ei enää ole
+10	Jokin muu
+11	Onko jokin pielessä?
+12	Kerro, mikä on väärin, niin moderaattori tarkistaa ja korjaa sen.
+13	Olen täällä nyt, oikea sijainti on minun sijaintini
+14	Käytä sijaintiani
+15	Mikä on oikein? Kirjoita lyhyesti…
+16	Kiitos! Ehdotuksesi välitettiin moderaattoreille.
+17	Onko jokin pielessä? Ehdota korjausta
+18	Paikka on ilmoitettu suljetuksi.
+19	Paras matka-aika
+20	Nyt on täydellinen aika!
+21	Tämä sesonki
+22	Paikalliset maut
+23	{1}: paikalliset maut
+24	Turkki-karttani
+25	{1} / {2} maakuntaa
+26	{1} paikassa käyty
+27	noin {1} % Turkista
+28	Et ole vielä käynyt yhdessäkään paikassa tässä maakunnassa.
+29	Näytä maakunnan paikat
+30	Napauta maakuntaa nähdäksesi tiedot.
+31	Napsauta maakuntaa nähdäksesi tiedot.
+32	Jaa karttani
+33	Maakunnat, joissa olet käynyt
+34	Maakunnat värittyvät tänne aina, kun napautat paikan sivulla ”%G%”.
+35	Väritä maakunnat, joissa olet käynyt, ja jaa
+36	Kuva ladattu
+37	Ilmoitukset
+38	{1} vastasi arvosteluusi
+39	{1} tykkäsi arvostelustasi
+40	{1} tykkäsi kuvastasi
+41	Ehdottamasi paikka hyväksyttiin ja lisättiin kartalle
+42	Sinulla ei ole vielä ilmoituksia
+43	Näet täällä, kun joku vastaa arvosteluihisi tai tykkää niistä.
+44	Ilmoituksia ei voitu ladata.
+45	Tarkista internetyhteys.
+46	Päivitä
+47	Sinulle jaettiin matkalista
+48	Lisää omalle listalle
+49	Jaa lista
+50	Lähetit tänään liian monta ehdotusta. Yritä huomenna uudelleen.
+51	Offline: näytetään tallennetut tiedot
+52	Offline-kartta
+53	Tämän matkan kartta on ladattu puhelimeesi. Se aukeaa myös ilman internetiä.
+54	Heikon yhteyden paikkoja varten lataa matkalistasi ympäristö puhelimeesi.
+55	Lataus ei valmistunut. Tarkista yhteys ja yritä uudelleen.
+56	Lataa uudelleen
+57	Lataa kartta
+58	Offline-kartta poistettu
+59	Olet offline-tilassa. Aiemmin avatut kartta-alueet ja paikat näkyvät edelleen; arvostelut ja jakaminen vaativat internetin.
+@he
+0	מראה
+1	הגדרת הטלפון
+2	ערכת הנושא תשתנה כשתסגור ותפתח שוב את האפליקציה.
+3	ספירות שימוש אנונימיות ויומני שגיאות
+4	כדי לשפר את האפליקציה אנו שומרים רק סיכומים יומיים של מספר הפעמים שבהן נעשה שימוש במסכים ובתכונות; המספרים האלה לא כוללים מי אתה. אם האפליקציה קורסת, נשמרים הודעת השגיאה, הגרסה והפלטפורמה. תיקונים שאתה שולח על מקום גלויים רק לך ולמנחים.
+5	משהו השתבש
+6	רשמנו את הבעיה ונבדוק אותה. אפשר לנסות שוב.
+7	המיקום שגוי
+8	התיאור או המידע שגויים
+9	המקום נסגר / כבר לא קיים
+10	משהו אחר
+11	משהו לא נכון?
+12	ספר לנו מה לא נכון, ומנחה יבדוק ויתקן.
+13	אני כאן עכשיו, המיקום שלי הוא הנכון
+14	שימוש במיקום שלי
+15	מה נכון? כתוב בקצרה…
+16	תודה! ההצעה שלך הועברה למנחים.
+17	משהו לא נכון? הצעת תיקון
+18	דווח שהמקום הזה נסגר.
+19	הזמן הטוב ביותר לביקור
+20	עכשיו בדיוק הזמן!
+21	העונה הזו
+22	טעמים מקומיים
+23	טעמים מקומיים של {1}
+24	מפת טורקיה שלי
+25	{1} / {2} מחוזות
+26	{1} מקומות שביקרת
+27	כ־{1}% מטורקיה
+28	עדיין לא ביקרת באף מקום במחוז הזה.
+29	הצגת המקומות במחוז
+30	הקש על מחוז כדי לראות פרטים.
+31	לחץ על מחוז כדי לראות פרטים.
+32	שיתוף המפה שלי
+33	מחוזות שביקרת בהם
+34	המחוזות נצבעים כאן בכל פעם שאתה מקיש „%G%” בדף של מקום.
+35	צבע את המחוזות שביקרת בהם ושתף
+36	התמונה הורדה
+37	התראות
+38	{1} הגיב/ה לביקורת שלך
+39	{1} אהב/ה את הביקורת שלך
+40	{1} אהב/ה את התמונה שלך
+41	המקום שהצעת אושר ונוסף למפה
+42	עדיין אין לך התראות
+43	תראה כאן כשמישהו יגיב לביקורות שלך או יאהב אותן.
+44	לא ניתן היה לטעון התראות.
+45	בדוק את החיבור לאינטרנט.
+46	רענון
+47	מישהו שיתף איתך רשימת טיול
+48	הוספה לרשימה שלי
+49	שיתוף הרשימה
+50	שלחת היום יותר מדי הצעות. אפשר לנסות שוב מחר.
+51	לא מקוון: מוצג מידע שמור
+52	מפה לא מקוונת
+53	המפה של הטיול הזה הורדה לטלפון שלך. היא נפתחת גם בלי אינטרנט.
+54	למקומות עם אינטרנט חלש, הורד לטלפון את הסביבה של רשימת הטיול שלך.
+55	ההורדה לא הושלמה. בדוק את החיבור ונסה שוב.
+56	הורדה מחדש
+57	הורדת המפה
+58	המפה הלא מקוונת נמחקה
+59	אתה לא מחובר. אזורי מפה ומקומות שפתחת קודם עדיין גלויים; ביקורות ושיתוף דורשים אינטרנט.

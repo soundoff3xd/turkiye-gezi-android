@@ -1,0 +1,27 @@
+const { chromium } = require('playwright');
+const [file, out] = process.argv.slice(2);
+(async () => {
+  const b = await chromium.launch(); const errs = [];
+  const pg = await b.newPage({ viewport: { width: 390, height: 844 }, deviceScaleFactor: 2, isMobile: true, hasTouch: true });
+  pg.on('pageerror', e => errs.push(e.message));
+  await pg.addInitScript(() => { try { localStorage.setItem('gezi-onboarded', '1'); localStorage.setItem('gezi-acct', JSON.stringify({ email: 'a@b.co', name: 'Ayşe' })); } catch (_) {} });
+  await pg.goto('file://' + file); await pg.waitForTimeout(1500); await pg.evaluate(() => { const bt = [...document.querySelectorAll('button')].find(x => /demo/i.test(x.dataset.a || '')); bt && bt.click(); }); await pg.waitForTimeout(800);
+  await pg.evaluate(() => { const d = document.querySelector('dialog[open]'); if (d) d.close(); if (window.CUR == null && window.loadUser) {} });
+  const seg = () => pg.evaluate(() => [...document.querySelectorAll('.seg')].filter(s => s.offsetParent).map(s => s.dataset.m).join(','));
+  const log = [];
+  log.push('başta seçici: ' + await seg());
+  await pg.evaluate(() => A.pmode('photos'));
+  await pg.waitForTimeout(90);
+  log.push('vitrine geçerken sınıf: ' + await pg.evaluate(() => document.getElementById('photov').className) + ' | kart animasyonu: ' + await pg.evaluate(() => document.querySelectorAll('#photos .pcard.pop').length));
+  await pg.screenshot({ path: out + '/anim-orta.png' });
+  await pg.waitForTimeout(600);
+  log.push('bitince sınıf: "' + await pg.evaluate(() => document.getElementById('photov').className) + '" | seçici: ' + await seg() + ' | vurgu kayması: ' + await pg.evaluate(() => { const s = [...document.querySelectorAll('.seg')].find(x => x.offsetParent); return getComputedStyle(s, '::before').transform; }));
+  await pg.screenshot({ path: out + '/anim-son.png' });
+  await pg.evaluate(() => A.pmode('places')); await pg.waitForTimeout(60);
+  log.push('yerlere dönüş sınıfı: ' + await pg.evaluate(() => document.getElementById('listv').className));
+  await pg.waitForTimeout(600);
+  await pg.evaluate(() => A.pick(PLACES[0].id)); await pg.waitForTimeout(60);
+  log.push('yer kartı sınıfı: ' + await pg.evaluate(() => document.getElementById('detailv').className));
+  console.log(log.join('\n')); console.log('hatalar:', errs.length ? errs : 'yok');
+  await b.close();
+})();

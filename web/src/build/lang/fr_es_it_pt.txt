@@ -1,0 +1,588 @@
+@@fr
+places|Lieux à visiter
+nplaces|{1} lieux
+suggest|Proposer un lieu
+pending_n|En attente ({1})
+pending|En attente
+sortby|Trier par
+s_visits|Les plus visités
+s_favs|Les plus aimés
+s_rating|Les mieux notés
+s_reviews|Les plus commentés
+all|Tous
+c_tarih|Site historique
+c_muze|Musée et palais
+c_carsi|Ville et bazar
+c_manzara|Point de vue
+c_doga|Nature
+c_deniz|Bord de mer
+sample_note|Les notes, avis, visites et favoris sont des données d’exemple.
+allplaces|Tous les lieux
+allturkey|Toute la Turquie
+r_marmara|Marmara
+r_ege|Égée
+r_akdeniz|Méditerranée
+r_ic|Anatolie centrale
+r_karadeniz|Mer Noire
+r_dogu|Anatolie orientale
+r_gd|Anatolie du Sud-Est
+rg_marmara|Région de Marmara
+rg_ege|Région égéenne
+rg_akdeniz|Région méditerranéenne
+rg_ic|Anatolie centrale
+rg_karadeniz|Région de la mer Noire
+rg_dogu|Anatolie orientale
+rg_gd|Anatolie du Sud-Est
+mapdata|Données cartographiques : Natural Earth
+search|Rechercher un lieu
+zin|Zoom avant
+zout|Zoom arrière
+close|Fermer
+nrev|{1} avis
+nrevp|({1} avis)
+nvisit|{1} visiteurs
+nfav|{1} favoris
+new|Nouveau
+noresult|Aucun lieu ne correspond à cette recherche ou à ce filtre.
+beenq|Déjà visité ?
+been|Visité
+fav|Favori
+faved|En favori
+dir|Itinéraire
+write|Écrire un avis
+addphoto|Ajouter une photo
+overview|Aperçu
+reviews|Avis
+photos|Photos
+photos_n|Photos ({1})
+location|Emplacement
+getting|Comment s’y rendre
+norating|Pas encore de note
+hours|Les horaires et tarifs peuvent changer ; vérifiez la source officielle avant d’y aller.
+outof|{1} sur 5
+sample|Exemple
+samplephoto|Photo d’exemple
+samplevideo|Vidéo d’exemple
+daysago|il y a {1} jours
+dayago|il y a 1 jour
+weeksago|il y a {1} semaines
+weekago|il y a 1 semaine
+hoursago|il y a {1} heures
+now|À l’instant
+like|J’aime
+replies|Réponses
+replyw|Écrire une réponse
+send|Envoyer
+norev|Aucun avis pour ce lieu
+nophoto|Pas encore de photos ni de vidéos
+share|Partagez votre expérience
+yourrating|Votre note
+yourexp|Votre expérience
+nstars|{1} étoiles
+addmedia|Ajouter une photo ou une vidéo
+remove|Supprimer
+post|Publier
+posted|Votre avis est publié
+addedvisited|Ajouté aux lieux visités
+addedfav|Ajouté aux favoris
+suggested|Lieux proposés
+howver|Comment c’est vérifié ?
+st_wait|En attente de la communauté
+st_mod|Signalé, chez un modérateur
+st_ok|Approuvé, sur la carte
+st_no|Refusé
+napprove|{1}/{2} validations
+showmap|Voir sur la carte
+real|Ce lieu existe
+wrong|Faux / inapproprié
+newplace|Proposer un nouveau lieu
+pname|Nom du lieu
+markmap|Marquer sur la carte
+chloc|Changer l’emplacement
+province|Province
+category|Catégorie
+shortdesc|Courte description
+proof|Ajouter une photo preuve (prise sur place)
+visited_me|J’ai visité ce lieu moi-même
+submit|Envoyer pour vérification
+tapmap|Touchez la carte pour choisir l’emplacement
+cancel|Annuler
+underreview|Votre proposition est en cours d’examen
+welcome_t|Guide de voyage Turquie
+welcome_s|Découvrez des lieux à visiter dans toute la Turquie, marquez où vous êtes allé et partagez vos expériences et photos.
+welcome_n|Créez un compte gratuit ou connectez-vous pour utiliser l’application.
+login|Se connecter
+signup|S’inscrire
+yourname|Votre nom
+email|E-mail
+password|Mot de passe
+min8|Au moins 8 caractères
+demo|Essayer le compte démo
+bademail|Saisissez une adresse e-mail valide.
+shortpw|Le mot de passe doit contenir au moins 8 caractères.
+exists|Un compte existe déjà avec cet e-mail. Essayez de vous connecter.
+wrongpw|E-mail ou mot de passe incorrect.
+created|Compte créé, bienvenue {1}
+wb|Bon retour {1}
+logout|Se déconnecter
+loggedout|Déconnecté
+myprofile|Mon profil
+loginsignup|Se connecter ou s’inscrire
+p_been|Visités ({1})
+p_fav|Favoris ({1})
+p_rev|Mes avis ({1})
+p_sug|Mes propositions ({1})
+member|Membre depuis {1}
+level|Niveau de voyageur
+npoints|{1} points
+nextlevel|Niveau suivant :
+l0|Nouveau voyageur
+l1|Voyageur
+l2|Voyageur expérimenté
+l3|Guide de confiance
+delacct|Supprimer le compte
+yesdel|Oui, supprimer
+lang|Langue
+region|Région
+mapof|Carte de la Turquie
+@@es
+places|Lugares para visitar
+nplaces|{1} lugares
+suggest|Sugerir un lugar
+pending_n|Pendientes ({1})
+pending|Pendientes
+sortby|Ordenar por
+s_visits|Más visitados
+s_favs|Más favoritos
+s_rating|Mejor valorados
+s_reviews|Más reseñas
+all|Todos
+c_tarih|Sitio histórico
+c_muze|Museo y palacio
+c_carsi|Ciudad y bazar
+c_manzara|Mirador
+c_doga|Naturaleza
+c_deniz|Costa
+sample_note|Las valoraciones, reseñas, visitas y favoritos son datos de ejemplo.
+allplaces|Todos los lugares
+allturkey|Toda Turquía
+r_marmara|Mármara
+r_ege|Egeo
+r_akdeniz|Mediterráneo
+r_ic|Anatolia Central
+r_karadeniz|Mar Negro
+r_dogu|Anatolia Oriental
+r_gd|Anatolia Sudoriental
+rg_marmara|Región de Mármara
+rg_ege|Región del Egeo
+rg_akdeniz|Región mediterránea
+rg_ic|Anatolia Central
+rg_karadeniz|Región del Mar Negro
+rg_dogu|Anatolia Oriental
+rg_gd|Anatolia Sudoriental
+mapdata|Datos del mapa: Natural Earth
+search|Buscar lugares
+zin|Acercar
+zout|Alejar
+close|Cerrar
+nrev|{1} reseñas
+nrevp|({1} reseñas)
+nvisit|{1} visitantes
+nfav|{1} favoritos
+new|Nuevo
+noresult|Ningún lugar coincide con esta búsqueda o filtro.
+beenq|¿Has estado?
+been|He estado
+fav|Favorito
+faved|En favoritos
+dir|Cómo llegar
+write|Escribir reseña
+addphoto|Añadir foto
+overview|Resumen
+reviews|Reseñas
+photos|Fotos
+photos_n|Fotos ({1})
+location|Ubicación
+getting|Cómo llegar
+norating|Aún sin valoraciones
+hours|Los horarios y precios pueden cambiar; consulta la fuente oficial antes de ir.
+outof|{1} de 5
+sample|Ejemplo
+samplephoto|Foto de ejemplo
+samplevideo|Vídeo de ejemplo
+daysago|hace {1} días
+dayago|hace 1 día
+weeksago|hace {1} semanas
+weekago|hace 1 semana
+hoursago|hace {1} horas
+now|Ahora mismo
+like|Me gusta
+replies|Respuestas
+replyw|Escribir respuesta
+send|Enviar
+norev|No hay reseñas de este lugar
+nophoto|Aún no hay fotos ni vídeos
+share|Comparte tu experiencia
+yourrating|Tu valoración
+yourexp|Tu experiencia
+nstars|{1} estrellas
+addmedia|Añadir foto o vídeo
+remove|Quitar
+post|Publicar
+posted|Tu reseña se ha publicado
+addedvisited|Añadido a lugares visitados
+addedfav|Añadido a favoritos
+suggested|Lugares sugeridos
+howver|¿Cómo se verifica?
+st_wait|Esperando a la comunidad
+st_mod|Denunciado, con un moderador
+st_ok|Aprobado, en el mapa
+st_no|Rechazado
+napprove|{1}/{2} aprobaciones
+showmap|Ver en el mapa
+real|Este lugar es real
+wrong|Falso / inapropiado
+newplace|Sugerir un lugar nuevo
+pname|Nombre del lugar
+markmap|Marcar en el mapa
+chloc|Cambiar ubicación
+province|Provincia
+category|Categoría
+shortdesc|Descripción breve
+proof|Añadir foto de prueba (tomada allí)
+visited_me|He visitado este lugar personalmente
+submit|Enviar a revisión
+tapmap|Toca el mapa para elegir la ubicación
+cancel|Cancelar
+underreview|Tu sugerencia está en revisión
+welcome_t|Guía de viaje de Turquía
+welcome_s|Descubre lugares para visitar en toda Turquía, marca dónde has estado y comparte tus experiencias y fotos.
+welcome_n|Crea una cuenta gratuita o inicia sesión para usar la app.
+login|Iniciar sesión
+signup|Registrarse
+yourname|Tu nombre
+email|Correo electrónico
+password|Contraseña
+min8|Al menos 8 caracteres
+demo|Probar la cuenta demo
+bademail|Introduce un correo válido.
+shortpw|La contraseña debe tener al menos 8 caracteres.
+exists|Ya existe una cuenta con este correo. Prueba a iniciar sesión.
+wrongpw|Correo o contraseña incorrectos.
+created|Cuenta creada, bienvenido/a {1}
+wb|Hola de nuevo {1}
+logout|Cerrar sesión
+loggedout|Sesión cerrada
+myprofile|Mi perfil
+loginsignup|Inicia sesión o regístrate
+p_been|Visitados ({1})
+p_fav|Favoritos ({1})
+p_rev|Mis reseñas ({1})
+p_sug|Mis sugerencias ({1})
+member|Miembro desde {1}
+level|Nivel de viajero
+npoints|{1} puntos
+nextlevel|Siguiente nivel:
+l0|Viajero nuevo
+l1|Viajero
+l2|Viajero experto
+l3|Guía de confianza
+delacct|Eliminar cuenta
+yesdel|Sí, eliminar
+lang|Idioma
+region|Región
+mapof|Mapa de Turquía
+@@it
+places|Luoghi da visitare
+nplaces|{1} luoghi
+suggest|Proponi un luogo
+pending_n|In attesa ({1})
+pending|In attesa
+sortby|Ordina per
+s_visits|Più visitati
+s_favs|Più preferiti
+s_rating|Più votati
+s_reviews|Più recensiti
+all|Tutti
+c_tarih|Sito storico
+c_muze|Museo e palazzo
+c_carsi|Città e bazar
+c_manzara|Panorama
+c_doga|Natura
+c_deniz|Mare
+sample_note|Voti, recensioni, visite e preferiti sono dati di esempio.
+allplaces|Tutti i luoghi
+allturkey|Tutta la Turchia
+r_marmara|Marmara
+r_ege|Egeo
+r_akdeniz|Mediterraneo
+r_ic|Anatolia centrale
+r_karadeniz|Mar Nero
+r_dogu|Anatolia orientale
+r_gd|Anatolia sud-orientale
+rg_marmara|Regione di Marmara
+rg_ege|Regione dell’Egeo
+rg_akdeniz|Regione mediterranea
+rg_ic|Anatolia centrale
+rg_karadeniz|Regione del Mar Nero
+rg_dogu|Anatolia orientale
+rg_gd|Anatolia sud-orientale
+mapdata|Dati mappa: Natural Earth
+search|Cerca luoghi
+zin|Ingrandisci
+zout|Riduci
+close|Chiudi
+nrev|{1} recensioni
+nrevp|({1} recensioni)
+nvisit|{1} visitatori
+nfav|{1} preferiti
+new|Nuovo
+noresult|Nessun luogo corrisponde a questa ricerca o filtro.
+beenq|Ci sei stato?
+been|Ci sono stato
+fav|Preferito
+faved|Nei preferiti
+dir|Indicazioni
+write|Scrivi recensione
+addphoto|Aggiungi foto
+overview|Panoramica
+reviews|Recensioni
+photos|Foto
+photos_n|Foto ({1})
+location|Posizione
+getting|Come arrivare
+norating|Ancora nessun voto
+hours|Orari e prezzi possono cambiare; controlla la fonte ufficiale prima di andare.
+outof|{1} su 5
+sample|Esempio
+samplephoto|Foto di esempio
+samplevideo|Video di esempio
+daysago|{1} giorni fa
+dayago|1 giorno fa
+weeksago|{1} settimane fa
+weekago|1 settimana fa
+hoursago|{1} ore fa
+now|Adesso
+like|Mi piace
+replies|Risposte
+replyw|Scrivi una risposta
+send|Invia
+norev|Nessuna recensione per questo luogo
+nophoto|Ancora nessuna foto o video
+share|Condividi la tua esperienza
+yourrating|Il tuo voto
+yourexp|La tua esperienza
+nstars|{1} stelle
+addmedia|Aggiungi foto o video
+remove|Rimuovi
+post|Pubblica
+posted|Recensione pubblicata
+addedvisited|Aggiunto ai luoghi visitati
+addedfav|Aggiunto ai preferiti
+suggested|Luoghi proposti
+howver|Come viene verificato?
+st_wait|In attesa della comunità
+st_mod|Segnalato, al moderatore
+st_ok|Approvato, sulla mappa
+st_no|Rifiutato
+napprove|{1}/{2} approvazioni
+showmap|Mostra sulla mappa
+real|Questo luogo esiste
+wrong|Errato / inappropriato
+newplace|Proponi un nuovo luogo
+pname|Nome del luogo
+markmap|Segna sulla mappa
+chloc|Cambia posizione
+province|Provincia
+category|Categoria
+shortdesc|Breve descrizione
+proof|Aggiungi una foto di prova (scattata lì)
+visited_me|Ho visitato questo luogo di persona
+submit|Invia per la verifica
+tapmap|Tocca la mappa per scegliere la posizione
+cancel|Annulla
+underreview|La tua proposta è in revisione
+welcome_t|Guida di viaggio della Turchia
+welcome_s|Scopri luoghi da visitare in tutta la Turchia, segna dove sei stato e condividi esperienze e foto.
+welcome_n|Crea un account gratuito o accedi per usare l’app.
+login|Accedi
+signup|Registrati
+yourname|Il tuo nome
+email|E-mail
+password|Password
+min8|Almeno 8 caratteri
+demo|Prova l’account demo
+bademail|Inserisci un indirizzo e-mail valido.
+shortpw|La password deve avere almeno 8 caratteri.
+exists|Esiste già un account con questa e-mail. Prova ad accedere.
+wrongpw|E-mail o password errate.
+created|Account creato, benvenuto/a {1}
+wb|Bentornato/a {1}
+logout|Esci
+loggedout|Disconnesso
+myprofile|Il mio profilo
+loginsignup|Accedi o registrati
+p_been|Visitati ({1})
+p_fav|Preferiti ({1})
+p_rev|Le mie recensioni ({1})
+p_sug|Le mie proposte ({1})
+member|Membro dal {1}
+level|Livello viaggiatore
+npoints|{1} punti
+nextlevel|Livello successivo:
+l0|Nuovo viaggiatore
+l1|Viaggiatore
+l2|Viaggiatore esperto
+l3|Guida affidabile
+delacct|Elimina account
+yesdel|Sì, elimina
+lang|Lingua
+region|Regione
+mapof|Mappa della Turchia
+@@pt
+places|Lugares para visitar
+nplaces|{1} lugares
+suggest|Sugerir um lugar
+pending_n|Pendentes ({1})
+pending|Pendentes
+sortby|Ordenar por
+s_visits|Mais visitados
+s_favs|Mais favoritados
+s_rating|Mais bem avaliados
+s_reviews|Mais avaliações
+all|Todos
+c_tarih|Local histórico
+c_muze|Museu e palácio
+c_carsi|Cidade e bazar
+c_manzara|Mirante
+c_doga|Natureza
+c_deniz|Litoral
+sample_note|Notas, avaliações, visitas e favoritos são dados de exemplo.
+allplaces|Todos os lugares
+allturkey|Toda a Turquia
+r_marmara|Mármara
+r_ege|Egeu
+r_akdeniz|Mediterrâneo
+r_ic|Anatólia Central
+r_karadeniz|Mar Negro
+r_dogu|Anatólia Oriental
+r_gd|Anatólia do Sudeste
+rg_marmara|Região de Mármara
+rg_ege|Região do Egeu
+rg_akdeniz|Região do Mediterrâneo
+rg_ic|Anatólia Central
+rg_karadeniz|Região do Mar Negro
+rg_dogu|Anatólia Oriental
+rg_gd|Anatólia do Sudeste
+mapdata|Dados do mapa: Natural Earth
+search|Pesquisar lugares
+zin|Aproximar
+zout|Afastar
+close|Fechar
+nrev|{1} avaliações
+nrevp|({1} avaliações)
+nvisit|{1} visitantes
+nfav|{1} favoritos
+new|Novo
+noresult|Nenhum lugar corresponde a esta pesquisa ou filtro.
+beenq|Já esteve aqui?
+been|Já estive
+fav|Favorito
+faved|Nos favoritos
+dir|Rotas
+write|Escrever avaliação
+addphoto|Adicionar foto
+overview|Visão geral
+reviews|Avaliações
+photos|Fotos
+photos_n|Fotos ({1})
+location|Localização
+getting|Como chegar
+norating|Ainda sem notas
+hours|Horários e preços podem mudar; confira a fonte oficial antes de ir.
+outof|{1} de 5
+sample|Exemplo
+samplephoto|Foto de exemplo
+samplevideo|Vídeo de exemplo
+daysago|há {1} dias
+dayago|há 1 dia
+weeksago|há {1} semanas
+weekago|há 1 semana
+hoursago|há {1} horas
+now|Agora mesmo
+like|Curtir
+replies|Respostas
+replyw|Escrever resposta
+send|Enviar
+norev|Nenhuma avaliação para este lugar
+nophoto|Ainda sem fotos ou vídeos
+share|Compartilhe sua experiência
+yourrating|Sua nota
+yourexp|Sua experiência
+nstars|{1} estrelas
+addmedia|Adicionar foto ou vídeo
+remove|Remover
+post|Publicar
+posted|Sua avaliação foi publicada
+addedvisited|Adicionado aos lugares visitados
+addedfav|Adicionado aos favoritos
+suggested|Lugares sugeridos
+howver|Como é verificado?
+st_wait|Aguardando a comunidade
+st_mod|Denunciado, com um moderador
+st_ok|Aprovado, no mapa
+st_no|Rejeitado
+napprove|{1}/{2} aprovações
+showmap|Ver no mapa
+real|Este lugar é real
+wrong|Errado / inadequado
+newplace|Sugerir um novo lugar
+pname|Nome do lugar
+markmap|Marcar no mapa
+chloc|Mudar localização
+province|Província
+category|Categoria
+shortdesc|Descrição curta
+proof|Adicionar foto de prova (tirada no local)
+visited_me|Visitei este lugar pessoalmente
+submit|Enviar para análise
+tapmap|Toque no mapa para escolher o local
+cancel|Cancelar
+underreview|Sua sugestão está em análise
+welcome_t|Guia de Viagem da Turquia
+welcome_s|Descubra lugares para visitar em toda a Turquia, marque onde esteve e compartilhe experiências e fotos.
+welcome_n|Crie uma conta gratuita ou entre para usar o app.
+login|Entrar
+signup|Cadastrar-se
+yourname|Seu nome
+email|E-mail
+password|Senha
+min8|Pelo menos 8 caracteres
+demo|Experimentar a conta demo
+bademail|Digite um e-mail válido.
+shortpw|A senha deve ter pelo menos 8 caracteres.
+exists|Já existe uma conta com este e-mail. Tente entrar.
+wrongpw|E-mail ou senha incorretos.
+created|Conta criada, boas-vindas {1}
+wb|Que bom te ver de novo {1}
+logout|Sair
+loggedout|Você saiu
+myprofile|Meu perfil
+loginsignup|Entrar ou cadastrar-se
+p_been|Visitados ({1})
+p_fav|Favoritos ({1})
+p_rev|Minhas avaliações ({1})
+p_sug|Minhas sugestões ({1})
+member|Membro desde {1}
+level|Nível de viajante
+npoints|{1} pontos
+nextlevel|Próximo nível:
+l0|Viajante novo
+l1|Viajante
+l2|Viajante experiente
+l3|Guia confiável
+delacct|Excluir conta
+yesdel|Sim, excluir
+lang|Idioma
+region|Região
+mapof|Mapa da Turquia

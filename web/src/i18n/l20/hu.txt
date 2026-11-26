@@ -1,0 +1,576 @@
+0	Látnivalók
+1	{1} hely
+2	Hely javaslása
+3	Jóváhagyásra vár ({1})
+4	Jóváhagyásra vár
+5	Rendezés
+6	Rendezés és szűrés
+7	Leglátogatottabb
+8	Legkedveltebb
+9	Legjobbra értékelt
+10	Legtöbb értékelés
+11	Mind
+12	Történelmi épületek
+13	Múzeum és palota
+14	Város és piac
+15	Kilátópont
+16	Természet
+17	Tenger
+19	Minden hely
+20	Egész Törökország
+21	Márvány-tenger
+22	Égei-tenger
+23	Földközi-tenger
+24	Közép-Anatólia
+25	Fekete-tenger
+26	Kelet-Anatólia
+27	Délkelet-Anatólia
+28	Térképadatok: Natural Earth
+29	Panel kicsinyítése
+30	Panel nagyítása
+31	Törökország térképe
+32	Helyek listája
+33	Helyek keresése
+34	Régió
+35	Kategória
+36	Nagyítás
+37	Kicsinyítés
+38	Bezárás
+39	Nyelv
+40	{1} értékelés
+41	({1} értékelés)
+42	{1} látogató
+43	{1} kedvelés
+44	Új
+45	A közösség adta hozzá
+46	Nincs a keresésnek vagy szűrőnek megfelelő hely.
+47	Jártál itt?
+48	Jártam itt
+49	Kedvenc
+50	Kedvencek között
+51	Útvonal
+52	Értékelés írása
+53	Fotó hozzáadása
+54	Áttekintés
+55	Értékelések
+56	Fotók
+57	Fotók ({1})
+58	Helyszín
+59	Hogyan juthatsz el oda
+60	Még nincs értékelés
+61	{1} javasolta, a közösség jóváhagyta
+62	A nyitvatartás és a belépőjegy ára változhat; indulás előtt nézd meg a hivatalos forrást.
+63	{1} az 5-ből
+68	{1} napja
+69	1 napja
+70	{1} hete
+71	1 hete
+72	{1} órája
+73	Épp most
+74	Te
+75	Tetszik
+76	Válasz
+77	Válasz írása
+78	Küldés
+79	Ehhez a helyhez még nincs értékelés
+80	Jártál itt? Oszd meg elsőként a tapasztalatod.
+81	Még nincs fotó vagy videó
+82	Oszd meg a felvételeidet, hogy a következő utazók tudják, mire számíthatnak.
+83	Megosztott fotó
+84	Kiválasztott fotó
+85	Oszd meg a tapasztalatod
+86	Értékelésed
+87	Tapasztalatod
+88	{1} csillag
+89	Fotó vagy videó hozzáadása
+90	Eltávolítás
+91	Közzététel
+92	Mit láttál és csináltál? Hagyj tippet a következő látogatóknak.
+93	Értékelés és szöveg vagy média szükséges. A bejegyzések nyilvánosak; ne ossz meg személyes adatokat vagy mások arcát.
+94	Értékelésed megjelent
+95	Hozzáadva a meglátogatott helyekhez
+96	Hozzáadva a kedvencekhez
+97	Javasolt helyek
+98	Hogyan ellenőrizzük?
+99	1. Automatikus ellenőrzés: Törökországban van-e a hely, létezik-e már, tartalmaz-e sértő szavakat vagy linket, van-e bizonyító fotó.
+100	2. Közösségi jóváhagyás: ha {1} felhasználó megerősíti, hogy „Ez a hely valódi”, felkerül a térképre. Saját javaslatát senki sem hagyhatja jóvá.
+101	3. Moderátor: a(z) {1} „Hibás vagy nem megfelelő” jelentést kapott javaslat lekerül, és a moderátorhoz kerül.
+102	Mindenki naponta {1} helyet javasolhat.
+104	javasolta: {1}, {2}
+105	Közösségi jóváhagyásra vár
+106	Jelentve, moderátornál
+107	Jóváhagyva, a térképen
+108	Elutasítva
+109	{1}/{2} jóváhagyás
+110	{1}/{2} jóváhagyás · {3} jelentés
+111	Megjelenítés a térképen
+112	Ez a hely valódi
+113	Hibás / nem megfelelő
+114	Moderátor: jóváhagyás
+115	Moderátor: elutasítás
+117	{1} felkerült a térképre
+118	A javaslat a moderátorhoz került
+119	A jelentés beérkezett
+120	A javaslat elutasítva
+121	Javaslatodat elbíráljuk
+122	Új hely javaslása
+123	Egy hely, ahol jártál, de még nincs az alkalmazásban
+124	A hely neve
+125	Például: Tortum-vízesés
+126	Jelöld a térképen
+127	Helyszín módosítása
+128	Még nincs kiválasztott helyszín
+129	{1} (Törökországon kívül)
+130	Tartomány
+131	Rövid leírás
+132	Mit lehet ott látni, és miért érdemes elmenni?
+133	Bizonyító fotó hozzáadása (a helyszínen készült)
+134	Személyesen jártam ezen a helyen
+135	Beküldés ellenőrzésre
+136	Javaslatod az automatikus ellenőrzés után akkor kerül fel, ha {1} felhasználó jóváhagyja. A jelentett javaslatok a moderátorhoz kerülnek.
+137	Koppints a térképre a helyszín kiválasztásához
+138	Mégse
+139	Javaslatod nem lett elküldve:
+140	A név {1}–{2} karakter hosszú lehet.
+141	A leírás legalább {1} karakter legyen; néhány szóban írd le, mit lehet látni.
+142	Linkek nem megengedettek.
+143	Ne használj ismételt betűket vagy csupa nagybetűt.
+144	Sértő szavakat tartalmaz.
+145	Jelöld meg a helyszínt a térképen.
+146	A kiválasztott helyszín Törökországon kívül van.
+147	Ez a hely már létezik vagy nagyon közel van: {1}.
+148	Bizonyítékként adj hozzá egy ott készült fotót.
+149	Erősítsd meg, hogy személyesen jártál a helyen.
+150	Naponta legfeljebb {1} helyet javasolhatsz.
+165	Márvány-tengeri régió
+166	Égei-tengeri régió
+167	Földközi-tengeri régió
+168	Közép-anatóliai régió
+169	Fekete-tengeri régió
+170	Kelet-anatóliai régió
+171	Délkelet-anatóliai régió
+172	Új utazó
+173	Utazó
+174	Tapasztalt utazó
+175	Megbízható kalauz
+176	Profilom
+177	Bejelentkezés vagy regisztráció
+178	A folytatáshoz jelentkezz be vagy regisztrálj.
+179	Fiókod
+180	Bejelentkezés
+181	Regisztráció
+182	Neved
+183	E-mail
+184	Jelszó
+185	Legalább 8 karakter
+186	Demófiók kipróbálása
+188	Adj meg érvényes e-mail-címet.
+189	A jelszó legalább 8 karakter legyen.
+190	A név 2–30 karakter hosszú lehet.
+191	Ez a név nem használható.
+192	Ezzel az e-maillel már van fiók. Próbálj bejelentkezni.
+193	Hibás e-mail vagy jelszó.
+194	Fiók létrehozva, üdv, {1}
+195	Üdv újra, {1}
+196	Bejelentkeztél a demófiókkal
+197	Kijelentkeztél
+198	Kijelentkezés
+199	Jártam itt ({1})
+200	Kedvencek ({1})
+201	Értékeléseim ({1})
+202	Javaslataim ({1})
+203	Jelöld meg a meglátogatott helyeket a hely kártyáján a „Jártál itt?” gombbal.
+204	Mentsd el a tetsző helyeket a „Kedvenc” gombbal.
+205	Még nem írtál értékelést.
+206	A hiányzó helyet a „Hely javaslása” menüben adhatod hozzá.
+207	Tag ekkor óta: {1}
+208	Utazói szint
+209	{1} pont
+210	Következő szint:
+211	A legmagasabb szinten vagy.
+212	Pontok: meglátogatott hely 1, értékelés 3, jóváhagyott javaslat 10. A megbízható kalauz jóváhagyása 2 szavazatot ér.
+213	Fiók törlése
+214	Törlöd a fiókot és minden adatát ebből a böngészőből?
+215	Igen, törlés
+216	Fiókod törölve
+219	Törökország útikalauz
+220	Fedezd fel Törökország látnivalóit, jelöld meg, hol jártál, és oszd meg élményeidet és fotóidat.
+221	Az alkalmazás használatához hozz létre ingyenes fiókot vagy jelentkezz be.
+222	Helyek
+223	Fotógaléria
+224	A legkedveltebb fotók
+225	Az utazók legszebb felvételei. Adj szívet a tetsző fotóknak.
+226	Legkedveltebb
+227	Legújabb
+228	Legkedveltebb fotósok
+229	{1} kedvelés
+230	Ugrás a helyre
+231	Tetszik a fotó
+232	Tetszett a fotó
+234	Fotó
+249	E-mailben küldtünk egy linket a fiókod megerősítéséhez. Kattints rá, majd jelentkezz be.
+250	E-mail-címed még nincs megerősítve. Nézd meg a beérkező leveleidet.
+251	Jelenleg csak fotók tölthetők fel.
+252	A fotók legfeljebb 5 MB-osak lehetnek.
+253	Valami hiba történt, próbáld újra.
+254	Saját javaslatodat nem hagyhatod jóvá.
+256	Fiókmenü
+257	Fiókbeállítások
+258	Támogass minket
+259	A Törökország útikalauz független és ingyenes projekt. Támogatásod segít a szerverek, a térképszolgáltatások és az új funkciók fenntartásában.
+260	Egyszeri
+261	Havi
+262	Összeg
+263	Más összeg
+264	Add meg az összeget
+265	Támogatás {1} ₺ összeggel
+266	Válassz összeget
+267	A fizetés biztonságos fizetési oldalon történik; ez az alkalmazás soha nem kér kártyaadatokat.
+268	Mire megy a támogatásod?
+269	Szerverek és adatbázis
+270	Térkép- és műholdszolgáltatás
+271	Új funkciók és fejlesztés
+272	A fizetési oldal új lapon nyílik meg
+274	Fizetés hitel- vagy betéti kártyával
+275	A kártyaadatokat a fizetési oldalon adod meg
+276	Térképstílus és rétegek
+277	Térképstílus
+278	Normál
+279	Sötét
+280	Egyszerű
+281	Rétegek
+282	Tartományhatárok
+283	Helynevek
+284	Tavak
+285	Vissza egész Törökországhoz
+286	Történelem és kultúra
+287	Tenger és part
+288	Városok
+289	Mecsetek és türbék
+290	Templomok és kolostorok
+291	Ókori helyek és romok
+292	Várak és várfalak
+293	Paloták és kioszkok
+294	Múzeumok
+295	Emlékművek
+296	Parkok és nemzeti parkok
+297	Tavak
+298	Vízesések
+299	Kanyonok és völgyek
+300	Hegyek és fennsíkok
+301	Barlangok és töbrök
+302	Természeti csodák
+303	Termálforrások
+304	Strandok és öblök
+305	Szigetek
+306	Tengerparti üdülőhelyek
+307	Bazárok és piacok
+308	Történelmi negyedek
+309	Kisvárosok és falvak
+310	Terek és utcák
+311	Kilátópontok
+312	Tornyok
+313	Profilfotó módosítása
+314	Profilfotó hozzáadása
+315	Fotó módosítása
+316	Profilfotó frissítve
+317	Profilfotó eltávolítva
+318	Válassz JPG, PNG vagy WEBP fotót.
+319	A fotók legfeljebb 15 MB-osak lehetnek.
+320	Ez a fotó nem nyitható meg.
+321	Túl sok próbálkozás. Próbáld később.
+322	Nem sikerült kapcsolódni. Ellenőrizd az internetet, és próbáld újra.
+323	Műhold
+324	Hozzám legközelebb
+325	Saját helyzetem
+326	Útvonal számítása…
+327	Nem található útvonal.
+328	Lépésről lépésre
+329	Navigáció indítása
+330	A hangos navigáció a Google Mapsben nyílik meg.
+331	Az alkalmazáson belüli útvonaltervezés hamarosan érkezik. Addig a Google Mapsszel folytathatod.
+332	{1} perc
+333	{1} óra {2} perc
+334	Most itt vagyok
+335	Autó
+336	Gyalog
+337	Kerékpár
+338	Tömegközlekedés
+339	tőled
+340	Ez a böngésző nem támogatja a helymeghatározást.
+341	Nincs engedély a helymeghatározáshoz. A böngésző webhely-beállításaiban engedélyezheted.
+342	Nem sikerült meghatározni a helyzeted. Ellenőrizd, hogy be vannak-e kapcsolva a helyszolgáltatások.
+343	Kihagyás
+344	Tovább
+345	Indulás
+346	Folytatás választás nélkül
+347	Üdvözlünk!
+348	Milyen nyelven szeretnéd használni az alkalmazást?
+349	Mit szeretsz?
+350	Kiemeljük a hozzád illő helyeket. Több is választható.
+351	Ezt később a fiókmenü „Érdeklődési köreim” részében módosíthatod.
+352	Érdeklődési köreim
+353	Érdeklődési köreid mentve
+354	A választásod a „Neked” kategóriában jelenik meg.
+355	Mentés
+356	Fotózás
+357	Fiókom
+358	Nincs kiválasztva
+359	Neked
+360	Vissza
+361	Látogass meg 10 természeti csodát
+362	Látogass meg helyeket 10 különböző tartományban
+363	Ossz meg 10 fotót
+364	Látogass meg 10 helyet
+365	Írj 10 értékelést
+366	10 tartomány utazója
+367	Látogass meg 100 helyet
+368	Látogass meg 3 vízesést
+369	Látogass meg 5 ókori várost és romot
+370	Látogass meg 5 mecsetet, templomot vagy kolostort
+371	Látogass meg 5 várat
+372	Látogass meg 5 strandot, szigetet vagy tengerparti üdülőhelyet
+373	Látogass meg 50 helyet
+374	A Földközi-tenger felfedezője
+375	Látogass meg 10 helyet a Földközi-tengeri régióban
+376	Írd le, mit gondolsz…
+377	Időutazó az ókorba
+378	Törlés
+379	Mozgatás lefelé
+380	Több is választható. Rangsoroljuk azokat a városokat, ahol az adott típusból a legtöbb és legjobb hely van.
+381	Befejezés
+382	Ezeket az adatokat csak az alkalmazás működéséhez használjuk: hogy felismerjük a fiókodat, megmutassuk a bejegyzéseidet más utazóknak, és fejlesszük az alkalmazást. Nem jelenítünk meg hirdetést, és senkinek sem adjuk el az adataidat.
+383	Ez a rész csak moderátoroknak szól.
+384	Ebben a tartományban egyelőre csak {1} hely van, ezért a terv rövidebb.
+385	Ez a tartalom már nem létezik.
+386	Nem található ilyen típusú hely.
+387	Ma
+388	Ma túl sok üzenetet küldtél. Próbáld holnap.
+389	Ma túl sok jelentést küldtél. Próbáld holnap.
+390	Felhős
+391	A tenger szerelmese
+392	A folytatással elfogadod az adatvédelmi szabályzatot.
+393	Egyéb
+394	A természet felfedezője
+395	Kelet-Anatólia felfedezője
+396	Látogass meg 10 helyet Kelet-Anatóliában
+397	A megállók a legrövidebb sorrendben
+398	Legendás utazó
+399	Az Égei-tenger felfedezője
+400	Látogass meg 10 helyet az Égei-tengeri régióban
+401	Fotós
+402	Fotó jelentése
+403	Visszajelzés
+404	Utazó lélek
+405	Utazási listám
+406	Hozzáadás az utazási listához
+407	Az utazási listád üres
+408	Az utazási lista megtelt (legfeljebb {1} hely).
+409	Utazási lista törölve
+410	Az utazási listádon
+411	Eltávolítva az utazási listáról
+412	Hozzáadva az utazási listához
+413	Utazási terv
+414	Elrejtve
+415	Elrejtve; a moderátor átnézi.
+416	Adatvédelem
+417	Megnyitás a Google Mapsben
+418	Zivatar
+419	Elküldött üzeneteim
+420	Vélemény
+421	Vélemény küldése
+422	Látogass meg 10 helyet Délkelet-Anatóliában
+423	A Délkelet felfedezője
+424	Sértegetés vagy gyűlöletbeszéd
+425	Jogaid (KVKK)
+426	Milyen adatokat gyűjtünk?
+427	Látogass meg legalább egy helyet a térkép minden tartományában
+428	Hibajelentés
+429	Időjárás
+430	Az időjárás most nem érhető el.
+431	Megérkeztél: {1}
+432	Még nincs visszajelzés
+433	A regisztrációkor megadott név és e-mail-cím; opcionális profilfotó; az általad írt értékelések, feltöltött fotók, javasolt helyek, meglátogatott és kedvenc helyek, valamint az elküldött visszajelzések és jelentések.
+434	Várvadász
+435	A Fekete-tenger felfedezője
+436	Látogass meg 10 helyet a Fekete-tengeri régióban
+437	Hó
+438	Forrás: Open-Meteo
+439	Megszerezve
+440	Saját bejegyzésedet nem jelentheted.
+441	Jó utat!
+442	Ki láthatja?
+443	Téma
+444	A helyzetem közelében
+445	Nem sikerült meghatározni a helyzeted, ezért az útvonal az első megállótól indul.
+446	Helyzetedet csak a készülékeden használjuk: a közeli helyek rendezéséhez, a távolságok és útvonalak megjelenítéséhez. Helyelőzményt nem tárolunk. Útvonalkéréskor a kiinduló- és célpontot csak az útvonal kiszámításához küldjük el az OpenRouteService szolgáltatásnak.
+447	Összesen {1} légvonalban
+448	Eltávolítás a listáról
+449	Írd le néhány szóban.
+450	A Márvány-tenger felfedezője
+451	Látogass meg 10 helyet a Márvány-tengeri régióban
+452	Üzeneted
+453	Üzeneted megérkezett. Köszönjük!
+454	Az üzenettel csak a fiókodat és az alkalmazás verzióját tároljuk.
+455	Moderátori panel
+456	A navigációhoz helymeghatározási engedély szükséges.
+457	Mit szeretnél látni?
+458	Mire használjuk?
+459	Mi történt? Melyik képernyőn, mit csináltál közben? Ha tudod, lépésről lépésre.
+460	Hol tároljuk?
+461	Hová menjek?
+462	Mit szeretnél jelenteni?
+463	Olvasott
+464	Megjelölés olvasottként
+465	Megjelölés olvasatlanként
+466	Középre igazítás
+467	Részben felhős
+468	A terv a helyeket egymáshoz való közelségük szerint rendezi. Indulás előtt nézd meg a nyitvatartást.
+469	Az útvonal a helyzetedtől indul, és ebben a sorrendben halad át a megállókon. A hangos navigációt az útvonal képernyőről indíthatod.
+470	Útvonal újratervezése
+471	Útvonal újratervezése…
+472	Útvonal megjelenítése
+473	Kitűzők
+474	Neked ajánlott városok
+475	Hang bekapcsolása
+476	Hang kikapcsolása
+477	Az élő, hangos navigáció az alkalmazásban nyílik meg.
+478	Törlés
+479	Köd
+480	Utolsó frissítés: {1}
+481	Majd
+482	Kérdéseiddel és kéréseiddel az alkalmazás „Vélemény küldése” részén keress minket.
+483	Rendben, mutasd
+484	Spam vagy reklám
+485	Verzió: {1}
+486	Legrövidebb sorrend
+487	Törlés
+488	Itt egyszerűen elmagyarázzuk, hogyan kezeljük az adataidat, amikor a Törökország útikalauzt használod.
+489	Törökország-körút
+490	Rutinos utazó
+491	Mennyire vagy elégedett az alkalmazással? (nem kötelező)
+492	Az alkalmazást együtt építjük. Írd meg bármilyen ötleted, hibát vagy véleményed; mindent elolvasunk.
+493	Nem megfelelő tartalom
+494	Érkezés {1}
+495	Az adatokat a Supabase infrastruktúráján tároljuk, és titkosított kapcsolaton továbbítjuk. A térkép az OpenFreeMaptől, az időjárás az Open-Meteótól származik; neved és e-mail-címed nem kerül ezekhez a szolgáltatásokhoz.
+496	A közeli városok elöl.
+497	Hamis vagy félrevezető információ
+498	Válasz
+499	Válasz jelentése
+500	Eső
+501	Új kitűzőt szereztél: {1}
+502	Új verzió érhető el
+503	A(z) {1} új funkciókkal és javításokkal letölthető. Csak töltsd le és telepítsd; fiókod és adataid megmaradnak.
+504	Gyűjtsd ide a meglátogatni kívánt helyeket a helykártyák „Hozzáadás az utazási listához” gombjával; az alkalmazás egy útvonalba fűzi őket.
+505	Értékelés
+506	Értékelő
+507	Értékelés jelentése
+508	Mozgatás felfelé
+509	és még {1}
+510	{1} megálló
+511	Megérkeztél ide: {1}
+512	{1} nap
+513	Minden hely itt: {1} ({2})
+514	{1} km-re
+515	{1} részére
+516	{1} megfelelő hely
+517	{1} jelentés
+518	{1}. nap
+519	Szitálás
+520	Előbb válassz ki fent legalább egy típust
+521	Javaslat
+522	Látogass meg 5 különleges jelöléssel ellátott híres helyet
+523	Nevezetességgyűjtő
+524	~{1} km az előző megállótól
+525	Kézbesítve
+526	Kapcsolat
+527	Városok és utazási terv az érdeklődésed szerint
+528	Első lépés
+529	Jelöld meg első helyedet a „Jártam itt” gombbal
+530	Zarándok
+531	Közép-Anatólia felfedezője
+532	Látogass meg 10 helyet Közép-Anatóliában
+533	Tartalom törölve
+534	A tartalom újra látható
+535	Vízesésvadász
+536	Nincs jelentett tartalom
+537	Jelentés
+538	A jelentés beérkezett. Köszönjük!
+539	Jelentések
+540	A jelentések bizalmasak. Ha három különböző ember jelent valamit, a tartalom automatikusan elrejtődik, és a moderátor átnézi.
+541	Letöltés most
+542	{1} hely hozzáadva az utazási listához
+543	Ezek a helyek már szerepelnek az utazási listádon
+544	Link másolva
+545	Link másolása
+546	Ez a funkció a közzétett webhelyen működik.
+547	Lista törlése
+548	Az útvonalhoz legalább két pont kell. Engedélyezd a helymeghatározást, vagy adj hozzá még egy helyet.
+549	Az élő, hangos navigáció itt, a webhelyen nyílik meg.
+550	Betöltés…
+551	Útvonal
+552	A 6698. számú török személyesadat-védelmi törvény (KVKK) szerint jogod van hozzáférni az adataidhoz, és kérheted azok helyesbítését vagy törlését. Fiókodat bármikor véglegesen törölheted a profiloldal „Fiók törlése” gombjával; az értékelések, fotók és minden adat vele együtt törlődik.
+553	Neved, profilfotód, értékeléseid és fotóid nyilvánosak. E-mail-címedet, meglátogatott és kedvenc helyeidet csak te látod. Visszajelzéseidet és jelentéseidet csak te és a moderátorok látják.
+554	Az útvonal a helyzetedtől indul, és ebben a sorrendben halad át a megállókon.
+555	Keresés törlése
+556	Beállítások
+557	Már nem tetszik
+558	Koppints egy helyre
+559	Adj hozzá fotót, amikor értékelést írsz a hely kártyáján; a legkedveltebbek itt jelennek meg.
+560	Ez a fotó már nem érhető el.
+561	Ennek a helyszínnek a használata
+562	Ez a hely nem található.
+563	Ezt már megtetted.
+564	Mit lehet itt látni, és miért érdemes eljönni?
+565	Módosítás
+566	Ezt a nevet a többi utazó is látja
+567	Hasznos
+568	Fotó készítése
+569	Fotó nagyítása
+570	Választás a galériából
+571	Fedezz fel látnivalókat, jelöld meg, hol jártál, és oszd meg élményeidet.
+572	Térkép
+573	Még nincs fotó
+574	Még nem javasoltál helyet.
+575	Törlöd a fiókodat?
+576	Fiókod a webhelyen is működik.
+577	Fiókod, értékeléseid, fotóid és javaslataid véglegesen törlődnek. Ez nem vonható vissza.
+578	Fiók létrehozása
+579	Bizonyító fotó
+580	Válassz kategóriát
+581	Válassz kategóriát.
+582	Felfedezés
+583	Helyszín megjelölése
+584	Moderátor
+585	Mit láttál, mit ajánlanál?
+586	Szavazatod rögzítve
+587	Profil
+588	Kiválasztott helyszín
+589	Nincs találat.
+590	Hiányzó hely hozzáadása
+591	Galéria
+592	Nagyíts, és koppints a pontos helyre.
+593	Válasz írása…
+594	Próbáld újra
+595	A hely neve
+596	Hely megtekintése
+597	Helyek böngészése
+598	Értékelésed
+599	Csillagos értékelés és szöveges értékelés vagy fotó szükséges.
+600	épp most
+601	{1} perce
+602	{1} hónapja
+603	{1} éve
+604	{1} fotó
+605	Javaslatok ellenőrzése
+606	Javaslat beküldése
+607	pl. Tortum-vízesés
+608	Válassz tartományt
+609	Válassz tartományt.
+610	Nincs függőben lévő javaslat.
+611	Fizetési oldal megnyitása
+612	A kártyás fizetési oldal hamarosan itt nyílik meg.
+613	Nincs engedély a helymeghatározáshoz. A telefon beállításaiban engedélyezheted.
+614	Nincs engedély a kamerához. A telefon beállításaiban engedélyezheted.
+615	Nem sikerült meghatározni a helyzeted. Ellenőrizd, hogy be vannak-e kapcsolva a helyszolgáltatások.
+616	{1} tőled

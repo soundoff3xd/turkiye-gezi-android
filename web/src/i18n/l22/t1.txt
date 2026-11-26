@@ -1,0 +1,378 @@
+@de
+0	Benachrichtigungen aufs Handy
+1	Wenn du Benachrichtigungen auf dein Handy zulässt, wird die Benachrichtigungs-ID, die Firebase deinem Gerät gibt, mit deinem Konto gespeichert, damit wir sie senden können. Beim Abmelden wird diese ID gelöscht. Du kannst Benachrichtigungen jederzeit in den Einstellungen deines Handys ausschalten.
+2	Ort teilen
+3	Helles Design
+4	Dunkles Design
+5	Vorschau
+6	Fertige Designs
+7	Eigenes Design erstellen
+8	Akzentfarbe
+9	Anwenden
+10	Hintergrundton
+11	Farbverlauf als Hintergrund
+12	Geht vom Hintergrundton in die Akzentfarbe über
+13	Schriftart
+14	Schriftgröße
+15	Klein
+16	Normal
+17	Groß
+18	Sehr groß
+19	Speichern
+20	Design gespeichert. Es wird angewendet, wenn du die App schließt und wieder öffnest.
+21	Design gespeichert
+22	Die Farbe wurde etwas abgedunkelt, damit Texte lesbar bleiben.
+23	Deine Auswahl wird auch in deinem Konto gespeichert und sieht auf der Website und deinen anderen Handys gleich aus.
+24	Deine Auswahl wird auch in deinem Konto gespeichert und sieht in der App und auf deinen anderen Geräten gleich aus.
+25	Gib einen gültigen Farbcode ein (z. B. #3B82F6).
+26	Lavendel
+27	Sonnenuntergang
+28	Nachtblau
+29	Wald
+30	System
+31	Rund
+32	Modern
+33	Klassisch
+34	Verspielt
+35	Kappadokien
+36	Heute regnet es: Wir empfehlen Orte drinnen
+37	Es schneit: Museen, Thermalbäder und Skigebiete
+38	Es ist sehr heiß: Meer, Seen, Höhlen und kühle Orte
+39	Es ist kalt: Museen, Basare und Thermalbäder
+40	Perfektes Wetter zum Erkunden: Orte im Freien
+41	Vorschläge für heute
+42	Heutige Vorschläge für deinen Standort
+43	Essen in der Nähe
+44	Regional
+45	Restaurant
+46	Café
+47	Schnellimbiss
+48	Türkische Küche
+49	Kebab
+50	Fisch
+51	Pizza
+52	Burger
+53	Kaffee
+54	Frühstück
+55	Pide
+56	Desserts
+57	Eis
+58	Italienisch
+59	Chinesisch
+60	Vegetarisch
+61	Vegan
+62	Fleisch
+63	Sandwiches
+64	Bäckerei
+65	Tee
+66	International
+67	Quelle: OpenStreetMap-Mitwirkende. Prüfe die Öffnungszeiten, bevor du hingehst.
+68	Meine Reisetagebücher
+69	Reisetagebuch
+70	Notiere die besuchten Orte Tag für Tag, füge Fotos hinzu und teile sie, wenn du möchtest, per Link mit Freunden.
+71	Name des neuen Tagebuchs (z. B. Kappadokien, Oktober)
+72	Erstellen
+73	Du hast noch kein Tagebuch
+74	Erstelle ein Tagebuch für eine Reise; deine Geschichte wächst mit jedem Ort, den du hinzufügst.
+75	{1} Einträge
+76	Geteilt
+77	Per Link teilen
+78	Jeder mit dem Link kann dein Tagebuch sehen.
+79	Im Moment siehst nur du es.
+80	Noch keine Einträge
+81	Beginne mit einem besuchten Ort, einer Notiz und einem Foto.
+82	Tagebuch löschen
+83	Eintrag hinzufügen
+84	Ort
+85	Ort suchen (optional)
+86	Tag (JJJJ-MM-TT)
+87	Tag
+88	Notiz
+89	Was hast du erlebt? Was hast du gegessen, wen hast du getroffen?
+90	Fotos kannst du in der App hinzufügen.
+91	Mit dem Türkei-Reiseführer kannst auch du ein Reisetagebuch führen.
+92	Registriere dich und halte deine Reise fest
+93	Weiter zur Website
+94	Dieses Tagebuch wurde nicht gefunden.
+95	Tagebuch gelöscht
+96	Dieses Tagebuch und alle Einträge löschen?
+97	Ort nicht gefunden, wähle aus der Liste
+98	Wähle einen Ort oder schreibe eine Notiz
+99	Dein Foto ist nach einer kurzen Prüfung für alle sichtbar.
+100	Foto eines neuen Nutzers, wartet auf Freigabe
+101	Eintritt und Müzekart
+102	Die meisten Museen und Ausgrabungsstätten des Ministeriums für Kultur und Tourismus akzeptieren den Museumspass Müzekart. Manche Paläste sowie städtische und private Museen nicht.
+103	Die Preise können sich mehrmals im Jahr ändern; prüfe den aktuellen Preis vor dem Besuch auf der offiziellen Website.
+104	Barrierefreiheit
+105	Barrierefrei
+106	Teilweise
+107	Nicht barrierefrei
+108	laut {1} Besuchern
+109	Noch keine Angaben. Wenn du dort warst, markiere, ob man es mit Rollstuhl oder Kinderwagen besuchen kann.
+110	Angaben von Besuchern; frag vorher telefonisch nach Rampen, Aufzügen und barrierefreien Toiletten.
+111	Die Karte dieser Provinz ist auf deinem Handy gespeichert. Sie öffnet sich auch ohne Internet.
+112	Lade die Karte der ganzen Provinz auf dein Handy; sie öffnet sich auch in Bergen, Dörfern und überall ohne Empfang.
+113	Wähle ein Unterstützungspaket
+114	Spendier uns einen Tee
+115	Unterstützerpaket
+116	Große Unterstützung
+117	Ein kleines, aber sehr geschätztes Dankeschön
+118	Hilft bei Server- und Kartenkosten
+119	Hilft, neue Funktionen zu entwickeln
+120	Die Unterstützung ist freiwillig; es wird kein Produkt verschickt.
+121	Fernabsatzvertrag
+122	Stornierung und Erstattung
+123	Reisetagebuch und Angaben zur Barrierefreiheit
+124	Deine Reisetagebücher sind nur für dich sichtbar; wenn du „Per Link teilen“ einschaltest, kann jeder mit dem Link sie sehen. Deine Angaben zur Barrierefreiheit eines Ortes werden nur als Gesamtzahl geteilt, ohne zu zeigen, wer sie gemacht hat. Die ersten Fotos neuer Konten werden vor der Veröffentlichung von einem Moderator geprüft.
+@fr
+0	Notifications sur le téléphone
+1	Si tu acceptes de recevoir des notifications sur ton téléphone, l’identifiant de notification que Firebase attribue à ton appareil est enregistré avec ton compte pour que nous puissions les envoyer. Cet identifiant est supprimé lorsque tu te déconnectes. Tu peux désactiver les notifications à tout moment dans les réglages de ton téléphone.
+2	Partager le lieu
+3	Thème clair
+4	Thème sombre
+5	Aperçu
+6	Thèmes prêts
+7	Créer ton thème
+8	Couleur d’accent
+9	Appliquer
+10	Teinte de fond
+11	Fond en dégradé
+12	Passe de la teinte de fond à la couleur d’accent
+13	Police
+14	Taille du texte
+15	Petite
+16	Normale
+17	Grande
+18	Très grande
+19	Enregistrer
+20	Thème enregistré. Il s’appliquera quand tu fermeras et rouvriras l’application.
+21	Thème enregistré
+22	La couleur a été un peu assombrie pour que le texte reste lisible.
+23	Ton choix est aussi enregistré dans ton compte : il sera identique sur le site et sur tes autres téléphones.
+24	Ton choix est aussi enregistré dans ton compte : il sera identique dans l’application et sur tes autres appareils.
+25	Saisis un code couleur valide (ex. #3B82F6).
+26	Lavande
+27	Coucher de soleil
+28	Bleu nuit
+29	Forêt
+30	Système
+31	Arrondie
+32	Moderne
+33	Classique
+34	Ludique
+35	Cappadoce
+36	Il pleut aujourd’hui : nous suggérons des lieux couverts
+37	Il neige : musées, thermes et stations de ski
+38	Il fait très chaud : mer, lacs, grottes et endroits frais
+39	Il fait froid : musées, bazars et thermes
+40	Temps idéal pour explorer : lieux en plein air
+41	Suggestions du jour
+42	Suggestions du jour près de toi
+43	Où manger à proximité
+44	Local
+45	Restaurant
+46	Café
+47	Restauration rapide
+48	Cuisine turque
+49	Kebab
+50	Poisson
+51	Pizza
+52	Burger
+53	Café
+54	Petit-déjeuner
+55	Pide
+56	Desserts
+57	Glaces
+58	Italien
+59	Chinois
+60	Végétarien
+61	Végan
+62	Viande
+63	Sandwichs
+64	Boulangerie
+65	Thé
+66	International
+67	Source : contributeurs d’OpenStreetMap. Vérifie les horaires avant d’y aller.
+68	Mes carnets de voyage
+69	Carnet de voyage
+70	Note jour après jour les lieux visités, ajoute des photos et, si tu veux, partage-les avec tes amis par lien.
+71	Nom du nouveau carnet (ex. Cappadoce, octobre)
+72	Créer
+73	Tu n’as pas encore de carnet
+74	Crée un carnet pour un voyage ; ton histoire s’écrit à mesure que tu ajoutes les lieux visités.
+75	{1} entrées
+76	Partagé
+77	Partager par lien
+78	Toute personne ayant le lien peut voir ton carnet.
+79	Pour l’instant, toi seul le vois.
+80	Aucune entrée pour l’instant
+81	Commence par ajouter un lieu visité, une note et une photo.
+82	Supprimer le carnet
+83	Ajouter une entrée
+84	Lieu
+85	Chercher un lieu (facultatif)
+86	Jour (AAAA-MM-JJ)
+87	Jour
+88	Note
+89	Qu’as-tu vécu ? Qu’as-tu mangé, qui as-tu rencontré ?
+90	Utilise l’application pour ajouter des photos.
+91	Toi aussi, tiens un carnet de voyage avec le Guide de voyage de Türkiye.
+92	Inscris-toi et garde une trace de ton voyage
+93	Continuer vers le site
+94	Ce carnet est introuvable.
+95	Carnet supprimé
+96	Supprimer ce carnet et toutes ses entrées ?
+97	Lieu introuvable, choisis dans la liste
+98	Choisis un lieu ou écris une note
+99	Ta photo sera visible par tous après une courte vérification.
+100	Photo d’un nouvel utilisateur, en attente de validation
+101	Entrée et Müzekart
+102	La plupart des musées et sites archéologiques du ministère de la Culture et du Tourisme acceptent le pass musées Müzekart. Certains palais et musées municipaux ou privés ne l’acceptent pas.
+103	Les tarifs peuvent changer plusieurs fois par an ; vérifie le tarif actuel sur le site officiel avant d’y aller.
+104	Accessibilité
+105	Accessible
+106	En partie
+107	Non accessible
+108	selon {1} visiteurs
+109	Pas encore d’information. Si tu y es allé, indique si on peut le visiter en fauteuil roulant ou avec une poussette.
+110	Informations signalées par les visiteurs ; appelle avant pour les rampes, ascenseurs et toilettes adaptées.
+111	La carte de cette province est téléchargée sur ton téléphone. Elle s’ouvre aussi sans internet.
+112	Télécharge la carte de toute la province sur ton téléphone ; elle s’ouvrira en montagne, au village et partout sans réseau.
+113	Choisis une formule de soutien
+114	Offre-nous un thé
+115	Formule soutien
+116	Grand soutien
+117	Un petit merci très apprécié
+118	Aide à couvrir les frais de serveur et de carte
+119	Aide à développer de nouvelles fonctions
+120	Le soutien est volontaire ; aucun produit n’est envoyé en retour.
+121	Contrat de vente à distance
+122	Annulation et remboursement
+123	Carnet de voyage et informations d’accessibilité
+124	Tes carnets de voyage ne sont visibles que par toi ; si tu actives « Partager par lien », toute personne ayant le lien peut les voir. Tes indications d’accessibilité sur un lieu ne sont partagées que sous forme de totaux, sans montrer qui les a faites. Les premières photos des nouveaux comptes sont vérifiées par un modérateur avant d’être publiées.
+@es
+0	Notificaciones en el móvil
+1	Si aceptas recibir notificaciones en tu móvil, el identificador de notificaciones que Firebase asigna a tu dispositivo se guarda con tu cuenta para poder enviarlas. Este identificador se borra al cerrar sesión. Puedes desactivar las notificaciones cuando quieras en los ajustes del móvil.
+2	Compartir lugar
+3	Tema claro
+4	Tema oscuro
+5	Vista previa
+6	Temas listos
+7	Crea tu propio tema
+8	Color de acento
+9	Aplicar
+10	Tono de fondo
+11	Fondo degradado
+12	Pasa del tono de fondo al color de acento
+13	Tipo de letra
+14	Tamaño del texto
+15	Pequeño
+16	Normal
+17	Grande
+18	Muy grande
+19	Guardar
+20	Tema guardado. Se aplicará cuando cierres y vuelvas a abrir la app.
+21	Tema guardado
+22	El color se ha oscurecido un poco para que el texto se lea bien.
+23	Tu elección también se guarda en tu cuenta, así se ve igual en la web y en tus otros móviles.
+24	Tu elección también se guarda en tu cuenta, así se ve igual en la app y en tus otros dispositivos.
+25	Escribe un código de color válido (p. ej. #3B82F6).
+26	Lavanda
+27	Atardecer
+28	Azul noche
+29	Bosque
+30	Sistema
+31	Redondeada
+32	Moderna
+33	Clásica
+34	Divertida
+35	Capadocia
+36	Hoy llueve: te sugerimos lugares cubiertos
+37	Está nevando: museos, termas y estaciones de esquí
+38	Hace mucho calor: mar, lagos, cuevas y lugares frescos
+39	Hace frío: museos, bazares y termas
+40	Tiempo ideal para explorar: lugares al aire libre
+41	Sugerencias para hoy
+42	Sugerencias de hoy según tu ubicación
+43	Dónde comer cerca
+44	Local
+45	Restaurante
+46	Cafetería
+47	Comida rápida
+48	Cocina turca
+49	Kebab
+50	Pescado
+51	Pizza
+52	Hamburguesas
+53	Café
+54	Desayuno
+55	Pide
+56	Postres
+57	Helados
+58	Italiana
+59	China
+60	Vegetariana
+61	Vegana
+62	Carne
+63	Bocadillos
+64	Panadería
+65	Té
+66	Internacional
+67	Fuente: colaboradores de OpenStreetMap. Comprueba el horario antes de ir.
+68	Mis diarios de viaje
+69	Diario de viaje
+70	Anota día a día los lugares que visitas, añade fotos y, si quieres, compártelo con tus amigos mediante un enlace.
+71	Nombre del nuevo diario (p. ej. Capadocia, octubre)
+72	Crear
+73	Aún no tienes diarios
+74	Crea un diario para un viaje; tu historia crece a medida que añades los lugares que visitas.
+75	{1} entradas
+76	Compartido
+77	Compartir por enlace
+78	Cualquiera con el enlace puede ver tu diario.
+79	Ahora solo lo ves tú.
+80	Aún no hay entradas
+81	Empieza añadiendo un lugar que visitaste, una nota y una foto.
+82	Borrar diario
+83	Añadir entrada
+84	Lugar
+85	Buscar un lugar (opcional)
+86	Día (AAAA-MM-DD)
+87	Día
+88	Nota
+89	¿Qué viviste? ¿Qué comiste, a quién conociste?
+90	Usa la app para añadir fotos.
+91	Tú también puedes llevar un diario de viaje con la Guía de viaje de Türkiye.
+92	Regístrate y guarda tu viaje
+93	Continuar al sitio
+94	No se encontró este diario.
+95	Diario borrado
+96	¿Borrar este diario y todas sus entradas?
+97	Lugar no encontrado, elige de la lista
+98	Elige un lugar o escribe una nota
+99	Tu foto será visible para todos tras una breve revisión.
+100	Foto de un usuario nuevo, pendiente de aprobación
+101	Entrada y Müzekart
+102	La mayoría de los museos y yacimientos del Ministerio de Cultura y Turismo aceptan el pase de museos Müzekart. Algunos palacios y museos municipales o privados no lo aceptan.
+103	Los precios pueden cambiar varias veces al año; consulta el precio actual en la web oficial antes de ir.
+104	Accesibilidad
+105	Accesible
+106	En parte
+107	No accesible
+108	según {1} visitantes
+109	Aún no hay información. Si has estado, indica si se puede visitar en silla de ruedas o con carrito.
+110	Información de los visitantes; llama antes para preguntar por rampas, ascensores y baños adaptados.
+111	El mapa de esta provincia está descargado en tu móvil. También se abre sin internet.
+112	Descarga en tu móvil el mapa de toda la provincia; se abrirá en la montaña, en los pueblos y donde no haya cobertura.
+113	Elige un paquete de apoyo
+114	Invítanos a un té
+115	Paquete de apoyo
+116	Gran apoyo
+117	Un pequeño gracias muy valorado
+118	Ayuda a cubrir los gastos de servidor y mapas
+119	Ayuda a desarrollar nuevas funciones
+120	El apoyo es voluntario; no se envía ningún producto a cambio.
+121	Contrato de venta a distancia
+122	Cancelación y reembolso
+123	Diario de viaje e información de accesibilidad
+124	Tus diarios de viaje solo los ves tú; si activas «Compartir por enlace», cualquiera con el enlace puede verlos. Tus indicaciones de accesibilidad sobre un lugar solo se comparten como totales, sin mostrar quién las hizo. Las primeras fotos de las cuentas nuevas las revisa un moderador antes de publicarse.

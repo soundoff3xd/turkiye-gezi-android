@@ -1,0 +1,617 @@
+0	Places to visit
+1	{1} places
+2	Suggest a place
+3	Awaiting approval ({1})
+4	Awaiting approval
+5	Sort by
+6	Sort and filter
+7	Most visited
+8	Most favorited
+9	Top rated
+10	Most reviewed
+11	All
+12	Historic buildings
+13	Museum & palace
+14	Town & bazaar
+15	Viewpoint
+16	Nature
+17	Seaside
+18	Ratings, reviews, visits and favorites are sample data.
+19	All places
+20	All of Türkiye
+21	Marmara
+22	Aegean
+23	Mediterranean
+24	Central Anatolia
+25	Black Sea
+26	Eastern Anatolia
+27	Southeastern Anatolia
+28	Map data: Natural Earth
+29	Collapse panel
+30	Expand panel
+31	Map of Türkiye
+32	List of places
+33	Search places
+34	Region
+35	Category
+36	Zoom in
+37	Zoom out
+38	Close
+39	Language
+40	{1} reviews
+41	({1} reviews)
+42	{1} visited
+43	{1} favorites
+44	New
+45	Added by community
+46	No places match this search or filter.
+47	Been here?
+48	Been here
+49	Favorite
+50	In favorites
+51	Directions
+52	Write a review
+53	Add photo
+54	Overview
+55	Reviews
+56	Photos
+57	Photos ({1})
+58	Location
+59	Getting there
+60	No ratings yet
+61	Suggested by {1}, approved by the community
+62	Opening hours and ticket prices change; check the official source before you go.
+63	{1} out of 5
+64	The overall rating and review count are sample data. Reviews marked "Sample" are placeholders; the ones you post are added to the count.
+65	Sample
+66	Sample photo
+67	Sample video
+68	{1} days ago
+69	1 day ago
+70	{1} weeks ago
+71	1 week ago
+72	{1} hours ago
+73	Just now
+74	You
+75	Like
+76	Replies
+77	Write a reply
+78	Send
+79	No reviews to show for this place
+80	Been there? Share the first experience.
+81	No photos or videos yet
+82	Share your shots so future travelers know what to expect.
+83	Shared photo
+84	Selected photo
+85	Share your experience
+86	Your rating
+87	Your experience
+88	{1} stars
+89	Add photo or video
+90	Remove
+91	Post
+92	What did you see and do? Leave a tip for the next visitors.
+93	A rating plus text or media is required. Posts are public; avoid personal details and other people's faces.
+94	Your review was posted
+95	Added to places you've been
+96	Added to favorites
+97	Suggested places
+98	How is it verified?
+99	1. Automatic checks: is the location inside Türkiye, does the place already exist, does it contain offensive words or links, is there a proof photo.
+100	2. Community approval: once {1} users confirm “This place is real”, it is added to the map. Nobody can approve their own suggestion.
+101	3. Moderator: a suggestion with {1} “Wrong or inappropriate” reports is pulled and sent to a moderator.
+102	Each person can suggest {1} places per day.
+103	Prototype: suggestions marked “Sample” are placeholders; your vote counts as one user.
+104	suggested by {1}, {2}
+105	Awaiting community approval
+106	Reported, with moderator
+107	Approved, on the map
+108	Rejected
+109	{1}/{2} approvals
+110	{1}/{2} approvals · {3} reports
+111	Show on map
+112	This place is real
+113	Wrong / inappropriate
+114	Moderator: approve
+115	Moderator: reject
+116	Moderator buttons exist only in this prototype so you can see the flow.
+117	{1} was added to the map
+118	Suggestion sent to a moderator
+119	Report received
+120	Suggestion rejected
+121	Your suggestion is under review
+122	Suggest a new place
+123	A place you've visited that isn't in the app yet
+124	Place name
+125	For example: Tortum Waterfall
+126	Mark on map
+127	Change location
+128	No location chosen yet
+129	{1} (outside Türkiye)
+130	Province
+131	Short description
+132	What is there to see, and why go?
+133	Add a proof photo (taken there)
+134	I have visited this place myself
+135	Submit for review
+136	Your suggestion passes automatic checks, then is added once {1} users approve it. Reported suggestions go to a moderator.
+137	Tap the map to choose the location
+138	Cancel
+139	Your suggestion was not sent:
+140	The name must be {1} to {2} characters.
+141	The description needs at least {1} characters; say in a few words what there is to see.
+142	Links are not allowed.
+143	Don't use repeated letters or all capitals.
+144	Contains offensive language.
+145	Mark the location on the map.
+146	The chosen location is outside Türkiye.
+147	This place already exists or is very close to: {1}.
+148	Add a photo you took there as proof.
+149	Confirm that you visited the place yourself.
+150	You can suggest at most {1} places per day.
+151	My home's balcony
+152	Best view in the city is here!!!
+153	A castle on a small island linked to the mainland by a causeway in Kuşadası harbor.
+154	A tall waterfall below Lake Tortum, at its fullest in spring.
+155	Proof photo from the person who suggested the place.
+156	I went first thing in the morning and could look around without crowds. Take some time to look up at the dome.
+157	The entry queue was a bit long, but it was worth it once inside.
+158	I'll try a weekday morning, thanks.
+159	Going up at sunset is great; the view covers the whole city.
+160	Nice view, but the terrace was very crowded; go early.
+161	Getting lost is part of the fun; don't forget to bargain.
+162	Even the view from the ferry is lovely.
+163	I got up early to watch the balloons at sunrise, totally worth it.
+164	You walk barefoot on the travertines; bring sunglasses and water.
+165	Marmara Region
+166	Aegean Region
+167	Mediterranean Region
+168	Central Anatolia Region
+169	Black Sea Region
+170	Eastern Anatolia Region
+171	Southeastern Anatolia Region
+172	New traveler
+173	Traveler
+174	Seasoned traveler
+175	Trusted guide
+176	My profile
+177	Log in or sign up
+178	Log in or sign up to continue.
+179	Your account
+180	Log in
+181	Sign up
+182	Your name
+183	Email
+184	Password
+185	At least 8 characters
+186	Try the demo account
+187	Prototype: accounts are stored only in this browser. A real app needs email verification and server-side security.
+188	Enter a valid email address.
+189	The password must be at least 8 characters.
+190	Your name must be 2 to 30 characters.
+191	This name can't be used.
+192	An account with this email already exists. Try logging in.
+193	Wrong email or password.
+194	Account created, welcome {1}
+195	Welcome back {1}
+196	Logged in with the demo account
+197	Logged out
+198	Log out
+199	Been there ({1})
+200	Favorites ({1})
+201	My reviews ({1})
+202	My suggestions ({1})
+203	Mark places you've been with the “Been here?” button on a place card.
+204	Save places you like with the “Favorite” button.
+205	You haven't written any reviews yet.
+206	You can add a missing place with “Suggest a place”.
+207	Member since {1}
+208	Traveler level
+209	{1} points
+210	Next level:
+211	You're at the top level.
+212	Points: place visited 1, review 3, approved suggestion 10. A trusted guide's approval counts as 2 votes.
+213	Delete account
+214	Delete your account and all its data in this browser?
+215	Yes, delete
+216	Your account was deleted
+217	Prototype: accounts are stored only in this browser and aren't visible from other devices. In a real app, accounts live on a server with email verification.
+218	We went at opening time; there was almost nobody in front of the Library of Celsus.
+219	Türkiye Travel Guide
+220	Discover places to visit all over Türkiye, mark where you've been, and share your experiences and photos.
+221	Create a free account or log in to use the app.
+222	Places
+223	Photo showcase
+224	Most liked photos
+225	The best shots taken by travelers. Leave a heart on the photos you like.
+226	Most liked
+227	Newest
+228	Most liked photographers
+229	{1} likes
+230	Go to place
+231	Like photo
+232	You liked the photo
+233	Like counts are sample data; sample photos are drawn placeholders.
+234	Photo
+235	Balloons at sunrise
+236	Sunset on the travertines
+237	The Golden Horn from Galata
+238	The lagoon from Babadağ
+239	Monastery in the misty valley
+240	Stone heads at sunrise
+241	Beneath the dome
+242	The lake in autumn
+243	Looking out over Mesopotamia
+244	Evening lights
+245	Turquoise shore
+246	The Library of Celsus
+247	Among the fairy chimneys
+248	Evening at the harbor
+249	We sent a link to your email to verify your account. Log in after you click it.
+250	Your email isn't verified yet. Check your inbox.
+251	For now, only photos can be uploaded.
+252	Photos can be at most 5 MB.
+253	Something went wrong, please try again.
+254	You can't approve your own suggestion.
+255	Preview mode: this page can't reach the database; accounts and posts are kept only in this browser.
+256	Account menu
+257	Account settings
+258	Support us
+259	Türkiye Travel Guide is an independent, free project. Your support helps cover servers, map services and new features.
+260	One-time
+261	Monthly
+262	Amount
+263	Other amount
+264	Enter amount
+265	Support with {1} ₺
+266	Choose an amount
+267	Payment is completed on a secure payment page; this app never asks for card details.
+268	Where does your support go?
+269	Servers and database
+270	Map and satellite service
+271	New features and development
+272	The payment page is opening in a new tab
+273	Setup: the card payment link hasn't been added yet. Enter your payment link in the SUPPORT setting in the app code.
+274	Pay by credit or debit card
+275	You enter your card details on the payment page
+276	Map style and layers
+277	Map style
+278	Standard
+279	Dark
+280	Minimal
+281	Layers
+282	Province borders
+283	Place names
+284	Lakes
+285	Back to all of Türkiye
+286	History & culture
+287	Sea & coast
+288	Towns & cities
+289	Mosques & tombs
+290	Churches & monasteries
+291	Ancient sites
+292	Castles & walls
+293	Palaces & pavilions
+294	Museums
+295	Monuments
+296	Parks & national parks
+297	Lakes
+298	Waterfalls
+299	Canyons & valleys
+300	Mountains & highlands
+301	Caves & sinkholes
+302	Natural wonders
+303	Hot springs
+304	Beaches & bays
+305	Islands
+306	Seaside towns
+307	Bazaars & markets
+308	Historic quarters
+309	Towns & villages
+310	Squares & streets
+311	Viewpoints
+312	Towers
+313	Change profile photo
+314	Add profile photo
+315	Change photo
+316	Your profile photo was updated
+317	Your profile photo was removed
+318	Choose a JPG, PNG or WEBP photo.
+319	Photos can be up to 15 MB.
+320	This photo couldn't be opened.
+321	Too many attempts. Please try again later.
+322	Couldn't connect. Check your internet and try again.
+323	Satellite
+324	Nearest to me
+325	My location
+326	Calculating route…
+327	No route found.
+328	Step-by-step directions
+329	Start navigation
+330	Voice guidance opens in Google Maps.
+331	In-app directions are coming very soon. For now you can continue with Google Maps.
+332	{1} min
+333	{1} h {2} min
+334	I'm here now
+335	Car
+336	Walk
+337	Bike
+338	Transit
+339	from you
+340	This browser doesn't support location.
+341	Location permission was not granted. You can allow it in your browser's site settings.
+342	Couldn't find your location. Make sure location services are on.
+343	Skip
+344	Continue
+345	Let's go
+346	Continue without choosing
+347	Welcome!
+348	Which language would you like to use?
+349	What do you enjoy?
+350	We'll highlight places that suit you. You can pick more than one.
+351	You can change this later under “My interests” in the account menu.
+352	My interests
+353	Your interests were saved
+354	Your picks appear in the “For you” category.
+355	Save
+356	Photography
+357	My account
+358	None selected
+359	For you
+360	Back
+361	Visit 10 natural wonders
+362	Visit places in 10 different provinces
+363	Share 10 photos
+364	Visit 10 places
+365	Write 10 reviews
+366	10-Province Traveler
+367	Visit 100 places
+368	Visit 3 waterfalls
+369	Visit 5 ancient cities and ruins
+370	Visit 5 mosques, churches or monasteries
+371	Visit 5 castles
+372	Visit 5 beaches, islands or coastal towns
+373	Visit 50 places
+374	Mediterranean Explorer
+375	Visit 10 places in the Mediterranean region
+376	Write what's on your mind…
+377	Ancient Wanderer
+378	Clear
+379	Move down
+380	You can choose more than one. We'll rank the cities with the most and best places of that kind.
+381	End
+382	This information is used only to make the app work: to recognise your account, show your posts to other travellers and improve the app. We don't show ads and we never sell your data.
+383	This section is for moderators only.
+384	This province has only {1} places for now, so the plan was shortened.
+385	This content no longer exists.
+386	No places of this kind were found.
+387	Today
+388	You've sent too many messages today. You can try again tomorrow.
+389	You've made too many reports today. You can try again tomorrow.
+390	Cloudy
+391	Sea Lover
+392	By continuing, you accept the privacy policy.
+393	Other
+394	Nature Explorer
+395	Eastern Anatolia Explorer
+396	Visit 10 places in Eastern Anatolia
+397	Stops sorted into the shortest order
+398	Legendary Traveler
+399	Aegean Explorer
+400	Visit 10 places in the Aegean region
+401	Photographer
+402	Report photo
+403	Feedback
+404	Wanderlust
+405	My trip list
+406	Add to my trip list
+407	Your trip list is empty
+408	Your trip list is full (up to {1} places).
+409	Trip list cleared
+410	In your trip list
+411	Removed from your trip list
+412	Added to your trip list
+413	Trip plan
+414	Hidden
+415	Hidden; a moderator is reviewing it.
+416	Privacy & data protection
+417	Open in Google Maps
+418	Thunderstorm
+419	Sent by me
+420	Opinion
+421	Send feedback
+422	Visit 10 places in Southeastern Anatolia
+423	Southeast Explorer
+424	Insults or hate speech
+425	Your rights (KVKK)
+426	What information do we collect?
+427	Visit at least one place in every province on the map
+428	Bug report
+429	Weather
+430	Weather is unavailable right now.
+431	You've arrived: {1}
+432	No feedback yet
+433	The name and email address you give when signing up; your optional profile photo; the reviews you write, the photos you upload, your place suggestions, the places you've visited and favourited, and the feedback and reports you send.
+434	Castle Hunter
+435	Black Sea Explorer
+436	Visit 10 places in the Black Sea region
+437	Snow
+438	Source: Open-Meteo
+439	Earned
+440	You can't report your own post.
+441	Enjoy your trip!
+442	Who can see it?
+443	Topic
+444	Close to my location
+445	Your location couldn't be found, so the route starts at the first stop.
+446	Your location is used only on your device: to sort nearby places, show distances and give directions. Your location history is never stored. When you ask for directions, the start and end points are sent to OpenRouteService only to calculate the route.
+447	{1} in total as the crow flies
+448	Remove from list
+449	Please describe it in a few words.
+450	Marmara Explorer
+451	Visit 10 places in the Marmara region
+452	Your message
+453	We got your message. Thank you!
+454	Only your account and the app version are saved along with your message.
+455	Moderator panel
+456	Navigation needs location permission.
+457	What do you want to see?
+458	What do we use it for?
+459	What happened? On which screen, while doing what? Step by step if possible.
+460	Where is it stored?
+461	Where should I go?
+462	What do you want to report?
+463	Read
+464	Mark as read
+465	Mark as unread
+466	Re-centre
+467	Partly cloudy
+468	The plan lists places in the order closest to each other. Check opening hours before you go.
+469	The route starts from your location and visits the stops in this order. You can start voice navigation from the route screen.
+470	Recalculating route
+471	Recalculating route…
+472	Show route
+473	Badges
+474	Cities we recommend for you
+475	Unmute
+476	Mute
+477	Live navigation with voice guidance opens inside the app.
+478	Delete
+479	Fog
+480	Last updated: {1}
+481	Then
+482	For questions and requests, write to us from “Send feedback” in the app.
+483	It's fine, show it
+484	Spam or advertising
+485	Version {1}
+486	Shortest order
+487	Clear
+488	Here we explain in plain language how your information is handled when you use the Türkiye Travel Guide.
+489	Türkiye Tour
+490	Seasoned Traveler
+491	How happy are you with the app? (optional)
+492	We're building the app together. Write any idea, bug or opinion you have; we read them all.
+493	Inappropriate content
+494	Arrival {1}
+495	Data is stored on Supabase infrastructure and transferred over encrypted connections. The map comes from OpenFreeMap and the weather from Open-Meteo; your name or email address is never sent to these services.
+496	Nearby cities come first.
+497	False or misleading information
+498	Reply
+499	Report reply
+500	Rain
+501	New badge earned: {1}
+502	New version available
+503	{1}, with new features and fixes, is ready to download. Just download and install it; your account and data are kept.
+504	Collect the places you want to visit here with the “Add to my trip list” button on place cards; the app will join them into one route.
+505	Review
+506	Reviewer
+507	Report review
+508	Move up
+509	and {1} more
+510	{1} stops
+511	You've reached {1}
+512	{1} days
+513	All places in {1} ({2})
+514	{1} km away
+515	In {1}
+516	{1} matching places
+517	{1} reports
+518	Day {1}
+519	Drizzle
+520	First choose at least one type above
+521	Suggestion
+522	Visit 5 famous places with special markers
+523	Landmark Collector
+524	~{1} km from the previous stop
+525	Delivered
+526	Contact
+527	City and trip-plan ideas based on your interests
+528	First Step
+529	Mark your first place as “Been there”
+530	Pilgrim
+531	Central Anatolia Explorer
+532	Visit 10 places in Central Anatolia
+533	Content deleted
+534	Content is visible again
+535	Waterfall Hunter
+536	No reported content
+537	Report
+538	Report received. Thank you!
+539	Reports
+540	Reports are kept private. If three different people report something, it is hidden automatically and a moderator reviews it.
+541	Download now
+542	{1} places added to your trip list
+543	These places are already in your trip list
+544	Link copied
+545	Copy the link
+546	This feature works on the live site.
+547	Clear list
+548	A route needs at least two points. Allow location access or add another place.
+549	Live navigation with voice guidance opens right here on the site.
+550	Loading…
+551	Route
+552	Under Turkey's Personal Data Protection Law No. 6698 (KVKK), you have the right to access your data and ask for it to be corrected or deleted. You can permanently delete your account at any time with the “Delete account” button on your Profile page; your reviews, photos and all records are deleted with it.
+553	Your name, profile photo, reviews and photos are public. Your email address and the places you've visited and favourited are visible only to you. Only you and the moderators can see your feedback and reports.
+554	The route starts from your location and visits the stops in this order.
+555	Clear search
+556	Settings
+557	Unlike
+558	Tap a place
+559	Add a photo when you write a review on a place's card; the most liked ones are featured here.
+560	This photo is no longer available.
+561	Use this location
+562	This place could not be found.
+563	You've already done this.
+564	What can you see here, and why go?
+565	Change
+566	Other travelers will see this name
+567	Helpful
+568	Take a photo
+569	Enlarge photo
+570	Choose from gallery
+571	Discover places to visit, mark where you've been and share your experiences.
+572	Map
+573	No photos yet
+574	You haven't suggested any places yet.
+575	Delete your account?
+576	Your account also works on the website.
+577	Your account, reviews, photos and suggestions will be permanently deleted. This can't be undone.
+578	Create account
+579	Proof photo
+580	Choose a category
+581	Choose a category.
+582	Explore
+583	Mark the location
+584	Moderator
+585	What did you see, what would you recommend?
+586	Your vote was recorded
+587	Profile
+588	Selected location
+589	No results.
+590	Add a place that's missing
+591	Showcase
+592	Zoom in and tap exactly on the place.
+593	Write a reply…
+594	Try again
+595	Place name
+596	View place
+597	Browse places
+598	Your review
+599	A star rating plus a review or a photo is required.
+600	just now
+601	{1} min ago
+602	{1} months ago
+603	{1} years ago
+604	{1} photos
+605	Verify suggestions
+606	Send suggestion
+607	e.g. Tortum Waterfall
+608	Choose a province
+609	Choose a province.
+610	There are no pending suggestions right now.
+611	Opening the payment page
+612	The card payment page will open here very soon.
+613	Location permission was not granted. You can allow it in your phone's settings.
+614	Camera permission was not granted. You can allow it in your phone's settings.
+615	Couldn't find your location. Make sure location services are on.
+616	{1} from you

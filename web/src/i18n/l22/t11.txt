@@ -1,0 +1,504 @@
+@id
+0	Notifikasi di ponsel
+1	Jika kamu setuju menerima notifikasi di ponsel, ID notifikasi yang diberikan Firebase ke perangkatmu disimpan bersama akunmu agar kami bisa mengirimnya. ID ini dihapus saat kamu keluar. Kamu bisa mematikan notifikasi kapan saja di pengaturan ponsel.
+2	Bagikan tempat
+3	Tema terang
+4	Tema gelap
+5	Pratinjau
+6	Tema siap pakai
+7	Buat tema sendiri
+8	Warna aksen
+9	Terapkan
+10	Nada latar
+11	Latar gradien
+12	Berubah dari nada latar ke warna aksen
+13	Huruf
+14	Ukuran teks
+15	Kecil
+16	Normal
+17	Besar
+18	Sangat besar
+19	Simpan
+20	Tema disimpan. Akan diterapkan saat kamu menutup dan membuka lagi aplikasi.
+21	Tema disimpan
+22	Warna dibuat sedikit lebih gelap agar teks tetap terbaca.
+23	Pilihanmu juga disimpan di akun, jadi tampil sama di situs dan ponselmu yang lain.
+24	Pilihanmu juga disimpan di akun, jadi tampil sama di aplikasi dan perangkatmu yang lain.
+25	Masukkan kode warna yang valid (mis. #3B82F6).
+26	Lavender
+27	Matahari terbenam
+28	Biru malam
+29	Hutan
+30	Sistem
+31	Bulat
+32	Modern
+33	Klasik
+34	Ceria
+35	Kapadokia
+36	Hari ini hujan: kami sarankan tempat dalam ruangan
+37	Turun salju: museum, pemandian air panas, dan resor ski
+38	Sangat panas: laut, danau, gua, dan tempat sejuk
+39	Dingin: museum, pasar, dan pemandian air panas
+40	Cuaca cocok untuk jalan-jalan: tempat luar ruangan
+41	Saran untuk hari ini
+42	Saran hari ini di dekatmu
+43	Tempat makan terdekat
+44	Lokal
+45	Restoran
+46	Kafe
+47	Makanan cepat saji
+48	Masakan Turki
+49	Kebab
+50	Ikan
+51	Piza
+52	Burger
+53	Kopi
+54	Sarapan
+55	Pide
+56	Hidangan penutup
+57	Es krim
+58	Italia
+59	Tionghoa
+60	Vegetarian
+61	Vegan
+62	Daging
+63	Roti lapis
+64	Toko roti
+65	Teh
+66	Internasional
+67	Sumber: kontributor OpenStreetMap. Cek jam buka sebelum berangkat.
+68	Jurnal perjalananku
+69	Jurnal perjalanan
+70	Catat tempat yang kamu kunjungi hari demi hari, tambahkan foto, dan bagikan ke teman lewat tautan jika mau.
+71	Nama jurnal baru (mis. Kapadokia, Oktober)
+72	Buat
+73	Kamu belum punya jurnal
+74	Buat jurnal untuk sebuah perjalanan; ceritamu tumbuh seiring tempat yang kamu tambahkan.
+75	{1} catatan
+76	Dibagikan
+77	Bagikan lewat tautan
+78	Siapa pun yang punya tautan bisa melihat jurnalmu.
+79	Saat ini hanya kamu yang bisa melihatnya.
+80	Belum ada catatan
+81	Mulai dengan menambahkan tempat yang kamu kunjungi, catatan, dan foto.
+82	Hapus jurnal
+83	Tambah catatan
+84	Tempat
+85	Cari tempat (opsional)
+86	Hari (YYYY-MM-DD)
+87	Hari
+88	Catatan
+89	Apa yang kamu alami? Apa yang kamu makan, siapa yang kamu temui?
+90	Gunakan aplikasi untuk menambahkan foto.
+91	Kamu juga bisa menulis jurnal perjalanan dengan Panduan Wisata Turki.
+92	Daftar dan simpan perjalananmu
+93	Lanjut ke situs
+94	Jurnal ini tidak ditemukan.
+95	Jurnal dihapus
+96	Hapus jurnal ini dan semua catatannya?
+97	Tempat tidak ditemukan, pilih dari daftar
+98	Pilih tempat atau tulis catatan
+99	Fotomu akan terlihat oleh semua orang setelah pemeriksaan singkat.
+100	Foto pengguna baru, menunggu persetujuan
+101	Tiket masuk dan Müzekart
+102	Sebagian besar museum dan situs arkeologi milik Kementerian Kebudayaan dan Pariwisata menerima kartu museum Müzekart. Beberapa istana serta museum kota atau swasta tidak menerimanya.
+103	Harga bisa berubah beberapa kali setahun; cek harga terbaru di situs resmi sebelum berangkat.
+104	Aksesibilitas
+105	Dapat diakses
+106	Sebagian
+107	Tidak dapat diakses
+108	menurut {1} pengunjung
+109	Belum ada informasi. Jika pernah ke sana, tandai apakah bisa dikunjungi dengan kursi roda atau kereta bayi.
+110	Informasi dari pengunjung; telepon dulu untuk menanyakan ramp, lift, dan toilet yang ramah disabilitas.
+111	Peta provinsi ini sudah diunduh ke ponselmu. Bisa dibuka tanpa internet.
+112	Unduh peta seluruh provinsi ke ponselmu; peta tetap terbuka di gunung, di desa, dan di mana pun tanpa sinyal.
+113	Pilih paket dukungan
+114	Traktir kami teh
+115	Paket pendukung
+116	Dukungan besar
+117	Terima kasih kecil yang sangat berarti
+118	Membantu biaya server dan peta
+119	Membantu membangun fitur baru
+120	Dukungan bersifat sukarela; tidak ada produk yang dikirim sebagai gantinya.
+121	Perjanjian penjualan jarak jauh
+122	Pembatalan dan pengembalian dana
+123	Jurnal perjalanan dan informasi aksesibilitas
+124	Jurnal perjalananmu hanya terlihat olehmu; jika kamu menyalakan “Bagikan lewat tautan”, siapa pun yang punya tautan bisa melihatnya. Tandamu tentang aksesibilitas suatu tempat hanya dibagikan sebagai jumlah total, tanpa menunjukkan siapa yang membuatnya. Foto pertama dari akun baru diperiksa moderator sebelum diterbitkan.
+@ms
+0	Pemberitahuan di telefon
+1	Jika anda bersetuju menerima pemberitahuan di telefon, ID pemberitahuan yang Firebase berikan kepada peranti anda disimpan bersama akaun supaya kami boleh menghantarnya. ID ini dipadam apabila anda log keluar. Anda boleh mematikan pemberitahuan pada bila-bila masa dalam tetapan telefon.
+2	Kongsi tempat
+3	Tema cerah
+4	Tema gelap
+5	Pratonton
+6	Tema sedia ada
+7	Cipta tema sendiri
+8	Warna aksen
+9	Guna
+10	Ton latar
+11	Latar kecerunan
+12	Beralih daripada ton latar kepada warna aksen
+13	Fon
+14	Saiz teks
+15	Kecil
+16	Biasa
+17	Besar
+18	Sangat besar
+19	Simpan
+20	Tema disimpan. Ia akan digunakan apabila anda menutup dan membuka semula aplikasi.
+21	Tema disimpan
+22	Warna digelapkan sedikit supaya teks mudah dibaca.
+23	Pilihan anda turut disimpan dalam akaun, jadi ia kelihatan sama di laman web dan telefon anda yang lain.
+24	Pilihan anda turut disimpan dalam akaun, jadi ia kelihatan sama dalam aplikasi dan peranti anda yang lain.
+25	Masukkan kod warna yang sah (cth. #3B82F6).
+26	Lavender
+27	Matahari terbenam
+28	Biru tengah malam
+29	Hutan
+30	Sistem
+31	Bulat
+32	Moden
+33	Klasik
+34	Ceria
+35	Cappadocia
+36	Hari ini hujan: kami cadangkan tempat dalam bangunan
+37	Salji turun: muzium, kolam air panas dan pusat ski
+38	Sangat panas: laut, tasik, gua dan tempat yang sejuk
+39	Sejuk: muzium, bazar dan kolam air panas
+40	Cuaca hebat untuk bersiar: tempat di luar
+41	Cadangan untuk hari ini
+42	Cadangan hari ini berhampiran anda
+43	Tempat makan berdekatan
+44	Tempatan
+45	Restoran
+46	Kafe
+47	Makanan segera
+48	Masakan Turki
+49	Kebab
+50	Ikan
+51	Piza
+52	Burger
+53	Kopi
+54	Sarapan
+55	Pide
+56	Pencuci mulut
+57	Aiskrim
+58	Itali
+59	Cina
+60	Vegetarian
+61	Vegan
+62	Daging
+63	Sandwic
+64	Kedai roti
+65	Teh
+66	Antarabangsa
+67	Sumber: penyumbang OpenStreetMap. Semak waktu buka sebelum pergi.
+68	Jurnal pelancongan saya
+69	Jurnal pelancongan
+70	Catat tempat yang anda lawati hari demi hari, tambah foto dan kongsi dengan rakan melalui pautan jika mahu.
+71	Nama jurnal baharu (cth. Cappadocia, Oktober)
+72	Cipta
+73	Anda belum ada jurnal
+74	Cipta jurnal untuk sesuatu perjalanan; cerita anda berkembang dengan setiap tempat yang ditambah.
+75	{1} catatan
+76	Dikongsi
+77	Kongsi melalui pautan
+78	Sesiapa yang ada pautan boleh melihat jurnal anda.
+79	Buat masa ini hanya anda yang melihatnya.
+80	Belum ada catatan
+81	Mulakan dengan menambah tempat yang dilawati, nota dan foto.
+82	Padam jurnal
+83	Tambah catatan
+84	Tempat
+85	Cari tempat (pilihan)
+86	Hari (YYYY-MM-DD)
+87	Hari
+88	Nota
+89	Apa yang anda alami? Apa yang dimakan, siapa yang ditemui?
+90	Gunakan aplikasi untuk menambah foto.
+91	Anda juga boleh menulis jurnal pelancongan dengan Panduan Pelancongan Turkiye.
+92	Daftar dan simpan perjalanan anda
+93	Teruskan ke laman web
+94	Jurnal ini tidak ditemui.
+95	Jurnal dipadam
+96	Padam jurnal ini dan semua catatannya?
+97	Tempat tidak ditemui, pilih daripada senarai
+98	Pilih tempat atau tulis nota
+99	Foto anda akan dilihat semua orang selepas semakan ringkas.
+100	Foto pengguna baharu, menunggu kelulusan
+101	Bayaran masuk dan Müzekart
+102	Kebanyakan muzium dan tapak arkeologi di bawah Kementerian Kebudayaan dan Pelancongan menerima kad muzium Müzekart. Sesetengah istana dan muzium perbandaran atau swasta tidak menerimanya.
+103	Harga boleh berubah beberapa kali setahun; semak harga terkini di laman rasmi sebelum pergi.
+104	Kebolehcapaian
+105	Boleh dicapai
+106	Sebahagian
+107	Tidak boleh dicapai
+108	menurut {1} pelawat
+109	Belum ada maklumat. Jika pernah ke sana, tandakan sama ada boleh dilawati dengan kerusi roda atau kereta sorong bayi.
+110	Maklumat daripada pelawat; telefon dahulu untuk bertanya tentang tanjakan, lif dan tandas mesra OKU.
+111	Peta wilayah ini sudah dimuat turun ke telefon anda. Ia dibuka walaupun tanpa internet.
+112	Muat turun peta seluruh wilayah ke telefon anda; ia akan dibuka di gunung, di kampung dan di mana-mana tanpa isyarat.
+113	Pilih pakej sokongan
+114	Belanja kami teh
+115	Pakej penyokong
+116	Sokongan besar
+117	Terima kasih kecil yang sangat dihargai
+118	Membantu kos pelayan dan peta
+119	Membantu membina ciri baharu
+120	Sokongan adalah sukarela; tiada produk dihantar sebagai balasan.
+121	Perjanjian jualan jarak jauh
+122	Pembatalan dan bayaran balik
+123	Jurnal pelancongan dan maklumat kebolehcapaian
+124	Jurnal pelancongan anda hanya boleh dilihat oleh anda; jika anda menghidupkan “Kongsi melalui pautan”, sesiapa yang ada pautan boleh melihatnya. Tanda kebolehcapaian yang anda buat untuk sesuatu tempat hanya dikongsi sebagai jumlah, tanpa menunjukkan siapa yang membuatnya. Foto pertama akaun baharu disemak oleh moderator sebelum diterbitkan.
+@th
+0	การแจ้งเตือนบนโทรศัพท์
+1	หากคุณยอมรับการแจ้งเตือนบนโทรศัพท์ รหัสการแจ้งเตือนที่ Firebase ให้กับอุปกรณ์ของคุณจะถูกเก็บไว้กับบัญชีเพื่อให้เราส่งการแจ้งเตือนได้ รหัสนี้จะถูกลบเมื่อคุณออกจากระบบ คุณปิดการแจ้งเตือนได้ทุกเมื่อในการตั้งค่าโทรศัพท์
+2	แชร์สถานที่
+3	ธีมสว่าง
+4	ธีมมืด
+5	ตัวอย่าง
+6	ธีมสำเร็จรูป
+7	สร้างธีมของคุณเอง
+8	สีเน้น
+9	ใช้
+10	โทนพื้นหลัง
+11	พื้นหลังไล่สี
+12	ไล่จากโทนพื้นหลังไปยังสีเน้น
+13	แบบอักษร
+14	ขนาดตัวอักษร
+15	เล็ก
+16	ปกติ
+17	ใหญ่
+18	ใหญ่มาก
+19	บันทึก
+20	บันทึกธีมแล้ว จะใช้เมื่อคุณปิดแล้วเปิดแอปใหม่
+21	บันทึกธีมแล้ว
+22	ปรับสีให้เข้มขึ้นเล็กน้อยเพื่อให้อ่านตัวอักษรได้ง่าย
+23	ตัวเลือกของคุณจะถูกบันทึกในบัญชีด้วย จึงแสดงผลเหมือนกันบนเว็บไซต์และโทรศัพท์เครื่องอื่น
+24	ตัวเลือกของคุณจะถูกบันทึกในบัญชีด้วย จึงแสดงผลเหมือนกันในแอปและอุปกรณ์อื่น
+25	ใส่รหัสสีที่ถูกต้อง (เช่น #3B82F6)
+26	ลาเวนเดอร์
+27	พระอาทิตย์ตก
+28	น้ำเงินเที่ยงคืน
+29	ป่า
+30	ระบบ
+31	โค้งมน
+32	ทันสมัย
+33	คลาสสิก
+34	สนุกสนาน
+35	คัปปาโดเกีย
+36	วันนี้ฝนตก: แนะนำสถานที่ในร่ม
+37	หิมะตก: พิพิธภัณฑ์ บ่อน้ำพุร้อน และลานสกี
+38	อากาศร้อนมาก: ทะเล ทะเลสาบ ถ้ำ และที่เย็นสบาย
+39	อากาศหนาว: พิพิธภัณฑ์ ตลาด และบ่อน้ำพุร้อน
+40	อากาศดีเหมาะกับการเที่ยว: สถานที่กลางแจ้ง
+41	คำแนะนำสำหรับวันนี้
+42	คำแนะนำวันนี้ใกล้คุณ
+43	ร้านอาหารใกล้เคียง
+44	อาหารท้องถิ่น
+45	ร้านอาหาร
+46	คาเฟ่
+47	ฟาสต์ฟู้ด
+48	อาหารตุรกี
+49	เคบับ
+50	ปลา
+51	พิซซ่า
+52	เบอร์เกอร์
+53	กาแฟ
+54	อาหารเช้า
+55	พีเด
+56	ของหวาน
+57	ไอศกรีม
+58	อิตาเลียน
+59	จีน
+60	มังสวิรัติ
+61	วีแกน
+62	เนื้อสัตว์
+63	แซนด์วิช
+64	เบเกอรี่
+65	ชา
+66	นานาชาติ
+67	ที่มา: ผู้ร่วมพัฒนา OpenStreetMap ตรวจสอบเวลาเปิดก่อนไป
+68	บันทึกการเดินทางของฉัน
+69	บันทึกการเดินทาง
+70	จดสถานที่ที่ไปทีละวัน เพิ่มรูปภาพ และแชร์ให้เพื่อนผ่านลิงก์ได้ถ้าต้องการ
+71	ชื่อบันทึกใหม่ (เช่น คัปปาโดเกีย ตุลาคม)
+72	สร้าง
+73	คุณยังไม่มีบันทึก
+74	สร้างบันทึกสำหรับทริป เรื่องราวของคุณจะเติบโตขึ้นเมื่อเพิ่มสถานที่ที่ไป
+75	{1} รายการ
+76	แชร์แล้ว
+77	แชร์ผ่านลิงก์
+78	ใครก็ตามที่มีลิงก์สามารถดูบันทึกของคุณได้
+79	ตอนนี้มีแค่คุณที่เห็น
+80	ยังไม่มีรายการ
+81	เริ่มด้วยการเพิ่มสถานที่ที่ไป บันทึกย่อ และรูปภาพ
+82	ลบบันทึก
+83	เพิ่มรายการ
+84	สถานที่
+85	ค้นหาสถานที่ (ไม่บังคับ)
+86	วัน (YYYY-MM-DD)
+87	วัน
+88	บันทึกย่อ
+89	ได้เจออะไรบ้าง? กินอะไร เจอใคร?
+90	ใช้แอปเพื่อเพิ่มรูปภาพ
+91	คุณเองก็เขียนบันทึกการเดินทางกับคู่มือท่องเที่ยวตุรกีได้
+92	สมัครสมาชิกแล้วบันทึกทริปของคุณ
+93	ไปที่เว็บไซต์ต่อ
+94	ไม่พบบันทึกนี้
+95	ลบบันทึกแล้ว
+96	ลบบันทึกนี้และรายการทั้งหมดหรือไม่?
+97	ไม่พบสถานที่ เลือกจากรายการ
+98	เลือกสถานที่หรือเขียนบันทึกย่อ
+99	รูปของคุณจะแสดงให้ทุกคนเห็นหลังตรวจสอบสั้น ๆ
+100	รูปจากผู้ใช้ใหม่ รอการอนุมัติ
+101	ค่าเข้าชมและ Müzekart
+102	พิพิธภัณฑ์และแหล่งโบราณคดีส่วนใหญ่ของกระทรวงวัฒนธรรมและการท่องเที่ยวรับบัตรพิพิธภัณฑ์ Müzekart แต่พระราชวังบางแห่งและพิพิธภัณฑ์ของเทศบาลหรือเอกชนไม่รับ
+103	ราคาอาจเปลี่ยนหลายครั้งต่อปี ตรวจสอบราคาปัจจุบันในเว็บไซต์ทางการก่อนไป
+104	การเข้าถึง
+105	เข้าถึงได้
+106	บางส่วน
+107	เข้าถึงไม่ได้
+108	ตามความเห็นของผู้เยี่ยมชม {1} คน
+109	ยังไม่มีข้อมูล ถ้าเคยไป ช่วยระบุว่าเที่ยวด้วยรถเข็นหรือรถเข็นเด็กได้หรือไม่
+110	ข้อมูลจากผู้เยี่ยมชม โทรถามล่วงหน้าเรื่องทางลาด ลิฟต์ และห้องน้ำสำหรับผู้พิการ
+111	ดาวน์โหลดแผนที่จังหวัดนี้ลงโทรศัพท์แล้ว เปิดได้แม้ไม่มีอินเทอร์เน็ต
+112	ดาวน์โหลดแผนที่ทั้งจังหวัดลงโทรศัพท์ เปิดได้ทั้งบนภูเขา ในหมู่บ้าน และทุกที่ที่ไม่มีสัญญาณ
+113	เลือกแพ็กเกจสนับสนุน
+114	เลี้ยงชาเราสักแก้ว
+115	แพ็กเกจผู้สนับสนุน
+116	สนับสนุนครั้งใหญ่
+117	คำขอบคุณเล็ก ๆ ที่มีค่ามาก
+118	ช่วยค่าเซิร์ฟเวอร์และแผนที่
+119	ช่วยพัฒนาฟีเจอร์ใหม่
+120	การสนับสนุนเป็นไปโดยสมัครใจ ไม่มีการส่งสินค้าตอบแทน
+121	สัญญาซื้อขายทางไกล
+122	การยกเลิกและการคืนเงิน
+123	บันทึกการเดินทางและข้อมูลการเข้าถึง
+124	บันทึกการเดินทางของคุณมีแค่คุณที่เห็น ถ้าเปิด “แชร์ผ่านลิงก์” ใครก็ตามที่มีลิงก์จะเห็นได้ การระบุการเข้าถึงสถานที่ของคุณจะแสดงเป็นจำนวนรวมเท่านั้น โดยไม่บอกว่าใครเป็นคนระบุ รูปแรก ๆ ของบัญชีใหม่จะได้รับการตรวจสอบโดยผู้ดูแลก่อนเผยแพร่
+@vi
+0	Thông báo trên điện thoại
+1	Nếu bạn đồng ý nhận thông báo trên điện thoại, mã thông báo mà Firebase cấp cho thiết bị của bạn sẽ được lưu cùng tài khoản để chúng tôi có thể gửi. Mã này bị xóa khi bạn đăng xuất. Bạn có thể tắt thông báo bất cứ lúc nào trong cài đặt điện thoại.
+2	Chia sẻ địa điểm
+3	Giao diện sáng
+4	Giao diện tối
+5	Xem trước
+6	Giao diện có sẵn
+7	Tạo giao diện của bạn
+8	Màu nhấn
+9	Áp dụng
+10	Tông nền
+11	Nền chuyển màu
+12	Chuyển từ tông nền sang màu nhấn
+13	Phông chữ
+14	Cỡ chữ
+15	Nhỏ
+16	Bình thường
+17	Lớn
+18	Rất lớn
+19	Lưu
+20	Đã lưu giao diện. Giao diện sẽ áp dụng khi bạn đóng rồi mở lại ứng dụng.
+21	Đã lưu giao diện
+22	Màu đã được làm tối hơn một chút để chữ dễ đọc.
+23	Lựa chọn của bạn cũng được lưu vào tài khoản, nên trên trang web và các điện thoại khác cũng trông giống vậy.
+24	Lựa chọn của bạn cũng được lưu vào tài khoản, nên trong ứng dụng và các thiết bị khác cũng trông giống vậy.
+25	Nhập mã màu hợp lệ (vd. #3B82F6).
+26	Oải hương
+27	Hoàng hôn
+28	Xanh nửa đêm
+29	Rừng
+30	Hệ thống
+31	Bo tròn
+32	Hiện đại
+33	Cổ điển
+34	Vui nhộn
+35	Cappadocia
+36	Hôm nay trời mưa: gợi ý các địa điểm trong nhà
+37	Trời có tuyết: bảo tàng, suối nước nóng và khu trượt tuyết
+38	Trời rất nóng: biển, hồ, hang động và nơi mát mẻ
+39	Trời lạnh: bảo tàng, chợ và suối nước nóng
+40	Thời tiết tuyệt vời để khám phá: địa điểm ngoài trời
+41	Gợi ý cho hôm nay
+42	Gợi ý hôm nay gần bạn
+43	Ăn gì gần đây
+44	Đặc sản địa phương
+45	Nhà hàng
+46	Quán cà phê
+47	Đồ ăn nhanh
+48	Ẩm thực Thổ Nhĩ Kỳ
+49	Kebab
+50	Cá
+51	Pizza
+52	Burger
+53	Cà phê
+54	Bữa sáng
+55	Pide
+56	Tráng miệng
+57	Kem
+58	Món Ý
+59	Món Hoa
+60	Món chay
+61	Thuần chay
+62	Thịt
+63	Bánh mì kẹp
+64	Tiệm bánh
+65	Trà
+66	Quốc tế
+67	Nguồn: những người đóng góp OpenStreetMap. Hãy kiểm tra giờ mở cửa trước khi đi.
+68	Nhật ký du lịch của tôi
+69	Nhật ký du lịch
+70	Ghi lại từng ngày những nơi bạn đến, thêm ảnh và chia sẻ với bạn bè qua liên kết nếu muốn.
+71	Tên nhật ký mới (vd. Cappadocia, tháng 10)
+72	Tạo
+73	Bạn chưa có nhật ký nào
+74	Tạo nhật ký cho chuyến đi; câu chuyện của bạn lớn dần theo từng nơi bạn thêm vào.
+75	{1} mục
+76	Đã chia sẻ
+77	Chia sẻ qua liên kết
+78	Ai có liên kết cũng xem được nhật ký của bạn.
+79	Hiện chỉ mình bạn xem được.
+80	Chưa có mục nào
+81	Bắt đầu bằng một nơi bạn đã đến, một ghi chú và một tấm ảnh.
+82	Xóa nhật ký
+83	Thêm mục
+84	Địa điểm
+85	Tìm địa điểm (không bắt buộc)
+86	Ngày (YYYY-MM-DD)
+87	Ngày
+88	Ghi chú
+89	Bạn đã trải qua gì? Đã ăn gì, gặp ai?
+90	Hãy dùng ứng dụng để thêm ảnh.
+91	Bạn cũng có thể viết nhật ký du lịch với Cẩm nang du lịch Thổ Nhĩ Kỳ.
+92	Đăng ký và lưu lại chuyến đi của bạn
+93	Tiếp tục đến trang web
+94	Không tìm thấy nhật ký này.
+95	Đã xóa nhật ký
+96	Xóa nhật ký này và tất cả các mục?
+97	Không tìm thấy địa điểm, hãy chọn trong danh sách
+98	Chọn một địa điểm hoặc viết ghi chú
+99	Ảnh của bạn sẽ hiển thị với mọi người sau khi kiểm tra nhanh.
+100	Ảnh của người dùng mới, đang chờ duyệt
+101	Vé vào cửa và Müzekart
+102	Phần lớn bảo tàng và di chỉ khảo cổ thuộc Bộ Văn hóa và Du lịch chấp nhận thẻ bảo tàng Müzekart. Một số cung điện và bảo tàng của thành phố hoặc tư nhân thì không.
+103	Giá vé có thể thay đổi vài lần mỗi năm; hãy kiểm tra giá hiện tại trên trang chính thức trước khi đi.
+104	Khả năng tiếp cận
+105	Tiếp cận được
+106	Một phần
+107	Không tiếp cận được
+108	theo {1} khách tham quan
+109	Chưa có thông tin. Nếu đã đến, hãy đánh dấu xem có thể tham quan bằng xe lăn hoặc xe đẩy em bé không.
+110	Thông tin do khách tham quan cung cấp; hãy gọi trước để hỏi về lối dốc, thang máy và nhà vệ sinh phù hợp.
+111	Bản đồ tỉnh này đã được tải về điện thoại. Mở được cả khi không có mạng.
+112	Tải bản đồ cả tỉnh về điện thoại; bản đồ sẽ mở được trên núi, ở làng quê và mọi nơi không có sóng.
+113	Chọn gói ủng hộ
+114	Mời chúng tôi một tách trà
+115	Gói người ủng hộ
+116	Ủng hộ lớn
+117	Một lời cảm ơn nhỏ nhưng rất quý
+118	Giúp trang trải chi phí máy chủ và bản đồ
+119	Giúp phát triển tính năng mới
+120	Việc ủng hộ là tự nguyện; không có sản phẩm nào được gửi đổi lại.
+121	Hợp đồng bán hàng từ xa
+122	Hủy và hoàn tiền
+123	Nhật ký du lịch và thông tin tiếp cận
+124	Nhật ký du lịch chỉ mình bạn xem được; nếu bật “Chia sẻ qua liên kết”, ai có liên kết cũng xem được. Đánh dấu của bạn về khả năng tiếp cận của một địa điểm chỉ được chia sẻ dưới dạng tổng số, không cho biết ai đã đánh dấu. Những ảnh đầu tiên của tài khoản mới được người kiểm duyệt xem xét trước khi đăng.

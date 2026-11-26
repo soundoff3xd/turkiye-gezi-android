@@ -1,0 +1,146 @@
+places|Gezilecek yerler
+nplaces|{1} yer
+suggest|Yer öner
+pending_n|Onay bekleyenler ({1})
+pending|Onay bekleyenler
+sortby|Sırala
+s_visits|En çok gidilen
+s_favs|En favori
+s_rating|En yüksek puan
+s_reviews|En çok yorum
+all|Tümü
+c_tarih|Tarihi yapı
+c_muze|Müze ve saray
+c_carsi|Şehir ve çarşı
+c_manzara|Manzara
+c_doga|Doğa
+c_deniz|Deniz
+sample_note|Puan, yorum, gidilme ve favori sayıları örnek veridir.
+allplaces|Tüm yerler
+allturkey|Tüm Türkiye
+r_marmara|Marmara
+r_ege|Ege
+r_akdeniz|Akdeniz
+r_ic|İç Anadolu
+r_karadeniz|Karadeniz
+r_dogu|Doğu Anadolu
+r_gd|Güneydoğu Anadolu
+rg_marmara|Marmara Bölgesi
+rg_ege|Ege Bölgesi
+rg_akdeniz|Akdeniz Bölgesi
+rg_ic|İç Anadolu Bölgesi
+rg_karadeniz|Karadeniz Bölgesi
+rg_dogu|Doğu Anadolu Bölgesi
+rg_gd|Güneydoğu Anadolu Bölgesi
+mapdata|Harita verisi: Natural Earth
+search|İl veya yer ara
+zin|Yakınlaştır
+zout|Uzaklaştır
+close|Kapat
+nrev|{1} yorum
+nrevp|({1} yorum)
+nvisit|{1} kişi gitti
+nfav|{1} favori
+new|Yeni
+noresult|Bu aramaya veya filtreye uyan yer yok.
+beenq|Gittim mi?
+been|Gittim
+fav|Favori
+faved|Favoride
+dir|Yol tarifi
+write|Yorum yaz
+addphoto|Fotoğraf ekle
+overview|Genel bakış
+reviews|Yorumlar
+photos|Fotoğraflar
+photos_n|Fotoğraflar ({1})
+location|Konum
+getting|Nasıl gidilir
+norating|Henüz puan yok
+hours|Açılış saatleri ve giriş ücretleri değişebilir; gitmeden önce resmi kaynaktan kontrol edin.
+outof|5 üzerinden {1} puan
+sample|Örnek
+samplephoto|Örnek fotoğraf
+samplevideo|Örnek video
+daysago|{1} gün önce
+dayago|1 gün önce
+weeksago|{1} hafta önce
+weekago|1 hafta önce
+hoursago|{1} saat önce
+now|Şimdi
+like|Beğen
+replies|Yanıtlar
+replyw|Yanıt yaz
+send|Gönder
+norev|Bu yer için gösterilecek yorum yok
+nophoto|Henüz fotoğraf veya video yok
+share|Deneyimini paylaş
+yourrating|Puanın
+yourexp|Deneyimin
+nstars|{1} yıldız
+addmedia|Fotoğraf veya video ekle
+remove|Kaldır
+post|Paylaş
+posted|Yorumun paylaşıldı
+addedvisited|Gittiğin yerlere eklendi
+addedfav|Favorilere eklendi
+suggested|Önerilen yerler
+howver|Nasıl doğrulanıyor?
+st_wait|Topluluk onayı bekliyor
+st_mod|Şikâyet aldı, moderatörde
+st_ok|Onaylandı, haritada
+st_no|Reddedildi
+napprove|{1}/{2} onay
+showmap|Haritada gör
+real|Burası gerçek
+wrong|Yanlış / uygunsuz
+newplace|Yeni yer öner
+pname|Yerin adı
+markmap|Haritada işaretle
+chloc|Konumu değiştir
+province|İl
+category|Kategori
+shortdesc|Kısa açıklama
+proof|Kanıt fotoğrafı ekle (orada çektiğin)
+visited_me|Bu yeri kendim ziyaret ettim
+submit|İncelemeye gönder
+tapmap|Konumu seçmek için haritaya dokun
+cancel|Vazgeç
+underreview|Önerin incelemeye alındı
+welcome_t|Türkiye Gezi Rehberi
+welcome_s|Türkiye’nin dört bir yanındaki gezilecek yerleri keşfet, gittiğin yerleri işaretle, deneyimini ve fotoğraflarını paylaş.
+welcome_n|Uygulamayı kullanmak için ücretsiz bir hesap oluştur ya da giriş yap.
+login|Giriş yap
+signup|Üye ol
+yourname|Adın
+email|E-posta
+password|Şifre
+min8|En az 8 karakter
+demo|Demo hesabıyla dene
+bademail|Geçerli bir e-posta adresi gir.
+shortpw|Şifre en az 8 karakter olmalı.
+exists|Bu e-postayla zaten bir hesap var. Giriş yapmayı dene.
+wrongpw|E-posta veya şifre hatalı.
+created|Hesabın oluşturuldu, hoş geldin {1}
+wb|Tekrar hoş geldin {1}
+logout|Çıkış yap
+loggedout|Çıkış yapıldı
+myprofile|Profilim
+loginsignup|Giriş yap veya üye ol
+p_been|Gittiklerim ({1})
+p_fav|Favorilerim ({1})
+p_rev|Yorumlarım ({1})
+p_sug|Önerilerim ({1})
+member|Üyelik: {1}
+level|Gezgin seviyesi
+npoints|{1} puan
+nextlevel|Sonraki seviye:
+l0|Yeni gezgin
+l1|Gezgin
+l2|Deneyimli gezgin
+l3|Güvenilir rehber
+delacct|Hesabı sil
+yesdel|Evet, sil
+lang|Dil
+region|Bölge
+mapof|Türkiye haritası

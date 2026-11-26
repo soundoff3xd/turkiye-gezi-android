@@ -1,0 +1,20 @@
+const { chromium } = require('playwright');
+const [file, out1, out2] = process.argv.slice(2);
+(async () => {
+  const b = await chromium.launch(); const errs = [];
+  const pg = await b.newPage({ viewport: { width: 420, height: 860 }, locale: 'tr-TR' });
+  pg.on('pageerror', e => errs.push(e.message));
+  await pg.addInitScript(() => { try { localStorage.setItem('gezi-onboarded', '1'); } catch (_) {} });
+  await pg.goto('file://' + file + '?sayfa=' + (process.env.K || 'iade') + ''); await pg.waitForTimeout(1500);
+  const r1 = await pg.evaluate(() => ({ pub: !!($('pubdlg') && $('pubdlg').open), auth: $('auth').open, h: $('pubdlg') && $('pubdlg').querySelector('h1').innerText }));
+  await pg.screenshot({ path: out1 });
+  await pg.evaluate(() => A.pubclose()); await pg.waitForTimeout(300);
+  const r2 = await pg.evaluate(() => ({ authAfter: $('auth').open }));
+  await pg.evaluate(() => { const bt = [...document.querySelectorAll('button')].find(x => x.dataset.a === 'demo'); bt && bt.click(); }); await pg.waitForTimeout(600);
+  await pg.evaluate(() => { applySupportSettings({ support_packages: JSON.stringify([{ name: 'Çay ısmarla', amount: 50, url: 'https://www.shopier.com/x/1' }, { name: 'Destekçi paketi', amount: 150, url: 'https://www.shopier.com/x/2' }, { name: 'Büyük destek', amount: 500, url: '' }]), seller_name: 'Ad Soyad', seller_email: 'a@b.com' }); openSupport(); });
+  await pg.waitForTimeout(400);
+  const r3 = await pg.evaluate(() => ({ pk: [...document.querySelectorAll('.pkg')].map(x => x.innerText.replace(/\n/g, ' ') + (x.disabled ? ' [kapalı]' : '')), setup: $('supsetup').hidden }));
+  await pg.screenshot({ path: out2 });
+  console.log(JSON.stringify({ r1, r2, r3 }), '| hatalar:', errs.length ? errs : 'yok');
+  await b.close();
+})();

@@ -1,0 +1,378 @@
+@nl
+0	Meldingen op je telefoon
+1	Als je meldingen op je telefoon toestaat, wordt de meldings-ID die Firebase aan je toestel geeft bij je account bewaard, zodat we ze kunnen sturen. Deze ID wordt verwijderd als je uitlogt. Je kunt meldingen altijd uitzetten in de instellingen van je telefoon.
+2	Plek delen
+3	Licht thema
+4	Donker thema
+5	Voorbeeld
+6	Kant-en-klare thema’s
+7	Maak je eigen thema
+8	Accentkleur
+9	Toepassen
+10	Achtergrondtint
+11	Achtergrond met kleurverloop
+12	Loopt over van de achtergrondtint naar de accentkleur
+13	Lettertype
+14	Tekstgrootte
+15	Klein
+16	Normaal
+17	Groot
+18	Heel groot
+19	Opslaan
+20	Thema opgeslagen. Het wordt toegepast als je de app sluit en opnieuw opent.
+21	Thema opgeslagen
+22	De kleur is iets donkerder gemaakt zodat tekst leesbaar blijft.
+23	Je keuze wordt ook in je account bewaard, zodat het er op de website en je andere telefoons hetzelfde uitziet.
+24	Je keuze wordt ook in je account bewaard, zodat het er in de app en op je andere apparaten hetzelfde uitziet.
+25	Vul een geldige kleurcode in (bijv. #3B82F6).
+26	Lavendel
+27	Zonsondergang
+28	Nachtblauw
+29	Bos
+30	Systeem
+31	Rond
+32	Modern
+33	Klassiek
+34	Speels
+35	Cappadocië
+36	Het regent vandaag: we raden binnenplekken aan
+37	Het sneeuwt: musea, thermale baden en skigebieden
+38	Het is erg warm: zee, meren, grotten en koele plekken
+39	Het is koud: musea, bazaars en thermale baden
+40	Prima weer om op pad te gaan: plekken in de buitenlucht
+41	Suggesties voor vandaag
+42	Suggesties voor vandaag bij jou in de buurt
+43	Eten in de buurt
+44	Streekgerechten
+45	Restaurant
+46	Café
+47	Fastfood
+48	Turkse keuken
+49	Kebab
+50	Vis
+51	Pizza
+52	Burgers
+53	Koffie
+54	Ontbijt
+55	Pide
+56	Desserts
+57	IJs
+58	Italiaans
+59	Chinees
+60	Vegetarisch
+61	Veganistisch
+62	Vlees
+63	Broodjes
+64	Bakkerij
+65	Thee
+66	Internationaal
+67	Bron: OpenStreetMap-bijdragers. Controleer de openingstijden voordat je gaat.
+68	Mijn reisdagboeken
+69	Reisdagboek
+70	Noteer dag voor dag de plekken die je bezoekt, voeg foto’s toe en deel het als je wilt via een link met vrienden.
+71	Naam van het nieuwe dagboek (bijv. Cappadocië, oktober)
+72	Maken
+73	Je hebt nog geen dagboek
+74	Maak een dagboek voor een reis; je verhaal groeit met elke plek die je toevoegt.
+75	{1} items
+76	Gedeeld
+77	Delen via link
+78	Iedereen met de link kan je dagboek zien.
+79	Op dit moment zie alleen jij het.
+80	Nog geen items
+81	Begin met een plek die je bezocht hebt, een notitie en een foto.
+82	Dagboek verwijderen
+83	Item toevoegen
+84	Plek
+85	Zoek een plek (optioneel)
+86	Dag (JJJJ-MM-DD)
+87	Dag
+88	Notitie
+89	Wat heb je beleefd? Wat heb je gegeten, wie heb je ontmoet?
+90	Gebruik de app om foto’s toe te voegen.
+91	Ook jij kunt een reisdagboek bijhouden met de Türkiye Reisgids.
+92	Meld je aan en leg je reis vast
+93	Verder naar de website
+94	Dit dagboek is niet gevonden.
+95	Dagboek verwijderd
+96	Dit dagboek en alle items verwijderen?
+97	Plek niet gevonden, kies uit de lijst
+98	Kies een plek of schrijf een notitie
+99	Je foto is na een korte controle voor iedereen zichtbaar.
+100	Foto van een nieuwe gebruiker, wacht op goedkeuring
+101	Toegang en Müzekart
+102	De meeste musea en opgravingen van het ministerie van Cultuur en Toerisme accepteren de museumpas Müzekart. Sommige paleizen en gemeentelijke of particuliere musea niet.
+103	Prijzen kunnen meerdere keren per jaar veranderen; controleer de actuele prijs op de officiële website voordat je gaat.
+104	Toegankelijkheid
+105	Toegankelijk
+106	Gedeeltelijk
+107	Niet toegankelijk
+108	volgens {1} bezoekers
+109	Nog geen informatie. Ben je er geweest? Geef aan of het met een rolstoel of kinderwagen te bezoeken is.
+110	Gemeld door bezoekers; bel vooraf over hellingen, liften en aangepaste toiletten.
+111	De kaart van deze provincie staat op je telefoon. Hij opent ook zonder internet.
+112	Download de kaart van de hele provincie op je telefoon; hij opent ook in de bergen, in dorpen en overal zonder bereik.
+113	Kies een steunpakket
+114	Trakteer ons op thee
+115	Steunpakket
+116	Grote steun
+117	Een klein maar zeer gewaardeerd bedankje
+118	Helpt de kosten van server en kaarten te dekken
+119	Helpt nieuwe functies te bouwen
+120	Steun is vrijwillig; er wordt geen product verstuurd.
+121	Overeenkomst op afstand
+122	Annulering en terugbetaling
+123	Reisdagboek en toegankelijkheidsinformatie
+124	Je reisdagboeken zijn alleen voor jou zichtbaar; als je ‘Delen via link’ aanzet, kan iedereen met de link ze zien. Je toegankelijkheidsmeldingen voor een plek worden alleen als totaal gedeeld, zonder te tonen wie ze gaf. De eerste foto’s van nieuwe accounts worden vóór publicatie door een moderator gecontroleerd.
+@pl
+0	Powiadomienia na telefon
+1	Jeśli zgodzisz się na powiadomienia na telefonie, identyfikator powiadomień, który Firebase nadaje twojemu urządzeniu, jest zapisywany z twoim kontem, abyśmy mogli je wysyłać. Po wylogowaniu identyfikator jest usuwany. Powiadomienia możesz w każdej chwili wyłączyć w ustawieniach telefonu.
+2	Udostępnij miejsce
+3	Jasny motyw
+4	Ciemny motyw
+5	Podgląd
+6	Gotowe motywy
+7	Utwórz własny motyw
+8	Kolor akcentu
+9	Zastosuj
+10	Odcień tła
+11	Tło z gradientem
+12	Przejście od odcienia tła do koloru akcentu
+13	Czcionka
+14	Rozmiar tekstu
+15	Mały
+16	Normalny
+17	Duży
+18	Bardzo duży
+19	Zapisz
+20	Motyw zapisany. Zostanie zastosowany po zamknięciu i ponownym otwarciu aplikacji.
+21	Motyw zapisany
+22	Kolor został lekko przyciemniony, aby tekst był czytelny.
+23	Twój wybór zapisuje się też na koncie, więc na stronie i innych telefonach wygląda tak samo.
+24	Twój wybór zapisuje się też na koncie, więc w aplikacji i na innych urządzeniach wygląda tak samo.
+25	Wpisz poprawny kod koloru (np. #3B82F6).
+26	Lawenda
+27	Zachód słońca
+28	Granat nocy
+29	Las
+30	Systemowa
+31	Zaokrąglona
+32	Nowoczesna
+33	Klasyczna
+34	Zabawna
+35	Kapadocja
+36	Dziś pada: polecamy miejsca pod dachem
+37	Pada śnieg: muzea, termy i ośrodki narciarskie
+38	Jest bardzo gorąco: morze, jeziora, jaskinie i chłodne miejsca
+39	Jest zimno: muzea, bazary i termy
+40	Świetna pogoda na zwiedzanie: miejsca na świeżym powietrzu
+41	Propozycje na dziś
+42	Dzisiejsze propozycje w pobliżu
+43	Gdzie zjeść w pobliżu
+44	Lokalne
+45	Restauracja
+46	Kawiarnia
+47	Fast food
+48	Kuchnia turecka
+49	Kebab
+50	Ryby
+51	Pizza
+52	Burgery
+53	Kawa
+54	Śniadanie
+55	Pide
+56	Desery
+57	Lody
+58	Włoska
+59	Chińska
+60	Wegetariańska
+61	Wegańska
+62	Mięso
+63	Kanapki
+64	Piekarnia
+65	Herbata
+66	Międzynarodowa
+67	Źródło: współtwórcy OpenStreetMap. Sprawdź godziny otwarcia przed wyjściem.
+68	Moje dzienniki podróży
+69	Dziennik podróży
+70	Zapisuj dzień po dniu odwiedzone miejsca, dodawaj zdjęcia i, jeśli chcesz, udostępniaj znajomym przez link.
+71	Nazwa nowego dziennika (np. Kapadocja, październik)
+72	Utwórz
+73	Nie masz jeszcze dziennika
+74	Utwórz dziennik podróży; twoja historia rośnie z każdym dodanym miejscem.
+75	Wpisy: {1}
+76	Udostępniony
+77	Udostępnij przez link
+78	Każdy, kto ma link, zobaczy twój dziennik.
+79	Teraz widzisz go tylko ty.
+80	Brak wpisów
+81	Zacznij od odwiedzonego miejsca, notatki i zdjęcia.
+82	Usuń dziennik
+83	Dodaj wpis
+84	Miejsce
+85	Szukaj miejsca (opcjonalnie)
+86	Dzień (RRRR-MM-DD)
+87	Dzień
+88	Notatka
+89	Co przeżyłeś? Co jadłeś, kogo poznałeś?
+90	Zdjęcia dodasz w aplikacji.
+91	Ty też możesz prowadzić dziennik podróży z Przewodnikiem po Türkiye.
+92	Zarejestruj się i zapisz swoją podróż
+93	Przejdź do strony
+94	Nie znaleziono tego dziennika.
+95	Dziennik usunięty
+96	Usunąć ten dziennik i wszystkie wpisy?
+97	Nie znaleziono miejsca, wybierz z listy
+98	Wybierz miejsce lub napisz notatkę
+99	Twoje zdjęcie będzie widoczne dla wszystkich po krótkim sprawdzeniu.
+100	Zdjęcie nowego użytkownika, czeka na akceptację
+101	Wstęp i Müzekart
+102	Większość muzeów i stanowisk archeologicznych Ministerstwa Kultury i Turystyki honoruje kartę muzealną Müzekart. Niektóre pałace oraz muzea miejskie i prywatne jej nie przyjmują.
+103	Ceny mogą zmieniać się kilka razy w roku; przed wizytą sprawdź aktualną cenę na oficjalnej stronie.
+104	Dostępność
+105	Dostępne
+106	Częściowo
+107	Niedostępne
+108	według {1} odwiedzających
+109	Brak informacji. Jeśli tu byłeś, zaznacz, czy można zwiedzać na wózku inwalidzkim lub z wózkiem dziecięcym.
+110	Informacje od odwiedzających; o podjazdy, windy i dostosowane toalety zapytaj telefonicznie przed wizytą.
+111	Mapa tej prowincji jest na twoim telefonie. Otworzy się też bez internetu.
+112	Pobierz na telefon mapę całej prowincji; otworzy się w górach, na wsi i wszędzie bez zasięgu.
+113	Wybierz pakiet wsparcia
+114	Postaw nam herbatę
+115	Pakiet wspierającego
+116	Duże wsparcie
+117	Małe, ale bardzo cenione podziękowanie
+118	Pomaga pokryć koszty serwera i map
+119	Pomaga tworzyć nowe funkcje
+120	Wsparcie jest dobrowolne; w zamian nie wysyłamy żadnego produktu.
+121	Umowa sprzedaży na odległość
+122	Anulowanie i zwrot
+123	Dziennik podróży i informacje o dostępności
+124	Twoje dzienniki podróży widzisz tylko ty; jeśli włączysz „Udostępnij przez link”, zobaczy je każdy, kto ma link. Twoje oznaczenia dostępności miejsca są pokazywane tylko jako sumy, bez informacji, kto je dodał. Pierwsze zdjęcia nowych kont są sprawdzane przez moderatora przed publikacją.
+@ro
+0	Notificări pe telefon
+1	Dacă accepți notificări pe telefon, identificatorul de notificări pe care Firebase îl dă dispozitivului tău este salvat împreună cu contul, ca să le putem trimite. Acest identificator se șterge când te deconectezi. Poți opri notificările oricând din setările telefonului.
+2	Distribuie locul
+3	Temă luminoasă
+4	Temă întunecată
+5	Previzualizare
+6	Teme gata făcute
+7	Creează-ți tema
+8	Culoare de accent
+9	Aplică
+10	Nuanța fundalului
+11	Fundal în degrade
+12	Trece de la nuanța fundalului la culoarea de accent
+13	Font
+14	Mărimea textului
+15	Mic
+16	Normal
+17	Mare
+18	Foarte mare
+19	Salvează
+20	Tema a fost salvată. Se aplică după ce închizi și redeschizi aplicația.
+21	Temă salvată
+22	Culoarea a fost puțin închisă ca textul să rămână lizibil.
+23	Alegerea ta se salvează și în cont, așa că arată la fel pe site și pe celelalte telefoane.
+24	Alegerea ta se salvează și în cont, așa că arată la fel în aplicație și pe celelalte dispozitive.
+25	Scrie un cod de culoare valid (ex. #3B82F6).
+26	Lavandă
+27	Apus
+28	Albastru de noapte
+29	Pădure
+30	Sistem
+31	Rotunjit
+32	Modern
+33	Clasic
+34	Jucăuș
+35	Cappadocia
+36	Azi plouă: îți sugerăm locuri acoperite
+37	Ninge: muzee, băi termale și pârtii de schi
+38	E foarte cald: mare, lacuri, peșteri și locuri răcoroase
+39	E frig: muzee, bazaruri și băi termale
+40	Vreme perfectă de explorat: locuri în aer liber
+41	Sugestii pentru azi
+42	Sugestiile de azi în apropiere
+43	Unde să mănânci în apropiere
+44	Local
+45	Restaurant
+46	Cafenea
+47	Fast-food
+48	Bucătărie turcească
+49	Kebab
+50	Pește
+51	Pizza
+52	Burgeri
+53	Cafea
+54	Mic dejun
+55	Pide
+56	Deserturi
+57	Înghețată
+58	Italiană
+59	Chinezească
+60	Vegetariană
+61	Vegană
+62	Carne
+63	Sandvișuri
+64	Brutărie
+65	Ceai
+66	Internațională
+67	Sursa: contribuitorii OpenStreetMap. Verifică programul înainte să mergi.
+68	Jurnalele mele de călătorie
+69	Jurnal de călătorie
+70	Notează zi de zi locurile vizitate, adaugă fotografii și, dacă vrei, împărtășește-le cu prietenii printr-un link.
+71	Numele noului jurnal (ex. Cappadocia, octombrie)
+72	Creează
+73	Încă nu ai niciun jurnal
+74	Creează un jurnal pentru o călătorie; povestea ta crește cu fiecare loc adăugat.
+75	{1} înregistrări
+76	Distribuit
+77	Distribuie prin link
+78	Oricine are linkul îți poate vedea jurnalul.
+79	Acum îl vezi doar tu.
+80	Încă nicio înregistrare
+81	Începe cu un loc vizitat, o notă și o fotografie.
+82	Șterge jurnalul
+83	Adaugă înregistrare
+84	Loc
+85	Caută un loc (opțional)
+86	Zi (AAAA-LL-ZZ)
+87	Zi
+88	Notă
+89	Ce ai trăit? Ce ai mâncat, pe cine ai cunoscut?
+90	Folosește aplicația ca să adaugi fotografii.
+91	Și tu poți ține un jurnal de călătorie cu Ghidul de călătorie Türkiye.
+92	Înscrie-te și păstrează-ți călătoria
+93	Continuă pe site
+94	Jurnalul nu a fost găsit.
+95	Jurnal șters
+96	Ștergi acest jurnal și toate înregistrările?
+97	Locul nu a fost găsit, alege din listă
+98	Alege un loc sau scrie o notă
+99	Fotografia ta va fi vizibilă pentru toți după o scurtă verificare.
+100	Fotografie de la un utilizator nou, așteaptă aprobare
+101	Intrare și Müzekart
+102	Majoritatea muzeelor și siturilor arheologice ale Ministerului Culturii și Turismului acceptă permisul de muzee Müzekart. Unele palate și muzee municipale sau private nu îl acceptă.
+103	Prețurile se pot schimba de câteva ori pe an; verifică prețul actual pe site-ul oficial înainte să mergi.
+104	Accesibilitate
+105	Accesibil
+106	Parțial
+107	Inaccesibil
+108	după {1} vizitatori
+109	Încă nu există informații. Dacă ai fost, marchează dacă se poate vizita cu scaunul cu rotile sau căruciorul.
+110	Informații de la vizitatori; sună înainte pentru rampe, lifturi și toalete adaptate.
+111	Harta acestei provincii e descărcată pe telefon. Se deschide și fără internet.
+112	Descarcă pe telefon harta întregii provincii; se deschide la munte, la sat și oriunde nu ai semnal.
+113	Alege un pachet de susținere
+114	Cinstește-ne cu un ceai
+115	Pachet de susținător
+116	Susținere mare
+117	Un mulțumesc mic, dar foarte apreciat
+118	Ajută la costurile serverului și hărților
+119	Ajută la dezvoltarea funcțiilor noi
+120	Susținerea este voluntară; nu se trimite niciun produs în schimb.
+121	Contract de vânzare la distanță
+122	Anulare și rambursare
+123	Jurnal de călătorie și informații despre accesibilitate
+124	Jurnalele tale de călătorie sunt vizibile doar pentru tine; dacă activezi „Distribuie prin link”, oricine are linkul le poate vedea. Marcajele tale de accesibilitate pentru un loc sunt arătate doar ca totaluri, fără a arăta cine le-a făcut. Primele fotografii ale conturilor noi sunt verificate de un moderator înainte de publicare.

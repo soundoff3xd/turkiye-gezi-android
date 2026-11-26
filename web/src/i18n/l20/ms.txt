@@ -1,0 +1,576 @@
+0	Tempat untuk dilawati
+1	{1} tempat
+2	Cadangkan tempat
+3	Menunggu kelulusan ({1})
+4	Menunggu kelulusan
+5	Isih
+6	Isih dan tapis
+7	Paling banyak dilawati
+8	Paling disukai
+9	Penilaian tertinggi
+10	Ulasan terbanyak
+11	Semua
+12	Bangunan bersejarah
+13	Muzium dan istana
+14	Bandar dan pasar
+15	Tempat peninjau
+16	Alam semula jadi
+17	Laut
+19	Semua tempat
+20	Seluruh Turkiye
+21	Marmara
+22	Aegean
+23	Mediterranean
+24	Anatolia Tengah
+25	Laut Hitam
+26	Anatolia Timur
+27	Anatolia Tenggara
+28	Data peta: Natural Earth
+29	Kecilkan panel
+30	Besarkan panel
+31	Peta Turkiye
+32	Senarai tempat
+33	Cari tempat
+34	Wilayah
+35	Kategori
+36	Zum masuk
+37	Zum keluar
+38	Tutup
+39	Bahasa
+40	{1} ulasan
+41	({1} ulasan)
+42	{1} pelawat
+43	{1} suka
+44	Baharu
+45	Ditambah oleh komuniti
+46	Tiada tempat yang sepadan dengan carian atau penapis ini.
+47	Pernah ke sini?
+48	Pernah ke sini
+49	Kegemaran
+50	Dalam kegemaran
+51	Laluan
+52	Tulis ulasan
+53	Tambah foto
+54	Gambaran keseluruhan
+55	Ulasan
+56	Foto
+57	Foto ({1})
+58	Lokasi
+59	Cara ke sana
+60	Belum ada penilaian
+61	Dicadangkan oleh {1}, diluluskan komuniti
+62	Waktu dibuka dan harga tiket boleh berubah; semak sumber rasmi sebelum bertolak.
+63	{1} daripada 5
+68	{1} hari lalu
+69	1 hari lalu
+70	{1} minggu lalu
+71	1 minggu lalu
+72	{1} jam lalu
+73	Baru sahaja
+74	Anda
+75	Suka
+76	Balas
+77	Tulis balasan
+78	Hantar
+79	Belum ada ulasan untuk tempat ini
+80	Pernah ke sini? Kongsi pengalaman pertama.
+81	Belum ada foto atau video
+82	Kongsi gambar anda supaya pengembara akan datang tahu apa yang menanti.
+83	Foto dikongsi
+84	Foto dipilih
+85	Kongsi pengalaman anda
+86	Penilaian anda
+87	Pengalaman anda
+88	{1} bintang
+89	Tambah foto atau video
+90	Alih keluar
+91	Terbitkan
+92	Apa yang anda lihat dan lakukan? Tinggalkan tip untuk pelawat seterusnya.
+93	Penilaian dan teks atau media diperlukan. Siaran adalah umum; jangan kongsi maklumat peribadi atau wajah orang lain.
+94	Ulasan anda telah diterbitkan
+95	Ditambah ke tempat yang pernah dilawati
+96	Ditambah ke kegemaran
+97	Tempat yang dicadangkan
+98	Bagaimana ia disemak?
+99	1. Semakan automatik: sama ada tempat itu di Turkiye, sama ada sudah wujud, sama ada mengandungi kata kesat atau pautan, sama ada ada foto bukti.
+100	2. Kelulusan komuniti: apabila {1} pengguna mengesahkan „Tempat ini wujud”, ia ditambah ke peta. Tiada sesiapa boleh meluluskan cadangan sendiri.
+101	3. Moderator: cadangan dengan {1} laporan „Salah atau tidak sesuai” dialih keluar dan dihantar kepada moderator.
+102	Setiap orang boleh mencadangkan {1} tempat sehari.
+104	dicadangkan oleh {1}, {2}
+105	Menunggu kelulusan komuniti
+106	Dilaporkan, pada moderator
+107	Diluluskan, di peta
+108	Ditolak
+109	{1}/{2} kelulusan
+110	{1}/{2} kelulusan · {3} laporan
+111	Tunjuk di peta
+112	Tempat ini wujud
+113	Salah / tidak sesuai
+114	Moderator: luluskan
+115	Moderator: tolak
+117	{1} telah ditambah ke peta
+118	Cadangan dihantar kepada moderator
+119	Laporan diterima
+120	Cadangan ditolak
+121	Cadangan anda sedang disemak
+122	Cadangkan tempat baharu
+123	Tempat yang pernah anda lawati dan belum ada dalam aplikasi
+124	Nama tempat
+125	Contoh: Air Terjun Tortum
+126	Tandakan di peta
+127	Tukar lokasi
+128	Lokasi belum dipilih
+129	{1} (di luar Turkiye)
+130	Wilayah
+131	Penerangan ringkas
+132	Apa yang boleh dilihat di sana dan mengapa pergi?
+133	Tambah foto bukti (diambil di sana)
+134	Saya sendiri pernah melawat tempat ini
+135	Hantar untuk semakan
+136	Selepas semakan automatik, cadangan anda ditambah apabila {1} pengguna meluluskannya. Cadangan yang dilaporkan dihantar kepada moderator.
+137	Ketik peta untuk memilih lokasi
+138	Batal
+139	Cadangan anda tidak dihantar:
+140	Nama mesti {1}–{2} aksara.
+141	Penerangan mesti sekurang-kurangnya {1} aksara; terangkan dalam beberapa perkataan apa yang boleh dilihat.
+142	Pautan tidak dibenarkan.
+143	Jangan guna huruf berulang atau huruf besar semuanya.
+144	Mengandungi kata kesat.
+145	Tandakan lokasi di peta.
+146	Lokasi yang dipilih berada di luar Turkiye.
+147	Tempat ini sudah wujud atau sangat dekat: {1}.
+148	Tambah foto yang anda ambil di sana sebagai bukti.
+149	Sahkan bahawa anda sendiri pernah melawat tempat ini.
+150	Anda boleh mencadangkan paling banyak {1} tempat sehari.
+165	Wilayah Marmara
+166	Wilayah Aegean
+167	Wilayah Mediterranean
+168	Wilayah Anatolia Tengah
+169	Wilayah Laut Hitam
+170	Wilayah Anatolia Timur
+171	Wilayah Anatolia Tenggara
+172	Pengembara baharu
+173	Pengembara
+174	Pengembara berpengalaman
+175	Pemandu dipercayai
+176	Profil saya
+177	Log masuk atau daftar
+178	Log masuk atau daftar untuk meneruskan.
+179	Akaun anda
+180	Log masuk
+181	Daftar
+182	Nama anda
+183	E-mel
+184	Kata laluan
+185	Sekurang-kurangnya 8 aksara
+186	Cuba akaun demo
+188	Masukkan alamat e-mel yang sah.
+189	Kata laluan mesti sekurang-kurangnya 8 aksara.
+190	Nama mesti 2–30 aksara.
+191	Nama ini tidak boleh digunakan.
+192	Akaun dengan e-mel ini sudah wujud. Cuba log masuk.
+193	E-mel atau kata laluan salah.
+194	Akaun dicipta, selamat datang {1}
+195	Selamat kembali {1}
+196	Log masuk dengan akaun demo
+197	Anda telah log keluar
+198	Log keluar
+199	Pernah ke sini ({1})
+200	Kegemaran ({1})
+201	Ulasan saya ({1})
+202	Cadangan saya ({1})
+203	Tandakan tempat yang pernah anda lawati dengan butang „Pernah ke sini?” pada kad tempat.
+204	Simpan tempat yang anda suka dengan butang „Kegemaran”.
+205	Anda belum menulis sebarang ulasan.
+206	Anda boleh menambah tempat yang tiada melalui „Cadangkan tempat”.
+207	Ahli sejak {1}
+208	Tahap pengembara
+209	{1} mata
+210	Tahap seterusnya:
+211	Anda berada di tahap tertinggi.
+212	Mata: tempat dilawati 1, ulasan 3, cadangan diluluskan 10. Kelulusan pemandu dipercayai bernilai 2 undi.
+213	Padam akaun
+214	Padam akaun dan semua datanya dalam pelayar ini?
+215	Ya, padam
+216	Akaun anda telah dipadam
+219	Panduan Pelancongan Turkiye
+220	Terokai tempat menarik di seluruh Turkiye, tandakan tempat yang pernah dilawati, dan kongsi pengalaman serta foto.
+221	Cipta akaun percuma atau log masuk untuk menggunakan aplikasi.
+222	Tempat
+223	Galeri foto
+224	Foto paling disukai
+225	Gambar tercantik daripada pengembara. Beri hati kepada foto yang anda suka.
+226	Paling disukai
+227	Terbaharu
+228	Jurugambar paling disukai
+229	{1} suka
+230	Pergi ke tempat
+231	Suka foto
+232	Anda menyukai foto ini
+234	Foto
+249	Kami telah menghantar pautan ke e-mel anda untuk mengesahkan akaun. Log masuk selepas mengekliknya.
+250	E-mel anda belum disahkan. Semak peti masuk anda.
+251	Buat masa ini hanya foto boleh dimuat naik.
+252	Saiz foto maksimum 5 MB.
+253	Ada masalah, cuba lagi.
+254	Anda tidak boleh meluluskan cadangan sendiri.
+256	Menu akaun
+257	Tetapan akaun
+258	Sokong kami
+259	Panduan Pelancongan Turkiye ialah projek bebas dan percuma. Sokongan anda membantu pelayan, perkhidmatan peta dan ciri baharu.
+260	Sekali
+261	Bulanan
+262	Jumlah
+263	Jumlah lain
+264	Masukkan jumlah
+265	Sokong dengan {1} ₺
+266	Pilih jumlah
+267	Pembayaran diselesaikan di halaman pembayaran yang selamat; aplikasi ini tidak pernah meminta butiran kad.
+268	Ke mana sokongan anda pergi?
+269	Pelayan dan pangkalan data
+270	Perkhidmatan peta dan satelit
+271	Ciri baharu dan pembangunan
+272	Halaman pembayaran akan dibuka dalam tab baharu
+274	Bayar dengan kad kredit atau debit
+275	Butiran kad dimasukkan di halaman pembayaran
+276	Gaya peta dan lapisan
+277	Gaya peta
+278	Standard
+279	Gelap
+280	Ringkas
+281	Lapisan
+282	Sempadan wilayah
+283	Nama tempat
+284	Tasik
+285	Kembali ke seluruh Turkiye
+286	Sejarah dan budaya
+287	Laut dan pantai
+288	Bandar
+289	Masjid dan makam
+290	Gereja dan biara
+291	Tapak purba dan runtuhan
+292	Kubu dan tembok kota
+293	Istana dan astaka
+294	Muzium
+295	Monumen
+296	Taman dan taman negara
+297	Tasik
+298	Air terjun
+299	Ngarai dan lembah
+300	Gunung dan dataran tinggi
+301	Gua dan lubang benam
+302	Keajaiban alam
+303	Mata air panas
+304	Pantai dan teluk
+305	Pulau
+306	Pekan pantai
+307	Bazar dan pasar
+308	Kawasan bersejarah
+309	Pekan dan kampung
+310	Dataran dan jalan
+311	Tempat peninjau
+312	Menara
+313	Tukar foto profil
+314	Tambah foto profil
+315	Tukar foto
+316	Foto profil dikemas kini
+317	Foto profil dialih keluar
+318	Pilih foto JPG, PNG atau WEBP.
+319	Saiz foto maksimum 15 MB.
+320	Foto ini tidak boleh dibuka.
+321	Terlalu banyak percubaan. Cuba lagi nanti.
+322	Gagal menyambung. Semak internet dan cuba lagi.
+323	Satelit
+324	Paling dekat dengan saya
+325	Lokasi saya
+326	Mengira laluan…
+327	Laluan tidak ditemui.
+328	Arahan langkah demi langkah
+329	Mula navigasi
+330	Navigasi suara dibuka dalam Google Maps.
+331	Laluan dalam aplikasi akan tiba tidak lama lagi. Buat masa ini anda boleh teruskan dengan Google Maps.
+332	{1} min
+333	{1} j {2} min
+334	Saya di sini sekarang
+335	Kereta
+336	Berjalan kaki
+337	Basikal
+338	Pengangkutan awam
+339	dari anda
+340	Pelayar ini tidak menyokong lokasi.
+341	Kebenaran lokasi tidak diberi. Anda boleh membenarkannya dalam tetapan laman pelayar.
+342	Lokasi anda tidak ditemui. Pastikan perkhidmatan lokasi dihidupkan.
+343	Langkau
+344	Teruskan
+345	Jom mula
+346	Teruskan tanpa memilih
+347	Selamat datang!
+348	Dalam bahasa apa anda mahu menggunakan aplikasi?
+349	Apa yang anda suka?
+350	Kami akan menonjolkan tempat yang sesuai untuk anda. Anda boleh memilih lebih daripada satu.
+351	Anda boleh menukarnya kemudian di „Minat saya” dalam menu akaun.
+352	Minat saya
+353	Minat anda telah disimpan
+354	Pilihan anda muncul dalam kategori „Untuk anda”.
+355	Simpan
+356	Fotografi
+357	Akaun saya
+358	Tiada dipilih
+359	Untuk anda
+360	Kembali
+361	Lawati 10 keajaiban alam
+362	Lawati tempat di 10 wilayah berbeza
+363	Kongsi 10 foto
+364	Lawati 10 tempat
+365	Tulis 10 ulasan
+366	Pengembara 10 wilayah
+367	Lawati 100 tempat
+368	Lawati 3 air terjun
+369	Lawati 5 kota purba dan runtuhan
+370	Lawati 5 masjid, gereja atau biara
+371	Lawati 5 kubu
+372	Lawati 5 pantai, pulau atau pekan pantai
+373	Lawati 50 tempat
+374	Peneroka Mediterranean
+375	Lawati 10 tempat di Wilayah Mediterranean
+376	Tulis pendapat anda…
+377	Pengembara masa ke zaman purba
+378	Kosongkan
+379	Alih ke bawah
+380	Anda boleh memilih lebih daripada satu. Kami akan menyusun bandar dengan tempat jenis itu yang terbanyak dan terbaik.
+381	Selesai
+382	Maklumat ini hanya digunakan untuk menjalankan aplikasi: untuk mengenali akaun anda, menunjukkan siaran anda kepada pengembara lain dan menambah baik aplikasi. Kami tidak memaparkan iklan dan tidak menjual maklumat anda kepada sesiapa.
+383	Bahagian ini hanya untuk moderator.
+384	Wilayah ini buat masa ini hanya ada {1} tempat, jadi rancangan dipendekkan.
+385	Kandungan ini tidak lagi wujud.
+386	Tiada tempat jenis itu ditemui.
+387	Hari ini
+388	Anda telah menghantar terlalu banyak mesej hari ini. Cuba esok.
+389	Anda telah menghantar terlalu banyak laporan hari ini. Cuba esok.
+390	Mendung
+391	Pencinta laut
+392	Dengan meneruskan, anda menerima dasar privasi.
+393	Lain-lain
+394	Peneroka alam
+395	Peneroka Anatolia Timur
+396	Lawati 10 tempat di Anatolia Timur
+397	Hentian disusun mengikut urutan terpendek
+398	Pengembara lagenda
+399	Peneroka Aegean
+400	Lawati 10 tempat di Wilayah Aegean
+401	Jurugambar
+402	Laporkan foto
+403	Maklum balas
+404	Jiwa pengembara
+405	Senarai perjalanan saya
+406	Tambah ke senarai perjalanan
+407	Senarai perjalanan anda kosong
+408	Senarai perjalanan penuh (maksimum {1} tempat).
+409	Senarai perjalanan dikosongkan
+410	Dalam senarai perjalanan anda
+411	Dialih keluar dari senarai perjalanan
+412	Ditambah ke senarai perjalanan
+413	Rancangan perjalanan
+414	Disembunyikan
+415	Disembunyikan; moderator sedang menyemak.
+416	Privasi dan perlindungan data
+417	Buka dalam Google Maps
+418	Ribut petir
+419	Yang saya hantar
+420	Pendapat
+421	Hantar maklum balas
+422	Lawati 10 tempat di Anatolia Tenggara
+423	Peneroka Tenggara
+424	Penghinaan atau ucapan kebencian
+425	Hak anda (KVKK)
+426	Maklumat apa yang kami kumpul?
+427	Lawati sekurang-kurangnya satu tempat di setiap wilayah pada peta
+428	Laporan pepijat
+429	Cuaca
+430	Cuaca tidak tersedia sekarang.
+431	Anda telah tiba: {1}
+432	Belum ada maklum balas
+433	Nama dan alamat e-mel yang anda berikan semasa mendaftar; foto profil pilihan; ulasan yang anda tulis, foto yang anda muat naik, tempat yang anda cadangkan, tempat yang dilawati dan kegemaran, serta maklum balas dan laporan yang anda hantar.
+434	Pemburu kubu
+435	Peneroka Laut Hitam
+436	Lawati 10 tempat di Wilayah Laut Hitam
+437	Salji
+438	Sumber: Open-Meteo
+439	Diperoleh
+440	Anda tidak boleh melaporkan siaran anda sendiri.
+441	Selamat jalan!
+442	Siapa boleh lihat?
+443	Topik
+444	Dekat lokasi saya
+445	Lokasi anda tidak ditemui, jadi laluan bermula dari hentian pertama.
+446	Lokasi anda hanya digunakan pada peranti anda: untuk menyusun tempat berdekatan serta menunjukkan jarak dan laluan. Sejarah lokasi tidak disimpan. Apabila anda meminta laluan, titik mula dan destinasi dihantar ke OpenRouteService hanya untuk mengira laluan.
+447	Jumlah {1} garis lurus
+448	Alih keluar dari senarai
+449	Terangkan dalam beberapa perkataan.
+450	Peneroka Marmara
+451	Lawati 10 tempat di Wilayah Marmara
+452	Mesej anda
+453	Mesej anda telah diterima. Terima kasih!
+454	Hanya akaun anda dan versi aplikasi disimpan bersama mesej.
+455	Panel moderator
+456	Navigasi memerlukan kebenaran lokasi.
+457	Apa yang anda mahu lihat?
+458	Untuk apa kami menggunakannya?
+459	Apa yang berlaku? Di skrin mana, semasa anda sedang buat apa? Langkah demi langkah jika boleh.
+460	Di mana ia disimpan?
+461	Ke mana saya patut pergi?
+462	Apa yang anda mahu laporkan?
+463	Dibaca
+464	Tandakan sebagai dibaca
+465	Tandakan sebagai belum dibaca
+466	Ke tengah
+467	Sebahagian mendung
+468	Rancangan menyusun tempat mengikut kedekatan antara satu sama lain. Semak waktu dibuka sebelum bertolak.
+469	Laluan bermula dari lokasi anda dan melalui hentian mengikut urutan ini. Anda boleh memulakan navigasi suara dari skrin laluan.
+470	Mengira semula laluan
+471	Mengira semula laluan…
+472	Tunjuk laluan
+473	Lencana
+474	Bandar yang kami syorkan
+475	Hidupkan bunyi
+476	Matikan bunyi
+477	Navigasi langsung dengan arahan suara dibuka dalam aplikasi.
+478	Padam
+479	Kabus
+480	Kemas kini terakhir: {1}
+481	Kemudian
+482	Untuk soalan dan permintaan, tulis kepada kami melalui „Hantar maklum balas” dalam aplikasi.
+483	Baik, tunjukkan
+484	Spam atau iklan
+485	Versi {1}
+486	Urutan terpendek
+487	Kosongkan
+488	Di sini kami terangkan secara ringkas bagaimana maklumat anda diproses apabila menggunakan Panduan Pelancongan Turkiye.
+489	Jelajah Turkiye
+490	Pengembara mahir
+491	Sejauh mana anda berpuas hati dengan aplikasi? (pilihan)
+492	Kita membina aplikasi ini bersama. Tulis apa sahaja idea, pepijat atau pendapat; kami membaca semuanya.
+493	Kandungan tidak sesuai
+494	Tiba {1}
+495	Data disimpan pada infrastruktur Supabase dan dihantar melalui sambungan yang disulitkan. Peta datang daripada OpenFreeMap dan cuaca daripada Open-Meteo; nama dan e-mel anda tidak dihantar kepada perkhidmatan tersebut.
+496	Bandar berdekatan dahulu.
+497	Maklumat palsu atau mengelirukan
+498	Balasan
+499	Laporkan balasan
+500	Hujan
+501	Lencana baharu diperoleh: {1}
+502	Versi baharu tersedia
+503	{1} dengan ciri dan pembaikan baharu sedia untuk dimuat turun. Muat turun dan pasang sahaja; akaun dan data anda kekal.
+504	Kumpulkan di sini tempat yang anda mahu lawati dengan butang „Tambah ke senarai perjalanan” pada kad tempat; aplikasi menggabungkannya menjadi satu laluan.
+505	Ulasan
+506	Pengulas
+507	Laporkan ulasan
+508	Alih ke atas
+509	dan {1} lagi
+510	{1} hentian
+511	Anda telah tiba di {1}
+512	{1} hari
+513	Semua tempat di {1} ({2})
+514	{1} km jauhnya
+515	Untuk {1}
+516	{1} tempat sepadan
+517	{1} laporan
+518	Hari {1}
+519	Gerimis
+520	Pilih sekurang-kurangnya satu jenis di atas dahulu
+521	Cadangan
+522	Lawati 5 tempat terkenal dengan tanda khas
+523	Pengumpul mercu tanda
+524	~{1} km dari hentian sebelumnya
+525	Dihantar
+526	Hubungi
+527	Bandar dan rancangan perjalanan mengikut minat anda
+528	Langkah pertama
+529	Tandakan tempat pertama anda dengan „Pernah ke sini”
+530	Penziarah
+531	Peneroka Anatolia Tengah
+532	Lawati 10 tempat di Anatolia Tengah
+533	Kandungan dipadam
+534	Kandungan kelihatan semula
+535	Pemburu air terjun
+536	Tiada kandungan dilaporkan
+537	Laporkan
+538	Laporan diterima. Terima kasih!
+539	Laporan
+540	Laporan adalah sulit. Jika tiga orang berbeza melaporkan sesuatu, kandungan disembunyikan secara automatik dan disemak oleh moderator.
+541	Muat turun sekarang
+542	{1} tempat ditambah ke senarai perjalanan
+543	Tempat-tempat ini sudah ada dalam senarai perjalanan anda
+544	Pautan disalin
+545	Salin pautan
+546	Ciri ini berfungsi di laman web yang diterbitkan.
+547	Kosongkan senarai
+548	Laluan memerlukan sekurang-kurangnya dua titik. Benarkan lokasi atau tambah satu lagi tempat.
+549	Navigasi langsung dengan arahan suara dibuka di sini, di laman web.
+550	Memuatkan…
+551	Laluan
+552	Di bawah Undang-undang Perlindungan Data Peribadi Turkiye No. 6698 (KVKK), anda berhak mengakses maklumat anda dan meminta pembetulan atau pemadamannya. Anda boleh memadam akaun anda secara kekal pada bila-bila masa dengan butang „Padam akaun” di halaman profil; ulasan, foto dan semua rekod dipadam bersama.
+553	Nama, foto profil, ulasan dan foto anda adalah umum. E-mel, tempat yang dilawati dan kegemaran hanya anda yang boleh lihat. Maklum balas dan laporan hanya boleh dilihat oleh anda dan moderator.
+554	Laluan bermula dari lokasi anda dan melalui hentian mengikut urutan ini.
+555	Kosongkan carian
+556	Tetapan
+557	Batal suka
+558	Ketik sesuatu tempat
+559	Tambah foto semasa menulis ulasan pada kad tempat; yang paling disukai dipaparkan di sini.
+560	Foto ini tidak lagi tersedia.
+561	Guna lokasi ini
+562	Tempat ini tidak ditemui.
+563	Anda sudah melakukannya.
+564	Apa yang boleh dilihat di sini dan mengapa datang?
+565	Tukar
+566	Pengembara lain akan melihat nama ini
+567	Berguna
+568	Ambil foto
+569	Besarkan foto
+570	Pilih dari galeri
+571	Terokai tempat menarik, tandakan tempat yang pernah dilawati, dan kongsi pengalaman anda.
+572	Peta
+573	Belum ada foto
+574	Anda belum mencadangkan sebarang tempat.
+575	Padam akaun anda?
+576	Akaun anda juga berfungsi di laman web.
+577	Akaun, ulasan, foto dan cadangan anda akan dipadam secara kekal. Tindakan ini tidak boleh dibuat asal.
+578	Cipta akaun
+579	Foto bukti
+580	Pilih kategori
+581	Pilih kategori.
+582	Terokai
+583	Tandakan lokasi
+584	Moderator
+585	Apa yang anda lihat, apa yang anda syorkan?
+586	Undi anda telah direkodkan
+587	Profil
+588	Lokasi dipilih
+589	Tiada hasil.
+590	Tambah tempat yang tiada
+591	Galeri
+592	Zum masuk dan ketik tempat yang tepat.
+593	Tulis balasan…
+594	Cuba lagi
+595	Nama tempat
+596	Lihat tempat
+597	Layari tempat
+598	Ulasan anda
+599	Penilaian bintang dan ulasan atau foto diperlukan.
+600	baru sahaja
+601	{1} min lalu
+602	{1} bulan lalu
+603	{1} tahun lalu
+604	{1} foto
+605	Semak cadangan
+606	Hantar cadangan
+607	cth. Air Terjun Tortum
+608	Pilih wilayah
+609	Pilih wilayah.
+610	Tiada cadangan menunggu sekarang.
+611	Membuka halaman pembayaran
+612	Halaman pembayaran kad akan dibuka di sini tidak lama lagi.
+613	Kebenaran lokasi tidak diberi. Anda boleh membenarkannya dalam tetapan telefon.
+614	Kebenaran kamera tidak diberi. Anda boleh membenarkannya dalam tetapan telefon.
+615	Lokasi anda tidak ditemui. Pastikan perkhidmatan lokasi dihidupkan.
+616	{1} dari anda

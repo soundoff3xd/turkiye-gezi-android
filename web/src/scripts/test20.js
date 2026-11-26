@@ -1,0 +1,20 @@
+const { chromium } = require('playwright');
+const fs = require('fs');
+const [file, out, mockSrc] = process.argv.slice(2);
+const MOCK = fs.readFileSync(mockSrc, 'utf8').split('const MOCK = `')[1].split('`;\n')[0];
+(async () => {
+  const b = await chromium.launch(); const log = [], errs = [];
+  const ctx = await b.newContext({ viewport: { width: 390, height: 844 }, locale: 'tr-TR' });
+  const pg = await ctx.newPage(); pg.on('pageerror', e => errs.push(e.message));
+  await pg.addInitScript(MOCK);
+  await pg.route(/supabase\.co/, r => r.fulfill({ status: 200, body: '{}' }));
+  await pg.route(/fonts\.|jsdelivr|openfreemap|maptiler/, r => r.abort());
+  await pg.goto('file://' + file); await pg.waitForTimeout(1500);
+  log.push(`çevrimiçi: ilk açılış açık=${await pg.evaluate(() => $('onb').open)} | giriş kapalı=${await pg.evaluate(() => !$('auth').open)}`);
+  await pg.click('#onbgo'); await pg.click('.oint[data-v="kultur"]'); await pg.click('#onbgo'); await pg.waitForTimeout(400);
+  log.push(`çevrimiçi: giriş penceresi açıldı=${await pg.evaluate(() => $('auth').open)}`);
+  await pg.click('[data-a="amode"][data-v="up"]'); await pg.fill('#aname', 'Mert'); await pg.fill('#aemail', 'm@ornek.com'); await pg.fill('#apass', 'sifre-12345'); await pg.click('#ago');
+  await pg.waitForTimeout(1200);
+  log.push(`çevrimiçi: girişten sonra kategori=${await pg.evaluate(() => S.cat)} | ${await pg.evaluate(() => results().length)} yer | tümü tarih: ${await pg.evaluate(() => results().every(x => (x.p || x).g === 'kultur'))}`);
+  console.log(log.join('\n')); console.log('hatalar:', errs.length ? errs : 'yok'); await b.close();
+})();

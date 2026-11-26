@@ -1,0 +1,576 @@
+0	Mjesta za posjet
+1	{1} mjesta
+2	Predloži mjesto
+3	Čeka odobrenje ({1})
+4	Čeka odobrenje
+5	Poredaj
+6	Poredaj i filtriraj
+7	Najposjećenije
+8	Najomiljenije
+9	Najbolje ocijenjeno
+10	Najviše recenzija
+11	Sve
+12	Povijesne građevine
+13	Muzej i palača
+14	Grad i tržnica
+15	Vidikovac
+16	Priroda
+17	More
+19	Sva mjesta
+20	Cijela Turska
+21	Mramorno more
+22	Egej
+23	Mediteran
+24	Središnja Anatolija
+25	Crno more
+26	Istočna Anatolija
+27	Jugoistočna Anatolija
+28	Podaci karte: Natural Earth
+29	Smanji ploču
+30	Povećaj ploču
+31	Karta Turske
+32	Popis mjesta
+33	Pretraži mjesta
+34	Regija
+35	Kategorija
+36	Približi
+37	Udalji
+38	Zatvori
+39	Jezik
+40	{1} recenzija
+41	({1} recenzija)
+42	{1} posjetitelja
+43	{1} omiljenih
+44	Novo
+45	Dodala zajednica
+46	Nema mjesta koja odgovaraju ovoj pretrazi ili filtru.
+47	Jesi li bio ovdje?
+48	Bio sam
+49	Omiljeno
+50	U omiljenima
+51	Ruta
+52	Napiši recenziju
+53	Dodaj fotografiju
+54	Pregled
+55	Recenzije
+56	Fotografije
+57	Fotografije ({1})
+58	Lokacija
+59	Kako doći
+60	Još nema ocjena
+61	Predložio {1}, odobrila zajednica
+62	Radno vrijeme i cijene ulaznica se mijenjaju; provjeri službeni izvor prije polaska.
+63	{1} od 5
+68	prije {1} dana
+69	prije 1 dan
+70	prije {1} tjedana
+71	prije 1 tjedan
+72	prije {1} sati
+73	Upravo sada
+74	Ti
+75	Sviđa mi se
+76	Odgovori
+77	Napiši odgovor
+78	Pošalji
+79	Za ovo mjesto nema recenzija
+80	Bio si? Podijeli prvo iskustvo.
+81	Još nema fotografija ni videa
+82	Podijeli svoje snimke da budući putnici znaju što ih čeka.
+83	Podijeljena fotografija
+84	Odabrana fotografija
+85	Podijeli svoje iskustvo
+86	Tvoja ocjena
+87	Tvoje iskustvo
+88	{1} zvjezdica
+89	Dodaj fotografiju ili video
+90	Ukloni
+91	Objavi
+92	Što si vidio i radio? Ostavi savjet sljedećim posjetiteljima.
+93	Potrebni su ocjena i tekst ili medij. Objave su javne; ne dijeli osobne podatke ni lica drugih ljudi.
+94	Tvoja recenzija je objavljena
+95	Dodano u posjećena mjesta
+96	Dodano u omiljeno
+97	Predložena mjesta
+98	Kako se provjerava?
+99	1. Automatske provjere: je li mjesto u Turskoj, postoji li već, sadrži li uvredljive riječi ili poveznice, postoji li fotografija kao dokaz.
+100	2. Odobrenje zajednice: kad {1} korisnika potvrdi „Ovo mjesto je stvarno”, dodaje se na kartu. Nitko ne može odobriti vlastiti prijedlog.
+101	3. Moderator: prijedlog s {1} prijava „Pogrešno ili neprikladno” uklanja se i šalje moderatoru.
+102	Svatko može predložiti {1} mjesta dnevno.
+104	predložio {1}, {2}
+105	Čeka odobrenje zajednice
+106	Prijavljeno, kod moderatora
+107	Odobreno, na karti
+108	Odbijeno
+109	{1}/{2} odobrenja
+110	{1}/{2} odobrenja · {3} prijava
+111	Prikaži na karti
+112	Ovo mjesto je stvarno
+113	Pogrešno / neprikladno
+114	Moderator: odobri
+115	Moderator: odbij
+117	{1} je dodano na kartu
+118	Prijedlog je poslan moderatoru
+119	Prijava je zaprimljena
+120	Prijedlog je odbijen
+121	Tvoj prijedlog se razmatra
+122	Predloži novo mjesto
+123	Mjesto koje si posjetio, a još nije u aplikaciji
+124	Naziv mjesta
+125	Na primjer: slap Tortum
+126	Označi na karti
+127	Promijeni lokaciju
+128	Lokacija još nije odabrana
+129	{1} (izvan Turske)
+130	Pokrajina
+131	Kratak opis
+132	Što se tamo može vidjeti i zašto ići?
+133	Dodaj fotografiju kao dokaz (snimljenu tamo)
+134	Osobno sam posjetio ovo mjesto
+135	Pošalji na pregled
+136	Tvoj prijedlog se, nakon automatskih provjera, dodaje kad ga odobri {1} korisnika. Prijavljeni prijedlozi idu moderatoru.
+137	Dodirni kartu za odabir lokacije
+138	Odustani
+139	Tvoj prijedlog nije poslan:
+140	Naziv mora imati {1} do {2} znakova.
+141	Opis mora imati najmanje {1} znakova; u nekoliko riječi reci što se može vidjeti.
+142	Poveznice nisu dopuštene.
+143	Ne koristi ponovljena slova ili samo velika slova.
+144	Sadrži uvredljive riječi.
+145	Označi lokaciju na karti.
+146	Odabrana lokacija je izvan Turske.
+147	Ovo mjesto već postoji ili je vrlo blizu: {1}.
+148	Kao dokaz dodaj fotografiju koju si snimio tamo.
+149	Potvrdi da si osobno posjetio mjesto.
+150	Dnevno možeš predložiti najviše {1} mjesta.
+165	Regija Mramornog mora
+166	Egejska regija
+167	Mediteranska regija
+168	Regija Središnje Anatolije
+169	Crnomorska regija
+170	Regija Istočne Anatolije
+171	Regija Jugoistočne Anatolije
+172	Novi putnik
+173	Putnik
+174	Iskusni putnik
+175	Pouzdani vodič
+176	Moj profil
+177	Prijavi se ili registriraj
+178	Prijavi se ili registriraj za nastavak.
+179	Tvoj račun
+180	Prijava
+181	Registracija
+182	Tvoje ime
+183	E-pošta
+184	Lozinka
+185	Najmanje 8 znakova
+186	Isprobaj demo račun
+188	Unesi ispravnu adresu e-pošte.
+189	Lozinka mora imati najmanje 8 znakova.
+190	Ime mora imati 2 do 30 znakova.
+191	Ovo ime se ne može koristiti.
+192	Račun s ovom e-poštom već postoji. Pokušaj se prijaviti.
+193	Pogrešna e-pošta ili lozinka.
+194	Račun je stvoren, dobro došao {1}
+195	Dobro došao natrag {1}
+196	Prijavljen si demo računom
+197	Odjavljen si
+198	Odjava
+199	Bio sam ({1})
+200	Omiljeno ({1})
+201	Moje recenzije ({1})
+202	Moji prijedlozi ({1})
+203	Označi mjesta koja si posjetio gumbom „Jesi li bio ovdje?” na kartici mjesta.
+204	Spremi mjesta koja ti se sviđaju gumbom „Omiljeno”.
+205	Još nisi napisao nijednu recenziju.
+206	Mjesto koje nedostaje možeš dodati preko „Predloži mjesto”.
+207	Član od {1}
+208	Razina putnika
+209	{1} bodova
+210	Sljedeća razina:
+211	Na najvišoj si razini.
+212	Bodovi: posjećeno mjesto 1, recenzija 3, odobreni prijedlog 10. Odobrenje pouzdanog vodiča vrijedi 2 glasa.
+213	Izbriši račun
+214	Izbrisati račun i sve njegove podatke u ovom pregledniku?
+215	Da, izbriši
+216	Tvoj račun je izbrisan
+219	Turistički vodič po Turskoj
+220	Otkrij mjesta za posjet diljem Turske, označi gdje si bio i podijeli iskustva i fotografije.
+221	Za korištenje aplikacije stvori besplatan račun ili se prijavi.
+222	Mjesta
+223	Izložba fotografija
+224	Najomiljenije fotografije
+225	Najljepši snimci putnika. Ostavi srce na fotografijama koje ti se sviđaju.
+226	Najomiljenije
+227	Najnovije
+228	Najomiljeniji fotografi
+229	{1} sviđanja
+230	Idi na mjesto
+231	Sviđa mi se fotografija
+232	Svidjela ti se fotografija
+234	Fotografija
+249	Poslali smo ti poveznicu e-poštom za potvrdu računa. Prijavi se nakon što klikneš na nju.
+250	Tvoja e-pošta još nije potvrđena. Provjeri pristiglu poštu.
+251	Trenutno se mogu prenositi samo fotografije.
+252	Fotografije mogu imati najviše 5 MB.
+253	Nešto nije u redu, pokušaj ponovno.
+254	Ne možeš odobriti vlastiti prijedlog.
+256	Izbornik računa
+257	Postavke računa
+258	Podrži nas
+259	Turistički vodič po Turskoj je neovisan i besplatan projekt. Tvoja podrška pomaže za poslužitelje, usluge karata i nove značajke.
+260	Jednokratno
+261	Mjesečno
+262	Iznos
+263	Drugi iznos
+264	Unesi iznos
+265	Podrži s {1} ₺
+266	Odaberi iznos
+267	Plaćanje se dovršava na sigurnoj stranici za plaćanje; ova aplikacija nikad ne traži podatke kartice.
+268	Kamo ide tvoja podrška?
+269	Poslužitelji i baza podataka
+270	Usluga karte i satelita
+271	Nove značajke i razvoj
+272	Stranica za plaćanje otvara se u novoj kartici
+274	Plati kreditnom ili debitnom karticom
+275	Podatke kartice unosiš na stranici za plaćanje
+276	Stil karte i slojevi
+277	Stil karte
+278	Standardno
+279	Tamno
+280	Jednostavno
+281	Slojevi
+282	Granice pokrajina
+283	Nazivi mjesta
+284	Jezera
+285	Natrag na cijelu Tursku
+286	Povijest i kultura
+287	More i obala
+288	Gradovi i mjesta
+289	Džamije i turbeta
+290	Crkve i samostani
+291	Antička mjesta i ruševine
+292	Tvrđave i zidine
+293	Palače i paviljoni
+294	Muzeji
+295	Spomenici
+296	Parkovi i nacionalni parkovi
+297	Jezera
+298	Slapovi
+299	Kanjoni i doline
+300	Planine i visoravni
+301	Špilje i ponori
+302	Prirodna čuda
+303	Termalni izvori
+304	Plaže i uvale
+305	Otoci
+306	Primorska mjesta
+307	Tržnice i čaršije
+308	Povijesne četvrti
+309	Mjesta i sela
+310	Trgovi i ulice
+311	Vidikovci
+312	Tornjevi
+313	Promijeni profilnu fotografiju
+314	Dodaj profilnu fotografiju
+315	Promijeni fotografiju
+316	Profilna fotografija je ažurirana
+317	Profilna fotografija je uklonjena
+318	Odaberi JPG, PNG ili WEBP fotografiju.
+319	Fotografije mogu imati najviše 15 MB.
+320	Ova se fotografija ne može otvoriti.
+321	Previše pokušaja. Pokušaj kasnije.
+322	Povezivanje nije uspjelo. Provjeri internet i pokušaj ponovno.
+323	Satelit
+324	Najbliže meni
+325	Moja lokacija
+326	Izračun rute…
+327	Ruta nije pronađena.
+328	Upute korak po korak
+329	Pokreni navigaciju
+330	Glasovne upute otvaraju se u Google Maps.
+331	Rute u aplikaciji stižu vrlo brzo. Za sada možeš nastaviti preko Google Maps.
+332	{1} min
+333	{1} h {2} min
+334	Sada sam ovdje
+335	Automobil
+336	Pješice
+337	Bicikl
+338	Javni prijevoz
+339	od tebe
+340	Ovaj preglednik ne podržava lokaciju.
+341	Dopuštenje za lokaciju nije dano. Možeš ga dati u postavkama stranice u pregledniku.
+342	Tvoja lokacija nije pronađena. Provjeri jesu li usluge lokacije uključene.
+343	Preskoči
+344	Nastavi
+345	Krenimo
+346	Nastavi bez odabira
+347	Dobro došao!
+348	Na kojem jeziku želiš koristiti aplikaciju?
+349	Što voliš?
+350	Istaknut ćemo mjesta koja ti odgovaraju. Možeš odabrati više.
+351	Ovo možeš kasnije promijeniti u „Moji interesi” u izborniku računa.
+352	Moji interesi
+353	Tvoji interesi su spremljeni
+354	Tvoj odabir pojavljuje se u kategoriji „Za tebe”.
+355	Spremi
+356	Fotografiranje
+357	Moj račun
+358	Ništa nije odabrano
+359	Za tebe
+360	Natrag
+361	Posjeti 10 prirodnih čuda
+362	Posjeti mjesta u 10 različitih pokrajina
+363	Podijeli 10 fotografija
+364	Posjeti 10 mjesta
+365	Napiši 10 recenzija
+366	Putnik kroz 10 pokrajina
+367	Posjeti 100 mjesta
+368	Posjeti 3 slapa
+369	Posjeti 5 antičkih gradova i ruševina
+370	Posjeti 5 džamija, crkava ili samostana
+371	Posjeti 5 tvrđava
+372	Posjeti 5 plaža, otoka ili primorskih mjesta
+373	Posjeti 50 mjesta
+374	Istraživač Mediterana
+375	Posjeti 10 mjesta u Mediteranskoj regiji
+376	Napiši što misliš…
+377	Putnik kroz antiku
+378	Očisti
+379	Pomakni dolje
+380	Možeš odabrati više. Rangirat ćemo gradove s najviše i najboljih mjesta te vrste.
+381	Završi
+382	Ovi se podaci koriste samo za rad aplikacije: da prepoznamo tvoj račun, prikažemo tvoje objave drugim putnicima i poboljšamo aplikaciju. Ne prikazujemo oglase i nikome ne prodajemo tvoje podatke.
+383	Ovaj dio je samo za moderatore.
+384	Ova pokrajina zasad ima samo {1} mjesta, pa je plan skraćen.
+385	Ovaj sadržaj više ne postoji.
+386	Nije pronađeno nijedno mjesto te vrste.
+387	Danas
+388	Danas si poslao previše poruka. Pokušaj sutra.
+389	Danas si poslao previše prijava. Pokušaj sutra.
+390	Oblačno
+391	Ljubitelj mora
+392	Ako nastaviš, prihvaćaš pravila privatnosti.
+393	Ostalo
+394	Istraživač prirode
+395	Istraživač Istočne Anatolije
+396	Posjeti 10 mjesta u Istočnoj Anatoliji
+397	Postaje su poredane najkraćim redoslijedom
+398	Legendarni putnik
+399	Istraživač Egeja
+400	Posjeti 10 mjesta u Egejskoj regiji
+401	Fotograf
+402	Prijavi fotografiju
+403	Povratne informacije
+404	Putnički duh
+405	Moj popis putovanja
+406	Dodaj na popis putovanja
+407	Tvoj popis putovanja je prazan
+408	Popis putovanja je pun (najviše {1} mjesta).
+409	Popis putovanja je izbrisan
+410	Na tvom popisu putovanja
+411	Uklonjeno s popisa putovanja
+412	Dodano na popis putovanja
+413	Plan putovanja
+414	Skriveno
+415	Skriveno; moderator pregledava.
+416	Privatnost i zaštita podataka
+417	Otvori u Google Maps
+418	Grmljavina
+419	Moje poslano
+420	Mišljenje
+421	Pošalji mišljenje
+422	Posjeti 10 mjesta u Jugoistočnoj Anatoliji
+423	Istraživač Jugoistoka
+424	Uvrede ili govor mržnje
+425	Tvoja prava (KVKK)
+426	Koje podatke prikupljamo?
+427	Posjeti barem jedno mjesto u svakoj pokrajini na karti
+428	Prijava pogreške
+429	Vrijeme
+430	Vrijeme trenutno nije dostupno.
+431	Stigao si: {1}
+432	Još nema povratnih informacija
+433	Ime i adresa e-pošte koje daš pri registraciji; neobavezna profilna fotografija; recenzije koje pišeš, fotografije koje prenosiš, mjesta koja predlažeš, posjećena i omiljena mjesta te povratne informacije i prijave koje šalješ.
+434	Lovac na tvrđave
+435	Istraživač Crnog mora
+436	Posjeti 10 mjesta u Crnomorskoj regiji
+437	Snijeg
+438	Izvor: Open-Meteo
+439	Osvojeno
+440	Ne možeš prijaviti vlastitu objavu.
+441	Sretan put!
+442	Tko može vidjeti?
+443	Tema
+444	Blizu moje lokacije
+445	Tvoja lokacija nije pronađena, pa ruta počinje od prve postaje.
+446	Tvoja lokacija koristi se samo na tvom uređaju: za razvrstavanje obližnjih mjesta, prikaz udaljenosti i rute. Povijest lokacija se ne sprema. Kad zatražiš rutu, početna i završna točka šalju se usluzi OpenRouteService samo za izračun rute.
+447	Ukupno {1} zračnom linijom
+448	Ukloni s popisa
+449	Opiši u nekoliko riječi.
+450	Istraživač Mramornog mora
+451	Posjeti 10 mjesta u regiji Mramornog mora
+452	Tvoja poruka
+453	Tvoja poruka je stigla. Hvala!
+454	Uz poruku se spremaju samo tvoj račun i verzija aplikacije.
+455	Ploča moderatora
+456	Za navigaciju je potrebno dopuštenje za lokaciju.
+457	Što želiš vidjeti?
+458	Za što ih koristimo?
+459	Što se dogodilo? Na kojem zaslonu, dok si radio što? Korak po korak ako možeš.
+460	Gdje se pohranjuju?
+461	Kamo da idem?
+462	Što želiš prijaviti?
+463	Pročitano
+464	Označi kao pročitano
+465	Označi kao nepročitano
+466	Centriraj
+467	Djelomično oblačno
+468	Plan redom slaže mjesta po međusobnoj blizini. Prije polaska provjeri radno vrijeme.
+469	Ruta počinje od tvoje lokacije i prolazi kroz postaje ovim redoslijedom. Glasovnu navigaciju možeš pokrenuti sa zaslona rute.
+470	Ponovni izračun rute
+471	Ponovni izračun rute…
+472	Prikaži rutu
+473	Značke
+474	Gradovi koje ti preporučujemo
+475	Uključi zvuk
+476	Isključi zvuk
+477	Navigacija uživo s glasovnim uputama otvara se u aplikaciji.
+478	Izbriši
+479	Magla
+480	Zadnje ažuriranje: {1}
+481	Zatim
+482	Za pitanja i zahtjeve piši nam preko „Pošalji mišljenje” u aplikaciji.
+483	U redu je, prikaži
+484	Neželjeni sadržaj ili oglas
+485	Verzija {1}
+486	Najkraći redoslijed
+487	Očisti
+488	Ovdje jednostavno objašnjavamo kako se obrađuju tvoji podaci kad koristiš Turistički vodič po Turskoj.
+489	Tura po Turskoj
+490	Iskusni putnik
+491	Koliko si zadovoljan aplikacijom? (neobavezno)
+492	Aplikaciju gradimo zajedno. Napiši svaku ideju, pogrešku ili mišljenje; sve čitamo.
+493	Neprikladan sadržaj
+494	Dolazak {1}
+495	Podaci se pohranjuju na infrastrukturi Supabase i prenose šifriranom vezom. Karta dolazi od OpenFreeMap, a vrijeme od Open-Meteo; tvoje ime i e-pošta ne šalju se tim uslugama.
+496	Obližnji gradovi su prvi.
+497	Lažne ili obmanjujuće informacije
+498	Odgovor
+499	Prijavi odgovor
+500	Kiša
+501	Osvojena nova značka: {1}
+502	Dostupna je nova verzija
+503	{1}, s novim značajkama i ispravcima, spremna je za preuzimanje. Samo je preuzmi i instaliraj; račun i podaci ostaju sačuvani.
+504	Skupljaj ovdje mjesta koja želiš posjetiti gumbom „Dodaj na popis putovanja” na karticama mjesta; aplikacija ih spaja u jednu rutu.
+505	Recenzija
+506	Recenzent
+507	Prijavi recenziju
+508	Pomakni gore
+509	i još {1}
+510	{1} postaja
+511	Stigao si do {1}
+512	{1} dana
+513	Sva mjesta u {1} ({2})
+514	udaljeno {1} km
+515	Za {1}
+516	{1} odgovarajućih mjesta
+517	{1} prijava
+518	Dan {1}
+519	Rosulja
+520	Najprije odaberi barem jednu vrstu iznad
+521	Prijedlog
+522	Posjeti 5 poznatih mjesta s posebnom oznakom
+523	Kolekcionar znamenitosti
+524	~{1} km od prethodne postaje
+525	Dostavljeno
+526	Kontakt
+527	Gradovi i plan putovanja prema tvojim interesima
+528	Prvi korak
+529	Označi svoje prvo mjesto s „Bio sam”
+530	Hodočasnik
+531	Istraživač Središnje Anatolije
+532	Posjeti 10 mjesta u Središnjoj Anatoliji
+533	Sadržaj je izbrisan
+534	Sadržaj je ponovno vidljiv
+535	Lovac na slapove
+536	Nema prijavljenog sadržaja
+537	Prijavi
+538	Prijava je zaprimljena. Hvala!
+539	Prijave
+540	Prijave su povjerljive. Ako tri različite osobe prijave nešto, sadržaj se automatski skriva i moderator ga pregledava.
+541	Preuzmi sada
+542	Na popis putovanja dodano je {1} mjesta
+543	Ova su mjesta već na tvom popisu putovanja
+544	Poveznica je kopirana
+545	Kopiraj poveznicu
+546	Ova značajka radi na objavljenoj stranici.
+547	Očisti popis
+548	Za rutu su potrebne barem dvije točke. Dopusti lokaciju ili dodaj još jedno mjesto.
+549	Navigacija uživo s glasovnim uputama otvara se ovdje na stranici.
+550	Učitavanje…
+551	Ruta
+552	Prema turskom Zakonu o zaštiti osobnih podataka br. 6698 (KVKK) imaš pravo na pristup svojim podacima te zatražiti njihov ispravak ili brisanje. Račun možeš trajno izbrisati u bilo kojem trenutku gumbom „Izbriši račun” na stranici profila; recenzije, fotografije i svi zapisi brišu se zajedno.
+553	Tvoje ime, profilna fotografija, recenzije i fotografije su javni. E-poštu, posjećena i omiljena mjesta vidiš samo ti. Povratne informacije i prijave vidiš samo ti i moderatori.
+554	Ruta počinje od tvoje lokacije i prolazi kroz postaje ovim redoslijedom.
+555	Očisti pretragu
+556	Postavke
+557	Više mi se ne sviđa
+558	Dodirni mjesto
+559	Dodaj fotografiju kad pišeš recenziju na kartici mjesta; najomiljenije se prikazuju ovdje.
+560	Ova fotografija više nije dostupna.
+561	Koristi ovu lokaciju
+562	Ovo mjesto nije pronađeno.
+563	To si već napravio.
+564	Što se ovdje može vidjeti i zašto ići?
+565	Promijeni
+566	Drugi putnici vidjet će ovo ime
+567	Korisno
+568	Snimi fotografiju
+569	Povećaj fotografiju
+570	Odaberi iz galerije
+571	Otkrij mjesta za posjet, označi gdje si bio i podijeli svoja iskustva.
+572	Karta
+573	Još nema fotografija
+574	Još nisi predložio nijedno mjesto.
+575	Izbrisati tvoj račun?
+576	Tvoj račun radi i na web-stranici.
+577	Tvoj račun, recenzije, fotografije i prijedlozi bit će trajno izbrisani. Ovo se ne može poništiti.
+578	Stvori račun
+579	Fotografija kao dokaz
+580	Odaberi kategoriju
+581	Odaberi kategoriju.
+582	Istraži
+583	Označi lokaciju
+584	Moderator
+585	Što si vidio, što bi preporučio?
+586	Tvoj glas je zabilježen
+587	Profil
+588	Odabrana lokacija
+589	Nema rezultata.
+590	Dodaj mjesto koje nedostaje
+591	Izložba
+592	Približi i dodirni točno mjesto.
+593	Napiši odgovor…
+594	Pokušaj ponovno
+595	Naziv mjesta
+596	Pogledaj mjesto
+597	Pregledaj mjesta
+598	Tvoja recenzija
+599	Potrebni su ocjena zvjezdicama i recenzija ili fotografija.
+600	upravo
+601	prije {1} min
+602	prije {1} mjeseci
+603	prije {1} godina
+604	{1} fotografija
+605	Provjeri prijedloge
+606	Pošalji prijedlog
+607	npr. slap Tortum
+608	Odaberi pokrajinu
+609	Odaberi pokrajinu.
+610	Trenutno nema prijedloga na čekanju.
+611	Otvara se stranica za plaćanje
+612	Stranica za plaćanje karticom uskoro će se otvarati ovdje.
+613	Dopuštenje za lokaciju nije dano. Možeš ga dati u postavkama telefona.
+614	Dopuštenje za kameru nije dano. Možeš ga dati u postavkama telefona.
+615	Tvoja lokacija nije pronađena. Provjeri jesu li usluge lokacije uključene.
+616	{1} od tebe

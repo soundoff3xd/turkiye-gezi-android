@@ -1,0 +1,504 @@
+@ku
+0	Agahdariyên telefonê
+1	Heke tu qebûl bikî ku agahdariyan li ser telefona xwe bistînî, nasnameya agahdariyê ya ku Firebase dide cîhaza te bi hesabê te re tê tomarkirin da ku em bikaribin wan bişînin. Dema tu derkevî ev nasname tê jêbirin. Tu dikarî her dem agahdariyan ji mîhengên telefonê vemirînî.
+2	Cihî parve bike
+3	Rûkara ronî
+4	Rûkara tarî
+5	Pêşdîtin
+6	Rûkarên amade
+7	Rûkara xwe biafirîne
+8	Rengê giring
+9	Bicîh bîne
+10	Tona paşxaneyê
+11	Paşxaneya gradyan
+12	Ji tona paşxaneyê ber bi rengê giring ve diçe
+13	Tîpnivîs
+14	Mezinahiya nivîsê
+15	Biçûk
+16	Normal
+17	Mezin
+18	Pir mezin
+19	Tomar bike
+20	Rûkar hat tomarkirin. Dema tu sepanê bigirî û dîsa vekî, tê bicîhkirin.
+21	Rûkar hat tomarkirin
+22	Reng hinekî hat tarîkirin da ku nivîs bê xwendin.
+23	Hilbijartina te di hesabê te de jî tê tomarkirin; li malperê û telefonên te yên din jî wek hev xuya dike.
+24	Hilbijartina te di hesabê te de jî tê tomarkirin; di sepanê û cîhazên te yên din de jî wek hev xuya dike.
+25	Koda rengekî derbasdar binivîse (mînak #3B82F6).
+26	Lavender
+27	Rojava
+28	Şînê şevê
+29	Daristan
+30	Pergal
+31	Girover
+32	Nûjen
+33	Klasîk
+34	Kêfxweş
+35	Kapadokya
+36	Îro baran dibare: em cihên girtî pêşniyar dikin
+37	Berf dibare: mûzexane, germav û navendên skiyê
+38	Hewa pir germ e: derya, gol, şikeft û cihên hênik
+39	Hewa sar e: mûzexane, bazar û germav
+40	Hewa ji bo gerê pir baş e: cihên li hewaya vekirî
+41	Pêşniyarên îro
+42	Pêşniyarên îro li gorî cihê te
+43	Li nêzîk çi bixwî
+44	Herêmî
+45	Xwaringeh
+46	Kafe
+47	Xwarina bilez
+48	Metbexa tirkî
+49	Kebab
+50	Masî
+51	Pizza
+52	Burger
+53	Qehwe
+54	Taştê
+55	Pide
+56	Şîranî
+57	Qeşa
+58	Îtalî
+59	Çînî
+60	Zebzexwar
+61	Vegan
+62	Goşt
+63	Sandwîç
+64	Firne
+65	Çay
+66	Navneteweyî
+67	Çavkanî: beşdarên OpenStreetMap. Berî ku biçî demjimêrên vekirinê kontrol bike.
+68	Rojnivîskên min ên gerê
+69	Rojnivîska gerê
+70	Cihên ku tu diçî roj bi roj binivîse, wêne lê zêde bike; heke bixwazî bi girêdanê bi hevalên xwe re parve bike.
+71	Navê rojnivîska nû (mînak Kapadokya, Cotmeh)
+72	Biafirîne
+73	Hîn rojnivîska te tune
+74	Ji bo gerekê rojnivîskekê biafirîne; çiqas cihan lê zêde bikî çîroka te mezin dibe.
+75	{1} tomar
+76	Hat parvekirin
+77	Bi girêdanê parve bike
+78	Her kesê girêdan heye dikare rojnivîska te bibîne.
+79	Niha tenê tu dibînî.
+80	Hîn tomar tune
+81	Bi cihekî ku te dîtiye, notek û wêneyekê dest pê bike.
+82	Rojnivîskê jê bibe
+83	Tomar lê zêde bike
+84	Cih
+85	Li cihekî bigere (bijarte)
+86	Roj (SSSS-MM-RR)
+87	Roj
+88	Not
+89	Çi derbas bû? Te çi xwar, te kê nas kir?
+90	Ji bo wêne lê zêde bikî sepanê bikar bîne.
+91	Bi Rêbera Gerê ya Tirkiyeyê tu jî dikarî rojnivîska gerê binivîsî.
+92	Tu jî tomar bibe, gera xwe hilîne
+93	Bi malperê bidomîne
+94	Ev rojnivîsk nehat dîtin.
+95	Rojnivîsk hat jêbirin
+96	Ev rojnivîsk û hemû tomarên wê werin jêbirin?
+97	Cih nehat dîtin, ji lîsteyê hilbijêre
+98	Cihekî hilbijêre an notekê binivîse
+99	Wêneyê te piştî kontroleke kurt ji her kesî re xuya dibe.
+100	Wêneyê bikarhênerekî nû, li benda pejirandinê ye
+101	Bihayê têketinê û Müzekart
+102	Piraniya mûzexane û cihên kevnar ên Wezareta Çand û Tûrîzmê Müzekartê qebûl dikin. Hin qesr û mûzexaneyên şaredarî an taybet qebûl nakin.
+103	Biha salê çend caran dikarin biguherin; berî ku biçî bihayê niha ji malpera fermî kontrol bike.
+104	Gihîştinbarî
+105	Gihîştbar
+106	Hinekî
+107	Ne gihîştbar
+108	li gorî {1} serdanvanan
+109	Hîn agahî tune. Heke tu çûbî, nîşan bide ka bi kursiya bi teker an erebeya zarokan tê gerîn.
+110	Agahiya serdanvanan e; berî ku biçî ji bo rampe, asansor û tuwaleta guncav telefon bike û bipirse.
+111	Nexşeya vê parêzgehê li telefona te hat daxistin. Bê înternet jî vedibe.
+112	Nexşeya tevahiya parêzgehê li telefona xwe daxe; li çiya, li gund û li cihên bê tor jî vedibe.
+113	Pakêta piştgiriyê hilbijêre
+114	Çayekê ji me re bistîne
+115	Pakêta piştgir
+116	Piştgiriya mezin
+117	Spasiyeke biçûk lê pir hêja
+118	Ji bo lêçûnên server û nexşeyê alîkarî
+119	Ji bo pêşxistina taybetmendiyên nû alîkarî
+120	Piştgirî dilxwazî ye; li hember wê tu berhem nayê şandin.
+121	Peymana firotina ji dûr ve
+122	Betalkirin û vegerandin
+123	Rojnivîska gerê û agahiya gihîştinbariyê
+124	Rojnivîskên te yên gerê tenê ji te re xuya dibin; heke tu “Bi girêdanê parve bike” vekî, her kesê girêdan heye dikare wan bibîne. Nîşanên ku tu ji bo gihîştinbariya cihekî didî tenê wek hejmara giştî tên nîşandan, bêyî ku diyar bibe kê dane. Wêneyên pêşîn ên hesabên nû berî weşandinê ji aliyê moderatorekî ve tên kontrolkirin.
+@ka
+0	ტელეფონის შეტყობინებები
+1	თუ ტელეფონზე შეტყობინებების მიღებას დაეთანხმები, შეტყობინების იდენტიფიკატორი, რომელსაც Firebase შენს მოწყობილობას ანიჭებს, ინახება შენს ანგარიშთან ერთად, რომ შეტყობინებების გაგზავნა შევძლოთ. გასვლისას ეს იდენტიფიკატორი იშლება. შეტყობინებების გამორთვა ნებისმიერ დროს შეგიძლია ტელეფონის პარამეტრებიდან.
+2	ადგილის გაზიარება
+3	ღია თემა
+4	მუქი თემა
+5	გადახედვა
+6	მზა თემები
+7	შექმენი შენი თემა
+8	აქცენტის ფერი
+9	გამოყენება
+10	ფონის ტონი
+11	გრადიენტული ფონი
+12	ფონის ტონიდან აქცენტის ფერზე გადასვლა
+13	შრიფტი
+14	ტექსტის ზომა
+15	პატარა
+16	ჩვეულებრივი
+17	დიდი
+18	ძალიან დიდი
+19	შენახვა
+20	თემა შენახულია. აპის დახურვისა და ხელახლა გახსნის შემდეგ ამოქმედდება.
+21	თემა შენახულია
+22	ფერი ცოტათი გამუქდა, რომ ტექსტი იკითხებოდეს.
+23	შენი არჩევანი ანგარიშშიც ინახება, ამიტომ საიტზე და სხვა ტელეფონებზეც ერთნაირად გამოჩნდება.
+24	შენი არჩევანი ანგარიშშიც ინახება, ამიტომ აპში და სხვა მოწყობილობებზეც ერთნაირად გამოჩნდება.
+25	ჩაწერე სწორი ფერის კოდი (მაგ. #3B82F6).
+26	ლავანდა
+27	მზის ჩასვლა
+28	ღამის ლურჯი
+29	ტყე
+30	სისტემური
+31	მომრგვალებული
+32	თანამედროვე
+33	კლასიკური
+34	მხიარული
+35	კაპადოკია
+36	დღეს წვიმს: გირჩევთ დახურულ ადგილებს
+37	თოვს: მუზეუმები, თერმული აბანოები და სათხილამურო კურორტები
+38	ძალიან ცხელა: ზღვა, ტბები, მღვიმეები და გრილი ადგილები
+39	ცივა: მუზეუმები, ბაზრები და თერმული აბანოები
+40	მშვენიერი ამინდია სასეირნოდ: ღია ცის ქვეშ მდებარე ადგილები
+41	დღევანდელი რჩევები
+42	დღევანდელი რჩევები შენს ახლოს
+43	სად ვჭამოთ ახლოს
+44	ადგილობრივი
+45	რესტორანი
+46	კაფე
+47	სწრაფი კვება
+48	თურქული სამზარეულო
+49	ქაბაბი
+50	თევზი
+51	პიცა
+52	ბურგერი
+53	ყავა
+54	საუზმე
+55	პიდე
+56	დესერტები
+57	ნაყინი
+58	იტალიური
+59	ჩინური
+60	ვეგეტარიანული
+61	ვეგანური
+62	ხორცი
+63	სენდვიჩები
+64	საცხობი
+65	ჩაი
+66	საერთაშორისო
+67	წყარო: OpenStreetMap-ის მონაწილეები. წასვლამდე გადაამოწმე სამუშაო საათები.
+68	ჩემი მოგზაურობის დღიურები
+69	მოგზაურობის დღიური
+70	დღითიდღე ჩაინიშნე მონახულებული ადგილები, დაამატე ფოტოები და, თუ გინდა, ბმულით გაუზიარე მეგობრებს.
+71	ახალი დღიურის სახელი (მაგ. კაპადოკია, ოქტომბერი)
+72	შექმნა
+73	ჯერ დღიური არ გაქვს
+74	შექმენი დღიური მოგზაურობისთვის; ყოველი დამატებული ადგილით შენი ისტორია იზრდება.
+75	{1} ჩანაწერი
+76	გაზიარებულია
+77	ბმულით გაზიარება
+78	ვისაც ბმული აქვს, შენს დღიურს ნახავს.
+79	ახლა მხოლოდ შენ ხედავ.
+80	ჯერ ჩანაწერები არ არის
+81	დაიწყე მონახულებული ადგილით, ჩანიშვნით და ფოტოთი.
+82	დღიურის წაშლა
+83	ჩანაწერის დამატება
+84	ადგილი
+85	ადგილის ძიება (არასავალდებულო)
+86	დღე (წწწწ-თთ-დდ)
+87	დღე
+88	ჩანიშვნა
+89	რა გადაგხდა? რა ჭამე, ვის გაიცანი?
+90	ფოტოების დასამატებლად გამოიყენე აპი.
+91	თურქეთის სამოგზაურო გზამკვლევით შენც შეგიძლია მოგზაურობის დღიური აწარმოო.
+92	დარეგისტრირდი და შეინახე შენი მოგზაურობა
+93	საიტზე გაგრძელება
+94	ეს დღიური ვერ მოიძებნა.
+95	დღიური წაიშალა
+96	წაიშალოს ეს დღიური და ყველა ჩანაწერი?
+97	ადგილი ვერ მოიძებნა, აირჩიე სიიდან
+98	აირჩიე ადგილი ან დაწერე ჩანიშვნა
+99	შენი ფოტო მოკლე შემოწმების შემდეგ ყველასთვის გამოჩნდება.
+100	ახალი მომხმარებლის ფოტო, ელოდება დამტკიცებას
+101	შესასვლელი და Müzekart
+102	კულტურისა და ტურიზმის სამინისტროს მუზეუმებისა და არქეოლოგიური ძეგლების უმეტესობა იღებს სამუზეუმო ბარათს Müzekart. ზოგი სასახლე და მუნიციპალური ან კერძო მუზეუმი არ იღებს.
+103	ფასები წელიწადში რამდენჯერმე შეიძლება შეიცვალოს; წასვლამდე მიმდინარე ფასი ოფიციალურ საიტზე გადაამოწმე.
+104	ხელმისაწვდომობა
+105	ხელმისაწვდომია
+106	ნაწილობრივ
+107	მიუწვდომელია
+108	{1} სტუმრის მიხედვით
+109	ინფორმაცია ჯერ არ არის. თუ ყოფილხარ, მონიშნე, შეიძლება თუ არა ეტლით ან ბავშვის ეტლით დათვალიერება.
+110	ინფორმაცია სტუმრებისგანაა; პანდუსების, ლიფტებისა და ადაპტირებული ტუალეტის შესახებ წინასწარ დარეკე და იკითხე.
+111	ამ პროვინციის რუკა ტელეფონში ჩამოტვირთულია. ინტერნეტის გარეშეც იხსნება.
+112	ჩამოტვირთე მთელი პროვინციის რუკა ტელეფონში; მთაში, სოფელში და ყველგან, სადაც სიგნალი არ არის, გაიხსნება.
+113	აირჩიე მხარდაჭერის პაკეტი
+114	გაგვიმასპინძლდი ჩაით
+115	მხარდამჭერის პაკეტი
+116	დიდი მხარდაჭერა
+117	პატარა, მაგრამ ძალიან ძვირფასი მადლობა
+118	ეხმარება სერვერისა და რუკის ხარჯებს
+119	ეხმარება ახალი ფუნქციების შექმნას
+120	მხარდაჭერა ნებაყოფლობითია; სანაცვლოდ პროდუქტი არ იგზავნება.
+121	დისტანციური გაყიდვის ხელშეკრულება
+122	გაუქმება და თანხის დაბრუნება
+123	მოგზაურობის დღიური და ხელმისაწვდომობის ინფორმაცია
+124	შენი მოგზაურობის დღიურები მხოლოდ შენ გიჩანს; თუ „ბმულით გაზიარებას“ ჩართავ, ბმულის მქონე ნებისმიერი ნახავს. ადგილის ხელმისაწვდომობაზე შენი მონიშვნები მხოლოდ ჯამური რაოდენობით ჩანს, ისე, რომ არ ჩანს, ვინ გააკეთა. ახალი ანგარიშების პირველ ფოტოებს გამოქვეყნებამდე მოდერატორი ამოწმებს.
+@kk
+0	Телефонға хабарландырулар
+1	Телефонға хабарландырулар алуға келіссең, Firebase құрылғыңа беретін хабарландыру идентификаторы оларды жіберу үшін аккаунтыңмен бірге сақталады. Шыққан кезде бұл идентификатор жойылады. Хабарландыруларды кез келген уақытта телефон баптауларынан өшіре аласың.
+2	Орынмен бөлісу
+3	Ашық тақырып
+4	Қараңғы тақырып
+5	Алдын ала қарау
+6	Дайын тақырыптар
+7	Өз тақырыбыңды жаса
+8	Екпін түсі
+9	Қолдану
+10	Фон реңкі
+11	Градиентті фон
+12	Фон реңкінен екпін түсіне ауысады
+13	Қаріп
+14	Мәтін өлшемі
+15	Кішкентай
+16	Қалыпты
+17	Үлкен
+18	Өте үлкен
+19	Сақтау
+20	Тақырып сақталды. Қолданбаны жауып, қайта ашқанда қолданылады.
+21	Тақырып сақталды
+22	Мәтін оқылуы үшін түс сәл күңгірттелді.
+23	Таңдауың аккаунтта да сақталады, сондықтан сайтта және басқа телефондарыңда бірдей көрінеді.
+24	Таңдауың аккаунтта да сақталады, сондықтан қолданбада және басқа құрылғыларыңда бірдей көрінеді.
+25	Дұрыс түс кодын жаз (мысалы, #3B82F6).
+26	Лаванда
+27	Күн батуы
+28	Түнгі көк
+29	Орман
+30	Жүйелік
+31	Дөңгелек
+32	Заманауи
+33	Классикалық
+34	Ойнақы
+35	Каппадокия
+36	Бүгін жаңбыр: жабық орындарды ұсынамыз
+37	Қар жауып тұр: мұражайлар, ыстық бұлақтар және тау шаңғысы орталықтары
+38	Өте ыстық: теңіз, көлдер, үңгірлер және салқын орындар
+39	Суық: мұражайлар, базарлар және ыстық бұлақтар
+40	Серуенге тамаша ауа райы: ашық аспан астындағы орындар
+41	Бүгінгі ұсыныстар
+42	Орналасқан жеріңе қарай бүгінгі ұсыныстар
+43	Жақын маңда қайда тамақтануға болады
+44	Жергілікті
+45	Мейрамхана
+46	Кафе
+47	Фастфуд
+48	Түрік асханасы
+49	Кәуап
+50	Балық
+51	Пицца
+52	Бургер
+53	Кофе
+54	Таңғы ас
+55	Пиде
+56	Тәттілер
+57	Балмұздақ
+58	Итальян
+59	Қытай
+60	Вегетариандық
+61	Вегандық
+62	Ет
+63	Сэндвич
+64	Наубайхана
+65	Шай
+66	Халықаралық
+67	Дереккөз: OpenStreetMap қатысушылары. Барар алдында жұмыс уақытын тексер.
+68	Саяхат күнделіктерім
+69	Саяхат күнделігі
+70	Барған жерлеріңді күн сайын жазып, фото қос; қаласаң, достарыңмен сілтеме арқылы бөліс.
+71	Жаңа күнделік атауы (мысалы, Каппадокия, қазан)
+72	Жасау
+73	Әзірге күнделігің жоқ
+74	Саяхатқа күнделік жаса; барған жерлеріңді қосқан сайын оқиғаң өседі.
+75	{1} жазба
+76	Бөлісілген
+77	Сілтеме арқылы бөлісу
+78	Сілтемесі бар кез келген адам күнделігіңді көре алады.
+79	Қазір оны тек сен көресің.
+80	Әзірге жазба жоқ
+81	Барған жеріңді, жазбаңды және фотоңды қосудан баста.
+82	Күнделікті жою
+83	Жазба қосу
+84	Орын
+85	Орын іздеу (міндетті емес)
+86	Күн (ЖЖЖЖ-АА-КК)
+87	Күн
+88	Жазба
+89	Не болды? Не жедің, кіммен таныстың?
+90	Фото қосу үшін қолданбаны пайдалан.
+91	Түркия саяхат нұсқаулығымен сен де саяхат күнделігін жүргізе аласың.
+92	Тіркеліп, саяхатыңды сақта
+93	Сайтқа өту
+94	Бұл күнделік табылмады.
+95	Күнделік жойылды
+96	Бұл күнделік пен барлық жазбалары жойылсын ба?
+97	Орын табылмады, тізімнен таңда
+98	Орын таңда немесе жазба жаз
+99	Фотоң қысқа тексеруден кейін бәріне көрінеді.
+100	Жаңа пайдаланушының фотосы, мақұлдауды күтуде
+101	Кіру ақысы және Müzekart
+102	Мәдениет және туризм министрлігіне қарасты мұражайлар мен көне орындардың көбі Müzekart мұражай картасын қабылдайды. Кейбір сарайлар мен муниципалдық не жеке мұражайлар қабылдамайды.
+103	Бағалар жылына бірнеше рет өзгеруі мүмкін; барар алдында ресми сайттан қазіргі бағаны тексер.
+104	Қолжетімділік
+105	Қолжетімді
+106	Ішінара
+107	Қолжетімсіз
+108	{1} келушінің айтуынша
+109	Әзірге ақпарат жоқ. Барған болсаң, мүгедек арбасымен не бала арбасымен аралауға бола ма, белгіле.
+110	Келушілер берген ақпарат; пандус, лифт және бейімделген дәретхана туралы алдын ала қоңырау шалып сұра.
+111	Бұл облыстың картасы телефоныңа жүктелді. Интернетсіз де ашылады.
+112	Бүкіл облыстың картасын телефоныңа жүкте; тауда, ауылда, байланыс жоқ жерде де ашылады.
+113	Қолдау пакетін таңда
+114	Бізге шай алып бер
+115	Жақтаушы пакеті
+116	Үлкен қолдау
+117	Кішкентай, бірақ өте қымбат алғыс
+118	Сервер мен карта шығындарына көмек
+119	Жаңа мүмкіндіктерді әзірлеуге көмек
+120	Қолдау ерікті; оның орнына ешқандай тауар жіберілмейді.
+121	Қашықтан сату шарты
+122	Бас тарту және ақшаны қайтару
+123	Саяхат күнделігі және қолжетімділік туралы ақпарат
+124	Саяхат күнделіктеріңді тек сен көресің; «Сілтеме арқылы бөлісу» қоссаң, сілтемесі бар кез келген адам көре алады. Орынның қолжетімділігі туралы белгілерің кім қойғанын көрсетпей, тек жалпы сан ретінде бөлісіледі. Жаңа аккаунттардың алғашқы фотоларын жарияламас бұрын модератор тексереді.
+@uz
+0	Telefonga bildirishnomalar
+1	Telefonga bildirishnomalar olishga rozi bo‘lsang, Firebase qurilmangga beradigan bildirishnoma identifikatori ularni yubora olishimiz uchun hisobing bilan birga saqlanadi. Chiqqaningda bu identifikator o‘chiriladi. Bildirishnomalarni istalgan vaqtda telefon sozlamalaridan o‘chirishing mumkin.
+2	Joyni ulashish
+3	Yorug‘ mavzu
+4	Qorong‘i mavzu
+5	Oldindan ko‘rish
+6	Tayyor mavzular
+7	O‘z mavzungni yarat
+8	Urg‘u rangi
+9	Qo‘llash
+10	Fon tusi
+11	Gradiyentli fon
+12	Fon tusidan urg‘u rangiga o‘tadi
+13	Shrift
+14	Matn o‘lchami
+15	Kichik
+16	Oddiy
+17	Katta
+18	Juda katta
+19	Saqlash
+20	Mavzu saqlandi. Ilovani yopib, qayta ochganingda qo‘llanadi.
+21	Mavzu saqlandi
+22	Matn o‘qilishi uchun rang biroz to‘qlashtirildi.
+23	Tanlovingiz hisobingda ham saqlanadi, shuning uchun saytda va boshqa telefonlaringda ham bir xil ko‘rinadi.
+24	Tanlovingiz hisobingda ham saqlanadi, shuning uchun ilovada va boshqa qurilmalaringda ham bir xil ko‘rinadi.
+25	To‘g‘ri rang kodini yoz (masalan, #3B82F6).
+26	Lavanda
+27	Quyosh botishi
+28	Tungi ko‘k
+29	O‘rmon
+30	Tizim
+31	Yumaloq
+32	Zamonaviy
+33	Klassik
+34	Quvnoq
+35	Kappadokiya
+36	Bugun yomg‘ir: yopiq joylarni tavsiya qilamiz
+37	Qor yog‘moqda: muzeylar, issiq buloqlar va chang‘i kurortlari
+38	Havo juda issiq: dengiz, ko‘llar, g‘orlar va salqin joylar
+39	Havo sovuq: muzeylar, bozorlar va issiq buloqlar
+40	Sayr uchun ajoyib havo: ochiq havodagi joylar
+41	Bugungi tavsiyalar
+42	Joylashuvingga ko‘ra bugungi tavsiyalar
+43	Yaqin atrofda qayerda ovqatlanish mumkin
+44	Mahalliy
+45	Restoran
+46	Kafe
+47	Tez tayyor ovqat
+48	Turk oshxonasi
+49	Kabob
+50	Baliq
+51	Pitsa
+52	Burger
+53	Qahva
+54	Nonushta
+55	Pide
+56	Shirinliklar
+57	Muzqaymoq
+58	Italyan
+59	Xitoy
+60	Vegetarian
+61	Vegan
+62	Go‘sht
+63	Sendvich
+64	Novvoyxona
+65	Choy
+66	Xalqaro
+67	Manba: OpenStreetMap ishtirokchilari. Borishdan oldin ish vaqtini tekshir.
+68	Sayohat kundaliklarim
+69	Sayohat kundaligi
+70	Borgan joylaringni kunma-kun yozib bor, surat qo‘sh; xohlasang do‘stlaringga havola orqali ulash.
+71	Yangi kundalik nomi (masalan, Kappadokiya, oktabr)
+72	Yaratish
+73	Hali kundaliging yo‘q
+74	Sayohat uchun kundalik yarat; borgan joylaringni qo‘shgan sari hikoyang o‘sib boradi.
+75	{1} ta yozuv
+76	Ulashilgan
+77	Havola orqali ulashish
+78	Havolasi bor har kim kundaligingni ko‘ra oladi.
+79	Hozir uni faqat sen ko‘rasan.
+80	Hali yozuv yo‘q
+81	Borgan joyingni, izohingni va suratingni qo‘shib boshla.
+82	Kundalikni o‘chirish
+83	Yozuv qo‘shish
+84	Joy
+85	Joy qidirish (ixtiyoriy)
+86	Kun (YYYY-OO-KK)
+87	Kun
+88	Izoh
+89	Nimalarni boshdan kechirding? Nima yeding, kim bilan tanishding?
+90	Surat qo‘shish uchun ilovadan foydalan.
+91	Turkiya sayohat qo‘llanmasi bilan sen ham sayohat kundaligini yuritishing mumkin.
+92	Ro‘yxatdan o‘t va sayohatingni saqla
+93	Saytga o‘tish
+94	Bu kundalik topilmadi.
+95	Kundalik o‘chirildi
+96	Bu kundalik va barcha yozuvlari o‘chirilsinmi?
+97	Joy topilmadi, ro‘yxatdan tanla
+98	Joy tanla yoki izoh yoz
+99	Surating qisqa tekshiruvdan so‘ng hammaga ko‘rinadi.
+100	Yangi foydalanuvchi surati, tasdiq kutilmoqda
+101	Kirish narxi va Müzekart
+102	Madaniyat va turizm vazirligiga qarashli muzey va qadimiy joylarning ko‘pchiligi Müzekart muzey kartasini qabul qiladi. Ayrim saroylar, shahar yoki xususiy muzeylar qabul qilmaydi.
+103	Narxlar yiliga bir necha marta o‘zgarishi mumkin; borishdan oldin joriy narxni rasmiy saytdan tekshir.
+104	Qulaylik
+105	Qulay
+106	Qisman
+107	Qulay emas
+108	{1} tashrif buyuruvchiga ko‘ra
+109	Hali ma’lumot yo‘q. Borgan bo‘lsang, nogironlar aravachasi yoki bolalar aravachasi bilan aylanish mumkinmi, belgila.
+110	Tashrif buyuruvchilar bergan ma’lumot; pandus, lift va moslashtirilgan hojatxona haqida oldindan qo‘ng‘iroq qilib so‘ra.
+111	Bu viloyat xaritasi telefoningga yuklab olindi. Internetsiz ham ochiladi.
+112	Butun viloyat xaritasini telefoningga yuklab ol; tog‘da, qishloqda va aloqa yo‘q joyda ham ochiladi.
+113	Qo‘llab-quvvatlash paketini tanla
+114	Bizni choyga mehmon qil
+115	Tarafdor paketi
+116	Katta yordam
+117	Kichik, ammo juda qadrli rahmat
+118	Server va xarita xarajatlariga hissa
+119	Yangi imkoniyatlar yaratishga hissa
+120	Yordam ixtiyoriy; evaziga hech qanday mahsulot yuborilmaydi.
+121	Masofaviy savdo shartnomasi
+122	Bekor qilish va qaytarish
+123	Sayohat kundaligi va qulaylik ma’lumotlari
+124	Sayohat kundaliklaringni faqat sen ko‘rasan; “Havola orqali ulashish”ni yoqsang, havolasi bor har kim ko‘ra oladi. Joyning qulayligi haqidagi belgilaring kim qo‘yganini ko‘rsatmasdan faqat umumiy son sifatida ulashiladi. Yangi hisoblarning dastlabki suratlarini e’lon qilishdan oldin moderator tekshiradi.

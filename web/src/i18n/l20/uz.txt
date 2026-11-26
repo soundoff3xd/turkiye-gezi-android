@@ -1,0 +1,576 @@
+0	Ziyorat qilinadigan joylar
+1	{1} ta joy
+2	Joy taklif qilish
+3	Tasdiq kutilmoqda ({1})
+4	Tasdiq kutilmoqda
+5	Saralash
+6	Saralash va filtr
+7	Eng ko‘p borilgan
+8	Eng ko‘p sevimlilarga qo‘shilgan
+9	Eng yuqori baholangan
+10	Eng ko‘p sharhlangan
+11	Hammasi
+12	Tarixiy binolar
+13	Muzey va saroy
+14	Shahar va bozor
+15	Manzara nuqtasi
+16	Tabiat
+17	Dengiz
+19	Barcha joylar
+20	Butun Turkiya
+21	Marmara
+22	Egey
+23	O‘rta yer dengizi
+24	Markaziy Anatoliya
+25	Qora dengiz
+26	Sharqiy Anatoliya
+27	Janubi-sharqiy Anatoliya
+28	Xarita ma’lumotlari: Natural Earth
+29	Panelni kichraytirish
+30	Panelni kattalashtirish
+31	Turkiya xaritasi
+32	Joylar ro‘yxati
+33	Joy qidirish
+34	Hudud
+35	Turkum
+36	Yaqinlashtirish
+37	Uzoqlashtirish
+38	Yopish
+39	Til
+40	{1} ta sharh
+41	({1} ta sharh)
+42	{1} kishi borgan
+43	{1} ta sevimli
+44	Yangi
+45	Hamjamiyat qo‘shgan
+46	Bu qidiruv yoki filtrga mos joy yo‘q.
+47	Borganmisiz?
+48	Borganman
+49	Sevimli
+50	Sevimlilarda
+51	Yo‘nalish
+52	Sharh yozish
+53	Rasm qo‘shish
+54	Umumiy ma’lumot
+55	Sharhlar
+56	Rasmlar
+57	Rasmlar ({1})
+58	Joylashuv
+59	Qanday borish mumkin
+60	Hali baho yo‘q
+61	{1} taklif qildi, hamjamiyat tasdiqladi
+62	Ish vaqti va chipta narxlari o‘zgaradi; borishdan oldin rasmiy manbadan tekshiring.
+63	5 dan {1}
+68	{1} kun oldin
+69	1 kun oldin
+70	{1} hafta oldin
+71	1 hafta oldin
+72	{1} soat oldin
+73	Hozirgina
+74	Siz
+75	Yoqdi
+76	Javoblar
+77	Javob yozish
+78	Yuborish
+79	Bu joy uchun ko‘rsatiladigan sharh yo‘q
+80	Borganmisiz? Birinchi taassurotingiz bilan bo‘lishing.
+81	Hali rasm yoki video yo‘q
+82	Keyingi sayohatchilar nimani kutishini bilishi uchun rasmlaringiz bilan bo‘lishing.
+83	Ulashilgan rasm
+84	Tanlangan rasm
+85	Taassurotingiz bilan bo‘lishing
+86	Bahoingiz
+87	Taassurotingiz
+88	{1} yulduz
+89	Rasm yoki video qo‘shish
+90	Olib tashlash
+91	Joylash
+92	Nimani ko‘rdingiz, nima qildingiz? Keyingi mehmonlarga maslahat qoldiring.
+93	Baho va matn yoki media talab qilinadi. Postlar ommaviy; shaxsiy ma’lumotlar va boshqalarning yuzini ulashmang.
+94	Sharhingiz joylandi
+95	Borgan joylaringizga qo‘shildi
+96	Sevimlilarga qo‘shildi
+97	Taklif qilingan joylar
+98	Qanday tekshiriladi?
+99	1. Avtomatik tekshiruv: joy Turkiya hududidami, allaqachon mavjudmi, haqoratli so‘z yoki havolalar bormi, dalil rasmi bormi.
+100	2. Hamjamiyat tasdig‘i: {1} foydalanuvchi “Bu joy haqiqiy” desa, u xaritaga qo‘shiladi. Hech kim o‘z taklifini tasdiqlay olmaydi.
+101	3. Moderator: {1} ta “Noto‘g‘ri yoki nomaqbul” shikoyat olgan taklif olib tashlanib, moderatorga yuboriladi.
+102	Har kim kuniga {1} ta joy taklif qila oladi.
+104	{1} taklif qildi, {2}
+105	Hamjamiyat tasdig‘i kutilmoqda
+106	Shikoyat qilingan, moderatorda
+107	Tasdiqlangan, xaritada
+108	Rad etilgan
+109	{1}/{2} tasdiq
+110	{1}/{2} tasdiq · {3} shikoyat
+111	Xaritada ko‘rsatish
+112	Bu joy haqiqiy
+113	Noto‘g‘ri / nomaqbul
+114	Moderator: tasdiqlash
+115	Moderator: rad etish
+117	{1} xaritaga qo‘shildi
+118	Taklif moderatorga yuborildi
+119	Shikoyat qabul qilindi
+120	Taklif rad etildi
+121	Taklifingiz ko‘rib chiqilmoqda
+122	Yangi joy taklif qilish
+123	Siz borgan, lekin ilovada hali yo‘q joy
+124	Joy nomi
+125	Masalan: Tortum sharsharasi
+126	Xaritada belgilash
+127	Joylashuvni o‘zgartirish
+128	Joylashuv hali tanlanmagan
+129	{1} (Turkiyadan tashqarida)
+130	Viloyat
+131	Qisqa tavsif
+132	U yerda nimani ko‘rish mumkin, nega borish kerak?
+133	Dalil rasmini qo‘shing (o‘sha yerda olingan)
+134	Bu joyga o‘zim borganman
+135	Ko‘rib chiqishga yuborish
+136	Taklifingiz avtomatik tekshiruvdan so‘ng {1} foydalanuvchi tasdiqlasa qo‘shiladi. Shikoyat qilingan takliflar moderatorga boradi.
+137	Joyni tanlash uchun xaritaga teging
+138	Bekor qilish
+139	Taklifingiz yuborilmadi:
+140	Nom {1}–{2} belgidan iborat bo‘lishi kerak.
+141	Tavsif kamida {1} belgi bo‘lishi kerak; u yerda nima borligini bir necha so‘z bilan ayting.
+142	Havolalarga ruxsat yo‘q.
+143	Takrorlangan harflar yoki faqat bosh harflardan foydalanmang.
+144	Haqoratli so‘zlar bor.
+145	Joyni xaritada belgilang.
+146	Tanlangan joy Turkiyadan tashqarida.
+147	Bu joy allaqachon mavjud yoki unga juda yaqin: {1}.
+148	Dalil sifatida o‘sha yerda olgan rasmingizni qo‘shing.
+149	Joyga o‘zingiz borganingizni tasdiqlang.
+150	Kuniga ko‘pi bilan {1} ta joy taklif qila olasiz.
+165	Marmara mintaqasi
+166	Egey mintaqasi
+167	O‘rta yer dengizi mintaqasi
+168	Markaziy Anatoliya mintaqasi
+169	Qora dengiz mintaqasi
+170	Sharqiy Anatoliya mintaqasi
+171	Janubi-sharqiy Anatoliya mintaqasi
+172	Yangi sayohatchi
+173	Sayohatchi
+174	Tajribali sayohatchi
+175	Ishonchli gid
+176	Profilim
+177	Kirish yoki ro‘yxatdan o‘tish
+178	Davom etish uchun kiring yoki ro‘yxatdan o‘ting.
+179	Hisobingiz
+180	Kirish
+181	Ro‘yxatdan o‘tish
+182	Ismingiz
+183	Elektron pochta
+184	Parol
+185	Kamida 8 belgi
+186	Demo hisobni sinab ko‘rish
+188	To‘g‘ri elektron pochta manzilini kiriting.
+189	Parol kamida 8 belgidan iborat bo‘lishi kerak.
+190	Ismingiz 2–30 belgidan iborat bo‘lishi kerak.
+191	Bu ismdan foydalanib bo‘lmaydi.
+192	Bu pochta bilan hisob mavjud. Kirib ko‘ring.
+193	Pochta yoki parol noto‘g‘ri.
+194	Hisob yaratildi, xush kelibsiz, {1}
+195	Yana xush kelibsiz, {1}
+196	Demo hisob bilan kirdingiz
+197	Chiqdingiz
+198	Chiqish
+199	Borganman ({1})
+200	Sevimlilar ({1})
+201	Sharhlarim ({1})
+202	Takliflarim ({1})
+203	Borgan joylaringizni joy kartasidagi “Borganmisiz?” tugmasi bilan belgilang.
+204	Yoqqan joylarni “Sevimli” tugmasi bilan saqlang.
+205	Siz hali sharh yozmagansiz.
+206	Yetishmayotgan joyni “Joy taklif qilish” orqali qo‘shishingiz mumkin.
+207	{1} dan beri a’zo
+208	Sayohatchi darajasi
+209	{1} ball
+210	Keyingi daraja:
+211	Siz eng yuqori darajadasiz.
+212	Ballar: borilgan joy 1, sharh 3, tasdiqlangan taklif 10. Ishonchli gidning tasdig‘i 2 ovoz sifatida hisoblanadi.
+213	Hisobni o‘chirish
+214	Hisob va uning bu brauzerdagi barcha ma’lumotlari o‘chirilsinmi?
+215	Ha, o‘chirish
+216	Hisobingiz o‘chirildi
+219	Turkiya sayohat qo‘llanmasi
+220	Butun Turkiya bo‘ylab ko‘rish kerak bo‘lgan joylarni kashf eting, borgan joylaringizni belgilang, taassurot va rasmlaringiz bilan bo‘lishing.
+221	Ilovadan foydalanish uchun bepul hisob oching yoki kiring.
+222	Joylar
+223	Foto vitrina
+224	Eng ko‘p yoqqan rasmlar
+225	Sayohatchilar olgan eng chiroyli kadrlar. Yoqqan rasmlarga yurakcha qoldiring.
+226	Eng ko‘p yoqqan
+227	Eng yangi
+228	Eng ko‘p yoqqan fotograflar
+229	{1} ta yoqdi
+230	Joyga o‘tish
+231	Rasmga yoqdi bosish
+232	Rasm sizga yoqdi
+234	Rasm
+249	Hisobingizni tasdiqlash uchun pochtangizga havola yubordik. Unga bosgandan so‘ng kiring.
+250	Pochtangiz hali tasdiqlanmagan. Pochta qutingizni tekshiring.
+251	Hozircha faqat rasm yuklash mumkin.
+252	Rasm ko‘pi bilan 5 MB bo‘lishi mumkin.
+253	Nimadir xato ketdi, qayta urinib ko‘ring.
+254	O‘z taklifingizni tasdiqlay olmaysiz.
+256	Hisob menyusi
+257	Hisob sozlamalari
+258	Bizni qo‘llab-quvvatlang
+259	Turkiya sayohat qo‘llanmasi mustaqil va bepul loyiha. Qo‘llab-quvvatlashingiz serverlar, xarita xizmatlari va yangi imkoniyatlar xarajatlarini qoplashga yordam beradi.
+260	Bir martalik
+261	Har oylik
+262	Miqdor
+263	Boshqa miqdor
+264	Miqdorni kiriting
+265	{1} ₺ bilan qo‘llab-quvvatlash
+266	Miqdorni tanlang
+267	To‘lov xavfsiz to‘lov sahifasida amalga oshiriladi; bu ilova hech qachon karta ma’lumotlarini so‘ramaydi.
+268	Yordamingiz qayerga sarflanadi?
+269	Serverlar va ma’lumotlar bazasi
+270	Xarita va sun’iy yo‘ldosh xizmati
+271	Yangi imkoniyatlar va ishlab chiqish
+272	To‘lov sahifasi yangi varaqda ochilmoqda
+274	Kredit yoki debet karta bilan to‘lash
+275	Karta ma’lumotlarini to‘lov sahifasida kiritasiz
+276	Xarita uslubi va qatlamlar
+277	Xarita uslubi
+278	Standart
+279	Qorong‘i
+280	Oddiy
+281	Qatlamlar
+282	Viloyat chegaralari
+283	Joy nomlari
+284	Ko‘llar
+285	Butun Turkiyaga qaytish
+286	Tarix va madaniyat
+287	Dengiz va qirg‘oq
+288	Shahar va shaharchalar
+289	Masjid va maqbaralar
+290	Cherkov va monastirlar
+291	Qadimiy shaharlar va xarobalar
+292	Qal’alar va devorlar
+293	Saroy va ko‘shklar
+294	Muzeylar
+295	Yodgorliklar
+296	Bog‘lar va milliy bog‘lar
+297	Ko‘llar
+298	Sharsharalar
+299	Kanyon va vodiylar
+300	Tog‘lar va yaylovlar
+301	G‘orlar va chuqurlar
+302	Tabiat mo‘jizalari
+303	Issiq buloqlar
+304	Plyajlar va ko‘rfazlar
+305	Orollar
+306	Qirg‘oq shaharchalari
+307	Bozorlar va savdo rastalari
+308	Tarixiy mahallalar
+309	Shaharcha va qishloqlar
+310	Maydon va ko‘chalar
+311	Manzara nuqtalari
+312	Minoralar
+313	Profil rasmini o‘zgartirish
+314	Profil rasmini qo‘shish
+315	Rasmni o‘zgartirish
+316	Profil rasmingiz yangilandi
+317	Profil rasmingiz olib tashlandi
+318	JPG, PNG yoki WEBP rasm tanlang.
+319	Rasm ko‘pi bilan 15 MB bo‘lishi mumkin.
+320	Bu rasmni ochib bo‘lmadi.
+321	Juda ko‘p urinish. Keyinroq qayta urinib ko‘ring.
+322	Ulanib bo‘lmadi. Internetni tekshirib, qayta urinib ko‘ring.
+323	Sun’iy yo‘ldosh
+324	Menga eng yaqin
+325	Joylashuvim
+326	Yo‘nalish hisoblanmoqda…
+327	Yo‘nalish topilmadi.
+328	Bosqichma-bosqich yo‘nalish
+329	Navigatsiyani boshlash
+330	Ovozli yo‘naltirish Google Maps’da ochiladi.
+331	Ilova ichidagi yo‘nalish tez orada qo‘shiladi. Hozircha Google Maps orqali davom etishingiz mumkin.
+332	{1} daq
+333	{1} soat {2} daq
+334	Hozir shu yerdaman
+335	Avtomobil
+336	Piyoda
+337	Velosiped
+338	Jamoat transporti
+339	sizdan
+340	Bu brauzer joylashuvni qo‘llab-quvvatlamaydi.
+341	Joylashuvga ruxsat berilmadi. Brauzerning sayt sozlamalaridan ruxsat berishingiz mumkin.
+342	Joylashuvingiz topilmadi. Joylashuv xizmatlari yoqilganini tekshiring.
+343	O‘tkazib yuborish
+344	Davom etish
+345	Boshladik
+346	Tanlamasdan davom etish
+347	Xush kelibsiz!
+348	Ilovadan qaysi tilda foydalanmoqchisiz?
+349	Sizga nima yoqadi?
+350	Sizga mos joylarni oldinga chiqaramiz. Bir nechtasini tanlashingiz mumkin.
+351	Buni keyinroq hisob menyusidagi “Qiziqishlarim” bo‘limida o‘zgartirishingiz mumkin.
+352	Qiziqishlarim
+353	Qiziqishlaringiz saqlandi
+354	Tanlaganlaringiz “Siz uchun” turkumida ko‘rsatiladi.
+355	Saqlash
+356	Suratga olish
+357	Hisobim
+358	Hech narsa tanlanmagan
+359	Siz uchun
+360	Orqaga
+361	10 ta tabiat mo‘jizasiga boring
+362	10 xil viloyatdagi joylarga boring
+363	10 ta rasm ulashing
+364	10 ta joyga boring
+365	10 ta sharh yozing
+366	10 viloyat sayohatchisi
+367	100 ta joyga boring
+368	3 ta sharsharaga boring
+369	5 ta qadimiy shahar va xarobaga boring
+370	5 ta masjid, cherkov yoki monastirga boring
+371	5 ta qal’aga boring
+372	5 ta plyaj, orol yoki qirg‘oq shaharchasiga boring
+373	50 ta joyga boring
+374	O‘rta yer dengizi tadqiqotchisi
+375	O‘rta yer dengizi mintaqasidagi 10 ta joyga boring
+376	Xayolingizdagini yozing…
+377	Qadimiyat sayyohi
+378	Tozalash
+379	Pastga surish
+380	Bir nechtasini tanlashingiz mumkin. Shu turdagi eng ko‘p va eng yaxshi joylarga ega shaharlarni saralaymiz.
+381	Tugatish
+382	Bu ma’lumotlar faqat ilova ishlashi uchun ishlatiladi: hisobingizni tanish, postlaringizni boshqa sayohatchilarga ko‘rsatish va ilovani yaxshilash. Biz reklama ko‘rsatmaymiz va ma’lumotlaringizni hech kimga sotmaymiz.
+383	Bu bo‘lim faqat moderatorlar uchun.
+384	Bu viloyatda hozircha faqat {1} ta joy bor, shuning uchun reja qisqartirildi.
+385	Bu kontent endi mavjud emas.
+386	Bu turdagi joy topilmadi.
+387	Bugun
+388	Bugun juda ko‘p xabar yubordingiz. Ertaga qayta urinib ko‘ring.
+389	Bugun juda ko‘p shikoyat qildingiz. Ertaga qayta urinib ko‘ring.
+390	Bulutli
+391	Dengiz ishqibozi
+392	Davom etish orqali maxfiylik siyosatini qabul qilasiz.
+393	Boshqa
+394	Tabiat tadqiqotchisi
+395	Sharqiy Anatoliya tadqiqotchisi
+396	Sharqiy Anatoliyadagi 10 ta joyga boring
+397	To‘xtashlar eng qisqa tartibda joylashtirildi
+398	Afsonaviy sayohatchi
+399	Egey tadqiqotchisi
+400	Egey mintaqasidagi 10 ta joyga boring
+401	Fotograf
+402	Rasmdan shikoyat qilish
+403	Fikr-mulohaza
+404	Sayohat ruhi
+405	Sayohat ro‘yxatim
+406	Sayohat ro‘yxatiga qo‘shish
+407	Sayohat ro‘yxatingiz bo‘sh
+408	Sayohat ro‘yxati to‘la (ko‘pi bilan {1} ta joy).
+409	Sayohat ro‘yxati tozalandi
+410	Sayohat ro‘yxatingizda
+411	Sayohat ro‘yxatidan olib tashlandi
+412	Sayohat ro‘yxatiga qo‘shildi
+413	Sayohat rejasi
+414	Yashirilgan
+415	Yashirilgan; moderator ko‘rib chiqmoqda.
+416	Maxfiylik va ma’lumotlar himoyasi
+417	Google Maps’da ochish
+418	Momaqaldiroq
+419	Men yuborganlar
+420	Fikr
+421	Fikr-mulohaza yuborish
+422	Janubi-sharqiy Anatoliyadagi 10 ta joyga boring
+423	Janubi-sharq tadqiqotchisi
+424	Haqorat yoki nafrat nutqi
+425	Huquqlaringiz (KVKK)
+426	Qanday ma’lumot to‘playmiz?
+427	Xaritadagi har bir viloyatda kamida bitta joyga boring
+428	Xato haqida xabar
+429	Ob-havo
+430	Ob-havoni hozir olib bo‘lmadi.
+431	Yetib keldingiz: {1}
+432	Hali fikr-mulohaza yo‘q
+433	Ro‘yxatdan o‘tishda bergan ismingiz va pochtangiz; ixtiyoriy profil rasmingiz; yozgan sharhlaringiz, yuklagan rasmlaringiz, joy takliflaringiz, borgan va sevimli joylaringiz, yuborgan fikr-mulohaza va shikoyatlaringiz.
+434	Qal’a ovchisi
+435	Qora dengiz tadqiqotchisi
+436	Qora dengiz mintaqasidagi 10 ta joyga boring
+437	Qor
+438	Manba: Open-Meteo
+439	Qo‘lga kiritildi
+440	O‘z postingizdan shikoyat qila olmaysiz.
+441	Yaxshi sayohat!
+442	Kimlar ko‘ra oladi?
+443	Mavzu
+444	Joylashuvimga yaqin
+445	Joylashuvingiz topilmadi, shuning uchun yo‘nalish birinchi to‘xtashdan boshlanadi.
+446	Joylashuvingiz faqat qurilmangizda ishlatiladi: yaqin joylarni saralash, masofalarni ko‘rsatish va yo‘nalish uchun. Joylashuv tarixingiz saqlanmaydi. Yo‘nalish so‘raganingizda boshlanish va manzil nuqtalari faqat yo‘nalishni hisoblash uchun OpenRouteService’ga yuboriladi.
+447	To‘g‘ri chiziq bo‘yicha jami {1}
+448	Ro‘yxatdan olib tashlash
+449	Iltimos, bir necha so‘z bilan tushuntiring.
+450	Marmara tadqiqotchisi
+451	Marmara mintaqasidagi 10 ta joyga boring
+452	Xabaringiz
+453	Xabaringiz bizga yetib keldi. Rahmat!
+454	Xabaringiz bilan birga faqat hisobingiz va ilova versiyasi saqlanadi.
+455	Moderator paneli
+456	Navigatsiya uchun joylashuvga ruxsat kerak.
+457	Nimani ko‘rmoqchisiz?
+458	Nima uchun ishlatamiz?
+459	Nima bo‘ldi? Qaysi ekranda, nima qilayotganda? Iloji bo‘lsa, bosqichma-bosqich yozing.
+460	Qayerda saqlanadi?
+461	Qayerga borsam ekan?
+462	Nimadan shikoyat qilmoqchisiz?
+463	O‘qildi
+464	O‘qilgan deb belgilash
+465	O‘qilmagan deb belgilash
+466	Markazga keltirish
+467	Qisman bulutli
+468	Reja joylarni bir-biriga yaqinligiga qarab tartiblaydi. Borishdan oldin ish vaqtini tekshiring.
+469	Yo‘nalish joylashuvingizdan boshlanib, to‘xtashlardan shu tartibda o‘tadi. Ovozli navigatsiyani yo‘nalish ekranidan boshlashingiz mumkin.
+470	Yo‘nalish qayta hisoblanmoqda
+471	Yo‘nalish qayta hisoblanmoqda…
+472	Yo‘nalishni ko‘rsatish
+473	Nishonlar
+474	Sizga tavsiya etadigan shaharlar
+475	Ovozni yoqish
+476	Ovozni o‘chirish
+477	Ovozli yo‘naltirishli jonli navigatsiya ilova ichida ochiladi.
+478	O‘chirish
+479	Tuman
+480	Oxirgi yangilanish: {1}
+481	Keyin
+482	Savol va so‘rovlar uchun ilovadagi “Fikr-mulohaza yuborish” bo‘limidan bizga yozing.
+483	Muammo yo‘q, ko‘rsatish
+484	Spam yoki reklama
+485	Versiya {1}
+486	Eng qisqa tartib
+487	Tozalash
+488	Bu yerda Turkiya sayohat qo‘llanmasidan foydalanganda ma’lumotlaringiz qanday qayta ishlanishini oddiy tilda tushuntiramiz.
+489	Turkiya bo‘ylab sayohat
+490	Tajribali sayohatchi
+491	Ilovadan qanchalik mamnunsiz? (ixtiyoriy)
+492	Ilovani birga rivojlantiramiz. Har qanday g‘oya, xato yoki fikrni yozing; hammasini o‘qiymiz.
+493	Nomaqbul kontent
+494	Yetib borish {1}
+495	Ma’lumotlar Supabase infratuzilmasida saqlanadi va shifrlangan ulanish orqali uzatiladi. Xarita OpenFreeMap’dan, ob-havo Open-Meteo’dan olinadi; bu xizmatlarga ismingiz yoki pochtangiz yuborilmaydi.
+496	Yaqin shaharlar birinchi chiqadi.
+497	Yolg‘on yoki chalg‘ituvchi ma’lumot
+498	Javob
+499	Javobdan shikoyat qilish
+500	Yomg‘ir
+501	Yangi nishon qo‘lga kiritildi: {1}
+502	Yangi versiya tayyor
+503	Yangi imkoniyat va tuzatishlarga ega {1} yuklab olishga tayyor. Yuklab, o‘rnatsangiz bas; hisobingiz va ma’lumotlaringiz saqlanadi.
+504	Bormoqchi bo‘lgan joylarni joy kartalaridagi “Sayohat ro‘yxatiga qo‘shish” tugmasi bilan shu yerga to‘plang; ilova ularni bitta yo‘nalishga birlashtiradi.
+505	Sharh
+506	Sharhlovchi
+507	Sharhdan shikoyat qilish
+508	Yuqoriga surish
+509	va yana {1} ta
+510	{1} ta to‘xtash
+511	{1} ga yetib keldingiz
+512	{1} kun
+513	{1} dagi barcha joylar ({2})
+514	{1} km uzoqlikda
+515	{1} dan so‘ng
+516	{1} ta mos joy
+517	{1} ta shikoyat
+518	{1}-kun
+519	Mayda yomg‘ir
+520	Avval yuqoridan kamida bitta turni tanlang
+521	Taklif
+522	Maxsus belgili 5 ta mashhur joyga boring
+523	Diqqatga sazovor joylar kolleksioneri
+524	oldingi to‘xtashdan ~{1} km
+525	Yetkazildi
+526	Aloqa
+527	Qiziqishlaringizga qarab shahar va sayohat rejasi
+528	Birinchi qadam
+529	Birinchi joyingizni “Borganman” deb belgilang
+530	Ziyoratchi
+531	Markaziy Anatoliya tadqiqotchisi
+532	Markaziy Anatoliyadagi 10 ta joyga boring
+533	Kontent o‘chirildi
+534	Kontent yana ko‘rsatilmoqda
+535	Sharshara ovchisi
+536	Shikoyat qilingan kontent yo‘q
+537	Shikoyat qilish
+538	Shikoyatingiz qabul qilindi. Rahmat!
+539	Shikoyatlar
+540	Shikoyatlar maxfiy saqlanadi. Uch xil odam shikoyat qilsa, kontent avtomatik yashiriladi va moderator ko‘rib chiqadi.
+541	Hozir yuklab olish
+542	Sayohat ro‘yxatiga {1} ta joy qo‘shildi
+543	Bu joylar allaqachon sayohat ro‘yxatingizda
+544	Havola nusxalandi
+545	Havolani nusxalang
+546	Bu imkoniyat e’lon qilingan saytda ishlaydi.
+547	Ro‘yxatni tozalash
+548	Yo‘nalish uchun kamida ikki nuqta kerak. Joylashuvga ruxsat bering yoki yana bir joy qo‘shing.
+549	Ovozli yo‘naltirishli jonli navigatsiya shu saytda ochiladi.
+550	Yuklanmoqda…
+551	Yo‘nalish
+552	Turkiyaning 6698-sonli Shaxsiy ma’lumotlarni himoya qilish to‘g‘risidagi qonuniga (KVKK) ko‘ra ma’lumotlaringizga kirish, ularni tuzatish yoki o‘chirishni so‘rash huquqingiz bor. Profil sahifasidagi “Hisobni o‘chirish” tugmasi bilan hisobingizni istalgan vaqtda butunlay o‘chirishingiz mumkin; sharhlaringiz, rasmlaringiz va barcha yozuvlaringiz birga o‘chiriladi.
+553	Ismingiz, profil rasmingiz, sharhlaringiz va rasmlaringiz ommaviy. Pochtangiz, borgan va sevimli joylaringiz faqat sizga ko‘rinadi. Fikr-mulohaza va shikoyatlaringizni faqat siz va moderatorlar ko‘radi.
+554	Yo‘nalish joylashuvingizdan boshlanib, to‘xtashlardan shu tartibda o‘tadi.
+555	Qidiruvni tozalash
+556	Sozlamalar
+557	Yoqdini olib tashlash
+558	Joyga teging
+559	Joy kartasida sharh yozganda rasm qo‘shing; eng ko‘p yoqqanlari shu yerda ko‘rsatiladi.
+560	Bu rasm endi mavjud emas.
+561	Shu joylashuvdan foydalanish
+562	Bu joy topilmadi.
+563	Buni allaqachon qilgansiz.
+564	Bu yerda nimani ko‘rish mumkin, nega borish kerak?
+565	O‘zgartirish
+566	Bu ismni boshqa sayohatchilar ko‘radi
+567	Foydali
+568	Suratga olish
+569	Rasmni kattalashtirish
+570	Galereyadan tanlash
+571	Ko‘rish kerak bo‘lgan joylarni kashf eting, borgan joylaringizni belgilang va taassurotlaringiz bilan bo‘lishing.
+572	Xarita
+573	Hali rasm yo‘q
+574	Siz hali joy taklif qilmagansiz.
+575	Hisobingiz o‘chirilsinmi?
+576	Hisobingiz saytda ham ishlaydi.
+577	Hisobingiz, sharhlaringiz, rasmlaringiz va takliflaringiz butunlay o‘chiriladi. Buni qaytarib bo‘lmaydi.
+578	Hisob yaratish
+579	Dalil rasmi
+580	Turkumni tanlang
+581	Turkumni tanlang.
+582	Kashf etish
+583	Joyni belgilang
+584	Moderator
+585	Nimani ko‘rdingiz, nimani tavsiya qilasiz?
+586	Ovozingiz qayd etildi
+587	Profil
+588	Tanlangan joy
+589	Natija yo‘q.
+590	Yetishmayotgan joyni qo‘shish
+591	Vitrina
+592	Yaqinlashtiring va aynan joyga teging.
+593	Javob yozing…
+594	Qayta urinish
+595	Joy nomi
+596	Joyni ko‘rish
+597	Joylarni ko‘rib chiqish
+598	Sharhingiz
+599	Yulduzli baho va sharh yoki rasm talab qilinadi.
+600	hozirgina
+601	{1} daq oldin
+602	{1} oy oldin
+603	{1} yil oldin
+604	{1} ta rasm
+605	Takliflarni tasdiqlash
+606	Taklifni yuborish
+607	masalan: Tortum sharsharasi
+608	Viloyatni tanlang
+609	Viloyatni tanlang.
+610	Hozir kutilayotgan taklif yo‘q.
+611	To‘lov sahifasi ochilmoqda
+612	Karta bilan to‘lov sahifasi tez orada shu yerda ochiladi.
+613	Joylashuvga ruxsat berilmadi. Telefon sozlamalaridan ruxsat berishingiz mumkin.
+614	Kameraga ruxsat berilmadi. Telefon sozlamalaridan ruxsat berishingiz mumkin.
+615	Joylashuvingiz topilmadi. Joylashuv xizmatlari yoqilganini tekshiring.
+616	sizdan {1}

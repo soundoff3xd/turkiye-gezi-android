@@ -1,0 +1,242 @@
+[
+[
+"Görünüm",
+"Appearance"
+],
+[
+"Telefonun ayarı",
+"Phone setting"
+],
+[
+"Tema, uygulamayı kapatıp açtığında değişir.",
+"The theme changes the next time you close and reopen the app."
+],
+[
+"Anonim kullanım sayıları ve hata kayıtları",
+"Anonymous usage counts and error logs"
+],
+[
+"Uygulamayı geliştirmek için hangi ekranların ve özelliklerin kaç kez kullanıldığını yalnızca günlük toplam sayılar olarak tutuyoruz; bu sayılar kim olduğunu içermez. Uygulama çökerse hata mesajı, sürüm ve platform kaydedilir. Bir yer hakkında gönderdiğin düzeltme önerilerini yalnızca sen ve moderatörler görebilir.",
+"To improve the app we keep only daily totals of how often each screen and feature is used; these counts don't include who you are. If the app crashes, the error message, version and platform are recorded. Corrections you send about a place are visible only to you and the moderators."
+],
+[
+"Bir şeyler ters gitti",
+"Something went wrong"
+],
+[
+"Sorunu kaydettik ve inceleyeceğiz. Tekrar deneyebilirsin.",
+"We've logged the problem and will look into it. You can try again."
+],
+[
+"Konum yanlış",
+"Location is wrong"
+],
+[
+"Açıklama veya bilgi yanlış",
+"Description or info is wrong"
+],
+[
+"Burası kapandı / artık yok",
+"This place has closed / no longer exists"
+],
+[
+"Başka bir şey",
+"Something else"
+],
+[
+"Bilgi yanlış mı?",
+"Is something wrong?"
+],
+[
+"Neyin yanlış olduğunu söyle, moderatör inceleyip düzeltsin.",
+"Tell us what's wrong and a moderator will review and fix it."
+],
+[
+"Şu an buradayım, doğru konum benim konumum",
+"I'm here right now, my location is the correct one"
+],
+[
+"Konumumu kullan",
+"Use my location"
+],
+[
+"Doğrusu ne? Kısaca yaz…",
+"What's correct? Write briefly…"
+],
+[
+"Teşekkürler! Önerin moderatöre iletildi.",
+"Thanks! Your suggestion was sent to the moderators."
+],
+[
+"Bilgi yanlış mı? Düzeltme öner",
+"Something wrong? Suggest a correction"
+],
+[
+"Bu yerin kapandığı bildirildi.",
+"This place has been reported as closed."
+],
+[
+"En iyi zaman",
+"Best time to visit"
+],
+[
+"Şimdi tam zamanı!",
+"Perfect time right now!"
+],
+[
+"Bu mevsim",
+"This season"
+],
+[
+"Yöresel lezzetler",
+"Local flavours"
+],
+[
+"{1} yöresel lezzetleri",
+"Local flavours of {1}"
+],
+[
+"Türkiye haritam",
+"My Türkiye map"
+],
+[
+"{1} / {2} il",
+"{1} / {2} provinces"
+],
+[
+"{1} yer gezildi",
+"{1} places visited"
+],
+[
+"Türkiye’nin %{1} kadarı",
+"about {1}% of Türkiye"
+],
+[
+"Henüz bu ilde bir yere gitmedin.",
+"You haven't visited any place in this province yet."
+],
+[
+"İldeki yerleri gör",
+"See places in this province"
+],
+[
+"Bir ile dokunarak ayrıntısını gör.",
+"Tap a province to see details."
+],
+[
+"Bir ile tıklayarak ayrıntısını gör.",
+"Click a province to see details."
+],
+[
+"Haritamı paylaş",
+"Share my map"
+],
+[
+"Gezdiğin iller",
+"Provinces you've visited"
+],
+[
+"Bir yerin sayfasında “Gittim mi?” düğmesine bastıkça iller burada renklenir.",
+"Provinces get coloured in here as you tap “Been here?” on a place's page."
+],
+[
+"Gezdiğin illeri boya, paylaş",
+"Colour in the provinces you've visited and share"
+],
+[
+"Görsel indirildi",
+"Image downloaded"
+],
+[
+"Bildirimler",
+"Notifications"
+],
+[
+"{1} yorumuna yanıt verdi",
+"{1} replied to your review"
+],
+[
+"{1} yorumunu beğendi",
+"{1} liked your review"
+],
+[
+"{1} fotoğrafını beğendi",
+"{1} liked your photo"
+],
+[
+"Önerdiğin yer onaylandı ve haritaya eklendi",
+"The place you suggested was approved and added to the map"
+],
+[
+"Henüz bildirimin yok",
+"You have no notifications yet"
+],
+[
+"Yorumlarına yanıt gelince ya da biri beğenince burada görürsün.",
+"You'll see it here when someone replies to or likes your reviews."
+],
+[
+"Bildirimler yüklenemedi.",
+"Couldn't load notifications."
+],
+[
+"İnternet bağlantını kontrol et.",
+"Check your internet connection."
+],
+[
+"Yenile",
+"Refresh"
+],
+[
+"Seninle bir gezi listesi paylaşıldı",
+"A trip list was shared with you"
+],
+[
+"Listeme ekle",
+"Add to my list"
+],
+[
+"Listeyi paylaş",
+"Share list"
+],
+[
+"Bugün çok fazla öneri gönderdin. Yarın tekrar deneyebilirsin.",
+"You've sent too many suggestions today. You can try again tomorrow."
+],
+[
+"Çevrimdışı: kayıtlı bilgiler gösteriliyor",
+"Offline: showing saved information"
+],
+[
+"Çevrimdışı harita",
+"Offline map"
+],
+[
+"Bu gezinin haritası telefonuna indirildi. İnternet olmadan da açılır.",
+"The map for this trip is downloaded to your phone. It opens without internet too."
+],
+[
+"İnternetin zayıf olduğu yerler için gezi listendeki yerlerin çevresini telefonuna indir.",
+"For places with weak internet, download the area around your trip list to your phone."
+],
+[
+"İndirme tamamlanamadı. İnternet bağlantını kontrol edip tekrar dene.",
+"The download couldn't finish. Check your internet connection and try again."
+],
+[
+"Yeniden indir",
+"Download again"
+],
+[
+"Haritayı indir",
+"Download map"
+],
+[
+"Çevrimdışı harita silindi",
+"Offline map deleted"
+],
+[
+"Çevrimdışısın. Daha önce açtığın harita bölgeleri ve yerler görünür; yorum ve paylaşım için internet gerekir.",
+"You're offline. Map areas and places you opened before are still visible; reviews and sharing need internet."
+]
+]

@@ -1,0 +1,588 @@
+@@fa
+places|جاهای دیدنی
+nplaces|{1} مکان
+suggest|پیشنهاد مکان
+pending_n|در انتظار تأیید ({1})
+pending|در انتظار تأیید
+sortby|مرتب‌سازی
+s_visits|پربازدیدترین
+s_favs|محبوب‌ترین
+s_rating|بالاترین امتیاز
+s_reviews|بیشترین نظر
+all|همه
+c_tarih|بنای تاریخی
+c_muze|موزه و کاخ
+c_carsi|شهر و بازار
+c_manzara|چشم‌انداز
+c_doga|طبیعت
+c_deniz|دریا
+sample_note|امتیازها، نظرها، بازدیدها و علاقه‌مندی‌ها داده‌های نمونه هستند.
+allplaces|همه مکان‌ها
+allturkey|سراسر ترکیه
+r_marmara|مرمره
+r_ege|اژه
+r_akdeniz|مدیترانه
+r_ic|آناتولی مرکزی
+r_karadeniz|دریای سیاه
+r_dogu|آناتولی شرقی
+r_gd|آناتولی جنوب‌شرقی
+rg_marmara|منطقه مرمره
+rg_ege|منطقه اژه
+rg_akdeniz|منطقه مدیترانه
+rg_ic|منطقه آناتولی مرکزی
+rg_karadeniz|منطقه دریای سیاه
+rg_dogu|منطقه آناتولی شرقی
+rg_gd|منطقه آناتولی جنوب‌شرقی
+mapdata|داده‌های نقشه: Natural Earth
+search|جستجوی مکان
+zin|بزرگ‌نمایی
+zout|کوچک‌نمایی
+close|بستن
+nrev|{1} نظر
+nrevp|({1} نظر)
+nvisit|{1} نفر رفته‌اند
+nfav|{1} علاقه‌مندی
+new|جدید
+noresult|هیچ مکانی با این جستجو یا فیلتر پیدا نشد.
+beenq|رفته‌اید؟
+been|رفته‌ام
+fav|علاقه‌مندی
+faved|در علاقه‌مندی‌ها
+dir|مسیریابی
+write|نوشتن نظر
+addphoto|افزودن عکس
+overview|نمای کلی
+reviews|نظرها
+photos|عکس‌ها
+photos_n|عکس‌ها ({1})
+location|موقعیت
+getting|چگونه برویم
+norating|هنوز امتیازی نیست
+hours|ساعات کار و قیمت بلیت ممکن است تغییر کند؛ پیش از رفتن منبع رسمی را بررسی کنید.
+outof|{1} از 5
+sample|نمونه
+samplephoto|عکس نمونه
+samplevideo|ویدیوی نمونه
+daysago|{1} روز پیش
+dayago|۱ روز پیش
+weeksago|{1} هفته پیش
+weekago|۱ هفته پیش
+hoursago|{1} ساعت پیش
+now|همین حالا
+like|پسندیدن
+replies|پاسخ‌ها
+replyw|نوشتن پاسخ
+send|ارسال
+norev|نظری برای این مکان وجود ندارد
+nophoto|هنوز عکس یا ویدیویی نیست
+share|تجربه‌تان را به اشتراک بگذارید
+yourrating|امتیاز شما
+yourexp|تجربه شما
+nstars|{1} ستاره
+addmedia|افزودن عکس یا ویدیو
+remove|حذف
+post|انتشار
+posted|نظر شما منتشر شد
+addedvisited|به مکان‌های بازدیدشده اضافه شد
+addedfav|به علاقه‌مندی‌ها اضافه شد
+suggested|مکان‌های پیشنهادی
+howver|چگونه بررسی می‌شود؟
+st_wait|در انتظار تأیید جامعه
+st_mod|گزارش شده، نزد ناظر
+st_ok|تأیید شد، روی نقشه
+st_no|رد شد
+napprove|{1}/{2} تأیید
+showmap|نمایش روی نقشه
+real|این مکان واقعی است
+wrong|نادرست / نامناسب
+newplace|پیشنهاد مکان جدید
+pname|نام مکان
+markmap|علامت‌گذاری روی نقشه
+chloc|تغییر موقعیت
+province|استان
+category|دسته
+shortdesc|توضیح کوتاه
+proof|افزودن عکس مدرک (گرفته‌شده در محل)
+visited_me|خودم از این مکان دیدن کرده‌ام
+submit|ارسال برای بررسی
+tapmap|برای انتخاب موقعیت روی نقشه بزنید
+cancel|انصراف
+underreview|پیشنهاد شما در حال بررسی است
+welcome_t|راهنمای سفر ترکیه
+welcome_s|جاهای دیدنی سراسر ترکیه را کشف کنید، جاهایی را که رفته‌اید علامت بزنید و تجربه‌ها و عکس‌هایتان را به اشتراک بگذارید.
+welcome_n|برای استفاده از برنامه یک حساب رایگان بسازید یا وارد شوید.
+login|ورود
+signup|ثبت‌نام
+yourname|نام شما
+email|ایمیل
+password|رمز عبور
+min8|دست‌کم ۸ نویسه
+demo|امتحان حساب نمایشی
+bademail|یک ایمیل معتبر وارد کنید.
+shortpw|رمز عبور باید دست‌کم ۸ نویسه باشد.
+exists|حسابی با این ایمیل وجود دارد. وارد شوید.
+wrongpw|ایمیل یا رمز عبور نادرست است.
+created|حساب ساخته شد، خوش آمدید {1}
+wb|دوباره خوش آمدید {1}
+logout|خروج
+loggedout|خارج شدید
+myprofile|نمایه من
+loginsignup|ورود یا ثبت‌نام
+p_been|رفته‌ام ({1})
+p_fav|علاقه‌مندی‌ها ({1})
+p_rev|نظرهای من ({1})
+p_sug|پیشنهادهای من ({1})
+member|عضو از {1}
+level|سطح مسافر
+npoints|{1} امتیاز
+nextlevel|سطح بعدی:
+l0|مسافر تازه‌کار
+l1|مسافر
+l2|مسافر باتجربه
+l3|راهنمای مورد اعتماد
+delacct|حذف حساب
+yesdel|بله، حذف شود
+lang|زبان
+region|منطقه
+mapof|نقشه ترکیه
+@@zh
+places|热门景点
+nplaces|{1} 个地点
+suggest|推荐地点
+pending_n|待审核（{1}）
+pending|待审核
+sortby|排序
+s_visits|去过人数最多
+s_favs|收藏最多
+s_rating|评分最高
+s_reviews|评论最多
+all|全部
+c_tarih|历史古迹
+c_muze|博物馆与宫殿
+c_carsi|城镇与集市
+c_manzara|观景点
+c_doga|自然
+c_deniz|海滨
+sample_note|评分、评论、到访和收藏数量均为示例数据。
+allplaces|全部地点
+allturkey|全土耳其
+r_marmara|马尔马拉
+r_ege|爱琴海
+r_akdeniz|地中海
+r_ic|中安纳托利亚
+r_karadeniz|黑海
+r_dogu|东安纳托利亚
+r_gd|东南安纳托利亚
+rg_marmara|马尔马拉地区
+rg_ege|爱琴海地区
+rg_akdeniz|地中海地区
+rg_ic|中安纳托利亚地区
+rg_karadeniz|黑海地区
+rg_dogu|东安纳托利亚地区
+rg_gd|东南安纳托利亚地区
+mapdata|地图数据：Natural Earth
+search|搜索地点
+zin|放大
+zout|缩小
+close|关闭
+nrev|{1} 条评论
+nrevp|（{1} 条评论）
+nvisit|{1} 人去过
+nfav|{1} 人收藏
+new|新
+noresult|没有符合搜索或筛选条件的地点。
+beenq|去过吗？
+been|去过
+fav|收藏
+faved|已收藏
+dir|路线
+write|写评论
+addphoto|添加照片
+overview|概览
+reviews|评论
+photos|照片
+photos_n|照片（{1}）
+location|位置
+getting|交通方式
+norating|暂无评分
+hours|开放时间和门票价格可能变动，出发前请查看官方信息。
+outof|{1} / 5 分
+sample|示例
+samplephoto|示例照片
+samplevideo|示例视频
+daysago|{1} 天前
+dayago|1 天前
+weeksago|{1} 周前
+weekago|1 周前
+hoursago|{1} 小时前
+now|刚刚
+like|点赞
+replies|回复
+replyw|写回复
+send|发送
+norev|这个地点还没有评论
+nophoto|还没有照片或视频
+share|分享你的体验
+yourrating|你的评分
+yourexp|你的体验
+nstars|{1} 星
+addmedia|添加照片或视频
+remove|移除
+post|发布
+posted|评论已发布
+addedvisited|已加入去过的地点
+addedfav|已加入收藏
+suggested|推荐的地点
+howver|如何审核？
+st_wait|等待社区审核
+st_mod|已被举报，交由管理员
+st_ok|已通过，已在地图上
+st_no|已拒绝
+napprove|{1}/{2} 个确认
+showmap|在地图上查看
+real|这个地点是真的
+wrong|错误 / 不当
+newplace|推荐新地点
+pname|地点名称
+markmap|在地图上标记
+chloc|更改位置
+province|省份
+category|类别
+shortdesc|简短介绍
+proof|添加证明照片（在当地拍摄）
+visited_me|我亲自去过这个地方
+submit|提交审核
+tapmap|点击地图选择位置
+cancel|取消
+underreview|你的推荐正在审核中
+welcome_t|土耳其旅行指南
+welcome_s|探索土耳其各地的景点，标记你去过的地方，分享你的体验和照片。
+welcome_n|创建免费账户或登录即可使用。
+login|登录
+signup|注册
+yourname|你的名字
+email|电子邮箱
+password|密码
+min8|至少 8 个字符
+demo|试用演示账户
+bademail|请输入有效的电子邮箱。
+shortpw|密码至少需要 8 个字符。
+exists|该邮箱已注册账户，请尝试登录。
+wrongpw|邮箱或密码错误。
+created|账户已创建，欢迎你 {1}
+wb|欢迎回来 {1}
+logout|退出登录
+loggedout|已退出登录
+myprofile|我的主页
+loginsignup|登录或注册
+p_been|去过（{1}）
+p_fav|收藏（{1}）
+p_rev|我的评论（{1}）
+p_sug|我的推荐（{1}）
+member|注册于 {1}
+level|旅行者等级
+npoints|{1} 分
+nextlevel|下一等级：
+l0|新手旅行者
+l1|旅行者
+l2|资深旅行者
+l3|可信向导
+delacct|删除账户
+yesdel|确定删除
+lang|语言
+region|地区
+mapof|土耳其地图
+@@ja
+places|観光スポット
+nplaces|{1} か所
+suggest|スポットを提案
+pending_n|承認待ち（{1}）
+pending|承認待ち
+sortby|並べ替え
+s_visits|訪問数順
+s_favs|お気に入り順
+s_rating|評価順
+s_reviews|レビュー数順
+all|すべて
+c_tarih|史跡
+c_muze|博物館・宮殿
+c_carsi|街・バザール
+c_manzara|展望スポット
+c_doga|自然
+c_deniz|海辺
+sample_note|評価・レビュー・訪問数・お気に入り数はサンプルデータです。
+allplaces|すべてのスポット
+allturkey|トルコ全体
+r_marmara|マルマラ
+r_ege|エーゲ海
+r_akdeniz|地中海
+r_ic|中央アナトリア
+r_karadeniz|黒海
+r_dogu|東アナトリア
+r_gd|南東アナトリア
+rg_marmara|マルマラ地方
+rg_ege|エーゲ海地方
+rg_akdeniz|地中海地方
+rg_ic|中央アナトリア地方
+rg_karadeniz|黒海地方
+rg_dogu|東アナトリア地方
+rg_gd|南東アナトリア地方
+mapdata|地図データ：Natural Earth
+search|スポットを検索
+zin|拡大
+zout|縮小
+close|閉じる
+nrev|レビュー {1} 件
+nrevp|（レビュー {1} 件）
+nvisit|{1} 人が訪問
+nfav|お気に入り {1}
+new|新着
+noresult|この検索・絞り込みに一致するスポットはありません。
+beenq|行ったことある？
+been|行った
+fav|お気に入り
+faved|お気に入り済み
+dir|経路
+write|レビューを書く
+addphoto|写真を追加
+overview|概要
+reviews|レビュー
+photos|写真
+photos_n|写真（{1}）
+location|場所
+getting|アクセス
+norating|まだ評価がありません
+hours|営業時間や入場料は変わることがあります。お出かけ前に公式情報をご確認ください。
+outof|5 点中 {1} 点
+sample|サンプル
+samplephoto|サンプル写真
+samplevideo|サンプル動画
+daysago|{1} 日前
+dayago|1 日前
+weeksago|{1} 週間前
+weekago|1 週間前
+hoursago|{1} 時間前
+now|たった今
+like|いいね
+replies|返信
+replyw|返信を書く
+send|送信
+norev|このスポットのレビューはまだありません
+nophoto|写真や動画はまだありません
+share|体験をシェア
+yourrating|あなたの評価
+yourexp|あなたの体験
+nstars|星 {1}
+addmedia|写真・動画を追加
+remove|削除
+post|投稿
+posted|レビューを投稿しました
+addedvisited|行った場所に追加しました
+addedfav|お気に入りに追加しました
+suggested|提案されたスポット
+howver|確認の仕組み
+st_wait|コミュニティの承認待ち
+st_mod|報告あり、モデレーター確認中
+st_ok|承認済み、地図に掲載
+st_no|却下
+napprove|承認 {1}/{2}
+showmap|地図で見る
+real|実在する場所
+wrong|誤り・不適切
+newplace|新しいスポットを提案
+pname|スポット名
+markmap|地図で指定
+chloc|場所を変更
+province|県
+category|カテゴリー
+shortdesc|短い説明
+proof|証拠写真を追加（現地で撮影したもの）
+visited_me|実際にこの場所を訪れました
+submit|審査に送る
+tapmap|地図をタップして場所を選んでください
+cancel|キャンセル
+underreview|提案を審査中です
+welcome_t|トルコ旅行ガイド
+welcome_s|トルコ各地の観光スポットを見つけ、行った場所を記録し、体験や写真をシェアしよう。
+welcome_n|アプリを使うには無料アカウントを作成するか、ログインしてください。
+login|ログイン
+signup|新規登録
+yourname|お名前
+email|メールアドレス
+password|パスワード
+min8|8 文字以上
+demo|デモアカウントで試す
+bademail|有効なメールアドレスを入力してください。
+shortpw|パスワードは 8 文字以上にしてください。
+exists|このメールアドレスのアカウントは既にあります。ログインしてください。
+wrongpw|メールアドレスまたはパスワードが違います。
+created|アカウントを作成しました。ようこそ {1} さん
+wb|おかえりなさい {1} さん
+logout|ログアウト
+loggedout|ログアウトしました
+myprofile|マイプロフィール
+loginsignup|ログインまたは新規登録
+p_been|行った場所（{1}）
+p_fav|お気に入り（{1}）
+p_rev|レビュー（{1}）
+p_sug|提案（{1}）
+member|登録日 {1}
+level|旅人レベル
+npoints|{1} ポイント
+nextlevel|次のレベル：
+l0|ビギナー
+l1|旅人
+l2|ベテラン旅人
+l3|信頼できるガイド
+delacct|アカウントを削除
+yesdel|削除する
+lang|言語
+region|地方
+mapof|トルコの地図
+@@ko
+places|가볼 만한 곳
+nplaces|{1}곳
+suggest|장소 제안
+pending_n|승인 대기 ({1})
+pending|승인 대기
+sortby|정렬
+s_visits|방문 많은 순
+s_favs|즐겨찾기 많은 순
+s_rating|평점 높은 순
+s_reviews|리뷰 많은 순
+all|전체
+c_tarih|유적지
+c_muze|박물관·궁전
+c_carsi|도시·시장
+c_manzara|전망 명소
+c_doga|자연
+c_deniz|바다
+sample_note|평점, 리뷰, 방문 수, 즐겨찾기 수는 예시 데이터입니다.
+allplaces|모든 장소
+allturkey|튀르키예 전체
+r_marmara|마르마라
+r_ege|에게해
+r_akdeniz|지중해
+r_ic|중앙아나톨리아
+r_karadeniz|흑해
+r_dogu|동아나톨리아
+r_gd|남동아나톨리아
+rg_marmara|마르마라 지역
+rg_ege|에게해 지역
+rg_akdeniz|지중해 지역
+rg_ic|중앙아나톨리아 지역
+rg_karadeniz|흑해 지역
+rg_dogu|동아나톨리아 지역
+rg_gd|남동아나톨리아 지역
+mapdata|지도 데이터: Natural Earth
+search|장소 검색
+zin|확대
+zout|축소
+close|닫기
+nrev|리뷰 {1}개
+nrevp|(리뷰 {1}개)
+nvisit|{1}명 방문
+nfav|즐겨찾기 {1}
+new|신규
+noresult|검색 또는 필터에 맞는 장소가 없습니다.
+beenq|가 봤나요?
+been|가 봤어요
+fav|즐겨찾기
+faved|즐겨찾기됨
+dir|길찾기
+write|리뷰 쓰기
+addphoto|사진 추가
+overview|개요
+reviews|리뷰
+photos|사진
+photos_n|사진 ({1})
+location|위치
+getting|가는 방법
+norating|아직 평점이 없습니다
+hours|운영 시간과 입장료는 바뀔 수 있으니 방문 전 공식 정보를 확인하세요.
+outof|5점 만점에 {1}점
+sample|예시
+samplephoto|예시 사진
+samplevideo|예시 동영상
+daysago|{1}일 전
+dayago|1일 전
+weeksago|{1}주 전
+weekago|1주 전
+hoursago|{1}시간 전
+now|방금
+like|좋아요
+replies|답글
+replyw|답글 쓰기
+send|보내기
+norev|이 장소에 대한 리뷰가 없습니다
+nophoto|아직 사진이나 동영상이 없습니다
+share|경험 공유하기
+yourrating|내 평점
+yourexp|내 경험
+nstars|별 {1}개
+addmedia|사진 또는 동영상 추가
+remove|삭제
+post|게시
+posted|리뷰가 게시되었습니다
+addedvisited|가 본 장소에 추가했습니다
+addedfav|즐겨찾기에 추가했습니다
+suggested|제안된 장소
+howver|어떻게 검증하나요?
+st_wait|커뮤니티 승인 대기 중
+st_mod|신고됨, 관리자 검토 중
+st_ok|승인됨, 지도에 표시
+st_no|거절됨
+napprove|승인 {1}/{2}
+showmap|지도에서 보기
+real|실제로 있는 장소예요
+wrong|잘못됨 / 부적절
+newplace|새 장소 제안
+pname|장소 이름
+markmap|지도에 표시
+chloc|위치 변경
+province|주
+category|카테고리
+shortdesc|짧은 설명
+proof|증빙 사진 추가 (현장에서 찍은 사진)
+visited_me|직접 이 장소에 가 봤습니다
+submit|검토 요청
+tapmap|지도를 눌러 위치를 선택하세요
+cancel|취소
+underreview|제안을 검토하고 있습니다
+welcome_t|튀르키예 여행 가이드
+welcome_s|튀르키예 곳곳의 명소를 찾고, 가 본 곳을 기록하고, 경험과 사진을 공유하세요.
+welcome_n|앱을 사용하려면 무료 계정을 만들거나 로그인하세요.
+login|로그인
+signup|회원가입
+yourname|이름
+email|이메일
+password|비밀번호
+min8|8자 이상
+demo|데모 계정으로 체험
+bademail|올바른 이메일 주소를 입력하세요.
+shortpw|비밀번호는 8자 이상이어야 합니다.
+exists|이 이메일로 가입된 계정이 있습니다. 로그인해 보세요.
+wrongpw|이메일 또는 비밀번호가 올바르지 않습니다.
+created|계정이 생성되었습니다. 환영합니다, {1}님
+wb|다시 오신 것을 환영합니다, {1}님
+logout|로그아웃
+loggedout|로그아웃되었습니다
+myprofile|내 프로필
+loginsignup|로그인 또는 회원가입
+p_been|가 본 곳 ({1})
+p_fav|즐겨찾기 ({1})
+p_rev|내 리뷰 ({1})
+p_sug|내 제안 ({1})
+member|가입일 {1}
+level|여행자 레벨
+npoints|{1}점
+nextlevel|다음 레벨:
+l0|새내기 여행자
+l1|여행자
+l2|숙련된 여행자
+l3|믿을 수 있는 가이드
+delacct|계정 삭제
+yesdel|삭제하기
+lang|언어
+region|지역
+mapof|튀르키예 지도

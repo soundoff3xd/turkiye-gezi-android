@@ -1,0 +1,576 @@
+0	Seværdigheder
+1	{1} steder
+2	Foreslå et sted
+3	Afventer godkendelse ({1})
+4	Afventer godkendelse
+5	Sortér
+6	Sortér og filtrér
+7	Mest besøgte
+8	Mest likede
+9	Bedst bedømte
+10	Flest anmeldelser
+11	Alle
+12	Historiske bygninger
+13	Museum og palads
+14	By og marked
+15	Udsigtspunkt
+16	Natur
+17	Hav
+19	Alle steder
+20	Hele Tyrkiet
+21	Marmara
+22	Ægæerhavet
+23	Middelhavet
+24	Centralanatolien
+25	Sortehavet
+26	Østanatolien
+27	Sydøstanatolien
+28	Kortdata: Natural Earth
+29	Minimér panelet
+30	Maksimér panelet
+31	Kort over Tyrkiet
+32	Stedsliste
+33	Søg efter steder
+34	Region
+35	Kategori
+36	Zoom ind
+37	Zoom ud
+38	Luk
+39	Sprog
+40	{1} anmeldelser
+41	({1} anmeldelser)
+42	{1} besøgende
+43	{1} likes
+44	Ny
+45	Tilføjet af fællesskabet
+46	Ingen steder matcher søgningen eller filteret.
+47	Har du været her?
+48	Jeg har været her
+49	Favorit
+50	I favoritter
+51	Rutevejledning
+52	Skriv en anmeldelse
+53	Tilføj foto
+54	Oversigt
+55	Anmeldelser
+56	Fotos
+57	Fotos ({1})
+58	Placering
+59	Sådan kommer du dertil
+60	Ingen bedømmelser endnu
+61	Foreslået af {1}, godkendt af fællesskabet
+62	Åbningstider og billetpriser ændrer sig; tjek den officielle kilde, før du tager af sted.
+63	{1} af 5
+68	for {1} dage siden
+69	for 1 dag siden
+70	for {1} uger siden
+71	for 1 uge siden
+72	for {1} timer siden
+73	Lige nu
+74	Dig
+75	Synes godt om
+76	Svar
+77	Skriv et svar
+78	Send
+79	Ingen anmeldelser af dette sted endnu
+80	Har du været her? Del den første oplevelse.
+81	Ingen fotos eller videoer endnu
+82	Del dine billeder, så fremtidige rejsende ved, hvad der venter.
+83	Delt foto
+84	Valgt foto
+85	Del din oplevelse
+86	Din bedømmelse
+87	Din oplevelse
+88	{1} stjerner
+89	Tilføj foto eller video
+90	Fjern
+91	Udgiv
+92	Hvad så og lavede du? Efterlad et tip til de næste besøgende.
+93	Bedømmelse og tekst eller medie kræves. Opslag er offentlige; del ikke personoplysninger eller andre menneskers ansigter.
+94	Din anmeldelse er udgivet
+95	Tilføjet til steder, du har besøgt
+96	Tilføjet til favoritter
+97	Foreslåede steder
+98	Hvordan kontrolleres det?
+99	1. Automatiske kontroller: om stedet ligger i Tyrkiet, om det allerede findes, om det indeholder krænkende ord eller links, om der er et bevisfoto.
+100	2. Fællesskabets godkendelse: når {1} brugere bekræfter „Dette sted er ægte“, tilføjes det til kortet. Ingen kan godkende sit eget forslag.
+101	3. Moderator: et forslag med {1} anmeldelser om „Forkert eller upassende“ fjernes og sendes til en moderator.
+102	Alle kan foreslå {1} steder om dagen.
+104	foreslået af {1}, {2}
+105	Afventer fællesskabets godkendelse
+106	Indberettet, hos moderator
+107	Godkendt, på kortet
+108	Afvist
+109	{1}/{2} godkendelser
+110	{1}/{2} godkendelser · {3} indberetninger
+111	Vis på kortet
+112	Dette sted er ægte
+113	Forkert / upassende
+114	Moderator: godkend
+115	Moderator: afvis
+117	{1} er tilføjet til kortet
+118	Forslaget er sendt til en moderator
+119	Indberetningen er modtaget
+120	Forslaget blev afvist
+121	Dit forslag bliver vurderet
+122	Foreslå et nyt sted
+123	Et sted, du har besøgt, som endnu ikke er i appen
+124	Stedets navn
+125	For eksempel: Tortum-vandfaldet
+126	Markér på kortet
+127	Skift placering
+128	Ingen placering valgt endnu
+129	{1} (uden for Tyrkiet)
+130	Provins
+131	Kort beskrivelse
+132	Hvad kan man se der, og hvorfor tage derhen?
+133	Tilføj bevisfoto (taget på stedet)
+134	Jeg har personligt besøgt dette sted
+135	Send til gennemgang
+136	Efter automatiske kontroller tilføjes dit forslag, når {1} brugere godkender det. Indberettede forslag går til en moderator.
+137	Tryk på kortet for at vælge placering
+138	Annullér
+139	Dit forslag blev ikke sendt:
+140	Navnet skal være {1}–{2} tegn.
+141	Beskrivelsen skal være mindst {1} tegn; fortæl med få ord, hvad der er at se.
+142	Links er ikke tilladt.
+143	Brug ikke gentagne bogstaver eller kun store bogstaver.
+144	Indeholder krænkende ord.
+145	Markér placeringen på kortet.
+146	Den valgte placering er uden for Tyrkiet.
+147	Dette sted findes allerede eller er meget tæt på: {1}.
+148	Tilføj et foto, du har taget der, som bevis.
+149	Bekræft, at du personligt har besøgt stedet.
+150	Du kan højst foreslå {1} steder om dagen.
+165	Marmara-regionen
+166	Ægæiske region
+167	Middelhavsregionen
+168	Centralanatoliske region
+169	Sortehavsregionen
+170	Østanatoliske region
+171	Sydøstanatoliske region
+172	Ny rejsende
+173	Rejsende
+174	Erfaren rejsende
+175	Pålidelig guide
+176	Min profil
+177	Log ind eller tilmeld dig
+178	Log ind eller tilmeld dig for at fortsætte.
+179	Din konto
+180	Log ind
+181	Tilmeld
+182	Dit navn
+183	E-mail
+184	Adgangskode
+185	Mindst 8 tegn
+186	Prøv demokontoen
+188	Indtast en gyldig e-mailadresse.
+189	Adgangskoden skal være mindst 8 tegn.
+190	Navnet skal være 2–30 tegn.
+191	Dette navn kan ikke bruges.
+192	Der findes allerede en konto med denne e-mail. Prøv at logge ind.
+193	Forkert e-mail eller adgangskode.
+194	Kontoen er oprettet, velkommen {1}
+195	Velkommen tilbage {1}
+196	Logget ind med demokontoen
+197	Du er logget ud
+198	Log ud
+199	Været her ({1})
+200	Favoritter ({1})
+201	Mine anmeldelser ({1})
+202	Mine forslag ({1})
+203	Markér steder, du har besøgt, med knappen „Har du været her?“ på stedskortet.
+204	Gem steder, du kan lide, med knappen „Favorit“.
+205	Du har ikke skrevet nogen anmeldelse endnu.
+206	Du kan tilføje et manglende sted via „Foreslå et sted“.
+207	Medlem siden {1}
+208	Rejseniveau
+209	{1} point
+210	Næste niveau:
+211	Du er på det højeste niveau.
+212	Point: besøgt sted 1, anmeldelse 3, godkendt forslag 10. En pålidelig guides godkendelse tæller som 2 stemmer.
+213	Slet konto
+214	Slet kontoen og alle dens data i denne browser?
+215	Ja, slet
+216	Din konto er slettet
+219	Rejseguide til Tyrkiet
+220	Opdag seværdigheder i hele Tyrkiet, markér hvor du har været, og del oplevelser og fotos.
+221	Opret en gratis konto eller log ind for at bruge appen.
+222	Steder
+223	Fotogalleri
+224	Mest likede fotos
+225	De smukkeste billeder fra rejsende. Giv et hjerte til de fotos, du kan lide.
+226	Mest likede
+227	Nyeste
+228	Mest likede fotografer
+229	{1} likes
+230	Gå til stedet
+231	Synes godt om foto
+232	Du synes godt om fotoet
+234	Foto
+249	Vi har sendt et link til din e-mail for at bekræfte kontoen. Log ind, når du har klikket på det.
+250	Din e-mail er endnu ikke bekræftet. Tjek din indbakke.
+251	Lige nu kan kun fotos uploades.
+252	Fotos må højst være 5 MB.
+253	Noget gik galt, prøv igen.
+254	Du kan ikke godkende dit eget forslag.
+256	Kontomenu
+257	Kontoindstillinger
+258	Støt os
+259	Rejseguide til Tyrkiet er et uafhængigt og gratis projekt. Din støtte hjælper med servere, korttjenester og nye funktioner.
+260	Engangsbeløb
+261	Månedligt
+262	Beløb
+263	Andet beløb
+264	Indtast beløb
+265	Støt med {1} ₺
+266	Vælg et beløb
+267	Betalingen gennemføres på en sikker betalingsside; denne app beder aldrig om kortoplysninger.
+268	Hvor går din støtte hen?
+269	Servere og database
+270	Kort- og satellittjeneste
+271	Nye funktioner og udvikling
+272	Betalingssiden åbner i en ny fane
+274	Betal med kredit- eller betalingskort
+275	Du indtaster kortoplysningerne på betalingssiden
+276	Kortstil og lag
+277	Kortstil
+278	Standard
+279	Mørk
+280	Enkel
+281	Lag
+282	Provinsgrænser
+283	Stednavne
+284	Søer
+285	Tilbage til hele Tyrkiet
+286	Historie og kultur
+287	Hav og kyst
+288	Byer
+289	Moskeer og gravmæler
+290	Kirker og klostre
+291	Antikke steder og ruiner
+292	Borge og mure
+293	Paladser og pavilloner
+294	Museer
+295	Monumenter
+296	Parker og nationalparker
+297	Søer
+298	Vandfald
+299	Kløfter og dale
+300	Bjerge og højsletter
+301	Grotter og synkehuller
+302	Naturens vidundere
+303	Varme kilder
+304	Strande og bugter
+305	Øer
+306	Badebyer
+307	Basarer og markeder
+308	Historiske kvarterer
+309	Småbyer og landsbyer
+310	Torve og gader
+311	Udsigtspunkter
+312	Tårne
+313	Skift profilbillede
+314	Tilføj profilbillede
+315	Skift foto
+316	Profilbilledet er opdateret
+317	Profilbilledet er fjernet
+318	Vælg et foto i JPG, PNG eller WEBP.
+319	Fotos må højst være 15 MB.
+320	Dette foto kan ikke åbnes.
+321	For mange forsøg. Prøv senere.
+322	Kunne ikke oprette forbindelse. Tjek internettet, og prøv igen.
+323	Satellit
+324	Tættest på mig
+325	Min placering
+326	Beregner rute…
+327	Ingen rute fundet.
+328	Trinvis vejledning
+329	Start navigation
+330	Stemmevejledning åbner i Google Maps.
+331	Rutevejledning i appen kommer snart. Indtil da kan du fortsætte i Google Maps.
+332	{1} min
+333	{1} t {2} min
+334	Jeg er her nu
+335	Bil
+336	Til fods
+337	Cykel
+338	Offentlig transport
+339	fra dig
+340	Denne browser understøtter ikke placering.
+341	Placeringstilladelse er ikke givet. Du kan tillade det i browserens webstedsindstillinger.
+342	Din placering kunne ikke findes. Tjek, at placeringstjenester er slået til.
+343	Spring over
+344	Fortsæt
+345	Lad os komme i gang
+346	Fortsæt uden at vælge
+347	Velkommen!
+348	Hvilket sprog vil du bruge appen på?
+349	Hvad kan du lide?
+350	Vi fremhæver steder, der passer til dig. Du kan vælge flere.
+351	Du kan ændre dette senere under „Mine interesser“ i kontomenuen.
+352	Mine interesser
+353	Dine interesser er gemt
+354	Dit valg vises i kategorien „Til dig“.
+355	Gem
+356	Fotografering
+357	Min konto
+358	Intet valgt
+359	Til dig
+360	Tilbage
+361	Besøg 10 naturens vidundere
+362	Besøg steder i 10 forskellige provinser
+363	Del 10 fotos
+364	Besøg 10 steder
+365	Skriv 10 anmeldelser
+366	Rejsende i 10 provinser
+367	Besøg 100 steder
+368	Besøg 3 vandfald
+369	Besøg 5 antikke byer og ruiner
+370	Besøg 5 moskeer, kirker eller klostre
+371	Besøg 5 borge
+372	Besøg 5 strande, øer eller badebyer
+373	Besøg 50 steder
+374	Middelhavsopdager
+375	Besøg 10 steder i Middelhavsregionen
+376	Skriv, hvad du synes…
+377	Tidsrejsende til antikken
+378	Ryd
+379	Flyt ned
+380	Du kan vælge flere. Vi rangerer byerne med flest og bedste steder af den type.
+381	Færdig
+382	Oplysningerne bruges kun til, at appen kan fungere: til at genkende din konto, vise dine opslag til andre rejsende og forbedre appen. Vi viser ingen reklamer og sælger ikke dine oplysninger til nogen.
+383	Denne sektion er kun for moderatorer.
+384	Denne provins har indtil videre kun {1} steder, så planen er forkortet.
+385	Dette indhold findes ikke længere.
+386	Der blev ikke fundet noget sted af den type.
+387	I dag
+388	Du har sendt for mange beskeder i dag. Prøv i morgen.
+389	Du har sendt for mange indberetninger i dag. Prøv i morgen.
+390	Overskyet
+391	Havelsker
+392	Ved at fortsætte accepterer du privatlivspolitikken.
+393	Andet
+394	Naturopdager
+395	Østanatolien-opdager
+396	Besøg 10 steder i Østanatolien
+397	Stop sorteret i korteste rækkefølge
+398	Legendarisk rejsende
+399	Ægæisk opdager
+400	Besøg 10 steder i den Ægæiske region
+401	Fotograf
+402	Indberet foto
+403	Feedback
+404	Rejselysten sjæl
+405	Min rejseliste
+406	Tilføj til rejselisten
+407	Din rejseliste er tom
+408	Rejselisten er fuld (højst {1} steder).
+409	Rejselisten er ryddet
+410	På din rejseliste
+411	Fjernet fra rejselisten
+412	Tilføjet til rejselisten
+413	Rejseplan
+414	Skjult
+415	Skjult; en moderator gennemgår det.
+416	Privatliv og databeskyttelse
+417	Åbn i Google Maps
+418	Tordenvejr
+419	Mine sendte
+420	Mening
+421	Send feedback
+422	Besøg 10 steder i Sydøstanatolien
+423	Sydøst-opdager
+424	Fornærmelser eller hadefuld tale
+425	Dine rettigheder (KVKK)
+426	Hvilke oplysninger indsamler vi?
+427	Besøg mindst ét sted i hver provins på kortet
+428	Fejlrapport
+429	Vejr
+430	Vejret er ikke tilgængeligt lige nu.
+431	Du er fremme: {1}
+432	Ingen feedback endnu
+433	Navn og e-mailadresse, som du angiver ved tilmelding; valgfrit profilbillede; anmeldelser, du skriver, fotos, du uploader, steder, du foreslår, besøgte steder og favoritter samt feedback og indberetninger, du sender.
+434	Borgjæger
+435	Sortehavsopdager
+436	Besøg 10 steder i Sortehavsregionen
+437	Sne
+438	Kilde: Open-Meteo
+439	Låst op
+440	Du kan ikke indberette dit eget opslag.
+441	God tur!
+442	Hvem kan se det?
+443	Emne
+444	Nær min placering
+445	Din placering kunne ikke findes, så ruten starter ved første stop.
+446	Din placering bruges kun på din enhed: til at sortere steder i nærheden og vise afstande og ruter. Der gemmes ingen placeringshistorik. Når du beder om en rute, sendes start- og slutpunktet til OpenRouteService kun for at beregne ruten.
+447	I alt {1} i fugleflugt
+448	Fjern fra listen
+449	Beskriv med få ord.
+450	Marmara-opdager
+451	Besøg 10 steder i Marmara-regionen
+452	Din besked
+453	Din besked er modtaget. Tak!
+454	Kun din konto og appversionen gemmes sammen med beskeden.
+455	Moderatorpanel
+456	Navigation kræver placeringstilladelse.
+457	Hvad vil du se?
+458	Hvad bruger vi dem til?
+459	Hvad skete der? På hvilken skærm, mens du gjorde hvad? Trin for trin, hvis du kan.
+460	Hvor opbevares de?
+461	Hvor skal jeg tage hen?
+462	Hvad vil du indberette?
+463	Læst
+464	Markér som læst
+465	Markér som ulæst
+466	Centrér
+467	Delvist skyet
+468	Planen ordner stederne efter, hvor tæt de ligger på hinanden. Tjek åbningstiderne, før du tager af sted.
+469	Ruten starter ved din placering og går gennem stoppene i denne rækkefølge. Du kan starte stemmenavigation fra ruteskærmen.
+470	Ruten genberegnes
+471	Genberegner ruten…
+472	Vis rute
+473	Badges
+474	Byer, vi anbefaler
+475	Slå lyd til
+476	Slå lyd fra
+477	Live-navigation med stemmevejledning åbner i appen.
+478	Slet
+479	Tåge
+480	Sidst opdateret: {1}
+481	Derefter
+482	Skriv til os via „Send feedback“ i appen med spørgsmål og ønsker.
+483	Okay, vis
+484	Spam eller reklame
+485	Version {1}
+486	Korteste rækkefølge
+487	Ryd
+488	Her forklarer vi enkelt, hvordan dine oplysninger behandles, når du bruger Rejseguide til Tyrkiet.
+489	Tyrkiet rundt
+490	Garvet rejsende
+491	Hvor tilfreds er du med appen? (valgfrit)
+492	Vi bygger appen sammen. Skriv enhver idé, fejl eller mening; vi læser det hele.
+493	Upassende indhold
+494	Ankomst {1}
+495	Dataene opbevares på Supabase-infrastruktur og overføres via krypteret forbindelse. Kortet kommer fra OpenFreeMap og vejret fra Open-Meteo; dit navn og din e-mail sendes ikke til disse tjenester.
+496	Byer i nærheden først.
+497	Falsk eller vildledende information
+498	Svar
+499	Indberet svar
+500	Regn
+501	Nyt badge låst op: {1}
+502	En ny version er tilgængelig
+503	{1} med nye funktioner og rettelser kan downloades. Bare download og installér; din konto og dine data bevares.
+504	Saml her steder, du vil besøge, med knappen „Tilføj til rejselisten“ på stedskortene; appen sætter dem sammen til én rute.
+505	Anmeldelse
+506	Anmelder
+507	Indberet anmeldelse
+508	Flyt op
+509	og {1} mere
+510	{1} stop
+511	Du er fremme ved {1}
+512	{1} dage
+513	Alle steder i {1} ({2})
+514	{1} km væk
+515	Til {1}
+516	{1} matchende steder
+517	{1} indberetninger
+518	Dag {1}
+519	Støvregn
+520	Vælg først mindst én type ovenfor
+521	Forslag
+522	Besøg 5 kendte steder med særligt mærke
+523	Vartegnssamler
+524	~{1} km fra forrige stop
+525	Leveret
+526	Kontakt
+527	Byer og rejseplan efter dine interesser
+528	Første skridt
+529	Markér dit første sted med „Jeg har været her“
+530	Pilgrim
+531	Centralanatolien-opdager
+532	Besøg 10 steder i Centralanatolien
+533	Indholdet er slettet
+534	Indholdet er synligt igen
+535	Vandfaldsjæger
+536	Intet indberettet indhold
+537	Indberet
+538	Indberetningen er modtaget. Tak!
+539	Indberetninger
+540	Indberetninger er fortrolige. Hvis tre forskellige personer indberetter noget, skjules indholdet automatisk, og en moderator gennemgår det.
+541	Download nu
+542	{1} steder er tilføjet til rejselisten
+543	Disse steder er allerede på din rejseliste
+544	Linket er kopieret
+545	Kopiér link
+546	Denne funktion virker på det udgivne websted.
+547	Ryd listen
+548	En rute kræver mindst to punkter. Tillad placering, eller tilføj ét sted mere.
+549	Live-navigation med stemmevejledning åbner her på webstedet.
+550	Indlæser…
+551	Rute
+552	I henhold til Tyrkiets lov nr. 6698 om beskyttelse af personoplysninger (KVKK) har du ret til indsigt i dine oplysninger og til at anmode om berigtigelse eller sletning. Du kan til enhver tid slette din konto permanent med knappen „Slet konto“ på profilsiden; anmeldelser, fotos og alle registreringer slettes samtidig.
+553	Dit navn, profilbillede, anmeldelser og fotos er offentlige. Din e-mail samt besøgte steder og favoritter kan kun du se. Feedback og indberetninger kan kun du og moderatorerne se.
+554	Ruten starter ved din placering og går gennem stoppene i denne rækkefølge.
+555	Ryd søgning
+556	Indstillinger
+557	Synes ikke længere godt om
+558	Tryk på et sted
+559	Tilføj et foto, når du skriver en anmeldelse på stedskortet; de mest likede vises her.
+560	Dette foto er ikke længere tilgængeligt.
+561	Brug denne placering
+562	Dette sted blev ikke fundet.
+563	Det har du allerede gjort.
+564	Hvad kan man se her, og hvorfor komme hertil?
+565	Skift
+566	Andre rejsende vil se dette navn
+567	Nyttig
+568	Tag foto
+569	Forstør foto
+570	Vælg fra galleriet
+571	Opdag seværdigheder, markér hvor du har været, og del dine oplevelser.
+572	Kort
+573	Ingen fotos endnu
+574	Du har ikke foreslået noget sted endnu.
+575	Slet din konto?
+576	Din konto virker også på webstedet.
+577	Din konto, dine anmeldelser, fotos og forslag slettes permanent. Det kan ikke fortrydes.
+578	Opret konto
+579	Bevisfoto
+580	Vælg kategori
+581	Vælg en kategori.
+582	Udforsk
+583	Markér placering
+584	Moderator
+585	Hvad så du, hvad vil du anbefale?
+586	Din stemme er registreret
+587	Profil
+588	Valgt placering
+589	Ingen resultater.
+590	Tilføj et manglende sted
+591	Galleri
+592	Zoom ind, og tryk på det præcise sted.
+593	Skriv et svar…
+594	Prøv igen
+595	Stednavn
+596	Se stedet
+597	Gennemse steder
+598	Din anmeldelse
+599	Stjernebedømmelse og en anmeldelse eller et foto kræves.
+600	lige nu
+601	for {1} min siden
+602	for {1} måneder siden
+603	for {1} år siden
+604	{1} fotos
+605	Gennemgå forslag
+606	Send forslag
+607	f.eks. Tortum-vandfaldet
+608	Vælg provins
+609	Vælg en provins.
+610	Ingen ventende forslag lige nu.
+611	Åbner betalingssiden
+612	Siden til kortbetaling åbner snart her.
+613	Placeringstilladelse er ikke givet. Du kan tillade det i telefonens indstillinger.
+614	Kameratilladelse er ikke givet. Du kan tillade det i telefonens indstillinger.
+615	Din placering kunne ikke findes. Tjek, at placeringstjenester er slået til.
+616	{1} fra dig

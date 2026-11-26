@@ -1,0 +1,504 @@
+@sq
+0	Njoftime në telefon
+1	Nëse pranon të marrësh njoftime në telefon, identifikuesi i njoftimeve që Firebase i jep pajisjes sate ruhet bashkë me llogarinë që t’i dërgojmë. Kur del nga llogaria, ky identifikues fshihet. Mund t’i çaktivizosh njoftimet kurdo nga cilësimet e telefonit.
+2	Ndaj vendin
+3	Temë e çelur
+4	Temë e errët
+5	Paraparje
+6	Tema të gatshme
+7	Krijo temën tënde
+8	Ngjyra e theksit
+9	Zbato
+10	Toni i sfondit
+11	Sfond me gradient
+12	Kalon nga toni i sfondit te ngjyra e theksit
+13	Shkronja
+14	Madhësia e tekstit
+15	E vogël
+16	Normale
+17	E madhe
+18	Shumë e madhe
+19	Ruaj
+20	Tema u ruajt. Zbatohet kur ta mbyllësh dhe ta hapësh sërish aplikacionin.
+21	Tema u ruajt
+22	Ngjyra u errësua pak që teksti të lexohet.
+23	Zgjedhja jote ruhet edhe në llogari, ndaj duket njësoj në faqe dhe në telefonat e tjerë.
+24	Zgjedhja jote ruhet edhe në llogari, ndaj duket njësoj në aplikacion dhe në pajisjet e tjera.
+25	Shkruaj një kod të vlefshëm ngjyre (p.sh. #3B82F6).
+26	Livando
+27	Perëndim dielli
+28	Blu nate
+29	Pyll
+30	Sistemi
+31	E rrumbullakët
+32	Moderne
+33	Klasike
+34	Lozonjare
+35	Kapadokia
+36	Sot bie shi: sugjerojmë vende të mbyllura
+37	Bie borë: muze, burime termale dhe qendra skijimi
+38	Bën shumë vapë: deti, liqenet, shpellat dhe vende të freskëta
+39	Bën ftohtë: muze, pazare dhe burime termale
+40	Mot i shkëlqyer për shëtitje: vende në ajër të hapur
+41	Sugjerime për sot
+42	Sugjerimet e sotme pranë teje
+43	Ku të hash afër
+44	Vendase
+45	Restorant
+46	Kafene
+47	Ushqim i shpejtë
+48	Kuzhinë turke
+49	Kebab
+50	Peshk
+51	Pica
+52	Burger
+53	Kafe
+54	Mëngjes
+55	Pide
+56	Ëmbëlsira
+57	Akullore
+58	Italiane
+59	Kineze
+60	Vegjetariane
+61	Vegane
+62	Mish
+63	Sanduiçe
+64	Furrë buke
+65	Çaj
+66	Ndërkombëtare
+67	Burimi: kontribuesit e OpenStreetMap. Kontrollo oraret para se të shkosh.
+68	Ditaret e mia të udhëtimit
+69	Ditar udhëtimi
+70	Shëno ditë pas dite vendet që viziton, shto foto dhe, nëse do, ndaji me miqtë me lidhje.
+71	Emri i ditarit të ri (p.sh. Kapadokia, tetor)
+72	Krijo
+73	Ende nuk ke ditar
+74	Krijo një ditar për një udhëtim; historia jote rritet me çdo vend që shton.
+75	{1} shënime
+76	I ndarë
+77	Ndaj me lidhje
+78	Kushdo që ka lidhjen mund ta shohë ditarin tënd.
+79	Tani e sheh vetëm ti.
+80	Ende pa shënime
+81	Fillo duke shtuar një vend që vizitove, një shënim dhe një foto.
+82	Fshi ditarin
+83	Shto shënim
+84	Vendi
+85	Kërko një vend (opsionale)
+86	Dita (VVVV-MM-DD)
+87	Dita
+88	Shënim
+89	Çfarë përjetove? Çfarë hëngre, kë njohe?
+90	Përdor aplikacionin për të shtuar foto.
+91	Me Udhërrëfyesin e udhëtimit në Turqi mund të mbash edhe ti ditar udhëtimi.
+92	Regjistrohu dhe ruaj udhëtimin tënd
+93	Vazhdo te faqja
+94	Ky ditar nuk u gjet.
+95	Ditari u fshi
+96	Të fshihet ky ditar dhe të gjitha shënimet?
+97	Vendi nuk u gjet, zgjidh nga lista
+98	Zgjidh një vend ose shkruaj një shënim
+99	Fotoja jote do të shihet nga të gjithë pas një kontrolli të shkurtër.
+100	Foto e një përdoruesi të ri, në pritje të miratimit
+101	Hyrja dhe Müzekart
+102	Shumica e muzeve dhe vendeve arkeologjike të Ministrisë së Kulturës dhe Turizmit pranojnë kartën e muzeve Müzekart. Disa pallate dhe muze bashkiakë ose privatë nuk e pranojnë.
+103	Çmimet mund të ndryshojnë disa herë në vit; kontrollo çmimin aktual në faqen zyrtare para se të shkosh.
+104	Aksesueshmëria
+105	I aksesueshëm
+106	Pjesërisht
+107	I paaksesueshëm
+108	sipas {1} vizitorëve
+109	Ende nuk ka informacion. Nëse ke qenë, shëno nëse mund të vizitohet me karrocë me rrota ose karrocë fëmijësh.
+110	Informacion nga vizitorët; telefono më parë për rampa, ashensorë dhe tualete të përshtatura.
+111	Harta e kësaj province është shkarkuar në telefon. Hapet edhe pa internet.
+112	Shkarko në telefon hartën e gjithë provincës; hapet në mal, në fshat dhe kudo pa sinjal.
+113	Zgjidh një paketë mbështetjeje
+114	Na qeras një çaj
+115	Paketa e mbështetësit
+116	Mbështetje e madhe
+117	Një falënderim i vogël, por shumë i çmuar
+118	Ndihmon për kostot e serverit dhe hartave
+119	Ndihmon për zhvillimin e veçorive të reja
+120	Mbështetja është vullnetare; në këmbim nuk dërgohet asnjë produkt.
+121	Kontrata e shitjes në distancë
+122	Anulimi dhe rimbursimi
+123	Ditari i udhëtimit dhe informacioni i aksesueshmërisë
+124	Ditaret e tua të udhëtimit i sheh vetëm ti; nëse aktivizon “Ndaj me lidhje”, kushdo me lidhjen mund t’i shohë. Shënimet e tua për aksesueshmërinë e një vendi ndahen vetëm si numër total, pa treguar kush i bëri. Fotot e para të llogarive të reja kontrollohen nga një moderator para publikimit.
+@sr
+0	Обавештења на телефону
+1	Ако пристанеш да примаш обавештења на телефону, идентификатор обавештења који Firebase додељује твом уређају чува се уз твој налог да бисмо могли да их шаљемо. Када се одјавиш, овај идентификатор се брише. Обавештења можеш искључити кад год хоћеш у подешавањима телефона.
+2	Подели место
+3	Светла тема
+4	Тамна тема
+5	Преглед
+6	Готове теме
+7	Направи своју тему
+8	Боја нагласка
+9	Примени
+10	Тон позадине
+11	Позадина са преливом
+12	Прелази из тона позадине у боју нагласка
+13	Фонт
+14	Величина текста
+15	Мала
+16	Нормална
+17	Велика
+18	Веома велика
+19	Сачувај
+20	Тема је сачувана. Примениће се када затвориш и поново отвориш апликацију.
+21	Тема је сачувана
+22	Боја је мало затамњена да би текст био читљив.
+23	Твој избор се чува и на налогу, па изгледа исто на сајту и на другим телефонима.
+24	Твој избор се чува и на налогу, па изгледа исто у апликацији и на другим уређајима.
+25	Унеси исправан код боје (нпр. #3B82F6).
+26	Лаванда
+27	Залазак сунца
+28	Поноћно плава
+29	Шума
+30	Системски
+31	Заобљен
+32	Модеран
+33	Класичан
+34	Разигран
+35	Кападокија
+36	Данас пада киша: предлажемо затворена места
+37	Пада снег: музеји, бање и скијалишта
+38	Веома је вруће: море, језера, пећине и свежа места
+39	Хладно је: музеји, базари и бање
+40	Одлично време за обилазак: места на отвореном
+41	Предлози за данас
+42	Данашњи предлози у твојој близини
+43	Где јести у близини
+44	Локално
+45	Ресторан
+46	Кафић
+47	Брза храна
+48	Турска кухиња
+49	Ћевап
+50	Риба
+51	Пица
+52	Бургери
+53	Кафа
+54	Доручак
+55	Пиде
+56	Посластице
+57	Сладолед
+58	Италијанска
+59	Кинеска
+60	Вегетаријанска
+61	Веганска
+62	Месо
+63	Сендвичи
+64	Пекара
+65	Чај
+66	Интернационална
+67	Извор: доприносиоци OpenStreetMap-а. Провери радно време пре него што кренеш.
+68	Моји путни дневници
+69	Путни дневник
+70	Бележи из дана у дан места која обилазиш, додај фотографије и, ако желиш, подели их са пријатељима преко линка.
+71	Назив новог дневника (нпр. Кападокија, октобар)
+72	Направи
+73	Још немаш дневник
+74	Направи дневник за путовање; твоја прича расте са сваким додатим местом.
+75	Уноса: {1}
+76	Подељено
+77	Подели преко линка
+78	Свако ко има линк може да види твој дневник.
+79	Тренутно га видиш само ти.
+80	Још нема уноса
+81	Почни тако што ћеш додати место које си обишао, белешку и фотографију.
+82	Обриши дневник
+83	Додај унос
+84	Место
+85	Претражи место (необавезно)
+86	Дан (ГГГГ-ММ-ДД)
+87	Дан
+88	Белешка
+89	Шта си доживео? Шта си јео, кога си упознао?
+90	Фотографије додај у апликацији.
+91	И ти можеш да водиш путни дневник уз Туристички водич кроз Турску.
+92	Региструј се и сачувај своје путовање
+93	Настави на сајт
+94	Овај дневник није пронађен.
+95	Дневник је обрисан
+96	Обрисати овај дневник и све уносе?
+97	Место није пронађено, изабери са листе
+98	Изабери место или напиши белешку
+99	Твоја фотографија биће видљива свима после кратке провере.
+100	Фотографија новог корисника, чека одобрење
+101	Улазница и Müzekart
+102	Већина музеја и археолошких локалитета Министарства културе и туризма прихвата музејску картицу Müzekart. Неке палате и општински или приватни музеји је не прихватају.
+103	Цене могу да се мењају неколико пута годишње; пре одласка провери тренутну цену на званичном сајту.
+104	Приступачност
+105	Приступачно
+106	Делимично
+107	Неприступачно
+108	према {1} посетилаца
+109	Још нема података. Ако си био тамо, означи да ли може да се обиђе у колицима или са дечјим колицима.
+110	Подаци посетилаца; за рампе, лифтове и прилагођене тоалете позови унапред.
+111	Мапа ове провинције је преузета на телефон. Отвара се и без интернета.
+112	Преузми на телефон мапу целе провинције; отвориће се на планини, у селу и свуда без сигнала.
+113	Изабери пакет подршке
+114	Части нас чајем
+115	Пакет подржаваоца
+116	Велика подршка
+117	Мало, али веома драгоцено хвала
+118	Помаже трошкове сервера и мапа
+119	Помаже развој нових функција
+120	Подршка је добровољна; заузврат се не шаље никакав производ.
+121	Уговор о продаји на даљину
+122	Отказивање и повраћај новца
+123	Путни дневник и подаци о приступачности
+124	Твоје путне дневнике видиш само ти; ако укључиш „Подели преко линка“, свако ко има линк може да их види. Твоје ознаке приступачности за неко место приказују се само као укупан број, без приказа ко их је дао. Прве фотографије нових налога прегледа модератор пре објављивања.
+@hr
+0	Obavijesti na telefonu
+1	Ako pristaneš primati obavijesti na telefonu, identifikator obavijesti koji Firebase dodjeljuje tvom uređaju sprema se uz tvoj račun kako bismo ih mogli slati. Kad se odjaviš, taj se identifikator briše. Obavijesti možeš isključiti kad god želiš u postavkama telefona.
+2	Podijeli mjesto
+3	Svijetla tema
+4	Tamna tema
+5	Pregled
+6	Gotove teme
+7	Napravi svoju temu
+8	Boja naglaska
+9	Primijeni
+10	Ton pozadine
+11	Pozadina s prijelazom
+12	Prelazi iz tona pozadine u boju naglaska
+13	Font
+14	Veličina teksta
+15	Mala
+16	Normalna
+17	Velika
+18	Vrlo velika
+19	Spremi
+20	Tema je spremljena. Primijenit će se kad zatvoriš i ponovno otvoriš aplikaciju.
+21	Tema je spremljena
+22	Boja je malo zatamnjena da bi tekst bio čitljiv.
+23	Tvoj se izbor sprema i na račun, pa izgleda isto na web-stranici i na drugim telefonima.
+24	Tvoj se izbor sprema i na račun, pa izgleda isto u aplikaciji i na drugim uređajima.
+25	Upiši ispravan kod boje (npr. #3B82F6).
+26	Lavanda
+27	Zalazak sunca
+28	Ponoćno plava
+29	Šuma
+30	Sustav
+31	Zaobljen
+32	Moderan
+33	Klasičan
+34	Razigran
+35	Kapadokija
+36	Danas pada kiša: predlažemo zatvorena mjesta
+37	Pada snijeg: muzeji, toplice i skijališta
+38	Jako je vruće: more, jezera, špilje i svježa mjesta
+39	Hladno je: muzeji, bazari i toplice
+40	Odlično vrijeme za razgledavanje: mjesta na otvorenom
+41	Prijedlozi za danas
+42	Današnji prijedlozi u tvojoj blizini
+43	Gdje jesti u blizini
+44	Lokalno
+45	Restoran
+46	Kafić
+47	Brza hrana
+48	Turska kuhinja
+49	Ćevap
+50	Riba
+51	Pizza
+52	Burgeri
+53	Kava
+54	Doručak
+55	Pide
+56	Deserti
+57	Sladoled
+58	Talijanska
+59	Kineska
+60	Vegetarijanska
+61	Veganska
+62	Meso
+63	Sendviči
+64	Pekarnica
+65	Čaj
+66	Internacionalna
+67	Izvor: suradnici OpenStreetMapa. Provjeri radno vrijeme prije polaska.
+68	Moji putni dnevnici
+69	Putni dnevnik
+70	Bilježi iz dana u dan mjesta koja posjećuješ, dodaj fotografije i, ako želiš, podijeli ih s prijateljima putem poveznice.
+71	Naziv novog dnevnika (npr. Kapadokija, listopad)
+72	Napravi
+73	Još nemaš dnevnik
+74	Napravi dnevnik za putovanje; tvoja priča raste sa svakim dodanim mjestom.
+75	Unosa: {1}
+76	Podijeljeno
+77	Podijeli putem poveznice
+78	Svatko tko ima poveznicu može vidjeti tvoj dnevnik.
+79	Trenutačno ga vidiš samo ti.
+80	Još nema unosa
+81	Počni dodavanjem mjesta koje si posjetio, bilješke i fotografije.
+82	Izbriši dnevnik
+83	Dodaj unos
+84	Mjesto
+85	Traži mjesto (neobavezno)
+86	Dan (GGGG-MM-DD)
+87	Dan
+88	Bilješka
+89	Što si doživio? Što si jeo, koga si upoznao?
+90	Fotografije dodaj u aplikaciji.
+91	I ti možeš voditi putni dnevnik uz Turistički vodič po Turskoj.
+92	Registriraj se i spremi svoje putovanje
+93	Nastavi na web-stranicu
+94	Ovaj dnevnik nije pronađen.
+95	Dnevnik je izbrisan
+96	Izbrisati ovaj dnevnik i sve unose?
+97	Mjesto nije pronađeno, odaberi s popisa
+98	Odaberi mjesto ili napiši bilješku
+99	Tvoja će fotografija biti vidljiva svima nakon kratke provjere.
+100	Fotografija novog korisnika, čeka odobrenje
+101	Ulaznica i Müzekart
+102	Većina muzeja i arheoloških nalazišta Ministarstva kulture i turizma prihvaća muzejsku karticu Müzekart. Neke palače te gradski ili privatni muzeji je ne prihvaćaju.
+103	Cijene se mogu mijenjati nekoliko puta godišnje; prije odlaska provjeri aktualnu cijenu na službenoj stranici.
+104	Pristupačnost
+105	Pristupačno
+106	Djelomično
+107	Nepristupačno
+108	prema {1} posjetitelja
+109	Još nema podataka. Ako si bio ondje, označi može li se obići u invalidskim kolicima ili s dječjim kolicima.
+110	Podaci posjetitelja; za rampe, dizala i prilagođene zahode nazovi unaprijed.
+111	Karta ove pokrajine preuzeta je na telefon. Otvara se i bez interneta.
+112	Preuzmi na telefon kartu cijele pokrajine; otvorit će se u planinama, na selu i svugdje bez signala.
+113	Odaberi paket podrške
+114	Počasti nas čajem
+115	Paket podržavatelja
+116	Velika podrška
+117	Malo, ali vrlo dragocjeno hvala
+118	Pomaže pokriti troškove poslužitelja i karata
+119	Pomaže razvoju novih značajki
+120	Podrška je dobrovoljna; zauzvrat se ne šalje nikakav proizvod.
+121	Ugovor o prodaji na daljinu
+122	Otkazivanje i povrat novca
+123	Putni dnevnik i podaci o pristupačnosti
+124	Tvoje putne dnevnike vidiš samo ti; ako uključiš „Podijeli putem poveznice”, svatko s poveznicom može ih vidjeti. Tvoje oznake pristupačnosti za neko mjesto prikazuju se samo kao ukupan broj, bez prikaza tko ih je dao. Prve fotografije novih računa pregledava moderator prije objave.
+@cs
+0	Oznámení v telefonu
+1	Pokud souhlasíš s oznámeními v telefonu, identifikátor oznámení, který Firebase přidělí tvému zařízení, se uloží k tvému účtu, abychom je mohli posílat. Po odhlášení se tento identifikátor smaže. Oznámení můžeš kdykoli vypnout v nastavení telefonu.
+2	Sdílet místo
+3	Světlý motiv
+4	Tmavý motiv
+5	Náhled
+6	Hotové motivy
+7	Vytvoř si vlastní motiv
+8	Barva zvýraznění
+9	Použít
+10	Tón pozadí
+11	Přechodové pozadí
+12	Přechází z tónu pozadí do barvy zvýraznění
+13	Písmo
+14	Velikost textu
+15	Malé
+16	Normální
+17	Velké
+18	Velmi velké
+19	Uložit
+20	Motiv uložen. Použije se, až aplikaci zavřeš a znovu otevřeš.
+21	Motiv uložen
+22	Barva byla trochu ztmavena, aby byl text čitelný.
+23	Tvoje volba se ukládá i do účtu, takže na webu a dalších telefonech vypadá stejně.
+24	Tvoje volba se ukládá i do účtu, takže v aplikaci a na dalších zařízeních vypadá stejně.
+25	Zadej platný kód barvy (např. #3B82F6).
+26	Levandule
+27	Západ slunce
+28	Půlnoční modrá
+29	Les
+30	Systém
+31	Zaoblené
+32	Moderní
+33	Klasické
+34	Hravé
+35	Kappadokie
+36	Dnes prší: doporučujeme místa pod střechou
+37	Sněží: muzea, termální lázně a lyžařská střediska
+38	Je velké horko: moře, jezera, jeskyně a chladná místa
+39	Je zima: muzea, bazary a termální lázně
+40	Skvělé počasí na výlet: místa pod širým nebem
+41	Tipy na dnešek
+42	Dnešní tipy v tvém okolí
+43	Kde se najíst poblíž
+44	Místní
+45	Restaurace
+46	Kavárna
+47	Rychlé občerstvení
+48	Turecká kuchyně
+49	Kebab
+50	Ryby
+51	Pizza
+52	Burgery
+53	Káva
+54	Snídaně
+55	Pide
+56	Dezerty
+57	Zmrzlina
+58	Italská
+59	Čínská
+60	Vegetariánská
+61	Veganská
+62	Maso
+63	Sendviče
+64	Pekárna
+65	Čaj
+66	Mezinárodní
+67	Zdroj: přispěvatelé OpenStreetMap. Před cestou si ověř otevírací dobu.
+68	Moje cestovní deníky
+69	Cestovní deník
+70	Zapisuj den po dni navštívená místa, přidávej fotky a pokud chceš, sdílej je s přáteli odkazem.
+71	Název nového deníku (např. Kappadokie, říjen)
+72	Vytvořit
+73	Zatím nemáš žádný deník
+74	Vytvoř si deník na cestu; tvůj příběh roste s každým přidaným místem.
+75	Záznamů: {1}
+76	Sdíleno
+77	Sdílet odkazem
+78	Kdokoli s odkazem uvidí tvůj deník.
+79	Teď ho vidíš jen ty.
+80	Zatím žádné záznamy
+81	Začni přidáním navštíveného místa, poznámky a fotky.
+82	Smazat deník
+83	Přidat záznam
+84	Místo
+85	Hledat místo (nepovinné)
+86	Den (RRRR-MM-DD)
+87	Den
+88	Poznámka
+89	Co jsi zažil? Co jsi jedl, koho jsi potkal?
+90	Fotky přidáš v aplikaci.
+91	I ty si můžeš vést cestovní deník s Cestovním průvodcem po Turecku.
+92	Zaregistruj se a zachyť svou cestu
+93	Pokračovat na web
+94	Tento deník nebyl nalezen.
+95	Deník smazán
+96	Smazat tento deník a všechny záznamy?
+97	Místo nenalezeno, vyber ze seznamu
+98	Vyber místo nebo napiš poznámku
+99	Tvoje fotka bude po krátké kontrole viditelná pro všechny.
+100	Fotka nového uživatele, čeká na schválení
+101	Vstupné a Müzekart
+102	Většina muzeí a archeologických lokalit Ministerstva kultury a cestovního ruchu přijímá muzejní kartu Müzekart. Některé paláce a městská či soukromá muzea ne.
+103	Ceny se mohou měnit několikrát ročně; před návštěvou si ověř aktuální cenu na oficiálním webu.
+104	Bezbariérovost
+105	Bezbariérové
+106	Částečně
+107	Bariérové
+108	podle {1} návštěvníků
+109	Zatím žádné informace. Pokud jsi tu byl, označ, zda se dá navštívit na vozíku nebo s kočárkem.
+110	Informace od návštěvníků; na rampy, výtahy a bezbariérové toalety se předem zeptej telefonicky.
+111	Mapa této provincie je stažená v telefonu. Otevře se i bez internetu.
+112	Stáhni si do telefonu mapu celé provincie; otevře se na horách, na vesnici i všude bez signálu.
+113	Vyber balíček podpory
+114	Kup nám čaj
+115	Balíček podporovatele
+116	Velká podpora
+117	Malé, ale moc cenné poděkování
+118	Pomáhá s náklady na server a mapy
+119	Pomáhá vyvíjet nové funkce
+120	Podpora je dobrovolná; nic se za ni neposílá.
+121	Smlouva o prodeji na dálku
+122	Zrušení a vrácení peněz
+123	Cestovní deník a informace o bezbariérovosti
+124	Tvoje cestovní deníky vidíš jen ty; když zapneš „Sdílet odkazem“, uvidí je kdokoli s odkazem. Tvoje označení bezbariérovosti místa se sdílí jen jako celkový počet, bez uvedení, kdo je přidal. První fotky nových účtů před zveřejněním kontroluje moderátor.

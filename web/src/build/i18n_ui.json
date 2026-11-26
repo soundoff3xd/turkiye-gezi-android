@@ -1,0 +1,1112 @@
+{
+"Gezilecek yerler": [
+"Places to visit",
+"Sehenswürdigkeiten",
+"Что посмотреть"
+],
+"{1} yer": [
+"{1} places",
+"{1} Orte",
+"Мест: {1}"
+],
+"Yer öner": [
+"Suggest a place",
+"Ort vorschlagen",
+"Предложить место"
+],
+"Onay bekleyenler ({1})": [
+"Awaiting approval ({1})",
+"Ausstehend ({1})",
+"На проверке ({1})"
+],
+"Onay bekleyenler": [
+"Awaiting approval",
+"Ausstehend",
+"На проверке"
+],
+"Sırala": [
+"Sort by",
+"Sortieren",
+"Сортировка"
+],
+"Sırala ve filtrele": [
+"Sort and filter",
+"Sortieren und filtern",
+"Сортировка и фильтры"
+],
+"En çok gidilen": [
+"Most visited",
+"Meistbesucht",
+"Самые посещаемые"
+],
+"En favori": [
+"Most favorited",
+"Beliebteste",
+"Самые любимые"
+],
+"En yüksek puan": [
+"Top rated",
+"Bestbewertet",
+"Лучший рейтинг"
+],
+"En çok yorum": [
+"Most reviewed",
+"Meiste Bewertungen",
+"Больше всего отзывов"
+],
+"Tümü": [
+"All",
+"Alle",
+"Все"
+],
+"Tarihi yapı": [
+"Historic site",
+"Historische Stätte",
+"Историческое место"
+],
+"Müze ve saray": [
+"Museum & palace",
+"Museum & Palast",
+"Музей и дворец"
+],
+"Şehir ve çarşı": [
+"Town & bazaar",
+"Stadt & Basar",
+"Город и базар"
+],
+"Manzara": [
+"Viewpoint",
+"Aussicht",
+"Смотровая точка"
+],
+"Doğa": [
+"Nature",
+"Natur",
+"Природа"
+],
+"Deniz": [
+"Seaside",
+"Meer",
+"Море"
+],
+"Puan, yorum, gidilme ve favori sayıları örnek veridir.": [
+"Ratings, reviews, visits and favorites are sample data.",
+"Bewertungen, Besuche und Favoriten sind Beispieldaten.",
+"Оценки, отзывы, посещения и избранное — демонстрационные данные."
+],
+"Tüm yerler": [
+"All places",
+"Alle Orte",
+"Все места"
+],
+"Tüm Türkiye": [
+"All of Türkiye",
+"Ganze Türkei",
+"Вся Турция"
+],
+"Marmara": [
+"Marmara",
+"Marmara",
+"Мраморноморский"
+],
+"Ege": [
+"Aegean",
+"Ägäis",
+"Эгейский"
+],
+"Akdeniz": [
+"Mediterranean",
+"Mittelmeer",
+"Средиземноморский"
+],
+"İç Anadolu": [
+"Central Anatolia",
+"Zentralanatolien",
+"Центральная Анатолия"
+],
+"Karadeniz": [
+"Black Sea",
+"Schwarzmeer",
+"Черноморский"
+],
+"Doğu Anadolu": [
+"Eastern Anatolia",
+"Ostanatolien",
+"Восточная Анатолия"
+],
+"Güneydoğu Anadolu": [
+"Southeastern Anatolia",
+"Südostanatolien",
+"Юго-Восточная Анатолия"
+],
+"Harita verisi: Natural Earth": [
+"Map data: Natural Earth",
+"Kartendaten: Natural Earth",
+"Картографические данные: Natural Earth"
+],
+"Paneli küçült": [
+"Collapse panel",
+"Bereich verkleinern",
+"Свернуть панель"
+],
+"Paneli büyüt": [
+"Expand panel",
+"Bereich vergrößern",
+"Развернуть панель"
+],
+"Türkiye haritası": [
+"Map of Türkiye",
+"Karte der Türkei",
+"Карта Турции"
+],
+"Gezilecek yerler listesi": [
+"List of places",
+"Liste der Orte",
+"Список мест"
+],
+"İl veya yer ara": [
+"Search places",
+"Orte suchen",
+"Поиск мест"
+],
+"Bölge": [
+"Region",
+"Region",
+"Регион"
+],
+"Kategori": [
+"Category",
+"Kategorie",
+"Категория"
+],
+"Yakınlaştır": [
+"Zoom in",
+"Vergrößern",
+"Приблизить"
+],
+"Uzaklaştır": [
+"Zoom out",
+"Verkleinern",
+"Отдалить"
+],
+"Kapat": [
+"Close",
+"Schließen",
+"Закрыть"
+],
+"Dil": [
+"Language",
+"Sprache",
+"Язык"
+],
+"{1} yorum": [
+"{1} reviews",
+"{1} Bewertungen",
+"Отзывов: {1}"
+],
+"({1} yorum)": [
+"({1} reviews)",
+"({1} Bewertungen)",
+"(отзывов: {1})"
+],
+"{1} kişi gitti": [
+"{1} visited",
+"{1} waren hier",
+"Побывали: {1}"
+],
+"{1} favori": [
+"{1} favorites",
+"{1} Favoriten",
+"В избранном: {1}"
+],
+"Yeni": [
+"New",
+"Neu",
+"Новое"
+],
+"Topluluk ekledi": [
+"Added by community",
+"Von der Community",
+"Добавлено сообществом"
+],
+"Bu aramaya veya filtreye uyan yer yok.": [
+"No places match this search or filter.",
+"Keine Orte für diese Suche oder diesen Filter.",
+"Нет мест по этому запросу или фильтру."
+],
+"Gittim mi?": [
+"Been here?",
+"Schon hier gewesen?",
+"Были здесь?"
+],
+"Gittim": [
+"Been here",
+"War hier",
+"Был(а) здесь"
+],
+"Favori": [
+"Favorite",
+"Favorit",
+"В избранное"
+],
+"Favoride": [
+"In favorites",
+"In Favoriten",
+"В избранном"
+],
+"Yol tarifi": [
+"Directions",
+"Route",
+"Маршрут"
+],
+"Yorum yaz": [
+"Write a review",
+"Bewertung schreiben",
+"Написать отзыв"
+],
+"Fotoğraf ekle": [
+"Add photo",
+"Foto hinzufügen",
+"Добавить фото"
+],
+"Genel bakış": [
+"Overview",
+"Überblick",
+"Обзор"
+],
+"Yorumlar": [
+"Reviews",
+"Bewertungen",
+"Отзывы"
+],
+"Fotoğraflar": [
+"Photos",
+"Fotos",
+"Фото"
+],
+"Fotoğraflar ({1})": [
+"Photos ({1})",
+"Fotos ({1})",
+"Фото ({1})"
+],
+"Konum": [
+"Location",
+"Lage",
+"Местоположение"
+],
+"Nasıl gidilir": [
+"Getting there",
+"Anreise",
+"Как добраться"
+],
+"Henüz puan yok": [
+"No ratings yet",
+"Noch keine Bewertungen",
+"Пока нет оценок"
+],
+"{1} önerdi, topluluk onayladı": [
+"Suggested by {1}, approved by the community",
+"Vorgeschlagen von {1}, von der Community bestätigt",
+"Предложил(а) {1}, одобрено сообществом"
+],
+"Açılış saatleri ve giriş ücretleri değişebilir; gitmeden önce resmi kaynaktan kontrol edin.": [
+"Opening hours and ticket prices change; check the official source before you go.",
+"Öffnungszeiten und Eintrittspreise können sich ändern; prüfe vorher die offizielle Quelle.",
+"Часы работы и цены на билеты могут меняться; перед поездкой проверьте официальный источник."
+],
+"5 üzerinden {1} puan": [
+"{1} out of 5",
+"{1} von 5",
+"{1} из 5"
+],
+"Toplam puan ve yorum sayısı örnek veridir. Aşağıda \"Örnek\" etiketli yorumlar yer tutucudur; senin paylaştıkların sayıya eklenir.": [
+"The overall rating and review count are sample data. Reviews marked \"Sample\" are placeholders; the ones you post are added to the count.",
+"Gesamtbewertung und Anzahl sind Beispieldaten. Mit \"Beispiel\" markierte Bewertungen sind Platzhalter; deine eigenen werden mitgezählt.",
+"Общая оценка и число отзывов — демонстрационные данные. Отзывы с пометкой «Пример» — заглушки; ваши отзывы добавляются к счёту."
+],
+"Örnek": [
+"Sample",
+"Beispiel",
+"Пример"
+],
+"Örnek fotoğraf": [
+"Sample photo",
+"Beispielfoto",
+"Пример фото"
+],
+"Örnek video": [
+"Sample video",
+"Beispielvideo",
+"Пример видео"
+],
+"{1} gün önce": [
+"{1} days ago",
+"vor {1} Tagen",
+"{1} дн. назад"
+],
+"1 gün önce": [
+"1 day ago",
+"vor 1 Tag",
+"1 день назад"
+],
+"{1} hafta önce": [
+"{1} weeks ago",
+"vor {1} Wochen",
+"{1} нед. назад"
+],
+"1 hafta önce": [
+"1 week ago",
+"vor 1 Woche",
+"1 неделю назад"
+],
+"{1} saat önce": [
+"{1} hours ago",
+"vor {1} Stunden",
+"{1} ч. назад"
+],
+"Şimdi": [
+"Just now",
+"Gerade eben",
+"Только что"
+],
+"Sen": [
+"You",
+"Du",
+"Вы"
+],
+"Beğen": [
+"Like",
+"Gefällt mir",
+"Нравится"
+],
+"Yanıtlar": [
+"Replies",
+"Antworten",
+"Ответы"
+],
+"Yanıt yaz": [
+"Write a reply",
+"Antwort schreiben",
+"Написать ответ"
+],
+"Gönder": [
+"Send",
+"Senden",
+"Отправить"
+],
+"Bu yer için gösterilecek yorum yok": [
+"No reviews to show for this place",
+"Keine Bewertungen für diesen Ort",
+"Для этого места пока нет отзывов"
+],
+"Gezdiysen ilk deneyimi sen paylaş.": [
+"Been there? Share the first experience.",
+"Warst du dort? Teile die erste Erfahrung.",
+"Были там? Поделитесь первым впечатлением."
+],
+"Henüz fotoğraf veya video yok": [
+"No photos or videos yet",
+"Noch keine Fotos oder Videos",
+"Пока нет фото и видео"
+],
+"Çektiğin kareleri paylaş, gelecek gezginler ne bekleyeceğini görsün.": [
+"Share your shots so future travelers know what to expect.",
+"Teile deine Aufnahmen, damit andere wissen, was sie erwartet.",
+"Поделитесь снимками, чтобы другие знали, чего ожидать."
+],
+"Paylaşılan fotoğraf": [
+"Shared photo",
+"Geteiltes Foto",
+"Фото пользователя"
+],
+"Seçilen fotoğraf": [
+"Selected photo",
+"Ausgewähltes Foto",
+"Выбранное фото"
+],
+"Deneyimini paylaş": [
+"Share your experience",
+"Erfahrung teilen",
+"Поделитесь впечатлениями"
+],
+"Puanın": [
+"Your rating",
+"Deine Bewertung",
+"Ваша оценка"
+],
+"Deneyimin": [
+"Your experience",
+"Deine Erfahrung",
+"Ваши впечатления"
+],
+"{1} yıldız": [
+"{1} stars",
+"{1} Sterne",
+"Звёзд: {1}"
+],
+"Fotoğraf veya video ekle": [
+"Add photo or video",
+"Foto oder Video hinzufügen",
+"Добавить фото или видео"
+],
+"Kaldır": [
+"Remove",
+"Entfernen",
+"Удалить"
+],
+"Paylaş": [
+"Post",
+"Veröffentlichen",
+"Опубликовать"
+],
+"Ne gördün, ne yaşadın? Sonradan gelenlere ipucu bırak.": [
+"What did you see and do? Leave a tip for the next visitors.",
+"Was hast du erlebt? Hinterlasse einen Tipp für andere.",
+"Что вы видели? Оставьте совет следующим путешественникам."
+],
+"Puan ve yazı ya da medya gerekli. Paylaşımın herkese açık olur; kişisel bilgi ve başkalarının yüzünü paylaşmaktan kaçın.": [
+"A rating plus text or media is required. Posts are public; avoid personal details and other people's faces.",
+"Bewertung und Text oder Medien sind nötig. Beiträge sind öffentlich; keine persönlichen Daten oder fremden Gesichter.",
+"Нужны оценка и текст или фото. Публикации видны всем; не публикуйте личные данные и чужие лица."
+],
+"Yorumun paylaşıldı": [
+"Your review was posted",
+"Bewertung veröffentlicht",
+"Отзыв опубликован"
+],
+"Gittiğin yerlere eklendi": [
+"Added to places you've been",
+"Zu besuchten Orten hinzugefügt",
+"Добавлено в посещённые места"
+],
+"Favorilere eklendi": [
+"Added to favorites",
+"Zu Favoriten hinzugefügt",
+"Добавлено в избранное"
+],
+"Önerilen yerler": [
+"Suggested places",
+"Vorgeschlagene Orte",
+"Предложенные места"
+],
+"Nasıl doğrulanıyor?": [
+"How is it verified?",
+"Wie wird geprüft?",
+"Как проходит проверка?"
+],
+"1. Otomatik kontrol: konum Türkiye içinde mi, aynı yer zaten var mı, uygunsuz ifade ya da bağlantı var mı, kanıt fotoğrafı eklenmiş mi.": [
+"1. Automatic checks: is the location inside Türkiye, does the place already exist, does it contain offensive words or links, is there a proof photo.",
+"1. Automatische Prüfung: Liegt der Ort in der Türkei, gibt es ihn schon, enthält er Beleidigungen oder Links, gibt es ein Belegfoto.",
+"1. Автоматическая проверка: место в Турции, нет ли дубликата, нет ли оскорблений или ссылок, есть ли фото-подтверждение."
+],
+"2. Topluluk onayı: {1} kullanıcı “Burası gerçek” deyince yer haritaya eklenir. Kimse kendi önerisini onaylayamaz.": [
+"2. Community approval: once {1} users confirm “This place is real”, it is added to the map. Nobody can approve their own suggestion.",
+"2. Community-Bestätigung: Sobald {1} Nutzer „Ort ist echt“ bestätigen, erscheint er auf der Karte. Eigene Vorschläge kann niemand bestätigen.",
+"2. Одобрение сообщества: когда {1} пользователя подтвердят «Место настоящее», оно появится на карте. Своё предложение одобрить нельзя."
+],
+"3. Moderatör: {1} “Yanlış ya da uygunsuz” bildirimi alan öneri yayından kalkar ve moderatöre düşer.": [
+"3. Moderator: a suggestion with {1} “Wrong or inappropriate” reports is pulled and sent to a moderator.",
+"3. Moderation: Ein Vorschlag mit {1} Meldungen „Falsch oder unangemessen“ wird ausgeblendet und an die Moderation gegeben.",
+"3. Модератор: предложение с {1} жалобами «Неверно или неуместно» снимается и уходит модератору."
+],
+"Kişi başı günde {1} öneri hakkı var.": [
+"Each person can suggest {1} places per day.",
+"Jede Person kann {1} Orte pro Tag vorschlagen.",
+"Каждый может предложить {1} места в день."
+],
+"Prototip: “Örnek” etiketli öneriler yer tutucudur; senin oyun tek kullanıcı gibi sayılır.": [
+"Prototype: suggestions marked “Sample” are placeholders; your vote counts as one user.",
+"Prototyp: Mit „Beispiel“ markierte Vorschläge sind Platzhalter; deine Stimme zählt als ein Nutzer.",
+"Прототип: предложения с пометкой «Пример» — заглушки; ваш голос считается за одного пользователя."
+],
+"öneren {1}, {2}": [
+"suggested by {1}, {2}",
+"vorgeschlagen von {1}, {2}",
+"предложил(а) {1}, {2}"
+],
+"Topluluk onayı bekliyor": [
+"Awaiting community approval",
+"Wartet auf Community-Bestätigung",
+"Ждёт одобрения сообщества"
+],
+"Şikâyet aldı, moderatörde": [
+"Reported, with moderator",
+"Gemeldet, bei der Moderation",
+"Есть жалобы, у модератора"
+],
+"Onaylandı, haritada": [
+"Approved, on the map",
+"Bestätigt, auf der Karte",
+"Одобрено, на карте"
+],
+"Reddedildi": [
+"Rejected",
+"Abgelehnt",
+"Отклонено"
+],
+"{1}/{2} onay": [
+"{1}/{2} approvals",
+"{1}/{2} Bestätigungen",
+"{1}/{2} одобрений"
+],
+"{1}/{2} onay · {3} bildirim": [
+"{1}/{2} approvals · {3} reports",
+"{1}/{2} Bestätigungen · {3} Meldungen",
+"{1}/{2} одобрений · жалоб: {3}"
+],
+"Haritada gör": [
+"Show on map",
+"Auf Karte zeigen",
+"Показать на карте"
+],
+"Burası gerçek": [
+"This place is real",
+"Ort ist echt",
+"Место настоящее"
+],
+"Yanlış / uygunsuz": [
+"Wrong / inappropriate",
+"Falsch / unangemessen",
+"Неверно / неуместно"
+],
+"Moderatör: onayla": [
+"Moderator: approve",
+"Moderation: bestätigen",
+"Модератор: одобрить"
+],
+"Moderatör: reddet": [
+"Moderator: reject",
+"Moderation: ablehnen",
+"Модератор: отклонить"
+],
+"Moderatör düğmeleri yalnızca bu prototipte, akışı görebilmen için.": [
+"Moderator buttons exist only in this prototype so you can see the flow.",
+"Die Moderationsknöpfe gibt es nur in diesem Prototyp, damit du den Ablauf siehst.",
+"Кнопки модератора есть только в прототипе, чтобы показать процесс."
+],
+"{1} haritaya eklendi": [
+"{1} was added to the map",
+"{1} wurde zur Karte hinzugefügt",
+"{1} добавлено на карту"
+],
+"Öneri moderatöre gönderildi": [
+"Suggestion sent to a moderator",
+"Vorschlag an die Moderation gesendet",
+"Предложение отправлено модератору"
+],
+"Bildirimin alındı": [
+"Report received",
+"Meldung erhalten",
+"Жалоба получена"
+],
+"Öneri reddedildi": [
+"Suggestion rejected",
+"Vorschlag abgelehnt",
+"Предложение отклонено"
+],
+"Önerin incelemeye alındı": [
+"Your suggestion is under review",
+"Dein Vorschlag wird geprüft",
+"Ваше предложение на проверке"
+],
+"Yeni yer öner": [
+"Suggest a new place",
+"Neuen Ort vorschlagen",
+"Предложить новое место"
+],
+"Uygulamada olmayan, gezdiğin bir yer": [
+"A place you've visited that isn't in the app yet",
+"Ein besuchter Ort, der noch fehlt",
+"Место, где вы были и которого ещё нет в приложении"
+],
+"Yerin adı": [
+"Place name",
+"Name des Ortes",
+"Название места"
+],
+"Örneğin: Tortum Şelalesi": [
+"For example: Tortum Waterfall",
+"Zum Beispiel: Tortum-Wasserfall",
+"Например: водопад Тортум"
+],
+"Haritada işaretle": [
+"Mark on map",
+"Auf Karte markieren",
+"Отметить на карте"
+],
+"Konumu değiştir": [
+"Change location",
+"Ort ändern",
+"Изменить место"
+],
+"Henüz konum seçilmedi": [
+"No location chosen yet",
+"Noch kein Ort gewählt",
+"Место ещё не выбрано"
+],
+"{1} (Türkiye dışında)": [
+"{1} (outside Türkiye)",
+"{1} (außerhalb der Türkei)",
+"{1} (за пределами Турции)"
+],
+"İl": [
+"Province",
+"Provinz",
+"Провинция"
+],
+"Kısa açıklama": [
+"Short description",
+"Kurzbeschreibung",
+"Краткое описание"
+],
+"Ne görülür, neden gidilmeli?": [
+"What is there to see, and why go?",
+"Was gibt es zu sehen, warum hinfahren?",
+"Что посмотреть и зачем ехать?"
+],
+"Kanıt fotoğrafı ekle (orada çektiğin)": [
+"Add a proof photo (taken there)",
+"Belegfoto hinzufügen (vor Ort aufgenommen)",
+"Добавить фото-подтверждение (снятое на месте)"
+],
+"Bu yeri kendim ziyaret ettim": [
+"I have visited this place myself",
+"Ich war selbst dort",
+"Я сам(а) был(а) в этом месте"
+],
+"İncelemeye gönder": [
+"Submit for review",
+"Zur Prüfung senden",
+"Отправить на проверку"
+],
+"Önerin otomatik kontrollerden geçer, sonra {1} kullanıcı onaylayınca haritaya eklenir. Şikâyet alan öneriler moderatöre gider.": [
+"Your suggestion passes automatic checks, then is added once {1} users approve it. Reported suggestions go to a moderator.",
+"Dein Vorschlag wird automatisch geprüft und erscheint, sobald {1} Nutzer ihn bestätigen. Gemeldete Vorschläge gehen an die Moderation.",
+"Предложение проходит автопроверку и появляется на карте после одобрения {1} пользователями. Предложения с жалобами уходят модератору."
+],
+"Konumu seçmek için haritaya dokun": [
+"Tap the map to choose the location",
+"Tippe auf die Karte, um den Ort zu wählen",
+"Нажмите на карту, чтобы выбрать место"
+],
+"Vazgeç": [
+"Cancel",
+"Abbrechen",
+"Отмена"
+],
+"Önerin gönderilmedi:": [
+"Your suggestion was not sent:",
+"Dein Vorschlag wurde nicht gesendet:",
+"Предложение не отправлено:"
+],
+"Yer adı {1} ile {2} karakter arasında olmalı.": [
+"The name must be {1} to {2} characters.",
+"Der Name muss {1} bis {2} Zeichen lang sein.",
+"Название должно быть от {1} до {2} символов."
+],
+"Kısa açıklama en az {1} karakter olmalı; ne görüleceğini birkaç kelimeyle anlat.": [
+"The description needs at least {1} characters; say in a few words what there is to see.",
+"Die Beschreibung braucht mindestens {1} Zeichen; beschreibe kurz, was es zu sehen gibt.",
+"Описание — минимум {1} символов; кратко расскажите, что там посмотреть."
+],
+"Bağlantı (link) eklenemez.": [
+"Links are not allowed.",
+"Links sind nicht erlaubt.",
+"Ссылки запрещены."
+],
+"Tekrarlanan harf veya tamamı büyük harf kullanma.": [
+"Don't use repeated letters or all capitals.",
+"Keine wiederholten Buchstaben oder nur Großbuchstaben.",
+"Не используйте повторяющиеся буквы или только заглавные."
+],
+"Uygunsuz ifade içeriyor.": [
+"Contains offensive language.",
+"Enthält unangemessene Sprache.",
+"Содержит недопустимые выражения."
+],
+"Haritada konumu işaretle.": [
+"Mark the location on the map.",
+"Markiere den Ort auf der Karte.",
+"Отметьте место на карте."
+],
+"Seçilen konum Türkiye sınırları dışında.": [
+"The chosen location is outside Türkiye.",
+"Der gewählte Ort liegt außerhalb der Türkei.",
+"Выбранное место за пределами Турции."
+],
+"Bu yer zaten var ya da çok yakınında kayıt bulunuyor: {1}.": [
+"This place already exists or is very close to: {1}.",
+"Diesen Ort gibt es schon oder er liegt sehr nah an: {1}.",
+"Это место уже есть или находится совсем рядом с: {1}."
+],
+"Kanıt olarak orada çektiğin bir fotoğraf ekle.": [
+"Add a photo you took there as proof.",
+"Füge als Beleg ein dort aufgenommenes Foto hinzu.",
+"Добавьте фото, снятое на месте, как подтверждение."
+],
+"Yeri kendin ziyaret ettiğini onayla.": [
+"Confirm that you visited the place yourself.",
+"Bestätige, dass du selbst dort warst.",
+"Подтвердите, что вы были там сами."
+],
+"Günde en fazla {1} yer önerebilirsin.": [
+"You can suggest at most {1} places per day.",
+"Du kannst höchstens {1} Orte pro Tag vorschlagen.",
+"Можно предложить не более {1} мест в день."
+],
+"Benim evin balkonu": [
+"My home's balcony",
+"Mein Balkon",
+"Мой балкон"
+],
+"Şehrin en iyi manzarası burada!!!": [
+"Best view in the city is here!!!",
+"Die beste Aussicht der Stadt!!!",
+"Лучший вид в городе здесь!!!"
+],
+"Kuşadası limanında, bir yol ile karaya bağlanan küçük adadaki kale.": [
+"A castle on a small island linked to the mainland by a causeway in Kuşadası harbor.",
+"Burg auf einer kleinen, per Damm verbundenen Insel im Hafen von Kuşadası.",
+"Крепость на островке в гавани Кушадасы, соединённом с берегом дамбой."
+],
+"Tortum Gölü’nün ayağında, ilkbaharda en gür akan yüksek şelale.": [
+"A tall waterfall below Lake Tortum, at its fullest in spring.",
+"Hoher Wasserfall unterhalb des Tortum-Sees, im Frühling am stärksten.",
+"Высокий водопад у озера Тортум, самый полноводный весной."
+],
+"Yeri öneren kullanıcının kanıt fotoğrafı.": [
+"Proof photo from the person who suggested the place.",
+"Belegfoto der Person, die den Ort vorgeschlagen hat.",
+"Фото-подтверждение от автора предложения."
+],
+"Sabah ilk saatte gittim, içerisi kalabalık olmadan gezebildim. Kubbeye bakmak için biraz zaman ayırın.": [
+"I went first thing in the morning and could look around without crowds. Take some time to look up at the dome.",
+"Ich war gleich morgens da und konnte ohne Gedränge schauen. Nehmt euch Zeit für die Kuppel.",
+"Пришла рано утром и спокойно всё осмотрела без толп. Не спешите, посмотрите на купол."
+],
+"Giriş sırası biraz uzundu ama içeri girince değdi.": [
+"The entry queue was a bit long, but it was worth it once inside.",
+"Die Schlange war etwas lang, aber drinnen hat es sich gelohnt.",
+"Очередь была длинноватой, но внутри оно того стоило."
+],
+"Hafta içi sabah gitmeyi deneyeceğim, teşekkürler.": [
+"I'll try a weekday morning, thanks.",
+"Ich versuche es an einem Wochentag morgens, danke.",
+"Попробую в будний день утром, спасибо."
+],
+"Gün batımında çıkmak harika, manzara tüm şehri kapsıyor.": [
+"Going up at sunset is great; the view covers the whole city.",
+"Bei Sonnenuntergang ist es toll, man sieht die ganze Stadt.",
+"Подниматься на закате — супер, видно весь город."
+],
+"Manzara güzel ama terası çok kalabalıktı; erken gitmenizi öneririm.": [
+"Nice view, but the terrace was very crowded; go early.",
+"Schöne Aussicht, aber die Terrasse war sehr voll; lieber früh hingehen.",
+"Вид хороший, но на террасе было очень людно; приходите пораньше."
+],
+"Kaybolmak işin bir parçası; pazarlık yapmayı unutmayın.": [
+"Getting lost is part of the fun; don't forget to bargain.",
+"Sich verlaufen gehört dazu; vergesst das Handeln nicht.",
+"Заблудиться — часть удовольствия; не забудьте торговаться."
+],
+"Vapurdan görünüşü bile yeterince güzel.": [
+"Even the view from the ferry is lovely.",
+"Schon vom Fährschiff aus ist der Anblick schön.",
+"Даже с парома смотрится красиво."
+],
+"Gün doğumunda balonları izlemek için erken kalktım, kesinlikle değdi.": [
+"I got up early to watch the balloons at sunrise, totally worth it.",
+"Ich bin früh aufgestanden, um die Ballons bei Sonnenaufgang zu sehen, hat sich gelohnt.",
+"Встал рано, чтобы увидеть шары на рассвете, — определённо стоило того."
+],
+"Travertenlerde çıplak ayakla yürünüyor; güneş gözlüğü ve su almayı unutmayın.": [
+"You walk barefoot on the travertines; bring sunglasses and water.",
+"Auf den Sinterterrassen geht man barfuß; Sonnenbrille und Wasser mitnehmen.",
+"По травертинам ходят босиком; возьмите солнечные очки и воду."
+],
+"Marmara Bölgesi": [
+"Marmara Region",
+"Marmararegion",
+"Мраморноморский регион"
+],
+"Ege Bölgesi": [
+"Aegean Region",
+"Ägäisregion",
+"Эгейский регион"
+],
+"Akdeniz Bölgesi": [
+"Mediterranean Region",
+"Mittelmeerregion",
+"Средиземноморский регион"
+],
+"İç Anadolu Bölgesi": [
+"Central Anatolia Region",
+"Zentralanatolien",
+"Центральная Анатолия"
+],
+"Karadeniz Bölgesi": [
+"Black Sea Region",
+"Schwarzmeerregion",
+"Черноморский регион"
+],
+"Doğu Anadolu Bölgesi": [
+"Eastern Anatolia Region",
+"Ostanatolien",
+"Восточная Анатолия"
+],
+"Güneydoğu Anadolu Bölgesi": [
+"Southeastern Anatolia Region",
+"Südostanatolien",
+"Юго-Восточная Анатолия"
+],
+"Yeni gezgin": [
+"New traveler",
+"Neue:r Reisende:r",
+"Новичок"
+],
+"Gezgin": [
+"Traveler",
+"Reisende:r",
+"Путешественник"
+],
+"Deneyimli gezgin": [
+"Seasoned traveler",
+"Erfahrene:r Reisende:r",
+"Опытный путешественник"
+],
+"Güvenilir rehber": [
+"Trusted guide",
+"Vertrauenswürdige:r Guide",
+"Надёжный гид"
+],
+"Profilim": [
+"My profile",
+"Mein Profil",
+"Мой профиль"
+],
+"Giriş yap veya üye ol": [
+"Log in or sign up",
+"Anmelden oder registrieren",
+"Войти или зарегистрироваться"
+],
+"Devam etmek için giriş yap veya üye ol.": [
+"Log in or sign up to continue.",
+"Melde dich an oder registriere dich, um fortzufahren.",
+"Войдите или зарегистрируйтесь, чтобы продолжить."
+],
+"Hesabın": [
+"Your account",
+"Dein Konto",
+"Ваш аккаунт"
+],
+"Giriş yap": [
+"Log in",
+"Anmelden",
+"Войти"
+],
+"Üye ol": [
+"Sign up",
+"Registrieren",
+"Регистрация"
+],
+"Adın": [
+"Your name",
+"Dein Name",
+"Ваше имя"
+],
+"E-posta": [
+"Email",
+"E-Mail",
+"Эл. почта"
+],
+"Şifre": [
+"Password",
+"Passwort",
+"Пароль"
+],
+"En az 8 karakter": [
+"At least 8 characters",
+"Mindestens 8 Zeichen",
+"Не менее 8 символов"
+],
+"Demo hesabıyla dene": [
+"Try the demo account",
+"Demo-Konto testen",
+"Попробовать демо-аккаунт"
+],
+"Prototip: hesaplar yalnızca bu tarayıcıda saklanır. Gerçek uygulamada e-posta doğrulaması ve sunucu tarafı güvenlik gerekir.": [
+"Prototype: accounts are stored only in this browser. A real app needs email verification and server-side security.",
+"Prototyp: Konten werden nur in diesem Browser gespeichert. Eine echte App braucht E-Mail-Bestätigung und serverseitige Sicherheit.",
+"Прототип: аккаунты хранятся только в этом браузере. Настоящему приложению нужны подтверждение почты и защита на сервере."
+],
+"Geçerli bir e-posta adresi gir.": [
+"Enter a valid email address.",
+"Gib eine gültige E-Mail-Adresse ein.",
+"Введите корректный адрес почты."
+],
+"Şifre en az 8 karakter olmalı.": [
+"The password must be at least 8 characters.",
+"Das Passwort muss mindestens 8 Zeichen haben.",
+"Пароль должен быть не короче 8 символов."
+],
+"Adın 2 ile 30 karakter arasında olmalı.": [
+"Your name must be 2 to 30 characters.",
+"Der Name muss 2 bis 30 Zeichen lang sein.",
+"Имя должно быть от 2 до 30 символов."
+],
+"Bu ad kullanılamaz.": [
+"This name can't be used.",
+"Dieser Name ist nicht erlaubt.",
+"Это имя нельзя использовать."
+],
+"Bu e-postayla zaten bir hesap var. Giriş yapmayı dene.": [
+"An account with this email already exists. Try logging in.",
+"Mit dieser E-Mail gibt es schon ein Konto. Versuche dich anzumelden.",
+"Аккаунт с этой почтой уже есть. Попробуйте войти."
+],
+"E-posta veya şifre hatalı.": [
+"Wrong email or password.",
+"E-Mail oder Passwort falsch.",
+"Неверная почта или пароль."
+],
+"Hesabın oluşturuldu, hoş geldin {1}": [
+"Account created, welcome {1}",
+"Konto erstellt, willkommen {1}",
+"Аккаунт создан, добро пожаловать, {1}"
+],
+"Tekrar hoş geldin {1}": [
+"Welcome back {1}",
+"Willkommen zurück {1}",
+"С возвращением, {1}"
+],
+"Demo hesabıyla giriş yapıldı": [
+"Logged in with the demo account",
+"Mit dem Demo-Konto angemeldet",
+"Вход в демо-аккаунт выполнен"
+],
+"Çıkış yapıldı": [
+"Logged out",
+"Abgemeldet",
+"Вы вышли"
+],
+"Çıkış yap": [
+"Log out",
+"Abmelden",
+"Выйти"
+],
+"Gittiklerim ({1})": [
+"Been there ({1})",
+"Besucht ({1})",
+"Посещённые ({1})"
+],
+"Favorilerim ({1})": [
+"Favorites ({1})",
+"Favoriten ({1})",
+"Избранное ({1})"
+],
+"Yorumlarım ({1})": [
+"My reviews ({1})",
+"Meine Bewertungen ({1})",
+"Мои отзывы ({1})"
+],
+"Önerilerim ({1})": [
+"My suggestions ({1})",
+"Meine Vorschläge ({1})",
+"Мои предложения ({1})"
+],
+"Bir yerin kartındaki “Gittim mi?” düğmesiyle gittiğin yerleri işaretle.": [
+"Mark places you've been with the “Been here?” button on a place card.",
+"Markiere besuchte Orte mit „Schon hier gewesen?“ auf der Ortskarte.",
+"Отмечайте посещённые места кнопкой «Были здесь?» в карточке места."
+],
+"Beğendiğin yerleri “Favori” düğmesiyle kaydet.": [
+"Save places you like with the “Favorite” button.",
+"Speichere Lieblingsorte mit dem Knopf „Favorit“.",
+"Сохраняйте понравившиеся места кнопкой «В избранное»."
+],
+"Henüz yorum yazmadın.": [
+"You haven't written any reviews yet.",
+"Du hast noch keine Bewertung geschrieben.",
+"Вы ещё не написали ни одного отзыва."
+],
+"Uygulamada olmayan bir yeri “Yer öner” ile ekleyebilirsin.": [
+"You can add a missing place with “Suggest a place”.",
+"Fehlende Orte kannst du mit „Ort vorschlagen“ hinzufügen.",
+"Недостающее место можно добавить через «Предложить место»."
+],
+"Üyelik: {1}": [
+"Member since {1}",
+"Mitglied seit {1}",
+"Участник с {1}"
+],
+"Gezgin seviyesi": [
+"Traveler level",
+"Reise-Level",
+"Уровень путешественника"
+],
+"{1} puan": [
+"{1} points",
+"{1} Punkte",
+"{1} баллов"
+],
+"Sonraki seviye:": [
+"Next level:",
+"Nächstes Level:",
+"Следующий уровень:"
+],
+"En üst seviyedesin.": [
+"You're at the top level.",
+"Du bist auf dem höchsten Level.",
+"У вас высший уровень."
+],
+"Puanlar: gidilen yer 1, yorum 3, onaylanan öneri 10. Güvenilir rehberlerin onayı 2 oy sayılır.": [
+"Points: place visited 1, review 3, approved suggestion 10. A trusted guide's approval counts as 2 votes.",
+"Punkte: besuchter Ort 1, Bewertung 3, bestätigter Vorschlag 10. Die Stimme vertrauenswürdiger Guides zählt doppelt.",
+"Баллы: посещённое место 1, отзыв 3, одобренное предложение 10. Голос надёжного гида считается за два."
+],
+"Hesabı sil": [
+"Delete account",
+"Konto löschen",
+"Удалить аккаунт"
+],
+"Hesabın ve bu tarayıcıdaki tüm verilerin silinsin mi?": [
+"Delete your account and all its data in this browser?",
+"Konto und alle Daten in diesem Browser löschen?",
+"Удалить аккаунт и все его данные в этом браузере?"
+],
+"Evet, sil": [
+"Yes, delete",
+"Ja, löschen",
+"Да, удалить"
+],
+"Hesabın silindi": [
+"Your account was deleted",
+"Dein Konto wurde gelöscht",
+"Аккаунт удалён"
+],
+"Prototip: hesaplar yalnızca bu tarayıcıda saklanır, başka cihazdan görünmez. Gerçek uygulamada hesaplar sunucuda tutulur ve e-posta doğrulaması yapılır.": [
+"Prototype: accounts are stored only in this browser and aren't visible from other devices. In a real app, accounts live on a server with email verification.",
+"Prototyp: Konten werden nur in diesem Browser gespeichert und sind auf anderen Geräten nicht sichtbar. In einer echten App liegen sie auf einem Server mit E-Mail-Bestätigung.",
+"Прототип: аккаунты хранятся только в этом браузере и не видны с других устройств. В настоящем приложении они хранятся на сервере с подтверждением почты."
+],
+"Sabah açılışta gittik, Celsus Kütüphanesi önünde neredeyse kimse yoktu.": [
+"We went at opening time; there was almost nobody in front of the Library of Celsus.",
+"Wir waren zur Öffnung da, vor der Celsus-Bibliothek war fast niemand.",
+"Пришли к открытию — у библиотеки Цельса почти никого не было."
+],
+"Türkiye Gezi Rehberi": [
+"Türkiye Travel Guide",
+"Türkei-Reiseführer",
+"Путеводитель по Турции"
+],
+"Türkiye’nin dört bir yanındaki gezilecek yerleri keşfet, gittiğin yerleri işaretle, deneyimini ve fotoğraflarını paylaş.": [
+"Discover places to visit all over Türkiye, mark where you've been, and share your experiences and photos.",
+"Entdecke Sehenswürdigkeiten in der ganzen Türkei, markiere besuchte Orte und teile Erfahrungen und Fotos.",
+"Открывайте интересные места по всей Турции, отмечайте посещённые и делитесь впечатлениями и фото."
+],
+"Uygulamayı kullanmak için ücretsiz bir hesap oluştur ya da giriş yap.": [
+"Create a free account or log in to use the app.",
+"Erstelle ein kostenloses Konto oder melde dich an, um die App zu nutzen.",
+"Чтобы пользоваться приложением, создайте бесплатный аккаунт или войдите."
+]
+}

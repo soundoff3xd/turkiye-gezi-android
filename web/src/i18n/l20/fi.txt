@@ -1,0 +1,576 @@
+0	Nähtävyydet
+1	{1} paikkaa
+2	Ehdota paikkaa
+3	Odottaa hyväksyntää ({1})
+4	Odottaa hyväksyntää
+5	Lajittele
+6	Lajittele ja suodata
+7	Vierailluimmat
+8	Tykätyimmät
+9	Parhaiten arvioidut
+10	Eniten arvosteluja
+11	Kaikki
+12	Historialliset rakennukset
+13	Museo ja palatsi
+14	Kaupunki ja tori
+15	Näköalapaikka
+16	Luonto
+17	Meri
+19	Kaikki paikat
+20	Koko Turkki
+21	Marmara
+22	Egeanmeri
+23	Välimeri
+24	Keski-Anatolia
+25	Mustameri
+26	Itä-Anatolia
+27	Kaakkois-Anatolia
+28	Karttatiedot: Natural Earth
+29	Pienennä paneeli
+30	Suurenna paneeli
+31	Turkin kartta
+32	Paikkaluettelo
+33	Hae paikkoja
+34	Alue
+35	Luokka
+36	Lähennä
+37	Loitonna
+38	Sulje
+39	Kieli
+40	{1} arvostelua
+41	({1} arvostelua)
+42	{1} kävijää
+43	{1} tykkäystä
+44	Uusi
+45	Yhteisön lisäämä
+46	Haulle tai suodattimelle ei löytynyt paikkoja.
+47	Oletko käynyt täällä?
+48	Olen käynyt
+49	Suosikki
+50	Suosikeissa
+51	Reittiohjeet
+52	Kirjoita arvostelu
+53	Lisää kuva
+54	Yleiskatsaus
+55	Arvostelut
+56	Kuvat
+57	Kuvat ({1})
+58	Sijainti
+59	Näin pääset perille
+60	Ei vielä arvioita
+61	Ehdottaja {1}, yhteisön hyväksymä
+62	Aukioloajat ja lippujen hinnat muuttuvat; tarkista virallinen lähde ennen lähtöä.
+63	{1}/5
+68	{1} päivää sitten
+69	1 päivä sitten
+70	{1} viikkoa sitten
+71	1 viikko sitten
+72	{1} tuntia sitten
+73	Juuri nyt
+74	Sinä
+75	Tykkää
+76	Vastaa
+77	Kirjoita vastaus
+78	Lähetä
+79	Tästä paikasta ei ole vielä arvosteluja
+80	Oletko käynyt täällä? Jaa ensimmäinen kokemus.
+81	Ei vielä kuvia tai videoita
+82	Jaa kuvasi, jotta tulevat matkailijat tietävät, mikä heitä odottaa.
+83	Jaettu kuva
+84	Valittu kuva
+85	Jaa kokemuksesi
+86	Arviosi
+87	Kokemuksesi
+88	{1} tähteä
+89	Lisää kuva tai video
+90	Poista
+91	Julkaise
+92	Mitä näit ja teit? Jätä vinkki seuraaville kävijöille.
+93	Arvio ja teksti tai media vaaditaan. Julkaisut ovat julkisia; älä jaa henkilötietoja tai muiden ihmisten kasvoja.
+94	Arvostelusi on julkaistu
+95	Lisätty käymiisi paikkoihin
+96	Lisätty suosikkeihin
+97	Ehdotetut paikat
+98	Miten se tarkistetaan?
+99	1. Automaattiset tarkistukset: onko paikka Turkissa, onko se jo olemassa, sisältääkö se loukkaavia sanoja tai linkkejä, onko todistekuva liitetty.
+100	2. Yhteisön hyväksyntä: kun {1} käyttäjää vahvistaa ”Tämä paikka on todellinen”, se lisätään karttaan. Kukaan ei voi hyväksyä omaa ehdotustaan.
+101	3. Moderaattori: ehdotus, jolla on {1} ilmoitusta ”Virheellinen tai sopimaton”, poistetaan ja lähetetään moderaattorille.
+102	Jokainen voi ehdottaa {1} paikkaa päivässä.
+104	ehdottaja {1}, {2}
+105	Odottaa yhteisön hyväksyntää
+106	Ilmoitettu, moderaattorilla
+107	Hyväksytty, kartalla
+108	Hylätty
+109	{1}/{2} hyväksyntää
+110	{1}/{2} hyväksyntää · {3} ilmoitusta
+111	Näytä kartalla
+112	Tämä paikka on todellinen
+113	Virheellinen / sopimaton
+114	Moderaattori: hyväksy
+115	Moderaattori: hylkää
+117	{1} lisättiin karttaan
+118	Ehdotus lähetettiin moderaattorille
+119	Ilmoitus vastaanotettu
+120	Ehdotus hylättiin
+121	Ehdotustasi käsitellään
+122	Ehdota uutta paikkaa
+123	Paikka, jossa olet käynyt mutta jota ei vielä ole sovelluksessa
+124	Paikan nimi
+125	Esimerkiksi: Tortumin vesiputous
+126	Merkitse kartalle
+127	Vaihda sijaintia
+128	Sijaintia ei ole vielä valittu
+129	{1} (Turkin ulkopuolella)
+130	Maakunta
+131	Lyhyt kuvaus
+132	Mitä siellä voi nähdä ja miksi sinne kannattaa mennä?
+133	Lisää todistekuva (otettu paikan päällä)
+134	Olen itse käynyt tässä paikassa
+135	Lähetä tarkistettavaksi
+136	Automaattisten tarkistusten jälkeen ehdotuksesi lisätään, kun {1} käyttäjää hyväksyy sen. Ilmoitetut ehdotukset menevät moderaattorille.
+137	Valitse sijainti napauttamalla karttaa
+138	Peruuta
+139	Ehdotustasi ei lähetetty:
+140	Nimen pituuden on oltava {1}–{2} merkkiä.
+141	Kuvauksen on oltava vähintään {1} merkkiä; kerro muutamalla sanalla, mitä siellä näkee.
+142	Linkit eivät ole sallittuja.
+143	Älä käytä toistuvia kirjaimia tai pelkkiä isoja kirjaimia.
+144	Sisältää loukkaavia sanoja.
+145	Merkitse sijainti kartalle.
+146	Valittu sijainti on Turkin ulkopuolella.
+147	Tämä paikka on jo olemassa tai hyvin lähellä: {1}.
+148	Lisää todisteeksi kuva, jonka otit paikan päällä.
+149	Vahvista, että olet itse käynyt paikassa.
+150	Voit ehdottaa enintään {1} paikkaa päivässä.
+165	Marmaran alue
+166	Egeanmeren alue
+167	Välimeren alue
+168	Keski-Anatolian alue
+169	Mustanmeren alue
+170	Itä-Anatolian alue
+171	Kaakkois-Anatolian alue
+172	Uusi matkailija
+173	Matkailija
+174	Kokenut matkailija
+175	Luotettava opas
+176	Profiilini
+177	Kirjaudu tai rekisteröidy
+178	Kirjaudu tai rekisteröidy jatkaaksesi.
+179	Tilisi
+180	Kirjaudu
+181	Rekisteröidy
+182	Nimesi
+183	Sähköposti
+184	Salasana
+185	Vähintään 8 merkkiä
+186	Kokeile demotiliä
+188	Anna kelvollinen sähköpostiosoite.
+189	Salasanan on oltava vähintään 8 merkkiä.
+190	Nimen pituuden on oltava 2–30 merkkiä.
+191	Tätä nimeä ei voi käyttää.
+192	Tällä sähköpostilla on jo tili. Kokeile kirjautua.
+193	Väärä sähköposti tai salasana.
+194	Tili luotu, tervetuloa {1}
+195	Tervetuloa takaisin {1}
+196	Kirjauduttu demotilillä
+197	Olet kirjautunut ulos
+198	Kirjaudu ulos
+199	Käyty ({1})
+200	Suosikit ({1})
+201	Arvosteluni ({1})
+202	Ehdotukseni ({1})
+203	Merkitse käymäsi paikat paikkakortin ”Oletko käynyt täällä?” -painikkeella.
+204	Tallenna pitämäsi paikat ”Suosikki”-painikkeella.
+205	Et ole vielä kirjoittanut arvosteluja.
+206	Voit lisätä puuttuvan paikan kohdasta ”Ehdota paikkaa”.
+207	Jäsen vuodesta {1}
+208	Matkailijataso
+209	{1} pistettä
+210	Seuraava taso:
+211	Olet korkeimmalla tasolla.
+212	Pisteet: käyty paikka 1, arvostelu 3, hyväksytty ehdotus 10. Luotettavan oppaan hyväksyntä vastaa kahta ääntä.
+213	Poista tili
+214	Poistetaanko tili ja kaikki sen tiedot tästä selaimesta?
+215	Kyllä, poista
+216	Tilisi on poistettu
+219	Turkin matkaopas
+220	Löydä nähtävyyksiä kaikkialta Turkista, merkitse missä olet käynyt ja jaa kokemuksia ja kuvia.
+221	Luo ilmainen tili tai kirjaudu käyttääksesi sovellusta.
+222	Paikat
+223	Kuvagalleria
+224	Tykätyimmät kuvat
+225	Matkailijoiden kauneimmat kuvat. Anna sydän kuville, joista pidät.
+226	Tykätyimmät
+227	Uusimmat
+228	Tykätyimmät kuvaajat
+229	{1} tykkäystä
+230	Siirry paikkaan
+231	Tykkää kuvasta
+232	Tykkäsit kuvasta
+234	Kuva
+249	Lähetimme sähköpostiisi linkin tilin vahvistamista varten. Kirjaudu, kun olet napsauttanut sitä.
+250	Sähköpostiasi ei ole vielä vahvistettu. Tarkista saapuneet viestit.
+251	Tällä hetkellä vain kuvia voi ladata.
+252	Kuvien koko saa olla enintään 5 Mt.
+253	Jokin meni vikaan, yritä uudelleen.
+254	Et voi hyväksyä omaa ehdotustasi.
+256	Tilivalikko
+257	Tilin asetukset
+258	Tue meitä
+259	Turkin matkaopas on itsenäinen ja ilmainen projekti. Tukesi auttaa palvelimien, karttapalvelujen ja uusien ominaisuuksien ylläpidossa.
+260	Kertasumma
+261	Kuukausittain
+262	Summa
+263	Muu summa
+264	Anna summa
+265	Tue {1} ₺:lla
+266	Valitse summa
+267	Maksu suoritetaan turvallisella maksusivulla; tämä sovellus ei koskaan kysy korttitietoja.
+268	Mihin tukesi menee?
+269	Palvelimet ja tietokanta
+270	Kartta- ja satelliittipalvelu
+271	Uudet ominaisuudet ja kehitys
+272	Maksusivu avautuu uuteen välilehteen
+274	Maksa luotto- tai pankkikortilla
+275	Syötät korttitiedot maksusivulla
+276	Karttatyyli ja tasot
+277	Karttatyyli
+278	Vakio
+279	Tumma
+280	Yksinkertainen
+281	Tasot
+282	Maakuntarajat
+283	Paikannimet
+284	Järvet
+285	Takaisin koko Turkkiin
+286	Historia ja kulttuuri
+287	Meri ja rannikko
+288	Kaupungit
+289	Moskeijat ja hautamonumentit
+290	Kirkot ja luostarit
+291	Antiikin kohteet ja rauniot
+292	Linnat ja muurit
+293	Palatsit ja paviljongit
+294	Museot
+295	Muistomerkit
+296	Puistot ja kansallispuistot
+297	Järvet
+298	Vesiputoukset
+299	Kanjonit ja laaksot
+300	Vuoret ja ylängöt
+301	Luolat ja vajoamat
+302	Luonnon ihmeet
+303	Kuumat lähteet
+304	Rannat ja lahdet
+305	Saaret
+306	Rantalomakohteet
+307	Basaarit ja torit
+308	Historialliset korttelit
+309	Pikkukaupungit ja kylät
+310	Aukiot ja kadut
+311	Näköalapaikat
+312	Tornit
+313	Vaihda profiilikuva
+314	Lisää profiilikuva
+315	Vaihda kuva
+316	Profiilikuva päivitetty
+317	Profiilikuva poistettu
+318	Valitse JPG-, PNG- tai WEBP-kuva.
+319	Kuvien koko saa olla enintään 15 Mt.
+320	Tätä kuvaa ei voi avata.
+321	Liian monta yritystä. Yritä myöhemmin.
+322	Yhteyttä ei saatu. Tarkista internetyhteys ja yritä uudelleen.
+323	Satelliitti
+324	Lähimpänä minua
+325	Sijaintini
+326	Lasketaan reittiä…
+327	Reittiä ei löytynyt.
+328	Vaiheittaiset ohjeet
+329	Aloita navigointi
+330	Ääniopastus avautuu Google Mapsissa.
+331	Sovelluksen omat reittiohjeet tulevat pian. Siihen asti voit jatkaa Google Mapsissa.
+332	{1} min
+333	{1} h {2} min
+334	Olen nyt täällä
+335	Auto
+336	Kävellen
+337	Pyörä
+338	Joukkoliikenne
+339	sinusta
+340	Tämä selain ei tue sijaintia.
+341	Sijaintilupaa ei annettu. Voit sallia sen selaimen sivustoasetuksista.
+342	Sijaintiasi ei löytynyt. Tarkista, että sijaintipalvelut ovat päällä.
+343	Ohita
+344	Jatka
+345	Aloitetaan
+346	Jatka valitsematta
+347	Tervetuloa!
+348	Millä kielellä haluat käyttää sovellusta?
+349	Mistä pidät?
+350	Korostamme sinulle sopivia paikkoja. Voit valita useita.
+351	Voit muuttaa tätä myöhemmin tilivalikon kohdasta ”Kiinnostuksen kohteeni”.
+352	Kiinnostuksen kohteeni
+353	Kiinnostuksen kohteesi tallennettiin
+354	Valintasi näkyy ”Sinulle”-luokassa.
+355	Tallenna
+356	Valokuvaus
+357	Tilini
+358	Ei valintaa
+359	Sinulle
+360	Takaisin
+361	Käy 10 luonnon ihmeessä
+362	Käy paikoissa 10 eri maakunnassa
+363	Jaa 10 kuvaa
+364	Käy 10 paikassa
+365	Kirjoita 10 arvostelua
+366	10 maakunnan matkailija
+367	Käy 100 paikassa
+368	Käy 3 vesiputouksella
+369	Käy 5 antiikin kaupungissa ja raunioilla
+370	Käy 5 moskeijassa, kirkossa tai luostarissa
+371	Käy 5 linnassa
+372	Käy 5 rannalla, saarella tai rantalomakohteessa
+373	Käy 50 paikassa
+374	Välimeren tutkija
+375	Käy 10 paikassa Välimeren alueella
+376	Kirjoita mielipiteesi…
+377	Aikamatkaaja antiikkiin
+378	Tyhjennä
+379	Siirrä alas
+380	Voit valita useita. Asetamme järjestykseen kaupungit, joissa on eniten ja parhaita tämän tyypin paikkoja.
+381	Valmis
+382	Tietoja käytetään vain sovelluksen toimintaan: tilisi tunnistamiseen, julkaisujesi näyttämiseen muille matkailijoille ja sovelluksen parantamiseen. Emme näytä mainoksia emmekä myy tietojasi kenellekään.
+383	Tämä osio on vain moderaattoreille.
+384	Tässä maakunnassa on toistaiseksi vain {1} paikkaa, joten suunnitelma on lyhyempi.
+385	Tätä sisältöä ei enää ole.
+386	Tämän tyypin paikkoja ei löytynyt.
+387	Tänään
+388	Olet lähettänyt tänään liian monta viestiä. Yritä huomenna.
+389	Olet lähettänyt tänään liian monta ilmoitusta. Yritä huomenna.
+390	Pilvistä
+391	Meren ystävä
+392	Jatkamalla hyväksyt tietosuojakäytännön.
+393	Muu
+394	Luonnon tutkija
+395	Itä-Anatolian tutkija
+396	Käy 10 paikassa Itä-Anatoliassa
+397	Pysähdykset lyhimmässä järjestyksessä
+398	Legendaarinen matkailija
+399	Egean tutkija
+400	Käy 10 paikassa Egeanmeren alueella
+401	Valokuvaaja
+402	Ilmoita kuvasta
+403	Palaute
+404	Matkailijan sielu
+405	Matkalistani
+406	Lisää matkalistalle
+407	Matkalistasi on tyhjä
+408	Matkalista on täynnä (enintään {1} paikkaa).
+409	Matkalista tyhjennetty
+410	Matkalistallasi
+411	Poistettu matkalistalta
+412	Lisätty matkalistalle
+413	Matkasuunnitelma
+414	Piilotettu
+415	Piilotettu; moderaattori tarkistaa.
+416	Yksityisyys ja tietosuoja
+417	Avaa Google Mapsissa
+418	Ukkonen
+419	Lähettämäni
+420	Mielipide
+421	Lähetä palautetta
+422	Käy 10 paikassa Kaakkois-Anatoliassa
+423	Kaakkoisen tutkija
+424	Loukkaukset tai vihapuhe
+425	Oikeutesi (KVKK)
+426	Mitä tietoja keräämme?
+427	Käy ainakin yhdessä paikassa jokaisessa kartan maakunnassa
+428	Virheilmoitus
+429	Sää
+430	Säätietoja ei ole juuri nyt saatavilla.
+431	Olet perillä: {1}
+432	Ei vielä palautetta
+433	Rekisteröityessä antamasi nimi ja sähköpostiosoite; valinnainen profiilikuva; kirjoittamasi arvostelut, lataamasi kuvat, ehdottamasi paikat, käydyt ja suosikkipaikat sekä lähettämäsi palautteet ja ilmoitukset.
+434	Linnanmetsästäjä
+435	Mustanmeren tutkija
+436	Käy 10 paikassa Mustanmeren alueella
+437	Lunta
+438	Lähde: Open-Meteo
+439	Ansaittu
+440	Et voi ilmoittaa omasta julkaisustasi.
+441	Hyvää matkaa!
+442	Kuka näkee?
+443	Aihe
+444	Lähellä sijaintiani
+445	Sijaintiasi ei löytynyt, joten reitti alkaa ensimmäisestä pysähdyksestä.
+446	Sijaintiasi käytetään vain laitteellasi: lähellä olevien paikkojen lajitteluun sekä etäisyyksien ja reittien näyttämiseen. Sijaintihistoriaa ei tallenneta. Kun pyydät reittiä, lähtö- ja määränpää lähetetään OpenRouteService-palveluun vain reitin laskemista varten.
+447	Yhteensä {1} linnuntietä
+448	Poista listalta
+449	Kuvaile muutamalla sanalla.
+450	Marmaran tutkija
+451	Käy 10 paikassa Marmaran alueella
+452	Viestisi
+453	Viestisi on vastaanotettu. Kiitos!
+454	Viestin mukana tallennetaan vain tilisi ja sovelluksen versio.
+455	Moderaattoripaneeli
+456	Navigointi vaatii sijaintiluvan.
+457	Mitä haluat nähdä?
+458	Mihin käytämme niitä?
+459	Mitä tapahtui? Millä näytöllä ja mitä olit tekemässä? Vaihe vaiheelta, jos voit.
+460	Missä niitä säilytetään?
+461	Minne minun pitäisi mennä?
+462	Mistä haluat ilmoittaa?
+463	Luettu
+464	Merkitse luetuksi
+465	Merkitse lukemattomaksi
+466	Keskitä
+467	Puolipilvistä
+468	Suunnitelma järjestää paikat niiden keskinäisen läheisyyden mukaan. Tarkista aukioloajat ennen lähtöä.
+469	Reitti alkaa sijainnistasi ja kulkee pysähdysten kautta tässä järjestyksessä. Voit aloittaa ääniopastuksen reittinäkymästä.
+470	Reittiä lasketaan uudelleen
+471	Lasketaan reittiä uudelleen…
+472	Näytä reitti
+473	Merkit
+474	Suosittelemamme kaupungit
+475	Ääni päälle
+476	Ääni pois
+477	Live-navigointi ääniopastuksella avautuu sovelluksessa.
+478	Poista
+479	Sumu
+480	Päivitetty viimeksi: {1}
+481	Sitten
+482	Kysymykset ja toiveet voit lähettää meille sovelluksen ”Lähetä palautetta” -kohdasta.
+483	Selvä, näytä
+484	Roskaposti tai mainos
+485	Versio {1}
+486	Lyhin järjestys
+487	Tyhjennä
+488	Tässä selitämme yksinkertaisesti, miten tietojasi käsitellään, kun käytät Turkin matkaopasta.
+489	Turkin kierros
+490	Konkari
+491	Kuinka tyytyväinen olet sovellukseen? (valinnainen)
+492	Rakennamme sovellusta yhdessä. Kirjoita mikä tahansa idea, virhe tai mielipide; luemme kaiken.
+493	Sopimaton sisältö
+494	Perillä {1}
+495	Tiedot säilytetään Supabasen infrastruktuurissa ja siirretään salatulla yhteydellä. Kartta tulee OpenFreeMapista ja sää Open-Meteosta; nimeäsi ja sähköpostiasi ei lähetetä näille palveluille.
+496	Lähellä olevat kaupungit ensin.
+497	Väärää tai harhaanjohtavaa tietoa
+498	Vastaus
+499	Ilmoita vastauksesta
+500	Sade
+501	Uusi merkki ansaittu: {1}
+502	Uusi versio saatavilla
+503	{1} uusine ominaisuuksineen ja korjauksineen on ladattavissa. Lataa ja asenna se; tilisi ja tietosi säilyvät.
+504	Kerää tänne paikat, joissa haluat käydä, paikkakorttien ”Lisää matkalistalle” -painikkeella; sovellus yhdistää ne yhdeksi reitiksi.
+505	Arvostelu
+506	Arvostelija
+507	Ilmoita arvostelusta
+508	Siirrä ylös
+509	ja {1} muuta
+510	{1} pysähdystä
+511	Saavuit kohteeseen {1}
+512	{1} päivää
+513	Kaikki paikat: {1} ({2})
+514	{1} km päässä
+515	Kohteelle {1}
+516	{1} sopivaa paikkaa
+517	{1} ilmoitusta
+518	Päivä {1}
+519	Tihkusade
+520	Valitse ensin vähintään yksi tyyppi yllä
+521	Ehdotus
+522	Käy 5 kuuluisassa paikassa, joilla on erikoismerkki
+523	Maamerkkien keräilijä
+524	~{1} km edellisestä pysähdyksestä
+525	Toimitettu
+526	Yhteystiedot
+527	Kaupungit ja matkasuunnitelma kiinnostuksesi mukaan
+528	Ensimmäinen askel
+529	Merkitse ensimmäinen paikkasi ”Olen käynyt” -painikkeella
+530	Pyhiinvaeltaja
+531	Keski-Anatolian tutkija
+532	Käy 10 paikassa Keski-Anatoliassa
+533	Sisältö poistettu
+534	Sisältö on taas näkyvissä
+535	Vesiputousten metsästäjä
+536	Ei ilmoitettua sisältöä
+537	Ilmoita
+538	Ilmoitus vastaanotettu. Kiitos!
+539	Ilmoitukset
+540	Ilmoitukset ovat luottamuksellisia. Jos kolme eri henkilöä ilmoittaa jostakin, sisältö piilotetaan automaattisesti ja moderaattori tarkistaa sen.
+541	Lataa nyt
+542	{1} paikkaa lisättiin matkalistalle
+543	Nämä paikat ovat jo matkalistallasi
+544	Linkki kopioitu
+545	Kopioi linkki
+546	Tämä ominaisuus toimii julkaistulla sivustolla.
+547	Tyhjennä lista
+548	Reitti vaatii vähintään kaksi pistettä. Salli sijainti tai lisää vielä yksi paikka.
+549	Live-navigointi ääniopastuksella avautuu täällä sivustolla.
+550	Ladataan…
+551	Reitti
+552	Turkin henkilötietojen suojaa koskevan lain nro 6698 (KVKK) mukaan sinulla on oikeus saada tietosi nähtäväksi ja pyytää niiden oikaisemista tai poistamista. Voit poistaa tilisi pysyvästi milloin tahansa profiilisivun ”Poista tili” -painikkeella; arvostelut, kuvat ja kaikki tiedot poistetaan samalla.
+553	Nimesi, profiilikuvasi, arvostelusi ja kuvasi ovat julkisia. Sähköpostisi sekä käydyt ja suosikkipaikat näet vain sinä. Palautteet ja ilmoitukset näkevät vain sinä ja moderaattorit.
+554	Reitti alkaa sijainnistasi ja kulkee pysähdysten kautta tässä järjestyksessä.
+555	Tyhjennä haku
+556	Asetukset
+557	En enää tykkää
+558	Napauta paikkaa
+559	Lisää kuva, kun kirjoitat arvostelua paikkakortilla; tykätyimmät näkyvät täällä.
+560	Tämä kuva ei ole enää saatavilla.
+561	Käytä tätä sijaintia
+562	Paikkaa ei löytynyt.
+563	Olet jo tehnyt tämän.
+564	Mitä täällä voi nähdä ja miksi tänne kannattaa tulla?
+565	Vaihda
+566	Muut matkailijat näkevät tämän nimen
+567	Hyödyllinen
+568	Ota kuva
+569	Suurenna kuva
+570	Valitse galleriasta
+571	Löydä nähtävyyksiä, merkitse missä olet käynyt ja jaa kokemuksesi.
+572	Kartta
+573	Ei vielä kuvia
+574	Et ole vielä ehdottanut yhtään paikkaa.
+575	Poistetaanko tilisi?
+576	Tilisi toimii myös verkkosivustolla.
+577	Tilisi, arvostelusi, kuvasi ja ehdotuksesi poistetaan pysyvästi. Tätä ei voi perua.
+578	Luo tili
+579	Todistekuva
+580	Valitse luokka
+581	Valitse luokka.
+582	Tutki
+583	Merkitse sijainti
+584	Moderaattori
+585	Mitä näit, mitä suosittelisit?
+586	Äänesi on kirjattu
+587	Profiili
+588	Valittu sijainti
+589	Ei tuloksia.
+590	Lisää puuttuva paikka
+591	Galleria
+592	Lähennä ja napauta tarkkaa kohtaa.
+593	Kirjoita vastaus…
+594	Yritä uudelleen
+595	Paikan nimi
+596	Näytä paikka
+597	Selaa paikkoja
+598	Arvostelusi
+599	Tähtiarvio ja arvostelu tai kuva vaaditaan.
+600	juuri nyt
+601	{1} min sitten
+602	{1} kuukautta sitten
+603	{1} vuotta sitten
+604	{1} kuvaa
+605	Tarkista ehdotukset
+606	Lähetä ehdotus
+607	esim. Tortumin vesiputous
+608	Valitse maakunta
+609	Valitse maakunta.
+610	Ei odottavia ehdotuksia juuri nyt.
+611	Avataan maksusivua
+612	Korttimaksusivu avautuu pian täällä.
+613	Sijaintilupaa ei annettu. Voit sallia sen puhelimen asetuksista.
+614	Kameralupaa ei annettu. Voit sallia sen puhelimen asetuksista.
+615	Sijaintiasi ei löytynyt. Tarkista, että sijaintipalvelut ovat päällä.
+616	{1} sinusta
