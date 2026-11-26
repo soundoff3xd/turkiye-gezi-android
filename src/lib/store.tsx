@@ -16,7 +16,7 @@ export type Review = {
   id: string; pid: string; uid: string; author: string; av: string | null; rating: number; text: string;
   photo: string | null; likes: number; replies: Reply[]; at: string; hidden?: boolean; photoHidden?: boolean; photoPending?: boolean;
 };
-export type ReportTarget = 'review' | 'reply' | 'photo';
+export type ReportTarget = 'review' | 'reply' | 'photo' | 'question' | 'answer';
 export type FeedbackKind = 'oneri' | 'hata' | 'gorus';
 export type Suggestion = {
   id: string; n: string; il: string; c: string; lat: number; lng: number; d: string; by: string; av: string | null; uid: string;

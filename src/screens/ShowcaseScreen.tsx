@@ -6,6 +6,7 @@ import { useStore } from '../lib/store';
 import { trError } from '../lib/auth';
 import { useNav, useToast } from '../lib/ui';
 import { Avatar, Chip, Empty, b, Btn } from '../components/common';
+import { PhotoOfWeek } from '../components/Extras3';
 import AccountMenu from '../components/AccountMenu';
 import { SkeletonGrid, useDeferred } from '../components/Anim';
 import { C, R } from '../theme';
@@ -35,6 +36,7 @@ export default function ShowcaseScreen() {
         <AccountMenu size={44} top={insets.top + 60} />
       </View>
       <Text style={{ color: C.muted, marginTop: 4, lineHeight: 20 }}>{t('Gezginlerin çektiği en güzel kareler. Beğendiğin fotoğrafa kalp bırak.')}</Text>
+      <PhotoOfWeek />
       <View style={{ flexDirection: 'row', gap: 8, marginTop: 12 }}>
         <Chip label={t('En çok beğenilen')} on={sort === 'top'} onPress={() => { setSort('top'); setLimit(24); }} />
         <Chip label={t('En yeni')} on={sort === 'new'} onPress={() => { setSort('new'); setLimit(24); }} />

@@ -1,0 +1,328 @@
+@es
+0	Información de visitantes
+1	Con niños
+2	Mascotas
+3	Apto
+4	No apto
+5	Se admiten
+6	No se admiten
+7	Aún no hay información
+8	Información de los visitantes; llama antes de ir.
+9	¿Hay aparcamiento, abre en invierno? Pregunta lo que quieras; responderán viajeros que ya han estado aquí.
+10	Escribe tu pregunta
+11	Preguntar
+12	Aún no hay preguntas
+13	Haz la primera pregunta.
+14	Oculto tras denuncias; un moderador lo está revisando.
+15	Escribe una respuesta
+16	Borrar pregunta
+17	Tu pregunta se ha publicado
+18	Preguntas
+19	Denunciar pregunta
+20	Denunciar respuesta
+21	{1} respondió a tu pregunta
+22	¿Denunciar este contenido como inapropiado?
+23	Denuncia recibida, gracias
+24	Esta sección necesita conexión a internet.
+25	Foto de la semana
+26	{1} me gusta esta semana
+27	Calendario de festivales
+28	Fiestas y festivales que se celebran cada año. Las fechas pueden cambiar de un año a otro; consulta los anuncios oficiales antes de ir.
+29	Próximamente
+30	No hay festivales este mes
+31	Festivales
+32	No hay aeropuerto en esta provincia; puedes usar el de una provincia cercana.
+33	Parada del tren de alta velocidad (YHT)
+34	Los autobuses interurbanos llegan a la estación de autobuses del centro.
+35	Enero
+36	Febrero
+37	Marzo
+38	Abril
+39	Mayo
+40	Junio
+41	Julio
+42	Agosto
+43	Septiembre
+44	Octubre
+45	Noviembre
+46	Diciembre
+47	Alojamiento
+48	Comida
+49	Transporte
+50	Entrada
+51	Compras
+52	Gastos
+53	Aún no hay gastos
+54	Solo tú lo ves; sigue siendo privado aunque compartas el diario.
+55	Nota (opcional)
+56	Añadir gasto
+57	Planificar
+58	Planifica tu viaje
+59	Lugares a visitar y la ruta más corta
+60	Rutas planificadas día a día
+61	Ciudades sugeridas según tus intereses
+62	Fiestas que se celebran cada año
+63	De viaje
+64	Notas, fotos y gastos día a día
+65	Frases básicas con pronunciación hablada
+66	Ayuda
+67	Ayuda y preguntas frecuentes
+68	¿Cómo uso la app?
+69	Pinta en el mapa las provincias que has visitado
+70	Pintar mi mapa
+71	Lista
+72	Todos los lugares en el mapa; toca un marcador para abrir la página del lugar.
+73	Búsqueda, región y categoría, orden, sugerencias de hoy.
+74	Lista de viaje, rutas listas, festivales, diario y guía de frases.
+75	Fotos de viajeros y la foto de la semana.
+76	El botón de perfil arriba a la derecha tiene cuenta, notificaciones, idioma, apariencia y privacidad.
+77	Cuenta
+78	Viaje
+79	Apoyo
+138	Cuatro secciones principales
+@ru
+0	Сведения от посетителей
+1	С детьми
+2	С питомцами
+3	Подходит
+4	Не подходит
+5	Можно
+6	Нельзя
+7	Пока нет данных
+8	Данные от посетителей; перед поездкой лучше позвонить.
+9	Есть ли парковка, открыто ли зимой? Спроси, что хочешь узнать; ответят путешественники, которые здесь были.
+10	Напиши вопрос
+11	Спросить
+12	Вопросов пока нет
+13	Задай первый вопрос.
+14	Скрыто после жалоб; модератор проверяет.
+15	Написать ответ
+16	Удалить вопрос
+17	Вопрос отправлен
+18	Вопросы
+19	Пожаловаться на вопрос
+20	Пожаловаться на ответ
+21	{1} ответил(а) на ваш вопрос
+22	Пожаловаться на этот контент как неуместный?
+23	Жалоба принята, спасибо
+24	Для этого раздела нужен интернет.
+25	Фото недели
+26	{1} лайков за неделю
+27	Календарь фестивалей
+28	Праздники и фестивали, которые проходят каждый год. Даты могут меняться; перед поездкой проверь официальные объявления.
+29	Скоро
+30	В этом месяце фестивалей нет
+31	Фестивали
+32	В этой провинции нет аэропорта; можно воспользоваться аэропортом соседней провинции.
+33	Есть остановка скоростного поезда (YHT)
+34	Междугородние автобусы прибывают на автовокзал в центре.
+35	Январь
+36	Февраль
+37	Март
+38	Апрель
+39	Май
+40	Июнь
+41	Июль
+42	Август
+43	Сентябрь
+44	Октябрь
+45	Ноябрь
+46	Декабрь
+47	Жильё
+48	Еда
+49	Транспорт
+50	Входные билеты
+51	Покупки
+52	Расходы
+53	Расходов пока нет
+54	Видишь только ты; остаётся скрытым, даже если поделиться дневником.
+55	Заметка (необязательно)
+56	Добавить расход
+57	План
+58	Спланируй поездку
+59	Куда поехать и кратчайший маршрут
+60	Маршруты, расписанные по дням
+61	Города по твоим интересам
+62	Праздники, которые проходят каждый год
+63	В пути
+64	Заметки, фото и расходы по дням
+65	Основные фразы с произношением
+66	Помощь
+67	Помощь и частые вопросы
+68	Как пользоваться приложением?
+69	Закрась на карте провинции, где ты побывал
+70	Раскрасить мою карту
+71	Список
+72	Все места на карте; нажми на метку, чтобы открыть страницу места.
+73	Поиск, регион и категория, сортировка, идеи на сегодня.
+74	Список поездки, готовые маршруты, фестивали, дневник и разговорник.
+75	Фото путешественников и фото недели.
+76	Кнопка профиля вверху справа: аккаунт, уведомления, язык, оформление и конфиденциальность.
+77	Аккаунт
+78	Поездка
+79	Поддержка
+138	Четыре основных раздела
+@it
+0	Info dei visitatori
+1	Con bambini
+2	Animali
+3	Adatto
+4	Non adatto
+5	Ammessi
+6	Non ammessi
+7	Ancora nessuna informazione
+8	Informazioni dei visitatori; chiama prima di andare.
+9	C’è parcheggio, è aperto d’inverno? Chiedi ciò che vuoi sapere; risponderanno i viaggiatori che ci sono stati.
+10	Scrivi la tua domanda
+11	Chiedi
+12	Ancora nessuna domanda
+13	Fai tu la prima domanda.
+14	Nascosto dopo segnalazioni; un moderatore sta controllando.
+15	Scrivi una risposta
+16	Elimina domanda
+17	Domanda pubblicata
+18	Domande
+19	Segnala domanda
+20	Segnala risposta
+21	{1} ha risposto alla tua domanda
+22	Segnalare questo contenuto come inappropriato?
+23	Segnalazione ricevuta, grazie
+24	Questa sezione richiede una connessione internet.
+25	Foto della settimana
+26	{1} mi piace questa settimana
+27	Calendario dei festival
+28	Feste e festival che si tengono ogni anno. Le date possono cambiare; controlla gli annunci ufficiali prima di andare.
+29	In arrivo
+30	Nessun festival questo mese
+31	Festival
+32	In questa provincia non c’è un aeroporto; puoi usare quello di una provincia vicina.
+33	Fermata del treno ad alta velocità (YHT)
+34	Gli autobus interurbani arrivano alla stazione degli autobus in centro.
+35	Gennaio
+36	Febbraio
+37	Marzo
+38	Aprile
+39	Maggio
+40	Giugno
+41	Luglio
+42	Agosto
+43	Settembre
+44	Ottobre
+45	Novembre
+46	Dicembre
+47	Alloggio
+48	Cibo
+49	Trasporti
+50	Ingressi
+51	Acquisti
+52	Spese
+53	Ancora nessuna spesa
+54	Lo vedi solo tu; resta privato anche se condividi il diario.
+55	Nota (facoltativa)
+56	Aggiungi spesa
+57	Pianifica
+58	Pianifica il viaggio
+59	Luoghi da visitare e percorso più breve
+60	Itinerari pianificati giorno per giorno
+61	Città suggerite in base ai tuoi interessi
+62	Feste che si tengono ogni anno
+63	In viaggio
+64	Note, foto e spese giorno per giorno
+65	Frasi di base con pronuncia audio
+66	Aiuto
+67	Aiuto e domande frequenti
+68	Come si usa l’app?
+69	Colora sulla mappa le province visitate
+70	Colora la mia mappa
+71	Elenco
+72	Tutti i luoghi sulla mappa; tocca un segnaposto per aprire la pagina del luogo.
+73	Ricerca, regione e categoria, ordinamento, suggerimenti del giorno.
+74	Lista di viaggio, itinerari pronti, festival, diario e frasario.
+75	Foto dei viaggiatori e foto della settimana.
+76	Il pulsante del profilo in alto a destra contiene account, notifiche, lingua, aspetto e privacy.
+77	Account
+78	Viaggio
+79	Supporto
+138	Quattro sezioni principali
+@pt
+0	Informações de visitantes
+1	Com crianças
+2	Animais
+3	Adequado
+4	Não adequado
+5	Aceites
+6	Não aceites
+7	Ainda sem informação
+8	Informação de visitantes; liga antes de ir.
+9	Há estacionamento, abre no inverno? Pergunta o que quiseres; respondem viajantes que já cá estiveram.
+10	Escreve a tua pergunta
+11	Perguntar
+12	Ainda sem perguntas
+13	Faz a primeira pergunta.
+14	Oculto após denúncias; um moderador está a rever.
+15	Escreve uma resposta
+16	Apagar pergunta
+17	A tua pergunta foi publicada
+18	Perguntas
+19	Denunciar pergunta
+20	Denunciar resposta
+21	{1} respondeu à sua pergunta
+22	Denunciar este conteúdo como impróprio?
+23	Denúncia recebida, obrigado
+24	Esta secção precisa de ligação à internet.
+25	Foto da semana
+26	{1} gostos esta semana
+27	Calendário de festivais
+28	Festas e festivais realizados todos os anos. As datas podem mudar de ano para ano; confirma os anúncios oficiais antes de ir.
+29	Em breve
+30	Sem festivais este mês
+31	Festivais
+32	Não há aeroporto nesta província; podes usar o de uma província vizinha.
+33	Paragem do comboio de alta velocidade (YHT)
+34	Os autocarros interurbanos chegam ao terminal rodoviário no centro.
+35	Janeiro
+36	Fevereiro
+37	Março
+38	Abril
+39	Maio
+40	Junho
+41	Julho
+42	Agosto
+43	Setembro
+44	Outubro
+45	Novembro
+46	Dezembro
+47	Alojamento
+48	Comida
+49	Transporte
+50	Entradas
+51	Compras
+52	Despesas
+53	Ainda sem despesas
+54	Só tu vês; fica privado mesmo que partilhes o diário.
+55	Nota (opcional)
+56	Adicionar despesa
+57	Planear
+58	Planeia a tua viagem
+59	Locais a visitar e o percurso mais curto
+60	Roteiros planeados dia a dia
+61	Cidades sugeridas pelos teus interesses
+62	Festas realizadas todos os anos
+63	Em viagem
+64	Notas, fotos e despesas dia a dia
+65	Frases básicas com pronúncia falada
+66	Ajuda
+67	Ajuda e perguntas frequentes
+68	Como uso a app?
+69	Pinta no mapa as províncias que visitaste
+70	Pintar o meu mapa
+71	Lista
+72	Todos os locais no mapa; toca num marcador para abrir a página do local.
+73	Pesquisa, região e categoria, ordenação, sugestões de hoje.
+74	Lista de viagem, roteiros prontos, festivais, diário e guia de conversação.
+75	Fotos de viajantes e a foto da semana.
+76	O botão de perfil no canto superior direito tem conta, notificações, idioma, aparência e privacidade.
+77	Conta
+78	Viagem
+79	Apoio
+138	Quatro secções principais

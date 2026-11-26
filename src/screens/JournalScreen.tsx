@@ -11,6 +11,7 @@ import { useNav, useToast } from '../lib/ui';
 import { track } from '../lib/telemetry';
 import { Btn, Empty, Header, b } from '../components/common';
 import { PlaceThumb } from '../components/Extras';
+import { Expenses } from '../components/Extras3';
 import { catName, fold, type Place } from '../data/catalog';
 import { C, R } from '../theme';
 
@@ -132,6 +133,7 @@ export default function JournalScreen({ id }: { id: string }) {
             <Switch value={j.shared} onValueChange={setShared} trackColor={{ true: C.accent }} />
           </View>
         )}
+        {own && <Expenses journalId={j.id} />}
         {entries && !entries.length && <Empty title={t('Henüz kayıt yok')} note={t('Gittiğin bir yeri, notunu ve fotoğrafını ekleyerek başla.')} />}
         {days.map(([day, es]) => (
           <View key={day} style={{ marginTop: 18 }}>

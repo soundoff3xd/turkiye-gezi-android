@@ -4,7 +4,6 @@ import { useSafeAreaInsets } from 'react-native-safe-area-context';
 import { LANGS, useT } from '../i18n';
 import { useAuth } from '../lib/auth';
 import { useNav } from '../lib/ui';
-import { useTrip } from '../lib/trip';
 import { useUnread } from '../lib/inbox';
 import { Avatar } from './common';
 import { C, R, isDark, shadow } from '../theme';
@@ -16,25 +15,27 @@ export default function AccountMenu({ size = 50, top }: { size?: number; top?: n
   const { me, signOut } = useAuth();
   const { push } = useNav();
   const [open, setOpen] = useState(false);
-  const trip = useTrip();
   const unread = useUnread();
   if (!me) return null;
   const go = (fn: () => void) => { setOpen(false); fn(); };
-  const items: [string, string, () => void, string?][] = [
-    ['🔔', 'Bildirimler', () => push({ name: 'inbox' }), unread ? String(unread) : undefined],
-    ['👤', 'Profilim', () => push({ name: 'profile' })],
-    ['🧳', 'Gezi listem', () => push({ name: 'trip' }), trip.ids.length ? String(trip.ids.length) : undefined],
-    ['📔', 'Gezi günlüklerim', () => push({ name: 'journals' })],
-    ['🗺', 'Hazır rotalar', () => push({ name: 'routes' })],
-    ['💬', 'Türkçe cep sözlüğü', () => push({ name: 'phrases' })],
-    ['🧭', 'Nereye gitmeliyim?', () => push({ name: 'recommend' })],
-    ['✨', 'İlgi alanlarım', () => push({ name: 'interests' })],
-    ['🌐', 'Dil', () => push({ name: 'lang' }), LANGS[lang]],
-    ['🌓', 'Görünüm', () => push({ name: 'theme' }), isDark ? t('Koyu tema') : t('Açık tema')],
-    ['💬', 'Görüş ve öneri gönder', () => push({ name: 'feedback' })],
-    ...(me.isMod ? [['🛡', 'Moderatör paneli', () => push({ name: 'mod' })] as [string, string, () => void]] : []),
-    ['🔒', 'Gizlilik ve KVKK', () => push({ name: 'privacy' })],
-    ['♥', 'Bize destek olun', () => push({ name: 'support' })],
+  // gruplar: hesap · ayarlar · destek (gezi planlamayla ilgili her şey Planla sekmesinde)
+  const groups: [string, [string, string, () => void, string?][]][] = [
+    ['Hesap', [
+      ['🔔', 'Bildirimler', () => push({ name: 'inbox' }), unread ? String(unread) : undefined],
+      ['👤', 'Profilim', () => push({ name: 'profile' })],
+      ['✨', 'İlgi alanlarım', () => push({ name: 'interests' })],
+    ]],
+    ['Ayarlar', [
+      ['🌐', 'Dil', () => push({ name: 'lang' }), LANGS[lang]],
+      ['🌓', 'Görünüm', () => push({ name: 'theme' }), isDark ? t('Koyu tema') : t('Açık tema')],
+      ['🔒', 'Gizlilik ve KVKK', () => push({ name: 'privacy' })],
+    ]],
+    ['Destek', [
+      ['❔', 'Yardım', () => push({ name: 'help' })],
+      ['💬', 'Görüş ve öneri gönder', () => push({ name: 'feedback' })],
+      ...(me.isMod ? [['🛡', 'Moderatör paneli', () => push({ name: 'mod' })] as [string, string, () => void]] : []),
+      ['♥', 'Bize destek olun', () => push({ name: 'support' })],
+    ]],
   ];
   return (
     <>
@@ -52,12 +53,17 @@ export default function AccountMenu({ size = 50, top }: { size?: number; top?: n
               <Text style={s.mail} numberOfLines={1}>{me.email}</Text>
             </View>
           </View>
-          {items.map(([icon, label, fn, note]) => (
-            <Pressable key={label} onPress={() => go(fn)} style={({ pressed }) => [s.item, pressed && { backgroundColor: C.line }]} accessibilityRole="button">
-              <Text style={[s.icon, label === 'Bize destek olun' && { color: C.accent }]}>{icon}</Text>
-              <Text style={[s.label, label === 'Bize destek olun' && { color: C.accent }]} numberOfLines={1}>{t(label)}</Text>
-              {!!note && <Text style={[s.note, label === 'Bildirimler' && s.badge]} numberOfLines={1}>{note}</Text>}
-            </Pressable>
+          {groups.map(([g, items]) => (
+            <View key={g}>
+              <Text style={s.group}>{t(g)}</Text>
+              {items.map(([icon, label, fn, note]) => (
+                <Pressable key={label} onPress={() => go(fn)} style={({ pressed }) => [s.item, pressed && { backgroundColor: C.line }]} accessibilityRole="button">
+                  <Text style={[s.icon, label === 'Bize destek olun' && { color: C.accent }]}>{icon}</Text>
+                  <Text style={[s.label, label === 'Bize destek olun' && { color: C.accent }]} numberOfLines={1}>{t(label)}</Text>
+                  {!!note && <Text style={[s.note, label === 'Bildirimler' && s.badge]} numberOfLines={1}>{note}</Text>}
+                </Pressable>
+              ))}
+            </View>
           ))}
           <View style={s.sep} />
           <Pressable onPress={() => go(() => signOut())} style={({ pressed }) => [s.item, pressed && { backgroundColor: C.line }]} accessibilityRole="button">
@@ -76,7 +82,8 @@ const s = StyleSheet.create({
   head: { flexDirection: 'row', alignItems: 'center', gap: 12, paddingHorizontal: 14, paddingVertical: 10, borderBottomWidth: 1, borderBottomColor: C.line, marginBottom: 4 },
   name: { fontSize: 16, fontWeight: '800', color: C.ink },
   mail: { fontSize: 12.5, color: C.muted },
-  item: { flexDirection: 'row', alignItems: 'center', gap: 12, paddingHorizontal: 14, paddingVertical: 10.5 },
+  item: { flexDirection: 'row', alignItems: 'center', gap: 12, paddingHorizontal: 14, paddingVertical: 9.5 },
+  group: { color: C.muted, fontSize: 11.5, fontWeight: '800', letterSpacing: 0.6, textTransform: 'uppercase', paddingHorizontal: 14, paddingTop: 8, paddingBottom: 2 },
   icon: { width: 22, textAlign: 'center', fontSize: 17, color: C.ink },
   label: { flex: 1, fontSize: 15.5, fontWeight: '700', color: C.ink },
   note: { fontSize: 13, color: C.muted, maxWidth: 100 },

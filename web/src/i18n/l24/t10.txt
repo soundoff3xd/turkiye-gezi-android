@@ -1,0 +1,328 @@
+@hu
+0	Látogatói információk
+1	Gyerekekkel
+2	Háziállatok
+3	Alkalmas
+4	Nem alkalmas
+5	Engedélyezett
+6	Nem engedélyezett
+7	Még nincs információ
+8	Látogatóktól származó információ; indulás előtt telefonálj.
+9	Van parkoló, nyitva van télen? Kérdezz bátran; az itt járt utazók válaszolnak.
+10	Írd meg a kérdésed
+11	Kérdezek
+12	Még nincs kérdés
+13	Tedd fel az első kérdést.
+14	Bejelentések miatt elrejtve; moderátor vizsgálja.
+15	Válasz írása
+16	Kérdés törlése
+17	A kérdésed megjelent
+18	Kérdések
+19	Kérdés bejelentése
+20	Válasz bejelentése
+21	{1} válaszolt a kérdésedre
+22	Bejelented ezt a tartalmat nem megfelelőként?
+23	Bejelentés fogadva, köszönjük
+24	Ehhez a részhez internet kell.
+25	A hét fotója
+26	{1} kedvelés a héten
+27	Fesztiválnaptár
+28	Évente megrendezett ünnepek és fesztiválok. Az időpontok változhatnak; indulás előtt nézd meg a hivatalos közleményeket.
+29	Hamarosan
+30	Ebben a hónapban nincs fesztivál
+31	Fesztiválok
+32	Ebben a megyében nincs repülőtér; a szomszédos megye repülőterét használhatod.
+33	Van nagysebességű vasút (YHT) megálló
+34	A távolsági buszok a belvárosi buszpályaudvarra érkeznek.
+35	Január
+36	Február
+37	Március
+38	Április
+39	Május
+40	Június
+41	Július
+42	Augusztus
+43	Szeptember
+44	Október
+45	November
+46	December
+47	Szállás
+48	Étel
+49	Közlekedés
+50	Belépő
+51	Vásárlás
+52	Kiadások
+53	Még nincs kiadás
+54	Csak te látod; akkor is privát marad, ha megosztod a naplót.
+55	Megjegyzés (nem kötelező)
+56	Kiadás hozzáadása
+57	Tervezés
+58	Tervezd meg az utad
+59	Úti célok és a legrövidebb útvonal
+60	Napról napra tervezett útvonalak
+61	Városajánlók az érdeklődésed alapján
+62	Évente megrendezett ünnepek
+63	Útközben
+64	Jegyzetek, fotók és kiadások napról napra
+65	Alapkifejezések kiejtéssel
+66	Súgó
+67	Súgó és gyakori kérdések
+68	Hogyan használjam az alkalmazást?
+69	Színezd ki a térképen a meglátogatott megyéket
+70	Térképem kiszínezése
+71	Lista
+72	Minden hely a térképen; koppints egy jelölőre a hely oldalának megnyitásához.
+73	Keresés, régió és kategória, rendezés, mai ajánlatok.
+74	Úti lista, kész útvonalak, fesztiválok, napló és zsebszótár.
+75	Utazók fotói és a hét fotója.
+76	A jobb felső profil gombnál találod a fiókot, értesítéseket, nyelvet, megjelenést és adatvédelmet.
+77	Fiók
+78	Utazás
+79	Támogatás
+138	Négy fő rész
+@sv
+0	Besöksinfo
+1	Med barn
+2	Husdjur
+3	Lämpligt
+4	Inte lämpligt
+5	Tillåtet
+6	Inte tillåtet
+7	Ingen information än
+8	Uppgifter från besökare; ring innan du åker.
+9	Finns det parkering, är det öppet på vintern? Fråga det du undrar; resenärer som varit här svarar.
+10	Skriv din fråga
+11	Fråga
+12	Inga frågor än
+13	Ställ den första frågan.
+14	Dold efter anmälningar; en moderator granskar.
+15	Skriv ett svar
+16	Radera frågan
+17	Din fråga har publicerats
+18	Frågor
+19	Anmäl fråga
+20	Anmäl svar
+21	{1} svarade på din fråga
+22	Anmäla detta innehåll som olämpligt?
+23	Anmälan mottagen, tack
+24	Den här delen kräver internet.
+25	Veckans foto
+26	{1} gillanden denna vecka
+27	Festivalkalender
+28	Fester och festivaler som hålls varje år. Datumen kan ändras; kolla de officiella beskeden innan du åker.
+29	Snart
+30	Inga festivaler denna månad
+31	Festivaler
+32	Det finns ingen flygplats i provinsen; använd flygplatsen i en grannprovins.
+33	Hållplats för höghastighetståg (YHT)
+34	Långfärdsbussar kommer till busstationen i centrum.
+35	Januari
+36	Februari
+37	Mars
+38	April
+39	Maj
+40	Juni
+41	Juli
+42	Augusti
+43	September
+44	Oktober
+45	November
+46	December
+47	Boende
+48	Mat
+49	Transport
+50	Inträde
+51	Shopping
+52	Utgifter
+53	Inga utgifter än
+54	Bara du ser detta; det förblir privat även om du delar dagboken.
+55	Anteckning (valfritt)
+56	Lägg till utgift
+57	Planera
+58	Planera din resa
+59	Platser att besöka och kortaste rutten
+60	Rutter planerade dag för dag
+61	Städer utifrån dina intressen
+62	Fester som hålls varje år
+63	På resan
+64	Anteckningar, foton och utgifter dag för dag
+65	Grundfraser med uttal
+66	Hjälp
+67	Hjälp och vanliga frågor
+68	Hur använder jag appen?
+69	Färglägg provinserna du besökt på kartan
+70	Färglägg min karta
+71	Lista
+72	Alla platser på kartan; tryck på en markör för att öppna platsens sida.
+73	Sök, region och kategori, sortering, dagens förslag.
+74	Reselista, färdiga rutter, festivaler, dagbok och parlör.
+75	Resenärers foton och veckans foto.
+76	Profilknappen uppe till höger har konto, aviseringar, språk, utseende och integritet.
+77	Konto
+78	Resa
+79	Stöd
+138	Fyra huvuddelar
+@no
+0	Besøksinfo
+1	Med barn
+2	Kjæledyr
+3	Egnet
+4	Ikke egnet
+5	Tillatt
+6	Ikke tillatt
+7	Ingen informasjon ennå
+8	Opplysninger fra besøkende; ring før du drar.
+9	Er det parkering, er det åpent om vinteren? Spør om det du lurer på; reisende som har vært her svarer.
+10	Skriv spørsmålet ditt
+11	Spør
+12	Ingen spørsmål ennå
+13	Still det første spørsmålet.
+14	Skjult etter rapporter; en moderator ser på det.
+15	Skriv et svar
+16	Slett spørsmålet
+17	Spørsmålet ditt er publisert
+18	Spørsmål
+19	Rapporter spørsmål
+20	Rapporter svar
+21	{1} svarte på spørsmålet ditt
+22	Rapportere dette innholdet som upassende?
+23	Rapport mottatt, takk
+24	Denne delen krever internett.
+25	Ukens bilde
+26	{1} likerklikk denne uken
+27	Festivalkalender
+28	Fester og festivaler som holdes hvert år. Datoene kan endre seg; sjekk offisielle kunngjøringer før du drar.
+29	Snart
+30	Ingen festivaler denne måneden
+31	Festivaler
+32	Det er ingen flyplass i provinsen; bruk flyplassen i en nabo-provins.
+33	Stopp for høyhastighetstog (YHT)
+34	Langdistansebusser ankommer busstasjonen i sentrum.
+35	Januar
+36	Februar
+37	Mars
+38	April
+39	Mai
+40	Juni
+41	Juli
+42	August
+43	September
+44	Oktober
+45	November
+46	Desember
+47	Overnatting
+48	Mat
+49	Transport
+50	Inngang
+51	Handling
+52	Utgifter
+53	Ingen utgifter ennå
+54	Bare du ser dette; det forblir privat selv om du deler dagboken.
+55	Notat (valgfritt)
+56	Legg til utgift
+57	Planlegg
+58	Planlegg reisen
+59	Steder å besøke og korteste rute
+60	Ruter planlagt dag for dag
+61	Byer basert på interessene dine
+62	Fester som holdes hvert år
+63	På reisen
+64	Notater, bilder og utgifter dag for dag
+65	Grunnleggende uttrykk med uttale
+66	Hjelp
+67	Hjelp og vanlige spørsmål
+68	Hvordan bruker jeg appen?
+69	Fargelegg provinsene du har besøkt på kartet
+70	Fargelegg kartet mitt
+71	Liste
+72	Alle steder på kartet; trykk på en markør for å åpne stedets side.
+73	Søk, region og kategori, sortering, dagens forslag.
+74	Reiseliste, ferdige ruter, festivaler, dagbok og parlør.
+75	Reisendes bilder og ukens bilde.
+76	Profilknappen øverst til høyre har konto, varsler, språk, utseende og personvern.
+77	Konto
+78	Reise
+79	Støtte
+138	Fire hoveddeler
+@da
+0	Besøgsinfo
+1	Med børn
+2	Kæledyr
+3	Egnet
+4	Ikke egnet
+5	Tilladt
+6	Ikke tilladt
+7	Ingen oplysninger endnu
+8	Oplysninger fra besøgende; ring, før du tager afsted.
+9	Er der parkering, er der åbent om vinteren? Spørg om det, du vil vide; rejsende, der har været her, svarer.
+10	Skriv dit spørgsmål
+11	Spørg
+12	Ingen spørgsmål endnu
+13	Stil det første spørgsmål.
+14	Skjult efter anmeldelser; en moderator ser på det.
+15	Skriv et svar
+16	Slet spørgsmål
+17	Dit spørgsmål er offentliggjort
+18	Spørgsmål
+19	Anmeld spørgsmål
+20	Anmeld svar
+21	{1} svarede på dit spørgsmål
+22	Anmeld dette indhold som upassende?
+23	Anmeldelse modtaget, tak
+24	Denne del kræver internet.
+25	Ugens foto
+26	{1} likes i denne uge
+27	Festivalkalender
+28	Fester og festivaler, der holdes hvert år. Datoerne kan ændre sig; tjek de officielle meddelelser, før du tager afsted.
+29	Snart
+30	Ingen festivaler i denne måned
+31	Festivaler
+32	Der er ingen lufthavn i provinsen; brug lufthavnen i en naboprovins.
+33	Stop for højhastighedstog (YHT)
+34	Fjernbusser ankommer til busstationen i centrum.
+35	Januar
+36	Februar
+37	Marts
+38	April
+39	Maj
+40	Juni
+41	Juli
+42	August
+43	September
+44	Oktober
+45	November
+46	December
+47	Overnatning
+48	Mad
+49	Transport
+50	Entré
+51	Indkøb
+52	Udgifter
+53	Ingen udgifter endnu
+54	Kun du kan se det; det forbliver privat, selv hvis du deler dagbogen.
+55	Note (valgfri)
+56	Tilføj udgift
+57	Planlæg
+58	Planlæg din rejse
+59	Steder at besøge og den korteste rute
+60	Ruter planlagt dag for dag
+61	Byer ud fra dine interesser
+62	Fester, der holdes hvert år
+63	Undervejs
+64	Noter, fotos og udgifter dag for dag
+65	Grundlæggende udtryk med udtale
+66	Hjælp
+67	Hjælp og ofte stillede spørgsmål
+68	Hvordan bruger jeg appen?
+69	Farvelæg de provinser, du har besøgt, på kortet
+70	Farvelæg mit kort
+71	Liste
+72	Alle steder på kortet; tryk på en markør for at åbne stedets side.
+73	Søgning, region og kategori, sortering, dagens forslag.
+74	Rejseliste, færdige ruter, festivaler, dagbog og parlør.
+75	Rejsendes fotos og ugens foto.
+76	Profilknappen øverst til højre har konto, notifikationer, sprog, udseende og privatliv.
+77	Konto
+78	Rejse
+79	Støtte
+138	Fire hoveddele

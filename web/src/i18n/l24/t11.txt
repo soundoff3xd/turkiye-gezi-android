@@ -1,0 +1,246 @@
+@fi
+0	Kävijöiden tiedot
+1	Lasten kanssa
+2	Lemmikit
+3	Sopii
+4	Ei sovi
+5	Sallittu
+6	Ei sallittu
+7	Ei vielä tietoa
+8	Kävijöiden ilmoittamaa tietoa; soita ennen lähtöä.
+9	Onko pysäköintiä, onko auki talvella? Kysy mitä haluat; täällä käyneet matkailijat vastaavat.
+10	Kirjoita kysymyksesi
+11	Kysy
+12	Ei vielä kysymyksiä
+13	Esitä ensimmäinen kysymys.
+14	Piilotettu ilmoitusten vuoksi; moderaattori tarkistaa.
+15	Kirjoita vastaus
+16	Poista kysymys
+17	Kysymyksesi julkaistiin
+18	Kysymykset
+19	Ilmoita kysymyksestä
+20	Ilmoita vastauksesta
+21	{1} vastasi kysymykseesi
+22	Ilmoitetaanko tämä sisältö sopimattomaksi?
+23	Ilmoitus vastaanotettu, kiitos
+24	Tämä osio vaatii internetyhteyden.
+25	Viikon kuva
+26	{1} tykkäystä tällä viikolla
+27	Festivaalikalenteri
+28	Joka vuosi järjestettävät juhlat ja festivaalit. Päivät voivat vaihdella; tarkista viralliset tiedotteet ennen lähtöä.
+29	Tulossa
+30	Ei festivaaleja tässä kuussa
+31	Festivaalit
+32	Maakunnassa ei ole lentokenttää; voit käyttää naapurimaakunnan kenttää.
+33	Suurnopeusjunan (YHT) pysäkki
+34	Kaukoliikenteen bussit saapuvat keskustan linja-autoasemalle.
+35	Tammikuu
+36	Helmikuu
+37	Maaliskuu
+38	Huhtikuu
+39	Toukokuu
+40	Kesäkuu
+41	Heinäkuu
+42	Elokuu
+43	Syyskuu
+44	Lokakuu
+45	Marraskuu
+46	Joulukuu
+47	Majoitus
+48	Ruoka
+49	Liikkuminen
+50	Pääsymaksut
+51	Ostokset
+52	Kulut
+53	Ei vielä kuluja
+54	Vain sinä näet tämän; pysyy yksityisenä, vaikka jakaisit päiväkirjan.
+55	Muistiinpano (valinnainen)
+56	Lisää kulu
+57	Suunnittele
+58	Suunnittele matkasi
+59	Kohteet ja lyhin reitti
+60	Päivä päivältä suunnitellut reitit
+61	Kaupunkiehdotuksia kiinnostustesi mukaan
+62	Joka vuosi järjestettävät juhlat
+63	Matkalla
+64	Muistiinpanot, kuvat ja kulut päivittäin
+65	Perusfraasit ääntämisellä
+66	Ohje
+67	Ohje ja usein kysytyt
+68	Miten sovellusta käytetään?
+69	Väritä kartalle maakunnat, joissa olet käynyt
+70	Väritä karttani
+71	Lista
+72	Kaikki paikat kartalla; napauta merkkiä avataksesi paikan sivun.
+73	Haku, alue ja luokka, lajittelu, päivän ehdotukset.
+74	Matkalista, valmiit reitit, festivaalit, päiväkirja ja sanakirja.
+75	Matkailijoiden kuvat ja viikon kuva.
+76	Oikean yläkulman profiilipainikkeesta löytyvät tili, ilmoitukset, kieli, ulkoasu ja yksityisyys.
+77	Tili
+78	Matka
+79	Tuki
+138	Neljä pääosiota
+@he
+0	מידע ממבקרים
+1	עם ילדים
+2	חיות מחמד
+3	מתאים
+4	לא מתאים
+5	מותר
+6	אסור
+7	אין עדיין מידע
+8	מידע שמסרו מבקרים; התקשר לפני שאתה יוצא.
+9	יש חניה, פתוח בחורף? שאל מה שמעניין אותך; מטיילים שהיו כאן יענו.
+10	כתוב את שאלתך
+11	שאל
+12	אין עדיין שאלות
+13	שאל את השאלה הראשונה.
+14	הוסתר בעקבות דיווחים; מנחה בודק.
+15	כתוב תשובה
+16	מחיקת השאלה
+17	השאלה שלך פורסמה
+18	שאלות
+19	דיווח על השאלה
+20	דיווח על התשובה
+21	{1} ענה/תה על השאלה שלך
+22	לדווח על התוכן הזה כלא הולם?
+23	הדיווח התקבל, תודה
+24	החלק הזה דורש חיבור לאינטרנט.
+25	תמונת השבוע
+26	{1} לייקים השבוע
+27	לוח פסטיבלים
+28	חגיגות ופסטיבלים שמתקיימים מדי שנה. התאריכים עשויים להשתנות; בדוק הודעות רשמיות לפני שאתה יוצא.
+29	בקרוב
+30	אין פסטיבלים החודש
+31	פסטיבלים
+32	אין שדה תעופה במחוז הזה; אפשר להשתמש בשדה התעופה של מחוז שכן.
+33	יש תחנה של רכבת מהירה (YHT)
+34	אוטובוסים בין־עירוניים מגיעים לתחנה המרכזית במרכז העיר.
+35	ינואר
+36	פברואר
+37	מרץ
+38	אפריל
+39	מאי
+40	יוני
+41	יולי
+42	אוגוסט
+43	ספטמבר
+44	אוקטובר
+45	נובמבר
+46	דצמבר
+47	לינה
+48	אוכל
+49	תחבורה
+50	דמי כניסה
+51	קניות
+52	הוצאות
+53	אין עדיין הוצאות
+54	רק אתה רואה; נשאר פרטי גם אם תשתף את היומן.
+55	הערה (רשות)
+56	הוספת הוצאה
+57	תכנון
+58	תכנן את הטיול
+59	מקומות לבקר והמסלול הקצר ביותר
+60	מסלולים מתוכננים יום אחר יום
+61	הצעות ערים לפי תחומי העניין שלך
+62	חגיגות שמתקיימות מדי שנה
+63	בדרכים
+64	הערות, תמונות והוצאות יום אחר יום
+65	ביטויים בסיסיים עם הגייה קולית
+66	עזרה
+67	עזרה ושאלות נפוצות
+68	איך משתמשים באפליקציה?
+69	צבע על המפה את המחוזות שביקרת בהם
+70	צבע את המפה שלי
+71	רשימה
+72	כל המקומות על המפה; גע בסמן כדי לפתוח את דף המקום.
+73	חיפוש, אזור וקטגוריה, מיון, הצעות להיום.
+74	רשימת טיול, מסלולים מוכנים, פסטיבלים, יומן ושיחון.
+75	תמונות של מטיילים ותמונת השבוע.
+76	בכפתור הפרופיל למעלה מימין: חשבון, התראות, שפה, מראה ופרטיות.
+77	חשבון
+78	טיול
+79	תמיכה
+138	ארבעה חלקים עיקריים
+@hi
+0	आगंतुकों की जानकारी
+1	बच्चों के साथ
+2	पालतू जानवर
+3	उपयुक्त
+4	उपयुक्त नहीं
+5	अनुमति है
+6	अनुमति नहीं
+7	अभी कोई जानकारी नहीं
+8	आगंतुकों की दी हुई जानकारी; जाने से पहले फ़ोन करके पूछ लो।
+9	पार्किंग है, सर्दियों में खुला है? जो जानना हो पूछो; यहाँ आ चुके यात्री जवाब देंगे।
+10	अपना सवाल लिखो
+11	पूछें
+12	अभी कोई सवाल नहीं
+13	पहला सवाल तुम पूछो।
+14	शिकायतों के कारण छिपाया गया; मॉडरेटर जाँच रहा है।
+15	जवाब लिखो
+16	सवाल हटाएँ
+17	तुम्हारा सवाल पोस्ट हो गया
+18	सवाल
+19	सवाल की शिकायत करें
+20	जवाब की शिकायत करें
+21	{1} ने आपके सवाल का जवाब दिया
+22	क्या इस सामग्री की अनुचित के रूप में शिकायत करें?
+23	शिकायत मिल गई, धन्यवाद
+24	इस हिस्से के लिए इंटरनेट चाहिए।
+25	सप्ताह की फ़ोटो
+26	इस हफ़्ते {1} पसंद
+27	त्योहार कैलेंडर
+28	हर साल होने वाले उत्सव और त्योहार। तारीखें बदल सकती हैं; जाने से पहले आधिकारिक घोषणाएँ देख लो।
+29	जल्द
+30	इस महीने कोई त्योहार नहीं
+31	त्योहार
+32	इस प्रांत में हवाई अड्डा नहीं है; पास के प्रांत का हवाई अड्डा इस्तेमाल कर सकते हो।
+33	तेज़ रफ़्तार ट्रेन (YHT) का स्टेशन है
+34	शहरों के बीच चलने वाली बसें शहर के बीच के बस अड्डे पर आती हैं।
+35	जनवरी
+36	फ़रवरी
+37	मार्च
+38	अप्रैल
+39	मई
+40	जून
+41	जुलाई
+42	अगस्त
+43	सितंबर
+44	अक्टूबर
+45	नवंबर
+46	दिसंबर
+47	ठहरना
+48	खाना
+49	यातायात
+50	प्रवेश शुल्क
+51	ख़रीदारी
+52	ख़र्च
+53	अभी कोई ख़र्च नहीं
+54	सिर्फ़ तुम देख सकते हो; डायरी साझा करने पर भी निजी रहेगा।
+55	नोट (वैकल्पिक)
+56	ख़र्च जोड़ें
+57	योजना
+58	अपनी यात्रा की योजना बनाओ
+59	जाने की जगहें और सबसे छोटा रास्ता
+60	दिन-ब-दिन बने रास्ते
+61	तुम्हारी रुचियों के अनुसार शहर
+62	हर साल होने वाले उत्सव
+63	यात्रा में
+64	दिन-ब-दिन नोट, फ़ोटो और ख़र्च
+65	उच्चारण के साथ बुनियादी वाक्य
+66	मदद
+67	मदद और अक्सर पूछे जाने वाले सवाल
+68	ऐप का इस्तेमाल कैसे करें?
+69	जिन प्रांतों में घूमे उन्हें नक्शे पर रंगो
+70	मेरा नक्शा रंगो
+71	सूची
+72	सभी जगहें नक्शे पर; जगह का पेज खोलने के लिए निशान पर टैप करो।
+73	खोज, क्षेत्र और श्रेणी, क्रम, आज के सुझाव।
+74	यात्रा सूची, तैयार रास्ते, त्योहार, डायरी और जेब डायरी।
+75	यात्रियों की फ़ोटो और सप्ताह की फ़ोटो।
+76	ऊपर दाईं ओर प्रोफ़ाइल बटन में खाता, सूचनाएँ, भाषा, रूप और गोपनीयता सेटिंग हैं।
+77	खाता
+78	यात्रा
+79	सहायता
+138	चार मुख्य हिस्से

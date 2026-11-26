@@ -1,0 +1,328 @@
+@nl
+0	Info van bezoekers
+1	Met kinderen
+2	Huisdieren
+3	Geschikt
+4	Niet geschikt
+5	Toegestaan
+6	Niet toegestaan
+7	Nog geen informatie
+8	Gemeld door bezoekers; bel vooraf.
+9	Is er parkeerplaats, is het in de winter open? Vraag wat je wilt weten; reizigers die er geweest zijn antwoorden.
+10	Schrijf je vraag
+11	Vragen
+12	Nog geen vragen
+13	Stel als eerste een vraag.
+14	Verborgen na meldingen; een moderator bekijkt het.
+15	Schrijf een antwoord
+16	Vraag verwijderen
+17	Je vraag is geplaatst
+18	Vragen
+19	Vraag melden
+20	Antwoord melden
+21	{1} heeft je vraag beantwoord
+22	Deze inhoud melden als ongepast?
+23	Melding ontvangen, bedankt
+24	Voor dit onderdeel is internet nodig.
+25	Foto van de week
+26	{1} likes deze week
+27	Festivalkalender
+28	Feesten en festivals die elk jaar plaatsvinden. Data kunnen per jaar verschillen; controleer de officiële aankondigingen.
+29	Binnenkort
+30	Geen festivals deze maand
+31	Festivals
+32	Deze provincie heeft geen luchthaven; gebruik die van een naburige provincie.
+33	Halte van de hogesnelheidstrein (YHT)
+34	Intercitybussen komen aan op het busstation in het centrum.
+35	Januari
+36	Februari
+37	Maart
+38	April
+39	Mei
+40	Juni
+41	Juli
+42	Augustus
+43	September
+44	Oktober
+45	November
+46	December
+47	Verblijf
+48	Eten
+49	Vervoer
+50	Toegang
+51	Winkelen
+52	Uitgaven
+53	Nog geen uitgaven
+54	Alleen jij ziet dit; het blijft privé, ook als je het dagboek deelt.
+55	Notitie (optioneel)
+56	Uitgave toevoegen
+57	Plannen
+58	Plan je reis
+59	Bestemmingen en de kortste route
+60	Routes dag voor dag gepland
+61	Steden op basis van je interesses
+62	Feesten die elk jaar plaatsvinden
+63	Onderweg
+64	Notities, foto’s en uitgaven per dag
+65	Basiszinnen met uitgesproken uitspraak
+66	Hulp
+67	Hulp en veelgestelde vragen
+68	Hoe gebruik ik de app?
+69	Kleur de bezochte provincies op de kaart
+70	Mijn kaart kleuren
+71	Lijst
+72	Alle plekken op de kaart; tik op een markering om de pagina van de plek te openen.
+73	Zoeken, regio en categorie, sorteren, suggesties voor vandaag.
+74	Reislijst, kant-en-klare routes, festivals, dagboek en taalgids.
+75	Foto’s van reizigers en de foto van de week.
+76	Via de profielknop rechtsboven vind je account, meldingen, taal, weergave en privacy.
+77	Account
+78	Reis
+79	Steun
+138	Vier hoofdonderdelen
+@pl
+0	Informacje od odwiedzających
+1	Z dziećmi
+2	Zwierzęta
+3	Odpowiednie
+4	Nieodpowiednie
+5	Dozwolone
+6	Niedozwolone
+7	Brak informacji
+8	Informacje od odwiedzających; zadzwoń przed wizytą.
+9	Czy jest parking, czy jest otwarte zimą? Zapytaj; odpowiedzą podróżni, którzy tu byli.
+10	Napisz pytanie
+11	Zapytaj
+12	Brak pytań
+13	Zadaj pierwsze pytanie.
+14	Ukryte po zgłoszeniach; moderator sprawdza.
+15	Napisz odpowiedź
+16	Usuń pytanie
+17	Pytanie zostało wysłane
+18	Pytania
+19	Zgłoś pytanie
+20	Zgłoś odpowiedź
+21	{1} odpowiedział(a) na twoje pytanie
+22	Zgłosić tę treść jako nieodpowiednią?
+23	Zgłoszenie przyjęte, dziękujemy
+24	Ta sekcja wymaga internetu.
+25	Zdjęcie tygodnia
+26	{1} polubień w tym tygodniu
+27	Kalendarz festiwali
+28	Święta i festiwale odbywające się co roku. Daty mogą się zmieniać; przed wyjazdem sprawdź oficjalne ogłoszenia.
+29	Wkrótce
+30	Brak festiwali w tym miesiącu
+31	Festiwale
+32	W tej prowincji nie ma lotniska; skorzystaj z lotniska w sąsiedniej prowincji.
+33	Przystanek pociągu dużych prędkości (YHT)
+34	Autobusy dalekobieżne przyjeżdżają na dworzec w centrum.
+35	Styczeń
+36	Luty
+37	Marzec
+38	Kwiecień
+39	Maj
+40	Czerwiec
+41	Lipiec
+42	Sierpień
+43	Wrzesień
+44	Październik
+45	Listopad
+46	Grudzień
+47	Nocleg
+48	Jedzenie
+49	Transport
+50	Bilety wstępu
+51	Zakupy
+52	Wydatki
+53	Brak wydatków
+54	Widzisz to tylko ty; pozostaje prywatne, nawet gdy udostępnisz dziennik.
+55	Notatka (opcjonalnie)
+56	Dodaj wydatek
+57	Planuj
+58	Zaplanuj podróż
+59	Miejsca do odwiedzenia i najkrótsza trasa
+60	Trasy zaplanowane dzień po dniu
+61	Miasta według twoich zainteresowań
+62	Święta odbywające się co roku
+63	W drodze
+64	Notatki, zdjęcia i wydatki dzień po dniu
+65	Podstawowe zwroty z wymową
+66	Pomoc
+67	Pomoc i częste pytania
+68	Jak korzystać z aplikacji?
+69	Pokoloruj na mapie odwiedzone prowincje
+70	Pokoloruj moją mapę
+71	Lista
+72	Wszystkie miejsca na mapie; dotknij znacznika, aby otworzyć stronę miejsca.
+73	Wyszukiwanie, region i kategoria, sortowanie, dzisiejsze propozycje.
+74	Lista podróży, gotowe trasy, festiwale, dziennik i rozmówki.
+75	Zdjęcia podróżnych i zdjęcie tygodnia.
+76	Przycisk profilu w prawym górnym rogu: konto, powiadomienia, język, wygląd i prywatność.
+77	Konto
+78	Podróż
+79	Wsparcie
+138	Cztery główne sekcje
+@ro
+0	Informații de la vizitatori
+1	Cu copii
+2	Animale de companie
+3	Potrivit
+4	Nepotrivit
+5	Acceptate
+6	Neacceptate
+7	Încă nu există informații
+8	Informații de la vizitatori; sună înainte să mergi.
+9	Există parcare, e deschis iarna? Întreabă ce vrei să afli; vor răspunde călătorii care au fost aici.
+10	Scrie întrebarea
+11	Întreabă
+12	Încă nu sunt întrebări
+13	Pune tu prima întrebare.
+14	Ascuns după raportări; un moderator verifică.
+15	Scrie un răspuns
+16	Șterge întrebarea
+17	Întrebarea ta a fost publicată
+18	Întrebări
+19	Raportează întrebarea
+20	Raportează răspunsul
+21	{1} a răspuns la întrebarea ta
+22	Raportezi acest conținut ca nepotrivit?
+23	Raport primit, mulțumim
+24	Această secțiune necesită internet.
+25	Fotografia săptămânii
+26	{1} aprecieri săptămâna aceasta
+27	Calendarul festivalurilor
+28	Sărbători și festivaluri care au loc în fiecare an. Datele se pot schimba; verifică anunțurile oficiale înainte să mergi.
+29	În curând
+30	Niciun festival luna aceasta
+31	Festivaluri
+32	Nu există aeroport în această provincie; poți folosi aeroportul unei provincii vecine.
+33	Stație de tren de mare viteză (YHT)
+34	Autobuzele interurbane sosesc la autogara din centru.
+35	Ianuarie
+36	Februarie
+37	Martie
+38	Aprilie
+39	Mai
+40	Iunie
+41	Iulie
+42	August
+43	Septembrie
+44	Octombrie
+45	Noiembrie
+46	Decembrie
+47	Cazare
+48	Mâncare
+49	Transport
+50	Intrări
+51	Cumpărături
+52	Cheltuieli
+53	Încă nu sunt cheltuieli
+54	Doar tu vezi; rămâne privat chiar dacă distribui jurnalul.
+55	Notă (opțional)
+56	Adaugă cheltuială
+57	Planifică
+58	Planifică-ți călătoria
+59	Locuri de vizitat și cel mai scurt traseu
+60	Trasee planificate zi de zi
+61	Orașe sugerate după interesele tale
+62	Sărbători care au loc în fiecare an
+63	Pe drum
+64	Note, fotografii și cheltuieli zi de zi
+65	Expresii de bază cu pronunție audio
+66	Ajutor
+67	Ajutor și întrebări frecvente
+68	Cum folosesc aplicația?
+69	Colorează pe hartă provinciile vizitate
+70	Colorează-mi harta
+71	Listă
+72	Toate locurile pe hartă; atinge un marcaj pentru a deschide pagina locului.
+73	Căutare, regiune și categorie, sortare, sugestiile zilei.
+74	Lista de călătorie, trasee gata făcute, festivaluri, jurnal și ghid de conversație.
+75	Fotografiile călătorilor și fotografia săptămânii.
+76	Butonul de profil din dreapta sus conține contul, notificările, limba, aspectul și confidențialitatea.
+77	Cont
+78	Călătorie
+79	Sprijin
+138	Patru secțiuni principale
+@el
+0	Πληροφορίες επισκεπτών
+1	Με παιδιά
+2	Κατοικίδια
+3	Κατάλληλο
+4	Ακατάλληλο
+5	Επιτρέπονται
+6	Δεν επιτρέπονται
+7	Δεν υπάρχουν ακόμη πληροφορίες
+8	Πληροφορίες από επισκέπτες· τηλεφώνησε πριν πας.
+9	Υπάρχει πάρκινγκ, είναι ανοιχτά τον χειμώνα; Ρώτα ό,τι θέλεις· θα απαντήσουν ταξιδιώτες που έχουν πάει.
+10	Γράψε την ερώτησή σου
+11	Ρώτα
+12	Δεν υπάρχουν ακόμη ερωτήσεις
+13	Κάνε την πρώτη ερώτηση.
+14	Κρύφτηκε μετά από αναφορές· το ελέγχει συντονιστής.
+15	Γράψε απάντηση
+16	Διαγραφή ερώτησης
+17	Η ερώτησή σου δημοσιεύτηκε
+18	Ερωτήσεις
+19	Αναφορά ερώτησης
+20	Αναφορά απάντησης
+21	Ο/Η {1} απάντησε στην ερώτησή σου
+22	Να αναφερθεί αυτό το περιεχόμενο ως ακατάλληλο;
+23	Η αναφορά ελήφθη, ευχαριστούμε
+24	Αυτή η ενότητα χρειάζεται σύνδεση στο ίντερνετ.
+25	Φωτογραφία της εβδομάδας
+26	{1} μου αρέσει αυτή την εβδομάδα
+27	Ημερολόγιο φεστιβάλ
+28	Γιορτές και φεστιβάλ που γίνονται κάθε χρόνο. Οι ημερομηνίες μπορεί να αλλάζουν· έλεγξε τις επίσημες ανακοινώσεις πριν πας.
+29	Σύντομα
+30	Δεν υπάρχουν φεστιβάλ αυτόν τον μήνα
+31	Φεστιβάλ
+32	Δεν υπάρχει αεροδρόμιο σε αυτή την επαρχία· χρησιμοποίησε το αεροδρόμιο γειτονικής επαρχίας.
+33	Στάση τρένου υψηλής ταχύτητας (YHT)
+34	Τα υπεραστικά λεωφορεία φτάνουν στον σταθμό λεωφορείων στο κέντρο.
+35	Ιανουάριος
+36	Φεβρουάριος
+37	Μάρτιος
+38	Απρίλιος
+39	Μάιος
+40	Ιούνιος
+41	Ιούλιος
+42	Αύγουστος
+43	Σεπτέμβριος
+44	Οκτώβριος
+45	Νοέμβριος
+46	Δεκέμβριος
+47	Διαμονή
+48	Φαγητό
+49	Μεταφορές
+50	Εισιτήρια
+51	Ψώνια
+52	Έξοδα
+53	Δεν υπάρχουν ακόμη έξοδα
+54	Τα βλέπεις μόνο εσύ· μένουν ιδιωτικά ακόμη κι αν μοιραστείς το ημερολόγιο.
+55	Σημείωση (προαιρετικά)
+56	Προσθήκη εξόδου
+57	Σχεδίασε
+58	Σχεδίασε το ταξίδι σου
+59	Προορισμοί και η συντομότερη διαδρομή
+60	Διαδρομές οργανωμένες μέρα με τη μέρα
+61	Πόλεις με βάση τα ενδιαφέροντά σου
+62	Γιορτές που γίνονται κάθε χρόνο
+63	Στον δρόμο
+64	Σημειώσεις, φωτογραφίες και έξοδα μέρα με τη μέρα
+65	Βασικές φράσεις με προφορά
+66	Βοήθεια
+67	Βοήθεια και συχνές ερωτήσεις
+68	Πώς χρησιμοποιώ την εφαρμογή;
+69	Χρωμάτισε στον χάρτη τις επαρχίες που επισκέφτηκες
+70	Χρωμάτισε τον χάρτη μου
+71	Λίστα
+72	Όλα τα μέρη στον χάρτη· πάτησε μια σήμανση για να ανοίξει η σελίδα του μέρους.
+73	Αναζήτηση, περιοχή και κατηγορία, ταξινόμηση, σημερινές προτάσεις.
+74	Λίστα ταξιδιού, έτοιμες διαδρομές, φεστιβάλ, ημερολόγιο και λεξιλόγιο.
+75	Φωτογραφίες ταξιδιωτών και η φωτογραφία της εβδομάδας.
+76	Το κουμπί προφίλ πάνω δεξιά έχει λογαριασμό, ειδοποιήσεις, γλώσσα, εμφάνιση και απόρρητο.
+77	Λογαριασμός
+78	Ταξίδι
+79	Υποστήριξη
+138	Τέσσερις κύριες ενότητες

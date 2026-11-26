@@ -1,0 +1,246 @@
+@ur
+0	زائرین کی معلومات
+1	بچوں کے ساتھ
+2	پالتو جانور
+3	موزوں
+4	موزوں نہیں
+5	اجازت ہے
+6	اجازت نہیں
+7	ابھی کوئی معلومات نہیں
+8	زائرین کی دی ہوئی معلومات؛ جانے سے پہلے فون کر کے پوچھ لو۔
+9	پارکنگ ہے، سردیوں میں کھلا ہے؟ جو جاننا ہو پوچھو؛ یہاں آ چکے مسافر جواب دیں گے۔
+10	اپنا سوال لکھو
+11	پوچھیں
+12	ابھی کوئی سوال نہیں
+13	پہلا سوال تم پوچھو۔
+14	شکایات کی وجہ سے چھپا دیا گیا؛ ناظم جانچ رہا ہے۔
+15	جواب لکھو
+16	سوال حذف کریں
+17	تمہارا سوال شائع ہو گیا
+18	سوالات
+19	سوال کی شکایت کریں
+20	جواب کی شکایت کریں
+21	{1} نے آپ کے سوال کا جواب دیا
+22	کیا اس مواد کی نامناسب کے طور پر شکایت کریں؟
+23	شکایت موصول ہو گئی، شکریہ
+24	اس حصے کے لیے انٹرنیٹ ضروری ہے۔
+25	ہفتے کی تصویر
+26	اس ہفتے {1} پسند
+27	میلوں کا کیلنڈر
+28	ہر سال منعقد ہونے والے تہوار اور میلے۔ تاریخیں بدل سکتی ہیں؛ جانے سے پہلے سرکاری اعلانات دیکھ لو۔
+29	جلد
+30	اس مہینے کوئی میلہ نہیں
+31	میلے
+32	اس صوبے میں ہوائی اڈا نہیں؛ قریبی صوبے کا ہوائی اڈا استعمال کر سکتے ہو۔
+33	تیز رفتار ٹرین (YHT) کا اسٹیشن ہے
+34	شہروں کے درمیان چلنے والی بسیں مرکز کے بس اڈے پر آتی ہیں۔
+35	جنوری
+36	فروری
+37	مارچ
+38	اپریل
+39	مئی
+40	جون
+41	جولائی
+42	اگست
+43	ستمبر
+44	اکتوبر
+45	نومبر
+46	دسمبر
+47	رہائش
+48	کھانا
+49	آمد و رفت
+50	داخلہ فیس
+51	خریداری
+52	اخراجات
+53	ابھی کوئی خرچ نہیں
+54	صرف تم دیکھ سکتے ہو؛ ڈائری شیئر کرنے پر بھی نجی رہتا ہے۔
+55	نوٹ (اختیاری)
+56	خرچ شامل کریں
+57	منصوبہ
+58	اپنے سفر کا منصوبہ بناؤ
+59	جانے کی جگہیں اور مختصر ترین راستہ
+60	دن بہ دن منصوبہ بند راستے
+61	تمہاری دلچسپی کے مطابق شہر
+62	ہر سال منعقد ہونے والے تہوار
+63	سفر میں
+64	دن بہ دن نوٹ، تصاویر اور اخراجات
+65	تلفظ کے ساتھ بنیادی جملے
+66	مدد
+67	مدد اور عام سوالات
+68	ایپ کیسے استعمال کروں؟
+69	جن صوبوں میں گئے انہیں نقشے پر رنگو
+70	میرا نقشہ رنگو
+71	فہرست
+72	تمام جگہیں نقشے پر؛ جگہ کا صفحہ کھولنے کے لیے نشان کو چھوؤ۔
+73	تلاش، علاقہ اور زمرہ، ترتیب، آج کی تجاویز۔
+74	سفری فہرست، تیار راستے، میلے، ڈائری اور جیبی لغت۔
+75	مسافروں کی تصاویر اور ہفتے کی تصویر۔
+76	اوپر دائیں پروفائل بٹن میں اکاؤنٹ، اطلاعات، زبان، شکل اور رازداری کی ترتیبات ہیں۔
+77	اکاؤنٹ
+78	سفر
+79	مدد
+138	چار اہم حصے
+@id
+0	Info dari pengunjung
+1	Bersama anak
+2	Hewan peliharaan
+3	Cocok
+4	Tidak cocok
+5	Diizinkan
+6	Tidak diizinkan
+7	Belum ada informasi
+8	Informasi dari pengunjung; telepon dulu sebelum berangkat.
+9	Ada parkir, buka saat musim dingin? Tanyakan yang ingin kamu tahu; pelancong yang pernah ke sini akan menjawab.
+10	Tulis pertanyaanmu
+11	Tanya
+12	Belum ada pertanyaan
+13	Ajukan pertanyaan pertama.
+14	Disembunyikan karena laporan; moderator sedang meninjau.
+15	Tulis jawaban
+16	Hapus pertanyaan
+17	Pertanyaanmu sudah dipublikasikan
+18	Pertanyaan
+19	Laporkan pertanyaan
+20	Laporkan jawaban
+21	{1} menjawab pertanyaanmu
+22	Laporkan konten ini sebagai tidak pantas?
+23	Laporan diterima, terima kasih
+24	Bagian ini memerlukan internet.
+25	Foto minggu ini
+26	{1} suka minggu ini
+27	Kalender festival
+28	Perayaan dan festival yang diadakan setiap tahun. Tanggal bisa berubah; cek pengumuman resmi sebelum berangkat.
+29	Segera
+30	Tidak ada festival bulan ini
+31	Festival
+32	Tidak ada bandara di provinsi ini; kamu bisa memakai bandara provinsi terdekat.
+33	Ada stasiun kereta cepat (YHT)
+34	Bus antarkota tiba di terminal bus di pusat kota.
+35	Januari
+36	Februari
+37	Maret
+38	April
+39	Mei
+40	Juni
+41	Juli
+42	Agustus
+43	September
+44	Oktober
+45	November
+46	Desember
+47	Penginapan
+48	Makanan
+49	Transportasi
+50	Tiket masuk
+51	Belanja
+52	Pengeluaran
+53	Belum ada pengeluaran
+54	Hanya kamu yang bisa melihat; tetap pribadi meski jurnal dibagikan.
+55	Catatan (opsional)
+56	Tambah pengeluaran
+57	Rencana
+58	Rencanakan perjalananmu
+59	Tempat tujuan dan rute terpendek
+60	Rute yang direncanakan hari demi hari
+61	Saran kota sesuai minatmu
+62	Perayaan yang diadakan setiap tahun
+63	Selama perjalanan
+64	Catatan, foto, dan pengeluaran harian
+65	Ungkapan dasar dengan pelafalan suara
+66	Bantuan
+67	Bantuan dan pertanyaan umum
+68	Bagaimana cara memakai aplikasi?
+69	Warnai provinsi yang pernah kamu kunjungi di peta
+70	Warnai petaku
+71	Daftar
+72	Semua tempat di peta; ketuk penanda untuk membuka halaman tempat.
+73	Pencarian, wilayah dan kategori, urutan, saran hari ini.
+74	Daftar perjalanan, rute siap pakai, festival, jurnal, dan buku saku bahasa.
+75	Foto para pelancong dan foto minggu ini.
+76	Tombol profil di kanan atas berisi akun, notifikasi, bahasa, tampilan, dan privasi.
+77	Akun
+78	Perjalanan
+79	Dukungan
+138	Empat bagian utama
+@ms
+0	Maklumat pelawat
+1	Bersama kanak-kanak
+2	Haiwan peliharaan
+3	Sesuai
+4	Tidak sesuai
+5	Dibenarkan
+6	Tidak dibenarkan
+7	Belum ada maklumat
+8	Maklumat daripada pelawat; telefon dahulu sebelum pergi.
+9	Ada tempat letak kereta, dibuka pada musim sejuk? Tanya apa yang anda mahu tahu; pengembara yang pernah ke sini akan menjawab.
+10	Tulis soalan anda
+11	Tanya
+12	Belum ada soalan
+13	Tanya soalan pertama.
+14	Disembunyikan selepas laporan; moderator sedang menyemak.
+15	Tulis jawapan
+16	Padam soalan
+17	Soalan anda telah diterbitkan
+18	Soalan
+19	Laporkan soalan
+20	Laporkan jawapan
+21	{1} menjawab soalan anda
+22	Laporkan kandungan ini sebagai tidak sesuai?
+23	Laporan diterima, terima kasih
+24	Bahagian ini memerlukan internet.
+25	Foto minggu ini
+26	{1} suka minggu ini
+27	Kalendar festival
+28	Perayaan dan festival yang diadakan setiap tahun. Tarikh boleh berubah; semak pengumuman rasmi sebelum pergi.
+29	Akan datang
+30	Tiada festival bulan ini
+31	Festival
+32	Tiada lapangan terbang di wilayah ini; anda boleh guna lapangan terbang wilayah berdekatan.
+33	Ada stesen kereta api laju (YHT)
+34	Bas antara bandar tiba di terminal bas di pusat bandar.
+35	Januari
+36	Februari
+37	Mac
+38	April
+39	Mei
+40	Jun
+41	Julai
+42	Ogos
+43	September
+44	Oktober
+45	November
+46	Disember
+47	Penginapan
+48	Makanan
+49	Pengangkutan
+50	Bayaran masuk
+51	Membeli-belah
+52	Perbelanjaan
+53	Belum ada perbelanjaan
+54	Hanya anda yang nampak; kekal peribadi walaupun jurnal dikongsi.
+55	Nota (pilihan)
+56	Tambah perbelanjaan
+57	Rancang
+58	Rancang perjalanan anda
+59	Tempat untuk dilawati dan laluan terpendek
+60	Laluan yang dirancang hari demi hari
+61	Cadangan bandar mengikut minat anda
+62	Perayaan yang diadakan setiap tahun
+63	Semasa berjalan
+64	Nota, foto dan perbelanjaan setiap hari
+65	Ungkapan asas dengan sebutan suara
+66	Bantuan
+67	Bantuan dan soalan lazim
+68	Bagaimana guna aplikasi ini?
+69	Warnakan wilayah yang pernah anda lawati di peta
+70	Warnakan peta saya
+71	Senarai
+72	Semua tempat di peta; ketik penanda untuk membuka halaman tempat.
+73	Carian, wilayah dan kategori, susunan, cadangan hari ini.
+74	Senarai perjalanan, laluan sedia ada, festival, jurnal dan buku saku bahasa.
+75	Foto pengembara dan foto minggu ini.
+76	Butang profil di kanan atas mengandungi akaun, pemberitahuan, bahasa, paparan dan privasi.
+77	Akaun
+78	Perjalanan
+79	Sokongan
+138	Empat bahagian utama

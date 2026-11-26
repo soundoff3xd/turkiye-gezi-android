@@ -11,7 +11,8 @@ import ReviewCard from '../components/ReviewCard';
 import Weather from '../components/Weather';
 import CorrectionSheet from '../components/CorrectionSheet';
 import { NeedsBox, SpeakButton, SunBox } from '../components/Extras2';
-import { AccessBox, Dishes, MuseumBox, NearbyFood, PlaceHero, SeasonBox } from '../components/Extras';
+import { QATab, VisitorInfoBox } from '../components/Extras3';
+import { Dishes, MuseumBox, NearbyFood, PlaceHero, SeasonBox } from '../components/Extras';
 import { SkeletonPage, useDeferred } from '../components/Anim';
 import { useTrip } from '../lib/trip';
 import { sharePlace } from '../lib/share';
@@ -19,7 +20,7 @@ import { REGIONS, catName } from '../data/catalog';
 import { C, R } from '../theme';
 
 /* Yer kartının tamamı: genel bakış, yorumlar, fotoğraflar */
-export default function PlaceScreen({ id, initialTab = 'ov' }: { id: string; initialTab?: 'ov' | 'rev' | 'pho' }) {
+export default function PlaceScreen({ id, initialTab = 'ov' }: { id: string; initialTab?: 'ov' | 'rev' | 'pho' | 'qa' }) {
   const { t, num } = useT();
   const insets = useSafeAreaInsets();
   const { width } = useWindowDimensions();
@@ -40,7 +41,7 @@ export default function PlaceScreen({ id, initialTab = 'ov' }: { id: string; ini
     try { const on = await toggle(kind, p!.id); if (on) toast(kind === 'visits' ? 'Gittiğin yerlere eklendi' : 'Favorilere eklendi'); }
     catch (e) { toast(trError(e)); }
   }
-  const tabs: [typeof tab, string][] = [['ov', t('Genel bakış')], ['rev', t('Yorumlar')], ['pho', media.length ? t('Fotoğraflar ({1})', num(media.length)) : t('Fotoğraflar')]];
+  const tabs: [typeof tab, string][] = [['ov', t('Genel bakış')], ['rev', t('Yorumlar')], ['pho', media.length ? t('Fotoğraflar ({1})', num(media.length)) : t('Fotoğraflar')], ['qa', t('Sorular')]];
 
   return (
     <View style={{ flex: 1, backgroundColor: C.screen }}>
@@ -75,14 +76,15 @@ export default function PlaceScreen({ id, initialTab = 'ov' }: { id: string; ini
           <Btn label={`↗ ${t('Yeri paylaş')}`} onPress={() => sharePlace(p, t)} style={{ flex: 1 }} />
         </View>
 
-        <View style={{ flexDirection: 'row', marginTop: 18, borderBottomWidth: 1, borderBottomColor: C.line }} accessibilityRole="tablist">
+        <ScrollView horizontal showsHorizontalScrollIndicator={false} style={{ marginTop: 18, borderBottomWidth: 1, borderBottomColor: C.line, flexGrow: 0 }} accessibilityRole="tablist">
           {tabs.map(([k, l]) => (
             <Pressable key={k} onPress={() => setTab(k)} style={{ paddingVertical: 10, paddingHorizontal: 12, borderBottomWidth: 3, borderBottomColor: tab === k ? C.accent : 'transparent', marginBottom: -1 }}
               accessibilityRole="tab" accessibilityState={{ selected: tab === k }}>
               <Text style={{ fontWeight: '800', color: tab === k ? C.ink : C.muted }}>{l}</Text>
             </Pressable>
           ))}
-        </View>
+        </ScrollView>
+        {tab === 'qa' && <QATab p={p} />}
 
         {tab === 'ov' && (
           <View>
@@ -94,7 +96,7 @@ export default function PlaceScreen({ id, initialTab = 'ov' }: { id: string; ini
             <SeasonBox p={p} />
             <SunBox p={p} />
             <MuseumBox p={p} />
-            <AccessBox p={p} />
+            <VisitorInfoBox p={p} />
             <Dishes il={p.il} />
             <NearbyFood p={p} />
             <NeedsBox p={p} />

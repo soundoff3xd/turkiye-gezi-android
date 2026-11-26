@@ -1,0 +1,280 @@
+@de
+0	Besucherinfos
+1	Mit Kindern
+2	Haustiere
+3	Geeignet
+4	Nicht geeignet
+5	Erlaubt
+6	Nicht erlaubt
+7	Noch keine Angaben
+8	Angaben von Besuchern; frag vor dem Besuch telefonisch nach.
+9	Gibt es Parkplätze, ist im Winter geöffnet? Frag, was du wissen willst; Reisende, die schon dort waren, antworten.
+10	Schreib deine Frage
+11	Fragen
+12	Noch keine Fragen
+13	Stell die erste Frage.
+14	Nach Meldungen ausgeblendet; ein Moderator prüft es.
+15	Antwort schreiben
+16	Frage löschen
+17	Deine Frage wurde gesendet
+18	Fragen
+19	Frage melden
+20	Antwort melden
+21	{1} hat deine Frage beantwortet
+22	Diesen Inhalt als unangemessen melden?
+23	Meldung erhalten, danke
+24	Für diesen Bereich ist eine Internetverbindung nötig.
+25	Foto der Woche
+26	{1} Likes diese Woche
+27	Festivalkalender
+28	Jährlich wiederkehrende Feste und Festivals. Die Termine können sich jedes Jahr ändern; prüfe vorher die offiziellen Ankündigungen.
+29	Demnächst
+30	Keine Festivals in diesem Monat
+31	Festivals
+32	In dieser Provinz gibt es keinen Flughafen; nutze den Flughafen einer Nachbarprovinz.
+33	Halt des Hochgeschwindigkeitszugs (YHT)
+34	Fernbusse kommen am Busbahnhof im Stadtzentrum an.
+35	Januar
+36	Februar
+37	März
+38	April
+39	Mai
+40	Juni
+41	Juli
+42	August
+43	September
+44	Oktober
+45	November
+46	Dezember
+47	Unterkunft
+48	Essen
+49	Transport
+50	Eintritt
+51	Einkäufe
+52	Ausgaben
+53	Noch keine Ausgaben
+54	Nur du siehst das; es bleibt privat, auch wenn du das Tagebuch teilst.
+55	Notiz (optional)
+56	Ausgabe hinzufügen
+57	Planen
+58	Plane deine Reise
+59	Ziele und die kürzeste Route
+60	Tag für Tag geplante Routen
+61	Städtevorschläge nach deinen Interessen
+62	Jährlich wiederkehrende Feste
+63	Unterwegs
+64	Notizen, Fotos und Ausgaben Tag für Tag
+65	Grundsätze mit gesprochener Aussprache
+66	Hilfe
+67	Hilfe und häufige Fragen
+68	Wie benutze ich die App?
+69	Male die besuchten Provinzen auf der Karte aus
+70	Meine Karte ausmalen
+71	Liste
+72	Alle Orte auf der Karte; tippe auf eine Markierung, um die Seite des Ortes zu öffnen.
+73	Suche, Region und Kategorie, Sortierung, heutige Vorschläge.
+74	Reiseliste, fertige Routen, Festivals, Tagebuch und Sprachführer.
+75	Fotos von Reisenden und das Foto der Woche.
+76	Über den Profilknopf oben rechts erreichst du Konto, Benachrichtigungen, Sprache, Design und Datenschutz.
+77	Konto
+78	Reise
+79	Unterstützung
+80	Wie finde ich einen Ort?
+81	Tippe in Entdecken ins Suchfeld oder filtere nach Region und Kategorie. Auch ein Tipp auf eine Markierung auf der Karte öffnet die Seite des Ortes.
+82	Wie funktionieren Reiseliste und Route?
+83	Tippe auf der Seite eines Ortes auf „Zu meiner Reiseliste hinzufügen“. Die Reiseliste im Bereich Planen ordnet die Orte in der kürzesten Reihenfolge und startet die Navigation.
+84	Kann ich die App offline nutzen?
+85	Du kannst die Karte deiner Reiseliste oder einer ganzen Provinz aufs Handy laden. Ortsinfos werden auf dem Handy gespeichert; für Bewertungen und Foto-Uploads brauchst du Internet.
+86	Wie füge ich einen fehlenden Ort hinzu?
+87	Schlag ihn über „Ort vorschlagen“ in Entdecken vor. Sobald die Community zustimmt, kommt er auf die Karte und du bekommst eine Benachrichtigung.
+88	Warum erscheint mein Foto nicht sofort?
+89	Die ersten Fotos neuer Konten werden vor der Veröffentlichung von einem Moderator geprüft. Das dauert meist nicht lange.
+90	Ich habe eine falsche Angabe gesehen. Was tun?
+91	Nutze den Link „Angabe falsch? Korrektur vorschlagen“ unten auf der Seite des Ortes.
+92	Wer kann mein Reisetagebuch sehen?
+93	Nur du. Wenn du „Per Link teilen“ einschaltest, kann es jeder mit dem Link sehen; deine Ausgaben werden nie geteilt.
+94	Wie schalte ich Benachrichtigungen aus?
+95	Du kannst die Benachrichtigungen der App in den Einstellungen deines Handys ausschalten.
+96	Wie lösche ich mein Konto?
+97	Tippe unten auf der Seite „Mein Profil“ auf „Konto löschen“. Deine Bewertungen, Fotos und alle Einträge werden dauerhaft gelöscht.
+98	Meine Frage ist nicht dabei
+99	Schreib uns über „Feedback senden“; wir melden uns so bald wie möglich.
+100	Kamelringen von Ephesos
+101	Traditionelles Kamelringen in Selçuk am dritten Januarwochenende.
+102	Newroz
+103	Am 21. März wird die Ankunft des Frühlings mit Feuern und Volkstänzen gefeiert; besonders lebhaft im Osten und Südosten.
+104	Mesir-Paste-Fest
+105	Von der Kuppel der Sultan-Moschee wird Mesir-Paste unter die Menge geworfen; eine 500 Jahre alte Tradition.
+106	Istanbuler Tulpenfest
+107	Parks, allen voran der Emirgan-Hain, werden mit Millionen Tulpen geschmückt.
+108	Istanbul Film Festival
+109	Eines der ältesten Filmfestivals der Türkei; Hunderte türkische und ausländische Filme.
+110	Kräuterfest in Alaçatı
+111	Gerichte mit ägäischen Kräutern, Verkostungen und Straßenveranstaltungen.
+112	Hıdırellez
+113	Frühlingsfest in der Nacht vom 5. auf den 6. Mai; in Edirne als Kakava gefeiert.
+114	Aksu-Fest
+115	Ein uraltes Frühlingsfest um den 20. Mai am Ufer des Aksu-Bachs.
+116	Kırkpınar-Ölringen
+117	Eine der ältesten Sportveranstaltungen der Welt; Ölringen um den Titel des Meisterringers.
+118	Kafkasör-Festival
+119	Stierkämpfe (Stier gegen Stier), Horon-Tanz und regionale Spezialitäten auf der Kafkasör-Alm.
+120	Bursa-Festival
+121	Internationales Sommerfestival mit Konzerten, Volkstänzen und Shows.
+122	Nasreddin-Hodscha-Fest
+123	Tage voller Anekdoten, Theater und Spaß in Akşehir zu Ehren von Nasreddin Hodscha.
+124	Istanbul Jazz Festival
+125	Konzerte weltbekannter Künstler überall in der Stadt.
+126	Gedenkfeier für Hacı Bektaş Veli
+127	Gedenkzeremonien, Semah und Konzerte vom 16. bis 18. August in Hacıbektaş.
+128	Troja-Festival
+129	Umzüge, Konzerte und Kulturveranstaltungen rund um die Troja-Sage.
+130	Aspendos Opern- und Ballettfestival
+131	Oper und Ballett im fast 2000 Jahre alten Theater von Aspendos.
+132	Wassermelonenfest Diyarbakır
+133	Ein fröhliches Fest, bei dem riesige Diyarbakır-Melonen gegeneinander antreten.
+134	Filmfestival Goldene Orange
+135	Das älteste Filmfestival der Türkei; Stars und Galas.
+136	Şeb-i Arus
+137	Sema-Zeremonien zu Ehren Rumis vom 7. bis 17. Dezember; eventuell sind Tickets nötig.
+138	Vier Hauptbereiche
+@fr
+0	Infos des visiteurs
+1	Avec des enfants
+2	Animaux
+3	Adapté
+4	Pas adapté
+5	Acceptés
+6	Non acceptés
+7	Pas encore d’information
+8	Informations des visiteurs ; appelle avant d’y aller.
+9	Y a-t-il un parking, est-ce ouvert l’hiver ? Pose ta question ; les voyageurs qui y sont allés répondront.
+10	Écris ta question
+11	Demander
+12	Aucune question pour l’instant
+13	Pose la première question.
+14	Masqué après des signalements ; un modérateur vérifie.
+15	Écrire une réponse
+16	Supprimer la question
+17	Ta question a été publiée
+18	Questions
+19	Signaler la question
+20	Signaler la réponse
+21	{1} a répondu à ta question
+22	Signaler ce contenu comme inapproprié ?
+23	Signalement reçu, merci
+24	Cette section nécessite une connexion internet.
+25	Photo de la semaine
+26	{1} j’aime cette semaine
+27	Calendrier des festivals
+28	Fêtes et festivals organisés chaque année. Les dates peuvent changer d’une année à l’autre ; vérifie les annonces officielles avant d’y aller.
+29	Bientôt
+30	Aucun festival ce mois-ci
+31	Festivals
+32	Pas d’aéroport dans cette province ; utilise celui d’une province voisine.
+33	Arrêt du train à grande vitesse (YHT)
+34	Les bus interurbains arrivent à la gare routière du centre-ville.
+35	Janvier
+36	Février
+37	Mars
+38	Avril
+39	Mai
+40	Juin
+41	Juillet
+42	Août
+43	Septembre
+44	Octobre
+45	Novembre
+46	Décembre
+47	Hébergement
+48	Repas
+49	Transport
+50	Entrée
+51	Achats
+52	Dépenses
+53	Aucune dépense pour l’instant
+54	Toi seul le vois ; cela reste privé même si tu partages le carnet.
+55	Note (facultatif)
+56	Ajouter une dépense
+57	Planifier
+58	Planifie ton voyage
+59	Lieux à visiter et itinéraire le plus court
+60	Itinéraires planifiés jour par jour
+61	Villes suggérées selon tes centres d’intérêt
+62	Fêtes organisées chaque année
+63	En route
+64	Notes, photos et dépenses jour par jour
+65	Phrases de base avec prononciation audio
+66	Aide
+67	Aide et FAQ
+68	Comment utiliser l’application ?
+69	Colorie sur la carte les provinces visitées
+70	Colorier ma carte
+71	Liste
+72	Tous les lieux sur la carte ; touche un repère pour ouvrir la page du lieu.
+73	Recherche, région et catégorie, tri, suggestions du jour.
+74	Liste de voyage, itinéraires, festivals, carnet et guide de conversation.
+75	Photos des voyageurs et photo de la semaine.
+76	Le bouton de profil en haut à droite regroupe compte, notifications, langue, apparence et confidentialité.
+77	Compte
+78	Voyage
+79	Soutien
+80	Comment trouver un lieu ?
+81	Écris dans la recherche de Découvrir ou filtre par région et catégorie. Toucher un repère sur la carte ouvre aussi la page du lieu.
+82	Comment fonctionnent la liste de voyage et l’itinéraire ?
+83	Touche « Ajouter à ma liste de voyage » sur la page d’un lieu. Ta liste, dans Planifier, classe les lieux dans l’ordre le plus court et lance le guidage.
+84	Puis-je l’utiliser hors ligne ?
+85	Tu peux télécharger sur ton téléphone la carte de ta liste ou de toute une province. Les infos des lieux sont stockées sur le téléphone ; écrire des avis et envoyer des photos nécessite internet.
+86	Comment ajouter un lieu absent ?
+87	Propose-le avec « Proposer un lieu » dans Découvrir. Une fois approuvé par la communauté, il est ajouté à la carte et tu reçois une notification.
+88	Pourquoi ma photo n’apparaît-elle pas tout de suite ?
+89	Les premières photos des nouveaux comptes sont vérifiées par un modérateur avant publication. Cela prend généralement peu de temps.
+90	J’ai vu une information erronée. Que faire ?
+91	Utilise le lien « Info erronée ? Proposer une correction » en bas de la page du lieu.
+92	Qui peut voir mon carnet de voyage ?
+93	Toi seul. Si tu actives « Partager par lien », toute personne ayant le lien peut le voir ; tes dépenses ne sont jamais partagées.
+94	Comment désactiver les notifications ?
+95	Tu peux désactiver les notifications de l’application dans les réglages du téléphone.
+96	Comment supprimer mon compte ?
+97	Touche « Supprimer le compte » en bas de la page Mon profil. Tes avis, photos et toutes tes données sont supprimés définitivement.
+98	Ma question n’est pas ici
+99	Écris-nous via « Envoyer un avis » ; nous te répondrons au plus vite.
+100	Lutte de chameaux d’Éphèse
+101	Lutte traditionnelle de chameaux à Selçuk, le troisième week-end de janvier.
+102	Norouz
+103	Le 21 mars, l’arrivée du printemps est fêtée avec des feux et des danses ; particulièrement animé dans l’est et le sud-est.
+104	Fête de la pâte de Mesir
+105	De la pâte de Mesir est lancée à la foule depuis la coupole de la mosquée du Sultan ; une tradition de 500 ans.
+106	Festival des tulipes d’Istanbul
+107	Les parcs, surtout le bois d’Emirgan, se parent de millions de tulipes.
+108	Festival du film d’Istanbul
+109	L’un des plus anciens festivals de cinéma de Türkiye ; des centaines de films turcs et étrangers.
+110	Fête des herbes d’Alaçatı
+111	Plats aux herbes de l’Égée, dégustations et animations de rue.
+112	Hıdırellez
+113	Fête du printemps dans la nuit du 5 au 6 mai ; célébrée sous le nom de Kakava à Edirne.
+114	Fête d’Aksu
+115	Très ancienne fête du printemps vers le 20 mai, au bord du ruisseau Aksu.
+116	Lutte à l’huile de Kırkpınar
+117	L’un des plus anciens événements sportifs au monde ; lutte à l’huile pour le titre de champion.
+118	Festival de Kafkasör
+119	Combats de taureaux, danse horon et spécialités locales sur le plateau de Kafkasör.
+120	Festival de Bursa
+121	Festival d’été international avec concerts, danses folkloriques et spectacles.
+122	Fête de Nasreddin Hodja
+123	Des journées d’anecdotes, de théâtre et de fête à Akşehir en mémoire de Nasreddin Hodja.
+124	Festival de jazz d’Istanbul
+125	Concerts d’artistes de renommée mondiale dans toute la ville.
+126	Commémoration de Hacı Bektaş Veli
+127	Cérémonies, semah et concerts à Hacıbektaş du 16 au 18 août.
+128	Festival de Troie
+129	Cortèges, concerts et événements culturels autour de la légende de Troie.
+130	Festival d’opéra et de ballet d’Aspendos
+131	Opéra et ballet dans le théâtre d’Aspendos, vieux de près de 2 000 ans.
+132	Fête de la pastèque de Diyarbakır
+133	Une fête où rivalisent les pastèques géantes de Diyarbakır.
+134	Festival du film de l’Orange d’or
+135	Le plus ancien festival de cinéma de Türkiye ; stars et galas.
+136	Şeb-i Arus
+137	Cérémonies de sema en mémoire de Rûmî du 7 au 17 décembre ; billets parfois nécessaires.
+138	Quatre sections principales

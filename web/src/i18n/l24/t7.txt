@@ -1,0 +1,246 @@
+@ja
+0	訪問者の情報
+1	子ども連れ
+2	ペット
+3	適している
+4	適していない
+5	可
+6	不可
+7	まだ情報がありません
+8	訪問者からの情報です。行く前に電話で確認してください。
+9	駐車場はある？冬も開いている？知りたいことを質問すると、訪れたことのある旅行者が答えてくれます。
+10	質問を書く
+11	質問する
+12	まだ質問はありません
+13	最初の質問をしてみましょう。
+14	通報により非表示になりました。モデレーターが確認中です。
+15	回答を書く
+16	質問を削除
+17	質問を投稿しました
+18	質問
+19	質問を通報
+20	回答を通報
+21	{1}さんがあなたの質問に回答しました
+22	このコンテンツを不適切として通報しますか？
+23	通報を受け付けました。ありがとうございます
+24	この機能にはインターネット接続が必要です。
+25	今週の写真
+26	今週 {1} いいね
+27	フェスティバルカレンダー
+28	毎年開かれるお祭りやフェスティバルです。日程は年によって変わることがあるので、行く前に公式発表を確認してください。
+29	近日開催
+30	今月のフェスティバルはありません
+31	フェスティバル
+32	この県には空港がありません。近隣の県の空港を利用できます。
+33	高速鉄道（YHT）の駅があります
+34	長距離バスは市中心部のバスターミナルに到着します。
+35	1月
+36	2月
+37	3月
+38	4月
+39	5月
+40	6月
+41	7月
+42	8月
+43	9月
+44	10月
+45	11月
+46	12月
+47	宿泊
+48	食事
+49	交通
+50	入場料
+51	買い物
+52	支出
+53	まだ支出はありません
+54	あなただけが見られます。日記を共有しても非公開のままです。
+55	メモ（任意）
+56	支出を追加
+57	プラン
+58	旅を計画する
+59	行きたい場所と最短ルート
+60	1日ごとのモデルコース
+61	興味に合わせた都市のおすすめ
+62	毎年開かれるお祭り
+63	旅の途中で
+64	日ごとのメモ・写真・支出
+65	音声つきの基本フレーズ
+66	ヘルプ
+67	ヘルプとよくある質問
+68	アプリの使い方は？
+69	訪れた県を地図に塗る
+70	地図を塗る
+71	リスト
+72	すべての場所が地図上にあります。マーカーをタップすると場所のページが開きます。
+73	検索、地域とカテゴリ、並べ替え、今日のおすすめ。
+74	旅のリスト、モデルコース、フェスティバル、日記と会話帳。
+75	旅行者の写真と今週の写真。
+76	右上のプロフィールボタンから、アカウント、通知、言語、表示、プライバシーを設定できます。
+77	アカウント
+78	旅
+79	サポート
+138	4つのメイン画面
+@ko
+0	방문자 정보
+1	아이와 함께
+2	반려동물
+3	적합
+4	부적합
+5	허용
+6	불허
+7	아직 정보가 없어요
+8	방문자가 알려준 정보예요. 가기 전에 전화로 확인하세요.
+9	주차장이 있나요, 겨울에도 여나요? 궁금한 걸 물어보면 다녀온 여행자들이 답해 줘요.
+10	질문을 쓰세요
+11	질문하기
+12	아직 질문이 없어요
+13	첫 질문을 남겨 보세요.
+14	신고로 숨겨졌어요. 운영자가 검토 중이에요.
+15	답변 쓰기
+16	질문 삭제
+17	질문이 등록됐어요
+18	질문
+19	질문 신고
+20	답변 신고
+21	{1}님이 질문에 답했어요
+22	이 콘텐츠를 부적절한 내용으로 신고할까요?
+23	신고가 접수됐어요. 감사합니다
+24	이 기능은 인터넷 연결이 필요해요.
+25	이번 주의 사진
+26	이번 주 좋아요 {1}개
+27	축제 달력
+28	매년 열리는 축제와 행사예요. 날짜는 해마다 바뀔 수 있으니 가기 전에 공식 발표를 확인하세요.
+29	곧 열림
+30	이번 달에는 축제가 없어요
+31	축제
+32	이 지역에는 공항이 없어요. 가까운 지역의 공항을 이용하세요.
+33	고속열차(YHT) 정차역이 있어요
+34	시외버스는 시내 버스터미널에 도착해요.
+35	1월
+36	2월
+37	3월
+38	4월
+39	5월
+40	6월
+41	7월
+42	8월
+43	9월
+44	10월
+45	11월
+46	12월
+47	숙박
+48	식비
+49	교통
+50	입장료
+51	쇼핑
+52	지출
+53	아직 지출이 없어요
+54	나만 볼 수 있어요. 일기를 공유해도 비공개로 유지돼요.
+55	메모(선택)
+56	지출 추가
+57	계획
+58	여행 계획하기
+59	갈 곳과 가장 짧은 경로
+60	하루 단위로 짜인 코스
+61	관심사에 맞춘 도시 추천
+62	매년 열리는 축제
+63	여행 중
+64	날마다 메모, 사진, 지출
+65	발음을 들을 수 있는 기본 표현
+66	도움말
+67	도움말 및 자주 묻는 질문
+68	앱은 어떻게 사용하나요?
+69	다녀온 지역을 지도에 칠하기
+70	내 지도 칠하기
+71	목록
+72	모든 장소가 지도에 있어요. 표시를 누르면 장소 페이지가 열려요.
+73	검색, 지역과 분류, 정렬, 오늘의 추천.
+74	여행 목록, 추천 코스, 축제, 일기와 회화 수첩.
+75	여행자들의 사진과 이번 주의 사진.
+76	오른쪽 위 프로필 버튼에서 계정, 알림, 언어, 화면 모드, 개인정보 설정을 할 수 있어요.
+77	계정
+78	여행
+79	지원
+138	네 가지 주요 화면
+@ku
+0	Agahiyên serdanvanan
+1	Bi zarokan re
+2	Heywanên malê
+3	Guncav
+4	Ne guncav
+5	Destûr heye
+6	Destûr tune
+7	Hîn agahî tune
+8	Agahiya serdanvanan e; berî ku biçî telefon bike û bipirse.
+9	Otopark heye, zivistanê vekirî ye? Çi dixwazî bipirse; gerokên ku li vir bûne dê bersiv bidin.
+10	Pirsa xwe binivîse
+11	Bipirse
+12	Hîn pirs tune
+13	Pirsa pêşîn tu bipirse.
+14	Ji ber giliyan hat veşartin; moderator lê dinêre.
+15	Bersivê binivîse
+16	Pirsê jê bibe
+17	Pirsa te hat şandin
+18	Pirs
+19	Giliya pirsê bike
+20	Giliya bersivê bike
+21	{1} bersiva pirsa te da
+22	Ev naverok wek ne guncav were gilîkirin?
+23	Gilî hat wergirtin, spas
+24	Ji bo vê beşê înternet pêwîst e.
+25	Wêneyê hefteyê
+26	Vê hefteyê {1} ecibandin
+27	Salnameya festîvalan
+28	Festîval û şahiyên ku her sal tên lidarxistin. Dîrok dikarin sal bi sal biguherin; berî ku biçî daxuyaniyên fermî kontrol bike.
+29	Nêzîk
+30	Vê mehê festîval tune
+31	Festîval
+32	Li vê parêzgehê balafirgeh tune; tu dikarî balafirgeha parêzgeheke nêzîk bikar bînî.
+33	Rawestgeha trêna bilez (YHT) heye
+34	Otobusên navbajarî tên otogara navenda bajêr.
+35	Çile
+36	Sibat
+37	Adar
+38	Nîsan
+39	Gulan
+40	Hezîran
+41	Tîrmeh
+42	Tebax
+43	Îlon
+44	Cotmeh
+45	Mijdar
+46	Kanûn
+47	Bicihbûn
+48	Xwarin
+49	Veguhastin
+50	Bihayê têketinê
+51	Kirîn
+52	Lêçûn
+53	Hîn lêçûn tune
+54	Tenê tu dibînî; heke rojnivîskê parve bikî jî veşartî dimîne.
+55	Not (bijarte)
+56	Lêçûn zêde bike
+57	Plan bike
+58	Gera xwe plan bike
+59	Cihên ku tu yê biçî û rêya herî kurt
+60	Rêyên roj bi roj plankirî
+61	Pêşniyarên bajaran li gorî eleqeyên te
+62	Şahiyên ku her sal tên lidarxistin
+63	Di rê de
+64	Not, wêne û lêçûnên roj bi roj
+65	Hevokên bingehîn bi bilêvkirina dengî
+66	Alîkarî
+67	Alîkarî û pirsên pir tên pirsîn
+68	Ez sepanê çawa bikar bînim?
+69	Parêzgehên ku tu lê geriyayî li ser nexşeyê reng bike
+70	Nexşeya min reng bike
+71	Lîste
+72	Hemû cih li ser nexşeyê ne; li nîşanekê bixe da ku rûpela cihî vebe.
+73	Lêgerîn, herêm û kategorî, rêzkirin, pêşniyarên îro.
+74	Lîsteya gerê, rêyên amade, festîval, rojnivîsk û ferheng.
+75	Wêneyên gerokan û wêneyê hefteyê.
+76	Bişkoka profîlê ya li jor rastê hesab, agahdarî, ziman, xuyang û nepenîtiyê dihewîne.
+77	Hesab
+78	Ger
+79	Piştgirî
+138	Çar beşên sereke

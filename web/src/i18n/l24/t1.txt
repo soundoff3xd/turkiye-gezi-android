@@ -1,0 +1,140 @@
+@en
+0	Visitor info
+1	With children
+2	Pets
+3	Suitable
+4	Not suitable
+5	Allowed
+6	Not allowed
+7	No information yet
+8	Reported by visitors; call ahead before you go.
+9	Is there parking, is it open in winter? Ask what you want to know; travellers who have been here will answer.
+10	Write your question
+11	Ask
+12	No questions yet
+13	Be the first to ask.
+14	Hidden after reports; a moderator is reviewing it.
+15	Write an answer
+16	Delete question
+17	Your question was posted
+18	Questions
+19	Report question
+20	Report answer
+21	{1} answered your question
+22	Report this content as inappropriate?
+23	Report received, thank you
+24	This section needs an internet connection.
+25	Photo of the week
+26	{1} likes this week
+27	Festival calendar
+28	Festivals and celebrations held every year. Dates can change from year to year; check official announcements before you go.
+29	Upcoming
+30	No festivals this month
+31	Festivals
+32	There is no airport in this province; you can use the airport in a nearby province.
+33	High-speed train (YHT) stop
+34	Intercity buses arrive at the bus station in the city centre.
+35	January
+36	February
+37	March
+38	April
+39	May
+40	June
+41	July
+42	August
+43	September
+44	October
+45	November
+46	December
+47	Accommodation
+48	Food
+49	Transport
+50	Admission
+51	Shopping
+52	Expenses
+53	No expenses yet
+54	Only you can see this; it stays private even if you share the journal.
+55	Note (optional)
+56	Add expense
+57	Plan
+58	Plan your trip
+59	Places to go and the shortest route
+60	Routes planned day by day
+61	City suggestions based on your interests
+62	Celebrations held every year
+63	On the road
+64	Day-by-day notes, photos and expenses
+65	Basic phrases with spoken pronunciation
+66	Help
+67	Help and FAQ
+68	How do I use the app?
+69	Paint the provinces you have visited on the map
+70	Paint my map
+71	List
+72	All places on the map; tap a marker to open the place's page.
+73	Search, region and category, sorting, today's suggestions.
+74	Trip list, ready-made routes, festivals, journal and phrasebook.
+75	Travellers' photos and the photo of the week.
+76	The profile button at the top right has your account, notifications, language, appearance and privacy settings.
+77	Account
+78	Trip
+79	Support
+80	How do I find a place?
+81	Type in the search box in Explore, or filter by region and category. Tapping a marker on the map also opens the place's page.
+82	How do the trip list and route work?
+83	Tap “Add to my trip list” on a place's page. Your trip list in the Plan section puts the places in the shortest order and starts directions.
+84	Can I use it offline?
+85	You can download the map of your trip list or of a whole province to your phone. Place information is stored on the phone; writing reviews and uploading photos need internet.
+86	How do I add a place that is not listed?
+87	Suggest it with “Suggest a place” in Explore. Once the community approves it, it is added to the map and you get a notification.
+88	Why doesn't my photo appear right away?
+89	The first photos from new accounts are checked by a moderator before they are published. This usually doesn't take long.
+90	I saw wrong information. What should I do?
+91	Use the “Wrong information? Suggest a correction” link at the bottom of the place's page.
+92	Who can see my travel journal?
+93	Only you. If you turn on “Share by link”, anyone with the link can see it; your expenses are never shared.
+94	How do I turn off notifications?
+95	You can turn off the app's notifications in your phone's settings.
+96	How do I delete my account?
+97	Tap “Delete account” at the bottom of the My profile page. Your reviews, photos and all records are permanently deleted.
+98	My question isn't here
+99	Write to us from “Send feedback”; we'll get back to you as soon as possible.
+100	Ephesus Camel Wrestling Festival
+101	Traditional camel wrestling held in Selçuk on the third weekend of January.
+102	Nowruz
+103	On 21 March the arrival of spring is celebrated with bonfires and folk dances; it is especially lively in the east and southeast.
+104	Mesir Paste Festival
+105	Mesir paste is thrown to the crowd from the dome of the Sultan Mosque; a 500-year-old tradition.
+106	Istanbul Tulip Festival
+107	Parks, above all Emirgan Grove, are decorated with millions of tulips.
+108	Istanbul Film Festival
+109	One of Türkiye's oldest film festivals; hundreds of Turkish and foreign films are shown.
+110	Alaçatı Herb Festival
+111	Dishes made with Aegean herbs, tastings and street events.
+112	Hıdırellez
+113	Spring festivities on the night of 5–6 May; celebrated as Kakava in Edirne.
+114	Aksu Festival
+115	An ancient spring festival held around 20 May on the banks of the Aksu stream.
+116	Kırkpınar Oil Wrestling
+117	One of the oldest sporting events in the world; oil wrestling for the title of chief wrestler.
+118	Kafkasör Festival
+119	Bull wrestling, horon dance and local food on the Kafkasör plateau.
+120	Bursa Festival
+121	An international summer festival with concerts, folk dances and shows.
+122	Nasreddin Hodja Festival
+123	Days of jokes, theatre and fun in Akşehir in memory of Nasreddin Hodja.
+124	Istanbul Jazz Festival
+125	Concerts all over the city with world-famous artists.
+126	Hacı Bektaş Veli Commemoration
+127	Ceremonies, semah rituals and concerts in Hacıbektaş on 16–18 August.
+128	Troy Festival
+129	Parades, concerts and cultural events keeping the legend of Troy alive.
+130	Aspendos Opera and Ballet Festival
+131	Opera and ballet in the nearly 2,000-year-old theatre of Aspendos.
+132	Diyarbakır Watermelon Festival
+133	A festive event where giant Diyarbakır watermelons compete.
+134	Golden Orange Film Festival
+135	Türkiye's oldest film festival; stars and galas.
+136	Şeb-i Arus
+137	Sema ceremonies in memory of Rumi on 7–17 December; tickets may be needed.
+138	Four main sections

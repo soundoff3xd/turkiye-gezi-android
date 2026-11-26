@@ -5,9 +5,9 @@ import { useT } from '../i18n';
 import { C, R } from '../theme';
 
 /* Basit gezinme: alt sekmeler + üstte açılan ekran yığını (Android geri tuşu yığını kapatır) */
-export type Tab = 'map' | 'explore' | 'photos';
+export type Tab = 'map' | 'explore' | 'plan' | 'photos';
 export type Route =
-  | { name: 'place'; id: string; tab?: 'ov' | 'rev' | 'pho' }
+  | { name: 'place'; id: string; tab?: 'ov' | 'rev' | 'pho' | 'qa' }
   | { name: 'compose'; id: string }
   | { name: 'suggest' }
   | { name: 'pending' }
@@ -30,6 +30,8 @@ export type Route =
   | { name: 'journals' }
   | { name: 'routes' }
   | { name: 'phrases' }
+  | { name: 'festivals' }
+  | { name: 'help' }
   | { name: 'journal'; id: string };
 export type MapFocus = { id?: string; lat?: number; lng?: number; ts: number } | null;
 

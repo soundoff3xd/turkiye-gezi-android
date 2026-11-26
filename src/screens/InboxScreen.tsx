@@ -8,9 +8,9 @@ import { loadNotes, markAllRead, type Note } from '../lib/inbox';
 import { Empty, Header, b } from '../components/common';
 import { C, R } from '../theme';
 
-const ICON: Record<Note['kind'], string> = { reply: '💬', like: '♥', photo_like: '📷', approved: '✅' };
+const ICON: Record<Note['kind'], string> = { reply: '💬', like: '♥', photo_like: '📷', approved: '✅', answer: '❓' };
 const TXT: Record<Note['kind'], string> = {
-  reply: '{1} yorumuna yanıt verdi', like: '{1} yorumunu beğendi', photo_like: '{1} fotoğrafını beğendi', approved: 'Önerdiğin yer onaylandı ve haritaya eklendi',
+  reply: '{1} yorumuna yanıt verdi', like: '{1} yorumunu beğendi', photo_like: '{1} fotoğrafını beğendi', approved: 'Önerdiğin yer onaylandı ve haritaya eklendi', answer: '{1} sorunu yanıtladı',
 };
 
 /* Bildirimler: yorumlarına gelen yanıtlar ve beğeniler, onaylanan öneriler */
@@ -31,7 +31,7 @@ export default function InboxScreen() {
   useEffect(() => { load(); }, [load]);
   const open = (n: Note) => {
     if (!n.place_id || !byId(n.place_id)) return;
-    push({ name: 'place', id: n.place_id, tab: n.kind === 'photo_like' ? 'pho' : n.kind === 'approved' ? 'ov' : 'rev' });
+    push({ name: 'place', id: n.place_id, tab: n.kind === 'photo_like' ? 'pho' : n.kind === 'approved' ? 'ov' : n.kind === 'answer' ? 'qa' : 'rev' });
   };
   return (
     <View style={{ flex: 1, backgroundColor: C.screen }}>

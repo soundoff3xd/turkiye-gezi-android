@@ -1,0 +1,328 @@
+@sq
+0	Info nga vizitorët
+1	Me fëmijë
+2	Kafshë shtëpiake
+3	I përshtatshëm
+4	I papërshtatshëm
+5	Lejohen
+6	Nuk lejohen
+7	Ende nuk ka informacion
+8	Informacion nga vizitorët; telefono para se të shkosh.
+9	Ka parkim, a është hapur në dimër? Pyet çfarë do; do të përgjigjen udhëtarët që kanë qenë këtu.
+10	Shkruaj pyetjen
+11	Pyet
+12	Ende nuk ka pyetje
+13	Bëj pyetjen e parë.
+14	U fsheh pas raportimeve; një moderator po e shqyrton.
+15	Shkruaj një përgjigje
+16	Fshi pyetjen
+17	Pyetja jote u publikua
+18	Pyetje
+19	Raporto pyetjen
+20	Raporto përgjigjen
+21	{1} iu përgjigj pyetjes sate
+22	Të raportohet kjo përmbajtje si e papërshtatshme?
+23	Raportimi u mor, faleminderit
+24	Kjo pjesë kërkon internet.
+25	Fotoja e javës
+26	{1} pëlqime këtë javë
+27	Kalendari i festivaleve
+28	Festa dhe festivale që mbahen çdo vit. Datat mund të ndryshojnë; kontrollo njoftimet zyrtare para se të shkosh.
+29	Së shpejti
+30	Asnjë festival këtë muaj
+31	Festivale
+32	Nuk ka aeroport në këtë provincë; mund të përdorësh atë të një province fqinje.
+33	Ka ndalesë të trenit të shpejtë (YHT)
+34	Autobusët ndërqytetës mbërrijnë në stacionin e autobusëve në qendër.
+35	Janar
+36	Shkurt
+37	Mars
+38	Prill
+39	Maj
+40	Qershor
+41	Korrik
+42	Gusht
+43	Shtator
+44	Tetor
+45	Nëntor
+46	Dhjetor
+47	Akomodim
+48	Ushqim
+49	Transport
+50	Hyrje
+51	Blerje
+52	Shpenzime
+53	Ende nuk ka shpenzime
+54	I sheh vetëm ti; mbeten private edhe nëse e ndan ditarin.
+55	Shënim (opsionale)
+56	Shto shpenzim
+57	Planifiko
+58	Planifiko udhëtimin
+59	Vendet ku do shkosh dhe rruga më e shkurtër
+60	Itinerare të planifikuara ditë pas dite
+61	Qytete sipas interesave të tua
+62	Festa që mbahen çdo vit
+63	Gjatë udhëtimit
+64	Shënime, foto dhe shpenzime ditë pas dite
+65	Shprehje bazë me shqiptim zanor
+66	Ndihmë
+67	Ndihmë dhe pyetje të shpeshta
+68	Si ta përdor aplikacionin?
+69	Ngjyros në hartë provincat që ke vizituar
+70	Ngjyros hartën time
+71	Lista
+72	Të gjitha vendet në hartë; prek një shenjë për të hapur faqen e vendit.
+73	Kërkim, rajon dhe kategori, renditje, sugjerimet e ditës.
+74	Lista e udhëtimit, itinerare të gatshme, festivale, ditar dhe fjalorth.
+75	Fotot e udhëtarëve dhe fotoja e javës.
+76	Butoni i profilit lart djathtas ka llogarinë, njoftimet, gjuhën, pamjen dhe privatësinë.
+77	Llogaria
+78	Udhëtimi
+79	Mbështetje
+138	Katër pjesët kryesore
+@sr
+0	Подаци посетилаца
+1	Са децом
+2	Кућни љубимци
+3	Погодно
+4	Није погодно
+5	Дозвољено
+6	Није дозвољено
+7	Још нема података
+8	Подаци посетилаца; позови пре одласка.
+9	Има ли паркинга, да ли је отворено зими? Питај шта те занима; одговориће путници који су били ту.
+10	Напиши питање
+11	Питај
+12	Још нема питања
+13	Постави прво питање.
+14	Скривено после пријава; модератор проверава.
+15	Напиши одговор
+16	Обриши питање
+17	Питање је објављено
+18	Питања
+19	Пријави питање
+20	Пријави одговор
+21	{1} је одговорио/ла на твоје питање
+22	Пријавити овај садржај као неприкладан?
+23	Пријава примљена, хвала
+24	За овај део потребан је интернет.
+25	Фотографија недеље
+26	{1} свиђања ове недеље
+27	Календар фестивала
+28	Празници и фестивали који се одржавају сваке године. Датуми се могу мењати; пре одласка провери званична обавештења.
+29	Ускоро
+30	Нема фестивала овог месеца
+31	Фестивали
+32	У овој провинцији нема аеродрома; користи аеродром суседне провинције.
+33	Постоји станица брзог воза (YHT)
+34	Међуградски аутобуси стижу на аутобуску станицу у центру.
+35	Јануар
+36	Фебруар
+37	Март
+38	Април
+39	Мај
+40	Јун
+41	Јул
+42	Август
+43	Септембар
+44	Октобар
+45	Новембар
+46	Децембар
+47	Смештај
+48	Храна
+49	Превоз
+50	Улазнице
+51	Куповина
+52	Трошкови
+53	Још нема трошкова
+54	Видиш само ти; остаје приватно чак и ако поделиш дневник.
+55	Белешка (необавезно)
+56	Додај трошак
+57	Планирај
+58	Испланирај путовање
+59	Места за обилазак и најкраћа рута
+60	Руте планиране дан по дан
+61	Градови према твојим интересовањима
+62	Празници који се одржавају сваке године
+63	На путу
+64	Белешке, фотографије и трошкови дан по дан
+65	Основни изрази са изговором
+66	Помоћ
+67	Помоћ и честа питања
+68	Како да користим апликацију?
+69	Обоји на мапи провинције које си обишао
+70	Обоји моју мапу
+71	Листа
+72	Сва места су на мапи; додирни ознаку да отвориш страницу места.
+73	Претрага, регион и категорија, сортирање, данашњи предлози.
+74	Листа путовања, готове руте, фестивали, дневник и речник.
+75	Фотографије путника и фотографија недеље.
+76	Дугме профила горе десно садржи налог, обавештења, језик, изглед и приватност.
+77	Налог
+78	Путовање
+79	Подршка
+138	Четири главна дела
+@hr
+0	Podaci posjetitelja
+1	S djecom
+2	Kućni ljubimci
+3	Prikladno
+4	Nije prikladno
+5	Dopušteno
+6	Nije dopušteno
+7	Još nema podataka
+8	Podaci posjetitelja; nazovi prije odlaska.
+9	Ima li parkirališta, je li otvoreno zimi? Pitaj što te zanima; odgovorit će putnici koji su bili ovdje.
+10	Napiši pitanje
+11	Pitaj
+12	Još nema pitanja
+13	Postavi prvo pitanje.
+14	Skriveno nakon prijava; moderator provjerava.
+15	Napiši odgovor
+16	Izbriši pitanje
+17	Pitanje je objavljeno
+18	Pitanja
+19	Prijavi pitanje
+20	Prijavi odgovor
+21	{1} je odgovorio/la na tvoje pitanje
+22	Prijaviti ovaj sadržaj kao neprikladan?
+23	Prijava zaprimljena, hvala
+24	Za ovaj dio potreban je internet.
+25	Fotografija tjedna
+26	{1} sviđanja ovog tjedna
+27	Kalendar festivala
+28	Blagdani i festivali koji se održavaju svake godine. Datumi se mogu mijenjati; prije odlaska provjeri službene obavijesti.
+29	Uskoro
+30	Nema festivala ovog mjeseca
+31	Festivali
+32	U ovoj pokrajini nema zračne luke; koristi onu u susjednoj pokrajini.
+33	Postoji stanica brzog vlaka (YHT)
+34	Međugradski autobusi stižu na autobusni kolodvor u središtu.
+35	Siječanj
+36	Veljača
+37	Ožujak
+38	Travanj
+39	Svibanj
+40	Lipanj
+41	Srpanj
+42	Kolovoz
+43	Rujan
+44	Listopad
+45	Studeni
+46	Prosinac
+47	Smještaj
+48	Hrana
+49	Prijevoz
+50	Ulaznice
+51	Kupnja
+52	Troškovi
+53	Još nema troškova
+54	Vidiš samo ti; ostaje privatno i ako podijeliš dnevnik.
+55	Bilješka (neobavezno)
+56	Dodaj trošak
+57	Planiraj
+58	Isplaniraj putovanje
+59	Mjesta za obilazak i najkraća ruta
+60	Rute isplanirane dan po dan
+61	Gradovi prema tvojim interesima
+62	Blagdani koji se održavaju svake godine
+63	Na putu
+64	Bilješke, fotografije i troškovi dan po dan
+65	Osnovni izrazi s izgovorom
+66	Pomoć
+67	Pomoć i česta pitanja
+68	Kako koristiti aplikaciju?
+69	Oboji na karti pokrajine koje si posjetio
+70	Oboji moju kartu
+71	Popis
+72	Sva mjesta su na karti; dodirni oznaku da otvoriš stranicu mjesta.
+73	Pretraživanje, regija i kategorija, poredak, današnji prijedlozi.
+74	Popis putovanja, gotove rute, festivali, dnevnik i rječnik.
+75	Fotografije putnika i fotografija tjedna.
+76	Gumb profila gore desno sadrži račun, obavijesti, jezik, izgled i privatnost.
+77	Račun
+78	Putovanje
+79	Podrška
+138	Četiri glavna dijela
+@cs
+0	Info od návštěvníků
+1	S dětmi
+2	Domácí mazlíčci
+3	Vhodné
+4	Nevhodné
+5	Povoleno
+6	Zakázáno
+7	Zatím žádné informace
+8	Informace od návštěvníků; před cestou zavolej.
+9	Je tu parkoviště, je otevřeno v zimě? Zeptej se; odpoví cestovatelé, kteří tu byli.
+10	Napiš otázku
+11	Zeptat se
+12	Zatím žádné otázky
+13	Polož první otázku.
+14	Skryto po nahlášení; moderátor to kontroluje.
+15	Napsat odpověď
+16	Smazat otázku
+17	Otázka byla zveřejněna
+18	Otázky
+19	Nahlásit otázku
+20	Nahlásit odpověď
+21	{1} odpověděl(a) na tvou otázku
+22	Nahlásit tento obsah jako nevhodný?
+23	Nahlášení přijato, děkujeme
+24	Tato část vyžaduje internet.
+25	Fotka týdne
+26	{1} lajků tento týden
+27	Kalendář festivalů
+28	Slavnosti a festivaly konané každý rok. Termíny se mohou měnit; před cestou zkontroluj oficiální oznámení.
+29	Brzy
+30	Tento měsíc žádné festivaly
+31	Festivaly
+32	V této provincii není letiště; použij letiště sousední provincie.
+33	Zastávka vysokorychlostního vlaku (YHT)
+34	Dálkové autobusy přijíždějí na autobusové nádraží v centru.
+35	Leden
+36	Únor
+37	Březen
+38	Duben
+39	Květen
+40	Červen
+41	Červenec
+42	Srpen
+43	Září
+44	Říjen
+45	Listopad
+46	Prosinec
+47	Ubytování
+48	Jídlo
+49	Doprava
+50	Vstupné
+51	Nákupy
+52	Výdaje
+53	Zatím žádné výdaje
+54	Vidíš jen ty; zůstává soukromé, i když deník sdílíš.
+55	Poznámka (nepovinné)
+56	Přidat výdaj
+57	Plánovat
+58	Naplánuj si cestu
+59	Místa k návštěvě a nejkratší trasa
+60	Trasy naplánované den po dni
+61	Města podle tvých zájmů
+62	Slavnosti konané každý rok
+63	Na cestě
+64	Poznámky, fotky a výdaje den po dni
+65	Základní fráze s výslovností
+66	Nápověda
+67	Nápověda a časté dotazy
+68	Jak aplikaci používat?
+69	Vybarvi na mapě navštívené provincie
+70	Vybarvit moji mapu
+71	Seznam
+72	Všechna místa na mapě; klepnutím na značku otevřeš stránku místa.
+73	Hledání, region a kategorie, řazení, dnešní tipy.
+74	Seznam cesty, hotové trasy, festivaly, deník a konverzace.
+75	Fotky cestovatelů a fotka týdne.
+76	Tlačítko profilu vpravo nahoře obsahuje účet, oznámení, jazyk, vzhled a soukromí.
+77	Účet
+78	Cesta
+79	Podpora
+138	Čtyři hlavní části

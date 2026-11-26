@@ -1,0 +1,139 @@
+Ziyaretçi bilgileri
+Çocuklarla
+Evcil hayvan
+Uygun
+Uygun değil
+Kabul ediliyor
+Kabul edilmiyor
+Henüz bilgi yok
+Ziyaretçilerin bildirdiği bilgidir; gitmeden önce yeri arayıp sor.
+Otopark var mı, kışın açık mı? Merak ettiğini sor; buraya gitmiş gezginler cevaplasın.
+Sorunu yaz
+Sor
+Henüz soru yok
+İlk soruyu sen sor.
+Şikâyetler nedeniyle gizlendi; moderatör inceliyor.
+Cevap yaz
+Soruyu sil
+Sorun gönderildi
+Sorular
+Soruyu şikâyet et
+Cevabı şikâyet et
+{1} sorunu yanıtladı
+Bu içerik uygunsuz olarak şikâyet edilsin mi?
+Şikâyetin alındı, teşekkürler
+Bu bölüm için internet gerekir.
+Haftanın fotoğrafı
+Bu hafta {1} beğeni
+Festival takvimi
+Her yıl tekrarlanan festival ve şenlikler. Tarihler yıldan yıla değişebilir; gitmeden önce resmî duyuruları kontrol et.
+Yakında
+Bu ay için festival yok
+Festivaller
+Bu ilde havalimanı yok; en yakın ildeki havalimanını kullanabilirsin.
+Yüksek hızlı tren (YHT) durağı var
+Şehirlerarası otobüsler il merkezindeki otogara gelir.
+Ocak
+Şubat
+Mart
+Nisan
+Mayıs
+Haziran
+Temmuz
+Ağustos
+Eylül
+Ekim
+Kasım
+Aralık
+Konaklama
+Yemek
+Ulaşım
+Giriş ücreti
+Alışveriş
+Harcamalar
+Henüz harcama yok
+Yalnızca sen görürsün; günlüğü paylaşsan da gizli kalır.
+Not (isteğe bağlı)
+Harcama ekle
+Planla
+Gezini planla
+Gideceğin yerler ve en kısa rota
+Gün gün planlanmış rotalar
+İlgi alanlarına göre şehir önerileri
+Her yıl tekrarlanan şenlikler
+Gezerken
+Gün gün notlar, fotoğraflar ve harcamalar
+Temel ifadeler, sesli okunuşuyla
+Yardım
+Yardım ve sık sorulanlar
+Uygulamayı nasıl kullanırım?
+Gezdiğin illeri haritada boya
+Haritamı boya
+Liste
+Tüm yerler haritada; işarete dokun, yerin sayfası açılsın.
+Arama, bölge ve kategori, sıralama, bugünün önerileri.
+Gezi listesi, hazır rotalar, festivaller, günlük ve sözlük.
+Gezginlerin fotoğrafları ve haftanın fotoğrafı.
+Sağ üstteki profil düğmesinde hesap, bildirimler, dil, görünüm ve gizlilik ayarları bulunur.
+Hesap
+Gezi
+Destek
+Bir yeri nasıl bulurum?
+Keşfet'te arama kutusuna yazabilir, bölge ve kategoriye göre süzebilirsin. Haritada bir işarete dokunmak da yerin sayfasını açar.
+Gezi listesi ve rota nasıl çalışır?
+Yer sayfasında “Gezi listeme ekle”ye dokun. Planla bölümündeki gezi listen yerleri en kısa sırayla dizer ve yol tarifini başlatır.
+İnternetsiz kullanabilir miyim?
+Gezi listenin ya da bir ilin haritasını telefonuna indirebilirsin. Yer bilgileri telefonda saklanır; yorum yazmak ve fotoğraf yüklemek için internet gerekir.
+Listede olmayan bir yeri nasıl eklerim?
+Keşfet'teki “Yer öner” ile önerebilirsin. Topluluk onaylayınca haritaya eklenir ve sana bildirim gelir.
+Fotoğrafım neden hemen görünmüyor?
+Yeni hesapların ilk fotoğrafları yayınlanmadan önce bir moderatör tarafından kontrol edilir. Bu genellikle kısa sürer.
+Yanlış bir bilgi gördüm, ne yapmalıyım?
+Yer sayfasının altındaki “Bilgi yanlış mı? Düzeltme öner” bağlantısını kullan.
+Gezi günlüğümü kimler görebilir?
+Yalnızca sen. “Bağlantıyla paylaş”ı açarsan bağlantıyı bilen herkes görebilir; harcamaların hiçbir zaman paylaşılmaz.
+Bildirimleri nasıl kapatırım?
+Telefonunun ayarlarından uygulamanın bildirimlerini kapatabilirsin.
+Hesabımı nasıl silerim?
+Profilim sayfasının en altındaki “Hesabı sil” düğmesine dokun. Yorumların, fotoğrafların ve tüm kayıtların kalıcı olarak silinir.
+Sorum burada yok
+“Görüş ve öneri gönder” bölümünden bize yaz; en kısa sürede dönüş yaparız.
+Efes Deve Güreşi Festivali
+Selçuk'ta, ocak ayının üçüncü hafta sonu düzenlenen geleneksel deve güreşleri.
+Nevruz
+21 Mart'ta baharın gelişi ateşler yakılarak ve halaylarla kutlanır; özellikle Doğu ve Güneydoğu'da coşkuludur.
+Mesir Macunu Festivali
+Sultan Camii'nin kubbesinden halka mesir macunu saçılır; 500 yıllık bir gelenek.
+İstanbul Lale Festivali
+Emirgan Korusu başta olmak üzere parklar milyonlarca laleyle süslenir.
+İstanbul Film Festivali
+Türkiye'nin en köklü film festivallerinden; yerli ve yabancı yüzlerce film gösterilir.
+Alaçatı Ot Festivali
+Ege otlarıyla yapılan yemekler, tadımlar ve sokak etkinlikleri.
+Hıdırellez
+5–6 Mayıs gecesi baharı karşılama şenlikleri; Edirne'de Kakava olarak kutlanır.
+Aksu Festivali
+20 Mayıs civarında Aksu Deresi kıyısında yapılan, kökü çok eskiye dayanan bahar şenliği.
+Kırkpınar Yağlı Güreşleri
+Dünyanın en eski spor organizasyonlarından biri; başpehlivanlık için yağlı güreşler.
+Kafkasör Festivali
+Kafkasör Yaylası'nda boğa güreşleri, horon ve yöresel lezzetler.
+Bursa Festivali
+Konserler, halk dansları ve gösterilerle geçen uluslararası yaz festivali.
+Nasreddin Hoca Şenlikleri
+Akşehir'de Nasreddin Hoca'nın anısına fıkra, tiyatro ve eğlence dolu günler.
+İstanbul Caz Festivali
+Dünyaca ünlü sanatçıların sahne aldığı, şehrin dört bir yanında konserler.
+Hacı Bektaş Veli Anma Törenleri
+16–18 Ağustos'ta Hacıbektaş'ta anma törenleri, semah ve konserler.
+Troya Festivali
+Troya efsanesini yaşatan kortejler, konserler ve kültür etkinlikleri.
+Aspendos Opera ve Bale Festivali
+Yaklaşık 2000 yıllık Aspendos tiyatrosunda opera ve bale gösterileri.
+Diyarbakır Karpuz Festivali
+Dev Diyarbakır karpuzlarının yarıştığı, şenlik havasında bir festival.
+Altın Portakal Film Festivali
+Türkiye'nin en eski film festivali; yıldızlar ve galalar.
+Şeb-i Arus
+7–17 Aralık'ta Mevlana'nın anısına sema törenleri; bilet gerekebilir.
+Dört ana bölüm

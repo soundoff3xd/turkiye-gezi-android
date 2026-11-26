@@ -12,7 +12,7 @@ export const REASONS: [string, string][] = [
   ['yanlis', 'Yanlış veya yanıltıcı bilgi'], ['diger', 'Diğer'],
 ];
 export type ReportReq = { type: ReportTarget; id: string; choices?: ReportTarget[] } | null;
-const TITLE: Record<ReportTarget, string> = { review: 'Yorumu şikâyet et', photo: 'Fotoğrafı şikâyet et', reply: 'Yanıtı şikâyet et' };
+const TITLE: Record<ReportTarget, string> = { review: 'Yorumu şikâyet et', photo: 'Fotoğrafı şikâyet et', reply: 'Yanıtı şikâyet et', question: 'Soruyu şikâyet et', answer: 'Cevabı şikâyet et' };
 
 /* Şikâyet penceresi: neyi ve neden şikâyet ettiğini seç */
 export default function ReportSheet({ req, onClose }: { req: ReportReq; onClose: () => void }) {

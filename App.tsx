@@ -33,6 +33,7 @@ import PaintScreen from './src/screens/PaintScreen';
 import InboxScreen from './src/screens/InboxScreen';
 import JournalScreen, { JournalsScreen } from './src/screens/JournalScreen';
 import { PhrasesScreen, RoutesScreen } from './src/components/Extras2';
+import { FestivalScreen, HelpScreen, PlanScreen } from './src/components/Extras3';
 import { TripProvider } from './src/lib/trip';
 import { APK_URL, useUpdate } from './src/lib/update';
 import { BADGES, earned } from './src/data/badges';
@@ -48,9 +49,9 @@ import { usePush } from './src/lib/push';
 installCrashHandler();
 
 // sekme değişince ya da üst bileşen yeniden çizilince bu ekranlar boşuna yeniden çizilmesin
-const MapM = React.memo(MapScreen), ExploreM = React.memo(ExploreScreen), ShowcaseM = React.memo(ShowcaseScreen);
+const MapM = React.memo(MapScreen), ExploreM = React.memo(ExploreScreen), ShowcaseM = React.memo(ShowcaseScreen), PlanM = React.memo(PlanScreen);
 
-const TABS: [Tab, string, string][] = [['map', '🗺', 'Harita'], ['explore', '🧭', 'Keşfet'], ['photos', '📷', 'Vitrin']];
+const TABS: [Tab, string, string][] = [['map', '🗺', 'Harita'], ['explore', '🧭', 'Keşfet'], ['plan', '📋', 'Planla'], ['photos', '📷', 'Vitrin']];
 
 const ScreenM = React.memo(function Screen({ r }: { r: Route }) {
   switch (r.name) {
@@ -75,6 +76,8 @@ const ScreenM = React.memo(function Screen({ r }: { r: Route }) {
     case 'journals': return <JournalsScreen />;
     case 'routes': return <RoutesScreen />;
     case 'phrases': return <PhrasesScreen />;
+    case 'festivals': return <FestivalScreen />;
+    case 'help': return <HelpScreen />;
     case 'journal': return <JournalScreen id={r.id} />;
     case 'profile': return <ProfileScreen />;
     case 'interests': return <InterestsScreen />;
@@ -113,6 +116,7 @@ function Shell() {
         {/* harita her zaman yerinde durur; diğer sekmeler üstüne açılır */}
         <ErrorBoundary label="map" t={t}><MapM /></ErrorBoundary>
         <TabLayer visible={tab === 'explore'} dir={dir}><ErrorBoundary label="explore" t={t}><ExploreM /></ErrorBoundary></TabLayer>
+        <TabLayer visible={tab === 'plan'} dir={dir}><ErrorBoundary label="plan" t={t}><PlanM /></ErrorBoundary></TabLayer>
         <TabLayer visible={tab === 'photos'} dir={dir}><ErrorBoundary label="photos" t={t}><ShowcaseM /></ErrorBoundary></TabLayer>
       </View>
       <View style={[s.tabs, { paddingBottom: insets.bottom + 6 }]} accessibilityRole="tablist">

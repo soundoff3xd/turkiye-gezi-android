@@ -13,6 +13,7 @@ import { GROUPS, SUBS, catName, meters } from '../data/catalog';
 import { MARKER_IMAGES } from '../data/markers';
 import { Dishes } from '../components/Extras';
 import OfflineBox from '../components/OfflineBox';
+import { CityExtras } from '../components/Extras3';
 import { ilPack } from '../lib/offline';
 import { C, R } from '../theme';
 
@@ -143,6 +144,7 @@ export function CityScreen({ il, subs }: { il: string; subs: string[] }) {
         )}
         <Text style={b.fine}>{t('Plan, yerleri birbirine en yakın sırayla dizer. Açılış saatlerini gitmeden önce kontrol et.')}</Text>
         <Dishes il={il} />
+        <CityExtras il={il} />
         <OfflineBox pts={all} name={ilPack(il)} doneText="Bu ilin haritası telefonuna indirildi. İnternet olmadan da açılır." introText="Bu ilin tamamının haritasını telefonuna indir; dağda, köyde, internetin çekmediği yerde de harita açılır." />
 
         <Text style={[b.h2, { marginTop: 22, marginBottom: 6 }]}>{t('{1} içindeki tüm yerler ({2})', il, num(all.length))}</Text>
