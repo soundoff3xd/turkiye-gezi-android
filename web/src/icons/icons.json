@@ -1,0 +1,163 @@
+{
+ "colors": {
+  "kultur": "#B4532A",
+  "doga": "#2F7D4A",
+  "deniz": "#1E6FB0",
+  "sehir": "#7B4FA8",
+  "manzara": "#C98312"
+ },
+ "glyphs": {
+  "cami": "<path d=\"M6 19v-5a6 6 0 0 1 12 0v5\"/><path d=\"M4 19h16\"/><path d=\"M12 8V6\"/><path d=\"M20 19V8l-1-2-1 2v11\"/>",
+  "kilise": "<path d=\"M12 3v5M10 5h4\"/><path d=\"M6 20v-8l6-4 6 4v8\"/><path d=\"M4 20h16\"/><path d=\"M10.5 20v-4h3v4\"/>",
+  "antik": "<path d=\"M4 9h16L12 4z\"/><path d=\"M6 9v9M10 9v9M14 9v9M18 9v9\"/><path d=\"M4 20h16\"/>",
+  "kale": "<path d=\"M5 20V8h2v2h2V8h2v2h2V8h2v2h2V8h2v12z\"/><path d=\"M10 20v-4a2 2 0 0 1 4 0v4\"/>",
+  "saray": "<path d=\"M3 20h18\"/><path d=\"M5 20v-8h14v8\"/><path d=\"M9 12a3 3 0 0 1 6 0\"/><path d=\"M5 12V9M19 12V9\"/><path d=\"M9.5 20v-4h5v4\"/>",
+  "muze": "<path d=\"M3 9l9-5 9 5z\"/><path d=\"M5 9v9M9.5 9v9M14.5 9v9M19 9v9\"/><path d=\"M3 20h18\"/>",
+  "anit": "<path d=\"M10 20l1-14 1-2 1 2 1 14z\"/><path d=\"M6 20h12\"/>",
+  "yapi": "<path d=\"M4 20V9l8-5 8 5v11\"/><path d=\"M8.5 20v-5a3.5 3.5 0 0 1 7 0v5\"/>",
+  "park": "<path d=\"M12 20v-6\"/><path d=\"M12 4l-6 9h12z\"/><path d=\"M12 8l-4 6\"/>",
+  "gol": "<ellipse cx=\"12\" cy=\"13\" rx=\"9\" ry=\"6\"/><path d=\"M7 12.5q2.5-1.5 5 0t5 0\"/><path d=\"M8 15.5q2-1 4 0t4 0\"/>",
+  "selale": "<path d=\"M4 6h16\"/><path d=\"M8 6v9M12 6v12M16 6v9\"/><path d=\"M5 19q3-2 7 0t7 0\"/>",
+  "kanyon": "<path d=\"M3 5l5 4 2 10M21 5l-5 4-2 10\"/><path d=\"M9 19h6\"/>",
+  "dag": "<path d=\"M2 20l7-12 4 6 3-4 6 10z\"/><path d=\"M7.5 10.5l1.5 1.5 1.5-1.5\"/>",
+  "magara": "<path d=\"M3 20l5-11 4-4 4 4 5 11z\"/><path d=\"M9 20v-3a3 3 0 0 1 6 0v3\"/>",
+  "olusum": "<path d=\"M4 20l3-11 3 11M10 20l3-14 3 14M15 20l2.5-9 2.5 9\"/><path d=\"M2 20h20\"/>",
+  "kaplica": "<path d=\"M3 16q4.5 5 9 0t9 0\"/><path d=\"M8 12q-1.5-2 0-4t0-4M12 12q-1.5-2 0-4t0-4M16 12q-1.5-2 0-4t0-4\"/>",
+  "plaj": "<path d=\"M12 9v11\"/><path d=\"M3 10a9 6 0 0 1 18 0z\"/><path d=\"M5 20h14\"/>",
+  "ada": "<path d=\"M3 19q9-6 18 0\"/><path d=\"M12 16V7\"/><path d=\"M12 7q-4-2-7 1M12 7q4-2 7 1M12 7q-2-3-5-3M12 7q2-3 5-3\"/>",
+  "sahil": "<path d=\"M3 16h18l-3 4H6z\"/><path d=\"M12 16V3l6 10h-6\"/><path d=\"M12 6l-5 7h5\"/>",
+  "carsi": "<path d=\"M4 9h16l-1.5-4h-13z\"/><path d=\"M4 9a2.7 2.7 0 0 0 5.3 0 2.7 2.7 0 0 0 5.4 0 2.7 2.7 0 0 0 5.3 0\"/><path d=\"M5 12v8h14v-8\"/><path d=\"M10 20v-5h4v5\"/>",
+  "mahalle": "<path d=\"M3 20V11l5-4 5 4v9\"/><path d=\"M13 20v-7l4-3 4 3v7\"/><path d=\"M2 20h20\"/><path d=\"M6.5 20v-4h3v4\"/>",
+  "kasaba": "<path d=\"M3 20v-8l6-5 6 5v8\"/><path d=\"M1.5 20h21\"/><path d=\"M19 20v-5\"/><circle cx=\"19\" cy=\"12\" r=\"3\"/><path d=\"M7.5 20v-4h3v4\"/>",
+  "cadde": "<path d=\"M12 21V8\"/><path d=\"M8 8h8\"/><path d=\"M9 8l1-4h4l1 4\"/><path d=\"M8 21h8\"/>",
+  "seyir": "<circle cx=\"7\" cy=\"15\" r=\"4\"/><circle cx=\"17\" cy=\"15\" r=\"4\"/><path d=\"M11 15h2\"/><path d=\"M5 11l2-6h3l1 6M19 11l-2-6h-3l-1 6\"/>",
+  "kule": "<path d=\"M9 20l1-11h4l1 11\"/><path d=\"M8.5 9h7\"/><path d=\"M9.5 9L12 3l2.5 6\"/><path d=\"M7 20h10\"/><path d=\"M11.5 13h1\"/>"
+ },
+ "landmarks": {
+  "galatakulesi": {
+   "il": "İstanbul",
+   "c": "kule",
+   "svg": "<path d=\"M24 56h16l-2-30H26z\" fill=\"#D9C3A0\" stroke=\"#B89A6E\" stroke-width=\"1.5\"/> <path d=\"M23 26h18v4H23z\" fill=\"#B89A6E\"/><path d=\"M25 30h14l-.4 5H25.4z\" fill=\"#EFE3CC\"/> <rect x=\"28\" y=\"31\" width=\"2.4\" height=\"3\" fill=\"#3B3A36\"/><rect x=\"33.6\" y=\"31\" width=\"2.4\" height=\"3\" fill=\"#3B3A36\"/> <path d=\"M22.5 26L32 7l9.5 19z\" fill=\"#2F5D7C\"/><path d=\"M32 7V3\" stroke=\"#3B3A36\" stroke-width=\"1.5\"/> <rect x=\"29.5\" y=\"42\" width=\"5\" height=\"7\" rx=\"2.5\" fill=\"#3B3A36\"/><path d=\"M14 56h36\" stroke=\"#B89A6E\" stroke-width=\"2\"/>"
+  },
+  "ayasofya": {
+   "il": "İstanbul",
+   "c": "cami",
+   "svg": "<path d=\"M14 54V40h36v14z\" fill=\"#E7B8A0\"/><path d=\"M18 40a14 14 0 0 1 28 0z\" fill=\"#C98E72\"/> <path d=\"M24 30a8 8 0 0 1 16 0\" fill=\"#9E9FA0\"/><path d=\"M32 22v-4\" stroke=\"#3B3A36\" stroke-width=\"1.5\"/> <path d=\"M8 54V24l1.5-4 1.5 4v30M53 54V24l1.5-4 1.5 4v30\" fill=\"#EADBC8\" stroke=\"#B89A6E\" stroke-width=\"1\"/> <path d=\"M10 54h44\" stroke=\"#B89A6E\" stroke-width=\"2\"/><rect x=\"29\" y=\"45\" width=\"6\" height=\"9\" rx=\"3\" fill=\"#3B3A36\"/>"
+  },
+  "mavi": {
+   "il": "İstanbul",
+   "c": "cami",
+   "svg": "<path d=\"M16 54V42h32v12z\" fill=\"#D7DCE6\"/><path d=\"M20 42a12 12 0 0 1 24 0z\" fill=\"#5C7FB8\"/> <path d=\"M13 44a5 5 0 0 1 10 0zM41 44a5 5 0 0 1 10 0z\" fill=\"#7C98C6\"/><path d=\"M32 30v-4\" stroke=\"#3B3A36\" stroke-width=\"1.5\"/> <path d=\"M5 54V26l1.5-4 1.5 4v28M11 54V30l1.2-3 1.2 3v24M51 54V30l1.2-3 1.2 3v24M57 54V26l1.5-4 1.5 4v28\" fill=\"#ECEFF4\" stroke=\"#8C98AC\" stroke-width=\".9\"/> <path d=\"M4 54h56\" stroke=\"#8C98AC\" stroke-width=\"2\"/>"
+  },
+  "topkapi": {
+   "il": "İstanbul",
+   "c": "saray",
+   "svg": "<path d=\"M12 54V30h40v24z\" fill=\"#F1ECE2\" stroke=\"#B89A6E\" stroke-width=\"1.2\"/> <path d=\"M10 30h8v-3h-8zM46 30h8v-3h-8z\" fill=\"#B89A6E\"/> <path d=\"M10 27l4-14 4 14zM46 27l4-14 4 14z\" fill=\"#2F5D7C\"/> <path d=\"M26 54V40a6 6 0 0 1 12 0v14z\" fill=\"#3B3A36\"/><path d=\"M20 30h24l-3-5H23z\" fill=\"#C2452D\"/> <path d=\"M8 54h48\" stroke=\"#B89A6E\" stroke-width=\"2\"/>"
+  },
+  "kizkulesi": {
+   "il": "İstanbul",
+   "c": "kule",
+   "svg": "<path d=\"M6 52q6-3 13 0t13 0 13 0 13 0v6H6z\" fill=\"#2C88C9\"/> <path d=\"M18 50h28l-2-8H20z\" fill=\"#B89A6E\"/><path d=\"M24 42V30h16v12z\" fill=\"#F4EEE4\" stroke=\"#B89A6E\" stroke-width=\"1\"/> <path d=\"M27 30v-8h10v8z\" fill=\"#F4EEE4\" stroke=\"#B89A6E\" stroke-width=\"1\"/><path d=\"M26 22l6-12 6 12z\" fill=\"#2F5D7C\"/> <path d=\"M32 10V6\" stroke=\"#3B3A36\" stroke-width=\"1.4\"/><rect x=\"30.5\" y=\"33\" width=\"3\" height=\"5\" rx=\"1.5\" fill=\"#3B3A36\"/>"
+  },
+  "goreme": {
+   "il": "Nevşehir",
+   "c": "muze",
+   "svg": "<path d=\"M32 6c-10 0-17 7-17 16 0 7 6 12 10 17h14c4-5 10-10 10-17 0-9-7-16-17-16z\" fill=\"#C2452D\"/> <path d=\"M32 6c-4 0-7 7-7 16 0 7 2 12 3.5 17h7c1.5-5 3.5-10 3.5-17 0-9-3-16-7-16z\" fill=\"#F2B33D\"/> <path d=\"M25 39l2 6M39 39l-2 6\" stroke=\"#3B3A36\" stroke-width=\"1.2\"/><rect x=\"26.5\" y=\"45\" width=\"11\" height=\"7\" rx=\"1.5\" fill=\"#9A6B3F\"/> <path d=\"M6 58l5-9 4 9zM48 58l5-11 5 11z\" fill=\"#D9C3A0\"/>"
+  },
+  "pamukkale": {
+   "il": "Denizli",
+   "c": "olusum",
+   "svg": "<path d=\"M6 22h52v6H6zM10 32h44v6H10zM14 42h36v6H14zM18 52h28v6H18z\" fill=\"#FFFFFF\" stroke=\"#C9D6DC\" stroke-width=\"1.2\"/> <path d=\"M9 23h46v3H9zM13 33h38v3H13zM17 43h30v3H17zM21 53h22v3H21z\" fill=\"#6EC3E6\"/> <path d=\"M10 18q11-8 22-4t22-2\" stroke=\"#4E9A57\" stroke-width=\"2\" fill=\"none\"/>"
+  },
+  "efes": {
+   "il": "İzmir",
+   "c": "antik",
+   "svg": "<path d=\"M8 56V20h48v36z\" fill=\"#EAD9BC\"/><path d=\"M6 20h52l-4-6H10z\" fill=\"#B89A6E\"/> <path d=\"M12 38h40v3H12z\" fill=\"#B89A6E\"/> <path d=\"M13 22v16M21 22v16M29 22v16M35 22v16M43 22v16M51 22v16M13 41v15M21 41v15M43 41v15M51 41v15\" stroke=\"#A88A5C\" stroke-width=\"2.6\"/> <path d=\"M27 56V46a5 5 0 0 1 10 0v10z\" fill=\"#3B3A36\"/><path d=\"M4 56h56\" stroke=\"#B89A6E\" stroke-width=\"2\"/>"
+  },
+  "nemrutdagi": {
+   "il": "Adıyaman",
+   "c": "anit",
+   "svg": "<path d=\"M4 58l16-26 12 10 10-14 18 30z\" fill=\"#C7A675\"/> <path d=\"M22 40c0-9 5-15 11-15s11 6 11 15v12H22z\" fill=\"#B48A57\" stroke=\"#8C6639\" stroke-width=\"1.2\"/> <path d=\"M24 26c2-8 16-8 18 0l-1 4H25z\" fill=\"#9E764A\"/><path d=\"M27 38h4M35 38h4M32 39v6M29 48h7\" stroke=\"#6E4E2A\" stroke-width=\"1.6\" stroke-linecap=\"round\"/>"
+  },
+  "sumela": {
+   "il": "Trabzon",
+   "c": "kilise",
+   "svg": "<path d=\"M4 60V8l16 6 6 14-4 32zM60 60V10l-14 8-4 16 2 26z\" fill=\"#6F8B5E\"/> <path d=\"M22 44V30h20v14z\" fill=\"#F0E8DA\" stroke=\"#B89A6E\" stroke-width=\"1\"/><path d=\"M20 30h24l-4-5H24z\" fill=\"#C2452D\"/> <path d=\"M25 34h3v4h-3zM30.5 34h3v4h-3zM36 34h3v4h-3z\" fill=\"#3B3A36\"/><path d=\"M22 44h20l2 16H20z\" fill=\"#7C7A70\"/>"
+  },
+  "anitkabir": {
+   "il": "Ankara",
+   "c": "anit",
+   "svg": "<path d=\"M6 56h52v-4H6zM10 52h44v-4H10z\" fill=\"#D8CFC0\"/><path d=\"M12 48V26h40v22z\" fill=\"#EEE8DD\"/> <path d=\"M10 26h44v-5H10z\" fill=\"#C9BDA9\"/> <path d=\"M15 28v20M20 28v20M25 28v20M30 28v20M34 28v20M39 28v20M44 28v20M49 28v20\" stroke=\"#BFB29C\" stroke-width=\"2.4\"/> <path d=\"M28 10h8v3h-8z\" fill=\"#C2452D\"/><path d=\"M27.5 10V21\" stroke=\"#3B3A36\" stroke-width=\"1.4\"/>"
+  },
+  "gobeklitepe": {
+   "il": "Şanlıurfa",
+   "c": "antik",
+   "svg": "<path d=\"M4 58q28-10 56 0z\" fill=\"#CDAE7E\"/><path d=\"M14 16h24v8H14z\" fill=\"#C2A270\"/><path d=\"M21 24h10v32H21z\" fill=\"#C2A270\"/> <path d=\"M14 16h24v8H14zM21 24h10v32H21z\" stroke=\"#8E7044\" stroke-width=\"1.3\" fill=\"none\"/> <path d=\"M24 34q2-3 4 0M24 42h4\" stroke=\"#8E7044\" stroke-width=\"1.4\" fill=\"none\" stroke-linecap=\"round\"/> <path d=\"M42 28h12v6H42zM45 34h6v20h-6z\" fill=\"#D4B886\" stroke=\"#8E7044\" stroke-width=\"1.1\"/>"
+  },
+  "truva": {
+   "il": "Çanakkale",
+   "c": "antik",
+   "svg": "<path d=\"M14 42h30v-10H14z\" fill=\"#A9743F\"/><path d=\"M36 32V18l8-6 6 4-4 4v12z\" fill=\"#A9743F\"/> <path d=\"M40 14l-3-6 5 3\" fill=\"#8C5A2B\"/><circle cx=\"45\" cy=\"16\" r=\"1.2\" fill=\"#3B3A36\"/> <path d=\"M16 42v8M22 42v8M36 42v8M42 42v8\" stroke=\"#8C5A2B\" stroke-width=\"3\"/><path d=\"M10 50h38v3H10z\" fill=\"#7A4E24\"/> <circle cx=\"15\" cy=\"55\" r=\"3\" fill=\"#3B3A36\"/><circle cx=\"43\" cy=\"55\" r=\"3\" fill=\"#3B3A36\"/><path d=\"M14 36h22\" stroke=\"#8C5A2B\" stroke-width=\"1.2\"/>"
+  },
+  "aspendos": {
+   "il": "Antalya",
+   "c": "antik",
+   "svg": "<path d=\"M4 52a28 28 0 0 1 56 0z\" fill=\"#D9AF7E\"/><path d=\"M12 52a20 20 0 0 1 40 0z\" fill=\"#C9966A\"/> <path d=\"M8 46h48M10 40h44M14 34h36M20 29h24\" stroke=\"#B27D52\" stroke-width=\"1.2\"/> <path d=\"M20 52a12 12 0 0 1 24 0z\" fill=\"#EBD5B5\"/><path d=\"M4 52h56v5H4z\" fill=\"#B27D52\"/>"
+  },
+  "oludeniz": {
+   "il": "Muğla",
+   "c": "plaj",
+   "svg": "<path d=\"M4 60V46q14-6 28-2t28 0v16z\" fill=\"#47B7C9\"/><path d=\"M4 50q12 6 24 2\" stroke=\"#F3E3B0\" stroke-width=\"3\" fill=\"none\"/> <path d=\"M42 50q8-14 18-12v22H38z\" fill=\"#4E9A57\"/> <path d=\"M10 18a22 10 0 0 1 36 0q-18-5-36 0z\" fill=\"#F0663D\"/><path d=\"M14 16a16 6 0 0 1 28 0\" stroke=\"#FFD23F\" stroke-width=\"2\" fill=\"none\"/> <path d=\"M11 18l15 16M45 18L30 34\" stroke=\"#3B3A36\" stroke-width=\".8\"/><circle cx=\"28\" cy=\"36\" r=\"2.6\" fill=\"#3B3A36\"/>"
+  },
+  "ani": {
+   "il": "Kars",
+   "c": "antik",
+   "svg": "<path d=\"M4 58h56v-4H4z\" fill=\"#A9845A\"/><path d=\"M14 54V26l18-10 18 10v28\" fill=\"#C47F5B\"/> <path d=\"M14 54V26l18-10 18 10v28\" stroke=\"#8E5338\" stroke-width=\"1.3\" fill=\"none\"/> <path d=\"M26 54V38a6 6 0 0 1 12 0v16z\" fill=\"#DCEEF7\"/><path d=\"M50 26l4 6-2 22M14 26l-3 10 1 18\" stroke=\"#8E5338\" stroke-width=\"1.3\" fill=\"none\"/> <path d=\"M42 26l8 2v8l-8-2z\" fill=\"#DCEEF7\"/>"
+  },
+  "safranbolu": {
+   "il": "Karabük",
+   "c": "mahalle",
+   "svg": "<path d=\"M12 56V36h40v20z\" fill=\"#F5EDE0\" stroke=\"#7A4E2E\" stroke-width=\"1.3\"/><path d=\"M8 36h48l-6-8H14z\" fill=\"#B9502F\"/> <path d=\"M10 28V18h44v10\" fill=\"#F5EDE0\" stroke=\"#7A4E2E\" stroke-width=\"1.3\"/><path d=\"M6 18h52l-8-10H14z\" fill=\"#B9502F\"/> <path d=\"M16 20h6v6h-6zM29 20h6v6h-6zM42 20h6v6h-6zM16 40h6v7h-6zM42 40h6v7h-6z\" fill=\"#6E8FA8\"/> <path d=\"M29 56V44h6v12z\" fill=\"#7A4E2E\"/><path d=\"M12 36v20M52 36v20M10 28h44\" stroke=\"#7A4E2E\" stroke-width=\"1.6\"/>"
+  },
+  "mardin": {
+   "il": "Mardin",
+   "c": "mahalle",
+   "svg": "<path d=\"M4 58l10-12h8l6-8h10l6-10h8l8-10v40z\" fill=\"#D9B98B\"/> <path d=\"M10 46h14v12H10zM24 38h14v20H24zM38 28h12v30H38z\" fill=\"#E7CDA2\" stroke=\"#B48C58\" stroke-width=\"1.1\"/> <path d=\"M14 50h3v4h-3zM29 42h3v5h-3zM42 32h3v5h-3zM42 42h3v5h-3z\" fill=\"#8B6A3E\"/> <path d=\"M52 24V8l1.5-3 1.5 3v16\" fill=\"#E7CDA2\" stroke=\"#B48C58\" stroke-width=\"1\"/>"
+  },
+  "uzungol": {
+   "il": "Trabzon",
+   "c": "gol",
+   "svg": "<path d=\"M2 40l14-20 10 12 10-18 14 16 12-8v18z\" fill=\"#4F8A57\"/><path d=\"M30 18l6-4 6 6\" fill=\"#FFFFFF\"/> <path d=\"M2 40h60v18H2z\" fill=\"#3E8FB8\"/><path d=\"M8 48h12M30 52h14M46 46h10\" stroke=\"#BFE3F2\" stroke-width=\"1.5\"/> <path d=\"M22 40v-8h10v8z\" fill=\"#F4EEE4\"/><path d=\"M24 32a3 3 0 0 1 6 0\" fill=\"#7D8C96\"/> <path d=\"M19 40V24l1-2 1 2v16M33 40V24l1-2 1 2v16\" fill=\"#F4EEE4\" stroke=\"#9AA4AA\" stroke-width=\".8\"/>"
+  },
+  "bodrum": {
+   "il": "Muğla",
+   "c": "kale",
+   "svg": "<path d=\"M4 52q7-3 14 0t14 0 14 0 14 0v8H4z\" fill=\"#2C88C9\"/> <path d=\"M8 50V34h30v16z\" fill=\"#D9C3A0\" stroke=\"#B89A6E\" stroke-width=\"1\"/> <path d=\"M8 34v-3h4v3h4v-3h4v3h4v-3h4v3h4v-3h6v3\" fill=\"#D9C3A0\" stroke=\"#B89A6E\" stroke-width=\"1\"/> <path d=\"M38 50V18h14v32z\" fill=\"#E3CFAA\" stroke=\"#B89A6E\" stroke-width=\"1\"/><path d=\"M38 18v-4h3v3h2.5v-3h3v3H49v-3h3v4z\" fill=\"#E3CFAA\" stroke=\"#B89A6E\" stroke-width=\"1\"/> <path d=\"M44 26h2v5h-2z\" fill=\"#3B3A36\"/><path d=\"M45 14V5\" stroke=\"#3B3A36\" stroke-width=\"1.2\"/><path d=\"M45 5h7l-2 2.5 2 2.5h-7z\" fill=\"#C2452D\"/>"
+  },
+  "selimiye": {
+   "il": "Edirne",
+   "c": "cami",
+   "svg": "<path d=\"M14 54V40h36v14z\" fill=\"#EFE5D3\"/><path d=\"M16 40a16 16 0 0 1 32 0z\" fill=\"#8F9698\"/> <path d=\"M32 24v-4\" stroke=\"#3B3A36\" stroke-width=\"1.5\"/> <path d=\"M6 54V14l1.5-5 1.5 5v40M12 54V18l1.4-4 1.4 4v36M49.2 54V18l1.4-4 1.4 4v36M55 54V14l1.5-5 1.5 5v40\" fill=\"#F6F0E4\" stroke=\"#A89878\" stroke-width=\".9\"/> <path d=\"M4 54h56\" stroke=\"#A89878\" stroke-width=\"2\"/><rect x=\"29\" y=\"45\" width=\"6\" height=\"9\" rx=\"3\" fill=\"#3B3A36\"/>"
+  },
+  "ishakpasa": {
+   "il": "Ağrı",
+   "c": "saray",
+   "svg": "<path d=\"M2 40l12-14 10 8 12-18 12 12 14-8v20z\" fill=\"#B49A78\"/><path d=\"M30 20l6-6 5 5\" fill=\"#FFFFFF\"/> <path d=\"M8 56V36h40v20z\" fill=\"#E6CFA6\" stroke=\"#A9814E\" stroke-width=\"1.1\"/> <path d=\"M22 36a6 6 0 0 1 12 0z\" fill=\"#C7A36B\"/><path d=\"M50 56V24l1.5-3 1.5 3v32\" fill=\"#E6CFA6\" stroke=\"#A9814E\" stroke-width=\"1\"/> <path d=\"M24 56V46a4 4 0 0 1 8 0v10z\" fill=\"#3B3A36\"/><path d=\"M12 40h4v5h-4zM38 40h4v5h-4z\" fill=\"#8B6A3E\"/>"
+  },
+  "akdamar": {
+   "il": "Van",
+   "c": "kilise",
+   "svg": "<path d=\"M2 50q8-3 15 0t15 0 15 0 15 0v10H2z\" fill=\"#2E7FB5\"/><path d=\"M8 50q24-12 48 0z\" fill=\"#7E9F62\"/> <path d=\"M22 46V30h20v16z\" fill=\"#D7A57A\" stroke=\"#9C6B45\" stroke-width=\"1.1\"/> <path d=\"M27 30v-8h10v8z\" fill=\"#D7A57A\" stroke=\"#9C6B45\" stroke-width=\"1.1\"/><path d=\"M26 22l6-9 6 9z\" fill=\"#9C6B45\"/> <path d=\"M20 30l12-6 12 6z\" fill=\"#B57F55\"/><rect x=\"30\" y=\"37\" width=\"4\" height=\"9\" rx=\"2\" fill=\"#3B3A36\"/>"
+  },
+  "agridagi": {
+   "il": "Ağrı",
+   "c": "dag",
+   "svg": "<path d=\"M2 58l22-36 8 8 6-6 24 34z\" fill=\"#7C8B96\"/><path d=\"M24 22l-8 13 6-2 4 4 6-5 4 3 4-1-8-10-6 6z\" fill=\"#FFFFFF\"/> <path d=\"M44 34l-6 6 10-2z\" fill=\"#E6EEF3\"/><path d=\"M2 58h60\" stroke=\"#5D6A72\" stroke-width=\"2\"/>"
+  },
+  "mevlana": {
+   "il": "Konya",
+   "c": "muze",
+   "svg": "<path d=\"M10 56V38h44v18z\" fill=\"#EFE7D8\" stroke=\"#B9A27A\" stroke-width=\"1\"/> <path d=\"M14 38a6 6 0 0 1 12 0zM38 38a6 6 0 0 1 12 0z\" fill=\"#A3A7A5\"/> <path d=\"M26 38V22h12v16z\" fill=\"#2E9E8C\"/><path d=\"M26 22l6-14 6 14z\" fill=\"#2BB29B\"/> <path d=\"M29 22v16M32 22v16M35 22v16\" stroke=\"#1F7A6B\" stroke-width=\"1\"/><path d=\"M32 8V4\" stroke=\"#3B3A36\" stroke-width=\"1.3\"/> <path d=\"M8 56h48\" stroke=\"#B9A27A\" stroke-width=\"2\"/>"
+  }
+ }
+}
