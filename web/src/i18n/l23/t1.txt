@@ -1,0 +1,300 @@
+@en
+0	Listen
+1	Stop
+2	Sunrise
+3	Today, Türkiye time
+4	Nearby essentials
+5	Pharmacy
+6	ATM
+7	Fuel station
+8	Toilet
+9	Parking
+10	None found nearby (2 km).
+11	Open 24/7
+12	Paid
+13	Free
+14	At night and on holidays, look for the on-duty pharmacy.
+15	Ready-made routes
+16	Routes planned day by day. Add the one you like to your trip list in one tap, then visit in the shortest order.
+17	{1} places added to your trip list
+18	Hidden gems
+19	Turkish phrasebook
+20	Basic Turkish phrases for your trip. Tap one and your phone will say it in Turkish.
+21	This browser does not support reading aloud.
+22	Istanbul in 2 days
+23	Cappadocia in 3 days
+24	Ephesus, Pamukkale and Bodrum in 4 days
+25	The Lycian coast in 4 days
+26	Antalya in 3 days
+27	Black Sea highlands in 3 days
+28	Gaziantep, Urfa and Mardin in 4 days
+29	Bursa in 2 days
+30	Konya in 1 day
+31	Greetings
+32	At a restaurant
+33	Directions and transport
+34	Shopping
+35	Emergencies
+36	Hello
+37	Good morning
+38	Good evening
+39	Goodbye
+40	Thank you
+41	You're welcome
+42	Please
+43	Yes
+44	No
+45	I'm sorry
+46	I don't speak Turkish
+47	Do you speak English?
+48	Can I have the menu?
+49	The bill, please
+50	Water
+51	Very tasty
+52	Not spicy, please
+53	I don't eat meat
+54	Do you take credit cards?
+55	Where is the toilet?
+56	Where is this?
+57	How far is it?
+58	Bus station
+59	Airport
+60	Right
+61	Left
+62	Straight ahead
+63	Stop
+64	One ticket, please
+65	How much?
+66	Too expensive
+67	Can you give a discount?
+68	I'll take this
+69	Help!
+70	Doctor
+71	Pharmacy
+72	Police
+73	I'm lost
+@de
+0	Anhören
+1	Stopp
+2	Sonnenaufgang
+3	Heute, türkische Zeit
+4	Wichtiges in der Nähe
+5	Apotheke
+6	Geldautomat
+7	Tankstelle
+8	Toilette
+9	Parkplatz
+10	In der Nähe nichts gefunden (2 km).
+11	Rund um die Uhr geöffnet
+12	Kostenpflichtig
+13	Kostenlos
+14	Nachts und an Feiertagen die Notdienst-Apotheke suchen.
+15	Fertige Routen
+16	Tag für Tag geplante Routen. Füge die passende mit einem Tippen zu deiner Reiseliste hinzu und besuche sie in der kürzesten Reihenfolge.
+17	{1} Orte zu deiner Reiseliste hinzugefügt
+18	Geheimtipps
+19	Türkisch-Sprachführer
+20	Grundlegende türkische Sätze für deine Reise. Tippe darauf und dein Handy spricht sie auf Türkisch.
+21	Dieser Browser unterstützt kein Vorlesen.
+22	Istanbul in 2 Tagen
+23	Kappadokien in 3 Tagen
+24	Ephesos, Pamukkale und Bodrum in 4 Tagen
+25	Die lykische Küste in 4 Tagen
+26	Antalya in 3 Tagen
+27	Hochland am Schwarzen Meer in 3 Tagen
+28	Gaziantep, Urfa und Mardin in 4 Tagen
+29	Bursa in 2 Tagen
+30	Konya an 1 Tag
+31	Begrüßung
+32	Im Restaurant
+33	Weg und Verkehr
+34	Beim Einkaufen
+35	Im Notfall
+36	Hallo
+37	Guten Morgen
+38	Guten Abend
+39	Auf Wiedersehen
+40	Danke
+41	Gern geschehen
+42	Bitte
+43	Ja
+44	Nein
+45	Entschuldigung
+46	Ich spreche kein Türkisch
+47	Sprechen Sie Englisch?
+48	Kann ich die Speisekarte haben?
+49	Die Rechnung, bitte
+50	Wasser
+51	Sehr lecker
+52	Bitte nicht scharf
+53	Ich esse kein Fleisch
+54	Kann ich mit Kreditkarte zahlen?
+55	Wo ist die Toilette?
+56	Wo ist das?
+57	Wie weit ist es?
+58	Busbahnhof
+59	Flughafen
+60	Rechts
+61	Links
+62	Geradeaus
+63	Haltestelle
+64	Eine Fahrkarte, bitte
+65	Wie viel kostet das?
+66	Zu teuer
+67	Geben Sie einen Rabatt?
+68	Ich nehme das
+69	Hilfe!
+70	Arzt
+71	Apotheke
+72	Polizei
+73	Ich habe mich verlaufen
+@fr
+0	Écouter
+1	Arrêter
+2	Lever du soleil
+3	Aujourd’hui, heure de Türkiye
+4	Services à proximité
+5	Pharmacie
+6	Distributeur
+7	Station-service
+8	Toilettes
+9	Parking
+10	Rien trouvé à proximité (2 km).
+11	Ouvert 24 h/24
+12	Payant
+13	Gratuit
+14	La nuit et les jours fériés, cherche la pharmacie de garde.
+15	Itinéraires tout prêts
+16	Des itinéraires planifiés jour par jour. Ajoute celui qui te plaît à ta liste de voyage d’un seul geste, puis visite dans l’ordre le plus court.
+17	{1} lieux ajoutés à ta liste de voyage
+18	Pépites cachées
+19	Guide de conversation turc
+20	Des phrases turques de base pour ton voyage. Touche-en une et ton téléphone la dira en turc.
+21	Ce navigateur ne prend pas en charge la lecture à voix haute.
+22	Istanbul en 2 jours
+23	La Cappadoce en 3 jours
+24	Éphèse, Pamukkale et Bodrum en 4 jours
+25	La côte lycienne en 4 jours
+26	Antalya en 3 jours
+27	Les hauts plateaux de la mer Noire en 3 jours
+28	Gaziantep, Urfa et Mardin en 4 jours
+29	Bursa en 2 jours
+30	Konya en 1 jour
+31	Salutations
+32	Au restaurant
+33	Orientation et transports
+34	Shopping
+35	Urgences
+36	Bonjour
+37	Bonjour (le matin)
+38	Bonsoir
+39	Au revoir
+40	Merci
+41	De rien
+42	S’il vous plaît
+43	Oui
+44	Non
+45	Pardon
+46	Je ne parle pas turc
+47	Parlez-vous anglais ?
+48	Je peux avoir la carte ?
+49	L’addition, s’il vous plaît
+50	Eau
+51	Très bon
+52	Pas épicé, s’il vous plaît
+53	Je ne mange pas de viande
+54	Vous acceptez la carte bancaire ?
+55	Où sont les toilettes ?
+56	Où est-ce ?
+57	C’est loin ?
+58	Gare routière
+59	Aéroport
+60	Droite
+61	Gauche
+62	Tout droit
+63	Arrêt
+64	Un billet, s’il vous plaît
+65	Combien ?
+66	Trop cher
+67	Vous faites une réduction ?
+68	Je prends ça
+69	Au secours !
+70	Médecin
+71	Pharmacie
+72	Police
+73	Je suis perdu
+@es
+0	Escuchar
+1	Detener
+2	Amanecer
+3	Hoy, hora de Türkiye
+4	Servicios cercanos
+5	Farmacia
+6	Cajero
+7	Gasolinera
+8	Baño
+9	Aparcamiento
+10	No se encontró nada cerca (2 km).
+11	Abierto 24 h
+12	De pago
+13	Gratis
+14	De noche y en festivos, busca la farmacia de guardia.
+15	Rutas listas
+16	Rutas planificadas día a día. Añade la que te guste a tu lista de viaje con un toque y visítala en el orden más corto.
+17	{1} lugares añadidos a tu lista de viaje
+18	Joyas ocultas
+19	Guía de frases en turco
+20	Frases básicas en turco para tu viaje. Tócala y tu móvil la dirá en turco.
+21	Este navegador no admite la lectura en voz alta.
+22	Estambul en 2 días
+23	Capadocia en 3 días
+24	Éfeso, Pamukkale y Bodrum en 4 días
+25	La costa licia en 4 días
+26	Antalya en 3 días
+27	Mesetas del mar Negro en 3 días
+28	Gaziantep, Urfa y Mardin en 4 días
+29	Bursa en 2 días
+30	Konya en 1 día
+31	Saludos
+32	En el restaurante
+33	Direcciones y transporte
+34	De compras
+35	Emergencias
+36	Hola
+37	Buenos días
+38	Buenas tardes
+39	Adiós
+40	Gracias
+41	De nada
+42	Por favor
+43	Sí
+44	No
+45	Lo siento
+46	No hablo turco
+47	¿Habla inglés?
+48	¿Me trae la carta?
+49	La cuenta, por favor
+50	Agua
+51	Muy rico
+52	Que no pique, por favor
+53	No como carne
+54	¿Aceptan tarjeta de crédito?
+55	¿Dónde está el baño?
+56	¿Dónde está esto?
+57	¿A qué distancia está?
+58	Estación de autobuses
+59	Aeropuerto
+60	Derecha
+61	Izquierda
+62	Todo recto
+63	Parada
+64	Un billete, por favor
+65	¿Cuánto cuesta?
+66	Demasiado caro
+67	¿Me hace un descuento?
+68	Me lo llevo
+69	¡Ayuda!
+70	Médico
+71	Farmacia
+72	Policía
+73	Me he perdido

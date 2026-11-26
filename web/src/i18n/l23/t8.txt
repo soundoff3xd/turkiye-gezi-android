@@ -1,0 +1,375 @@
+@no
+0	Lytt
+1	Stopp
+2	Soloppgang
+3	I dag, tyrkisk tid
+4	Nyttig i nærheten
+5	Apotek
+6	Minibank
+7	Bensinstasjon
+8	Toalett
+9	Parkering
+10	Ingenting funnet i nærheten (2 km).
+11	Åpent døgnet rundt
+12	Avgift
+13	Gratis
+14	Om natten og på helligdager: finn vaktapoteket.
+15	Ferdige ruter
+16	Ruter planlagt dag for dag. Legg til den du liker i reiselisten med ett trykk, og besøk i korteste rekkefølge.
+17	{1} steder lagt til i reiselisten
+18	Skjulte perler
+19	Tyrkisk parlør
+20	Grunnleggende tyrkiske uttrykk for reisen. Trykk, så sier telefonen det på tyrkisk.
+21	Denne nettleseren støtter ikke opplesning.
+22	Istanbul på 2 dager
+23	Kappadokia på 3 dager
+24	Efesos, Pamukkale og Bodrum på 4 dager
+25	Lykiakysten på 4 dager
+26	Antalya på 3 dager
+27	Svartehavets høyland på 3 dager
+28	Gaziantep, Urfa og Mardin på 4 dager
+29	Bursa på 2 dager
+30	Konya på 1 dag
+31	Hilsener
+32	På restaurant
+33	Vei og transport
+34	Handling
+35	Nødsituasjoner
+36	Hei
+37	God morgen
+38	God kveld
+39	Ha det
+40	Takk
+41	Bare hyggelig
+42	Vær så snill
+43	Ja
+44	Nei
+45	Unnskyld
+46	Jeg snakker ikke tyrkisk
+47	Snakker du engelsk?
+48	Kan jeg få menyen?
+49	Regningen, takk
+50	Vann
+51	Veldig godt
+52	Ikke sterkt, takk
+53	Jeg spiser ikke kjøtt
+54	Tar dere kredittkort?
+55	Hvor er toalettet?
+56	Hvor er dette?
+57	Hvor langt er det?
+58	Busstasjon
+59	Flyplass
+60	Høyre
+61	Venstre
+62	Rett fram
+63	Holdeplass
+64	Én billett, takk
+65	Hva koster det?
+66	For dyrt
+67	Kan jeg få rabatt?
+68	Jeg tar denne
+69	Hjelp!
+70	Lege
+71	Apotek
+72	Politi
+73	Jeg har gått meg vill
+@da
+0	Lyt
+1	Stop
+2	Solopgang
+3	I dag, tyrkisk tid
+4	Nyttigt i nærheden
+5	Apotek
+6	Hæveautomat
+7	Tankstation
+8	Toilet
+9	Parkering
+10	Intet fundet i nærheden (2 km).
+11	Åbent døgnet rundt
+12	Betaling
+13	Gratis
+14	Om natten og på helligdage: find vagtapoteket.
+15	Færdige ruter
+16	Ruter planlagt dag for dag. Tilføj den, du kan lide, til din rejseliste med ét tryk, og besøg i den korteste rækkefølge.
+17	{1} steder tilføjet til din rejseliste
+18	Skjulte perler
+19	Tyrkisk parlør
+20	Grundlæggende tyrkiske udtryk til rejsen. Tryk, så siger telefonen det på tyrkisk.
+21	Denne browser understøtter ikke oplæsning.
+22	Istanbul på 2 dage
+23	Kappadokien på 3 dage
+24	Efesos, Pamukkale og Bodrum på 4 dage
+25	Den lykiske kyst på 4 dage
+26	Antalya på 3 dage
+27	Sortehavets højland på 3 dage
+28	Gaziantep, Urfa og Mardin på 4 dage
+29	Bursa på 2 dage
+30	Konya på 1 dag
+31	Hilsner
+32	På restaurant
+33	Vej og transport
+34	Shopping
+35	Nødsituationer
+36	Hej
+37	Godmorgen
+38	Godaften
+39	Farvel
+40	Tak
+41	Selv tak
+42	Vær så venlig
+43	Ja
+44	Nej
+45	Undskyld
+46	Jeg taler ikke tyrkisk
+47	Taler du engelsk?
+48	Må jeg få menukortet?
+49	Regningen, tak
+50	Vand
+51	Meget lækkert
+52	Ikke stærk, tak
+53	Jeg spiser ikke kød
+54	Tager I kreditkort?
+55	Hvor er toilettet?
+56	Hvor er det her?
+57	Hvor langt er der?
+58	Busstation
+59	Lufthavn
+60	Højre
+61	Venstre
+62	Ligeud
+63	Stoppested
+64	En billet, tak
+65	Hvad koster det?
+66	For dyrt
+67	Kan jeg få rabat?
+68	Jeg tager den her
+69	Hjælp!
+70	Læge
+71	Apotek
+72	Politi
+73	Jeg er faret vild
+@fi
+0	Kuuntele
+1	Pysäytä
+2	Auringonnousu
+3	Tänään, Turkin aikaa
+4	Hyödyllistä lähellä
+5	Apteekki
+6	Pankkiautomaatti
+7	Huoltoasema
+8	WC
+9	Pysäköinti
+10	Lähistöltä ei löytynyt (2 km).
+11	Auki 24/7
+12	Maksullinen
+13	Maksuton
+14	Öisin ja pyhäpäivinä etsi päivystävä apteekki.
+15	Valmiit reitit
+16	Päivä päivältä suunnitellut reitit. Lisää mieluisa matkalistallesi yhdellä napautuksella ja kierrä lyhimmässä järjestyksessä.
+17	Matkalistallesi lisättiin {1} paikkaa
+18	Piilotetut helmet
+19	Turkin taskusanakirja
+20	Turkin perusfraaseja matkalle. Napauta, niin puhelin lausuu sen turkiksi.
+21	Tämä selain ei tue ääneen lukemista.
+22	Istanbul 2 päivässä
+23	Kappadokia 3 päivässä
+24	Efesos, Pamukkale ja Bodrum 4 päivässä
+25	Lyykian rannikko 4 päivässä
+26	Antalya 3 päivässä
+27	Mustanmeren ylängöt 3 päivässä
+28	Gaziantep, Urfa ja Mardin 4 päivässä
+29	Bursa 2 päivässä
+30	Konya 1 päivässä
+31	Tervehdykset
+32	Ravintolassa
+33	Tie ja liikenne
+34	Ostoksilla
+35	Hätätilanteessa
+36	Hei
+37	Hyvää huomenta
+38	Hyvää iltaa
+39	Näkemiin
+40	Kiitos
+41	Ole hyvä
+42	Ole hyvä (pyyntö)
+43	Kyllä
+44	Ei
+45	Anteeksi
+46	En puhu turkkia
+47	Puhutteko englantia?
+48	Saisinko ruokalistan?
+49	Lasku, kiitos
+50	Vesi
+51	Todella hyvää
+52	Ei tulista, kiitos
+53	En syö lihaa
+54	Käykö luottokortti?
+55	Missä on WC?
+56	Missä tämä on?
+57	Kuinka kaukana se on?
+58	Linja-autoasema
+59	Lentokenttä
+60	Oikealle
+61	Vasemmalle
+62	Suoraan
+63	Pysäkki
+64	Yksi lippu, kiitos
+65	Paljonko se maksaa?
+66	Liian kallis
+67	Saisinko alennusta?
+68	Otan tämän
+69	Apua!
+70	Lääkäri
+71	Apteekki
+72	Poliisi
+73	Olen eksyksissä
+@he
+0	האזן
+1	עצור
+2	זריחה
+3	היום, שעון טורקיה
+4	שירותים בקרבת מקום
+5	בית מרקחת
+6	כספומט
+7	תחנת דלק
+8	שירותים
+9	חניה
+10	לא נמצא דבר בקרבת מקום (2 ק״מ).
+11	פתוח 24/7
+12	בתשלום
+13	חינם
+14	בלילה ובחגים חפש בית מרקחת תורן.
+15	מסלולים מוכנים
+16	מסלולים מתוכננים יום אחר יום. הוסף את מה שמוצא חן בעיניך לרשימת הטיול בנגיעה אחת, ובקר בסדר הקצר ביותר.
+17	{1} מקומות נוספו לרשימת הטיול שלך
+18	פנינים נסתרות
+19	שיחון טורקי
+20	ביטויים בסיסיים בטורקית לטיול. גע וטלפון יגיד אותם בטורקית.
+21	הדפדפן הזה לא תומך בהקראה.
+22	איסטנבול ב-2 ימים
+23	קפדוקיה ב-3 ימים
+24	אפסוס, פמוקלה ובודרום ב-4 ימים
+25	חוף ליקיה ב-4 ימים
+26	אנטליה ב-3 ימים
+27	רמות הים השחור ב-3 ימים
+28	גזיאנטפ, אורפה ומרדין ב-4 ימים
+29	בורסה ב-2 ימים
+30	קוניה ביום אחד
+31	ברכות
+32	במסעדה
+33	דרך ותחבורה
+34	קניות
+35	במקרה חירום
+36	שלום
+37	בוקר טוב
+38	ערב טוב
+39	להתראות
+40	תודה
+41	בבקשה (בתשובה)
+42	בבקשה
+43	כן
+44	לא
+45	סליחה
+46	אני לא מדבר טורקית
+47	אתה מדבר אנגלית?
+48	אפשר לקבל תפריט?
+49	החשבון, בבקשה
+50	מים
+51	טעים מאוד
+52	לא חריף, בבקשה
+53	אני לא אוכל בשר
+54	אפשר לשלם בכרטיס אשראי?
+55	איפה השירותים?
+56	איפה זה?
+57	כמה זה רחוק?
+58	תחנה מרכזית
+59	שדה תעופה
+60	ימינה
+61	שמאלה
+62	ישר
+63	תחנה
+64	כרטיס אחד, בבקשה
+65	כמה זה עולה?
+66	יקר מדי
+67	אפשר הנחה?
+68	אני לוקח את זה
+69	הצילו!
+70	רופא
+71	בית מרקחת
+72	משטרה
+73	הלכתי לאיבוד
+@hi
+0	सुनें
+1	रोकें
+2	सूर्योदय
+3	आज, तुर्किये का समय
+4	पास की ज़रूरी जगहें
+5	दवा की दुकान
+6	एटीएम
+7	पेट्रोल पंप
+8	शौचालय
+9	पार्किंग
+10	पास में कुछ नहीं मिला (2 किमी)।
+11	24/7 खुला
+12	सशुल्क
+13	मुफ़्त
+14	रात में और छुट्टियों में ड्यूटी वाली दवा की दुकान देखो।
+15	तैयार रास्ते
+16	दिन-ब-दिन बनाए गए रास्ते। जो पसंद आए उसे एक टैप में अपनी यात्रा सूची में जोड़ो और सबसे छोटे क्रम में घूमो।
+17	तुम्हारी यात्रा सूची में {1} जगहें जोड़ी गईं
+18	छिपे रत्न
+19	तुर्की भाषा की जेब डायरी
+20	यात्रा में काम आने वाले बुनियादी तुर्की वाक्य। टैप करो, फ़ोन तुर्की में बोलेगा।
+21	यह ब्राउज़र पढ़कर सुनाने का समर्थन नहीं करता।
+22	2 दिन में इस्तांबुल
+23	3 दिन में कप्पादोकिया
+24	4 दिन में इफ़िसस, पामुक्कले और बोडरुम
+25	4 दिन में लिकिया तट
+26	3 दिन में अंताल्या
+27	3 दिन में काला सागर के पठार
+28	4 दिन में गाज़ियांटेप, उर्फ़ा और मार्दिन
+29	2 दिन में बुर्सा
+30	1 दिन में कोन्या
+31	अभिवादन
+32	रेस्टोरेंट में
+33	रास्ता और परिवहन
+34	ख़रीदारी में
+35	आपातकाल में
+36	नमस्ते
+37	सुप्रभात
+38	शुभ संध्या
+39	अलविदा
+40	धन्यवाद
+41	कोई बात नहीं
+42	कृपया
+43	हाँ
+44	नहीं
+45	माफ़ कीजिए
+46	मुझे तुर्की नहीं आती
+47	क्या आप अंग्रेज़ी बोलते हैं?
+48	क्या मुझे मेन्यू मिल सकता है?
+49	बिल, कृपया
+50	पानी
+51	बहुत स्वादिष्ट
+52	कृपया तीखा न हो
+53	मैं मांस नहीं खाता
+54	क्या क्रेडिट कार्ड चलता है?
+55	शौचालय कहाँ है?
+56	यह कहाँ है?
+57	कितना दूर है?
+58	बस अड्डा
+59	हवाई अड्डा
+60	दाएँ
+61	बाएँ
+62	सीधे
+63	स्टॉप
+64	एक टिकट, कृपया
+65	कितने का है?
+66	बहुत महँगा
+67	क्या छूट देंगे?
+68	मैं यह लूँगा
+69	मदद करो!
+70	डॉक्टर
+71	दवा की दुकान
+72	पुलिस
+73	मैं रास्ता भटक गया हूँ

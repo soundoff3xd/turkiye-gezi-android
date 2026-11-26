@@ -1,0 +1,300 @@
+@pl
+0	Posłuchaj
+1	Zatrzymaj
+2	Wschód słońca
+3	Dziś, czas turecki
+4	Przydatne miejsca w pobliżu
+5	Apteka
+6	Bankomat
+7	Stacja paliw
+8	Toaleta
+9	Parking
+10	Nic nie znaleziono w pobliżu (2 km).
+11	Czynne całą dobę
+12	Płatne
+13	Bezpłatne
+14	W nocy i w święta szukaj apteki dyżurnej.
+15	Gotowe trasy
+16	Trasy zaplanowane dzień po dniu. Dodaj wybraną jednym dotknięciem do listy podróży i zwiedzaj w najkrótszej kolejności.
+17	Dodano miejsc do listy podróży: {1}
+18	Ukryte perełki
+19	Turecki rozmówki
+20	Podstawowe tureckie zwroty na podróż. Dotknij, a telefon powie to po turecku.
+21	Ta przeglądarka nie obsługuje czytania na głos.
+22	Stambuł w 2 dni
+23	Kapadocja w 3 dni
+24	Efez, Pamukkale i Bodrum w 4 dni
+25	Wybrzeże Licji w 4 dni
+26	Antalya w 3 dni
+27	Wyżyny nad Morzem Czarnym w 3 dni
+28	Gaziantep, Urfa i Mardin w 4 dni
+29	Bursa w 2 dni
+30	Konya w 1 dzień
+31	Powitania
+32	W restauracji
+33	Droga i transport
+34	Zakupy
+35	W nagłych wypadkach
+36	Dzień dobry
+37	Dzień dobry (rano)
+38	Dobry wieczór
+39	Do widzenia
+40	Dziękuję
+41	Proszę bardzo
+42	Proszę
+43	Tak
+44	Nie
+45	Przepraszam
+46	Nie mówię po turecku
+47	Czy mówi pan/pani po angielsku?
+48	Czy mogę prosić menu?
+49	Rachunek, proszę
+50	Woda
+51	Bardzo smaczne
+52	Proszę nie na ostro
+53	Nie jem mięsa
+54	Czy można płacić kartą?
+55	Gdzie jest toaleta?
+56	Gdzie to jest?
+57	Jak daleko to jest?
+58	Dworzec autobusowy
+59	Lotnisko
+60	W prawo
+61	W lewo
+62	Prosto
+63	Przystanek
+64	Jeden bilet, proszę
+65	Ile kosztuje?
+66	Za drogo
+67	Czy da pan/pani zniżkę?
+68	Biorę to
+69	Pomocy!
+70	Lekarz
+71	Apteka
+72	Policja
+73	Zgubiłem się
+@ro
+0	Ascultă
+1	Oprește
+2	Răsărit
+3	Azi, ora Türkiye
+4	Servicii în apropiere
+5	Farmacie
+6	Bancomat
+7	Benzinărie
+8	Toaletă
+9	Parcare
+10	Nimic găsit în apropiere (2 km).
+11	Deschis non-stop
+12	Cu plată
+13	Gratuit
+14	Noaptea și în zilele de sărbătoare caută farmacia de gardă.
+15	Trasee gata făcute
+16	Trasee planificate zi de zi. Adaugă-l pe cel care îți place în lista de călătorie cu o atingere și vizitează în ordinea cea mai scurtă.
+17	{1} locuri adăugate în lista de călătorie
+18	Comori ascunse
+19	Ghid de conversație turcă
+20	Expresii turcești de bază pentru călătorie. Atinge una și telefonul o va spune în turcă.
+21	Acest browser nu poate citi cu voce tare.
+22	Istanbul în 2 zile
+23	Cappadocia în 3 zile
+24	Efes, Pamukkale și Bodrum în 4 zile
+25	Coasta Liciei în 4 zile
+26	Antalya în 3 zile
+27	Platourile Mării Negre în 3 zile
+28	Gaziantep, Urfa și Mardin în 4 zile
+29	Bursa în 2 zile
+30	Konya într-o zi
+31	Salutări
+32	La restaurant
+33	Drum și transport
+34	La cumpărături
+35	Urgențe
+36	Bună
+37	Bună dimineața
+38	Bună seara
+39	La revedere
+40	Mulțumesc
+41	Cu plăcere
+42	Vă rog
+43	Da
+44	Nu
+45	Îmi pare rău
+46	Nu vorbesc turcă
+47	Vorbiți engleză?
+48	Pot primi meniul?
+49	Nota, vă rog
+50	Apă
+51	Foarte gustos
+52	Fără iute, vă rog
+53	Nu mănânc carne
+54	Acceptați card de credit?
+55	Unde este toaleta?
+56	Unde este asta?
+57	Cât de departe e?
+58	Autogară
+59	Aeroport
+60	Dreapta
+61	Stânga
+62	Drept înainte
+63	Stație
+64	Un bilet, vă rog
+65	Cât costă?
+66	Prea scump
+67	Îmi faceți o reducere?
+68	Iau asta
+69	Ajutor!
+70	Doctor
+71	Farmacie
+72	Poliție
+73	M-am rătăcit
+@el
+0	Άκουσε
+1	Διακοπή
+2	Ανατολή
+3	Σήμερα, ώρα Türkiye
+4	Χρήσιμα κοντά
+5	Φαρμακείο
+6	ΑΤΜ
+7	Βενζινάδικο
+8	Τουαλέτα
+9	Πάρκινγκ
+10	Δεν βρέθηκε τίποτα κοντά (2 χλμ.).
+11	Ανοιχτό 24/7
+12	Με χρέωση
+13	Δωρεάν
+14	Τη νύχτα και τις αργίες ψάξε για εφημερεύον φαρμακείο.
+15	Έτοιμες διαδρομές
+16	Διαδρομές οργανωμένες μέρα με τη μέρα. Πρόσθεσε αυτή που σου αρέσει στη λίστα ταξιδιού με ένα πάτημα και επισκέψου με τη συντομότερη σειρά.
+17	Προστέθηκαν {1} μέρη στη λίστα ταξιδιού
+18	Κρυμμένα διαμάντια
+19	Τουρκικό λεξιλόγιο
+20	Βασικές τουρκικές φράσεις για το ταξίδι. Πάτησε μία και το κινητό θα την πει στα τουρκικά.
+21	Αυτό το πρόγραμμα περιήγησης δεν υποστηρίζει ανάγνωση φωναχτά.
+22	Κωνσταντινούπολη σε 2 μέρες
+23	Καππαδοκία σε 3 μέρες
+24	Έφεσος, Παμουκκαλέ και Μπόντρουμ σε 4 μέρες
+25	Η ακτή της Λυκίας σε 4 μέρες
+26	Αττάλεια σε 3 μέρες
+27	Τα οροπέδια της Μαύρης Θάλασσας σε 3 μέρες
+28	Γκαζιαντέπ, Ούρφα και Μαρντίν σε 4 μέρες
+29	Προύσα σε 2 μέρες
+30	Ικόνιο σε 1 μέρα
+31	Χαιρετισμοί
+32	Στο εστιατόριο
+33	Δρόμος και μεταφορές
+34	Για ψώνια
+35	Έκτακτη ανάγκη
+36	Γεια σας
+37	Καλημέρα
+38	Καλησπέρα
+39	Αντίο
+40	Ευχαριστώ
+41	Παρακαλώ (απάντηση)
+42	Παρακαλώ
+43	Ναι
+44	Όχι
+45	Συγγνώμη
+46	Δεν μιλάω τουρκικά
+47	Μιλάτε αγγλικά;
+48	Μπορώ να έχω τον κατάλογο;
+49	Τον λογαριασμό, παρακαλώ
+50	Νερό
+51	Πολύ νόστιμο
+52	Χωρίς καυτερό, παρακαλώ
+53	Δεν τρώω κρέας
+54	Δέχεστε πιστωτική κάρτα;
+55	Πού είναι η τουαλέτα;
+56	Πού είναι αυτό;
+57	Πόσο μακριά είναι;
+58	Σταθμός λεωφορείων
+59	Αεροδρόμιο
+60	Δεξιά
+61	Αριστερά
+62	Ευθεία
+63	Στάση
+64	Ένα εισιτήριο, παρακαλώ
+65	Πόσο κάνει;
+66	Πολύ ακριβό
+67	Κάνετε έκπτωση;
+68	Θα το πάρω
+69	Βοήθεια!
+70	Γιατρός
+71	Φαρμακείο
+72	Αστυνομία
+73	Χάθηκα
+@uk
+0	Слухати
+1	Стоп
+2	Схід сонця
+3	Сьогодні, час Туреччини
+4	Потрібне поруч
+5	Аптека
+6	Банкомат
+7	АЗС
+8	Туалет
+9	Парковка
+10	Поруч нічого не знайдено (2 км).
+11	Цілодобово
+12	Платно
+13	Безкоштовно
+14	Уночі та у свята шукай чергову аптеку.
+15	Готові маршрути
+16	Маршрути, розплановані по днях. Додай той, що сподобався, до списку поїздки одним дотиком і обійди в найкоротшому порядку.
+17	До списку поїздки додано місць: {1}
+18	Приховані перлини
+19	Турецький розмовник
+20	Базові турецькі фрази для подорожі. Торкнися — і телефон вимовить її турецькою.
+21	Цей браузер не вміє читати вголос.
+22	Стамбул за 2 дні
+23	Каппадокія за 3 дні
+24	Ефес, Памуккале і Бодрум за 4 дні
+25	Лікійське узбережжя за 4 дні
+26	Анталія за 3 дні
+27	Нагір’я Чорномор’я за 3 дні
+28	Газіантеп, Урфа і Мардін за 4 дні
+29	Бурса за 2 дні
+30	Конья за 1 день
+31	Привітання
+32	У ресторані
+33	Дорога і транспорт
+34	Покупки
+35	Надзвичайні ситуації
+36	Привіт
+37	Доброго ранку
+38	Добрий вечір
+39	До побачення
+40	Дякую
+41	Будь ласка (у відповідь)
+42	Будь ласка
+43	Так
+44	Ні
+45	Вибачте
+46	Я не розмовляю турецькою
+47	Ви розмовляєте англійською?
+48	Можна меню?
+49	Рахунок, будь ласка
+50	Вода
+51	Дуже смачно
+52	Не гостре, будь ласка
+53	Я не їм м’яса
+54	Можна оплатити карткою?
+55	Де туалет?
+56	Де це?
+57	Як далеко?
+58	Автовокзал
+59	Аеропорт
+60	Праворуч
+61	Ліворуч
+62	Прямо
+63	Зупинка
+64	Один квиток, будь ласка
+65	Скільки коштує?
+66	Занадто дорого
+67	Зробите знижку?
+68	Я візьму це
+69	Допоможіть!
+70	Лікар
+71	Аптека
+72	Поліція
+73	Я заблукав

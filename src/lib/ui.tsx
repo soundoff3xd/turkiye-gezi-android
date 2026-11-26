@@ -28,6 +28,8 @@ export type Route =
   | { name: 'paint' }
   | { name: 'inbox' }
   | { name: 'journals' }
+  | { name: 'routes' }
+  | { name: 'phrases' }
   | { name: 'journal'; id: string };
 export type MapFocus = { id?: string; lat?: number; lng?: number; ts: number } | null;
 

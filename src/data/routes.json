@@ -1,0 +1,11 @@
+[
+  {"id":"istanbul2","t":"2 günde İstanbul","icon":"🕌","days":[["ayasofya","mavi","yerebatan","topkapi","kapalicarsi"],["suleymaniye","misir","galatakoprusu","galatakulesi","taksim"]]},
+  {"id":"kapadokya3","t":"3 günde Kapadokya","icon":"🎈","days":[["goreme","uchisar","pasabaglari","avanos"],["derinkuyu","kaymakli","devrent"],["zelve","cavusin","urgup","ortahisar"]]},
+  {"id":"ege4","t":"4 günde Efes, Pamukkale ve Bodrum","icon":"🏛","days":[["efes","efesmuzesi","stjohn","sirince"],["priene","milet","didim"],["pamukkale","laodikya","afrodisias"],["bodrum","mozole","gumusluk"]]},
+  {"id":"likya4","t":"4 günde Likya kıyısı","icon":"🌊","days":[["oludeniz","kelebekler","kayakoy"],["saklikent","patara"],["kas","myra"],["olimpos","phaselis"]]},
+  {"id":"antalya3","t":"3 günde Antalya","icon":"☀","days":[["kaleici","karaalioglu","duden"],["perge","aspendos","side"],["termessos","tahtali"]]},
+  {"id":"karadeniz3","t":"3 günde Karadeniz yaylaları","icon":"🌲","days":[["sumela","trabzonayasofya","boztepetrabzon"],["uzungol","seragolu"],["ayder","firtina","zilkale"]]},
+  {"id":"guneydogu4","t":"4 günde Gaziantep, Urfa ve Mardin","icon":"🍢","days":[["gaziantep","zeugmamuze","kurtulus"],["gobeklitepe","urfamuze","balikligol"],["harran","halfeti"],["mardin","kasimiye","deyrulzafaran","dara"]]},
+  {"id":"bursa2","t":"2 günde Bursa","icon":"🍑","days":[["bursaulu","bursayesil","muradiyebursa","cumalikizik"],["golyazi","tirilye","mudanya"]]},
+  {"id":"konya1","t":"1 günde Konya","icon":"🌀","days":[["mevlana","alaeddin","sille"]]}
+]

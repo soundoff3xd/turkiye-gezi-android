@@ -15,10 +15,15 @@ import { SkeletonRows, useDeferred } from '../components/Anim';
 import { inSeason } from '../lib/season';
 import { WeatherPicks } from '../components/Extras';
 import { useTrip } from '../lib/trip';
+import { photoOf } from '../data/photos';
 
-type Sort = SortKey | 'near';
-const SORT_ICON: Record<Sort, string> = { near: '📍', visits: '👣', favs: '♥', rating: '★', reviews: '💬' };
-const ALL_SORTS: [Sort, string][] = [['near', 'Bana en yakın'], ...SORTS];
+type Sort = SortKey | 'near' | 'gem';
+const SORT_ICON: Record<Sort, string> = { near: '📍', visits: '👣', favs: '♥', rating: '★', reviews: '💬', gem: '💎' };
+const ALL_SORTS: [Sort, string][] = [['near', 'Bana en yakın'], ...SORTS, ['gem', 'Gizli cevherler']];
+/* gizli cevher: ünlü olmayan (t ≤ 2), puanı düşük olmayan yerler; iyi puan ve az ziyaret öne çıkar */
+const isGem = (p: { t?: number }, s: { count: number; rating: number }) => (p.t || 2) <= 2 && (!s.count || s.rating >= 4);
+const gemScore = (p: any, s: { visits: number; count: number; rating: number }) =>
+  (s.count ? (s.rating - 3.5) * 2 + Math.min(s.count, 5) * 0.25 : 0) + (photoOf(p.id) ? 0.8 : 0) + (inSeason(p) ? 0.5 : 0) - Math.log10(1 + s.visits) * 0.9;
 const GROUP_ICON: Record<string, string> = { foryou: '✨', all: '◎', kultur: '🏛', doga: '🌲', deniz: '🌊', sehir: '🏘', manzara: '🌄' };
 
 /* Keşfet: arama, sıralama, kategori ve bölgeye göre tüm yerler */
@@ -61,8 +66,11 @@ export default function ExploreScreen() {
       near: (a, b) => (a.d ?? 1e12) - (b.d ?? 1e12),
       visits: (a, b) => b.s.visits - a.s.visits, favs: (a, b) => b.s.favs - a.s.favs,
       rating: (a, b) => (b.s.rating - a.s.rating) || (b.s.count - a.s.count), reviews: (a, b) => b.s.count - a.s.count,
+      gem: (a, b) => b.g - a.g,
     };
-    return places.filter((p) => match(p)).map((p) => ({ p, s: stats(p.id), d: showDist ? distTo(p.lat, p.lng) : null })).sort(cmp[sort]);
+    let list = places.filter((p) => match(p)).map((p) => ({ p, s: stats(p.id), d: showDist ? distTo(p.lat, p.lng) : null, g: 0 }));
+    if (sort === 'gem') list = list.filter((x) => isGem(x.p, x.s)).map((x) => ({ ...x, g: gemScore(x.p, x.s) }));
+    return list.sort(cmp[sort]);
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [places, stats, fq, sort, cat, sub, reg, now, hay, showDist ? distTo : null, mineG]);
   // kategori ve alt kategori sayıları: yalnızca filtreler değişince hesaplanır

@@ -1,0 +1,33 @@
+const { chromium } = require('playwright');
+const [file, out1, out2] = process.argv.slice(2);
+(async () => {
+  const b = await chromium.launch(); const errs = [];
+  const pg = await b.newPage({ viewport: { width: 1200, height: 900 }, locale: 'tr-TR' });
+  pg.on('pageerror', e => errs.push(e.message));
+  await pg.addInitScript(() => { try { localStorage.setItem('gezi-onboarded', '1'); } catch (_) {} });
+  await pg.goto('file://' + file); await pg.waitForTimeout(1500);
+  await pg.evaluate(() => { const bt = [...document.querySelectorAll('button')].find(x => x.dataset.a === 'demo'); bt && bt.click(); }); await pg.waitForTimeout(500);
+  const r = await pg.evaluate(async () => {
+    const by = { ecz: [{ n: 'Eczane Kapadokya', lat: 38.64, lng: 34.83, d: 1167 }], atm: [{ n: 'Akbank', lat: 38.64, lng: 34.83, d: 1357, h: 1 }], fuel: [], wc: [{ n: '', lat: 38.6, lng: 34.8, d: 300, fee: 0 }], park: [] };
+    sb = Object.assign(sb || {}, { functions: { invoke: async (fn) => fn === 'needs' ? { data: { by } } : { data: { items: [] } } }, from: () => { const q = { select: () => q, eq: () => q, limit: async () => ({ data: [] }) }; return q; } });
+    ME = { id: 'me' };
+    select('goreme'); await new Promise(r => setTimeout(r, 400));
+    const d = document.getElementById('detail');
+    const out = { sun: (d.querySelector('.sunbox') || {}).innerText, spk: !!d.querySelector('[data-a="speak"]'), need: (document.getElementById('needbox') || {}).innerText };
+    A.needk('atm'); out.atm = (document.getElementById('needbox') || {}).innerText.split('\n').slice(0, 8).join(' | ');
+    hideX && 0; A.sort('gem'); await new Promise(r => setTimeout(r, 200));
+    out.gems = results().slice(0, 5).map(x => x.p.n);
+    showX('routes'); await new Promise(r => setTimeout(r, 100));
+    out.routes = document.querySelectorAll('.route').length;
+    TRIP = []; A.radd('kapadokya3'); out.trip = TRIP.length;
+    showX('phrases'); out.phr = document.querySelectorAll('.phr').length;
+    return out;
+  });
+  console.log(JSON.stringify(r, null, 1), '| hatalar:', errs.length ? errs : 'yok');
+  await pg.evaluate(() => { showX('routes'); document.querySelector('.route').open = true; });
+  await pg.screenshot({ path: out1 });
+  await pg.evaluate(() => { hideX(); select('goreme'); });
+  await pg.waitForTimeout(400);
+  await pg.screenshot({ path: out2 });
+  await b.close();
+})();

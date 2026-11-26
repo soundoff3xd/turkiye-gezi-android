@@ -3,7 +3,7 @@
    - kütüphaneler (jsdelivr): önbellekten, arkada yenilenir
    - harita karoları, stiller, yazı tipleri (openfreemap): önbellekten; en fazla ~4000 parça
    - Supabase istekleri (hesap, yorumlar) hiç önbelleğe alınmaz */
-const V = 'v3', PAGE = 'gezi-page-' + V, LIB = 'gezi-lib-' + V, TILE = 'gezi-tile-' + V, MAXT = 4000;
+const V = 'v4', PAGE = 'gezi-page-' + V, LIB = 'gezi-lib-' + V, TILE = 'gezi-tile-' + V, MAXT = 4000;
 self.addEventListener('install', e => { e.waitUntil(caches.open(PAGE).then(c => c.add('./')).catch(() => { })); self.skipWaiting(); });
 self.addEventListener('activate', e => {
   e.waitUntil(caches.keys().then(ks => Promise.all(ks.filter(k => k.startsWith('gezi-') && !k.endsWith(V)).map(k => caches.delete(k)))).then(() => self.clients.claim()));

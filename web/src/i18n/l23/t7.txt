@@ -1,0 +1,375 @@
+@sr
+0	Слушај
+1	Заустави
+2	Излазак сунца
+3	Данас, време у Турској
+4	Корисно у близини
+5	Апотека
+6	Банкомат
+7	Бензинска пумпа
+8	Тоалет
+9	Паркинг
+10	Ништа није пронађено у близини (2 км).
+11	Отворено 24/7
+12	Плаћа се
+13	Бесплатно
+14	Ноћу и празником потражи дежурну апотеку.
+15	Готове руте
+16	Руте планиране дан по дан. Додај ону која ти се свиђа на листу путовања једним додиром и обиђи их најкраћим редом.
+17	На листу путовања додато места: {1}
+18	Скривени драгуљи
+19	Турски џепни речник
+20	Основни турски изрази за путовање. Додирни и телефон ће их изговорити на турском.
+21	Овај прегледач не подржава читање наглас.
+22	Истанбул за 2 дана
+23	Кападокија за 3 дана
+24	Ефес, Памуккале и Бодрум за 4 дана
+25	Ликијска обала за 4 дана
+26	Анталија за 3 дана
+27	Висоравни Црног мора за 3 дана
+28	Газиантеп, Урфа и Мардин за 4 дана
+29	Бурса за 2 дана
+30	Коња за 1 дан
+31	Поздрави
+32	У ресторану
+33	Пут и превоз
+34	У куповини
+35	У хитним случајевима
+36	Здраво
+37	Добро јутро
+38	Добро вече
+39	Довиђења
+40	Хвала
+41	Нема на чему
+42	Молим
+43	Да
+44	Не
+45	Извините
+46	Не говорим турски
+47	Говорите ли енглески?
+48	Могу ли да добијем јеловник?
+49	Рачун, молим
+50	Вода
+51	Веома укусно
+52	Без љутог, молим
+53	Не једем месо
+54	Примате ли кредитне картице?
+55	Где је тоалет?
+56	Где је ово?
+57	Колико је далеко?
+58	Аутобуска станица
+59	Аеродром
+60	Десно
+61	Лево
+62	Право
+63	Станица
+64	Једну карту, молим
+65	Колико кошта?
+66	Прескупо
+67	Можете ли дати попуст?
+68	Узећу ово
+69	Упомоћ!
+70	Лекар
+71	Апотека
+72	Полиција
+73	Изгубио сам се
+@hr
+0	Poslušaj
+1	Zaustavi
+2	Izlazak sunca
+3	Danas, vrijeme u Turskoj
+4	Korisno u blizini
+5	Ljekarna
+6	Bankomat
+7	Benzinska postaja
+8	Zahod
+9	Parkiralište
+10	Ništa nije pronađeno u blizini (2 km).
+11	Otvoreno 0–24
+12	Naplaćuje se
+13	Besplatno
+14	Noću i blagdanima potraži dežurnu ljekarnu.
+15	Gotove rute
+16	Rute isplanirane dan po dan. Dodaj onu koja ti se sviđa na popis putovanja jednim dodirom i obiđi ih najkraćim redom.
+17	Na popis putovanja dodano mjesta: {1}
+18	Skriveni dragulji
+19	Turski džepni rječnik
+20	Osnovni turski izrazi za putovanje. Dodirni i telefon će ih izgovoriti na turskom.
+21	Ovaj preglednik ne podržava čitanje naglas.
+22	Istanbul za 2 dana
+23	Kapadokija za 3 dana
+24	Efez, Pamukkale i Bodrum za 4 dana
+25	Likijska obala za 4 dana
+26	Antalya za 3 dana
+27	Visoravni Crnog mora za 3 dana
+28	Gaziantep, Urfa i Mardin za 4 dana
+29	Bursa za 2 dana
+30	Konya za 1 dan
+31	Pozdravi
+32	U restoranu
+33	Put i prijevoz
+34	U kupnji
+35	U hitnim slučajevima
+36	Bok
+37	Dobro jutro
+38	Dobra večer
+39	Doviđenja
+40	Hvala
+41	Nema na čemu
+42	Molim
+43	Da
+44	Ne
+45	Oprostite
+46	Ne govorim turski
+47	Govorite li engleski?
+48	Mogu li dobiti jelovnik?
+49	Račun, molim
+50	Voda
+51	Jako ukusno
+52	Bez ljutog, molim
+53	Ne jedem meso
+54	Primate li kreditne kartice?
+55	Gdje je zahod?
+56	Gdje je ovo?
+57	Koliko je daleko?
+58	Autobusni kolodvor
+59	Zračna luka
+60	Desno
+61	Lijevo
+62	Ravno
+63	Stanica
+64	Jednu kartu, molim
+65	Koliko košta?
+66	Preskupo
+67	Možete li dati popust?
+68	Uzet ću ovo
+69	Upomoć!
+70	Liječnik
+71	Ljekarna
+72	Policija
+73	Izgubio sam se
+@cs
+0	Poslechnout
+1	Zastavit
+2	Východ slunce
+3	Dnes, turecký čas
+4	Užitečná místa poblíž
+5	Lékárna
+6	Bankomat
+7	Čerpací stanice
+8	Toaleta
+9	Parkoviště
+10	Poblíž nic nenalezeno (2 km).
+11	Otevřeno nonstop
+12	Placené
+13	Zdarma
+14	V noci a o svátcích hledej pohotovostní lékárnu.
+15	Hotové trasy
+16	Trasy naplánované den po dni. Přidej tu, která se ti líbí, jedním dotykem do seznamu cesty a projdi ji v nejkratším pořadí.
+17	Do seznamu cesty přidáno míst: {1}
+18	Skryté poklady
+19	Turecká konverzace do kapsy
+20	Základní turecké fráze na cestu. Klepni a telefon je vysloví turecky.
+21	Tento prohlížeč nepodporuje předčítání.
+22	Istanbul za 2 dny
+23	Kappadokie za 3 dny
+24	Efes, Pamukkale a Bodrum za 4 dny
+25	Lýkijské pobřeží za 4 dny
+26	Antalya za 3 dny
+27	Náhorní pastviny u Černého moře za 3 dny
+28	Gaziantep, Urfa a Mardin za 4 dny
+29	Bursa za 2 dny
+30	Konya za 1 den
+31	Pozdravy
+32	V restauraci
+33	Cesta a doprava
+34	Nakupování
+35	V nouzi
+36	Dobrý den
+37	Dobré ráno
+38	Dobrý večer
+39	Na shledanou
+40	Děkuji
+41	Není zač
+42	Prosím
+43	Ano
+44	Ne
+45	Promiňte
+46	Nemluvím turecky
+47	Mluvíte anglicky?
+48	Můžu dostat jídelní lístek?
+49	Účet, prosím
+50	Voda
+51	Velmi chutné
+52	Prosím nepálivé
+53	Nejím maso
+54	Berete kreditní karty?
+55	Kde je toaleta?
+56	Kde je tohle?
+57	Jak je to daleko?
+58	Autobusové nádraží
+59	Letiště
+60	Vpravo
+61	Vlevo
+62	Rovně
+63	Zastávka
+64	Jednu jízdenku, prosím
+65	Kolik to stojí?
+66	Moc drahé
+67	Dáte mi slevu?
+68	Vezmu si to
+69	Pomoc!
+70	Lékař
+71	Lékárna
+72	Policie
+73	Ztratil jsem se
+@hu
+0	Meghallgatás
+1	Leállítás
+2	Napkelte
+3	Ma, törökországi idő szerint
+4	Hasznos helyek a közelben
+5	Gyógyszertár
+6	ATM
+7	Benzinkút
+8	Mosdó
+9	Parkoló
+10	A közelben nem található (2 km).
+11	Éjjel-nappal nyitva
+12	Fizetős
+13	Ingyenes
+14	Éjjel és ünnepnapokon keresd az ügyeletes gyógyszertárat.
+15	Kész útvonalak
+16	Napról napra megtervezett útvonalak. Egy érintéssel add hozzá a tetszőt az úti listádhoz, majd járd végig a legrövidebb sorrendben.
+17	{1} hely került az úti listádra
+18	Rejtett kincsek
+19	Török zsebszótár
+20	Alapvető török kifejezések az utazáshoz. Koppints rá, és a telefon törökül felolvassa.
+21	Ez a böngésző nem támogatja a felolvasást.
+22	Isztambul 2 nap alatt
+23	Kappadókia 3 nap alatt
+24	Epheszosz, Pamukkale és Bodrum 4 nap alatt
+25	A líkiai part 4 nap alatt
+26	Antalya 3 nap alatt
+27	A Fekete-tenger fennsíkjai 3 nap alatt
+28	Gaziantep, Urfa és Mardin 4 nap alatt
+29	Bursa 2 nap alatt
+30	Konya 1 nap alatt
+31	Köszönés
+32	Étteremben
+33	Út és közlekedés
+34	Vásárlás
+35	Vészhelyzetben
+36	Jó napot
+37	Jó reggelt
+38	Jó estét
+39	Viszontlátásra
+40	Köszönöm
+41	Szívesen
+42	Kérem
+43	Igen
+44	Nem
+45	Elnézést
+46	Nem beszélek törökül
+47	Beszél angolul?
+48	Megkaphatom az étlapot?
+49	A számlát, kérem
+50	Víz
+51	Nagyon finom
+52	Ne legyen csípős, kérem
+53	Nem eszem húst
+54	Elfogadnak hitelkártyát?
+55	Hol a mosdó?
+56	Hol van ez?
+57	Milyen messze van?
+58	Buszpályaudvar
+59	Repülőtér
+60	Jobbra
+61	Balra
+62	Egyenesen
+63	Megálló
+64	Egy jegyet kérek
+65	Mennyibe kerül?
+66	Túl drága
+67	Adna kedvezményt?
+68	Ezt megveszem
+69	Segítség!
+70	Orvos
+71	Gyógyszertár
+72	Rendőrség
+73	Eltévedtem
+@sv
+0	Lyssna
+1	Stoppa
+2	Soluppgång
+3	I dag, turkisk tid
+4	Bra att ha i närheten
+5	Apotek
+6	Bankomat
+7	Bensinstation
+8	Toalett
+9	Parkering
+10	Inget hittades i närheten (2 km).
+11	Öppet dygnet runt
+12	Avgift
+13	Gratis
+14	På natten och under helgdagar: leta upp jourhavande apotek.
+15	Färdiga rutter
+16	Rutter planerade dag för dag. Lägg till den du gillar i din reselista med ett tryck och besök i kortaste ordning.
+17	{1} platser lades till i din reselista
+18	Dolda pärlor
+19	Turkisk parlör
+20	Grundläggande turkiska fraser för resan. Tryck så säger telefonen den på turkiska.
+21	Den här webbläsaren stöder inte uppläsning.
+22	Istanbul på 2 dagar
+23	Kappadokien på 3 dagar
+24	Efesos, Pamukkale och Bodrum på 4 dagar
+25	Lykiska kusten på 4 dagar
+26	Antalya på 3 dagar
+27	Svarta havets högland på 3 dagar
+28	Gaziantep, Urfa och Mardin på 4 dagar
+29	Bursa på 2 dagar
+30	Konya på 1 dag
+31	Hälsningar
+32	På restaurang
+33	Väg och transport
+34	Shopping
+35	Nödsituationer
+36	Hej
+37	God morgon
+38	God kväll
+39	Hej då
+40	Tack
+41	Varsågod
+42	Snälla
+43	Ja
+44	Nej
+45	Förlåt
+46	Jag talar inte turkiska
+47	Talar du engelska?
+48	Kan jag få menyn?
+49	Notan, tack
+50	Vatten
+51	Mycket gott
+52	Inte starkt, tack
+53	Jag äter inte kött
+54	Tar ni kreditkort?
+55	Var är toaletten?
+56	Var är det här?
+57	Hur långt är det?
+58	Busstation
+59	Flygplats
+60	Höger
+61	Vänster
+62	Rakt fram
+63	Hållplats
+64	En biljett, tack
+65	Vad kostar det?
+66	För dyrt
+67	Kan jag få rabatt?
+68	Jag tar den här
+69	Hjälp!
+70	Läkare
+71	Apotek
+72	Polis
+73	Jag har gått vilse

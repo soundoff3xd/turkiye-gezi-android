@@ -1,0 +1,74 @@
+Sesli dinle
+Durdur
+Gün doğumu
+Bugün, Türkiye saati
+Yakındaki ihtiyaçlar
+Eczane
+ATM
+Benzinlik
+Tuvalet
+Otopark
+Yakında bulunamadı (2 km).
+7/24 açık
+Ücretli
+Ücretsiz
+Gece ve tatil günlerinde nöbetçi eczaneye bak.
+Hazır rotalar
+Gün gün planlanmış rotalar. Beğendiğini tek dokunuşla gezi listene ekle, sonra en kısa sırayla gez.
+{1} yer gezi listene eklendi
+Gizli cevherler
+Türkçe cep sözlüğü
+Gezerken işine yarayacak temel Türkçe ifadeler. Dokun, telefon Türkçe okusun.
+Bu tarayıcı sesli okumayı desteklemiyor.
+2 günde İstanbul
+3 günde Kapadokya
+4 günde Efes, Pamukkale ve Bodrum
+4 günde Likya kıyısı
+3 günde Antalya
+3 günde Karadeniz yaylaları
+4 günde Gaziantep, Urfa ve Mardin
+2 günde Bursa
+1 günde Konya
+Selamlaşma
+Yemekte
+Yol ve ulaşım
+Alışverişte
+Acil durumda
+Merhaba
+Günaydın
+İyi akşamlar
+Hoşça kalın
+Teşekkür ederim
+Rica ederim
+Lütfen
+Evet
+Hayır
+Özür dilerim
+Türkçe bilmiyorum
+İngilizce biliyor musunuz?
+Menüyü alabilir miyim?
+Hesap, lütfen
+Su
+Çok lezzetli
+Acı olmasın
+Et yemiyorum
+Kredi kartı geçiyor mu?
+Tuvalet nerede?
+Bu nerede?
+Ne kadar uzak?
+Otogar
+Havalimanı
+Sağ
+Sol
+Düz
+Durak
+Bir bilet, lütfen
+Ne kadar?
+Çok pahalı
+İndirim yapar mısınız?
+Bunu alıyorum
+Yardım edin!
+Doktor
+Eczane
+Polis
+Kayboldum

@@ -1,0 +1,51 @@
+[
+  ["Selamlaşma", [
+    ["Merhaba", "mer-ha-BA"],
+    ["Günaydın", "gün-ay-DIN"],
+    ["İyi akşamlar", "ee-YEE ak-sham-LAR"],
+    ["Hoşça kalın", "HOSH-cha ka-LUN"],
+    ["Teşekkür ederim", "te-shek-KÜR e-de-RIM"],
+    ["Rica ederim", "ree-JA e-de-RIM"],
+    ["Lütfen", "LÜT-fen"],
+    ["Evet", "e-VET"],
+    ["Hayır", "HA-yur"],
+    ["Özür dilerim", "ö-ZÜR dee-le-RIM"],
+    ["Türkçe bilmiyorum", "TÜRK-che BIL-mee-yo-rum"],
+    ["İngilizce biliyor musunuz?", "in-gee-LEEZ-je bee-lee-YOR mu-su-nuz"]
+  ]],
+  ["Yemekte", [
+    ["Menüyü alabilir miyim?", "me-nü-YÜ a-la-bee-LEER mee-yim"],
+    ["Hesap, lütfen", "he-SAP LÜT-fen"],
+    ["Su", "SU"],
+    ["Çay", "CHAI"],
+    ["Çok lezzetli", "chok lez-zet-LEE"],
+    ["Acı olmasın", "a-JUH OL-ma-sun"],
+    ["Et yemiyorum", "ET YE-mee-yo-rum"],
+    ["Kredi kartı geçiyor mu?", "kre-DEE kar-TUH ge-chee-YOR mu"]
+  ]],
+  ["Yol ve ulaşım", [
+    ["Tuvalet nerede?", "tu-va-LET NE-re-de"],
+    ["Bu nerede?", "BU NE-re-de"],
+    ["Ne kadar uzak?", "NE ka-dar u-ZAK"],
+    ["Otogar", "o-to-GAR"],
+    ["Havalimanı", "ha-va-lee-ma-NUH"],
+    ["Sağ", "SAA"],
+    ["Sol", "SOL"],
+    ["Düz", "DÜZ"],
+    ["Durak", "du-RAK"],
+    ["Bir bilet, lütfen", "BEER bee-LET LÜT-fen"]
+  ]],
+  ["Alışverişte", [
+    ["Ne kadar?", "NE ka-dar"],
+    ["Çok pahalı", "CHOK pa-ha-LUH"],
+    ["İndirim yapar mısınız?", "in-dee-REEM ya-PAR mu-su-nuz"],
+    ["Bunu alıyorum", "bu-NU a-LUH-yo-rum"]
+  ]],
+  ["Acil durumda", [
+    ["Yardım edin!", "yar-DUM e-DEEN"],
+    ["Doktor", "dok-TOR"],
+    ["Eczane", "ej-za-NE"],
+    ["Polis", "po-LEES"],
+    ["Kayboldum", "kai-BOL-dum"]
+  ]]
+]

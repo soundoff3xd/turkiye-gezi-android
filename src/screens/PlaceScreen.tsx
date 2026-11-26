@@ -10,6 +10,7 @@ import { Btn, Empty, Header, Stars, b } from '../components/common';
 import ReviewCard from '../components/ReviewCard';
 import Weather from '../components/Weather';
 import CorrectionSheet from '../components/CorrectionSheet';
+import { NeedsBox, SpeakButton, SunBox } from '../components/Extras2';
 import { AccessBox, Dishes, MuseumBox, NearbyFood, PlaceHero, SeasonBox } from '../components/Extras';
 import { SkeletonPage, useDeferred } from '../components/Anim';
 import { useTrip } from '../lib/trip';
@@ -86,14 +87,17 @@ export default function PlaceScreen({ id, initialTab = 'ov' }: { id: string; ini
         {tab === 'ov' && (
           <View>
             {!!p.d && <Text style={{ color: C.ink, fontSize: 16, lineHeight: 24, marginTop: 14 }}>{t(p.d)}</Text>}
+            {!!p.d && <SpeakButton text={`${p.n}. ${t(p.d)}`} />}
             <View style={b.box}><Text style={b.boxH}>{t('Konum')}</Text>
               <Text style={b.boxT}>{[p.il, p.semt, REGIONS[p.r] ? t(REGIONS[p.r] + ' Bölgesi') : ''].filter(Boolean).join(' · ')}</Text></View>
             {!!p.h && <View style={b.box}><Text style={b.boxH}>{t('Nasıl gidilir')}</Text><Text style={b.boxT}>{t(p.h)}</Text></View>}
             <SeasonBox p={p} />
+            <SunBox p={p} />
             <MuseumBox p={p} />
             <AccessBox p={p} />
             <Dishes il={p.il} />
             <NearbyFood p={p} />
+            <NeedsBox p={p} />
             <Weather lat={p.lat} lng={p.lng} />
             <Text style={b.fine}>{t('Açılış saatleri ve giriş ücretleri değişebilir; gitmeden önce resmi kaynaktan kontrol edin.')}</Text>
             <Pressable onPress={() => setFix(true)} hitSlop={8} accessibilityRole="button" style={{ alignSelf: 'flex-start', marginTop: 10, paddingVertical: 6 }}>

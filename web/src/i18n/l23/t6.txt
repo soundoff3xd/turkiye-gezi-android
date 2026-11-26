@@ -1,0 +1,375 @@
+@ku
+0	Guhdarî bike
+1	Rawestîne
+2	Hilatina rojê
+3	Îro, demjimêra Tirkiyeyê
+4	Pêdiviyên nêzîk
+5	Dermanxane
+6	ATM
+7	Benzînxane
+8	Tuwalet
+9	Otopark
+10	Li nêzîk nehat dîtin (2 km).
+11	24/7 vekirî
+12	Bi pere
+13	Belaş
+14	Bi şev û di rojên betlaneyê de li dermanxaneya nobedar bigere.
+15	Rêyên amade
+16	Rêyên ku roj bi roj hatine plankirin. Ya ku dilê te bixwaze bi yek destlêdanê li lîsteya gera xwe zêde bike, paşê bi rêza herî kurt bigere.
+17	{1} cih li lîsteya gera te hat zêdekirin
+18	Gewherên veşartî
+19	Ferhenga tirkî ya berîkê
+20	Hevokên bingehîn ên tirkî ji bo gera te. Lê bixe, telefon wê bi tirkî bixwîne.
+21	Ev gerok xwendina bi deng piştgirî nake.
+22	Di 2 rojan de Stenbol
+23	Di 3 rojan de Kapadokya
+24	Di 4 rojan de Efes, Pamukkale û Bodrum
+25	Di 4 rojan de peravên Lîkyayê
+26	Di 3 rojan de Antalya
+27	Di 3 rojan de zozanên Deryaya Reş
+28	Di 4 rojan de Dîlok, Riha û Mêrdîn
+29	Di 2 rojan de Bursa
+30	Di 1 rojê de Konya
+31	Silavkirin
+32	Li xwaringehê
+33	Rê û veguhastin
+34	Li kirînê
+35	Di rewşa awarte de
+36	Silav
+37	Beyanî baş
+38	Êvar baş
+39	Bi xatirê te
+40	Spas dikim
+41	Ser çavan
+42	Ji kerema xwe
+43	Erê
+44	Na
+45	Bibore
+46	Ez tirkî nizanim
+47	Hûn îngilîzî dizanin?
+48	Ez dikarim menûyê bistînim?
+49	Hesab, ji kerema xwe
+50	Av
+51	Pir xweş e
+52	Bila tûj nebe
+53	Ez goşt naxwim
+54	Karta krediyê derbas dibe?
+55	Tuwalet li ku ye?
+56	Ev li ku ye?
+57	Çiqas dûr e?
+58	Termînala otobusê
+59	Balafirgeh
+60	Rast
+61	Çep
+62	Rasterast
+63	Rawestgeh
+64	Bilêtek, ji kerema xwe
+65	Bi çiqasî ye?
+66	Pir biha ye
+67	Hûn erzan dikin?
+68	Ez vê distînim
+69	Alîkarî!
+70	Bijîşk
+71	Dermanxane
+72	Polîs
+73	Ez winda bûm
+@ka
+0	მოსმენა
+1	შეჩერება
+2	მზის ამოსვლა
+3	დღეს, თურქეთის დროით
+4	საჭირო ადგილები ახლოს
+5	აფთიაქი
+6	ბანკომატი
+7	ბენზინგასამართი
+8	ტუალეტი
+9	პარკინგი
+10	ახლოს ვერაფერი მოიძებნა (2 კმ).
+11	24/7 ღიაა
+12	ფასიანი
+13	უფასო
+14	ღამით და დღესასწაულებზე მორიგე აფთიაქი მოძებნე.
+15	მზა მარშრუტები
+16	დღეების მიხედვით დაგეგმილი მარშრუტები. მოწონებული ერთი შეხებით დაამატე მოგზაურობის სიაში და მოიარე უმოკლესი თანმიმდევრობით.
+17	მოგზაურობის სიაში დაემატა {1} ადგილი
+18	ფარული მარგალიტები
+19	თურქული სასაუბრო
+20	ძირითადი თურქული ფრაზები მოგზაურობისთვის. შეეხე და ტელეფონი თურქულად წაიკითხავს.
+21	ეს ბრაუზერი ხმამაღლა კითხვას არ უჭერს მხარს.
+22	სტამბოლი 2 დღეში
+23	კაპადოკია 3 დღეში
+24	ეფესო, პამუკალე და ბოდრუმი 4 დღეში
+25	ლიკიის სანაპირო 4 დღეში
+26	ანტალია 3 დღეში
+27	შავი ზღვის საძოვრები 3 დღეში
+28	გაზიანთეპი, ურფა და მარდინი 4 დღეში
+29	ბურსა 2 დღეში
+30	კონია 1 დღეში
+31	მისალმება
+32	რესტორანში
+33	გზა და ტრანსპორტი
+34	საყიდლებზე
+35	საგანგებო სიტუაციაში
+36	გამარჯობა
+37	დილა მშვიდობისა
+38	საღამო მშვიდობისა
+39	ნახვამდის
+40	გმადლობთ
+41	არაფრის
+42	გთხოვთ
+43	დიახ
+44	არა
+45	ბოდიში
+46	თურქული არ ვიცი
+47	ინგლისური იცით?
+48	შეიძლება მენიუ?
+49	ანგარიში, გთხოვთ
+50	წყალი
+51	ძალიან გემრიელია
+52	ცხარე ნუ იქნება, გთხოვთ
+53	ხორცს არ ვჭამ
+54	საკრედიტო ბარათს იღებთ?
+55	სად არის ტუალეტი?
+56	სად არის ეს?
+57	რამდენად შორსაა?
+58	ავტოსადგური
+59	აეროპორტი
+60	მარჯვნივ
+61	მარცხნივ
+62	პირდაპირ
+63	გაჩერება
+64	ერთი ბილეთი, გთხოვთ
+65	რა ღირს?
+66	ძალიან ძვირია
+67	ფასს დამიკლებთ?
+68	ამას ავიღებ
+69	მიშველეთ!
+70	ექიმი
+71	აფთიაქი
+72	პოლიცია
+73	გზა ამებნა
+@kk
+0	Тыңдау
+1	Тоқтату
+2	Күннің шығуы
+3	Бүгін, Түркия уақыты
+4	Жақын маңдағы қажетті орындар
+5	Дәріхана
+6	Банкомат
+7	Жанармай бекеті
+8	Дәретхана
+9	Тұрақ
+10	Жақын маңнан табылмады (2 км).
+11	Тәулік бойы ашық
+12	Ақылы
+13	Тегін
+14	Түнде және мереке күндері кезекші дәріхананы ізде.
+15	Дайын маршруттар
+16	Күн сайынға жоспарланған маршруттар. Ұнағанын бір түртумен саяхат тізіміңе қос та, ең қысқа ретпен арала.
+17	Саяхат тізіміне {1} орын қосылды
+18	Жасырын інжу-маржандар
+19	Түрік тілінің қалта сөздігі
+20	Саяхатқа керек негізгі түрік сөз тіркестері. Түртсең, телефон түрікше оқиды.
+21	Бұл браузер дауыстап оқуды қолдамайды.
+22	2 күнде Стамбул
+23	3 күнде Каппадокия
+24	4 күнде Эфес, Памуккале және Бодрум
+25	4 күнде Ликия жағалауы
+26	3 күнде Анталья
+27	3 күнде Қара теңіз жайлаулары
+28	4 күнде Газиантеп, Урфа және Мардин
+29	2 күнде Бурса
+30	1 күнде Конья
+31	Амандасу
+32	Мейрамханада
+33	Жол және көлік
+34	Сауда кезінде
+35	Төтенше жағдайда
+36	Сәлеметсіз бе
+37	Қайырлы таң
+38	Қайырлы кеш
+39	Сау болыңыз
+40	Рақмет
+41	Оқасы жоқ
+42	Өтінемін
+43	Иә
+44	Жоқ
+45	Кешіріңіз
+46	Түрікше білмеймін
+47	Ағылшынша білесіз бе?
+48	Мәзірді бере аласыз ба?
+49	Есепшот, өтінемін
+50	Су
+51	Өте дәмді
+52	Ащы болмасын, өтінемін
+53	Мен ет жемеймін
+54	Несие картасы өте ме?
+55	Дәретхана қайда?
+56	Бұл қайда?
+57	Қаншалықты алыс?
+58	Автовокзал
+59	Әуежай
+60	Оңға
+61	Солға
+62	Тура
+63	Аялдама
+64	Бір билет, өтінемін
+65	Қанша тұрады?
+66	Тым қымбат
+67	Жеңілдік жасайсыз ба?
+68	Мынаны аламын
+69	Көмектесіңіз!
+70	Дәрігер
+71	Дәріхана
+72	Полиция
+73	Адасып қалдым
+@uz
+0	Tinglash
+1	To‘xtatish
+2	Quyosh chiqishi
+3	Bugun, Turkiya vaqti
+4	Yaqin atrofdagi zarur joylar
+5	Dorixona
+6	Bankomat
+7	Yoqilg‘i quyish shoxobchasi
+8	Hojatxona
+9	Avtoturargoh
+10	Yaqin atrofda topilmadi (2 km).
+11	24/7 ochiq
+12	Pullik
+13	Bepul
+14	Kechasi va bayram kunlari navbatchi dorixonani qidir.
+15	Tayyor yo‘nalishlar
+16	Kunma-kun rejalashtirilgan yo‘nalishlar. Yoqqanini bir bosishda sayohat ro‘yxatingga qo‘sh, keyin eng qisqa tartibda aylan.
+17	Sayohat ro‘yxatingga {1} ta joy qo‘shildi
+18	Yashirin durdonalar
+19	Turkcha cho‘ntak lug‘ati
+20	Sayohatda asqatadigan asosiy turkcha iboralar. Bos, telefon turkcha o‘qib beradi.
+21	Bu brauzer ovoz chiqarib o‘qishni qo‘llab-quvvatlamaydi.
+22	2 kunda Istanbul
+23	3 kunda Kappadokiya
+24	4 kunda Efes, Pamukkale va Bodrum
+25	4 kunda Likiya sohili
+26	3 kunda Antalya
+27	3 kunda Qora dengiz yaylovlari
+28	4 kunda G‘aziantep, Urfa va Mardin
+29	2 kunda Bursa
+30	1 kunda Konya
+31	Salomlashish
+32	Restoranda
+33	Yo‘l va transport
+34	Xarid paytida
+35	Favqulodda holatda
+36	Salom
+37	Xayrli tong
+38	Xayrli kech
+39	Xayr
+40	Rahmat
+41	Arzimaydi
+42	Iltimos
+43	Ha
+44	Yo‘q
+45	Kechirasiz
+46	Turkchani bilmayman
+47	Inglizcha bilasizmi?
+48	Menyuni bera olasizmi?
+49	Hisob, iltimos
+50	Suv
+51	Juda mazali
+52	Achchiq bo‘lmasin, iltimos
+53	Go‘sht yemayman
+54	Kredit karta o‘tadimi?
+55	Hojatxona qayerda?
+56	Bu qayerda?
+57	Qancha uzoq?
+58	Avtovokzal
+59	Aeroport
+60	O‘ngga
+61	Chapga
+62	To‘g‘riga
+63	Bekat
+64	Bitta chipta, iltimos
+65	Necha pul?
+66	Juda qimmat
+67	Chegirma qilasizmi?
+68	Shuni olaman
+69	Yordam bering!
+70	Shifokor
+71	Dorixona
+72	Politsiya
+73	Adashib qoldim
+@sq
+0	Dëgjo
+1	Ndalo
+2	Lindja e diellit
+3	Sot, ora e Turqisë
+4	Shërbime pranë
+5	Farmaci
+6	Bankomat
+7	Pikë karburanti
+8	Tualet
+9	Parkim
+10	Nuk u gjet asgjë pranë (2 km).
+11	Hapur 24/7
+12	Me pagesë
+13	Falas
+14	Natën dhe në festa kërko farmacinë kujdestare.
+15	Itinerare të gatshme
+16	Itinerare të planifikuara ditë pas dite. Shto atë që të pëlqen në listën e udhëtimit me një prekje dhe vizitoje në rendin më të shkurtër.
+17	U shtuan {1} vende në listën e udhëtimit
+18	Perla të fshehura
+19	Fjalorth xhepi turqisht
+20	Shprehje bazë turqisht për udhëtimin. Prek njërën dhe telefoni do ta thotë turqisht.
+21	Ky shfletues nuk mbështet leximin me zë.
+22	Stambolli në 2 ditë
+23	Kapadokia në 3 ditë
+24	Efesi, Pamukkale dhe Bodrumi në 4 ditë
+25	Bregu i Likisë në 4 ditë
+26	Antalia në 3 ditë
+27	Kullotat e Detit të Zi në 3 ditë
+28	Gaziantepi, Urfa dhe Mardini në 4 ditë
+29	Bursa në 2 ditë
+30	Konja në 1 ditë
+31	Përshëndetje
+32	Në restorant
+33	Rruga dhe transporti
+34	Në pazar
+35	Në rast urgjence
+36	Përshëndetje
+37	Mirëmëngjes
+38	Mirëmbrëma
+39	Mirupafshim
+40	Faleminderit
+41	S’ka përse
+42	Ju lutem
+43	Po
+44	Jo
+45	Më falni
+46	Nuk flas turqisht
+47	Flisni anglisht?
+48	Mund ta kem menunë?
+49	Llogarinë, ju lutem
+50	Ujë
+51	Shumë e shijshme
+52	Jo pikante, ju lutem
+53	Nuk ha mish
+54	Pranoni kartë krediti?
+55	Ku është tualeti?
+56	Ku është kjo?
+57	Sa larg është?
+58	Stacioni i autobusëve
+59	Aeroporti
+60	Djathtas
+61	Majtas
+62	Drejt
+63	Stacion
+64	Një biletë, ju lutem
+65	Sa kushton?
+66	Shumë shtrenjtë
+67	Më bëni zbritje?
+68	Po e marr këtë
+69	Ndihmë!
+70	Mjek
+71	Farmaci
+72	Policia
+73	Kam humbur rrugën

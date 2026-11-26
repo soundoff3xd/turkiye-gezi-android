@@ -1,0 +1,375 @@
+@ur
+0	سنیں
+1	روکیں
+2	طلوعِ آفتاب
+3	آج، ترکیہ کا وقت
+4	قریبی ضروری جگہیں
+5	فارمیسی
+6	اے ٹی ایم
+7	پیٹرول پمپ
+8	بیت الخلا
+9	پارکنگ
+10	قریب میں کچھ نہیں ملا (2 کلومیٹر)۔
+11	24/7 کھلا
+12	فیس والا
+13	مفت
+14	رات اور چھٹی کے دنوں میں ڈیوٹی والی فارمیسی دیکھو۔
+15	تیار راستے
+16	دن بہ دن منصوبہ بند راستے۔ جو پسند آئے اسے ایک ٹچ میں اپنی سفری فہرست میں شامل کرو اور مختصر ترین ترتیب سے گھومو۔
+17	تمہاری سفری فہرست میں {1} جگہیں شامل کی گئیں
+18	چھپے ہوئے ہیرے
+19	ترکی زبان کی جیبی لغت
+20	سفر میں کام آنے والے بنیادی ترکی جملے۔ چھوؤ، فون ترکی میں بولے گا۔
+21	یہ براؤزر بلند آواز میں پڑھنے کی سہولت نہیں دیتا۔
+22	2 دن میں استنبول
+23	3 دن میں کپادوکیا
+24	4 دن میں افسس، پاموکالے اور بودرم
+25	4 دن میں لیکیا کا ساحل
+26	3 دن میں انطالیہ
+27	3 دن میں بحیرۂ اسود کی چراگاہیں
+28	4 دن میں غازی عنتپ، عرفہ اور ماردین
+29	2 دن میں برصہ
+30	1 دن میں قونیہ
+31	سلام دعا
+32	ریستوران میں
+33	راستہ اور سفر
+34	خریداری میں
+35	ہنگامی حالت میں
+36	سلام
+37	صبح بخیر
+38	شام بخیر
+39	خدا حافظ
+40	شکریہ
+41	کوئی بات نہیں
+42	براہِ مہربانی
+43	ہاں
+44	نہیں
+45	معاف کیجیے
+46	مجھے ترکی نہیں آتی
+47	کیا آپ انگریزی بولتے ہیں؟
+48	کیا مجھے مینو مل سکتا ہے؟
+49	بل، براہِ مہربانی
+50	پانی
+51	بہت مزیدار
+52	مرچ نہ ہو، براہِ مہربانی
+53	میں گوشت نہیں کھاتا
+54	کیا کریڈٹ کارڈ چلتا ہے؟
+55	بیت الخلا کہاں ہے؟
+56	یہ کہاں ہے؟
+57	کتنی دور ہے؟
+58	بس اڈا
+59	ہوائی اڈا
+60	دائیں
+61	بائیں
+62	سیدھا
+63	اسٹاپ
+64	ایک ٹکٹ، براہِ مہربانی
+65	کتنے کا ہے؟
+66	بہت مہنگا
+67	کیا رعایت کریں گے؟
+68	میں یہ لوں گا
+69	مدد کرو!
+70	ڈاکٹر
+71	فارمیسی
+72	پولیس
+73	میں راستہ بھول گیا ہوں
+@id
+0	Dengarkan
+1	Berhenti
+2	Matahari terbit
+3	Hari ini, waktu Turki
+4	Kebutuhan terdekat
+5	Apotek
+6	ATM
+7	SPBU
+8	Toilet
+9	Parkir
+10	Tidak ditemukan di dekat sini (2 km).
+11	Buka 24 jam
+12	Berbayar
+13	Gratis
+14	Malam hari dan hari libur, cari apotek jaga.
+15	Rute siap pakai
+16	Rute yang direncanakan hari demi hari. Tambahkan yang kamu suka ke daftar perjalanan dengan sekali ketuk, lalu kunjungi dengan urutan terpendek.
+17	{1} tempat ditambahkan ke daftar perjalananmu
+18	Permata tersembunyi
+19	Buku saku bahasa Turki
+20	Ungkapan dasar bahasa Turki untuk perjalanan. Ketuk, ponselmu akan mengucapkannya dalam bahasa Turki.
+21	Browser ini tidak mendukung pembacaan suara.
+22	Istanbul dalam 2 hari
+23	Kapadokia dalam 3 hari
+24	Efesus, Pamukkale, dan Bodrum dalam 4 hari
+25	Pesisir Likia dalam 4 hari
+26	Antalya dalam 3 hari
+27	Dataran tinggi Laut Hitam dalam 3 hari
+28	Gaziantep, Urfa, dan Mardin dalam 4 hari
+29	Bursa dalam 2 hari
+30	Konya dalam 1 hari
+31	Sapaan
+32	Di restoran
+33	Jalan dan transportasi
+34	Saat belanja
+35	Keadaan darurat
+36	Halo
+37	Selamat pagi
+38	Selamat malam
+39	Sampai jumpa
+40	Terima kasih
+41	Sama-sama
+42	Tolong
+43	Ya
+44	Tidak
+45	Maaf
+46	Saya tidak bisa bahasa Turki
+47	Apakah Anda bisa bahasa Inggris?
+48	Boleh minta menunya?
+49	Minta bonnya
+50	Air
+51	Enak sekali
+52	Jangan pedas, ya
+53	Saya tidak makan daging
+54	Bisa bayar pakai kartu kredit?
+55	Toilet di mana?
+56	Ini di mana?
+57	Seberapa jauh?
+58	Terminal bus
+59	Bandara
+60	Kanan
+61	Kiri
+62	Lurus
+63	Halte
+64	Satu tiket, tolong
+65	Berapa harganya?
+66	Terlalu mahal
+67	Bisa kurang harganya?
+68	Saya ambil yang ini
+69	Tolong!
+70	Dokter
+71	Apotek
+72	Polisi
+73	Saya tersesat
+@ms
+0	Dengar
+1	Berhenti
+2	Matahari terbit
+3	Hari ini, waktu Turkiye
+4	Keperluan berdekatan
+5	Farmasi
+6	ATM
+7	Stesen minyak
+8	Tandas
+9	Tempat letak kereta
+10	Tiada ditemui berdekatan (2 km).
+11	Dibuka 24 jam
+12	Berbayar
+13	Percuma
+14	Pada waktu malam dan cuti umum, cari farmasi bertugas.
+15	Laluan sedia ada
+16	Laluan yang dirancang hari demi hari. Tambah yang anda suka ke senarai perjalanan dengan satu ketikan, kemudian lawati mengikut susunan terpendek.
+17	{1} tempat ditambah ke senarai perjalanan anda
+18	Permata tersembunyi
+19	Buku saku bahasa Turki
+20	Ungkapan asas bahasa Turki untuk perjalanan. Ketik dan telefon anda akan menyebutnya dalam bahasa Turki.
+21	Pelayar ini tidak menyokong bacaan suara.
+22	Istanbul dalam 2 hari
+23	Cappadocia dalam 3 hari
+24	Ephesus, Pamukkale dan Bodrum dalam 4 hari
+25	Pantai Lycia dalam 4 hari
+26	Antalya dalam 3 hari
+27	Tanah tinggi Laut Hitam dalam 3 hari
+28	Gaziantep, Urfa dan Mardin dalam 4 hari
+29	Bursa dalam 2 hari
+30	Konya dalam 1 hari
+31	Ucapan salam
+32	Di restoran
+33	Jalan dan pengangkutan
+34	Membeli-belah
+35	Kecemasan
+36	Helo
+37	Selamat pagi
+38	Selamat petang
+39	Selamat tinggal
+40	Terima kasih
+41	Sama-sama
+42	Tolong
+43	Ya
+44	Tidak
+45	Maaf
+46	Saya tidak boleh berbahasa Turki
+47	Adakah anda boleh berbahasa Inggeris?
+48	Boleh saya dapatkan menu?
+49	Bil, tolong
+50	Air
+51	Sangat sedap
+52	Jangan pedas, tolong
+53	Saya tidak makan daging
+54	Boleh bayar dengan kad kredit?
+55	Di mana tandas?
+56	Di mana ini?
+57	Berapa jauh?
+58	Terminal bas
+59	Lapangan terbang
+60	Kanan
+61	Kiri
+62	Terus
+63	Perhentian
+64	Satu tiket, tolong
+65	Berapa harganya?
+66	Terlalu mahal
+67	Boleh beri diskaun?
+68	Saya ambil yang ini
+69	Tolong!
+70	Doktor
+71	Farmasi
+72	Polis
+73	Saya sesat
+@th
+0	ฟัง
+1	หยุด
+2	พระอาทิตย์ขึ้น
+3	วันนี้ เวลาตุรกี
+4	สิ่งจำเป็นใกล้เคียง
+5	ร้านขายยา
+6	ตู้เอทีเอ็ม
+7	ปั๊มน้ำมัน
+8	ห้องน้ำ
+9	ที่จอดรถ
+10	ไม่พบในบริเวณใกล้เคียง (2 กม.)
+11	เปิด 24 ชั่วโมง
+12	มีค่าบริการ
+13	ฟรี
+14	กลางคืนและวันหยุด ให้หาร้านขายยาที่เปิดเวร
+15	เส้นทางสำเร็จรูป
+16	เส้นทางที่วางแผนไว้ทีละวัน แตะครั้งเดียวเพื่อเพิ่มเส้นทางที่ชอบลงรายการทริป แล้วเที่ยวตามลำดับที่สั้นที่สุด
+17	เพิ่ม {1} สถานที่ลงรายการทริปแล้ว
+18	อัญมณีที่ซ่อนอยู่
+19	สมุดวลีภาษาตุรกี
+20	วลีภาษาตุรกีพื้นฐานสำหรับการเดินทาง แตะแล้วโทรศัพท์จะพูดเป็นภาษาตุรกี
+21	เบราว์เซอร์นี้ไม่รองรับการอ่านออกเสียง
+22	อิสตันบูล 2 วัน
+23	คัปปาโดเกีย 3 วัน
+24	เอเฟซัส ปามุกคาเล และโบดรุม 4 วัน
+25	ชายฝั่งไลเซีย 4 วัน
+26	อันทัลยา 3 วัน
+27	ที่ราบสูงทะเลดำ 3 วัน
+28	กาซีอันเทป อูร์ฟา และมาร์ดิน 4 วัน
+29	บูร์ซา 2 วัน
+30	คอนยา 1 วัน
+31	การทักทาย
+32	ที่ร้านอาหาร
+33	เส้นทางและการเดินทาง
+34	การซื้อของ
+35	กรณีฉุกเฉิน
+36	สวัสดี
+37	สวัสดีตอนเช้า
+38	สวัสดีตอนเย็น
+39	ลาก่อน
+40	ขอบคุณ
+41	ยินดี
+42	กรุณา
+43	ใช่
+44	ไม่ใช่
+45	ขอโทษ
+46	ฉันพูดภาษาตุรกีไม่ได้
+47	คุณพูดภาษาอังกฤษได้ไหม
+48	ขอเมนูหน่อยได้ไหม
+49	เช็กบิลด้วย
+50	น้ำ
+51	อร่อยมาก
+52	ไม่เผ็ดนะ
+53	ฉันไม่กินเนื้อสัตว์
+54	รับบัตรเครดิตไหม
+55	ห้องน้ำอยู่ที่ไหน
+56	ที่นี่อยู่ที่ไหน
+57	ไกลแค่ไหน
+58	สถานีขนส่ง
+59	สนามบิน
+60	ขวา
+61	ซ้าย
+62	ตรงไป
+63	ป้ายรถ
+64	ขอตั๋วหนึ่งใบ
+65	เท่าไร
+66	แพงเกินไป
+67	ลดได้ไหม
+68	เอาอันนี้
+69	ช่วยด้วย!
+70	หมอ
+71	ร้านขายยา
+72	ตำรวจ
+73	ฉันหลงทาง
+@vi
+0	Nghe
+1	Dừng
+2	Bình minh
+3	Hôm nay, giờ Thổ Nhĩ Kỳ
+4	Tiện ích gần đây
+5	Hiệu thuốc
+6	ATM
+7	Trạm xăng
+8	Nhà vệ sinh
+9	Bãi đỗ xe
+10	Không tìm thấy gần đây (2 km).
+11	Mở cửa 24/7
+12	Có phí
+13	Miễn phí
+14	Ban đêm và ngày lễ, hãy tìm hiệu thuốc trực.
+15	Lộ trình có sẵn
+16	Các lộ trình được lên kế hoạch theo từng ngày. Chạm một lần để thêm lộ trình bạn thích vào danh sách chuyến đi, rồi đi theo thứ tự ngắn nhất.
+17	Đã thêm {1} địa điểm vào danh sách chuyến đi
+18	Viên ngọc ẩn
+19	Sổ tay tiếng Thổ Nhĩ Kỳ
+20	Các câu tiếng Thổ Nhĩ Kỳ cơ bản cho chuyến đi. Chạm vào, điện thoại sẽ đọc bằng tiếng Thổ Nhĩ Kỳ.
+21	Trình duyệt này không hỗ trợ đọc to.
+22	Istanbul trong 2 ngày
+23	Cappadocia trong 3 ngày
+24	Ephesus, Pamukkale và Bodrum trong 4 ngày
+25	Bờ biển Lycia trong 4 ngày
+26	Antalya trong 3 ngày
+27	Cao nguyên Biển Đen trong 3 ngày
+28	Gaziantep, Urfa và Mardin trong 4 ngày
+29	Bursa trong 2 ngày
+30	Konya trong 1 ngày
+31	Chào hỏi
+32	Ở nhà hàng
+33	Đường đi và đi lại
+34	Mua sắm
+35	Khẩn cấp
+36	Xin chào
+37	Chào buổi sáng
+38	Chào buổi tối
+39	Tạm biệt
+40	Cảm ơn
+41	Không có gì
+42	Làm ơn
+43	Vâng
+44	Không
+45	Xin lỗi
+46	Tôi không nói tiếng Thổ Nhĩ Kỳ
+47	Bạn có nói tiếng Anh không?
+48	Cho tôi xem thực đơn được không?
+49	Tính tiền giúp tôi
+50	Nước
+51	Rất ngon
+52	Đừng cay nhé
+53	Tôi không ăn thịt
+54	Có nhận thẻ tín dụng không?
+55	Nhà vệ sinh ở đâu?
+56	Chỗ này ở đâu?
+57	Bao xa?
+58	Bến xe khách
+59	Sân bay
+60	Phải
+61	Trái
+62	Đi thẳng
+63	Trạm dừng
+64	Cho một vé
+65	Bao nhiêu tiền?
+66	Đắt quá
+67	Có giảm giá không?
+68	Tôi lấy cái này
+69	Cứu với!
+70	Bác sĩ
+71	Hiệu thuốc
+72	Cảnh sát
+73	Tôi bị lạc

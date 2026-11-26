@@ -32,6 +32,7 @@ import ThemeScreen from './src/screens/ThemeScreen';
 import PaintScreen from './src/screens/PaintScreen';
 import InboxScreen from './src/screens/InboxScreen';
 import JournalScreen, { JournalsScreen } from './src/screens/JournalScreen';
+import { PhrasesScreen, RoutesScreen } from './src/components/Extras2';
 import { TripProvider } from './src/lib/trip';
 import { APK_URL, useUpdate } from './src/lib/update';
 import { BADGES, earned } from './src/data/badges';
@@ -72,6 +73,8 @@ const ScreenM = React.memo(function Screen({ r }: { r: Route }) {
     case 'paint': return <PaintScreen />;
     case 'inbox': return <InboxScreen />;
     case 'journals': return <JournalsScreen />;
+    case 'routes': return <RoutesScreen />;
+    case 'phrases': return <PhrasesScreen />;
     case 'journal': return <JournalScreen id={r.id} />;
     case 'profile': return <ProfileScreen />;
     case 'interests': return <InterestsScreen />;
