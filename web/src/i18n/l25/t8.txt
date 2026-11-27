@@ -1,0 +1,468 @@
+@kk
+0	Жаңартулар тексерілуде
+1	Қолданба жаңартылған
+2	Жүктелуде
+3	Қолданбаны пайдалана беруге болады; жүктеу аяқталғанда орнату ашылады.
+4	Орнатуға дайын
+5	Ашылған экранда «Орнату» түймесін басыңыз. Телефон рұқсат сұраса, «Осы көзден рұқсат ету» параметрін қосып, қайта оралыңыз.
+6	Жаңартуды жүктеу мүмкін болмады
+7	Интернет байланысын тексеріп, қайталап көріңіз немесе браузерде жүктеңіз.
+8	Жаңарту
+9	Орнатуды ашу
+10	Қайталау
+11	Браузерде жүктеу
+12	Жарайды
+13	Фонда жалғастыру
+14	Менің бағытым
+15	Бағытта аялдама қалмады.
+16	Аялдама қосу
+17	Бағытпен бөлісу
+18	Айналып өту параметрлерін өшіріп, қайталап көріңіз.
+19	аялдамалардағы {1} қоса
+20	Аялдамалар
+21	Басталуы: сіздің орныңыз
+22	Басталуы: бірінші аялдама
+23	{1} болу
+24	Болу уақытын қосу
+25	Аялдаманы жою
+26	Ең қысқа рет
+27	Жолдағы демалыс
+28	Көп айналмай-ақ соғуға болатын жерлер.
+29	Ізделуде…
+30	Бағыт маңынан ештеңе табылмады.
+31	бағыттан {1}
+32	Қосу
+33	Жолыңызда, жіберіп алмаңыз
+34	Бағытыңызға жақын, нұсқаулықтағы көрікті жерлер.
+35	Жасыру
+36	Көрсету ({1})
+37	Орын немесе облыс іздеу
+38	Таңдаулылар мен танымал орындар
+39	Ең көбі {1} аялдама қосуға болады
+40	Бұл аялдама бағытта бар
+41	{1} аялдама ретінде қосылды
+42	Аялдамалар ең қысқа ретте тұр
+43	Демалыс орындарын қазір жүктеу мүмкін болмады
+44	2 сағаттан бері жолдасыз. Қысқа үзіліс жасасаңыз қайтеді?
+45	Үзіліс
+46	2 сағаттан бері жолдасыз. Қысқа үзіліс пайдалы болады.
+47	Демалыс орнын табу
+48	Алдағы демалыс орындары
+49	Алдағы 45 км ішінде ештеңе табылмады.
+50	жабық
+51	мереке күні
+52	Жұмыс уақыты
+53	OpenStreetMap деректері; мереке және ерекше күндері өзгеше болуы мүмкін. Барар алдында ресми дереккөзді тексеріңіз.
+54	Қазір келушілер үшін ашық
+55	{1}-ден кейін қайта болады
+56	Келу уақытынан тыс
+57	Келу уақыты
+58	Бүгінгі қолайлы уақыт
+59	Жұма күні бесін намазы ұзағырақ әрі адам көп; түс уағынан аулақ болыңыз.
+60	Кіреберісте аяқ киім шешіледі. Әйелдер шашын жабады; иық пен тізе жабық болуы керек. Намаз оқып жатқандардың алдынан өтпеңіз, жарқыл қолданбаңыз.
+61	Уақыттар есептелген, бірнеше минутқа өзгеше болуы мүмкін.
+62	Төтенше жағдай
+63	155, 156 және 110 сияқты ескі нөмірлер де 112-ге қосылады.
+64	Елшіліктер мен консулдықтар
+65	Төлқұжатыңызды жоғалтсаңыз, еліңіздің өкілдігіне хабарласыңыз.
+66	Жаныңызда
+67	Жақын жерлерді көру үшін орынға рұқсат беріңіз.
+68	Қазір жүктелмеді. Интернет байланысын тексеріңіз.
+69	Жақын жерде ештеңе табылмады.
+70	Жедел жәрдем бөлімі бар
+71	Қоңырау шалу
+72	Түнде және мереке күндері кезекші дәріханалар тізімі әр дәріхананың есігінде ілулі тұрады.
+73	Валюта түрлендіргіш
+74	Бағытты ауыстыру
+75	Орталық банктің сату бағамы, {1}
+76	желіден тыс, соңғы белгілі бағам
+77	Айырбастау пункті мен карта бағамдары өзгеше болуы мүмкін; көрсетілген мән шамамен алынған.
+78	Бағамдарды қазір алу мүмкін болмады.
+79	Баға анықтамалығы
+80	Баға анықтамалығын қазір жүктеу мүмкін болмады.
+81	Бағалар шамамен; инфляцияға байланысты жиі өзгереді. Әр бағаның күні жақшада.
+82	Кеңестер
+83	Бұл күнге болжам әлі жоқ.
+84	Жаңбыр ықтималдығы {1}%
+85	Жаңбырлы болатын сияқты; бұл күнге жабық орындарды жоспарлаңыз.
+86	Ертең
+87	Орталық банк бағамымен
+88	Қашан барасыз?
+89	Ауа райы болжамы
+90	Бүгін тәулік бойы ашық
+91	{1} мин кейін жабылады
+92	{1}-де жабылады
+93	Қазір ашық
+94	Жабық
+95	бүгін {1}-де ашылады
+96	ертең {1}-де ашылады
+97	{1}-де ашылады
+98	Демалыс аймағы
+99	Ақылы жолдарсыз
+100	Автомагистральсыз
+101	Паромсыз
+102	Төтенше қоңырау
+103	YİMER · Шетелдіктерге арналған байланыс орталығы
+104	Орман өрті туралы хабарлау
+105	Аурухана
+106	Жұма намазы
+107	Бесін намазы
+108	Екінті намазы
+109	Ақшам намазы
+110	Таң
+111	Күн шығуы
+112	Бесін
+113	Екінті
+114	Ақшам
+115	Құптан
+116	Дс
+117	Сс
+118	Ср
+119	Бс
+120	Жм
+121	Сн
+122	Жс
+123	Дүйсенбі
+124	Сейсенбі
+125	Сәрсенбі
+126	Бейсенбі
+127	Жұма
+128	Сенбі
+129	Жексенбі
+130	Жедел жәрдем, полиция, өрт сөндірушілер, жандармерия және жағалау күзеті: барлық төтенше жағдайға бір нөмір. Қоңырау тегін.
+131	Шетелдіктерге тәулік бойы көмек: түрік, ағылшын, араб, орыс, неміс және парсы тілдерінде.
+132	Орманда түтін не от көрсеңіз.
+133	Орталық банк бағамымен лира есебі
+134	Симит, көлік, такси және мұражай бағалары
+135	112, ең жақын аурухана мен дәріхана
+136	Жаңартуларды тексеру
+137	Симит (Стамбул)
+138	Istanbulkart, толық тариф
+139	Такси, отыру ақысы (Стамбул)
+140	Такси, км үшін (Стамбул)
+141	Такси, қысқа жолдың ең төменгі бағасы (Стамбул)
+142	Müzekart (Түркия мен СКТР азаматтары, 1 жыл)
+143	Эфеске кіру (шетелдік келушілер)
+144	Галата мұнарасына кіру (шетелдік келушілер)
+145	Қыркүйек 2026
+146	Шілде 2026
+147	Қараша 2026
+148	Баға тізімі жоқ жерде алдымен бағасын сұраңыз.
+149	Таксиде есептегіштің қосулы екеніне көз жеткізіңіз.
+150	Үлкен базарда және базарларда саудаласу қалыпты, бірақ мейрамханаларда емес.
+151	Туристік аймақтарда бағалар қаланың басқа бөлігінен айтарлықтай жоғары болуы мүмкін.
+152	Шайпұл міндетті емес (әдетте 5–10%); шотта қызмет ақысы болса, қосымша қажет емес.
+153	Сізбен бағыт бөлісті
+154	Саяхат тізіміңіз толы (ең көбі 24 орын).
+@uz
+0	Yangilanishlar tekshirilmoqda
+1	Ilovangiz yangi
+2	Yuklab olinmoqda
+3	Ilovadan foydalanishda davom etishingiz mumkin; yuklab olish tugagach o‘rnatish ochiladi.
+4	O‘rnatishga tayyor
+5	Ochilgan ekranda “O‘rnatish”ni bosing. Telefon ruxsat so‘rasa, “Shu manbadan ruxsat berish”ni yoqib, qayting.
+6	Yangilanishni yuklab bo‘lmadi
+7	Internet aloqasini tekshirib, qayta urinib ko‘ring yoki brauzerda yuklab oling.
+8	Yangilash
+9	O‘rnatishni ochish
+10	Qayta urinish
+11	Brauzerda yuklab olish
+12	OK
+13	Fonda davom etish
+14	Mening yo‘nalishim
+15	Yo‘nalishda bekat qolmadi.
+16	Bekat qo‘shish
+17	Yo‘nalishni ulashish
+18	Chetlab o‘tish sozlamalarini o‘chirib, qayta urinib ko‘ring.
+19	bekatlardagi {1} bilan
+20	Bekatlar
+21	Boshlanish: joylashuvingiz
+22	Boshlanish: birinchi bekat
+23	{1} qolish
+24	Qolish vaqtini qo‘shish
+25	Bekatni o‘chirish
+26	Eng qisqa tartib
+27	Yo‘l ustidagi dam olish
+28	Katta aylanmasdan kirib o‘tish mumkin bo‘lgan joylar.
+29	Qidirilmoqda…
+30	Yo‘nalish yaqinida hech narsa topilmadi.
+31	yo‘nalishdan {1}
+32	Qo‘shish
+33	Yo‘lingizda, o‘tkazib yubormang
+34	Yo‘nalishingizga yaqin, qo‘llanmadagi diqqatga sazovor joylar.
+35	Yashirish
+36	Ko‘rsatish ({1})
+37	Joy yoki viloyat qidiring
+38	Sevimlilaringiz va mashhur joylar
+39	Ko‘pi bilan {1} ta bekat qo‘shish mumkin
+40	Bu bekat allaqachon yo‘nalishda
+41	{1} bekat sifatida qo‘shildi
+42	Bekatlar allaqachon eng qisqa tartibda
+43	Dam olish joylarini hozir yuklab bo‘lmadi
+44	2 soatdan beri yo‘ldasiz. Qisqa tanaffus qilsangiz-chi?
+45	Tanaffus
+46	2 soatdan beri yo‘ldasiz. Qisqa tanaffus foydali bo‘ladi.
+47	Dam olish joyini topish
+48	Oldindagi dam olish joylari
+49	Keyingi 45 km ichida hech narsa topilmadi.
+50	yopiq
+51	bayram kuni
+52	Ish vaqti
+53	OpenStreetMap ma’lumotlari; bayram va maxsus kunlarda farq qilishi mumkin. Borishdan oldin rasmiy manbani tekshiring.
+54	Hozir ziyorat uchun ochiq
+55	{1} dan keyin yana mumkin
+56	Ziyorat vaqtidan tashqari
+57	Ziyorat vaqtlari
+58	Bugungi qulay vaqtlar
+59	Juma kunlari peshin namozi uzoqroq va gavjumroq bo‘ladi; tush paytidan qoching.
+60	Kirishda poyabzal yechiladi. Ayollar sochini yopadi; yelka va tizzalar yopiq bo‘lishi kerak. Namoz o‘qiyotganlar oldidan o‘tmang va chaqnoqni ishlatmang.
+61	Vaqtlar hisoblangan va bir necha daqiqa farq qilishi mumkin.
+62	Favqulodda holat
+63	155, 156 va 110 kabi eski raqamlar ham 112 ga yo‘naltiriladi.
+64	Elchixonalar va konsulliklar
+65	Pasportingizni yo‘qotgan bo‘lsangiz, mamlakatingiz vakolatxonasiga murojaat qiling.
+66	Yaqiningizda
+67	Yaqin joylarni ko‘rish uchun joylashuvga ruxsat bering.
+68	Hozir yuklab bo‘lmadi. Internet aloqasini tekshiring.
+69	Yaqinda hech narsa topilmadi.
+70	Shoshilinch bo‘lim bor
+71	Qo‘ng‘iroq qilish
+72	Kechasi va bayramlarda navbatchi dorixonalar ro‘yxati har bir dorixona eshigida osilgan bo‘ladi.
+73	Valyuta konvertori
+74	Yo‘nalishni almashtirish
+75	Markaziy bank sotish kursi, {1}
+76	oflayn, oxirgi ma’lum kurs
+77	Ayirboshlash shoxobchalari va karta kurslari farq qilishi mumkin; ko‘rsatilgan qiymat taxminiy.
+78	Kurslarni hozir olib bo‘lmadi.
+79	Narxlar qo‘llanmasi
+80	Narxlar qo‘llanmasini hozir yuklab bo‘lmadi.
+81	Taxminiy narxlar; inflyatsiya sababli tez-tez o‘zgaradi. Har bir narx sanasi qavs ichida.
+82	Maslahatlar
+83	Bu kun uchun hali ob-havo prognozi yo‘q.
+84	Yomg‘ir ehtimoli {1}%
+85	Yomg‘irli ko‘rinadi; bu kunga yopiq joylarni rejalashtiring.
+86	Ertaga
+87	Markaziy bank kursida
+88	Qachon borasiz?
+89	Ob-havo prognozi
+90	Bugun 24 soat ochiq
+91	{1} daqiqadan keyin yopiladi
+92	soat {1} da yopiladi
+93	Hozir ochiq
+94	Yopiq
+95	bugun soat {1} da ochiladi
+96	ertaga soat {1} da ochiladi
+97	soat {1} da ochiladi
+98	Dam olish maskani
+99	Pullik yo‘llarsiz
+100	Avtomagistralsiz
+101	Paromsiz
+102	Favqulodda qo‘ng‘iroq
+103	YİMER · Chet elliklar uchun aloqa markazi
+104	O‘rmon yong‘ini haqida xabar
+105	Shifoxona
+106	Juma namozi
+107	Peshin namozi
+108	Asr namozi
+109	Shom namozi
+110	Bomdod
+111	Quyosh
+112	Peshin
+113	Asr
+114	Shom
+115	Xufton
+116	Du
+117	Se
+118	Cho
+119	Pa
+120	Ju
+121	Sha
+122	Ya
+123	Dushanba
+124	Seshanba
+125	Chorshanba
+126	Payshanba
+127	Juma
+128	Shanba
+129	Yakshanba
+130	Tez yordam, politsiya, o‘t o‘chiruvchilar, jandarmeriya va qirg‘oq qo‘riqlash: barcha favqulodda holatlar uchun bitta raqam. Qo‘ng‘iroq bepul.
+131	Chet elliklar uchun 7/24 maslahat: turk, ingliz, arab, rus, nemis va fors tillarida.
+132	O‘rmonda tutun yoki olov ko‘rsangiz.
+133	Markaziy bank kursida lira hisobi
+134	Simit, transport, taksi va muzey narxlari
+135	112, eng yaqin shifoxona va dorixona
+136	Yangilanishlarni tekshirish
+137	Simit (Istanbul)
+138	Istanbulkart, to‘liq narx
+139	Taksi, o‘tirish narxi (Istanbul)
+140	Taksi, har km (Istanbul)
+141	Taksi, qisqa masofa minimal narxi (Istanbul)
+142	Müzekart (Turkiya va SHKTR fuqarolari, 1 yil)
+143	Efesga kirish (xorijiy tashrifchilar)
+144	Galata minorasiga kirish (xorijiy tashrifchilar)
+145	Sentyabr 2026
+146	Iyul 2026
+147	Noyabr 2026
+148	Narxlar ro‘yxati bo‘lmagan joyda avval narxini so‘rang.
+149	Taksida hisoblagich yoqilganiga ishonch hosil qiling.
+150	Katta bozor va bozorlarda savdolashish odatiy, restoranlarda esa yo‘q.
+151	Turistik hududlarda narxlar shaharning boshqa qismlaridan sezilarli darajada yuqori bo‘lishi mumkin.
+152	Choychaqa ixtiyoriy (odatda 5–10%); hisobda xizmat haqi bo‘lsa, qo‘shimcha shart emas.
+153	Siz bilan yo‘nalish ulashildi
+154	Sayohat ro‘yxatingiz to‘la (ko‘pi bilan 24 ta joy).
+@sq
+0	Po kontrollohen përditësimet
+1	Aplikacioni është i përditësuar
+2	Po shkarkohet
+3	Mund ta përdorësh aplikacionin; instalimi hapet kur të mbarojë shkarkimi.
+4	Gati për instalim
+5	Prek “Instalo” në ekranin që hapet. Nëse telefoni kërkon leje, aktivizo “Lejo nga ky burim” dhe kthehu.
+6	Përditësimi nuk u shkarkua
+7	Kontrollo lidhjen me internetin dhe provo sërish, ose shkarkoje në shfletues.
+8	Përditëso
+9	Hap instalimin
+10	Provo sërish
+11	Shkarko në shfletues
+12	Në rregull
+13	Vazhdo në sfond
+14	Rruga ime
+15	Nuk ka më ndalesa në rrugë.
+16	Shto ndalesë
+17	Ndaj rrugën
+18	Çaktivizo opsionet e shmangies dhe provo sërish.
+19	përfshirë {1} në ndalesa
+20	Ndalesat
+21	Nisja: vendndodhja jote
+22	Nisja: ndalesa e parë
+23	qëndro {1}
+24	Shto kohën e qëndrimit
+25	Hiq ndalesën
+26	Rendi më i shkurtër
+27	Ndalesa gjatë rrugës
+28	Vende ku mund të ndalesh pa devijim të madh.
+29	Po kërkohet…
+30	Asgjë pranë rrugës.
+31	{1} larg rrugës
+32	Shto
+33	Në rrugën tënde, mos e humb
+34	Vende nga udhëzuesi pranë rrugës sate.
+35	Fshih
+36	Shfaq ({1})
+37	Kërko një vend ose provincë
+38	Të preferuarat dhe vendet kryesore
+39	Mund të shtosh deri në {1} ndalesa
+40	Kjo ndalesë është tashmë në rrugë
+41	{1} u shtua si ndalesë
+42	Ndalesat janë tashmë në rendin më të shkurtër
+43	Vendet e pushimit nuk u ngarkuan tani
+44	Po ngas prej 2 orësh. Si thua për një pushim të shkurtër?
+45	Pushim
+46	Po ngas prej 2 orësh. Një pushim i shkurtër do të të bëjë mirë.
+47	Gjej vend pushimi
+48	Vende pushimi përpara
+49	Asgjë në 45 km e ardhshme.
+50	mbyllur
+51	festë zyrtare
+52	Orari i hapjes
+53	Të dhëna OpenStreetMap; mund të ndryshojnë në festa dhe ditë të veçanta. Kontrollo burimin zyrtar para se të shkosh.
+54	Tani e hapur për vizitorë
+55	sërish e mundur pas {1}
+56	Jashtë orarit të vizitave
+57	Orari i vizitave
+58	Kohët e përshtatshme sot
+59	Të premteve namazi i drekës është më i gjatë dhe më i mbushur; shmang mesditën.
+60	Këpucët hiqen në hyrje. Gratë mbulojnë flokët; shpatullat dhe gjunjët duhet të jenë të mbuluar. Mos kalo para atyre që falen dhe mos përdor blic.
+61	Oraret janë të llogaritura dhe mund të ndryshojnë me disa minuta.
+62	Emergjenca
+63	Numrat e vjetër si 155, 156 dhe 110 drejtohen gjithashtu te 112.
+64	Ambasada dhe konsullata
+65	Nëse ke humbur pasaportën, drejtohu përfaqësisë së vendit tënd.
+66	Pranë teje
+67	Lejo qasjen në vendndodhje për të parë vendet përreth.
+68	Nuk u ngarkua tani. Kontrollo lidhjen me internetin.
+69	Asgjë afër.
+70	Ka urgjencë
+71	Telefono
+72	Natën dhe në festa, lista e farmacive kujdestare është e varur në derën e çdo farmacie.
+73	Konvertues valutash
+74	Ndrysho drejtimin
+75	Kursi i shitjes i Bankës Qendrore, {1}
+76	jashtë linje, kursi i fundit i njohur
+77	Kurset e këmbimoreve dhe kartave mund të ndryshojnë; vlera është e përafërt.
+78	Kurset nuk u morën tani.
+79	Udhëzues çmimesh
+80	Udhëzuesi i çmimeve nuk u ngarkua tani.
+81	Çmime të përafërta; ndryshojnë shpesh për shkak të inflacionit. Data e çdo çmimi është në kllapa.
+82	Këshilla
+83	Ende s’ka parashikim për këtë ditë.
+84	Mundësi shiu {1}%
+85	Duket me shi; planifiko vende të mbyllura për këtë ditë.
+86	Nesër
+87	me kursin e Bankës Qendrore
+88	Kur po shkon?
+89	Parashikimi i motit
+90	Sot e hapur 24 orë
+91	mbyllet pas {1} min
+92	mbyllet në {1}
+93	E hapur tani
+94	E mbyllur
+95	hapet sot në {1}
+96	hapet nesër në {1}
+97	hapet në {1}
+98	Zonë pushimi
+99	Pa rrugë me pagesë
+100	Pa autostrada
+101	Pa tragete
+102	Thirrje emergjence
+103	YİMER · Qendra e komunikimit për të huajt
+104	Njoftim për zjarr pyjor
+105	Spital
+106	Namazi i së premtes
+107	Namazi i drekës
+108	Namazi i ikindisë
+109	Namazi i akshamit
+110	Sabahu
+111	Lindja e diellit
+112	Dreka
+113	Ikindia
+114	Akshami
+115	Jacia
+116	Hën
+117	Mar
+118	Mër
+119	Enj
+120	Pre
+121	Sht
+122	Die
+123	E hënë
+124	E martë
+125	E mërkurë
+126	E enjte
+127	E premte
+128	E shtunë
+129	E diel
+130	Ambulanca, policia, zjarrfikësit, xhandarmëria dhe roja bregdetare: një numër për të gjitha emergjencat. Thirrja falas.
+131	Ndihmë 24/7 për të huajt: turqisht, anglisht, arabisht, rusisht, gjermanisht dhe persisht.
+132	Nëse sheh tym ose zjarr në pyll.
+133	Shuma në lira me kursin e Bankës Qendrore
+134	Çmimet e simitit, transportit, taksive dhe muzeve
+135	112, spitali dhe farmacia më e afërt
+136	Kontrollo për përditësime
+137	Simit (Stamboll)
+138	Istanbulkart, tarifë e plotë
+139	Taksi, tarifa e nisjes (Stamboll)
+140	Taksi për km (Stamboll)
+141	Taksi, minimumi për distancë të shkurtër (Stamboll)
+142	Müzekart (shtetas të Turqisë dhe RTQV, 1 vit)
+143	Hyrja në Efes (vizitorë të huaj)
+144	Hyrja në Kullën e Galatës (vizitorë të huaj)
+145	Shtator 2026
+146	Korrik 2026
+147	Nëntor 2026
+148	Ku s’ka listë çmimesh, pyet fillimisht për çmimin.
+149	Në taksi sigurohu që taksimetri është ndezur.
+150	Pazarllëku është normal në Pazarin e Madh dhe tregje, por jo në restorante.
+151	Në zonat turistike çmimet mund të jenë dukshëm më të larta se në pjesën tjetër të qytetit.
+152	Bakshishi është opsional (zakonisht 5–10%); nëse fatura përfshin tarifë shërbimi, s’duhet tjetër.
+153	U nda një rrugë me ty
+154	Lista jote e udhëtimit është plot (deri në 24 vende).

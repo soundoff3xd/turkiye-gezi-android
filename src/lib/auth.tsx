@@ -33,6 +33,10 @@ const ERR: [RegExp, string][] = [
   [/feedback_limit/i, 'Bugün çok fazla mesaj gönderdin. Yarın tekrar deneyebilirsin.'],
   [/no_target/i, 'Bu içerik artık yok.'],
   [/duplicate key|already voted|unique/i, 'Bunu zaten yaptın.'],
+  [/bad_invite/i, 'Davet bağlantısı geçersiz ya da liste silinmiş.'],
+  [/trip_members_full/i, 'Bu liste dolu (en fazla 20 kişi).'],
+  [/trip_full/i, 'Liste dolu (en fazla 50 yer).'],
+  [/too_many_trips/i, 'En fazla 20 ortak liste oluşturabilirsin.'],
 ];
 export const trError = (e: unknown) => {
   const m = (e as { message?: string })?.message || String(e || '');

@@ -1,0 +1,768 @@
+@en
+0	You already joined this list
+1	You joined the list {1}
+2	Shared lists
+3	Trip list with your friends
+4	Hiking trails
+5	Lycian Way, Kaçkar Mountains and more
+6	Blue Flag beaches
+7	Clean and safe beaches
+8	Packing list
+9	Packing list by region and season
+10	Fun and memories
+11	Collections
+12	UNESCO heritage, 7 regions and more
+13	Where is this?
+14	Guess the place from the photo, solve the daily quiz
+15	Year in travel
+16	This year's trips on one card
+17	Open {1}'s profile
+18	The invite link is invalid or the list was deleted.
+19	This list is full (max. 20 people).
+20	The list is full (max. 50 places).
+21	You can create up to 20 shared lists.
+22	{1} started following you
+23	{1} joined your shared trip list
+24	Add to shared list
+25	My traveler profile
+26	My year
+27	Following
+28	Sign in to follow
+29	This traveler could not be found.
+30	Followers
+31	Following
+32	Traveler since {1}
+33	Following
+34	Follow
+35	Which places this traveler visited is private; only the numbers are shown.
+36	Recent reviews
+37	No reviews yet.
+38	My year in travel
+39	You are not following anyone yet.
+40	Tap a traveler's name on a review to open their profile and follow them.
+41	The people you follow have not shared anything yet.
+42	Sign in for shared lists
+43	Plan a trip list together with friends or family. Share the link; everyone who joins can add and remove places.
+44	List name (e.g. Cappadocia weekend)
+45	You have no shared lists yet.
+46	Created by you
+47	List you joined
+48	Up to {1} places and {2} people.
+49	Shared list
+50	You can't see this list.
+51	Open the link you were sent to join the list.
+52	This place is already on the list
+53	Added to the list
+54	List deleted
+55	You left the list
+56	Join my shared trip list
+57	Invite
+58	No places added yet.
+59	Added by {1}
+60	Add place
+61	Members
+62	You (list owner)
+63	List owner and invitees
+64	No one has joined yet. Share the invite link.
+65	Created: {1}
+66	Delete list
+67	Leave list
+68	Added to the list {1}
+69	New shared list
+70	Sign in to see your summary
+71	My {1} in travel
+72	{1} provinces
+73	Province you explored most: {1}
+74	Favorite type: {1}
+75	{1} journal notes
+76	Your most liked photo
+77	You haven't marked any place as "Been there" this year. Your summary fills up as you travel.
+78	Share my summary
+79	Complete lists and earn badges. Progress grows as you mark places "Been there".
+80	Completed
+81	Not found.
+82	Congratulations, you completed this collection!
+83	Based on Türkiye's 21 UNESCO World Heritage sites as of 2023.
+84	Question {1}/{2}
+85	Score {1}
+86	Look at the photo and guess where in Türkiye it is.
+87	Daily quiz
+88	The same 5 photos for everyone; play once a day.
+89	Your score today: {1}/5
+90	Play today's quiz
+91	Sign in to get on the leaderboard.
+92	Free play
+93	10 random photos. Your best score: {1}/10
+94	Play
+95	Today's leaderboard
+96	No one has played today yet.
+97	Photos: Wikimedia Commons
+98	Spring
+99	Summer
+100	Autumn
+101	Winter
+102	Easy
+103	Moderate
+104	Hard
+105	Türkiye's marked long-distance trails and valleys.
+106	Start
+107	End
+108	Best season
+109	Loading the trail from OpenStreetMap…
+110	The trail could not be loaded right now; the map shows the start and end points.
+111	Trail: © OpenStreetMap contributors. Check current waymarks and the weather before you set off.
+112	Open on Culture Routes in Turkey
+113	On long trails carry enough water, tell someone your route and don't walk at midday in the summer heat.
+114	Blue Flag
+115	A beach in this area is on the {1} Blue Flag list.
+116	On the {1} Blue Flag list.
+117	Blue Flag is awarded anew every year; check mavibayrak.org.tr for the current status.
+118	Beaches in the guide that appear on Blue Flag lists. Blue Flag is awarded every year for clean water, safety and environmental management.
+119	Best times for photos
+120	Morning golden hour
+121	Evening golden hour
+122	Blue hour
+123	Nearby viewpoints
+124	No marked viewpoint within 3 km.
+125	Times are for today, in Türkiye time.
+126	Sea and beach
+127	Nature walk
+128	Mosque visit
+129	Snow and skiing
+130	Balloon ride
+131	Documents
+132	ID card or passport
+133	Driving licence (if you'll drive)
+134	Credit card and some cash in TL
+135	Accommodation and ticket details
+136	Travel health insurance (if you're a foreigner)
+137	Clothing
+138	Comfortable walking shoes
+139	Light layer for the evening
+140	Coat or heavy jacket
+141	Sweater
+142	Hat and gloves
+143	Sun hat
+144	Thin, light-colored clothes
+145	Raincoat and waterproof shoes
+146	Thermal underwear
+147	Snow boots
+148	Health and care
+149	Your personal medicines
+150	Painkillers and plasters
+151	Toothbrush and toothpaste
+152	Wet wipes and hand sanitizer
+153	Sunscreen (SPF 30+)
+154	Insect repellent
+155	Electronics
+156	Phone and charger
+157	Power bank
+158	Offline map (download in the app)
+159	Swimsuit
+160	Beach towel
+161	Water shoes
+162	Sunglasses
+163	Water bottle
+164	Small backpack
+165	Snacks
+166	Trekking poles
+167	Flashlight
+168	Headscarf or shawl
+169	Clothes below the knee
+170	Easy-to-remove shoes
+171	Ski jacket and trousers
+172	Ski goggles
+173	Waterproof gloves
+174	Sunscreen for your face
+175	Warm top for the morning chill
+176	Closed shoes
+177	Where to?
+178	When?
+179	How many days?
+180	What will you do?
+181	{1}/{2} packed
+182	Underwear and socks for {1} days
+183	Clear checkmarks
+184	Translating…
+185	Show original
+186	Translate
+187	Couldn't translate right now, try again later.
+188	Machine translation · MyMemory
+189	UNESCO World Heritage
+190	Türkiye's 21 sites on the World Heritage List
+191	Historic Areas of Istanbul
+192	Göreme and Cappadocia
+193	Great Mosque and Hospital of Divriği
+194	Hattusa
+195	Mount Nemrut
+196	Hierapolis-Pamukkale
+197	Xanthos-Letoon
+198	Safranbolu
+199	Archaeological Site of Troy
+200	Selimiye Mosque, Edirne
+201	Çatalhöyük
+202	Bursa and Cumalıkızık
+203	Pergamon
+204	Ephesus
+205	Ani
+206	Aphrodisias
+207	Göbekli Tepe
+208	Diyarbakır Fortress and Hevsel Gardens
+209	Arslantepe Mound
+210	Gordion
+211	Wooden hypostyle Seljuk mosques
+212	7 regions
+213	At least one place in each geographical region
+214	Ancient cities of the Aegean
+215	Ancient cities and ruins in the Aegean Region
+216	Mosques of Istanbul
+217	Istanbul mosques in the guide
+218	Valleys, underground cities and towns of Nevşehir
+219	Palaces
+220	All palaces in the guide
+221	Towers
+222	All towers in the guide
+223	Hot springs
+224	All hot springs in the guide
+225	Canyons
+226	All canyons in the guide
+227	Caves
+228	All caves in the guide
+229	Islands
+230	All islands in the guide
+231	A waymarked long-distance trail along the Mediterranean coast through ancient Lycian cities, villages and pine forests. Walk it in stages rather than all at once.
+232	A mountain route over the Taurus Mountains from Antalya to Yalvaç near Lake Eğirdir; canyons, high pastures and lakeshores.
+233	Türkiye's longest waymarked trail, looping around Muğla's Bodrum, Datça and Bozburun peninsulas; coves and ancient Carian cities.
+234	A multi-day mountain trek past highland villages, glacial lakes and passes in the high Black Sea mountains. The weather changes fast; experience and gear are needed.
+235	A waymarked route linking İzmir's mountain villages, olive groves and historic settlements.
+236	A return climb to Türkiye's highest mountain. Done with a guide and a permit; high-altitude experience is needed.
+237	A return hike among the limestone peaks of the Taurus to the Yedigöller plateau.
+238	Part of the route the famous traveler took on his pilgrimage in 1671; a rural route to walk or ride on horseback.
+239	A route past the rock monuments, fairy chimneys and abandoned villages of the Phrygian Valley; Yazılıkaya (the Midas Monument) is its most famous stop.
+240	A Cappadocian valley walked between rock churches along the Melendiz stream; most people walk a short section.
+241	The Turkish section of the Middle East's Abraham Path, from villages around Şanlıurfa to Harran's beehive houses.
+242	The historic route along which ammunition and volunteers were carried from İnebolu to Ankara in the War of Independence.
+243	The Thrace section of the international trail from Vienna to Istanbul.
+244	Lengths and durations: GoTürkiye / Culture Routes in Turkey
+245	Are you sure? Tap again to confirm
+246	No results
+247	Your progress is saved in this browser; sign in to save it to your account.
+248	The leaderboard needs an internet connection.
+249	{1} s
+250	{1} km
+251	Favorite type:
+252	Places visited
+253	Likes received
+254	Search and add a place
+@de
+0	Du bist dieser Liste schon beigetreten
+1	Du bist der Liste {1} beigetreten
+2	Gemeinsame Listen
+3	Reiseliste mit Freunden
+4	Wanderwege
+5	Lykischer Weg, Kaçkar-Gebirge und mehr
+6	Strände mit Blauer Flagge
+7	Saubere und sichere Strände
+8	Packliste
+9	Packliste nach Region und Jahreszeit
+10	Spaß und Erinnerungen
+11	Sammlungen
+12	UNESCO-Erbe, 7 Regionen und mehr
+13	Wo ist das?
+14	Errate den Ort auf dem Foto, löse das Tagesquiz
+15	Reisejahr
+16	Die Reisen dieses Jahres auf einer Karte
+17	Profil von {1} öffnen
+18	Der Einladungslink ist ungültig oder die Liste wurde gelöscht.
+19	Diese Liste ist voll (max. 20 Personen).
+20	Die Liste ist voll (max. 50 Orte).
+21	Du kannst bis zu 20 gemeinsame Listen erstellen.
+22	{1} folgt dir jetzt
+23	{1} ist deiner gemeinsamen Reiseliste beigetreten
+24	Zur gemeinsamen Liste hinzufügen
+25	Mein Reiseprofil
+26	Mein Jahr
+27	Gefolgt
+28	Melde dich an, um zu folgen
+29	Dieser Reisende wurde nicht gefunden.
+30	Follower
+31	Folgt
+32	Reisender seit {1}
+33	Du folgst
+34	Folgen
+35	Welche Orte dieser Reisende besucht hat, ist privat; nur die Zahlen sind sichtbar.
+36	Neueste Bewertungen
+37	Noch keine Bewertungen.
+38	Mein Reisejahr
+39	Du folgst noch niemandem.
+40	Tippe in einer Bewertung auf den Namen, um das Profil zu öffnen und zu folgen.
+41	Die Personen, denen du folgst, haben noch nichts geteilt.
+42	Melde dich für gemeinsame Listen an
+43	Plane eine Reiseliste gemeinsam mit Freunden oder Familie. Teile den Link; alle, die beitreten, können Orte hinzufügen und entfernen.
+44	Listenname (z. B. Kappadokien-Wochenende)
+45	Du hast noch keine gemeinsamen Listen.
+46	Von dir erstellt
+47	Beigetretene Liste
+48	Bis zu {1} Orte und {2} Personen.
+49	Gemeinsame Liste
+50	Du kannst diese Liste nicht sehen.
+51	Öffne den Link, den du bekommen hast, um der Liste beizutreten.
+52	Dieser Ort ist schon auf der Liste
+53	Zur Liste hinzugefügt
+54	Liste gelöscht
+55	Du hast die Liste verlassen
+56	Tritt meiner gemeinsamen Reiseliste bei
+57	Einladen
+58	Noch keine Orte hinzugefügt.
+59	Hinzugefügt von {1}
+60	Ort hinzufügen
+61	Mitglieder
+62	Du (Listeninhaber)
+63	Listeninhaber und Eingeladene
+64	Noch niemand ist beigetreten. Teile den Einladungslink.
+65	Erstellt: {1}
+66	Liste löschen
+67	Liste verlassen
+68	Zur Liste {1} hinzugefügt
+69	Neue gemeinsame Liste
+70	Melde dich an, um deine Übersicht zu sehen
+71	Mein Reisejahr {1}
+72	{1} Provinzen
+73	Meistbesuchte Provinz: {1}
+74	Lieblingsart: {1}
+75	{1} Tagebuchnotizen
+76	Dein beliebtestes Foto
+77	Du hast dieses Jahr noch keinen Ort als „War ich“ markiert. Deine Übersicht füllt sich beim Reisen.
+78	Übersicht teilen
+79	Vervollständige Listen und verdiene Abzeichen. Der Fortschritt wächst mit jedem „War ich“.
+80	Abgeschlossen
+81	Nicht gefunden.
+82	Glückwunsch, du hast diese Sammlung vervollständigt!
+83	Basiert auf den 21 UNESCO-Welterbestätten der Türkei (Stand 2023).
+84	Frage {1}/{2}
+85	Punkte {1}
+86	Sieh dir das Foto an und errate, wo in der Türkei es ist.
+87	Tagesquiz
+88	Dieselben 5 Fotos für alle; einmal am Tag spielbar.
+89	Deine Punkte heute: {1}/5
+90	Tagesquiz spielen
+91	Melde dich an, um in die Bestenliste zu kommen.
+92	Freies Spiel
+93	10 zufällige Fotos. Dein Bestwert: {1}/10
+94	Spielen
+95	Bestenliste von heute
+96	Heute hat noch niemand gespielt.
+97	Fotos: Wikimedia Commons
+98	Frühling
+99	Sommer
+100	Herbst
+101	Winter
+102	Leicht
+103	Mittel
+104	Schwer
+105	Die markierten Fernwanderwege und Täler der Türkei.
+106	Start
+107	Ziel
+108	Beste Jahreszeit
+109	Weg wird von OpenStreetMap geladen…
+110	Der Weg konnte gerade nicht geladen werden; die Karte zeigt Start- und Zielpunkt.
+111	Weg: © OpenStreetMap-Mitwirkende. Prüfe vor dem Losgehen die aktuelle Markierung und das Wetter.
+112	Auf Culture Routes in Turkey öffnen
+113	Nimm auf langen Wegen genug Wasser mit, sag jemandem deine Route und wandere in der Sommerhitze nicht mittags.
+114	Blaue Flagge
+115	Ein Strand in dieser Gegend steht auf der Blaue-Flagge-Liste {1}.
+116	Auf der Blaue-Flagge-Liste {1}.
+117	Die Blaue Flagge wird jedes Jahr neu vergeben; den aktuellen Stand findest du auf mavibayrak.org.tr.
+118	Strände im Reiseführer, die auf Blaue-Flagge-Listen stehen. Die Blaue Flagge wird jährlich für sauberes Wasser, Sicherheit und Umweltmanagement vergeben.
+119	Beste Zeiten für Fotos
+120	Goldene Stunde am Morgen
+121	Goldene Stunde am Abend
+122	Blaue Stunde
+123	Aussichtspunkte in der Nähe
+124	Kein markierter Aussichtspunkt im Umkreis von 3 km.
+125	Zeiten für heute, in türkischer Zeit.
+126	Meer und Strand
+127	Naturwanderung
+128	Moscheebesuch
+129	Schnee und Ski
+130	Ballonfahrt
+131	Dokumente
+132	Ausweis oder Reisepass
+133	Führerschein (wenn du fährst)
+134	Kreditkarte und etwas Bargeld in TL
+135	Unterkunfts- und Ticketdaten
+136	Reisekrankenversicherung (für Ausländer)
+137	Kleidung
+138	Bequeme Wanderschuhe
+139	Leichte Schicht für den Abend
+140	Mantel oder dicke Jacke
+141	Pullover
+142	Mütze und Handschuhe
+143	Sonnenhut
+144	Dünne, helle Kleidung
+145	Regenjacke und wasserdichte Schuhe
+146	Thermounterwäsche
+147	Schneestiefel
+148	Gesundheit und Pflege
+149	Deine persönlichen Medikamente
+150	Schmerzmittel und Pflaster
+151	Zahnbürste und Zahnpasta
+152	Feuchttücher und Handdesinfektion
+153	Sonnencreme (LSF 30+)
+154	Insektenschutz
+155	Elektronik
+156	Handy und Ladegerät
+157	Powerbank
+158	Offline-Karte (in der App herunterladen)
+159	Badeanzug
+160	Strandtuch
+161	Badeschuhe
+162	Sonnenbrille
+163	Trinkflasche
+164	Kleiner Rucksack
+165	Snacks
+166	Wanderstöcke
+167	Taschenlampe
+168	Kopftuch oder Schal
+169	Kleidung über das Knie
+170	Leicht ausziehbare Schuhe
+171	Skijacke und Skihose
+172	Skibrille
+173	Wasserdichte Handschuhe
+174	Sonnencreme fürs Gesicht
+175	Warmes Oberteil für die Morgenkälte
+176	Geschlossene Schuhe
+177	Wohin?
+178	Wann?
+179	Wie viele Tage?
+180	Was hast du vor?
+181	{1}/{2} gepackt
+182	Unterwäsche und Socken für {1} Tage
+183	Häkchen löschen
+184	Wird übersetzt…
+185	Original anzeigen
+186	Übersetzen
+187	Übersetzung gerade nicht möglich, versuch es später.
+188	Maschinelle Übersetzung · MyMemory
+189	UNESCO-Welterbe
+190	Die 21 Welterbestätten der Türkei
+191	Historische Bereiche von Istanbul
+192	Göreme und Kappadokien
+193	Große Moschee und Hospital von Divriği
+194	Hattuša
+195	Nemrut Dağı
+196	Hierapolis-Pamukkale
+197	Xanthos-Letoon
+198	Safranbolu
+199	Archäologische Stätte Troja
+200	Selimiye-Moschee, Edirne
+201	Çatalhöyük
+202	Bursa und Cumalıkızık
+203	Pergamon
+204	Ephesos
+205	Ani
+206	Aphrodisias
+207	Göbekli Tepe
+208	Festung Diyarbakır und Hevsel-Gärten
+209	Arslantepe
+210	Gordion
+211	Seldschukische Holzsäulenmoscheen
+212	7 Regionen
+213	Mindestens ein Ort in jeder Region
+214	Antike Städte der Ägäis
+215	Antike Städte und Ruinen in der Ägäisregion
+216	Moscheen Istanbuls
+217	Istanbuler Moscheen im Reiseführer
+218	Täler, unterirdische Städte und Orte in Nevşehir
+219	Paläste
+220	Alle Paläste im Reiseführer
+221	Türme
+222	Alle Türme im Reiseführer
+223	Thermalquellen
+224	Alle Thermalquellen im Reiseführer
+225	Schluchten
+226	Alle Schluchten im Reiseführer
+227	Höhlen
+228	Alle Höhlen im Reiseführer
+229	Inseln
+230	Alle Inseln im Reiseführer
+231	Markierter Fernwanderweg entlang der Mittelmeerküste durch antike lykische Städte, Dörfer und Pinienwälder. Am besten etappenweise statt am Stück.
+232	Bergweg über das Taurusgebirge von Antalya nach Yalvaç am Eğirdir-See; Schluchten, Hochweiden und Seeufer.
+233	Längster markierter Wanderweg der Türkei rund um die Halbinseln Bodrum, Datça und Bozburun in Muğla; Buchten und antike karische Städte.
+234	Mehrtägige Bergtour im hohen Schwarzmeergebirge vorbei an Almdörfern, Gletscherseen und Pässen. Das Wetter wechselt schnell; Erfahrung und Ausrüstung nötig.
+235	Markierter Weg, der Bergdörfer, Olivenhaine und historische Orte bei İzmir verbindet.
+236	Auf- und Abstieg zum höchsten Berg der Türkei. Nur mit Führer und Genehmigung; Höhenerfahrung nötig.
+237	Hin- und Rückwanderung zwischen den Kalkgipfeln des Taurus zum Yedigöller-Plateau.
+238	Teil der Route, die der berühmte Reisende 1671 auf seiner Pilgerreise nahm; ländlicher Weg zu Fuß oder zu Pferd.
+239	Weg vorbei an Felsmonumenten, Feenkaminen und verlassenen Dörfern des Phrygischen Tals; bekanntester Halt ist Yazılıkaya (Midas-Monument).
+240	Tal in Kappadokien entlang des Melendiz-Bachs zwischen Felskirchen; die meisten gehen nur ein kurzes Stück.
+241	Der türkische Abschnitt des nahöstlichen Abrahamswegs, von Dörfern um Şanlıurfa bis zu den Kuppelhäusern von Harran.
+242	Historische Route, auf der im Befreiungskrieg Munition und Freiwillige von İnebolu nach Ankara gebracht wurden.
+243	Der Thrakien-Abschnitt des internationalen Wanderwegs von Wien nach Istanbul.
+244	Längen und Dauer: GoTürkiye / Culture Routes in Turkey
+245	Sicher? Zum Bestätigen noch einmal tippen
+246	Keine Ergebnisse
+247	Dein Fortschritt wird in diesem Browser gespeichert; melde dich an, um ihn im Konto zu speichern.
+248	Für die Bestenliste ist eine Internetverbindung nötig.
+249	{1} s
+250	{1} km
+251	Lieblingsart:
+252	Besuchte Orte
+253	Erhaltene Likes
+254	Ort suchen und hinzufügen
+@ru
+0	Вы уже присоединились к этому списку
+1	Вы присоединились к списку {1}
+2	Общие списки
+3	Список поездки с друзьями
+4	Пешие маршруты
+5	Ликийская тропа, горы Качкар и другое
+6	Пляжи с Голубым флагом
+7	Чистые и безопасные пляжи
+8	Что взять с собой
+9	Список вещей по региону и сезону
+10	Игры и воспоминания
+11	Коллекции
+12	Наследие ЮНЕСКО, 7 регионов и другое
+13	Где это?
+14	Угадай место по фото, реши ежедневную викторину
+15	Итоги года
+16	Поездки этого года на одной карточке
+17	Открыть профиль: {1}
+18	Ссылка-приглашение недействительна или список удалён.
+19	Список заполнен (не более 20 человек).
+20	Список заполнен (не более 50 мест).
+21	Можно создать не более 20 общих списков.
+22	{1} подписался(-ась) на вас
+23	{1} присоединился(-ась) к вашему общему списку
+24	Добавить в общий список
+25	Мой профиль путешественника
+26	Мой год
+27	Подписки
+28	Войдите, чтобы подписаться
+29	Путешественник не найден.
+30	Подписчики
+31	Подписки
+32	Путешествует с {1}
+33	Вы подписаны
+34	Подписаться
+35	Какие места посетил путешественник, скрыто; видны только цифры.
+36	Последние отзывы
+37	Отзывов пока нет.
+38	Мои итоги года
+39	Вы пока ни на кого не подписаны.
+40	Нажмите на имя автора отзыва, чтобы открыть профиль и подписаться.
+41	Те, на кого вы подписаны, пока ничего не опубликовали.
+42	Войдите, чтобы пользоваться общими списками
+43	Составьте список поездки вместе с друзьями или семьёй. Поделитесь ссылкой — все участники смогут добавлять и удалять места.
+44	Название списка (напр., Выходные в Каппадокии)
+45	У вас пока нет общих списков.
+46	Создан вами
+47	Список, к которому вы присоединились
+48	До {1} мест и {2} человек.
+49	Общий список
+50	Вы не можете видеть этот список.
+51	Чтобы присоединиться, откройте присланную вам ссылку.
+52	Это место уже в списке
+53	Добавлено в список
+54	Список удалён
+55	Вы вышли из списка
+56	Присоединяйся к моему общему списку поездки
+57	Пригласить
+58	Места ещё не добавлены.
+59	Добавил(а): {1}
+60	Добавить место
+61	Участники
+62	Вы (владелец списка)
+63	Владелец списка и приглашённые
+64	Никто ещё не присоединился. Поделитесь ссылкой-приглашением.
+65	Создан: {1}
+66	Удалить список
+67	Выйти из списка
+68	Добавлено в список {1}
+69	Новый общий список
+70	Войдите, чтобы увидеть итоги
+71	Мои поездки {1}
+72	Провинций: {1}
+73	Чаще всего: {1}
+74	Любимый тип: {1}
+75	Записей в дневнике: {1}
+76	Ваше самое популярное фото
+77	В этом году вы ещё не отметили ни одного места «Был(а) здесь». Итоги заполнятся по мере поездок.
+78	Поделиться итогами
+79	Заполняйте списки и получайте значки. Прогресс растёт с каждой отметкой «Был(а) здесь».
+80	Завершённые
+81	Не найдено.
+82	Поздравляем, коллекция собрана!
+83	По 21 объекту Всемирного наследия ЮНЕСКО в Турции на 2023 год.
+84	Вопрос {1}/{2}
+85	Очки {1}
+86	Посмотрите на фото и угадайте, где это в Турции.
+87	Вопрос дня
+88	Одни и те же 5 фото для всех; играть можно раз в день.
+89	Ваш результат сегодня: {1}/5
+90	Играть в вопрос дня
+91	Войдите, чтобы попасть в таблицу лидеров.
+92	Свободная игра
+93	10 случайных фото. Ваш рекорд: {1}/10
+94	Играть
+95	Таблица лидеров за сегодня
+96	Сегодня ещё никто не играл.
+97	Фото: Wikimedia Commons
+98	Весна
+99	Лето
+100	Осень
+101	Зима
+102	Лёгкий
+103	Средний
+104	Сложный
+105	Маркированные дальние маршруты и долины Турции.
+106	Начало
+107	Конец
+108	Лучший сезон
+109	Загружаем трек из OpenStreetMap…
+110	Не удалось загрузить трек; на карте показаны начало и конец маршрута.
+111	Трек: © участники OpenStreetMap. Перед выходом проверьте маркировку и погоду.
+112	Открыть на Culture Routes in Turkey
+113	На длинных маршрутах берите достаточно воды, сообщите кому-нибудь свой маршрут и не идите в полуденную жару летом.
+114	Голубой флаг
+115	Пляж в этом районе есть в списке Голубого флага {1}.
+116	В списке Голубого флага {1}.
+117	Голубой флаг присуждается заново каждый год; актуальный статус — на mavibayrak.org.tr.
+118	Пляжи из путеводителя, входящие в списки Голубого флага. Флаг присуждается ежегодно за чистую воду, безопасность и экологию.
+119	Лучшее время для фото
+120	Утренний золотой час
+121	Вечерний золотой час
+122	Синий час
+123	Смотровые площадки рядом
+124	В радиусе 3 км нет отмеченных смотровых площадок.
+125	Время на сегодня, по турецкому времени.
+126	Море и пляж
+127	Прогулка на природе
+128	Посещение мечети
+129	Снег и лыжи
+130	Полёт на шаре
+131	Документы
+132	Удостоверение или паспорт
+133	Водительские права (если будете за рулём)
+134	Карта и немного наличных лир
+135	Данные о жилье и билетах
+136	Медицинская страховка (для иностранцев)
+137	Одежда
+138	Удобная обувь для ходьбы
+139	Лёгкая кофта на вечер
+140	Пальто или тёплая куртка
+141	Свитер
+142	Шапка и перчатки
+143	Панама
+144	Тонкая светлая одежда
+145	Дождевик и непромокаемая обувь
+146	Термобельё
+147	Зимние ботинки
+148	Здоровье и уход
+149	Ваши лекарства
+150	Обезболивающее и пластыри
+151	Зубная щётка и паста
+152	Влажные салфетки и антисептик
+153	Солнцезащитный крем (SPF 30+)
+154	Средство от комаров
+155	Электроника
+156	Телефон и зарядка
+157	Пауэрбанк
+158	Офлайн-карта (скачайте в приложении)
+159	Купальник
+160	Пляжное полотенце
+161	Обувь для воды
+162	Солнцезащитные очки
+163	Бутылка для воды
+164	Небольшой рюкзак
+165	Перекус
+166	Трекинговые палки
+167	Фонарик
+168	Платок или шаль
+169	Одежда ниже колена
+170	Легко снимаемая обувь
+171	Лыжная куртка и брюки
+172	Горнолыжная маска
+173	Непромокаемые перчатки
+174	Солнцезащитный крем для лица
+175	Тёплая кофта для утренней прохлады
+176	Закрытая обувь
+177	Куда?
+178	Когда?
+179	Сколько дней?
+180	Чем займётесь?
+181	Собрано {1}/{2}
+182	Бельё и носки на {1} дн.
+183	Снять отметки
+184	Переводим…
+185	Показать оригинал
+186	Перевести
+187	Сейчас не удалось перевести, попробуйте позже.
+188	Машинный перевод · MyMemory
+189	Всемирное наследие ЮНЕСКО
+190	21 объект Турции в списке Всемирного наследия
+191	Исторические районы Стамбула
+192	Гёреме и Каппадокия
+193	Великая мечеть и больница в Дивриги
+194	Хаттуса
+195	Гора Немрут
+196	Иераполис-Памуккале
+197	Ксанф-Летоон
+198	Сафранболу
+199	Древняя Троя
+200	Мечеть Селимие, Эдирне
+201	Чатал-Хююк
+202	Бурса и Джумалыкызык
+203	Пергам
+204	Эфес
+205	Ани
+206	Афродисиас
+207	Гёбекли-Тепе
+208	Крепость Диярбакыра и сады Хевсель
+209	Арслантепе
+210	Гордион
+211	Сельджукские мечети с деревянными колоннами
+212	7 регионов
+213	Хотя бы одно место в каждом регионе
+214	Античные города Эгейского побережья
+215	Античные города и руины Эгейского региона
+216	Мечети Стамбула
+217	Мечети Стамбула в путеводителе
+218	Долины, подземные города и посёлки Невшехира
+219	Дворцы
+220	Все дворцы в путеводителе
+221	Башни
+222	Все башни в путеводителе
+223	Термальные источники
+224	Все термальные источники в путеводителе
+225	Каньоны
+226	Все каньоны в путеводителе
+227	Пещеры
+228	Все пещеры в путеводителе
+229	Острова
+230	Все острова в путеводителе
+231	Маркированная дальняя тропа вдоль Средиземноморского побережья через античные ликийские города, деревни и сосновые леса. Проходят её по этапам, а не целиком.
+232	Горный маршрут через Таврские горы из Антальи в Ялвач у озера Эгирдир; каньоны, яйлы и берега озёр.
+233	Самая длинная маркированная тропа Турции вокруг полуостровов Бодрум, Датча и Бозбурун в Мугле; бухты и античные карийские города.
+234	Многодневный горный поход в высоких горах Черноморья мимо горных деревень, ледниковых озёр и перевалов. Погода меняется быстро; нужны опыт и снаряжение.
+235	Маркированный маршрут, соединяющий горные деревни, оливковые рощи и исторические поселения Измира.
+236	Восхождение на высочайшую гору Турции и спуск. Только с гидом и разрешением; нужен опыт высотных восхождений.
+237	Поход туда и обратно среди известняковых вершин Тавра к плато Едигёллер.
+238	Часть пути, которым знаменитый путешественник шёл в хадж в 1671 году; сельский маршрут пешком или верхом.
+239	Маршрут мимо скальных памятников, «каминов фей» и заброшенных деревень Фригийской долины; самая известная остановка — Языликая (памятник Мидаса).
+240	Каппадокийская долина вдоль речки Мелендиз среди скальных церквей; большинство проходит небольшой участок.
+241	Турецкий участок ближневосточного Пути Авраама — от деревень вокруг Шанлыурфы до купольных домов Харрана.
+242	Исторический путь, по которому в Войну за независимость везли боеприпасы и шли добровольцы из Инеболу в Анкару.
+243	Фракийский участок международного маршрута из Вены в Стамбул.
+244	Длина и продолжительность: GoTürkiye / Culture Routes in Turkey
+245	Вы уверены? Нажмите ещё раз для подтверждения
+246	Ничего не найдено
+247	Прогресс сохраняется в этом браузере; войдите, чтобы сохранить его в аккаунте.
+248	Для таблицы лидеров нужен интернет.
+249	{1} с
+250	{1} км
+251	Любимый тип:
+252	Посещено мест
+253	Получено лайков
+254	Найти и добавить место

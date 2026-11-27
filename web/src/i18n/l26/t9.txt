@@ -1,0 +1,768 @@
+@sr
+0	Већ сте се придружили овој листи
+1	Придружили сте се листи {1}
+2	Заједничке листе
+3	Листа путовања са пријатељима
+4	Пешачке стазе
+5	Ликијски пут, планине Качкар и још
+6	Плаже са Плавом заставом
+7	Чисте и безбедне плаже
+8	Листа за пртљаг
+9	Шта понети према региону и годишњем добу
+10	Забава и успомене
+11	Колекције
+12	УНЕСКО наслеђе, 7 региона и још
+13	Где је ово?
+14	Погоди место са фотографије, реши питање дана
+15	Година путовања
+16	Овогодишња путовања на једној картици
+17	Отвори профил: {1}
+18	Линк позивнице није важећи или је листа обрисана.
+19	Ова листа је пуна (највише 20 особа).
+20	Листа је пуна (највише 50 места).
+21	Можете направити највише 20 заједничких листа.
+22	{1} почиње да вас прати
+23	{1} се придружио/ла вашој заједничкој листи
+24	Додај у заједничку листу
+25	Мој профил путника
+26	Моја година
+27	Праћени
+28	Пријавите се да бисте пратили
+29	Путник није пронађен.
+30	Пратиоци
+31	Прати
+32	Путник од {1}
+33	Пратите
+34	Прати
+35	Која места је путник посетио је приватно; виде се само бројеви.
+36	Најновије рецензије
+37	Још нема рецензија.
+38	Моја година путовања
+39	Још никога не пратите.
+40	Додирните име путника у рецензији да отворите профил и запратите га.
+41	Они које пратите још ништа нису поделили.
+42	Пријавите се за заједничке листе
+43	Направите листу путовања са пријатељима или породицом. Поделите линк; свако ко се придружи може да додаје и уклања места.
+44	Назив листе (нпр. Викенд у Кападокији)
+45	Још немате заједничких листа.
+46	Ви сте направили
+47	Листа којој сте се придружили
+48	Највише {1} места и {2} особа.
+49	Заједничка листа
+50	Не можете да видите ову листу.
+51	Отворите линк који сте добили да бисте се придружили.
+52	Ово место је већ на листи
+53	Додато на листу
+54	Листа је обрисана
+55	Напустили сте листу
+56	Придружи се мојој заједничкој листи путовања
+57	Позови
+58	Још нема додатих места.
+59	Додао/ла: {1}
+60	Додај место
+61	Учесници
+62	Ви (власник листе)
+63	Власник листе и позвани
+64	Још се нико није придружио. Поделите линк позивнице.
+65	Направљено: {1}
+66	Обриши листу
+67	Напусти листу
+68	Додато на листу {1}
+69	Нова заједничка листа
+70	Пријавите се да видите преглед
+71	Моја путовања {1}
+72	{1} провинција
+73	Најпосећенија провинција: {1}
+74	Омиљена врста: {1}
+75	{1} белешки у дневнику
+76	Ваша најлајкованија фотографија
+77	Ове године још нисте означили ниједно место са „Био/ла сам“. Преглед ће се пунити док путујете.
+78	Подели преглед
+79	Попуните листе и освојите беџеве. Напредак расте са сваким „Био/ла сам“.
+80	Завршене
+81	Није пронађено.
+82	Честитамо, попунили сте ову колекцију!
+83	На основу 21 локације Светске баштине УНЕСКО-а у Турској (2023).
+84	Питање {1}/{2}
+85	Поени {1}
+86	Погледајте фотографију и погодите где је у Турској.
+87	Питање дана
+88	Истих 5 фотографија за све; игра се једном дневно.
+89	Ваш резултат данас: {1}/5
+90	Играј питање дана
+91	Пријавите се да уђете на ранг-листу.
+92	Слободна игра
+93	10 насумичних фотографија. Ваш рекорд: {1}/10
+94	Играј
+95	Данашња ранг-листа
+96	Данас још нико није играо.
+97	Фотографије: Wikimedia Commons
+98	Пролеће
+99	Лето
+100	Јесен
+101	Зима
+102	Лако
+103	Средње
+104	Тешко
+105	Означене дугачке пешачке стазе и долине Турске.
+106	Почетак
+107	Крај
+108	Најбоље доба
+109	Стаза се учитава са OpenStreetMap-а…
+110	Стаза сада није могла да се учита; мапа приказује почетак и крај.
+111	Стаза: © сарадници OpenStreetMap-а. Пре поласка проверите ознаке и време.
+112	Отвори на Culture Routes in Turkey
+113	На дугим стазама понесите довољно воде, реците некоме своју руту и не пешачите у подне по летњој врућини.
+114	Плава застава
+115	Плажа у овом крају је на листи Плаве заставе за {1}.
+116	На листи Плаве заставе за {1}.
+117	Плава застава се додељује изнова сваке године; тренутни статус проверите на mavibayrak.org.tr.
+118	Плаже из водича које су на листама Плаве заставе. Додељује се сваке године за чисту воду, безбедност и управљање животном средином.
+119	Најбоље време за фотографије
+120	Јутарњи златни сат
+121	Вечерњи златни сат
+122	Плави сат
+123	Видиковци у близини
+124	Нема означених видиковаца у кругу од 3 км.
+125	Времена су за данас, по турском времену.
+126	Море и плажа
+127	Шетња у природи
+128	Посета џамији
+129	Снег и скијање
+130	Лет балоном
+131	Документа
+132	Лична карта или пасош
+133	Возачка дозвола (ако ћете возити)
+134	Картица и мало готовине у TL
+135	Подаци о смештају и картама
+136	Путно здравствено осигурање (ако сте странац)
+137	Одећа
+138	Удобне ципеле за ходање
+139	Лаки слој за вече
+140	Капут или дебела јакна
+141	Џемпер
+142	Капа и рукавице
+143	Шешир за сунце
+144	Танка светла одећа
+145	Кабаница и водоотпорне ципеле
+146	Термо веш
+147	Чизме за снег
+148	Здравље и нега
+149	Ваши лекови
+150	Лекови против болова и фластери
+151	Четкица и паста за зубе
+152	Влажне марамице и дезинфекција за руке
+153	Крема за сунчање (SPF 30+)
+154	Средство против инсеката
+155	Електроника
+156	Телефон и пуњач
+157	Пауербанк
+158	Офлајн мапа (преузмите у апликацији)
+159	Купаћи костим
+160	Пешкир за плажу
+161	Ципеле за воду
+162	Наочаре за сунце
+163	Флаша за воду
+164	Мали ранац
+165	Грицкалице
+166	Штапови за пешачење
+167	Батеријска лампа
+168	Марама или шал
+169	Одећа испод колена
+170	Ципеле које се лако скидају
+171	Скијашка јакна и панталоне
+172	Скијашке наочаре
+173	Водоотпорне рукавице
+174	Крема за сунчање за лице
+175	Топли слој за јутарњу хладноћу
+176	Затворене ципеле
+177	Куда?
+178	Када?
+179	Колико дана?
+180	Шта ћете радити?
+181	{1}/{2} спремно
+182	Веш и чарапе за {1} дана
+183	Обриши ознаке
+184	Преводи се…
+185	Прикажи оригинал
+186	Преведи
+187	Превод тренутно није успео, покушајте касније.
+188	Машински превод · MyMemory
+189	УНЕСКО Светска баштина
+190	21 локација Турске на Листи светске баштине
+191	Историјска подручја Истанбула
+192	Гереме и Кападокија
+193	Велика џамија и болница у Дивригију
+194	Хатуша
+195	Планина Немрут
+196	Хијерапољ-Памукале
+197	Ксантос-Летоон
+198	Сафранболу
+199	Археолошко налазиште Троја
+200	Џамија Селимије, Једрене
+201	Чатал Хијук
+202	Бурса и Џумаликизик
+203	Пергам
+204	Ефес
+205	Ани
+206	Афродизијас
+207	Гебекли Тепе
+208	Тврђава Дијарбакир и вртови Хевсел
+209	Арслантепе
+210	Гордион
+211	Селџучке џамије са дрвеним стубовима
+212	7 региона
+213	Бар једно место у сваком региону
+214	Антички градови Егеја
+215	Антички градови и рушевине у егејском региону
+216	Џамије Истанбула
+217	Џамије Истанбула у водичу
+218	Долине, подземни градови и места Невшехира
+219	Палате
+220	Све палате у водичу
+221	Куле
+222	Све куле у водичу
+223	Термални извори
+224	Сви термални извори у водичу
+225	Кањони
+226	Сви кањони у водичу
+227	Пећине
+228	Све пећине у водичу
+229	Острва
+230	Сва острва у водичу
+231	Означена дугачка стаза дуж медитеранске обале кроз античке ликијске градове, села и борове шуме. Пешачи се у етапама, а не одједном.
+232	Планински пут преко Таурус планина од Анталије до Јалвача код језера Еђирдир; кањони, планински пашњаци и обале језера.
+233	Најдужа означена стаза у Турској око полуострва Бодрум, Дача и Бозбурун у Мугли; увале и антички каријски градови.
+234	Вишедневни планински поход у високим планинама Црног мора поред планинских села, ледничких језера и превоја. Време се брзо мења; потребни су искуство и опрема.
+235	Означени пут који повезује планинска села, маслињаке и историјска насеља Измира.
+236	Успон и силазак на највишу планину Турске. Уз водича и дозволу; потребно је искуство на висини.
+237	Пешачење тамо и назад међу кречњачким врховима Тауруса до висоравни Једигелер.
+238	Део пута којим је чувени путописац ишао на хаџилук 1671; сеоска рута пешке или на коњу.
+239	Пут поред стенских споменика, вилинских димњака и напуштених села Фригијске долине; најпознатија станица је Јазиликаја (Мидасов споменик).
+240	Кападокијска долина дуж потока Мелендиз међу стенским црквама; већина пешачи кратак део.
+241	Турска деоница Аврамовог пута на Блиском истоку, од села око Шанлиурфе до кућа с куполама у Харану.
+242	Историјски пут којим су у Рату за независност муниција и добровољци ношени од Инеболуа до Анкаре.
+243	Тракијска деоница међународне стазе од Беча до Истанбула.
+244	Дужине и трајања: GoTürkiye / Culture Routes in Turkey
+245	Сигурно? Додирните поново за потврду
+246	Нема резултата
+247	Напредак се чува у овом прегледачу; пријавите се да га сачувате на налогу.
+248	За ранг-листу је потребан интернет.
+249	{1} с
+250	{1} км
+251	Омиљена врста:
+252	Посећена места
+253	Добијени лајкови
+254	Пронађи и додај место
+@hr
+0	Već ste se pridružili ovom popisu
+1	Pridružili ste se popisu {1}
+2	Zajednički popisi
+3	Popis putovanja s prijateljima
+4	Pješačke staze
+5	Likijski put, planine Kaçkar i više
+6	Plaže s Plavom zastavom
+7	Čiste i sigurne plaže
+8	Popis za prtljagu
+9	Što ponijeti prema regiji i godišnjem dobu
+10	Zabava i uspomene
+11	Kolekcije
+12	UNESCO baština, 7 regija i više
+13	Gdje je ovo?
+14	Pogodi mjesto s fotografije, riješi pitanje dana
+15	Godina putovanja
+16	Ovogodišnja putovanja na jednoj kartici
+17	Otvori profil: {1}
+18	Poveznica pozivnice nije valjana ili je popis izbrisan.
+19	Ovaj popis je pun (najviše 20 osoba).
+20	Popis je pun (najviše 50 mjesta).
+21	Možete izraditi najviše 20 zajedničkih popisa.
+22	{1} vas je počeo/la pratiti
+23	{1} se pridružio/la vašem zajedničkom popisu
+24	Dodaj u zajednički popis
+25	Moj profil putnika
+26	Moja godina
+27	Praćeni
+28	Prijavite se za praćenje
+29	Putnik nije pronađen.
+30	Pratitelji
+31	Prati
+32	Putnik od {1}
+33	Pratite
+34	Prati
+35	Koja je mjesta putnik posjetio je privatno; vide se samo brojevi.
+36	Najnovije recenzije
+37	Još nema recenzija.
+38	Moja godina putovanja
+39	Još nikoga ne pratite.
+40	Dodirnite ime putnika u recenziji da otvorite profil i zapratite ga.
+41	Oni koje pratite još ništa nisu podijelili.
+42	Prijavite se za zajedničke popise
+43	Napravite popis putovanja s prijateljima ili obitelji. Podijelite poveznicu; svatko tko se pridruži može dodavati i uklanjati mjesta.
+44	Naziv popisa (npr. Vikend u Kapadokiji)
+45	Još nemate zajedničkih popisa.
+46	Vi ste izradili
+47	Popis kojem ste se pridružili
+48	Najviše {1} mjesta i {2} osoba.
+49	Zajednički popis
+50	Ne možete vidjeti ovaj popis.
+51	Otvorite poveznicu koju ste dobili da biste se pridružili.
+52	Ovo mjesto je već na popisu
+53	Dodano na popis
+54	Popis je izbrisan
+55	Napustili ste popis
+56	Pridruži se mom zajedničkom popisu putovanja
+57	Pozovi
+58	Još nema dodanih mjesta.
+59	Dodao/la: {1}
+60	Dodaj mjesto
+61	Sudionici
+62	Vi (vlasnik popisa)
+63	Vlasnik popisa i pozvani
+64	Još se nitko nije pridružio. Podijelite poveznicu pozivnice.
+65	Izrađeno: {1}
+66	Izbriši popis
+67	Napusti popis
+68	Dodano na popis {1}
+69	Novi zajednički popis
+70	Prijavite se da vidite pregled
+71	Moja putovanja {1}
+72	{1} provincija
+73	Najposjećenija provincija: {1}
+74	Omiljena vrsta: {1}
+75	{1} bilješki u dnevniku
+76	Vaša najviše lajkana fotografija
+77	Ove godine još niste označili nijedno mjesto s „Bio/la sam“. Pregled će se puniti dok putujete.
+78	Podijeli pregled
+79	Dovršite popise i osvojite značke. Napredak raste sa svakim „Bio/la sam“.
+80	Dovršene
+81	Nije pronađeno.
+82	Čestitamo, dovršili ste ovu kolekciju!
+83	Na temelju 21 lokaliteta UNESCO-ove svjetske baštine u Turskoj (2023.).
+84	Pitanje {1}/{2}
+85	Bodovi {1}
+86	Pogledajte fotografiju i pogodite gdje je u Turskoj.
+87	Pitanje dana
+88	Istih 5 fotografija za sve; igra se jednom dnevno.
+89	Vaš rezultat danas: {1}/5
+90	Igraj pitanje dana
+91	Prijavite se da uđete na ljestvicu.
+92	Slobodna igra
+93	10 nasumičnih fotografija. Vaš rekord: {1}/10
+94	Igraj
+95	Današnja ljestvica
+96	Danas još nitko nije igrao.
+97	Fotografije: Wikimedia Commons
+98	Proljeće
+99	Ljeto
+100	Jesen
+101	Zima
+102	Lagano
+103	Srednje
+104	Teško
+105	Označene duge pješačke staze i doline Turske.
+106	Početak
+107	Kraj
+108	Najbolje doba
+109	Staza se učitava s OpenStreetMapa…
+110	Staza se trenutno nije mogla učitati; karta prikazuje početak i kraj.
+111	Staza: © suradnici OpenStreetMapa. Prije polaska provjerite oznake i vrijeme.
+112	Otvori na Culture Routes in Turkey
+113	Na dugim stazama ponesite dovoljno vode, recite nekome svoju rutu i ne hodajte u podne po ljetnoj vrućini.
+114	Plava zastava
+115	Plaža u ovom području na popisu je Plave zastave za {1}.
+116	Na popisu Plave zastave za {1}.
+117	Plava zastava dodjeljuje se iznova svake godine; trenutačno stanje provjerite na mavibayrak.org.tr.
+118	Plaže iz vodiča koje su na popisima Plave zastave. Dodjeljuje se svake godine za čisto more, sigurnost i upravljanje okolišem.
+119	Najbolje vrijeme za fotografije
+120	Jutarnji zlatni sat
+121	Večernji zlatni sat
+122	Plavi sat
+123	Vidikovci u blizini
+124	Nema označenih vidikovaca u krugu od 3 km.
+125	Vremena su za danas, po turskom vremenu.
+126	More i plaža
+127	Šetnja u prirodi
+128	Posjet džamiji
+129	Snijeg i skijanje
+130	Let balonom
+131	Dokumenti
+132	Osobna iskaznica ili putovnica
+133	Vozačka dozvola (ako ćete voziti)
+134	Kartica i malo gotovine u TL
+135	Podaci o smještaju i kartama
+136	Putno zdravstveno osiguranje (ako ste stranac)
+137	Odjeća
+138	Udobne cipele za hodanje
+139	Lagani sloj za večer
+140	Kaput ili debela jakna
+141	Džemper
+142	Kapa i rukavice
+143	Šešir za sunce
+144	Tanka svijetla odjeća
+145	Kabanica i vodootporne cipele
+146	Termo rublje
+147	Čizme za snijeg
+148	Zdravlje i njega
+149	Vaši lijekovi
+150	Lijekovi protiv bolova i flasteri
+151	Četkica i pasta za zube
+152	Vlažne maramice i dezinficijens za ruke
+153	Krema za sunčanje (SPF 30+)
+154	Sredstvo protiv insekata
+155	Elektronika
+156	Mobitel i punjač
+157	Prijenosna baterija
+158	Izvanmrežna karta (preuzmite u aplikaciji)
+159	Kupaći kostim
+160	Ručnik za plažu
+161	Cipele za vodu
+162	Sunčane naočale
+163	Boca za vodu
+164	Mali ruksak
+165	Grickalice
+166	Štapovi za pješačenje
+167	Džepna svjetiljka
+168	Marama ili šal
+169	Odjeća ispod koljena
+170	Cipele koje se lako izuvaju
+171	Skijaška jakna i hlače
+172	Skijaške naočale
+173	Vodootporne rukavice
+174	Krema za sunčanje za lice
+175	Topli sloj za jutarnju hladnoću
+176	Zatvorene cipele
+177	Kamo?
+178	Kada?
+179	Koliko dana?
+180	Što ćete raditi?
+181	{1}/{2} spremno
+182	Rublje i čarape za {1} dana
+183	Očisti oznake
+184	Prevodi se…
+185	Prikaži izvornik
+186	Prevedi
+187	Prijevod trenutačno nije uspio, pokušajte kasnije.
+188	Strojni prijevod · MyMemory
+189	UNESCO svjetska baština
+190	21 lokalitet Turske na Popisu svjetske baštine
+191	Povijesna područja Istanbula
+192	Göreme i Kapadokija
+193	Velika džamija i bolnica u Divriğiju
+194	Hattuša
+195	Planina Nemrut
+196	Hijerapolis-Pamukkale
+197	Ksantos-Letoon
+198	Safranbolu
+199	Arheološko nalazište Troja
+200	Džamija Selimiye, Edirne
+201	Çatalhöyük
+202	Bursa i Cumalıkızık
+203	Pergamon
+204	Efez
+205	Ani
+206	Afrodizijas
+207	Göbekli Tepe
+208	Tvrđava Diyarbakır i vrtovi Hevsel
+209	Arslantepe
+210	Gordion
+211	Seldžučke džamije s drvenim stupovima
+212	7 regija
+213	Barem jedno mjesto u svakoj regiji
+214	Antički gradovi Egeja
+215	Antički gradovi i ruševine egejske regije
+216	Džamije Istanbula
+217	Istanbulske džamije u vodiču
+218	Doline, podzemni gradovi i mjesta Nevşehira
+219	Palače
+220	Sve palače u vodiču
+221	Tornjevi
+222	Svi tornjevi u vodiču
+223	Termalni izvori
+224	Svi termalni izvori u vodiču
+225	Kanjoni
+226	Svi kanjoni u vodiču
+227	Špilje
+228	Sve špilje u vodiču
+229	Otoci
+230	Svi otoci u vodiču
+231	Označena duga staza uz sredozemnu obalu kroz antičke likijske gradove, sela i borove šume. Hoda se u etapama, a ne odjednom.
+232	Planinski put preko Taurusa od Antalye do Yalvaça kod jezera Eğirdir; kanjoni, planinski pašnjaci i obale jezera.
+233	Najduža označena staza u Turskoj oko poluotoka Bodrum, Datça i Bozburun u Muğli; uvale i antički karijski gradovi.
+234	Višednevni planinski pohod u visokim planinama Crnog mora pokraj planinskih sela, ledenjačkih jezera i prijevoja. Vrijeme se brzo mijenja; potrebni su iskustvo i oprema.
+235	Označeni put koji povezuje planinska sela, maslinike i povijesna naselja İzmira.
+236	Uspon i silazak na najvišu planinu Turske. Uz vodiča i dozvolu; potrebno je iskustvo na visini.
+237	Pješačenje tamo i natrag među vapnenačkim vrhovima Taurusa do visoravni Yedigöller.
+238	Dio puta kojim je slavni putopisac išao na hodočašće 1671.; seoska ruta pješice ili na konju.
+239	Put pokraj stijenskih spomenika, vilinskih dimnjaka i napuštenih sela Frigijske doline; najpoznatija postaja je Yazılıkaya (Midin spomenik).
+240	Kapadokijska dolina uz potok Melendiz među stijenskim crkvama; većina prohoda kratak dio.
+241	Turska dionica Abrahamova puta na Bliskom istoku, od sela oko Şanlıurfe do kuća s kupolama u Harranu.
+242	Povijesni put kojim su u Ratu za neovisnost streljivo i dobrovoljci nošeni od İnebolua do Ankare.
+243	Tračka dionica međunarodne staze od Beča do Istanbula.
+244	Duljine i trajanja: GoTürkiye / Culture Routes in Turkey
+245	Sigurno? Dodirnite ponovno za potvrdu
+246	Nema rezultata
+247	Napredak se sprema u ovom pregledniku; prijavite se da ga spremite na račun.
+248	Za ljestvicu je potreban internet.
+249	{1} s
+250	{1} km
+251	Omiljena vrsta:
+252	Posjećena mjesta
+253	Dobiveni lajkovi
+254	Pronađi i dodaj mjesto
+@cs
+0	K tomuto seznamu už jste se připojili
+1	Připojili jste se k seznamu {1}
+2	Sdílené seznamy
+3	Seznam cesty s přáteli
+4	Turistické trasy
+5	Lýkijská stezka, pohoří Kaçkar a další
+6	Pláže s Modrou vlajkou
+7	Čisté a bezpečné pláže
+8	Seznam na balení
+9	Co sbalit podle regionu a ročního období
+10	Zábava a vzpomínky
+11	Sbírky
+12	Dědictví UNESCO, 7 regionů a další
+13	Kde to je?
+14	Uhodni místo z fotky, vyřeš otázku dne
+15	Rok na cestách
+16	Letošní cesty na jedné kartě
+17	Otevřít profil: {1}
+18	Odkaz pozvánky je neplatný nebo byl seznam smazán.
+19	Tento seznam je plný (max. 20 lidí).
+20	Seznam je plný (max. 50 míst).
+21	Můžete vytvořit nejvýše 20 sdílených seznamů.
+22	{1} vás začal(a) sledovat
+23	{1} se připojil(a) k vašemu sdílenému seznamu
+24	Přidat do sdíleného seznamu
+25	Můj profil cestovatele
+26	Můj rok
+27	Sledovaní
+28	Pro sledování se přihlaste
+29	Cestovatel nebyl nalezen.
+30	Sledující
+31	Sleduje
+32	Cestovatel od {1}
+33	Sledujete
+34	Sledovat
+35	Která místa cestovatel navštívil, je soukromé; vidět jsou jen čísla.
+36	Nejnovější recenze
+37	Zatím žádné recenze.
+38	Můj rok na cestách
+39	Zatím nikoho nesledujete.
+40	Klepnutím na jméno cestovatele v recenzi otevřete jeho profil a můžete ho sledovat.
+41	Lidé, které sledujete, zatím nic nesdíleli.
+42	Pro sdílené seznamy se přihlaste
+43	Připravte seznam cesty s přáteli nebo rodinou. Sdílejte odkaz; každý, kdo se připojí, může přidávat a odebírat místa.
+44	Název seznamu (např. Víkend v Kappadokii)
+45	Zatím nemáte sdílené seznamy.
+46	Vytvořili jste
+47	Seznam, ke kterému jste se připojili
+48	Až {1} míst a {2} lidí.
+49	Sdílený seznam
+50	Tento seznam nemůžete zobrazit.
+51	Pro připojení otevřete odkaz, který vám byl poslán.
+52	Toto místo už v seznamu je
+53	Přidáno do seznamu
+54	Seznam smazán
+55	Opustili jste seznam
+56	Připoj se k mému sdílenému seznamu cesty
+57	Pozvat
+58	Zatím nebyla přidána žádná místa.
+59	Přidal(a): {1}
+60	Přidat místo
+61	Účastníci
+62	Vy (vlastník seznamu)
+63	Vlastník seznamu a pozvaní
+64	Zatím se nikdo nepřipojil. Sdílejte odkaz pozvánky.
+65	Vytvořeno: {1}
+66	Smazat seznam
+67	Opustit seznam
+68	Přidáno do seznamu {1}
+69	Nový sdílený seznam
+70	Pro zobrazení přehledu se přihlaste
+71	Můj rok {1} na cestách
+72	{1} provincií
+73	Nejnavštěvovanější provincie: {1}
+74	Oblíbený typ: {1}
+75	{1} poznámek v deníku
+76	Vaše nejoblíbenější fotka
+77	Letos jste ještě žádné místo neoznačili „Byl(a) jsem tam“. Přehled se bude plnit, jak budete cestovat.
+78	Sdílet přehled
+79	Dokončujte seznamy a získávejte odznaky. Postup roste s každým „Byl(a) jsem tam“.
+80	Dokončené
+81	Nenalezeno.
+82	Gratulujeme, dokončili jste tuto sbírku!
+83	Podle 21 lokalit světového dědictví UNESCO v Turecku (2023).
+84	Otázka {1}/{2}
+85	Body {1}
+86	Podívejte se na fotku a hádejte, kde v Turecku je.
+87	Otázka dne
+88	Stejných 5 fotek pro všechny; hraje se jednou denně.
+89	Vaše skóre dnes: {1}/5
+90	Hrát otázku dne
+91	Pro zápis do žebříčku se přihlaste.
+92	Volná hra
+93	10 náhodných fotek. Váš rekord: {1}/10
+94	Hrát
+95	Dnešní žebříček
+96	Dnes ještě nikdo nehrál.
+97	Fotky: Wikimedia Commons
+98	Jaro
+99	Léto
+100	Podzim
+101	Zima
+102	Snadná
+103	Střední
+104	Náročná
+105	Značené dálkové trasy a údolí Turecka.
+106	Start
+107	Cíl
+108	Nejlepší období
+109	Načítání trasy z OpenStreetMap…
+110	Trasu se teď nepodařilo načíst; mapa ukazuje start a cíl.
+111	Trasa: © přispěvatelé OpenStreetMap. Před odchodem zkontrolujte značení a počasí.
+112	Otevřít na Culture Routes in Turkey
+113	Na dlouhých trasách mějte dost vody, řekněte někomu svou trasu a nechoďte v létě v poledním vedru.
+114	Modrá vlajka
+115	Pláž v této oblasti je na seznamu Modré vlajky {1}.
+116	Na seznamu Modré vlajky {1}.
+117	Modrá vlajka se uděluje každý rok znovu; aktuální stav ověřte na mavibayrak.org.tr.
+118	Pláže z průvodce, které jsou na seznamech Modré vlajky. Uděluje se každoročně za čistou vodu, bezpečnost a péči o životní prostředí.
+119	Nejlepší čas na focení
+120	Ranní zlatá hodinka
+121	Večerní zlatá hodinka
+122	Modrá hodinka
+123	Vyhlídky v okolí
+124	Do 3 km není žádná značená vyhlídka.
+125	Časy pro dnešek, turecký čas.
+126	Moře a pláž
+127	Procházka přírodou
+128	Návštěva mešity
+129	Sníh a lyže
+130	Let balónem
+131	Doklady
+132	Občanský průkaz nebo pas
+133	Řidičský průkaz (pokud budete řídit)
+134	Platební karta a trochu hotovosti v TL
+135	Údaje o ubytování a jízdenkách
+136	Cestovní zdravotní pojištění (pro cizince)
+137	Oblečení
+138	Pohodlné boty na chůzi
+139	Lehká vrstva na večer
+140	Kabát nebo teplá bunda
+141	Svetr
+142	Čepice a rukavice
+143	Klobouk proti slunci
+144	Tenké světlé oblečení
+145	Pláštěnka a nepromokavé boty
+146	Termoprádlo
+147	Sněhule
+148	Zdraví a péče
+149	Vaše léky
+150	Léky proti bolesti a náplasti
+151	Zubní kartáček a pasta
+152	Vlhčené ubrousky a dezinfekce na ruce
+153	Opalovací krém (SPF 30+)
+154	Repelent
+155	Elektronika
+156	Telefon a nabíječka
+157	Powerbanka
+158	Offline mapa (stáhněte v aplikaci)
+159	Plavky
+160	Plážová osuška
+161	Boty do vody
+162	Sluneční brýle
+163	Láhev na vodu
+164	Malý batoh
+165	Svačina
+166	Trekové hole
+167	Baterka
+168	Šátek nebo šála
+169	Oblečení pod kolena
+170	Snadno zouvací boty
+171	Lyžařská bunda a kalhoty
+172	Lyžařské brýle
+173	Nepromokavé rukavice
+174	Opalovací krém na obličej
+175	Teplá vrstva na ranní chlad
+176	Uzavřené boty
+177	Kam?
+178	Kdy?
+179	Kolik dní?
+180	Co budete dělat?
+181	{1}/{2} sbaleno
+182	Spodní prádlo a ponožky na {1} dní
+183	Zrušit zaškrtnutí
+184	Překládá se…
+185	Zobrazit originál
+186	Přeložit
+187	Teď se nepodařilo přeložit, zkuste to později.
+188	Strojový překlad · MyMemory
+189	Světové dědictví UNESCO
+190	21 tureckých lokalit na Seznamu světového dědictví
+191	Historické oblasti Istanbulu
+192	Göreme a Kappadokie
+193	Velká mešita a nemocnice v Divriği
+194	Chattušaš
+195	Hora Nemrut
+196	Hierapolis-Pamukkale
+197	Xanthos-Letoon
+198	Safranbolu
+199	Archeologické naleziště Trója
+200	Mešita Selimiye, Edirne
+201	Çatalhöyük
+202	Bursa a Cumalıkızık
+203	Pergamon
+204	Efez
+205	Ani
+206	Afrodisias
+207	Göbekli Tepe
+208	Pevnost Diyarbakır a zahrady Hevsel
+209	Arslantepe
+210	Gordion
+211	Seldžucké mešity s dřevěnými sloupy
+212	7 regionů
+213	Alespoň jedno místo v každém regionu
+214	Antická města Egejského moře
+215	Antická města a ruiny v egejském regionu
+216	Mešity Istanbulu
+217	Istanbulské mešity v průvodci
+218	Údolí, podzemní města a obce provincie Nevşehir
+219	Paláce
+220	Všechny paláce v průvodci
+221	Věže
+222	Všechny věže v průvodci
+223	Termální prameny
+224	Všechny termální prameny v průvodci
+225	Kaňony
+226	Všechny kaňony v průvodci
+227	Jeskyně
+228	Všechny jeskyně v průvodci
+229	Ostrovy
+230	Všechny ostrovy v průvodci
+231	Značená dálková stezka podél středomořského pobřeží přes antická lýkijská města, vesnice a borové lesy. Chodí se po etapách, ne najednou.
+232	Horská trasa přes pohoří Taurus z Antalye do Yalvaçe u jezera Eğirdir; kaňony, horské pastviny a jezerní břehy.
+233	Nejdelší značená stezka Turecka kolem poloostrovů Bodrum, Datça a Bozburun v provincii Muğla; zátoky a antická kárská města.
+234	Vícedenní horský trek ve vysokých horách u Černého moře kolem horských vesnic, ledovcových jezer a sedel. Počasí se rychle mění; potřebujete zkušenosti a vybavení.
+235	Značená trasa spojující horské vesnice, olivové háje a historická sídla v okolí İzmiru.
+236	Výstup a sestup na nejvyšší horu Turecka. S průvodcem a povolením; nutné zkušenosti s výškou.
+237	Túra tam a zpět mezi vápencovými štíty Tauru na náhorní plošinu Yedigöller.
+238	Část cesty, kterou slavný cestovatel urazil na pouti v roce 1671; venkovská trasa pěšky nebo na koni.
+239	Trasa kolem skalních památek, pohádkových komínů a opuštěných vesnic Frygského údolí; nejznámější zastávkou je Yazılıkaya (Midasův monument).
+240	Kappadocké údolí podél potoka Melendiz mezi skalními kostely; většina lidí projde jen krátký úsek.
+241	Turecký úsek Abrahamovy stezky na Blízkém východě, od vesnic u Şanlıurfy po kopulovité domy Harranu.
+242	Historická trasa, kudy se ve válce za nezávislost vozila munice a šli dobrovolníci z İnebolu do Ankary.
+243	Thrácký úsek mezinárodní stezky z Vídně do Istanbulu.
+244	Délky a doby: GoTürkiye / Culture Routes in Turkey
+245	Opravdu? Potvrďte dalším klepnutím
+246	Žádné výsledky
+247	Postup se ukládá v tomto prohlížeči; přihlaste se a uložte si ho do účtu.
+248	Žebříček vyžaduje připojení k internetu.
+249	{1} s
+250	{1} km
+251	Oblíbený typ:
+252	Navštívená místa
+253	Získané lajky
+254	Najít a přidat místo

@@ -8,9 +8,9 @@ import { loadNotes, markAllRead, type Note } from '../lib/inbox';
 import { Empty, Header, b } from '../components/common';
 import { C, R } from '../theme';
 
-const ICON: Record<Note['kind'], string> = { reply: '💬', like: '♥', photo_like: '📷', approved: '✅', answer: '❓' };
+const ICON: Record<Note['kind'], string> = { reply: '💬', like: '♥', photo_like: '📷', approved: '✅', answer: '❓', follow: '👤', trip_join: '👥' };
 const TXT: Record<Note['kind'], string> = {
-  reply: '{1} yorumuna yanıt verdi', like: '{1} yorumunu beğendi', photo_like: '{1} fotoğrafını beğendi', approved: 'Önerdiğin yer onaylandı ve haritaya eklendi', answer: '{1} sorunu yanıtladı',
+  reply: '{1} yorumuna yanıt verdi', like: '{1} yorumunu beğendi', photo_like: '{1} fotoğrafını beğendi', approved: 'Önerdiğin yer onaylandı ve haritaya eklendi', answer: '{1} sorunu yanıtladı', follow: '{1} seni takip etmeye başladı', trip_join: '{1} ortak gezi listene katıldı',
 };
 
 /* Bildirimler: yorumlarına gelen yanıtlar ve beğeniler, onaylanan öneriler */
@@ -30,6 +30,8 @@ export default function InboxScreen() {
   }, []);
   useEffect(() => { load(); }, [load]);
   const open = (n: Note) => {
+    if (n.kind === 'follow' && n.actor) { push({ name: 'traveler', id: n.actor }); return; }
+    if (n.kind === 'trip_join') { push({ name: 'sharedTrips' }); return; }
     if (!n.place_id || !byId(n.place_id)) return;
     push({ name: 'place', id: n.place_id, tab: n.kind === 'photo_like' ? 'pho' : n.kind === 'approved' ? 'ov' : n.kind === 'answer' ? 'qa' : 'rev' });
   };

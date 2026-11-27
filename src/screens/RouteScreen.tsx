@@ -317,7 +317,7 @@ function pickSpread(items: AlongItem[], n: number) {
 }
 
 /* rehberden durak seç */
-function AddStop({ open, onClose, onPick, skip }: { open: boolean; onClose: () => void; onPick: (s: Stop) => void; skip?: Set<string> }) {
+export function AddStop({ open, onClose, onPick, skip }: { open: boolean; onClose: () => void; onPick: (s: Stop) => void; skip?: Set<string> }) {
   const { t } = useT();
   const insets = useSafeAreaInsets();
   const { places, visited, faved } = useStore();

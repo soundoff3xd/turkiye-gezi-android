@@ -1,0 +1,468 @@
+@da
+0	Søger efter opdateringer
+1	Appen er opdateret
+2	Downloader
+3	Du kan blive ved med at bruge appen; installationen åbner, når download er færdig.
+4	Klar til installation
+5	Tryk på »Installer« på skærmen, der åbner. Hvis telefonen beder om tilladelse, så slå »Tillad fra denne kilde« til og gå tilbage.
+6	Opdateringen kunne ikke downloades
+7	Tjek internetforbindelsen og prøv igen, eller download den i browseren.
+8	Opdater
+9	Åbn installation
+10	Prøv igen
+11	Download i browseren
+12	OK
+13	Fortsæt i baggrunden
+14	Min rute
+15	Der er ingen stop tilbage på ruten.
+16	Tilføj stop
+17	Del rute
+18	Slå undgå-valgene fra og prøv igen.
+19	inkl. {1} ved stop
+20	Stop
+21	Start: din placering
+22	Start: første stop
+23	bliv {1}
+24	Tilføj opholdstid
+25	Fjern stop
+26	Korteste rækkefølge
+27	Stop undervejs
+28	Steder, du kan besøge uden stor omvej.
+29	Søger…
+30	Intet fundet nær ruten.
+31	{1} fra ruten
+32	Tilføj
+33	På vejen, gå ikke glip af
+34	Seværdigheder fra guiden tæt på din rute.
+35	Skjul
+36	Vis ({1})
+37	Søg efter sted eller provins
+38	Dine favoritter og topsteder
+39	Du kan tilføje op til {1} stop
+40	Dette stop er allerede på ruten
+41	{1} tilføjet som stop
+42	Stoppene er allerede i korteste rækkefølge
+43	Rastepladser kunne ikke indlæses lige nu
+44	Du har kørt i 2 timer. Hvad med en kort pause?
+45	Pause
+46	Du har kørt i 2 timer. En kort pause gør godt.
+47	Find rasteplads
+48	Rastepladser forude
+49	Intet fundet de næste 45 km.
+50	lukket
+51	helligdag
+52	Åbningstider
+53	OpenStreetMap-data; kan afvige på helligdage og særlige dage. Tjek den officielle kilde, før du tager af sted.
+54	Åben for besøgende nu
+55	muligt igen efter {1}
+56	Uden for besøgstiden
+57	Besøgstider
+58	Egnede tider i dag
+59	Om fredagen er middagsbønnen længere og mere besøgt; undgå midt på dagen.
+60	Skoene tages af ved indgangen. Kvinder dækker håret; skuldre og knæ skal være dækket. Gå ikke foran bedende, og brug ikke blitz.
+61	Tiderne er beregnede og kan afvige nogle minutter.
+62	Nødsituation
+63	Gamle numre som 155, 156 og 110 omstilles også til 112.
+64	Ambassader og konsulater
+65	Har du mistet dit pas, så kontakt dit lands repræsentation.
+66	I nærheden
+67	Tillad adgang til placering for at se steder i nærheden.
+68	Kunne ikke indlæses nu. Tjek internetforbindelsen.
+69	Intet fundet i nærheden.
+70	Har skadestue
+71	Ring
+72	Om natten og på helligdage hænger listen over vagtapoteker på døren til hvert apotek.
+73	Valutaomregner
+74	Byt retning
+75	Centralbankens salgskurs, {1}
+76	offline, senest kendte kurs
+77	Kurser hos vekselkontorer og kort kan afvige; værdien er omtrentlig.
+78	Kurserne kunne ikke hentes lige nu.
+79	Prisguide
+80	Prisguiden kunne ikke indlæses lige nu.
+81	Omtrentlige priser; de ændrer sig ofte pga. inflation. Datoen for hver pris står i parentes.
+82	Tips
+83	Ingen vejrudsigt for denne dag endnu.
+84	Risiko for regn {1} %
+85	Ser regnfuldt ud; planlæg indendørs steder denne dag.
+86	I morgen
+87	til centralbankens kurs
+88	Hvornår tager du af sted?
+89	Vejrudsigt
+90	Åbent døgnet rundt i dag
+91	lukker om {1} min
+92	lukker kl. {1}
+93	Åbent nu
+94	Lukket
+95	åbner i dag kl. {1}
+96	åbner i morgen kl. {1}
+97	åbner kl. {1}
+98	Rasteplads
+99	Ingen betalingsveje
+100	Ingen motorveje
+101	Ingen færger
+102	Nødopkald
+103	YİMER · Kommunikationscenter for udlændinge
+104	Anmeld skovbrand
+105	Hospital
+106	Fredagsbøn
+107	Middagsbøn
+108	Eftermiddagsbøn
+109	Aftenbøn
+110	Fajr
+111	Solopgang
+112	Dhuhr
+113	Asr
+114	Maghrib
+115	Isha
+116	man
+117	tir
+118	ons
+119	tor
+120	fre
+121	lør
+122	søn
+123	Mandag
+124	Tirsdag
+125	Onsdag
+126	Torsdag
+127	Fredag
+128	Lørdag
+129	Søndag
+130	Ambulance, politi, brandvæsen, gendarmeri og kystvagt: ét nummer til alle nødsituationer. Gratis at ringe.
+131	Hjælp døgnet rundt til udlændinge: tyrkisk, engelsk, arabisk, russisk, tysk og persisk.
+132	Hvis du ser røg eller ild i en skov.
+133	Beløb i lira til centralbankens kurs
+134	Priser på simit, transport, taxa og museer
+135	112, nærmeste hospital og apotek
+136	Søg efter opdateringer
+137	Simit (Istanbul)
+138	Istanbulkart, fuld pris
+139	Taxa, startgebyr (Istanbul)
+140	Taxa pr. km (Istanbul)
+141	Taxa, mindstepris kort tur (Istanbul)
+142	Müzekart (borgere i Tyrkiet og TRNC, 1 år)
+143	Entré til Efesos (udenlandske besøgende)
+144	Entré til Galatatårnet (udenlandske besøgende)
+145	September 2026
+146	Juli 2026
+147	November 2026
+148	Hvor der ikke er en prisliste, så spørg om prisen først.
+149	Sørg for, at taxameteret kører i taxaen.
+150	Prutning er normalt i Den Store Basar og på markeder, men ikke på restauranter.
+151	I turistområder kan priserne være mærkbart højere end i resten af byen.
+152	Drikkepenge er frivillige (typisk 5–10 %); står der servicegebyr på regningen, behøves ikke mere.
+153	En rute blev delt med dig
+154	Din rejseliste er fuld (højst 24 steder).
+@fi
+0	Tarkistetaan päivityksiä
+1	Sovellus on ajan tasalla
+2	Ladataan
+3	Voit jatkaa sovelluksen käyttöä; asennus avautuu, kun lataus on valmis.
+4	Valmis asennettavaksi
+5	Napauta avautuvassa näkymässä ”Asenna”. Jos puhelin pyytää lupaa, ota käyttöön ”Salli tästä lähteestä” ja palaa takaisin.
+6	Päivitystä ei voitu ladata
+7	Tarkista internetyhteys ja yritä uudelleen tai lataa se selaimessa.
+8	Päivitä
+9	Avaa asennus
+10	Yritä uudelleen
+11	Lataa selaimessa
+12	OK
+13	Jatka taustalla
+14	Oma reittini
+15	Reitillä ei ole enää pysähdyksiä.
+16	Lisää pysähdys
+17	Jaa reitti
+18	Poista välttämisasetukset käytöstä ja yritä uudelleen.
+19	sis. {1} pysähdyksillä
+20	Pysähdykset
+21	Lähtö: sijaintisi
+22	Lähtö: ensimmäinen pysähdys
+23	viivy {1}
+24	Lisää viipymisaika
+25	Poista pysähdys
+26	Lyhin järjestys
+27	Pysähdykset matkan varrella
+28	Paikat, joihin pääset ilman isoa kiertotietä.
+29	Haetaan…
+30	Reitin läheltä ei löytynyt mitään.
+31	{1} reitiltä
+32	Lisää
+33	Matkan varrella, älä ohita
+34	Oppaan nähtävyyksiä reittisi lähellä.
+35	Piilota
+36	Näytä ({1})
+37	Hae paikkaa tai maakuntaa
+38	Suosikkisi ja kärkikohteet
+39	Voit lisätä enintään {1} pysähdystä
+40	Tämä pysähdys on jo reitillä
+41	{1} lisätty pysähdykseksi
+42	Pysähdykset ovat jo lyhimmässä järjestyksessä
+43	Levähdyspaikkoja ei voitu ladata nyt
+44	Olet ajanut 2 tuntia. Mitä jos pitäisit lyhyen tauon?
+45	Tauko
+46	Olet ajanut 2 tuntia. Lyhyt tauko tekee hyvää.
+47	Etsi levähdyspaikka
+48	Levähdyspaikat edessä
+49	Seuraavalta 45 km:ltä ei löytynyt mitään.
+50	suljettu
+51	pyhäpäivä
+52	Aukioloajat
+53	OpenStreetMap-tietoa; voi poiketa pyhinä ja erityispäivinä. Tarkista virallinen lähde ennen lähtöä.
+54	Nyt avoinna vierailijoille
+55	taas mahdollista klo {1} jälkeen
+56	Vierailuaikojen ulkopuolella
+57	Vierailuajat
+58	Sopivat ajat tänään
+59	Perjantaisin keskipäivän rukous on pidempi ja täydempi; vältä keskipäivää.
+60	Kengät riisutaan sisäänkäynnillä. Naiset peittävät hiuksensa; olkapäiden ja polvien tulee olla peitettyinä. Älä kulje rukoilevien edestä äläkä käytä salamaa.
+61	Ajat on laskettu ja voivat poiketa muutaman minuutin.
+62	Hätätilanne
+63	Vanhat numerot, kuten 155, 156 ja 110, ohjataan myös numeroon 112.
+64	Suurlähetystöt ja konsulaatit
+65	Jos passisi katosi, ota yhteyttä maasi edustustoon.
+66	Lähelläsi
+67	Salli sijainnin käyttö nähdäksesi lähellä olevat paikat.
+68	Lataus ei onnistunut nyt. Tarkista internetyhteys.
+69	Läheltä ei löytynyt mitään.
+70	Päivystys
+71	Soita
+72	Öisin ja pyhinä päivystävien apteekkien luettelo on jokaisen apteekin ovessa.
+73	Valuuttamuunnin
+74	Vaihda suuntaa
+75	Keskuspankin myyntikurssi, {1}
+76	offline, viimeisin tunnettu kurssi
+77	Vaihtopisteiden ja korttien kurssit voivat poiketa; arvo on likimääräinen.
+78	Kursseja ei voitu hakea nyt.
+79	Hintaopas
+80	Hintaopasta ei voitu ladata nyt.
+81	Likimääräisiä hintoja; ne muuttuvat inflaation vuoksi usein. Kunkin hinnan päivämäärä on suluissa.
+82	Vinkit
+83	Tälle päivälle ei ole vielä ennustetta.
+84	Sateen todennäköisyys {1} %
+85	Näyttää sateiselta; suunnittele tälle päivälle sisäkohteita.
+86	Huomenna
+87	keskuspankin kurssilla
+88	Milloin lähdet?
+89	Sääennuste
+90	Tänään auki ympäri vuorokauden
+91	sulkeutuu {1} min päästä
+92	sulkeutuu klo {1}
+93	Avoinna nyt
+94	Suljettu
+95	aukeaa tänään klo {1}
+96	aukeaa huomenna klo {1}
+97	aukeaa klo {1}
+98	Levähdysalue
+99	Ei tietullitietä
+100	Ei moottoriteitä
+101	Ei lauttoja
+102	Hätäpuhelu
+103	YİMER · Ulkomaalaisten viestintäkeskus
+104	Metsäpalon ilmoittaminen
+105	Sairaala
+106	Perjantairukous
+107	Keskipäivän rukous
+108	Iltapäivän rukous
+109	Iltarukous
+110	Fajr
+111	Auringonnousu
+112	Dhuhr
+113	Asr
+114	Maghrib
+115	Isha
+116	ma
+117	ti
+118	ke
+119	to
+120	pe
+121	la
+122	su
+123	Maanantai
+124	Tiistai
+125	Keskiviikko
+126	Torstai
+127	Perjantai
+128	Lauantai
+129	Sunnuntai
+130	Ambulanssi, poliisi, palokunta, santarmisto ja rannikkovartiosto: yksi numero kaikkiin hätätilanteisiin. Maksuton.
+131	Ympärivuorokautinen apu ulkomaalaisille: turkki, englanti, arabia, venäjä, saksa ja persia.
+132	Jos näet savua tai tulta metsässä.
+133	Liiramäärät keskuspankin kurssilla
+134	Simitin, liikenteen, taksien ja museoiden hinnat
+135	112, lähin sairaala ja apteekki
+136	Tarkista päivitykset
+137	Simit (Istanbul)
+138	Istanbulkart, täysi hinta
+139	Taksin perusmaksu (Istanbul)
+140	Taksi per km (Istanbul)
+141	Taksin lyhyen matkan vähimmäishinta (Istanbul)
+142	Müzekart (Turkin ja Pohjois-Kyproksen kansalaiset, 1 vuosi)
+143	Pääsy Efesokseen (ulkomaiset vierailijat)
+144	Pääsy Galatan torniin (ulkomaiset vierailijat)
+145	Syyskuu 2026
+146	Heinäkuu 2026
+147	Marraskuu 2026
+148	Jos hinnastoa ei ole, kysy ensin hinta.
+149	Varmista taksissa, että taksamittari on päällä.
+150	Tinkiminen on tavallista Suurella basaarilla ja toreilla, mutta ei ravintoloissa.
+151	Turistialueilla hinnat voivat olla selvästi korkeampia kuin muualla kaupungissa.
+152	Juomaraha on vapaaehtoinen (yleensä 5–10 %); jos laskuun sisältyy palvelumaksu, lisää ei tarvita.
+153	Kanssasi jaettiin reitti
+154	Matkalistasi on täynnä (enintään 24 paikkaa).
+@he
+0	בודקים עדכונים
+1	האפליקציה מעודכנת
+2	מוריד
+3	אפשר להמשיך להשתמש באפליקציה; ההתקנה תיפתח בסיום ההורדה.
+4	מוכן להתקנה
+5	הקש "התקן" במסך שנפתח. אם הטלפון מבקש הרשאה, הפעל "אפשר ממקור זה" וחזור.
+6	לא ניתן היה להוריד את העדכון
+7	בדוק את חיבור האינטרנט ונסה שוב, או הורד בדפדפן.
+8	עדכן
+9	פתח התקנה
+10	נסה שוב
+11	הורד בדפדפן
+12	אישור
+13	המשך ברקע
+14	המסלול שלי
+15	לא נשארו עצירות במסלול.
+16	הוסף עצירה
+17	שתף מסלול
+18	כבה את אפשרויות ההימנעות ונסה שוב.
+19	כולל {1} בעצירות
+20	עצירות
+21	התחלה: המיקום שלך
+22	התחלה: עצירה ראשונה
+23	להישאר {1}
+24	הוסף זמן שהייה
+25	הסר עצירה
+26	הסדר הקצר ביותר
+27	עצירות בדרך
+28	מקומות לעצור בהם בלי סטייה גדולה.
+29	מחפש…
+30	לא נמצא דבר ליד המסלול.
+31	{1} מהמסלול
+32	הוסף
+33	בדרך שלך, אל תפספס
+34	אתרים מהמדריך קרוב למסלול שלך.
+35	הסתר
+36	הצג ({1})
+37	חפש מקום או מחוז
+38	המועדפים שלך ומקומות מובילים
+39	אפשר להוסיף עד {1} עצירות
+40	העצירה הזו כבר במסלול
+41	{1} נוסף כעצירה
+42	העצירות כבר בסדר הקצר ביותר
+43	לא ניתן לטעון כעת מקומות מנוחה
+44	אתה נוהג כבר שעתיים. מה דעתך על הפסקה קצרה?
+45	הפסקה
+46	אתה נוהג כבר שעתיים. הפסקה קצרה תעשה לך טוב.
+47	מצא מקום מנוחה
+48	מקומות מנוחה לפניך
+49	לא נמצא דבר ב־45 הק"מ הבאים.
+50	סגור
+51	חג רשמי
+52	שעות פתיחה
+53	נתוני OpenStreetMap; עשויים להשתנות בחגים ובימים מיוחדים. בדוק במקור הרשמי לפני היציאה.
+54	פתוח למבקרים עכשיו
+55	שוב אפשרי אחרי {1}
+56	מחוץ לשעות הביקור
+57	שעות ביקור
+58	זמנים מתאימים היום
+59	בימי שישי תפילת הצהריים ארוכה ועמוסה יותר; הימנע משעות הצהריים.
+60	חולצים נעליים בכניסה. נשים מכסות את השיער; כתפיים וברכיים צריכות להיות מכוסות. אל תעבור לפני המתפללים ואל תשתמש בפלאש.
+61	הזמנים מחושבים ועשויים להשתנות בכמה דקות.
+62	חירום
+63	מספרים ישנים כמו 155, 156 ו־110 מופנים גם הם ל־112.
+64	שגרירויות וקונסוליות
+65	אם איבדת את הדרכון, פנה לנציגות של ארצך.
+66	לידך
+67	אפשר גישה למיקום כדי לראות מקומות קרובים.
+68	לא ניתן לטעון כעת. בדוק את חיבור האינטרנט.
+69	לא נמצא דבר בקרבת מקום.
+70	יש מיון
+71	התקשר
+72	בלילות ובחגים רשימת בתי המרקחת התורנים תלויה על דלת כל בית מרקחת.
+73	ממיר מטבעות
+74	החלף כיוון
+75	שער המכירה של הבנק המרכזי, {1}
+76	לא מקוון, השער האחרון הידוע
+77	שערי חלפנים וכרטיסים עשויים להשתנות; הערך מקורב.
+78	לא ניתן לקבל שערים כעת.
+79	מדריך מחירים
+80	לא ניתן לטעון כעת את מדריך המחירים.
+81	מחירים מקורבים; הם משתנים לעיתים קרובות בגלל אינפלציה. תאריך כל מחיר מופיע בסוגריים.
+82	טיפים
+83	עדיין אין תחזית ליום הזה.
+84	סיכוי לגשם {1}%
+85	נראה גשום; תכנן מקומות מקורים ליום הזה.
+86	מחר
+87	לפי שער הבנק המרכזי
+88	מתי אתה נוסע?
+89	תחזית
+90	פתוח היום 24 שעות
+91	נסגר בעוד {1} דק'
+92	נסגר ב־{1}
+93	פתוח עכשיו
+94	סגור
+95	נפתח היום ב־{1}
+96	נפתח מחר ב־{1}
+97	נפתח ב־{1}
+98	תחנת דרכים
+99	בלי כבישי אגרה
+100	בלי כבישים מהירים
+101	בלי מעבורות
+102	שיחת חירום
+103	YİMER · מרכז תקשורת לזרים
+104	דיווח על שריפת יער
+105	בית חולים
+106	תפילת יום שישי
+107	תפילת צהריים
+108	תפילת אחר הצהריים
+109	תפילת ערב
+110	פג'ר
+111	זריחה
+112	זוהר
+113	עסר
+114	מע'ריב
+115	עישא
+116	ב'
+117	ג'
+118	ד'
+119	ה'
+120	ו'
+121	ש'
+122	א'
+123	יום שני
+124	יום שלישי
+125	יום רביעי
+126	יום חמישי
+127	יום שישי
+128	שבת
+129	יום ראשון
+130	אמבולנס, משטרה, כבאות, ז'נדרמריה ומשמר החופים: מספר אחד לכל מקרי החירום. השיחה חינם.
+131	עזרה מסביב לשעון לזרים: טורקית, אנגלית, ערבית, רוסית, גרמנית ופרסית.
+132	אם אתה רואה עשן או אש ביער.
+133	סכומים בלירות לפי שער הבנק המרכזי
+134	מחירי סימיט, תחבורה, מוניות ומוזיאונים
+135	112, בית החולים ובית המרקחת הקרובים
+136	בדוק עדכונים
+137	סימיט (איסטנבול)
+138	איסטנבולקארט, מחיר מלא
+139	מונית, תעריף התחלתי (איסטנבול)
+140	מונית לק"מ (איסטנבול)
+141	מונית, מינימום לנסיעה קצרה (איסטנבול)
+142	Müzekart (אזרחי טורקיה וצפון קפריסין, שנה)
+143	כניסה לאפסוס (מבקרים זרים)
+144	כניסה למגדל גלטה (מבקרים זרים)
+145	ספטמבר 2026
+146	יולי 2026
+147	נובמבר 2026
+148	היכן שאין מחירון, שאל קודם על המחיר.
+149	במונית ודא שהמונה פועל.
+150	מיקוח מקובל בגראנד בזאר ובשווקים, אבל לא במסעדות.
+151	באזורי תיירות המחירים יכולים להיות גבוהים באופן ניכר משאר העיר.
+152	טיפ הוא לפי רצון (בדרך כלל 5–10%); אם בחשבון יש דמי שירות, אין צורך בתוספת.
+153	שיתפו איתך מסלול
+154	רשימת הטיול שלך מלאה (עד 24 מקומות).

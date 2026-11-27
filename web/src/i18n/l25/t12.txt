@@ -1,0 +1,468 @@
+@hi
+0	अपडेट की जाँच हो रही है
+1	आपका ऐप अद्यतन है
+2	डाउनलोड हो रहा है
+3	आप ऐप का उपयोग जारी रख सकते हैं; डाउनलोड पूरा होने पर इंस्टॉलेशन खुलेगा।
+4	इंस्टॉल के लिए तैयार
+5	खुलने वाली स्क्रीन पर "इंस्टॉल करें" दबाएँ। अगर फ़ोन अनुमति माँगे तो "इस स्रोत से अनुमति दें" चालू करके वापस आएँ।
+6	अपडेट डाउनलोड नहीं हो सका
+7	इंटरनेट कनेक्शन जाँचें और फिर से कोशिश करें, या ब्राउज़र में डाउनलोड करें।
+8	अपडेट करें
+9	इंस्टॉलेशन खोलें
+10	फिर कोशिश करें
+11	ब्राउज़र में डाउनलोड करें
+12	ठीक है
+13	बैकग्राउंड में जारी रखें
+14	मेरा रूट
+15	रूट पर कोई पड़ाव नहीं बचा।
+16	पड़ाव जोड़ें
+17	रूट साझा करें
+18	बचाव विकल्प बंद करें और फिर कोशिश करें।
+19	पड़ावों पर {1} सहित
+20	पड़ाव
+21	शुरुआत: आपका स्थान
+22	शुरुआत: पहला पड़ाव
+23	{1} रुकें
+24	रुकने का समय जोड़ें
+25	पड़ाव हटाएँ
+26	सबसे छोटा क्रम
+27	रास्ते के विश्राम स्थल
+28	ऐसी जगहें जहाँ बिना ज़्यादा घूमे रुक सकते हैं।
+29	खोज रहे हैं…
+30	रूट के पास कुछ नहीं मिला।
+31	रूट से {1}
+32	जोड़ें
+33	रास्ते में, न चूकें
+34	आपके रूट के पास गाइड के दर्शनीय स्थल।
+35	छिपाएँ
+36	दिखाएँ ({1})
+37	जगह या प्रांत खोजें
+38	आपके पसंदीदा और प्रमुख स्थान
+39	आप अधिकतम {1} पड़ाव जोड़ सकते हैं
+40	यह पड़ाव पहले से रूट में है
+41	{1} पड़ाव के रूप में जोड़ा गया
+42	पड़ाव पहले से सबसे छोटे क्रम में हैं
+43	विश्राम स्थल अभी लोड नहीं हो सके
+44	आप 2 घंटे से गाड़ी चला रहे हैं। थोड़ा आराम करें?
+45	विराम
+46	आप 2 घंटे से गाड़ी चला रहे हैं। थोड़ा आराम अच्छा रहेगा।
+47	विश्राम स्थल खोजें
+48	आगे के विश्राम स्थल
+49	अगले 45 किमी में कुछ नहीं मिला।
+50	बंद
+51	सरकारी छुट्टी
+52	खुलने का समय
+53	OpenStreetMap डेटा; छुट्टियों और विशेष दिनों में अलग हो सकता है। जाने से पहले आधिकारिक स्रोत जाँचें।
+54	अभी दर्शन के लिए खुला
+55	{1} के बाद फिर संभव
+56	दर्शन समय के बाहर
+57	दर्शन का समय
+58	आज के उपयुक्त समय
+59	शुक्रवार को दोपहर की नमाज़ लंबी और भीड़भाड़ वाली होती है; दोपहर से बचें।
+60	प्रवेश पर जूते उतारें। महिलाएँ बाल ढकती हैं; कंधे और घुटने ढके होने चाहिए। नमाज़ पढ़ने वालों के सामने से न गुज़रें और फ़्लैश का प्रयोग न करें।
+61	समय गणना किए गए हैं और कुछ मिनट अलग हो सकते हैं।
+62	आपातकाल
+63	155, 156 और 110 जैसे पुराने नंबर भी 112 पर जुड़ते हैं।
+64	दूतावास और वाणिज्य दूतावास
+65	पासपोर्ट खो जाए तो अपने देश के मिशन से संपर्क करें।
+66	आपके पास
+67	पास की जगहें देखने के लिए स्थान की अनुमति दें।
+68	अभी लोड नहीं हुआ। इंटरनेट कनेक्शन जाँचें।
+69	आसपास कुछ नहीं मिला।
+70	आपातकालीन विभाग है
+71	कॉल करें
+72	रात में और छुट्टियों पर ड्यूटी वाली फ़ार्मेसियों की सूची हर फ़ार्मेसी के दरवाज़े पर लगी होती है।
+73	मुद्रा परिवर्तक
+74	दिशा बदलें
+75	केंद्रीय बैंक की बिक्री दर, {1}
+76	ऑफ़लाइन, अंतिम ज्ञात दर
+77	मनी एक्सचेंज और कार्ड की दरें अलग हो सकती हैं; दिखाया गया मान अनुमानित है।
+78	दरें अभी नहीं मिल सकीं।
+79	मूल्य गाइड
+80	मूल्य गाइड अभी लोड नहीं हो सकी।
+81	अनुमानित कीमतें; महँगाई के कारण अक्सर बदलती हैं। हर कीमत की तारीख कोष्ठक में है।
+82	सुझाव
+83	इस दिन का पूर्वानुमान अभी नहीं है।
+84	बारिश की संभावना {1}%
+85	बारिश लग रही है; इस दिन इनडोर जगहें रखें।
+86	कल
+87	केंद्रीय बैंक दर पर
+88	आप कब जा रहे हैं?
+89	मौसम पूर्वानुमान
+90	आज 24 घंटे खुला
+91	{1} मिनट में बंद होगा
+92	{1} बजे बंद होता है
+93	अभी खुला
+94	बंद है
+95	आज {1} बजे खुलेगा
+96	कल {1} बजे खुलेगा
+97	{1} बजे खुलेगा
+98	विश्राम क्षेत्र
+99	टोल सड़कें नहीं
+100	मोटरवे नहीं
+101	फ़ेरी नहीं
+102	आपातकालीन कॉल
+103	YİMER · विदेशियों के लिए संचार केंद्र
+104	जंगल की आग की सूचना
+105	अस्पताल
+106	जुमे की नमाज़
+107	ज़ुहर की नमाज़
+108	अस्र की नमाज़
+109	मग़रिब की नमाज़
+110	फ़ज्र
+111	सूर्योदय
+112	ज़ुहर
+113	अस्र
+114	मग़रिब
+115	इशा
+116	सोम
+117	मंगल
+118	बुध
+119	गुरु
+120	शुक्र
+121	शनि
+122	रवि
+123	सोमवार
+124	मंगलवार
+125	बुधवार
+126	गुरुवार
+127	शुक्रवार
+128	शनिवार
+129	रविवार
+130	एम्बुलेंस, पुलिस, अग्निशमन, जेंडरमेरी और तटरक्षक: सभी आपात स्थितियों के लिए एक नंबर। कॉल मुफ़्त है।
+131	विदेशियों के लिए 24/7 सहायता: तुर्की, अंग्रेज़ी, अरबी, रूसी, जर्मन और फ़ारसी।
+132	अगर जंगल में धुआँ या आग दिखे।
+133	केंद्रीय बैंक दर पर लीरा राशि
+134	सिमित, परिवहन, टैक्सी और संग्रहालयों की कीमतें
+135	112, निकटतम अस्पताल और फ़ार्मेसी
+136	अपडेट जाँचें
+137	सिमित (इस्तांबुल)
+138	इस्तांबुलकार्ट पूरा किराया
+139	टैक्सी शुरुआती किराया (इस्तांबुल)
+140	टैक्सी प्रति किमी (इस्तांबुल)
+141	टैक्सी छोटी दूरी न्यूनतम किराया (इस्तांबुल)
+142	Müzekart (तुर्की और उत्तरी साइप्रस के नागरिक, 1 वर्ष)
+143	एफ़ेसस प्रवेश (विदेशी आगंतुक)
+144	गलाटा टॉवर प्रवेश (विदेशी आगंतुक)
+145	सितंबर 2026
+146	जुलाई 2026
+147	नवंबर 2026
+148	जहाँ मूल्य सूची न हो, पहले कीमत पूछें।
+149	टैक्सी में मीटर चालू है, यह सुनिश्चित करें।
+150	ग्रैंड बाज़ार और बाज़ारों में मोलभाव सामान्य है, पर रेस्तराँ में नहीं।
+151	पर्यटक इलाकों में कीमतें शहर के बाकी हिस्सों से काफ़ी ज़्यादा हो सकती हैं।
+152	टिप वैकल्पिक है (आमतौर पर 5–10%); बिल में सर्विस चार्ज हो तो अलग से ज़रूरी नहीं।
+153	आपके साथ एक रूट साझा किया गया
+154	आपकी यात्रा सूची भर गई है (अधिकतम 24 जगहें)।
+@ur
+0	اپ ڈیٹس دیکھی جا رہی ہیں
+1	آپ کی ایپ تازہ ترین ہے
+2	ڈاؤن لوڈ ہو رہا ہے
+3	آپ ایپ استعمال کرتے رہ سکتے ہیں؛ ڈاؤن لوڈ مکمل ہونے پر انسٹالیشن کھل جائے گی۔
+4	انسٹال کے لیے تیار
+5	کھلنے والی اسکرین پر "انسٹال" دبائیں۔ اگر فون اجازت مانگے تو "اس ذریعے سے اجازت دیں" آن کر کے واپس آئیں۔
+6	اپ ڈیٹ ڈاؤن لوڈ نہیں ہو سکی
+7	انٹرنیٹ کنکشن چیک کر کے دوبارہ کوشش کریں یا براؤزر میں ڈاؤن لوڈ کریں۔
+8	اپ ڈیٹ کریں
+9	انسٹالیشن کھولیں
+10	دوبارہ کوشش کریں
+11	براؤزر میں ڈاؤن لوڈ کریں
+12	ٹھیک ہے
+13	پس منظر میں جاری رکھیں
+14	میرا راستہ
+15	راستے پر کوئی پڑاؤ باقی نہیں۔
+16	پڑاؤ شامل کریں
+17	راستہ شیئر کریں
+18	بچنے کے اختیارات بند کر کے دوبارہ کوشش کریں۔
+19	پڑاؤ پر {1} سمیت
+20	پڑاؤ
+21	آغاز: آپ کا مقام
+22	آغاز: پہلا پڑاؤ
+23	{1} رکیں
+24	رکنے کا وقت شامل کریں
+25	پڑاؤ ہٹائیں
+26	مختصر ترین ترتیب
+27	راستے میں وقفہ
+28	ایسی جگہیں جہاں زیادہ چکر لگائے بغیر رک سکیں۔
+29	تلاش جاری ہے…
+30	راستے کے قریب کچھ نہیں ملا۔
+31	راستے سے {1}
+32	شامل کریں
+33	راستے میں، نہ چھوڑیں
+34	آپ کے راستے کے قریب گائیڈ کی دیکھنے کی جگہیں۔
+35	چھپائیں
+36	دکھائیں ({1})
+37	جگہ یا صوبہ تلاش کریں
+38	آپ کی پسندیدہ اور نمایاں جگہیں
+39	زیادہ سے زیادہ {1} پڑاؤ شامل کیے جا سکتے ہیں
+40	یہ پڑاؤ پہلے سے راستے میں ہے
+41	{1} پڑاؤ کے طور پر شامل ہوا
+42	پڑاؤ پہلے ہی مختصر ترین ترتیب میں ہیں
+43	آرام گاہیں ابھی لوڈ نہیں ہو سکیں
+44	آپ 2 گھنٹے سے گاڑی چلا رہے ہیں۔ تھوڑا وقفہ کیسا رہے گا؟
+45	وقفہ
+46	آپ 2 گھنٹے سے گاڑی چلا رہے ہیں۔ مختصر وقفہ اچھا رہے گا۔
+47	آرام گاہ تلاش کریں
+48	آگے کی آرام گاہیں
+49	اگلے 45 کلومیٹر میں کچھ نہیں ملا۔
+50	بند
+51	سرکاری تعطیل
+52	کھلنے کے اوقات
+53	OpenStreetMap ڈیٹا؛ تعطیلات اور خاص دنوں میں مختلف ہو سکتا ہے۔ جانے سے پہلے سرکاری ذریعہ دیکھیں۔
+54	ابھی زیارت کے لیے کھلی ہے
+55	{1} کے بعد دوبارہ ممکن
+56	زیارت کے اوقات سے باہر
+57	زیارت کے اوقات
+58	آج کے موزوں اوقات
+59	جمعہ کو ظہر کی نماز طویل اور زیادہ پرہجوم ہوتی ہے؛ دوپہر سے بچیں۔
+60	داخلے پر جوتے اتارے جاتے ہیں۔ خواتین بال ڈھانپتی ہیں؛ کندھے اور گھٹنے ڈھکے ہونے چاہئیں۔ نمازیوں کے سامنے سے نہ گزریں اور فلیش استعمال نہ کریں۔
+61	اوقات حساب سے نکالے گئے ہیں اور چند منٹ مختلف ہو سکتے ہیں۔
+62	ایمرجنسی
+63	155، 156 اور 110 جیسے پرانے نمبر بھی 112 پر منتقل ہوتے ہیں۔
+64	سفارت خانے اور قونصل خانے
+65	اگر پاسپورٹ گم ہو جائے تو اپنے ملک کے مشن سے رابطہ کریں۔
+66	آپ کے قریب
+67	قریبی جگہیں دیکھنے کے لیے مقام کی اجازت دیں۔
+68	ابھی لوڈ نہیں ہوا۔ انٹرنیٹ کنکشن چیک کریں۔
+69	قریب کچھ نہیں ملا۔
+70	ایمرجنسی شعبہ موجود ہے
+71	کال کریں
+72	رات اور تعطیلات میں ڈیوٹی والی فارمیسیوں کی فہرست ہر فارمیسی کے دروازے پر لگی ہوتی ہے۔
+73	کرنسی کنورٹر
+74	سمت بدلیں
+75	مرکزی بینک کا فروخت ریٹ، {1}
+76	آف لائن، آخری معلوم ریٹ
+77	منی ایکسچینج اور کارڈ کے ریٹ مختلف ہو سکتے ہیں؛ دکھائی گئی قدر تخمینی ہے۔
+78	ریٹ ابھی حاصل نہیں ہو سکے۔
+79	قیمتوں کی گائیڈ
+80	قیمتوں کی گائیڈ ابھی لوڈ نہیں ہو سکی۔
+81	تخمینی قیمتیں؛ مہنگائی کی وجہ سے اکثر بدلتی ہیں۔ ہر قیمت کی تاریخ قوسین میں ہے۔
+82	مشورے
+83	اس دن کی پیش گوئی ابھی نہیں ہے۔
+84	بارش کا امکان {1}%
+85	بارش لگ رہی ہے؛ اس دن اندرونی جگہیں رکھیں۔
+86	کل
+87	مرکزی بینک ریٹ پر
+88	آپ کب جا رہے ہیں؟
+89	موسم کی پیش گوئی
+90	آج 24 گھنٹے کھلا ہے
+91	{1} منٹ میں بند ہوگا
+92	{1} بجے بند ہوتا ہے
+93	ابھی کھلا ہے
+94	بند ہے
+95	آج {1} بجے کھلے گا
+96	کل {1} بجے کھلے گا
+97	{1} بجے کھلے گا
+98	آرام گاہ
+99	ٹول سڑکوں کے بغیر
+100	موٹروے کے بغیر
+101	فیری کے بغیر
+102	ہنگامی کال
+103	YİMER · غیر ملکیوں کے لیے رابطہ مرکز
+104	جنگل کی آگ کی اطلاع
+105	ہسپتال
+106	نماز جمعہ
+107	نماز ظہر
+108	نماز عصر
+109	نماز مغرب
+110	فجر
+111	طلوع آفتاب
+112	ظہر
+113	عصر
+114	مغرب
+115	عشاء
+116	پیر
+117	منگل
+118	بدھ
+119	جمعرات
+120	جمعہ
+121	ہفتہ
+122	اتوار
+123	پیر
+124	منگل
+125	بدھ
+126	جمعرات
+127	جمعہ
+128	ہفتہ
+129	اتوار
+130	ایمبولینس، پولیس، فائر بریگیڈ، جینڈرمیری اور کوسٹ گارڈ: تمام ہنگامی حالات کے لیے ایک نمبر۔ کال مفت ہے۔
+131	غیر ملکیوں کے لیے 24/7 مدد: ترکی، انگریزی، عربی، روسی، جرمن اور فارسی۔
+132	اگر جنگل میں دھواں یا آگ دیکھیں۔
+133	مرکزی بینک ریٹ پر لیرا کی رقم
+134	سمیت، نقل و حمل، ٹیکسی اور عجائب گھروں کی قیمتیں
+135	112، قریب ترین ہسپتال اور فارمیسی
+136	اپ ڈیٹس دیکھیں
+137	سمیت (استنبول)
+138	استنبول کارٹ، پورا کرایہ
+139	ٹیکسی ابتدائی کرایہ (استنبول)
+140	ٹیکسی فی کلومیٹر (استنبول)
+141	ٹیکسی کم فاصلے کا کم از کم کرایہ (استنبول)
+142	Müzekart (ترکیہ اور شمالی قبرص کے شہری، 1 سال)
+143	افسس داخلہ (غیر ملکی سیاح)
+144	غلطہ ٹاور داخلہ (غیر ملکی سیاح)
+145	ستمبر 2026
+146	جولائی 2026
+147	نومبر 2026
+148	جہاں قیمتوں کی فہرست نہ ہو، پہلے قیمت پوچھیں۔
+149	ٹیکسی میں یقینی بنائیں کہ میٹر چل رہا ہے۔
+150	گرینڈ بازار اور بازاروں میں بھاؤ تاؤ عام ہے، مگر ریستورانوں میں نہیں۔
+151	سیاحتی علاقوں میں قیمتیں شہر کے باقی حصوں سے کافی زیادہ ہو سکتی ہیں۔
+152	ٹپ اختیاری ہے (عموماً 5–10%)؛ اگر بل میں سروس چارج شامل ہو تو الگ ضرورت نہیں۔
+153	آپ کے ساتھ ایک راستہ شیئر کیا گیا
+154	آپ کی سفری فہرست بھر گئی ہے (زیادہ سے زیادہ 24 جگہیں)۔
+@id
+0	Memeriksa pembaruan
+1	Aplikasi Anda sudah terbaru
+2	Mengunduh
+3	Anda bisa terus memakai aplikasi; instalasi terbuka saat unduhan selesai.
+4	Siap dipasang
+5	Ketuk "Pasang" di layar yang terbuka. Jika ponsel meminta izin, aktifkan "Izinkan dari sumber ini" lalu kembali.
+6	Pembaruan tidak dapat diunduh
+7	Periksa koneksi internet dan coba lagi, atau unduh di browser.
+8	Perbarui
+9	Buka instalasi
+10	Coba lagi
+11	Unduh di browser
+12	OK
+13	Lanjut di latar belakang
+14	Ruteku
+15	Tidak ada perhentian tersisa di rute.
+16	Tambah perhentian
+17	Bagikan rute
+18	Matikan opsi hindari dan coba lagi.
+19	termasuk {1} di perhentian
+20	Perhentian
+21	Mulai: lokasi Anda
+22	Mulai: perhentian pertama
+23	tinggal {1}
+24	Tambah lama singgah
+25	Hapus perhentian
+26	Urutan terpendek
+27	Singgah di jalan
+28	Tempat yang bisa disinggahi tanpa memutar jauh.
+29	Mencari…
+30	Tidak ada yang ditemukan dekat rute.
+31	{1} dari rute
+32	Tambah
+33	Di jalan Anda, jangan lewatkan
+34	Tempat dari panduan yang dekat rute Anda.
+35	Sembunyikan
+36	Tampilkan ({1})
+37	Cari tempat atau provinsi
+38	Favorit Anda dan tempat unggulan
+39	Anda bisa menambah hingga {1} perhentian
+40	Perhentian ini sudah ada di rute
+41	{1} ditambahkan sebagai perhentian
+42	Perhentian sudah dalam urutan terpendek
+43	Tempat istirahat tidak dapat dimuat sekarang
+44	Anda sudah menyetir 2 jam. Bagaimana kalau istirahat sebentar?
+45	Istirahat
+46	Anda sudah menyetir 2 jam. Istirahat sebentar akan membantu.
+47	Cari tempat istirahat
+48	Tempat istirahat di depan
+49	Tidak ada yang ditemukan dalam 45 km ke depan.
+50	tutup
+51	hari libur resmi
+52	Jam buka
+53	Data OpenStreetMap; bisa berbeda pada hari libur dan hari khusus. Periksa sumber resmi sebelum berangkat.
+54	Sekarang terbuka untuk pengunjung
+55	bisa lagi setelah {1}
+56	Di luar jam kunjungan
+57	Jam kunjungan
+58	Waktu yang cocok hari ini
+59	Pada hari Jumat salat zuhur lebih lama dan ramai; hindari tengah hari.
+60	Lepas sepatu di pintu masuk. Perempuan menutup rambut; bahu dan lutut harus tertutup. Jangan lewat di depan orang yang salat dan jangan pakai flash.
+61	Waktu dihitung dan bisa berbeda beberapa menit.
+62	Darurat
+63	Nomor lama seperti 155, 156, dan 110 juga dialihkan ke 112.
+64	Kedutaan dan konsulat
+65	Jika paspor Anda hilang, hubungi perwakilan negara Anda.
+66	Di dekat Anda
+67	Izinkan akses lokasi untuk melihat tempat di sekitar.
+68	Tidak dapat dimuat sekarang. Periksa koneksi internet.
+69	Tidak ada yang ditemukan di sekitar.
+70	Ada IGD
+71	Telepon
+72	Malam hari dan hari libur, daftar apotek jaga ditempel di pintu setiap apotek.
+73	Konverter mata uang
+74	Tukar arah
+75	Kurs jual bank sentral, {1}
+76	luring, kurs terakhir yang diketahui
+77	Kurs money changer dan kartu bisa berbeda; nilai ini perkiraan.
+78	Kurs tidak dapat diambil sekarang.
+79	Panduan harga
+80	Panduan harga tidak dapat dimuat sekarang.
+81	Harga perkiraan; sering berubah karena inflasi. Tanggal setiap harga ada dalam kurung.
+82	Tips
+83	Belum ada prakiraan untuk hari ini.
+84	Peluang hujan {1}%
+85	Tampaknya hujan; rencanakan tempat dalam ruangan untuk hari ini.
+86	Besok
+87	dengan kurs bank sentral
+88	Kapan Anda berangkat?
+89	Prakiraan cuaca
+90	Hari ini buka 24 jam
+91	tutup dalam {1} mnt
+92	tutup pukul {1}
+93	Buka sekarang
+94	Tutup
+95	buka hari ini pukul {1}
+96	buka besok pukul {1}
+97	buka pukul {1}
+98	Rest area
+99	Tanpa jalan tol
+100	Tanpa jalan bebas hambatan
+101	Tanpa feri
+102	Panggilan darurat
+103	YİMER · Pusat komunikasi untuk warga asing
+104	Laporan kebakaran hutan
+105	Rumah sakit
+106	Salat Jumat
+107	Salat zuhur
+108	Salat asar
+109	Salat magrib
+110	Subuh
+111	Terbit
+112	Zuhur
+113	Asar
+114	Magrib
+115	Isya
+116	Sen
+117	Sel
+118	Rab
+119	Kam
+120	Jum
+121	Sab
+122	Min
+123	Senin
+124	Selasa
+125	Rabu
+126	Kamis
+127	Jumat
+128	Sabtu
+129	Minggu
+130	Ambulans, polisi, pemadam kebakaran, gendarmeri, dan penjaga pantai: satu nomor untuk semua keadaan darurat. Gratis.
+131	Bantuan 24/7 untuk warga asing: Turki, Inggris, Arab, Rusia, Jerman, dan Persia.
+132	Jika Anda melihat asap atau api di hutan.
+133	Jumlah lira dengan kurs bank sentral
+134	Harga simit, transportasi, taksi, dan museum
+135	112, rumah sakit dan apotek terdekat
+136	Periksa pembaruan
+137	Simit (Istanbul)
+138	Istanbulkart tarif penuh
+139	Tarif buka pintu taksi (Istanbul)
+140	Taksi per km (Istanbul)
+141	Tarif minimum jarak pendek taksi (Istanbul)
+142	Müzekart (warga Turki dan RTSU, 1 tahun)
+143	Tiket masuk Efesus (pengunjung asing)
+144	Tiket masuk Menara Galata (pengunjung asing)
+145	September 2026
+146	Juli 2026
+147	November 2026
+148	Di tempat tanpa daftar harga, tanyakan harga dulu.
+149	Di taksi, pastikan argo menyala.
+150	Menawar itu biasa di Grand Bazaar dan pasar, tetapi tidak di restoran.
+151	Di kawasan wisata harga bisa jauh lebih mahal daripada di bagian kota lainnya.
+152	Tip bersifat sukarela (biasanya 5–10%); jika tagihan sudah termasuk biaya layanan, tak perlu tambahan.
+153	Sebuah rute dibagikan kepada Anda
+154	Daftar perjalanan Anda penuh (maksimal 24 tempat).

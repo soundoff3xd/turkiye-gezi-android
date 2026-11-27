@@ -15,9 +15,11 @@ export async function shareTrip(ids: string[], t: (s: string, ...a: any[]) => st
   try { await Share.share({ message: `${t('Gezi listem')} · ${t('{1} durak', num(ids.length))} · ${t('Türkiye Gezi Rehberi')}\n${tripLink(ids)}`, title: t('Gezi listem') }); } catch { /* vazgeçti */ }
 }
 /* gelen bağlantıyı çöz: site adresi veya turkiyegezi:// */
-export function parseLink(url: string): { yer?: string; gezi?: string[]; gunluk?: string; rota?: { r: string; m: string | null; k: string | null } } | null {
+export function parseLink(url: string): { yer?: string; gezi?: string[]; gunluk?: string; rota?: { r: string; m: string | null; k: string | null }; ortak?: { id: string; k: string } } | null {
   try {
     const u = new URL(url);
+    const ortak = u.searchParams.get('ortak'), ok = u.searchParams.get('k');
+    if (ortak && /^[0-9a-f-]{36}$/i.test(ortak) && ok && /^[0-9a-f]{6,64}$/i.test(ok)) return { ortak: { id: ortak, k: ok } };
     const rota = u.searchParams.get('rota');
     if (rota) return { rota: { r: rota.slice(0, 2000), m: u.searchParams.get('m'), k: u.searchParams.get('k') } };
     const yer = u.searchParams.get('yer'), gezi = u.searchParams.get('gezi'), gl = u.searchParams.get('gunluk');

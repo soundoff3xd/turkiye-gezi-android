@@ -1,0 +1,255 @@
+0	Bu listeye zaten katıldın
+1	{1} listesine katıldın
+2	Ortak listeler
+3	Arkadaşlarınla birlikte gezi listesi
+4	Yürüyüş parkurları
+5	Likya Yolu, Kaçkarlar ve daha fazlası
+6	Mavi Bayraklı plajlar
+7	Temiz ve güvenli plajlar
+8	Valiz listesi
+9	Bölgeye ve mevsime göre eşya listesi
+10	Eğlence ve anılar
+11	Koleksiyonlar
+12	UNESCO mirasları, 7 bölge ve daha fazlası
+13	Neresi bu?
+14	Fotoğraftan yeri bil, günün sorusunu çöz
+15	Yıllık gezi özeti
+16	Bu yıl gezdiklerin tek kartta
+17	{1} profilini aç
+18	Davet bağlantısı geçersiz ya da liste silinmiş.
+19	Bu liste dolu (en fazla 20 kişi).
+20	Liste dolu (en fazla 50 yer).
+21	En fazla 20 ortak liste oluşturabilirsin.
+22	{1} seni takip etmeye başladı
+23	{1} ortak gezi listene katıldı
+24	Ortak listeye ekle
+25	Gezgin profilim
+26	Yıllık özetim
+27	Takip ettiklerim
+28	Takip etmek için giriş yap
+29	Bu gezgin bulunamadı.
+30	Takipçi
+31	Takip
+32	{1} tarihinden beri gezgin
+33	Takip ediliyor
+34	Takip et
+35	Gezginin hangi yerlere gittiği gizlidir; yalnızca sayılar görünür.
+36	Son yorumları
+37	Henüz yorum yok.
+38	Yıllık gezi özetim
+39	Henüz kimseyi takip etmiyorsun.
+40	Bir yorumdaki gezgin adına dokunup profiline gidebilir, takip edebilirsin.
+41	Takip ettiklerin henüz bir şey paylaşmadı.
+42	Ortak liste için giriş yap
+43	Arkadaşlarınla ya da ailenle birlikte gezi listesi hazırla. Bağlantıyı paylaş, katılan herkes yer ekleyip çıkarabilir.
+44	Liste adı (ör. Kapadokya hafta sonu)
+45	Henüz ortak listen yok.
+46	Sen oluşturdun
+47	Katıldığın liste
+48	En fazla {1} yer ve {2} kişi.
+49	Ortak liste
+50	Bu listeyi göremiyorsun.
+51	Listeye katılmak için sana gönderilen bağlantıyı aç.
+52	Bu yer zaten listede
+53	Listeye eklendi
+54	Liste silindi
+55	Listeden ayrıldın
+56	Ortak gezi listeme katıl
+57	Davet et
+58	Henüz yer eklenmedi.
+59	{1} ekledi
+60	Yer ekle
+61	Katılanlar
+62	Sen (liste sahibi)
+63	Liste sahibi ve davetliler
+64	Henüz kimse katılmadı. Davet bağlantısını paylaş.
+65	Oluşturuldu: {1}
+66	Listeyi sil
+67	Listeden ayrıl
+68	{1} listesine eklendi
+69	Yeni ortak liste
+70	Özetini görmek için giriş yap
+71	{1} gezi özetim
+72	{1} il
+73	En çok gezdiğin il: {1}
+74	En sevdiğin tür: {1}
+75	{1} günlük notu
+76	En beğenilen fotoğrafın
+77	Bu yıl henüz “Gittim” işaretlediğin yer yok. Gezdikçe özetin dolacak.
+78	Özetimi paylaş
+79	Listeleri tamamla, rozetini al. “Gittim” işaretledikçe ilerler.
+80	Tamamladıkların
+81	Bulunamadı.
+82	Tebrikler, bu koleksiyonu tamamladın!
+83	Liste UNESCO’nun 2023 itibarıyla Türkiye’deki 21 Dünya Mirası alanına göredir.
+84	Soru {1}/{2}
+85	Puan {1}
+86	Fotoğrafa bak, Türkiye’nin neresi olduğunu bil.
+87	Günün sorusu
+88	Herkes için aynı 5 fotoğraf; günde bir kez oynanır.
+89	Bugünkü puanın: {1}/5
+90	Günün sorusunu oyna
+91	Skor tablosuna girmek için giriş yap.
+92	Serbest oyun
+93	Rastgele 10 fotoğraf. En iyi skorun: {1}/10
+94	Oyna
+95	Bugünün skor tablosu
+96	Bugün henüz kimse oynamadı.
+97	Fotoğraflar: Wikimedia Commons
+98	İlkbahar
+99	Yaz
+100	Sonbahar
+101	Kış
+102	Kolay
+103	Orta
+104	Zor
+105	Türkiye’nin işaretli uzun yürüyüş yolları ve vadileri.
+106	Başlangıç
+107	Bitiş
+108	En iyi mevsim
+109	Parkur izi OpenStreetMap’ten yükleniyor…
+110	Parkur izi şu an yüklenemedi; haritada başlangıç ve bitiş noktaları gösteriliyor.
+111	Parkur izi: © OpenStreetMap katkıcıları. Yürümeden önce güncel işaretleri ve hava durumunu kontrol et.
+112	Culture Routes in Turkey sitesinde aç
+113	Uzun parkurlarda yanında yeterli su taşı, birine güzergâhını haber ver ve yaz sıcağında öğle saatlerinde yürüme.
+114	Mavi Bayrak
+115	Bu bölgede {1} listesinde Mavi Bayrak almış plaj var.
+116	{1} listesinde Mavi Bayrak almış.
+117	Mavi Bayrak her yıl yeniden verilir; güncel durum için mavibayrak.org.tr adresine bak.
+118	Rehberdeki plajlardan Mavi Bayrak listelerinde yer alanlar. Mavi Bayrak; temiz su, güvenlik ve çevre yönetimi ölçütlerine göre her yıl verilir.
+119	Fotoğraf için en iyi saatler
+120	Sabah altın saati
+121	Akşam altın saati
+122	Mavi saat
+123	Yakındaki seyir noktaları
+124	3 km içinde işaretli seyir noktası bulunamadı.
+125	Saatler bugüne göre, Türkiye saatiyle.
+126	Deniz ve plaj
+127	Doğa yürüyüşü
+128	Cami ziyareti
+129	Kar ve kayak
+130	Balon turu
+131	Belgeler
+132	Kimlik ya da pasaport
+133	Ehliyet (araç kullanacaksan)
+134	Kredi kartı ve biraz nakit TL
+135	Konaklama ve bilet bilgileri
+136	Seyahat sağlık sigortası (yabancıysan)
+137	Giyim
+138	Rahat yürüyüş ayakkabısı
+139	Gece için hafif bir üst
+140	Mont ya da kalın ceket
+141	Kazak
+142	Bere ve eldiven
+143	Şapka
+144	İnce ve açık renkli giysiler
+145	Yağmurluk ve su geçirmez ayakkabı
+146	Termal iç giyim
+147	Kar botu
+148	Sağlık ve bakım
+149	Kişisel ilaçların
+150	Ağrı kesici ve yara bandı
+151	Diş fırçası ve macun
+152	Islak mendil ve el dezenfektanı
+153	Güneş kremi (SPF 30+)
+154	Sinek kovucu
+155	Elektronik
+156	Telefon ve şarj aleti
+157	Taşınabilir şarj cihazı
+158	Çevrimdışı harita (uygulamadan indir)
+159	Mayo
+160	Plaj havlusu
+161	Deniz ayakkabısı
+162	Güneş gözlüğü
+163	Su matarası
+164	Küçük sırt çantası
+165	Kuru yiyecek
+166	Yürüyüş sopası
+167	El feneri
+168	Başörtüsü ya da şal
+169	Diz altına inen giysi
+170	Kolay çıkarılan ayakkabı
+171	Kayak montu ve pantolonu
+172	Kayak gözlüğü
+173	Su geçirmez eldiven
+174	Yüz için güneş kremi
+175	Sabah ayazı için kalın üst
+176	Kapalı ayakkabı
+177	Nereye?
+178	Ne zaman?
+179	Kaç gün?
+180	Neler yapacaksın?
+181	{1}/{2} hazır
+182	{1} günlük iç çamaşırı ve çorap
+183	İşaretleri temizle
+184	Çevriliyor…
+185	Orijinalini göster
+186	Çevir
+187	Şu an çevrilemedi, sonra tekrar dene.
+188	Makine çevirisi · MyMemory
+189	UNESCO Dünya Mirası
+190	Türkiye’nin Dünya Mirası Listesi’ndeki 21 alanı
+191	İstanbul’un Tarihi Alanları
+192	Göreme ve Kapadokya
+193	Divriği Ulu Camii ve Darüşşifası
+194	Hattuşa
+195	Nemrut Dağı
+196	Hierapolis-Pamukkale
+197	Ksanthos-Letoon
+198	Safranbolu
+199	Truva Antik Kenti
+200	Edirne Selimiye Camii
+201	Çatalhöyük
+202	Bursa ve Cumalıkızık
+203	Bergama
+204	Efes
+205	Ani
+206	Afrodisias
+207	Göbeklitepe
+208	Diyarbakır Surları ve Hevsel Bahçeleri
+209	Arslantepe Höyüğü
+210	Gordion
+211	Ahşap direkli Selçuklu camileri
+212	7 bölge
+213	Her coğrafi bölgede en az bir yer
+214	Ege’nin antik kentleri
+215	Ege Bölgesi’ndeki antik kentler ve ören yerleri
+216	İstanbul’un camileri
+217	Rehberdeki İstanbul camileri
+218	Nevşehir’deki vadiler, yeraltı şehirleri ve kasabalar
+219	Saraylar
+220	Rehberdeki bütün saraylar
+221	Kuleler
+222	Rehberdeki bütün kuleler
+223	Kaplıcalar
+224	Rehberdeki bütün kaplıcalar
+225	Kanyonlar
+226	Rehberdeki bütün kanyonlar
+227	Mağaralar
+228	Rehberdeki bütün mağaralar
+229	Adalar
+230	Rehberdeki bütün adalar
+231	Akdeniz kıyısı boyunca antik Likya kentlerinden, köylerden ve çam ormanlarından geçen işaretli uzun yürüyüş yolu. Tek seferde değil, etap etap yürünebilir.
+232	Toros Dağları'nı aşarak Antalya'dan Eğirdir Gölü yakınındaki Yalvaç'a uzanan dağ yolu; kanyonlar, yaylalar ve göl kıyıları.
+233	Muğla'nın Bodrum, Datça ve Bozburun yarımadalarını dolaşan Türkiye'nin en uzun işaretli yürüyüş yolu; koylar ve antik Karia kentleri.
+234	Karadeniz'in yüksek dağlarında yayla köyleri, buzul gölleri ve geçitlerden geçen çok günlük dağ yürüyüşü. Hava çabuk değişir; deneyim ve donanım gerekir.
+235	İzmir'in dağ köylerini, zeytinlikleri ve tarihi yerleşimlerini birbirine bağlayan işaretli yol.
+236	Türkiye'nin en yüksek dağına gidiş-dönüş tırmanış. Rehber eşliğinde ve izinle yapılır; yüksek irtifa deneyimi gerekir.
+237	Toroslar'ın kireçtaşı zirveleri arasında, Yedigöller platosuna uzanan gidiş-dönüş yürüyüşü.
+238	Ünlü gezginin 1671'de hacca giderken izlediği yolun bir bölümü; yürüyerek ya da atla gidilebilen kırsal rota.
+239	Frig Vadisi'nin kaya anıtları, peribacaları ve terk edilmiş köylerinden geçen yol; Yazılıkaya (Midas Anıtı) en ünlü durağı.
+240	Melendiz Çayı boyunca kaya kiliseleri arasında yürünen Kapadokya vadisi; çoğu kişi kısa bir bölümünü yürür.
+241	Şanlıurfa çevresindeki köylerden Harran'ın kubbeli evlerine uzanan, Orta Doğu'daki Abraham Path'in Türkiye bölümü.
+242	Kurtuluş Savaşı'nda cephane ve gönüllülerin İnebolu'dan Ankara'ya taşındığı tarihi güzergâh.
+243	Viyana'dan İstanbul'a uzanan uluslararası yürüyüş yolunun Trakya bölümü.
+244	Uzunluk ve süreler: GoTürkiye / Culture Routes in Turkey
+245	Emin misin? Onaylamak için tekrar dokun
+246	Sonuç yok
+247	İlerlemen bu tarayıcıda saklanır; giriş yaparsan hesabına kaydedilir.
+248	Skor tablosu için internet bağlantısı gerekir.
+249	{1} sn
+250	{1} km
+251	En sevdiğin tür:
+252	Gezilen yer
+253	Aldığın beğeni
+254	Yer ara ve ekle

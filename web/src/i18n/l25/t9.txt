@@ -1,0 +1,468 @@
+@sr
+0	Провера ажурирања
+1	Апликација је ажурна
+2	Преузимање
+3	Можете наставити да користите апликацију; инсталација ће се отворити када се преузимање заврши.
+4	Спремно за инсталацију
+5	На екрану који се отвори додирните „Инсталирај“. Ако телефон затражи дозволу, укључите „Дозволи из овог извора“ и вратите се.
+6	Ажурирање није могло да се преузме
+7	Проверите интернет везу и покушајте поново или га преузмите у прегледачу.
+8	Ажурирај
+9	Отвори инсталацију
+10	Покушај поново
+11	Преузми у прегледачу
+12	У реду
+13	Настави у позадини
+14	Моја рута
+15	На рути више нема стајалишта.
+16	Додај стајалиште
+17	Подели руту
+18	Искључите опције избегавања и покушајте поново.
+19	укључујући {1} на стајалиштима
+20	Стајалишта
+21	Почетак: ваша локација
+22	Почетак: прво стајалиште
+23	остани {1}
+24	Додај време боравка
+25	Уклони стајалиште
+26	Најкраћи редослед
+27	Паузе успут
+28	Места где можете стати без великог скретања.
+29	Претрага…
+30	Ништа није пронађено близу руте.
+31	{1} од руте
+32	Додај
+33	Успут, не пропустите
+34	Знаменитости из водича близу ваше руте.
+35	Сакриј
+36	Прикажи ({1})
+37	Претражите место или покрајину
+38	Ваши омиљени и истакнута места
+39	Можете додати највише {1} стајалишта
+40	Ово стајалиште је већ на рути
+41	{1} додато као стајалиште
+42	Стајалишта су већ у најкраћем редоследу
+43	Одморишта тренутно не могу да се учитају
+44	Возите већ 2 сата. Шта кажете на кратку паузу?
+45	Пауза
+46	Возите већ 2 сата. Кратка пауза ће вам пријати.
+47	Пронађи одмориште
+48	Одморишта испред
+49	Ништа у наредних 45 km.
+50	затворено
+51	државни празник
+52	Радно време
+53	Подаци OpenStreetMap; могу се разликовати празницима и посебним данима. Пре поласка проверите званични извор.
+54	Сада отворено за посетиоце
+55	поново могуће после {1}
+56	Ван времена посете
+57	Време посете
+58	Погодни термини данас
+59	Петком је подневна молитва дужа и посећенија; избегавајте подне.
+60	Обућа се скида на улазу. Жене покривају косу; рамена и колена треба да буду покривени. Не пролазите испред оних који се моле и не користите блиц.
+61	Времена су израчуната и могу одступати неколико минута.
+62	Хитни случај
+63	Стари бројеви као што су 155, 156 и 110 такође се преусмеравају на 112.
+64	Амбасаде и конзулати
+65	Ако сте изгубили пасош, обратите се представништву своје земље.
+66	Близу вас
+67	Дозволите приступ локацији да бисте видели места у близини.
+68	Тренутно није учитано. Проверите интернет везу.
+69	Ништа у близини.
+70	Има хитну помоћ
+71	Позови
+72	Ноћу и празницима списак дежурних апотека налази се на вратима сваке апотеке.
+73	Конвертор валута
+74	Промени смер
+75	Продајни курс Централне банке, {1}
+76	ван мреже, последњи познати курс
+77	Курсеви мењачница и картица могу се разликовати; приказана вредност је приближна.
+78	Курсеви тренутно нису доступни.
+79	Водич кроз цене
+80	Водич кроз цене тренутно није учитан.
+81	Цене су приближне и често се мењају због инфлације. Датум сваке цене је у загради.
+82	Савети
+83	За овај дан још нема прогнозе.
+84	Вероватноћа кише {1}%
+85	Изгледа кишовито; за овај дан планирајте затворена места.
+86	Сутра
+87	по курсу Централне банке
+88	Када идете?
+89	Временска прогноза
+90	Данас отворено 24 сата
+91	затвара се за {1} мин
+92	затвара се у {1}
+93	Сада отворено
+94	Затворено
+95	отвара се данас у {1}
+96	отвара се сутра у {1}
+97	отвара се у {1}
+98	Одмориште
+99	Без путарина
+100	Без аутопутева
+101	Без трајеката
+102	Хитан позив
+103	YİMER · Центар за комуникацију са странцима
+104	Пријава шумског пожара
+105	Болница
+106	Џума-намаз
+107	Подневни намаз
+108	Икиндија-намаз
+109	Акшам-намаз
+110	Сабах
+111	Излазак сунца
+112	Подне
+113	Икиндија
+114	Акшам
+115	Јација
+116	пон
+117	уто
+118	сре
+119	чет
+120	пет
+121	суб
+122	нед
+123	Понедељак
+124	Уторак
+125	Среда
+126	Четвртак
+127	Петак
+128	Субота
+129	Недеља
+130	Хитна помоћ, полиција, ватрогасци, жандармерија и обалска стража: један број за све хитне случајеве. Позив је бесплатан.
+131	Помоћ странцима 24/7: турски, енглески, арапски, руски, немачки и персијски.
+132	Ако видите дим или ватру у шуми.
+133	Износи у лирама по курсу Централне банке
+134	Цене симита, превоза, таксија и музеја
+135	112, најближа болница и апотека
+136	Провери ажурирања
+137	Симит (Истанбул)
+138	Istanbulkart, пуна цена
+139	Такси, старт (Истанбул)
+140	Такси по km (Истанбул)
+141	Такси, минимална кратка вожња (Истанбул)
+142	Müzekart (држављани Турске и ТРСК, 1 година)
+143	Улаз у Ефес (страни посетиоци)
+144	Улаз у Галата кулу (страни посетиоци)
+145	Септембар 2026.
+146	Јул 2026.
+147	Новембар 2026.
+148	Где нема ценовника, прво питајте за цену.
+149	У таксију проверите да ли је таксиметар укључен.
+150	Цењкање је уобичајено на Великом базару и пијацама, али не и у ресторанима.
+151	У туристичким зонама цене могу бити приметно више него у остатку града.
+152	Напојница је по жељи (обично 5–10%); ако рачун укључује услугу, додатна није потребна.
+153	Са вама је подељена рута
+154	Ваша листа путовања је пуна (највише 24 места).
+@hr
+0	Provjera ažuriranja
+1	Aplikacija je ažurna
+2	Preuzimanje
+3	Možete nastaviti koristiti aplikaciju; instalacija će se otvoriti kad preuzimanje završi.
+4	Spremno za instalaciju
+5	Na zaslonu koji se otvori dodirnite „Instaliraj”. Ako telefon zatraži dopuštenje, uključite „Dopusti iz ovog izvora” i vratite se.
+6	Ažuriranje se nije moglo preuzeti
+7	Provjerite internetsku vezu i pokušajte ponovno ili ga preuzmite u pregledniku.
+8	Ažuriraj
+9	Otvori instalaciju
+10	Pokušaj ponovno
+11	Preuzmi u pregledniku
+12	U redu
+13	Nastavi u pozadini
+14	Moja ruta
+15	Na ruti više nema stanica.
+16	Dodaj stanicu
+17	Podijeli rutu
+18	Isključite opcije izbjegavanja i pokušajte ponovno.
+19	uključujući {1} na stanicama
+20	Stanice
+21	Početak: vaša lokacija
+22	Početak: prva stanica
+23	ostani {1}
+24	Dodaj vrijeme boravka
+25	Ukloni stanicu
+26	Najkraći redoslijed
+27	Odmor usput
+28	Mjesta gdje možete stati bez velikog skretanja.
+29	Pretraživanje…
+30	Ništa nije pronađeno blizu rute.
+31	{1} od rute
+32	Dodaj
+33	Usput, ne propustite
+34	Znamenitosti iz vodiča blizu vaše rute.
+35	Sakrij
+36	Prikaži ({1})
+37	Potražite mjesto ili pokrajinu
+38	Vaši favoriti i istaknuta mjesta
+39	Možete dodati najviše {1} stanica
+40	Ova je stanica već na ruti
+41	{1} dodano kao stanica
+42	Stanice su već u najkraćem redoslijedu
+43	Odmorišta se trenutno ne mogu učitati
+44	Vozite već 2 sata. Što kažete na kratku stanku?
+45	Stanka
+46	Vozite već 2 sata. Kratka stanka dobro će vam doći.
+47	Pronađi odmorište
+48	Odmorišta ispred
+49	Ništa u sljedećih 45 km.
+50	zatvoreno
+51	državni praznik
+52	Radno vrijeme
+53	Podaci OpenStreetMap; mogu se razlikovati blagdanima i posebnim danima. Prije odlaska provjerite službeni izvor.
+54	Sada otvoreno za posjetitelje
+55	ponovno moguće nakon {1}
+56	Izvan vremena posjeta
+57	Vrijeme posjeta
+58	Prikladni termini danas
+59	Petkom je podnevna molitva dulja i posjećenija; izbjegavajte podne.
+60	Obuća se skida na ulazu. Žene pokrivaju kosu; ramena i koljena trebaju biti pokriveni. Ne prolazite ispred onih koji mole i ne koristite bljeskalicu.
+61	Vremena su izračunata i mogu odstupati nekoliko minuta.
+62	Hitni slučaj
+63	Stari brojevi poput 155, 156 i 110 također se preusmjeravaju na 112.
+64	Veleposlanstva i konzulati
+65	Ako ste izgubili putovnicu, obratite se predstavništvu svoje zemlje.
+66	Blizu vas
+67	Dopustite pristup lokaciji da biste vidjeli mjesta u blizini.
+68	Trenutno nije učitano. Provjerite internetsku vezu.
+69	Ništa u blizini.
+70	Ima hitni prijem
+71	Nazovi
+72	Noću i blagdanima popis dežurnih ljekarni nalazi se na vratima svake ljekarne.
+73	Pretvornik valuta
+74	Promijeni smjer
+75	Prodajni tečaj Središnje banke, {1}
+76	izvanmrežno, zadnji poznati tečaj
+77	Tečajevi mjenjačnica i kartica mogu se razlikovati; prikazana vrijednost je približna.
+78	Tečajevi trenutno nisu dostupni.
+79	Vodič kroz cijene
+80	Vodič kroz cijene trenutno nije učitan.
+81	Cijene su približne i često se mijenjaju zbog inflacije. Datum svake cijene je u zagradi.
+82	Savjeti
+83	Za ovaj dan još nema prognoze.
+84	Vjerojatnost kiše {1} %
+85	Izgleda kišovito; za ovaj dan planirajte zatvorena mjesta.
+86	Sutra
+87	po tečaju Središnje banke
+88	Kada idete?
+89	Vremenska prognoza
+90	Danas otvoreno 24 sata
+91	zatvara se za {1} min
+92	zatvara se u {1}
+93	Sada otvoreno
+94	Zatvoreno
+95	otvara se danas u {1}
+96	otvara se sutra u {1}
+97	otvara se u {1}
+98	Odmorište
+99	Bez cestarina
+100	Bez autocesta
+101	Bez trajekata
+102	Hitni poziv
+103	YİMER · Centar za komunikaciju sa strancima
+104	Prijava šumskog požara
+105	Bolnica
+106	Džuma-namaz
+107	Podnevni namaz
+108	Ikindija-namaz
+109	Akšam-namaz
+110	Sabah
+111	Izlazak sunca
+112	Podne
+113	Ikindija
+114	Akšam
+115	Jacija
+116	pon
+117	uto
+118	sri
+119	čet
+120	pet
+121	sub
+122	ned
+123	Ponedjeljak
+124	Utorak
+125	Srijeda
+126	Četvrtak
+127	Petak
+128	Subota
+129	Nedjelja
+130	Hitna pomoć, policija, vatrogasci, žandarmerija i obalna straža: jedan broj za sve hitne slučajeve. Poziv je besplatan.
+131	Pomoć strancima 0–24: turski, engleski, arapski, ruski, njemački i perzijski.
+132	Ako vidite dim ili vatru u šumi.
+133	Iznosi u lirama po tečaju Središnje banke
+134	Cijene simita, prijevoza, taksija i muzeja
+135	112, najbliža bolnica i ljekarna
+136	Provjeri ažuriranja
+137	Simit (Istanbul)
+138	Istanbulkart, puna cijena
+139	Taksi, start (Istanbul)
+140	Taksi po km (Istanbul)
+141	Taksi, minimalna kratka vožnja (Istanbul)
+142	Müzekart (državljani Turske i TRSC-a, 1 godina)
+143	Ulaz u Efez (strani posjetitelji)
+144	Ulaz u kulu Galata (strani posjetitelji)
+145	Rujan 2026.
+146	Srpanj 2026.
+147	Studeni 2026.
+148	Gdje nema cjenika, najprije pitajte za cijenu.
+149	U taksiju provjerite je li taksimetar uključen.
+150	Cjenkanje je uobičajeno na Velikom bazaru i tržnicama, ali ne i u restoranima.
+151	U turističkim zonama cijene mogu biti primjetno više nego u ostatku grada.
+152	Napojnica je po želji (obično 5–10 %); ako račun uključuje uslugu, dodatna nije potrebna.
+153	S vama je podijeljena ruta
+154	Vaš popis putovanja je pun (najviše 24 mjesta).
+@cs
+0	Hledají se aktualizace
+1	Aplikace je aktuální
+2	Stahování
+3	Aplikaci můžete dál používat; po dokončení stahování se otevře instalace.
+4	Připraveno k instalaci
+5	Na otevřené obrazovce klepněte na „Instalovat“. Pokud telefon požádá o oprávnění, zapněte „Povolit z tohoto zdroje“ a vraťte se.
+6	Aktualizaci se nepodařilo stáhnout
+7	Zkontrolujte připojení k internetu a zkuste to znovu, nebo ji stáhněte v prohlížeči.
+8	Aktualizovat
+9	Otevřít instalaci
+10	Zkusit znovu
+11	Stáhnout v prohlížeči
+12	OK
+13	Pokračovat na pozadí
+14	Moje trasa
+15	Na trase už nejsou žádné zastávky.
+16	Přidat zastávku
+17	Sdílet trasu
+18	Vypněte možnosti vyhýbání a zkuste to znovu.
+19	včetně {1} na zastávkách
+20	Zastávky
+21	Start: vaše poloha
+22	Start: první zastávka
+23	zůstat {1}
+24	Přidat dobu pobytu
+25	Odebrat zastávku
+26	Nejkratší pořadí
+27	Zastávky po cestě
+28	Místa, kde se zastavíte bez velké zajížďky.
+29	Hledání…
+30	U trasy nebylo nic nalezeno.
+31	{1} od trasy
+32	Přidat
+33	Po cestě, nenechte si ujít
+34	Zajímavosti z průvodce blízko vaší trasy.
+35	Skrýt
+36	Zobrazit ({1})
+37	Hledat místo nebo provincii
+38	Vaše oblíbená a nejlepší místa
+39	Můžete přidat nejvýše {1} zastávek
+40	Tato zastávka už na trase je
+41	{1} přidáno jako zastávka
+42	Zastávky už jsou v nejkratším pořadí
+43	Odpočívadla se teď nepodařilo načíst
+44	Řídíte už 2 hodiny. Co takhle krátká přestávka?
+45	Přestávka
+46	Řídíte už 2 hodiny. Krátká přestávka vám udělá dobře.
+47	Najít odpočívadlo
+48	Odpočívadla před vámi
+49	V dalších 45 km nic nenalezeno.
+50	zavřeno
+51	státní svátek
+52	Otevírací doba
+53	Data OpenStreetMap; o svátcích a zvláštních dnech se mohou lišit. Před cestou si ověřte oficiální zdroj.
+54	Nyní otevřeno pro návštěvníky
+55	znovu možné po {1}
+56	Mimo návštěvní dobu
+57	Návštěvní doba
+58	Vhodné časy dnes
+59	V pátek je polední modlitba delší a plnější; vyhněte se poledni.
+60	Boty se zouvají u vchodu. Ženy si zakrývají vlasy; ramena a kolena mají být zakrytá. Nechoďte před modlícími se a nepoužívejte blesk.
+61	Časy jsou vypočtené a mohou se lišit o několik minut.
+62	Nouzová situace
+63	Staré linky 155, 156 a 110 jsou také přesměrovány na 112.
+64	Velvyslanectví a konzuláty
+65	Pokud jste ztratili pas, obraťte se na zastupitelský úřad své země.
+66	Ve vašem okolí
+67	Povolte přístup k poloze, abyste viděli místa v okolí.
+68	Teď se nepodařilo načíst. Zkontrolujte připojení k internetu.
+69	V okolí nic nenalezeno.
+70	Má urgentní příjem
+71	Volat
+72	V noci a o svátcích je seznam pohotovostních lékáren vyvěšen na dveřích každé lékárny.
+73	Převodník měn
+74	Prohodit směr
+75	Prodejní kurz centrální banky, {1}
+76	offline, poslední známý kurz
+77	Kurzy směnáren a karet se mohou lišit; hodnota je přibližná.
+78	Kurzy se teď nepodařilo načíst.
+79	Průvodce cenami
+80	Průvodce cenami se teď nepodařilo načíst.
+81	Ceny jsou přibližné a kvůli inflaci se často mění. Datum každé ceny je v závorce.
+82	Tipy
+83	Pro tento den zatím není předpověď.
+84	Pravděpodobnost deště {1} %
+85	Vypadá to na déšť; naplánujte na tento den místa pod střechou.
+86	Zítra
+87	podle kurzu centrální banky
+88	Kdy jedete?
+89	Předpověď
+90	Dnes otevřeno 24 hodin
+91	zavírá za {1} min
+92	zavírá v {1}
+93	Nyní otevřeno
+94	Zavřeno
+95	otevírá dnes v {1}
+96	otevírá zítra v {1}
+97	otevírá v {1}
+98	Odpočívadlo
+99	Bez placených silnic
+100	Bez dálnic
+101	Bez trajektů
+102	Tísňové volání
+103	YİMER · Komunikační centrum pro cizince
+104	Hlášení lesního požáru
+105	Nemocnice
+106	Páteční modlitba
+107	Polední modlitba
+108	Odpolední modlitba
+109	Večerní modlitba
+110	Fadžr
+111	Východ slunce
+112	Zuhr
+113	Asr
+114	Maghrib
+115	Iša
+116	po
+117	út
+118	st
+119	čt
+120	pá
+121	so
+122	ne
+123	Pondělí
+124	Úterý
+125	Středa
+126	Čtvrtek
+127	Pátek
+128	Sobota
+129	Neděle
+130	Záchranka, policie, hasiči, četnictvo a pobřežní stráž: jedno číslo pro všechny nouzové situace. Volání je zdarma.
+131	Nonstop pomoc pro cizince: turecky, anglicky, arabsky, rusky, německy a persky.
+132	Když v lese uvidíte kouř nebo oheň.
+133	Částky v lirách podle kurzu centrální banky
+134	Ceny simitu, dopravy, taxi a muzeí
+135	112, nejbližší nemocnice a lékárna
+136	Zkontrolovat aktualizace
+137	Simit (Istanbul)
+138	Istanbulkart, plné jízdné
+139	Taxi, nástupní sazba (Istanbul)
+140	Taxi za km (Istanbul)
+141	Taxi, minimální krátká jízda (Istanbul)
+142	Müzekart (občané Turecka a TRSK, 1 rok)
+143	Vstup do Efesu (zahraniční návštěvníci)
+144	Vstup do Galatské věže (zahraniční návštěvníci)
+145	Září 2026
+146	Červenec 2026
+147	Listopad 2026
+148	Kde není ceník, zeptejte se nejdřív na cenu.
+149	V taxíku se ujistěte, že běží taxametr.
+150	Smlouvání je běžné na Velkém bazaru a trzích, ale ne v restauracích.
+151	V turistických oblastech mohou být ceny znatelně vyšší než ve zbytku města.
+152	Spropitné je dobrovolné (obvykle 5–10 %); pokud účet zahrnuje servis, další není třeba.
+153	Někdo s vámi sdílel trasu
+154	Váš seznam cesty je plný (nejvýše 24 míst).

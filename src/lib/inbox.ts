@@ -3,7 +3,7 @@ import { AppState } from 'react-native';
 import { supabase } from './supabase';
 
 /* Uygulama içi bildirimler (yanıt, beğeni, onaylanan öneri). Okunmamış sayısı bütün ekranlarda paylaşılır. */
-export type Note = { id: string; kind: 'reply' | 'like' | 'photo_like' | 'approved' | 'answer'; actor: string | null; actorName: string; review_id: string | null; place_id: string | null; read: boolean; created_at: string };
+export type Note = { id: string; kind: 'reply' | 'like' | 'photo_like' | 'approved' | 'answer' | 'follow' | 'trip_join'; actor: string | null; actorName: string; review_id: string | null; place_id: string | null; read: boolean; created_at: string };
 let unread = 0;
 const subs = new Set<(n: number) => void>();
 const emit = (n: number) => { unread = n; subs.forEach((f) => f(n)); };

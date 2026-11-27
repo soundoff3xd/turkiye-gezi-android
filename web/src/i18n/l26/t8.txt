@@ -1,0 +1,768 @@
+@kk
+0	Сіз бұл тізімге қосылып қойғансыз
+1	{1} тізіміне қосылдыңыз
+2	Ортақ тізімдер
+3	Достармен саяхат тізімі
+4	Жаяу серуен соқпақтары
+5	Ликия жолы, Качкар таулары және т.б.
+6	Көк жалаулы жағажайлар
+7	Таза әрі қауіпсіз жағажайлар
+8	Жүк тізімі
+9	Аймақ пен маусымға қарай заттар тізімі
+10	Ойын-сауық пен естеліктер
+11	Жинақтар
+12	ЮНЕСКО мұрасы, 7 аймақ және т.б.
+13	Бұл қай жер?
+14	Фотодан жерді тап, күн сұрағын шеш
+15	Жылдық саяхат қорытындысы
+16	Биылғы саяхаттар бір картада
+17	{1} профилін ашу
+18	Шақыру сілтемесі жарамсыз немесе тізім жойылған.
+19	Бұл тізім толы (ең көбі 20 адам).
+20	Тізім толы (ең көбі 50 орын).
+21	Ең көбі 20 ортақ тізім жасай аласыз.
+22	{1} сізге жазылды
+23	{1} ортақ саяхат тізіміңізге қосылды
+24	Ортақ тізімге қосу
+25	Менің саяхатшы профилім
+26	Менің жылым
+27	Жазылымдар
+28	Жазылу үшін кіріңіз
+29	Саяхатшы табылмады.
+30	Жазылушылар
+31	Жазылымдар
+32	{1} бастап саяхатшы
+33	Жазылғансыз
+34	Жазылу
+35	Саяхатшының қай жерлерге барғаны жасырын; тек сандар көрінеді.
+36	Соңғы пікірлер
+37	Әзірге пікір жоқ.
+38	Менің жылдық саяхатым
+39	Сіз әлі ешкімге жазылмағансыз.
+40	Пікірдегі саяхатшы атын басып, профилін ашып, жазыла аласыз.
+41	Жазылған адамдарыңыз әлі ештеңе бөліспеді.
+42	Ортақ тізім үшін кіріңіз
+43	Достарыңызбен не отбасыңызбен бірге саяхат тізімін жасаңыз. Сілтемені бөлісіңіз; қосылған әркім орын қосып-өшіре алады.
+44	Тізім атауы (мыс. Каппадокиядағы демалыс)
+45	Әзірге ортақ тізіміңіз жоқ.
+46	Өзіңіз жасадыңыз
+47	Қосылған тізіміңіз
+48	Ең көбі {1} орын және {2} адам.
+49	Ортақ тізім
+50	Бұл тізімді көре алмайсыз.
+51	Тізімге қосылу үшін сізге жіберілген сілтемені ашыңыз.
+52	Бұл орын тізімде бар
+53	Тізімге қосылды
+54	Тізім жойылды
+55	Тізімнен шықтыңыз
+56	Ортақ саяхат тізіміме қосыл
+57	Шақыру
+58	Әзірге орын қосылмаған.
+59	Қосқан: {1}
+60	Орын қосу
+61	Қатысушылар
+62	Сіз (тізім иесі)
+63	Тізім иесі мен шақырылғандар
+64	Әлі ешкім қосылмады. Шақыру сілтемесін бөлісіңіз.
+65	Жасалды: {1}
+66	Тізімді жою
+67	Тізімнен шығу
+68	{1} тізіміне қосылды
+69	Жаңа ортақ тізім
+70	Қорытындыны көру үшін кіріңіз
+71	Менің {1} жылғы саяхатым
+72	{1} уәлаят
+73	Ең көп аралаған уәлаят: {1}
+74	Сүйікті түрі: {1}
+75	{1} күнделік жазбасы
+76	Ең көп ұнатылған фотоңыз
+77	Биыл әлі ешбір жерді «Бардым» деп белгілемедіңіз. Саяхаттаған сайын қорытынды толады.
+78	Қорытындыны бөлісу
+79	Тізімдерді толтырып, белгішелер алыңыз. Әр «Бардым» алға жылжытады.
+80	Аяқталғандар
+81	Табылмады.
+82	Құттықтаймыз, бұл жинақты толтырдыңыз!
+83	2023 жылғы Түркиядағы ЮНЕСКО Дүниежүзілік мұрасының 21 нысанына негізделген.
+84	Сұрақ {1}/{2}
+85	Ұпай {1}
+86	Фотоға қарап, Түркияның қай жері екенін табыңыз.
+87	Күн сұрағы
+88	Барлығына бірдей 5 фото; күніне бір рет ойналады.
+89	Бүгінгі ұпайыңыз: {1}/5
+90	Күн сұрағын ойнау
+91	Көшбасшылар кестесіне кіру үшін жүйеге кіріңіз.
+92	Еркін ойын
+93	Кездейсоқ 10 фото. Үздік нәтижеңіз: {1}/10
+94	Ойнау
+95	Бүгінгі көшбасшылар кестесі
+96	Бүгін әлі ешкім ойнаған жоқ.
+97	Фотолар: Wikimedia Commons
+98	Көктем
+99	Жаз
+100	Күз
+101	Қыс
+102	Оңай
+103	Орташа
+104	Қиын
+105	Түркияның белгіленген ұзақ жаяу жолдары мен аңғарлары.
+106	Басы
+107	Соңы
+108	Ең қолайлы маусым
+109	Соқпақ OpenStreetMap-тен жүктелуде…
+110	Соқпақ қазір жүктелмеді; картада басы мен соңы көрсетілген.
+111	Соқпақ: © OpenStreetMap қатысушылары. Шықпас бұрын белгілер мен ауа райын тексеріңіз.
+112	Culture Routes in Turkey сайтында ашу
+113	Ұзақ соқпақтарда суды жеткілікті алыңыз, бағытыңызды біреуге айтыңыз және жазғы аптапта түсте жүрмеңіз.
+114	Көк жалау
+115	Бұл аймақта {1} жылғы Көк жалау тізіміндегі жағажай бар.
+116	{1} жылғы Көк жалау тізімінде.
+117	Көк жалау жыл сайын қайта беріледі; қазіргі жағдайын mavibayrak.org.tr сайтынан қараңыз.
+118	Нұсқаулықтағы Көк жалау тізімдеріне енген жағажайлар. Ол таза су, қауіпсіздік және экологиялық басқару үшін жыл сайын беріледі.
+119	Фотоға ең жақсы уақыт
+120	Таңғы алтын сағат
+121	Кешкі алтын сағат
+122	Көк сағат
+123	Жақын маңдағы көру алаңдары
+124	3 км ішінде белгіленген көру алаңы жоқ.
+125	Уақыт бүгінге, Түркия уақытымен.
+126	Теңіз бен жағажай
+127	Табиғатта серуен
+128	Мешітке бару
+129	Қар мен шаңғы
+130	Әуе шарымен ұшу
+131	Құжаттар
+132	Жеке куәлік немесе төлқұжат
+133	Жүргізуші куәлігі (көлік жүргізсеңіз)
+134	Карта және аздап қолма-қол лира
+135	Тұру және билет мәліметтері
+136	Саяхат медициналық сақтандыруы (шетелдік болсаңыз)
+137	Киім
+138	Ыңғайлы аяқ киім
+139	Кешке арналған жеңіл киім
+140	Пальто немесе жылы күртеше
+141	Жемпір
+142	Бөрік пен қолғап
+143	Күннен қалпақ
+144	Жұқа, ашық түсті киім
+145	Жаңбырлық пен су өткізбейтін аяқ киім
+146	Термоішкиім
+147	Қысқы етік
+148	Денсаулық пен күтім
+149	Жеке дәрілеріңіз
+150	Ауырсынуды басатын дәрі мен лейкопластырь
+151	Тіс щеткасы мен пастасы
+152	Ылғал майлық пен қол антисептигі
+153	Күннен қорғайтын крем (SPF 30+)
+154	Жәндіктерге қарсы құрал
+155	Электроника
+156	Телефон мен зарядтағыш
+157	Пауэрбанк
+158	Офлайн карта (қосымшадан жүктеңіз)
+159	Шомылу киімі
+160	Жағажай сүлгісі
+161	Суға арналған аяқ киім
+162	Күннен көзілдірік
+163	Су құтысы
+164	Шағын рюкзак
+165	Жеңіл тағам
+166	Трекинг таяқтары
+167	Қол шам
+168	Орамал немесе шәлі
+169	Тізеден төмен киім
+170	Оңай шешілетін аяқ киім
+171	Шаңғы күртешесі мен шалбары
+172	Шаңғы көзілдірігі
+173	Су өткізбейтін қолғап
+174	Бетке күннен қорғайтын крем
+175	Таңғы салқынға жылы киім
+176	Жабық аяқ киім
+177	Қайда?
+178	Қашан?
+179	Неше күн?
+180	Не істейсіз?
+181	{1}/{2} дайын
+182	{1} күнге іш киім мен шұлық
+183	Белгілерді тазалау
+184	Аударылуда…
+185	Түпнұсқаны көрсету
+186	Аудару
+187	Қазір аудару мүмкін болмады, кейінірек көріңіз.
+188	Машиналық аударма · MyMemory
+189	ЮНЕСКО Дүниежүзілік мұрасы
+190	Түркияның Дүниежүзілік мұра тізіміндегі 21 нысаны
+191	Ыстамбұлдың тарихи аудандары
+192	Гёреме және Каппадокия
+193	Дивриги Ұлы мешіті мен ауруханасы
+194	Хаттуса
+195	Немрут тауы
+196	Иераполис-Памуккале
+197	Ксанф-Летоон
+198	Сафранболу
+199	Троя археологиялық орны
+200	Эдирне Селимие мешіті
+201	Чатал-Хююк
+202	Бурса және Джумалыкызык
+203	Пергам
+204	Эфес
+205	Ани
+206	Афродисиас
+207	Гёбекли-Тепе
+208	Диярбакыр қамалы мен Хевсел бақтары
+209	Арслантепе төбесі
+210	Гордион
+211	Ағаш бағаналы селжұқ мешіттері
+212	7 аймақ
+213	Әр географиялық аймақта кемінде бір орын
+214	Эгей жағалауының антикалық қалалары
+215	Эгей аймағындағы антикалық қалалар мен қирандылар
+216	Ыстамбұл мешіттері
+217	Нұсқаулықтағы Ыстамбұл мешіттері
+218	Невшехирдің аңғарлары, жерасты қалалары мен кенттері
+219	Сарайлар
+220	Нұсқаулықтағы барлық сарайлар
+221	Мұнаралар
+222	Нұсқаулықтағы барлық мұнаралар
+223	Ыстық бұлақтар
+224	Нұсқаулықтағы барлық ыстық бұлақтар
+225	Шатқалдар
+226	Нұсқаулықтағы барлық шатқалдар
+227	Үңгірлер
+228	Нұсқаулықтағы барлық үңгірлер
+229	Аралдар
+230	Нұсқаулықтағы барлық аралдар
+231	Жерорта теңізі жағалауымен антикалық ликий қалалары, ауылдар мен қарағайлы ормандар арқылы өтетін белгіленген ұзақ соқпақ. Бірден емес, кезеңдермен жүріледі.
+232	Тавр тауларын асып, Анталиядан Эгирдир көлі маңындағы Ялвачқа апаратын тау жолы; шатқалдар, жайлаулар мен көл жағалаулары.
+233	Мұғла уәлаятындағы Бодрум, Датча және Бозбурун түбектерін айналатын Түркияның ең ұзын белгіленген соқпағы; шығанақтар мен антикалық кариялық қалалар.
+234	Қара теңіз өңірінің биік тауларында жайлау ауылдары, мұздық көлдері мен асулар арқылы көпкүндік жорық. Ауа райы тез өзгереді; тәжірибе мен жабдық керек.
+235	Измирдің тау ауылдарын, зәйтүн бақтарын және тарихи елді мекендерін жалғайтын белгіленген жол.
+236	Түркияның ең биік тауына шығып-түсу. Гидпен және рұқсатпен; биіктікте тәжірибе керек.
+237	Тавр әктас шыңдары арасымен Едигёллер үстіртіне барып-қайту серуені.
+238	Атақты саяхатшының 1671 жылы қажылыққа барған жолының бір бөлігі; жаяу немесе атпен жүретін ауылдық бағыт.
+239	Фригия аңғарының жартас ескерткіштері, «пері мұржалары» және қаңырап қалған ауылдары арқылы өтетін жол; ең танымал аялдамасы — Язылыкая (Мидас ескерткіші).
+240	Мелендиз өзені бойымен жартас шіркеулері арасында жүрілетін Каппадокия аңғары; көбі қысқа бөлігін жүреді.
+241	Таяу Шығыстағы Ыбырайым жолының Түркия бөлігі — Шанлыурфа маңындағы ауылдардан Харранның күмбезді үйлеріне дейін.
+242	Тәуелсіздік соғысында Инеболудан Анкараға оқ-дәрі мен еріктілер тасылған тарихи жол.
+243	Венадан Ыстамбұлға дейінгі халықаралық соқпақтың Фракия бөлігі.
+244	Ұзындық пен ұзақтық: GoTürkiye / Culture Routes in Turkey
+245	Сенімдісіз бе? Растау үшін қайта басыңыз
+246	Нәтиже жоқ
+247	Прогресіңіз осы браузерде сақталады; аккаунтқа сақтау үшін кіріңіз.
+248	Көшбасшылар кестесіне интернет қажет.
+249	{1} с
+250	{1} км
+251	Сүйікті түрі:
+252	Барған жерлер
+253	Алған лайктар
+254	Орын іздеп қосу
+@uz
+0	Bu roʻyxatga allaqachon qoʻshilgansiz
+1	{1} roʻyxatiga qoʻshildingiz
+2	Umumiy roʻyxatlar
+3	Doʻstlar bilan sayohat roʻyxati
+4	Piyoda yoʻllar
+5	Likiya yoʻli, Kachkar togʻlari va boshqalar
+6	Moviy bayroqli plyajlar
+7	Toza va xavfsiz plyajlar
+8	Yuk roʻyxati
+9	Hudud va faslga koʻra narsalar roʻyxati
+10	Koʻngilochar va xotiralar
+11	Kolleksiyalar
+12	UNESCO merosi, 7 hudud va boshqalar
+13	Bu qayer?
+14	Rasmdan joyni toping, kun savolini yeching
+15	Yillik sayohat xulosasi
+16	Bu yilgi sayohatlar bitta kartada
+17	{1} profilini ochish
+18	Taklif havolasi yaroqsiz yoki roʻyxat oʻchirilgan.
+19	Bu roʻyxat toʻla (koʻpi bilan 20 kishi).
+20	Roʻyxat toʻla (koʻpi bilan 50 joy).
+21	Koʻpi bilan 20 ta umumiy roʻyxat yaratish mumkin.
+22	{1} sizni kuzata boshladi
+23	{1} umumiy sayohat roʻyxatingizga qoʻshildi
+24	Umumiy roʻyxatga qoʻshish
+25	Mening sayyoh profilim
+26	Mening yilim
+27	Kuzatayotganlarim
+28	Kuzatish uchun kiring
+29	Sayyoh topilmadi.
+30	Kuzatuvchilar
+31	Kuzatmoqda
+32	{1} dan beri sayyoh
+33	Kuzatyapsiz
+34	Kuzatish
+35	Sayyoh qaysi joylarga borgani yashirin; faqat raqamlar koʻrinadi.
+36	Soʻnggi sharhlar
+37	Hali sharh yoʻq.
+38	Mening yillik sayohatim
+39	Hali hech kimni kuzatmayapsiz.
+40	Sharhdagi sayyoh ismiga bosib, profilini ochishingiz va kuzatishingiz mumkin.
+41	Siz kuzatayotganlar hali hech narsa ulashmagan.
+42	Umumiy roʻyxat uchun kiring
+43	Doʻstlar yoki oila bilan birga sayohat roʻyxatini tuzing. Havolani ulashing; qoʻshilgan har kim joy qoʻshib-oʻchira oladi.
+44	Roʻyxat nomi (masalan, Kappadokiyada dam olish kunlari)
+45	Hali umumiy roʻyxatingiz yoʻq.
+46	Siz yaratgansiz
+47	Qoʻshilgan roʻyxatingiz
+48	Koʻpi bilan {1} joy va {2} kishi.
+49	Umumiy roʻyxat
+50	Bu roʻyxatni koʻra olmaysiz.
+51	Roʻyxatga qoʻshilish uchun sizga yuborilgan havolani oching.
+52	Bu joy roʻyxatda bor
+53	Roʻyxatga qoʻshildi
+54	Roʻyxat oʻchirildi
+55	Roʻyxatdan chiqdingiz
+56	Umumiy sayohat roʻyxatimga qoʻshil
+57	Taklif qilish
+58	Hali joy qoʻshilmagan.
+59	{1} qoʻshdi
+60	Joy qoʻshish
+61	Ishtirokchilar
+62	Siz (roʻyxat egasi)
+63	Roʻyxat egasi va taklif qilinganlar
+64	Hali hech kim qoʻshilmadi. Taklif havolasini ulashing.
+65	Yaratilgan: {1}
+66	Roʻyxatni oʻchirish
+67	Roʻyxatdan chiqish
+68	{1} roʻyxatiga qoʻshildi
+69	Yangi umumiy roʻyxat
+70	Xulosani koʻrish uchun kiring
+71	Mening {1} yilgi sayohatim
+72	{1} viloyat
+73	Eng koʻp aylangan viloyatingiz: {1}
+74	Sevimli tur: {1}
+75	{1} ta kundalik yozuvi
+76	Eng koʻp yoqtirilgan rasmingiz
+77	Bu yil hali hech bir joyni «Borganman» deb belgilamadingiz. Sayohat qilganingiz sari xulosa toʻladi.
+78	Xulosani ulashish
+79	Roʻyxatlarni toʻldiring, nishonlar oling. Har bir «Borganman» oldinga suradi.
+80	Yakunlanganlar
+81	Topilmadi.
+82	Tabriklaymiz, bu kolleksiyani toʻldirdingiz!
+83	2023-yil holatiga Turkiyadagi 21 ta UNESCO Jahon merosi obyektiga asoslangan.
+84	Savol {1}/{2}
+85	Ball {1}
+86	Rasmga qarang va Turkiyaning qayeri ekanini toping.
+87	Kun savoli
+88	Hamma uchun bir xil 5 ta rasm; kuniga bir marta oʻynaladi.
+89	Bugungi ballingiz: {1}/5
+90	Kun savolini oʻynash
+91	Reyting jadvaliga tushish uchun kiring.
+92	Erkin oʻyin
+93	Tasodifiy 10 ta rasm. Eng yaxshi natijangiz: {1}/10
+94	Oʻynash
+95	Bugungi reyting jadvali
+96	Bugun hali hech kim oʻynamadi.
+97	Rasmlar: Wikimedia Commons
+98	Bahor
+99	Yoz
+100	Kuz
+101	Qish
+102	Oson
+103	Oʻrtacha
+104	Qiyin
+105	Turkiyaning belgilangan uzoq piyoda yoʻllari va vodiylari.
+106	Boshlanish
+107	Tugash
+108	Eng yaxshi fasl
+109	Yoʻl OpenStreetMap’dan yuklanmoqda…
+110	Yoʻl hozir yuklanmadi; xaritada boshlanish va tugash nuqtalari koʻrsatilgan.
+111	Yoʻl: © OpenStreetMap ishtirokchilari. Yoʻlga chiqishdan oldin belgilar va ob-havoni tekshiring.
+112	Culture Routes in Turkey saytida ochish
+113	Uzoq yoʻllarda yetarlicha suv oling, yoʻnalishingizni kimgadir ayting va yozgi jaziramada tushda yurmang.
+114	Moviy bayroq
+115	Bu hududda {1} yilgi Moviy bayroq roʻyxatidagi plyaj bor.
+116	{1} yilgi Moviy bayroq roʻyxatida.
+117	Moviy bayroq har yili qaytadan beriladi; joriy holatni mavibayrak.org.tr saytida koʻring.
+118	Qoʻllanmadagi Moviy bayroq roʻyxatlariga kirgan plyajlar. U har yili toza suv, xavfsizlik va ekologik boshqaruv uchun beriladi.
+119	Suratga olish uchun eng yaxshi vaqt
+120	Ertalabki oltin soat
+121	Kechki oltin soat
+122	Moviy soat
+123	Yaqin atrofdagi tomosha nuqtalari
+124	3 km ichida belgilangan tomosha nuqtasi topilmadi.
+125	Vaqtlar bugun uchun, Turkiya vaqti bilan.
+126	Dengiz va plyaj
+127	Tabiat sayri
+128	Masjidni ziyorat qilish
+129	Qor va chang‘i
+130	Havo shari sayohati
+131	Hujjatlar
+132	ID karta yoki pasport
+133	Haydovchilik guvohnomasi (mashina haydasangiz)
+134	Kredit karta va ozgina naqd lira
+135	Turar joy va chipta maʼlumotlari
+136	Sayohat tibbiy sugʻurtasi (chet ellik boʻlsangiz)
+137	Kiyim
+138	Qulay yurish poyabzali
+139	Kechqurun uchun yengil ustki kiyim
+140	Palto yoki qalin kurtka
+141	Sviter
+142	Telpak va qoʻlqop
+143	Shlyapa
+144	Yupqa, ochiq rangli kiyimlar
+145	Yomgʻirpoʻsh va suv oʻtkazmaydigan poyabzal
+146	Termal ichki kiyim
+147	Qor etigi
+148	Salomatlik va parvarish
+149	Shaxsiy dorilaringiz
+150	Ogʻriq qoldiruvchi va leykoplastir
+151	Tish choʻtkasi va pastasi
+152	Nam salfetka va qoʻl antiseptigi
+153	Quyoshdan himoya kremi (SPF 30+)
+154	Hasharotlarga qarshi vosita
+155	Elektronika
+156	Telefon va quvvatlagich
+157	Pauerbank
+158	Oflayn xarita (ilovadan yuklab oling)
+159	Suzish kiyimi
+160	Plyaj sochigʻi
+161	Suv poyabzali
+162	Quyosh koʻzoynagi
+163	Suv idishi
+164	Kichik ryukzak
+165	Yengil ovqat
+166	Trekking tayoqlari
+167	Qoʻl chiroq
+168	Roʻmol yoki shol
+169	Tizzadan pastgacha kiyim
+170	Oson yechiladigan poyabzal
+171	Chang‘i kurtkasi va shimi
+172	Chang‘i koʻzoynagi
+173	Suv oʻtkazmaydigan qoʻlqop
+174	Yuz uchun quyosh kremi
+175	Ertalabki salqin uchun issiq kiyim
+176	Yopiq poyabzal
+177	Qayerga?
+178	Qachon?
+179	Necha kun?
+180	Nima qilasiz?
+181	{1}/{2} tayyor
+182	{1} kunlik ichki kiyim va paypoq
+183	Belgilarni tozalash
+184	Tarjima qilinmoqda…
+185	Aslini koʻrsatish
+186	Tarjima qilish
+187	Hozir tarjima qilib boʻlmadi, keyinroq urinib koʻring.
+188	Mashina tarjimasi · MyMemory
+189	UNESCO Jahon merosi
+190	Turkiyaning Jahon merosi roʻyxatidagi 21 obyekti
+191	Istanbulning tarixiy hududlari
+192	Göreme va Kappadokiya
+193	Divrigi Katta masjidi va shifoxonasi
+194	Xattusa
+195	Nemrut togʻi
+196	Iyerapolis-Pamukkale
+197	Ksanf-Letoon
+198	Safranbolu
+199	Troya arxeologik yodgorligi
+200	Edirne Salimiya masjidi
+201	Chatalhöyük
+202	Bursa va Cumalıkızık
+203	Pergam
+204	Efes
+205	Ani
+206	Afrodisias
+207	Göbeklitepe
+208	Diyarbakir qalʼasi va Hevsel bogʻlari
+209	Arslantepe tepaligi
+210	Gordion
+211	Yogʻoch ustunli saljuqiy masjidlar
+212	7 hudud
+213	Har bir geografik hududda kamida bitta joy
+214	Egey sohilining antik shaharlari
+215	Egey hududidagi antik shaharlar va xarobalar
+216	Istanbul masjidlari
+217	Qoʻllanmadagi Istanbul masjidlari
+218	Nevşehirning vodiylari, yer osti shaharlari va qishloqlari
+219	Saroylar
+220	Qoʻllanmadagi barcha saroylar
+221	Minoralar
+222	Qoʻllanmadagi barcha minoralar
+223	Issiq buloqlar
+224	Qoʻllanmadagi barcha issiq buloqlar
+225	Kanyonlar
+226	Qoʻllanmadagi barcha kanyonlar
+227	Gʻorlar
+228	Qoʻllanmadagi barcha gʻorlar
+229	Orollar
+230	Qoʻllanmadagi barcha orollar
+231	Oʻrta yer dengizi sohili boʻylab antik Likiya shaharlari, qishloqlar va qaragʻayzorlar orqali oʻtadigan belgilangan uzoq piyoda yoʻli. Bir yoʻla emas, bosqichma-bosqich yuriladi.
+232	Toros togʻlaridan oshib, Antaliyadan Egirdir koʻli yaqinidagi Yalvachgacha boradigan togʻ yoʻli; kanyonlar, yaylovlar va koʻl qirgʻoqlari.
+233	Mugʻla viloyatidagi Bodrum, Datcha va Bozburun yarimorollarini aylanib chiqadigan Turkiyaning eng uzun belgilangan yoʻli; koʻrfazchalar va antik Kariya shaharlari.
+234	Qora dengiz mintaqasining baland togʻlarida yaylov qishloqlari, muzlik koʻllari va dovonlardan oʻtadigan koʻp kunlik yurish. Ob-havo tez oʻzgaradi; tajriba va jihozlar kerak.
+235	Izmirning togʻ qishloqlari, zaytunzorlari va tarixiy aholi punktlarini bogʻlaydigan belgilangan yoʻl.
+236	Turkiyaning eng baland togʻiga chiqib-tushish. Gid va ruxsatnoma bilan; baland togʻ tajribasi kerak.
+237	Toros ohaktosh choʻqqilari orasidan Yedigöller platosigacha borib-qaytish yurishi.
+238	Mashhur sayyoh 1671-yilda hajga borganda bosib oʻtgan yoʻlning bir qismi; piyoda yoki otda yuriladigan qishloq yoʻli.
+239	Frigiya vodiysining qoya yodgorliklari, «pari moʻrilari» va tashlab ketilgan qishloqlari orqali oʻtadigan yoʻl; eng mashhur bekati Yazılıkaya (Midas yodgorligi).
+240	Melendiz soyi boʻylab qoya cherkovlari orasida yuriladigan Kappadokiya vodiysi; koʻpchilik qisqa qismini yuradi.
+241	Yaqin Sharqdagi Ibrohim yoʻlining Turkiya qismi — Shanliurfa atrofidagi qishloqlardan Harranning gumbazli uylarigacha.
+242	Mustaqillik urushida oʻq-dori va koʻngillilar Inebolu’dan Anqaraga olib borilgan tarixiy yoʻl.
+243	Venadan Istanbulgacha boʻlgan xalqaro piyoda yoʻlining Frakiya qismi.
+244	Uzunlik va davomiylik: GoTürkiye / Culture Routes in Turkey
+245	Ishonchingiz komilmi? Tasdiqlash uchun yana bosing
+246	Natija yoʻq
+247	Yutuqlaringiz shu brauzerda saqlanadi; hisobingizga saqlash uchun kiring.
+248	Reyting jadvali uchun internet kerak.
+249	{1} s
+250	{1} km
+251	Sevimli tur:
+252	Borilgan joylar
+253	Olingan layklar
+254	Joy qidirish va qoʻshish
+@sq
+0	Je bashkuar tashmë në këtë listë
+1	U bashkove në listën {1}
+2	Lista të përbashkëta
+3	Listë udhëtimi me miqtë
+4	Shtigje ecjeje
+5	Rruga Likiane, malet Kaçkar dhe më shumë
+6	Plazhe me Flamur Blu
+7	Plazhe të pastra dhe të sigurta
+8	Lista e bagazhit
+9	Çfarë të marrësh sipas rajonit dhe stinës
+10	Argëtim dhe kujtime
+11	Koleksione
+12	Trashëgimi UNESCO, 7 rajone dhe më shumë
+13	Ku është kjo?
+14	Gjej vendin nga fotoja, zgjidh pyetjen e ditës
+15	Përmbledhja e vitit të udhëtimeve
+16	Udhëtimet e këtij viti në një kartë
+17	Hap profilin e {1}
+18	Lidhja e ftesës është e pavlefshme ose lista është fshirë.
+19	Kjo listë është plot (maks. 20 veta).
+20	Lista është plot (maks. 50 vende).
+21	Mund të krijosh deri në 20 lista të përbashkëta.
+22	{1} filloi të të ndjekë
+23	{1} u bashkua në listën tënde të përbashkët
+24	Shto në listë të përbashkët
+25	Profili im i udhëtarit
+26	Viti im
+27	Të ndjekurit
+28	Hyr për të ndjekur
+29	Udhëtari nuk u gjet.
+30	Ndjekës
+31	Ndjek
+32	Udhëtar që nga {1}
+33	Po e ndjek
+34	Ndiq
+35	Vendet që ka vizituar ky udhëtar janë private; shihen vetëm numrat.
+36	Vlerësimet e fundit
+37	Ende pa vlerësime.
+38	Viti im i udhëtimeve
+39	Ende nuk ndjek askënd.
+40	Prek emrin e një udhëtari në një vlerësim për të hapur profilin dhe për ta ndjekur.
+41	Ata që ndjek ende nuk kanë ndarë asgjë.
+42	Hyr për listat e përbashkëta
+43	Bëj një listë udhëtimi me miqtë ose familjen. Ndaj lidhjen; kushdo që bashkohet mund të shtojë dhe heqë vende.
+44	Emri i listës (p.sh. Fundjavë në Kapadoki)
+45	Ende nuk ke lista të përbashkëta.
+46	E krijove ti
+47	Listë ku je bashkuar
+48	Deri në {1} vende dhe {2} veta.
+49	Listë e përbashkët
+50	Nuk mund ta shohësh këtë listë.
+51	Hap lidhjen që të është dërguar për t'u bashkuar.
+52	Ky vend është tashmë në listë
+53	U shtua në listë
+54	Lista u fshi
+55	Dole nga lista
+56	Bashkohu në listën time të përbashkët të udhëtimit
+57	Fto
+58	Ende nuk janë shtuar vende.
+59	E shtoi {1}
+60	Shto vend
+61	Pjesëmarrës
+62	Ti (pronari i listës)
+63	Pronari dhe të ftuarit
+64	Ende nuk është bashkuar askush. Ndaj lidhjen e ftesës.
+65	Krijuar: {1}
+66	Fshi listën
+67	Dil nga lista
+68	U shtua në listën {1}
+69	Listë e re e përbashkët
+70	Hyr për të parë përmbledhjen
+71	Udhëtimet e mia {1}
+72	{1} provinca
+73	Provinca më e vizituar: {1}
+74	Lloji i preferuar: {1}
+75	{1} shënime ditari
+76	Fotoja jote më e pëlqyer
+77	Këtë vit ende nuk ke shënuar asnjë vend si "Kam qenë". Përmbledhja mbushet ndërsa udhëton.
+78	Ndaj përmbledhjen
+79	Plotëso listat dhe fito distinktivë. Përparimi rritet me çdo "Kam qenë".
+80	Të përfunduara
+81	Nuk u gjet.
+82	Urime, e plotësove këtë koleksion!
+83	Bazuar në 21 vendet e Trashëgimisë Botërore UNESCO në Turqi (2023).
+84	Pyetja {1}/{2}
+85	Pikë {1}
+86	Shiko foton dhe gjej ku është në Turqi.
+87	Pyetja e ditës
+88	Të njëjtat 5 foto për të gjithë; luhet një herë në ditë.
+89	Pikët e tua sot: {1}/5
+90	Luaj pyetjen e ditës
+91	Hyr për të dalë në renditje.
+92	Lojë e lirë
+93	10 foto të rastësishme. Rezultati yt më i mirë: {1}/10
+94	Luaj
+95	Renditja e sotme
+96	Sot ende s'ka luajtur askush.
+97	Foto: Wikimedia Commons
+98	Pranverë
+99	Verë
+100	Vjeshtë
+101	Dimër
+102	E lehtë
+103	Mesatare
+104	E vështirë
+105	Shtigjet e gjata të shënuara dhe luginat e Turqisë.
+106	Fillimi
+107	Fundi
+108	Stina më e mirë
+109	Po ngarkohet shtegu nga OpenStreetMap…
+110	Shtegu nuk u ngarkua tani; harta tregon fillimin dhe fundin.
+111	Shtegu: © kontribuesit e OpenStreetMap. Kontrollo shenjat dhe motin para nisjes.
+112	Hap në Culture Routes in Turkey
+113	Në shtigje të gjata merr ujë të mjaftueshëm, tregoji dikujt rrugën dhe mos ec në mesditë në vapën e verës.
+114	Flamuri Blu
+115	Një plazh në këtë zonë është në listën Flamuri Blu {1}.
+116	Në listën Flamuri Blu {1}.
+117	Flamuri Blu jepet çdo vit nga e para; shiko statusin aktual në mavibayrak.org.tr.
+118	Plazhet e udhëzuesit që janë në listat e Flamurit Blu. Jepet çdo vit për ujë të pastër, siguri dhe menaxhim mjedisor.
+119	Oraret më të mira për foto
+120	Ora e artë e mëngjesit
+121	Ora e artë e mbrëmjes
+122	Ora blu
+123	Pikat panoramike afër
+124	Asnjë pikë panoramike e shënuar brenda 3 km.
+125	Oraret janë për sot, me orën e Turqisë.
+126	Det dhe plazh
+127	Shëtitje në natyrë
+128	Vizitë në xhami
+129	Borë dhe ski
+130	Fluturim me balonë
+131	Dokumente
+132	Letërnjoftim ose pasaportë
+133	Patentë shoferi (nëse do të ngasësh)
+134	Kartë krediti dhe pak para në dorë në TL
+135	Të dhënat e akomodimit dhe biletave
+136	Sigurim shëndetësor udhëtimi (nëse je i huaj)
+137	Veshje
+138	Këpucë të rehatshme ecjeje
+139	Shtresë e lehtë për mbrëmjen
+140	Pallto ose xhaketë e trashë
+141	Pulovër
+142	Kapuç dhe doreza
+143	Kapelë dielli
+144	Rroba të holla me ngjyrë të çelët
+145	Mushama dhe këpucë kundër ujit
+146	Të brendshme termike
+147	Çizme bore
+148	Shëndet dhe kujdes
+149	Ilaçet e tua
+150	Qetësues dhimbjesh dhe leukoplast
+151	Furçë dhe pastë dhëmbësh
+152	Peceta të lagura dhe dezinfektues duarsh
+153	Krem dielli (SPF 30+)
+154	Kundër insekteve
+155	Elektronikë
+156	Telefon dhe karikues
+157	Powerbank
+158	Hartë offline (shkarkoje në aplikacion)
+159	Rroba banje
+160	Peshqir plazhi
+161	Këpucë uji
+162	Syze dielli
+163	Shishe uji
+164	Çantë e vogël shpine
+165	Ushqime të lehta
+166	Shkopinj ecjeje
+167	Elektrik dore
+168	Shami ose shall
+169	Rroba poshtë gjurit
+170	Këpucë që hiqen lehtë
+171	Xhaketë dhe pantallona ski
+172	Syze ski
+173	Doreza kundër ujit
+174	Krem dielli për fytyrën
+175	Shtresë e ngrohtë për të ftohtin e mëngjesit
+176	Këpucë të mbyllura
+177	Ku?
+178	Kur?
+179	Sa ditë?
+180	Çfarë do të bësh?
+181	{1}/{2} gati
+182	Të brendshme dhe çorape për {1} ditë
+183	Pastro shenjat
+184	Po përkthehet…
+185	Shfaq origjinalin
+186	Përkthe
+187	Nuk u përkthye tani, provo më vonë.
+188	Përkthim automatik · MyMemory
+189	Trashëgimia Botërore UNESCO
+190	21 vendet e Turqisë në Listën e Trashëgimisë Botërore
+191	Zonat historike të Stambollit
+192	Göreme dhe Kapadokia
+193	Xhamia e Madhe dhe Spitali i Divriğit
+194	Hattusa
+195	Mali Nemrut
+196	Hierapolis-Pamukkale
+197	Ksantos-Letoon
+198	Safranbolu
+199	Vendi arkeologjik i Trojës
+200	Xhamia Selimije, Edrene
+201	Çatalhöyük
+202	Bursa dhe Cumalıkızık
+203	Pergamon
+204	Efes
+205	Ani
+206	Afrodisias
+207	Göbekli Tepe
+208	Kalaja e Diyarbakırit dhe kopshtet e Hevselit
+209	Arslantepe
+210	Gordion
+211	Xhami selxhuke me kolona druri
+212	7 rajone
+213	Të paktën një vend në çdo rajon
+214	Qytetet antike të Egjeut
+215	Qytete antike dhe rrënoja në rajonin e Egjeut
+216	Xhamitë e Stambollit
+217	Xhamitë e Stambollit në udhëzues
+218	Luginat, qytetet nëntokësore dhe fshatrat e Nevşehirit
+219	Pallate
+220	Të gjitha pallatet në udhëzues
+221	Kulla
+222	Të gjitha kullat në udhëzues
+223	Burime termale
+224	Të gjitha burimet termale në udhëzues
+225	Kanione
+226	Të gjithë kanionet në udhëzues
+227	Shpella
+228	Të gjitha shpellat në udhëzues
+229	Ishuj
+230	Të gjithë ishujt në udhëzues
+231	Shteg i gjatë i shënuar përgjatë bregut mesdhetar, përmes qyteteve antike likiane, fshatrave dhe pyjeve me pisha. Bëhet me etapa, jo njëherësh.
+232	Rrugë malore përmes maleve Taurus nga Antalia në Yalvaç pranë liqenit Eğirdir; kanione, kullota malore dhe brigje liqenesh.
+233	Shtegu më i gjatë i shënuar i Turqisë rreth gadishujve Bodrum, Datça dhe Bozburun në Muğla; gjiret dhe qytetet antike kariane.
+234	Ecje malore disaditore në malet e larta të Detit të Zi, nëpër fshatra malorë, liqene akullnajore dhe qafa. Moti ndryshon shpejt; duhen përvojë dhe pajisje.
+235	Rrugë e shënuar që lidh fshatrat malorë, ullishtat dhe vendbanimet historike të İzmirit.
+236	Ngjitje vajtje-ardhje në malin më të lartë të Turqisë. Me udhërrëfyes dhe leje; kërkon përvojë në lartësi.
+237	Ecje vajtje-ardhje mes majave gëlqerore të Taurusit deri në rrafshnaltën Yedigöller.
+238	Pjesë e rrugës që ndoqi udhëtari i famshëm në haxhillëkun e tij në 1671; rrugë rurale në këmbë ose me kalë.
+239	Rrugë pranë monumenteve shkëmbore, oxhaqeve të zanave dhe fshatrave të braktisur të luginës frigjiane; ndalesa më e famshme është Yazılıkaya (Monumenti i Midasit).
+240	Luginë në Kapadoki përgjatë përroit Melendiz mes kishave shkëmbore; shumica ecin një pjesë të shkurtër.
+241	Pjesa turke e Rrugës së Abrahamit në Lindjen e Mesme, nga fshatrat rreth Şanlıurfës te shtëpitë me kube të Harranit.
+242	Rruga historike nëpër të cilën në Luftën e Pavarësisë u çuan municione dhe vullnetarë nga İnebolu në Ankara.
+243	Pjesa e Thrakës e shtegut ndërkombëtar nga Vjena në Stamboll.
+244	Gjatësitë dhe kohëzgjatjet: GoTürkiye / Culture Routes in Turkey
+245	Je i sigurt? Prek sërish për të konfirmuar
+246	Asnjë rezultat
+247	Përparimi ruhet në këtë shfletues; hyr për ta ruajtur në llogari.
+248	Renditja kërkon lidhje interneti.
+249	{1} s
+250	{1} km
+251	Lloji i preferuar:
+252	Vende të vizituara
+253	Pëlqime të marra
+254	Kërko dhe shto një vend

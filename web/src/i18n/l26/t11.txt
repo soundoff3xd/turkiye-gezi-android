@@ -1,0 +1,768 @@
+@da
+0	Du er allerede med i denne liste
+1	Du kom med i listen {1}
+2	Delte lister
+3	Rejseliste med venner
+4	Vandreruter
+5	Den lykiske vej, Kaçkar-bjergene og mere
+6	Blå Flag-strande
+7	Rene og sikre strande
+8	Pakkeliste
+9	Hvad du skal pakke efter region og årstid
+10	Sjov og minder
+11	Samlinger
+12	UNESCO-arv, 7 regioner og mere
+13	Hvor er det her?
+14	Gæt stedet på billedet, løs dagens spørgsmål
+15	Dit rejseår
+16	Årets rejser på ét kort
+17	Åbn profilen for {1}
+18	Invitationslinket er ugyldigt, eller listen er slettet.
+19	Listen er fuld (højst 20 personer).
+20	Listen er fuld (højst 50 steder).
+21	Du kan oprette op til 20 delte lister.
+22	{1} begyndte at følge dig
+23	{1} kom med i din delte rejseliste
+24	Føj til delt liste
+25	Min rejseprofil
+26	Mit år
+27	Følger
+28	Log ind for at følge
+29	Rejsende blev ikke fundet.
+30	Følgere
+31	Følger
+32	Rejsende siden {1}
+33	Du følger
+34	Følg
+35	Hvilke steder den rejsende har besøgt er privat; kun tallene vises.
+36	Seneste anmeldelser
+37	Ingen anmeldelser endnu.
+38	Mit rejseår
+39	Du følger ikke nogen endnu.
+40	Tryk på en rejsendes navn i en anmeldelse for at åbne profilen og følge.
+41	Dem, du følger, har ikke delt noget endnu.
+42	Log ind for delte lister
+43	Lav en rejseliste sammen med venner eller familie. Del linket; alle, der kommer med, kan tilføje og fjerne steder.
+44	Listens navn (f.eks. Weekend i Kappadokien)
+45	Du har ingen delte lister endnu.
+46	Oprettet af dig
+47	Liste, du er med i
+48	Op til {1} steder og {2} personer.
+49	Delt liste
+50	Du kan ikke se denne liste.
+51	Åbn det link, du har fået, for at komme med i listen.
+52	Stedet er allerede på listen
+53	Føjet til listen
+54	Listen er slettet
+55	Du forlod listen
+56	Kom med i min delte rejseliste
+57	Inviter
+58	Ingen steder tilføjet endnu.
+59	Tilføjet af {1}
+60	Tilføj sted
+61	Deltagere
+62	Dig (ejer af listen)
+63	Ejer og inviterede
+64	Ingen er kommet med endnu. Del invitationslinket.
+65	Oprettet: {1}
+66	Slet listen
+67	Forlad listen
+68	Føjet til listen {1}
+69	Ny delt liste
+70	Log ind for at se dit overblik
+71	Mit rejseår {1}
+72	{1} provinser
+73	Mest besøgte provins: {1}
+74	Yndlingstype: {1}
+75	{1} dagbogsnoter
+76	Dit mest likede billede
+77	Du har ikke markeret noget sted som »Har været der« i år. Overblikket fyldes, mens du rejser.
+78	Del mit overblik
+79	Gør lister færdige og optjen badges. Du kommer videre med hvert »Har været der«.
+80	Fuldført
+81	Ikke fundet.
+82	Tillykke, du har fuldført denne samling!
+83	Baseret på Tyrkiets 21 steder på UNESCO's verdensarvsliste (2023).
+84	Spørgsmål {1}/{2}
+85	Point {1}
+86	Se på billedet og gæt, hvor i Tyrkiet det er.
+87	Dagens spørgsmål
+88	De samme 5 billeder for alle; spilles én gang om dagen.
+89	Din score i dag: {1}/5
+90	Spil dagens spørgsmål
+91	Log ind for at komme på ranglisten.
+92	Frit spil
+93	10 tilfældige billeder. Din rekord: {1}/10
+94	Spil
+95	Dagens rangliste
+96	Ingen har spillet i dag endnu.
+97	Billeder: Wikimedia Commons
+98	Forår
+99	Sommer
+100	Efterår
+101	Vinter
+102	Let
+103	Middel
+104	Svær
+105	Tyrkiets afmærkede lange vandreruter og dale.
+106	Start
+107	Mål
+108	Bedste sæson
+109	Ruten hentes fra OpenStreetMap…
+110	Ruten kunne ikke hentes nu; kortet viser start og mål.
+111	Rute: © OpenStreetMap-bidragydere. Tjek afmærkning og vejr, før du går.
+112	Åbn på Culture Routes in Turkey
+113	Tag nok vand med på lange ruter, fortæl nogen din rute, og gå ikke midt på dagen i sommervarmen.
+114	Blå Flag
+115	En strand i området er på Blå Flag-listen for {1}.
+116	På Blå Flag-listen for {1}.
+117	Blå Flag uddeles på ny hvert år; se den aktuelle status på mavibayrak.org.tr.
+118	Strande i guiden, der er på Blå Flag-lister. Det uddeles hvert år for rent vand, sikkerhed og miljøstyring.
+119	Bedste tidspunkter for billeder
+120	Morgenens gyldne time
+121	Aftenens gyldne time
+122	Den blå time
+123	Udsigtspunkter i nærheden
+124	Intet afmærket udsigtspunkt inden for 3 km.
+125	Tiderne gælder i dag, tyrkisk tid.
+126	Hav og strand
+127	Naturtur
+128	Moskébesøg
+129	Sne og ski
+130	Ballontur
+131	Dokumenter
+132	ID-kort eller pas
+133	Kørekort (hvis du skal køre)
+134	Kreditkort og lidt kontanter i TL
+135	Oplysninger om overnatning og billetter
+136	Rejseforsikring (hvis du er udlænding)
+137	Tøj
+138	Behagelige gåsko
+139	Et let lag til aftenen
+140	Frakke eller tyk jakke
+141	Sweater
+142	Hue og handsker
+143	Solhat
+144	Tyndt, lyst tøj
+145	Regnjakke og vandtætte sko
+146	Termoundertøj
+147	Snestøvler
+148	Helbred og pleje
+149	Dine egne medicin
+150	Smertestillende og plaster
+151	Tandbørste og tandpasta
+152	Vådservietter og håndsprit
+153	Solcreme (SPF 30+)
+154	Insektmiddel
+155	Elektronik
+156	Telefon og oplader
+157	Powerbank
+158	Offlinekort (download i appen)
+159	Badetøj
+160	Strandhåndklæde
+161	Badesko
+162	Solbriller
+163	Vandflaske
+164	Lille rygsæk
+165	Snacks
+166	Vandrestave
+167	Lommelygte
+168	Tørklæde eller sjal
+169	Tøj til under knæet
+170	Sko, der er nemme at tage af
+171	Skijakke og skibukser
+172	Skibriller
+173	Vandtætte handsker
+174	Solcreme til ansigtet
+175	Varmt lag mod morgenkulden
+176	Lukkede sko
+177	Hvorhen?
+178	Hvornår?
+179	Hvor mange dage?
+180	Hvad skal du lave?
+181	{1}/{2} pakket
+182	Undertøj og strømper til {1} dage
+183	Ryd flueben
+184	Oversætter…
+185	Vis original
+186	Oversæt
+187	Kunne ikke oversætte nu, prøv igen senere.
+188	Maskinoversættelse · MyMemory
+189	UNESCO's verdensarv
+190	Tyrkiets 21 steder på verdensarvslisten
+191	Istanbuls historiske områder
+192	Göreme og Kappadokien
+193	Den store moské og hospitalet i Divriği
+194	Hattusa
+195	Bjerget Nemrut
+196	Hierapolis-Pamukkale
+197	Xanthos-Letoon
+198	Safranbolu
+199	Trojas arkæologiske område
+200	Selimiye-moskéen, Edirne
+201	Çatalhöyük
+202	Bursa og Cumalıkızık
+203	Pergamon
+204	Efesos
+205	Ani
+206	Afrodisias
+207	Göbekli Tepe
+208	Diyarbakırs fæstning og Hevsel-haverne
+209	Arslantepe
+210	Gordion
+211	Seldsjukiske moskéer med træsøjler
+212	7 regioner
+213	Mindst ét sted i hver region
+214	Det Ægæiske Havs antikke byer
+215	Antikke byer og ruiner i Ægæerhavsregionen
+216	Istanbuls moskéer
+217	Istanbul-moskéer i guiden
+218	Dale, underjordiske byer og byer i Nevşehir
+219	Paladser
+220	Alle paladser i guiden
+221	Tårne
+222	Alle tårne i guiden
+223	Varme kilder
+224	Alle varme kilder i guiden
+225	Kløfter
+226	Alle kløfter i guiden
+227	Huler
+228	Alle huler i guiden
+229	Øer
+230	Alle øer i guiden
+231	Afmærket langdistancerute langs Middelhavskysten gennem antikke lykiske byer, landsbyer og fyrreskove. Gås i etaper, ikke på én gang.
+232	Bjergrute over Taurusbjergene fra Antalya til Yalvaç ved Eğirdir-søen; kløfter, højsletter og søbredder.
+233	Tyrkiets længste afmærkede rute rundt om halvøerne Bodrum, Datça og Bozburun i Muğla; bugter og antikke kariske byer.
+234	Flerdages bjergtur i Sortehavets høje bjerge forbi højlandslandsbyer, gletsjersøer og pas. Vejret skifter hurtigt; erfaring og udstyr kræves.
+235	Afmærket rute, der forbinder İzmirs bjerglandsbyer, olivenlunde og historiske bebyggelser.
+236	Bestigning op og ned ad Tyrkiets højeste bjerg. Med guide og tilladelse; kræver erfaring med højde.
+237	Tur-retur-vandring mellem Taurus' kalkstenstinder til Yedigöller-plateauet.
+238	En del af vejen, den berømte rejsende fulgte på sin pilgrimsrejse i 1671; landlig rute til fods eller til hest.
+239	Rute forbi klippemonumenter, eventyrskorstene og forladte landsbyer i Den frygiske dal; det mest kendte stop er Yazılıkaya (Midas-monumentet).
+240	Dal i Kappadokien langs Melendiz-åen mellem klippekirker; de fleste går et kort stykke.
+241	Den tyrkiske del af Abrahams vej i Mellemøsten, fra landsbyer omkring Şanlıurfa til kuppelhusene i Harran.
+242	Historisk rute, hvor ammunition og frivillige blev fragtet fra İnebolu til Ankara under uafhængighedskrigen.
+243	Thrakien-delen af den internationale rute fra Wien til Istanbul.
+244	Længder og varighed: GoTürkiye / Culture Routes in Turkey
+245	Sikker? Tryk igen for at bekræfte
+246	Ingen resultater
+247	Dine fremskridt gemmes i denne browser; log ind for at gemme dem på kontoen.
+248	Ranglisten kræver internetforbindelse.
+249	{1} s
+250	{1} km
+251	Yndlingstype:
+252	Besøgte steder
+253	Modtagne likes
+254	Søg og tilføj et sted
+@fi
+0	Olet jo liittynyt tähän listaan
+1	Liityit listaan {1}
+2	Yhteiset listat
+3	Matkalista ystävien kanssa
+4	Vaellusreitit
+5	Lyykian tie, Kaçkar-vuoret ja muuta
+6	Sinilippurannat
+7	Puhtaat ja turvalliset rannat
+8	Pakkauslista
+9	Mitä pakata alueen ja vuodenajan mukaan
+10	Hauskaa ja muistoja
+11	Kokoelmat
+12	UNESCO-perintö, 7 aluetta ja muuta
+13	Missä tämä on?
+14	Arvaa paikka kuvasta, ratkaise päivän kysymys
+15	Matkavuotesi
+16	Tämän vuoden matkat yhdellä kortilla
+17	Avaa käyttäjän {1} profiili
+18	Kutsulinkki ei kelpaa tai lista on poistettu.
+19	Tämä lista on täynnä (enintään 20 henkeä).
+20	Lista on täynnä (enintään 50 paikkaa).
+21	Voit luoda enintään 20 yhteistä listaa.
+22	{1} alkoi seurata sinua
+23	{1} liittyi yhteiseen matkalistaasi
+24	Lisää yhteiseen listaan
+25	Matkailijaprofiilini
+26	Minun vuoteni
+27	Seurattavat
+28	Kirjaudu seurataksesi
+29	Matkailijaa ei löytynyt.
+30	Seuraajat
+31	Seuraa
+32	Matkailija vuodesta {1}
+33	Seuraat
+34	Seuraa
+35	Matkailijan käymät paikat ovat yksityisiä; vain luvut näkyvät.
+36	Uusimmat arviot
+37	Ei vielä arvioita.
+38	Matkavuoteni
+39	Et seuraa vielä ketään.
+40	Napauta matkailijan nimeä arviossa avataksesi profiilin ja seurataksesi.
+41	Seuraamasi eivät ole vielä jakaneet mitään.
+42	Kirjaudu käyttääksesi yhteisiä listoja
+43	Tee matkalista yhdessä ystävien tai perheen kanssa. Jaa linkki; kaikki liittyneet voivat lisätä ja poistaa paikkoja.
+44	Listan nimi (esim. Kappadokian viikonloppu)
+45	Sinulla ei ole vielä yhteisiä listoja.
+46	Sinun luomasi
+47	Lista, johon liityit
+48	Enintään {1} paikkaa ja {2} henkeä.
+49	Yhteinen lista
+50	Et voi nähdä tätä listaa.
+51	Avaa saamasi linkki liittyäksesi listaan.
+52	Paikka on jo listalla
+53	Lisätty listaan
+54	Lista poistettu
+55	Poistuit listalta
+56	Liity yhteiseen matkalistaani
+57	Kutsu
+58	Paikkoja ei ole vielä lisätty.
+59	Lisännyt {1}
+60	Lisää paikka
+61	Osallistujat
+62	Sinä (listan omistaja)
+63	Omistaja ja kutsutut
+64	Kukaan ei ole vielä liittynyt. Jaa kutsulinkki.
+65	Luotu: {1}
+66	Poista lista
+67	Poistu listalta
+68	Lisätty listaan {1}
+69	Uusi yhteinen lista
+70	Kirjaudu nähdäksesi yhteenvedon
+71	Matkavuoteni {1}
+72	{1} maakuntaa
+73	Eniten kierretty maakunta: {1}
+74	Lempityyppi: {1}
+75	{1} päiväkirjamerkintää
+76	Pidetyin kuvasi
+77	Et ole vielä tänä vuonna merkinnyt yhtään paikkaa ”Olen käynyt”. Yhteenveto täyttyy matkustaessasi.
+78	Jaa yhteenveto
+79	Täydennä listoja ja ansaitse merkkejä. Edistyt jokaisella ”Olen käynyt” -merkinnällä.
+80	Valmiit
+81	Ei löytynyt.
+82	Onneksi olkoon, täydensit tämän kokoelman!
+83	Perustuu Turkin 21 UNESCOn maailmanperintökohteeseen (2023).
+84	Kysymys {1}/{2}
+85	Pisteet {1}
+86	Katso kuvaa ja arvaa, missä päin Turkkia se on.
+87	Päivän kysymys
+88	Samat 5 kuvaa kaikille; pelataan kerran päivässä.
+89	Pisteesi tänään: {1}/5
+90	Pelaa päivän kysymys
+91	Kirjaudu päästäksesi tulostaululle.
+92	Vapaa peli
+93	10 satunnaista kuvaa. Ennätyksesi: {1}/10
+94	Pelaa
+95	Päivän tulostaulu
+96	Kukaan ei ole vielä pelannut tänään.
+97	Kuvat: Wikimedia Commons
+98	Kevät
+99	Kesä
+100	Syksy
+101	Talvi
+102	Helppo
+103	Keskitaso
+104	Vaativa
+105	Turkin merkityt pitkät vaellusreitit ja laaksot.
+106	Lähtö
+107	Maali
+108	Paras vuodenaika
+109	Reittiä ladataan OpenStreetMapista…
+110	Reittiä ei voitu ladata nyt; kartta näyttää lähdön ja maalin.
+111	Reitti: © OpenStreetMapin tekijät. Tarkista merkinnät ja sää ennen lähtöä.
+112	Avaa Culture Routes in Turkey -sivustolla
+113	Ota pitkille reiteille tarpeeksi vettä, kerro reittisi jollekulle äläkä kävele keskipäivällä kesähelteellä.
+114	Sinilippu
+115	Alueella on ranta vuoden {1} sinilippulistalla.
+116	Vuoden {1} sinilippulistalla.
+117	Sinilippu myönnetään joka vuosi uudelleen; tarkista nykytila osoitteesta mavibayrak.org.tr.
+118	Oppaan rannat, jotka ovat sinilippulistoilla. Lippu myönnetään vuosittain puhtaasta vedestä, turvallisuudesta ja ympäristönhoidosta.
+119	Parhaat ajat kuvaamiseen
+120	Aamun kultainen tunti
+121	Illan kultainen tunti
+122	Sininen hetki
+123	Lähellä olevat näköalapaikat
+124	3 km:n säteellä ei ole merkittyä näköalapaikkaa.
+125	Ajat ovat tälle päivälle, Turkin aikaa.
+126	Meri ja ranta
+127	Luontoretki
+128	Moskeijavierailu
+129	Lumi ja hiihto
+130	Kuumailmapallolento
+131	Asiakirjat
+132	Henkilökortti tai passi
+133	Ajokortti (jos ajat)
+134	Luottokortti ja vähän käteistä liiroina
+135	Majoitus- ja lipputiedot
+136	Matkavakuutus (jos olet ulkomaalainen)
+137	Vaatteet
+138	Mukavat kävelykengät
+139	Kevyt kerros iltaan
+140	Takki tai paksu takki
+141	Villapaita
+142	Pipo ja käsineet
+143	Aurinkohattu
+144	Ohuet, vaaleat vaatteet
+145	Sadetakki ja vedenpitävät kengät
+146	Lämpökerrasto
+147	Talvikengät
+148	Terveys ja hygienia
+149	Omat lääkkeesi
+150	Kipulääke ja laastarit
+151	Hammasharja ja hammastahna
+152	Kosteuspyyhkeet ja käsidesi
+153	Aurinkovoide (SPF 30+)
+154	Hyttyskarkote
+155	Elektroniikka
+156	Puhelin ja laturi
+157	Varavirtalähde
+158	Offline-kartta (lataa sovelluksessa)
+159	Uimapuku
+160	Rantapyyhe
+161	Uimakengät
+162	Aurinkolasit
+163	Vesipullo
+164	Pieni reppu
+165	Välipaloja
+166	Vaellussauvat
+167	Taskulamppu
+168	Huivi tai saali
+169	Polvien alle ulottuvat vaatteet
+170	Helposti riisuttavat kengät
+171	Laskettelutakki ja -housut
+172	Laskettelulasit
+173	Vedenpitävät käsineet
+174	Kasvojen aurinkovoide
+175	Lämmin kerros aamun koleuteen
+176	Umpikengät
+177	Minne?
+178	Milloin?
+179	Montako päivää?
+180	Mitä aiot tehdä?
+181	{1}/{2} pakattu
+182	Alusvaatteet ja sukat {1} päiväksi
+183	Tyhjennä merkinnät
+184	Käännetään…
+185	Näytä alkuperäinen
+186	Käännä
+187	Kääntäminen ei onnistunut nyt, yritä myöhemmin.
+188	Konekäännös · MyMemory
+189	UNESCOn maailmanperintö
+190	Turkin 21 kohdetta maailmanperintöluettelossa
+191	Istanbulin historialliset alueet
+192	Göreme ja Kappadokia
+193	Divriğin suuri moskeija ja sairaala
+194	Hattusa
+195	Nemrutvuori
+196	Hierapolis-Pamukkale
+197	Xanthos-Letoon
+198	Safranbolu
+199	Troijan arkeologinen alue
+200	Selimiyen moskeija, Edirne
+201	Çatalhöyük
+202	Bursa ja Cumalıkızık
+203	Pergamon
+204	Efesos
+205	Ani
+206	Afrodisias
+207	Göbekli Tepe
+208	Diyarbakırin linnoitus ja Hevselin puutarhat
+209	Arslantepe
+210	Gordion
+211	Seldžukkien puupylväsmoskeijat
+212	7 aluetta
+213	Vähintään yksi paikka jokaisella alueella
+214	Egeanmeren antiikin kaupungit
+215	Antiikin kaupungit ja rauniot Egean alueella
+216	Istanbulin moskeijat
+217	Oppaan Istanbulin moskeijat
+218	Nevşehirin laaksot, maanalaiset kaupungit ja kylät
+219	Palatsit
+220	Kaikki oppaan palatsit
+221	Tornit
+222	Kaikki oppaan tornit
+223	Kuumat lähteet
+224	Kaikki oppaan kuumat lähteet
+225	Kanjonit
+226	Kaikki oppaan kanjonit
+227	Luolat
+228	Kaikki oppaan luolat
+229	Saaret
+230	Kaikki oppaan saaret
+231	Merkitty pitkä vaellusreitti Välimeren rannikkoa pitkin antiikin lyykialaisten kaupunkien, kylien ja mäntymetsien halki. Kuljetaan osuuksina, ei kerralla.
+232	Vuoristoreitti Taurusvuorten yli Antalyasta Yalvaçiin Eğirdirjärven lähelle; kanjoneita, ylänköniittyjä ja järvenrantoja.
+233	Turkin pisin merkitty reitti Muğlan Bodrumin, Datçan ja Bozburunin niemimaiden ympäri; lahdelmia ja antiikin kaarialaisia kaupunkeja.
+234	Monipäiväinen vuorivaellus Mustanmeren korkeilla vuorilla ylänkökylien, jäätikköjärvien ja solien kautta. Sää vaihtuu nopeasti; kokemusta ja varusteita tarvitaan.
+235	Merkitty reitti, joka yhdistää İzmirin vuoristokylät, oliivitarhat ja historialliset asutukset.
+236	Nousu Turkin korkeimmalle vuorelle ja takaisin. Oppaan kanssa ja luvalla; vaatii korkean paikan kokemusta.
+237	Meno-paluuvaellus Tauruksen kalkkikivihuippujen välissä Yedigöllerin ylängölle.
+238	Osa reitistä, jota kuuluisa matkailija kulki pyhiinvaellusmatkallaan 1671; maaseutureitti jalan tai ratsain.
+239	Reitti Fryygian laakson kallio­muistomerkkien, keijujen savupiippujen ja autioituneiden kylien ohi; tunnetuin pysähdys on Yazılıkaya (Midaksen muistomerkki).
+240	Kappadokian laakso Melendiz-puron varrella kalliokirkkojen lomassa; useimmat kävelevät lyhyen osuuden.
+241	Lähi-idän Abrahamin polun Turkin osuus Şanlıurfan ympäristön kylistä Harranin kupolitaloihin.
+242	Historiallinen reitti, jota pitkin itsenäisyyssodassa kuljetettiin ammuksia ja vapaaehtoisia İnebolusta Ankaraan.
+243	Wienistä Istanbuliin kulkevan kansainvälisen reitin Traakian osuus.
+244	Pituudet ja kestot: GoTürkiye / Culture Routes in Turkey
+245	Oletko varma? Vahvista napauttamalla uudelleen
+246	Ei tuloksia
+247	Edistymisesi tallentuu tähän selaimeen; kirjaudu tallentaaksesi sen tilillesi.
+248	Tulostaulu vaatii internetyhteyden.
+249	{1} s
+250	{1} km
+251	Lempityyppi:
+252	Käydyt paikat
+253	Saadut tykkäykset
+254	Hae ja lisää paikka
+@he
+0	כבר הצטרפת לרשימה הזו
+1	הצטרפת לרשימה {1}
+2	רשימות משותפות
+3	רשימת טיול עם חברים
+4	מסלולי הליכה
+5	דרך ליקיה, הרי קצ'קר ועוד
+6	חופי הדגל הכחול
+7	חופים נקיים ובטוחים
+8	רשימת ציוד
+9	מה לארוז לפי אזור ועונה
+10	כיף וזיכרונות
+11	אוספים
+12	מורשת אונסק"ו, 7 אזורים ועוד
+13	איפה זה?
+14	נחשו את המקום מהתמונה, פתרו את שאלת היום
+15	שנת הטיולים שלך
+16	הטיולים של השנה בכרטיס אחד
+17	פתיחת הפרופיל של {1}
+18	קישור ההזמנה אינו תקף או שהרשימה נמחקה.
+19	הרשימה מלאה (עד 20 אנשים).
+20	הרשימה מלאה (עד 50 מקומות).
+21	אפשר ליצור עד 20 רשימות משותפות.
+22	{1} התחיל/ה לעקוב אחריך
+23	{1} הצטרף/ה לרשימת הטיול המשותפת שלך
+24	הוספה לרשימה משותפת
+25	פרופיל המטייל שלי
+26	השנה שלי
+27	נעקבים
+28	יש להתחבר כדי לעקוב
+29	המטייל לא נמצא.
+30	עוקבים
+31	עוקב/ת אחרי
+32	מטייל/ת מאז {1}
+33	במעקב
+34	מעקב
+35	המקומות שבהם ביקר המטייל פרטיים; רק המספרים מוצגים.
+36	ביקורות אחרונות
+37	אין עדיין ביקורות.
+38	שנת הטיולים שלי
+39	עדיין אינך עוקב/ת אחרי אף אחד.
+40	הקישו על שם מטייל בביקורת כדי לפתוח את הפרופיל ולעקוב.
+41	מי שאתם עוקבים אחריהם עוד לא שיתפו דבר.
+42	יש להתחבר לרשימות משותפות
+43	הכינו רשימת טיול עם חברים או משפחה. שתפו את הקישור; כל מי שמצטרף יכול להוסיף ולהסיר מקומות.
+44	שם הרשימה (למשל סוף שבוע בקפדוקיה)
+45	אין לך עדיין רשימות משותפות.
+46	נוצרה על ידך
+47	רשימה שהצטרפת אליה
+48	עד {1} מקומות ו-{2} אנשים.
+49	רשימה משותפת
+50	אין לך הרשאה לראות את הרשימה הזו.
+51	כדי להצטרף, פתחו את הקישור שנשלח אליכם.
+52	המקום כבר ברשימה
+53	נוסף לרשימה
+54	הרשימה נמחקה
+55	יצאת מהרשימה
+56	הצטרפו לרשימת הטיול המשותפת שלי
+57	הזמנה
+58	עדיין לא נוספו מקומות.
+59	נוסף על ידי {1}
+60	הוספת מקום
+61	משתתפים
+62	את/ה (בעלי הרשימה)
+63	בעלי הרשימה והמוזמנים
+64	עוד אף אחד לא הצטרף. שתפו את קישור ההזמנה.
+65	נוצרה: {1}
+66	מחיקת הרשימה
+67	יציאה מהרשימה
+68	נוסף לרשימה {1}
+69	רשימה משותפת חדשה
+70	יש להתחבר כדי לראות את הסיכום
+71	שנת הטיולים שלי {1}
+72	{1} מחוזות
+73	המחוז שטיילת בו הכי הרבה: {1}
+74	הסוג האהוב: {1}
+75	{1} רשומות ביומן
+76	התמונה שקיבלה הכי הרבה לייקים
+77	השנה עוד לא סימנת אף מקום כ"הייתי שם". הסיכום יתמלא ככל שתטיילו.
+78	שיתוף הסיכום
+79	השלימו רשימות וזכו בתגים. ההתקדמות גדלה עם כל "הייתי שם".
+80	הושלמו
+81	לא נמצא.
+82	כל הכבוד, השלמת את האוסף הזה!
+83	על פי 21 אתרי המורשת העולמית של אונסק"ו בטורקיה (2023).
+84	שאלה {1}/{2}
+85	ניקוד {1}
+86	הסתכלו בתמונה ונחשו איפה זה בטורקיה.
+87	שאלת היום
+88	אותן 5 תמונות לכולם; משחקים פעם ביום.
+89	הניקוד שלך היום: {1}/5
+90	לשחק בשאלת היום
+91	יש להתחבר כדי להופיע בטבלת המובילים.
+92	משחק חופשי
+93	10 תמונות אקראיות. השיא שלך: {1}/10
+94	שחקו
+95	טבלת המובילים של היום
+96	היום עוד אף אחד לא שיחק.
+97	תמונות: Wikimedia Commons
+98	אביב
+99	קיץ
+100	סתיו
+101	חורף
+102	קל
+103	בינוני
+104	קשה
+105	מסלולי ההליכה הארוכים המסומנים והעמקים של טורקיה.
+106	התחלה
+107	סיום
+108	העונה הטובה ביותר
+109	טוען את המסלול מ-OpenStreetMap…
+110	לא ניתן לטעון את המסלול כרגע; המפה מציגה התחלה וסיום.
+111	מסלול: © תורמי OpenStreetMap. בדקו סימון ומזג אוויר לפני היציאה.
+112	פתיחה ב-Culture Routes in Turkey
+113	במסלולים ארוכים קחו מספיק מים, ספרו למישהו על המסלול ואל תלכו בצהריים בחום הקיץ.
+114	הדגל הכחול
+115	באזור יש חוף ברשימת הדגל הכחול של {1}.
+116	ברשימת הדגל הכחול של {1}.
+117	הדגל הכחול מוענק מחדש בכל שנה; את המצב העדכני בדקו ב-mavibayrak.org.tr.
+118	חופי המדריך שמופיעים ברשימות הדגל הכחול. הוא מוענק מדי שנה על מים נקיים, בטיחות וניהול סביבתי.
+119	הזמנים הטובים לצילום
+120	שעת הזהב בבוקר
+121	שעת הזהב בערב
+122	השעה הכחולה
+123	נקודות תצפית קרובות
+124	אין נקודת תצפית מסומנת בטווח 3 ק"מ.
+125	הזמנים להיום, לפי שעון טורקיה.
+126	ים וחוף
+127	טיול בטבע
+128	ביקור במסגד
+129	שלג וסקי
+130	טיסה בכדור פורח
+131	מסמכים
+132	תעודת זהות או דרכון
+133	רישיון נהיגה (אם תנהגו)
+134	כרטיס אשראי ומעט מזומן בלירות
+135	פרטי לינה וכרטיסים
+136	ביטוח בריאות לנסיעות (לזרים)
+137	ביגוד
+138	נעלי הליכה נוחות
+139	שכבה קלה לערב
+140	מעיל או ז'קט עבה
+141	סוודר
+142	כובע צמר וכפפות
+143	כובע שמש
+144	בגדים דקים ובהירים
+145	מעיל גשם ונעליים עמידות למים
+146	ביגוד תרמי
+147	מגפי שלג
+148	בריאות וטיפוח
+149	התרופות האישיות שלך
+150	משכך כאבים ופלסטרים
+151	מברשת ומשחת שיניים
+152	מגבונים לחים וג'ל לחיטוי ידיים
+153	קרם הגנה (SPF 30+)
+154	דוחה יתושים
+155	אלקטרוניקה
+156	טלפון ומטען
+157	מטען נייד
+158	מפה לא מקוונת (הורידו באפליקציה)
+159	בגד ים
+160	מגבת חוף
+161	נעלי ים
+162	משקפי שמש
+163	בקבוק מים
+164	תיק גב קטן
+165	חטיפים
+166	מקלות הליכה
+167	פנס
+168	מטפחת ראש או צעיף
+169	בגדים מתחת לברך
+170	נעליים שקל לחלוץ
+171	מעיל ומכנסי סקי
+172	משקפי סקי
+173	כפפות עמידות למים
+174	קרם הגנה לפנים
+175	שכבה חמה לקור של הבוקר
+176	נעליים סגורות
+177	לאן?
+178	מתי?
+179	כמה ימים?
+180	מה תעשו?
+181	{1}/{2} מוכן
+182	תחתונים וגרביים ל-{1} ימים
+183	ניקוי הסימונים
+184	מתרגם…
+185	הצגת המקור
+186	תרגום
+187	לא ניתן לתרגם כרגע, נסו שוב מאוחר יותר.
+188	תרגום מכונה · MyMemory
+189	מורשת עולמית של אונסק"ו
+190	21 אתרי טורקיה ברשימת המורשת העולמית
+191	האזורים ההיסטוריים של איסטנבול
+192	גרמה וקפדוקיה
+193	המסגד הגדול ובית החולים בדיבריגי
+194	חתושה
+195	הר נמרוט
+196	הירפוליס-פמוקלה
+197	קסנתוס-לטון
+198	ספרנבולו
+199	האתר הארכאולוגי של טרויה
+200	מסגד סלימייה, אדירנה
+201	צ'טל הויוק
+202	בורסה וג'ומליקיזיק
+203	פרגמון
+204	אפסוס
+205	אני
+206	אפרודיסיאס
+207	גבקלי טפה
+208	מבצר דיארבקיר וגני הבסל
+209	ארסלנטפה
+210	גורדיון
+211	מסגדים סלג'וקיים עם עמודי עץ
+212	7 אזורים
+213	לפחות מקום אחד בכל אזור
+214	הערים העתיקות של הים האגאי
+215	ערים עתיקות וחורבות באזור האגאי
+216	המסגדים של איסטנבול
+217	מסגדי איסטנבול במדריך
+218	עמקים, ערים תת-קרקעיות ועיירות בנבשהיר
+219	ארמונות
+220	כל הארמונות במדריך
+221	מגדלים
+222	כל המגדלים במדריך
+223	מעיינות חמים
+224	כל המעיינות החמים במדריך
+225	קניונים
+226	כל הקניונים במדריך
+227	מערות
+228	כל המערות במדריך
+229	איים
+230	כל האיים במדריך
+231	שביל ארוך מסומן לאורך חוף הים התיכון דרך ערים ליקיות עתיקות, כפרים ויערות אורן. הולכים בו בקטעים, לא בבת אחת.
+232	דרך הררית דרך הרי הטאורוס מאנטליה ליאלבאץ' ליד אגם אגירדיר; קניונים, מרעים גבוהים וחופי אגמים.
+233	השביל המסומן הארוך בטורקיה סביב חצאי האיים בודרום, דאצ'ה ובוזבורון שבמוגלה; מפרצונים וערים קריות עתיקות.
+234	טרק הררי רב-יומי בהרים הגבוהים של הים השחור דרך כפרי מרעה, אגמים קרחוניים ומעברים. מזג האוויר משתנה מהר; נדרשים ניסיון וציוד.
+235	דרך מסומנת המחברת בין כפרי ההרים, מטעי הזיתים והיישובים ההיסטוריים של איזמיר.
+236	טיפוס הלוך ושוב להר הגבוה בטורקיה. עם מדריך והיתר; נדרש ניסיון בגובה רב.
+237	הליכה הלוך ושוב בין פסגות הגיר של הטאורוס עד רמת ידיגולר.
+238	חלק מהדרך שבה הלך הנוסע המפורסם לעלייה לרגל ב-1671; מסלול כפרי ברגל או ברכיבה על סוס.
+239	דרך העוברת ליד אנדרטאות סלע, ארובות פיות וכפרים נטושים בעמק הפריגי; התחנה המפורסמת ביותר היא יאזיליקאיה (אנדרטת מידאס).
+240	עמק בקפדוקיה לאורך נחל מלנדיז בין כנסיות סלע; רוב האנשים הולכים קטע קצר.
+241	הקטע הטורקי של שביל אברהם במזרח התיכון, מכפרים סביב שאנליאורפה ועד בתי הכיפות של חרן.
+242	הדרך ההיסטורית שבה הועברו במלחמת העצמאות תחמושת ומתנדבים מאינבולו לאנקרה.
+243	קטע תרקיה של השביל הבינלאומי מווינה לאיסטנבול.
+244	אורכים ומשכים: GoTürkiye / Culture Routes in Turkey
+245	בטוח? הקישו שוב לאישור
+246	אין תוצאות
+247	ההתקדמות נשמרת בדפדפן הזה; התחברו כדי לשמור אותה בחשבון.
+248	טבלת המובילים דורשת חיבור לאינטרנט.
+249	{1} שנ'
+250	{1} ק"מ
+251	הסוג האהוב:
+252	מקומות שביקרת
+253	לייקים שקיבלת
+254	חיפוש והוספת מקום

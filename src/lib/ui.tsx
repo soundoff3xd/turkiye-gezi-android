@@ -34,6 +34,17 @@ export type Route =
   | { name: 'festivals' }
   | { name: 'help' }
   | { name: 'emergency' }
+  | { name: 'traveler'; id: string }
+  | { name: 'sharedTrips' }
+  | { name: 'sharedTrip'; id: string }
+  | { name: 'year' }
+  | { name: 'collections' }
+  | { name: 'collection'; id: string }
+  | { name: 'quiz' }
+  | { name: 'trails' }
+  | { name: 'trail'; id: string }
+  | { name: 'blueflag' }
+  | { name: 'packing' }
   | { name: 'fx' }
   | { name: 'prices' }
   | { name: 'journal'; id: string };

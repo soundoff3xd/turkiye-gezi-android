@@ -1,0 +1,468 @@
+@ms
+0	Menyemak kemas kini
+1	Aplikasi anda sudah terkini
+2	Memuat turun
+3	Anda boleh terus menggunakan aplikasi; pemasangan dibuka apabila muat turun selesai.
+4	Sedia untuk dipasang
+5	Ketik "Pasang" pada skrin yang terbuka. Jika telefon meminta kebenaran, hidupkan "Benarkan daripada sumber ini" dan kembali.
+6	Kemas kini tidak dapat dimuat turun
+7	Semak sambungan internet dan cuba lagi, atau muat turun dalam pelayar.
+8	Kemas kini
+9	Buka pemasangan
+10	Cuba lagi
+11	Muat turun dalam pelayar
+12	OK
+13	Teruskan di latar belakang
+14	Laluan saya
+15	Tiada lagi hentian dalam laluan.
+16	Tambah hentian
+17	Kongsi laluan
+18	Matikan pilihan elak dan cuba lagi.
+19	termasuk {1} di hentian
+20	Hentian
+21	Mula: lokasi anda
+22	Mula: hentian pertama
+23	tinggal {1}
+24	Tambah tempoh singgah
+25	Buang hentian
+26	Susunan terpendek
+27	Singgah di jalan
+28	Tempat untuk singgah tanpa lencongan jauh.
+29	Mencari…
+30	Tiada apa-apa ditemui berhampiran laluan.
+31	{1} dari laluan
+32	Tambah
+33	Dalam perjalanan, jangan terlepas
+34	Tempat menarik dari panduan berhampiran laluan anda.
+35	Sembunyi
+36	Tunjuk ({1})
+37	Cari tempat atau wilayah
+38	Kegemaran anda dan tempat terkenal
+39	Anda boleh menambah sehingga {1} hentian
+40	Hentian ini sudah ada dalam laluan
+41	{1} ditambah sebagai hentian
+42	Hentian sudah dalam susunan terpendek
+43	Tempat rehat tidak dapat dimuatkan sekarang
+44	Anda sudah memandu 2 jam. Bagaimana kalau berehat sekejap?
+45	Rehat
+46	Anda sudah memandu 2 jam. Rehat sekejap baik untuk anda.
+47	Cari tempat rehat
+48	Tempat rehat di hadapan
+49	Tiada apa-apa dalam 45 km seterusnya.
+50	tutup
+51	cuti umum
+52	Waktu buka
+53	Data OpenStreetMap; mungkin berbeza pada cuti dan hari istimewa. Semak sumber rasmi sebelum pergi.
+54	Dibuka untuk pelawat sekarang
+55	boleh semula selepas {1}
+56	Di luar waktu lawatan
+57	Waktu lawatan
+58	Waktu sesuai hari ini
+59	Pada hari Jumaat solat zohor lebih panjang dan sesak; elakkan tengah hari.
+60	Tanggalkan kasut di pintu masuk. Wanita menutup rambut; bahu dan lutut mesti ditutup. Jangan lalu di hadapan orang yang bersolat dan jangan guna flash.
+61	Waktu dikira dan mungkin berbeza beberapa minit.
+62	Kecemasan
+63	Nombor lama seperti 155, 156 dan 110 juga dialihkan ke 112.
+64	Kedutaan dan konsulat
+65	Jika pasport anda hilang, hubungi perwakilan negara anda.
+66	Berhampiran anda
+67	Benarkan akses lokasi untuk melihat tempat berhampiran.
+68	Tidak dapat dimuatkan sekarang. Semak sambungan internet.
+69	Tiada apa-apa ditemui berhampiran.
+70	Ada jabatan kecemasan
+71	Hubungi
+72	Pada waktu malam dan cuti, senarai farmasi bertugas dilekatkan pada pintu setiap farmasi.
+73	Penukar mata wang
+74	Tukar arah
+75	Kadar jual bank pusat, {1}
+76	luar talian, kadar terakhir diketahui
+77	Kadar pengurup wang dan kad mungkin berbeza; nilai ini anggaran.
+78	Kadar tidak dapat diperoleh sekarang.
+79	Panduan harga
+80	Panduan harga tidak dapat dimuatkan sekarang.
+81	Harga anggaran; kerap berubah kerana inflasi. Tarikh setiap harga dalam kurungan.
+82	Petua
+83	Belum ada ramalan untuk hari ini.
+84	Peluang hujan {1}%
+85	Nampak seperti hujan; rancang tempat tertutup untuk hari ini.
+86	Esok
+87	pada kadar bank pusat
+88	Bila anda pergi?
+89	Ramalan cuaca
+90	Hari ini dibuka 24 jam
+91	tutup dalam {1} min
+92	tutup pada {1}
+93	Dibuka sekarang
+94	Tutup
+95	dibuka hari ini pada {1}
+96	dibuka esok pada {1}
+97	dibuka pada {1}
+98	Kawasan rehat
+99	Tanpa jalan bertol
+100	Tanpa lebuh raya
+101	Tanpa feri
+102	Panggilan kecemasan
+103	YİMER · Pusat komunikasi untuk warga asing
+104	Laporan kebakaran hutan
+105	Hospital
+106	Solat Jumaat
+107	Solat zohor
+108	Solat asar
+109	Solat maghrib
+110	Subuh
+111	Syuruk
+112	Zohor
+113	Asar
+114	Maghrib
+115	Isyak
+116	Isn
+117	Sel
+118	Rab
+119	Kha
+120	Jum
+121	Sab
+122	Ahd
+123	Isnin
+124	Selasa
+125	Rabu
+126	Khamis
+127	Jumaat
+128	Sabtu
+129	Ahad
+130	Ambulans, polis, bomba, gendarmeri dan pengawal pantai: satu nombor untuk semua kecemasan. Panggilan percuma.
+131	Bantuan 24/7 untuk warga asing: Turki, Inggeris, Arab, Rusia, Jerman dan Parsi.
+132	Jika anda nampak asap atau api di hutan.
+133	Jumlah lira pada kadar bank pusat
+134	Harga simit, pengangkutan, teksi dan muzium
+135	112, hospital dan farmasi terdekat
+136	Semak kemas kini
+137	Simit (Istanbul)
+138	Istanbulkart tambang penuh
+139	Tambang permulaan teksi (Istanbul)
+140	Teksi setiap km (Istanbul)
+141	Tambang minimum jarak dekat teksi (Istanbul)
+142	Müzekart (warga Turkiye dan RTCU, 1 tahun)
+143	Masuk ke Efesus (pelawat asing)
+144	Masuk ke Menara Galata (pelawat asing)
+145	September 2026
+146	Julai 2026
+147	November 2026
+148	Jika tiada senarai harga, tanya harga dahulu.
+149	Dalam teksi, pastikan meter berjalan.
+150	Tawar-menawar biasa di Grand Bazaar dan pasar, tetapi tidak di restoran.
+151	Di kawasan pelancongan harga boleh jauh lebih tinggi berbanding bahagian lain bandar.
+152	Tip adalah pilihan (biasanya 5–10%); jika bil termasuk caj perkhidmatan, tidak perlu tambahan.
+153	Satu laluan telah dikongsi dengan anda
+154	Senarai perjalanan anda penuh (maksimum 24 tempat).
+@th
+0	กำลังตรวจหาอัปเดต
+1	แอปของคุณเป็นเวอร์ชันล่าสุด
+2	กำลังดาวน์โหลด
+3	ใช้แอปต่อได้เลย หน้าติดตั้งจะเปิดเมื่อดาวน์โหลดเสร็จ
+4	พร้อมติดตั้ง
+5	แตะ "ติดตั้ง" ในหน้าจอที่เปิดขึ้น หากโทรศัพท์ขออนุญาต ให้เปิด "อนุญาตจากแหล่งนี้" แล้วกลับมา
+6	ดาวน์โหลดอัปเดตไม่สำเร็จ
+7	ตรวจสอบการเชื่อมต่ออินเทอร์เน็ตแล้วลองอีกครั้ง หรือดาวน์โหลดในเบราว์เซอร์
+8	อัปเดต
+9	เปิดหน้าติดตั้ง
+10	ลองอีกครั้ง
+11	ดาวน์โหลดในเบราว์เซอร์
+12	ตกลง
+13	ทำต่อในเบื้องหลัง
+14	เส้นทางของฉัน
+15	ไม่มีจุดแวะเหลือในเส้นทาง
+16	เพิ่มจุดแวะ
+17	แชร์เส้นทาง
+18	ปิดตัวเลือกการหลีกเลี่ยงแล้วลองอีกครั้ง
+19	รวมเวลาแวะ {1}
+20	จุดแวะ
+21	เริ่ม: ตำแหน่งของคุณ
+22	เริ่ม: จุดแวะแรก
+23	อยู่ {1}
+24	เพิ่มเวลาพัก
+25	ลบจุดแวะ
+26	ลำดับที่สั้นที่สุด
+27	จุดพักระหว่างทาง
+28	ที่ที่แวะได้โดยไม่ต้องอ้อมไกล
+29	กำลังค้นหา…
+30	ไม่พบสิ่งใดใกล้เส้นทาง
+31	ห่างจากเส้นทาง {1}
+32	เพิ่ม
+33	ระหว่างทาง ห้ามพลาด
+34	สถานที่จากคู่มือที่อยู่ใกล้เส้นทางของคุณ
+35	ซ่อน
+36	แสดง ({1})
+37	ค้นหาสถานที่หรือจังหวัด
+38	รายการโปรดและสถานที่เด่น
+39	เพิ่มจุดแวะได้สูงสุด {1} จุด
+40	จุดแวะนี้อยู่ในเส้นทางแล้ว
+41	เพิ่ม {1} เป็นจุดแวะแล้ว
+42	จุดแวะอยู่ในลำดับที่สั้นที่สุดแล้ว
+43	โหลดจุดพักไม่ได้ในขณะนี้
+44	คุณขับรถมา 2 ชั่วโมงแล้ว พักสักครู่ดีไหม?
+45	พัก
+46	คุณขับรถมา 2 ชั่วโมงแล้ว การพักสั้นๆ จะช่วยได้
+47	หาจุดพัก
+48	จุดพักข้างหน้า
+49	ไม่พบสิ่งใดใน 45 กม. ข้างหน้า
+50	ปิด
+51	วันหยุดราชการ
+52	เวลาเปิด
+53	ข้อมูลจาก OpenStreetMap อาจต่างไปในวันหยุดและวันพิเศษ ตรวจสอบแหล่งข้อมูลทางการก่อนไป
+54	เปิดให้เข้าชมตอนนี้
+55	เข้าชมได้อีกครั้งหลัง {1}
+56	นอกเวลาเข้าชม
+57	เวลาเข้าชม
+58	ช่วงเวลาที่เหมาะวันนี้
+59	วันศุกร์การละหมาดตอนเที่ยงนานและคนแน่นกว่า ควรเลี่ยงช่วงเที่ยง
+60	ถอดรองเท้าที่ทางเข้า ผู้หญิงคลุมผม ไหล่และเข่าต้องปิด อย่าเดินผ่านหน้าผู้ที่กำลังละหมาดและอย่าใช้แฟลช
+61	เวลาเป็นค่าที่คำนวณได้และอาจคลาดเคลื่อนไม่กี่นาที
+62	เหตุฉุกเฉิน
+63	หมายเลขเดิม เช่น 155, 156 และ 110 จะโอนไปที่ 112 ด้วย
+64	สถานทูตและสถานกงสุล
+65	หากทำหนังสือเดินทางหาย ให้ติดต่อสถานทูตของประเทศคุณ
+66	ใกล้คุณ
+67	อนุญาตการเข้าถึงตำแหน่งเพื่อดูสถานที่ใกล้เคียง
+68	โหลดไม่ได้ในขณะนี้ ตรวจสอบการเชื่อมต่ออินเทอร์เน็ต
+69	ไม่พบสิ่งใดในบริเวณใกล้เคียง
+70	มีแผนกฉุกเฉิน
+71	โทร
+72	ตอนกลางคืนและวันหยุด รายชื่อร้านขายยาเวรติดอยู่ที่ประตูร้านขายยาทุกร้าน
+73	ตัวแปลงสกุลเงิน
+74	สลับทิศทาง
+75	อัตราขายของธนาคารกลาง, {1}
+76	ออฟไลน์ อัตราล่าสุดที่ทราบ
+77	อัตราของร้านแลกเงินและบัตรอาจต่างกัน ค่าที่แสดงเป็นค่าประมาณ
+78	ดึงอัตราแลกเปลี่ยนไม่ได้ในขณะนี้
+79	คู่มือราคา
+80	โหลดคู่มือราคาไม่ได้ในขณะนี้
+81	ราคาโดยประมาณ เปลี่ยนบ่อยเพราะเงินเฟ้อ วันที่ของแต่ละราคาอยู่ในวงเล็บ
+82	เคล็ดลับ
+83	ยังไม่มีพยากรณ์สำหรับวันนี้
+84	โอกาสฝนตก {1}%
+85	ดูเหมือนฝนจะตก ลองวางแผนสถานที่ในร่มในวันนี้
+86	พรุ่งนี้
+87	ตามอัตราธนาคารกลาง
+88	คุณจะไปเมื่อไร?
+89	พยากรณ์อากาศ
+90	วันนี้เปิด 24 ชั่วโมง
+91	ปิดในอีก {1} นาที
+92	ปิดเวลา {1}
+93	เปิดอยู่
+94	ปิดแล้ว
+95	เปิดวันนี้เวลา {1}
+96	เปิดพรุ่งนี้เวลา {1}
+97	เปิดเวลา {1}
+98	จุดพักรถ
+99	ไม่ใช้ทางพิเศษ
+100	ไม่ใช้มอเตอร์เวย์
+101	ไม่ใช้เรือข้ามฟาก
+102	โทรฉุกเฉิน
+103	YİMER · ศูนย์สื่อสารสำหรับชาวต่างชาติ
+104	แจ้งไฟป่า
+105	โรงพยาบาล
+106	ละหมาดวันศุกร์
+107	ละหมาดเที่ยง
+108	ละหมาดบ่าย
+109	ละหมาดเย็น
+110	ฟัจรฺ
+111	พระอาทิตย์ขึ้น
+112	ซุฮรี
+113	อัศรี
+114	มัฆริบ
+115	อิชาอ์
+116	จ.
+117	อ.
+118	พ.
+119	พฤ.
+120	ศ.
+121	ส.
+122	อา.
+123	วันจันทร์
+124	วันอังคาร
+125	วันพุธ
+126	วันพฤหัสบดี
+127	วันศุกร์
+128	วันเสาร์
+129	วันอาทิตย์
+130	รถพยาบาล ตำรวจ ดับเพลิง ตำรวจภูธร และหน่วยยามฝั่ง: หมายเลขเดียวสำหรับทุกเหตุฉุกเฉิน โทรฟรี
+131	ความช่วยเหลือตลอด 24 ชั่วโมงสำหรับชาวต่างชาติ: ภาษาตุรกี อังกฤษ อาหรับ รัสเซีย เยอรมัน และเปอร์เซีย
+132	หากเห็นควันหรือไฟในป่า
+133	คำนวณเงินลีราด้วยอัตราธนาคารกลาง
+134	ราคาซิมิต การเดินทาง แท็กซี่ และพิพิธภัณฑ์
+135	112 โรงพยาบาลและร้านขายยาใกล้ที่สุด
+136	ตรวจหาอัปเดต
+137	ซิมิต (อิสตันบูล)
+138	อิสตันบูลคาร์ต ค่าโดยสารเต็ม
+139	ค่าเปิดมิเตอร์แท็กซี่ (อิสตันบูล)
+140	แท็กซี่ต่อกม. (อิสตันบูล)
+141	ค่าแท็กซี่ระยะสั้นขั้นต่ำ (อิสตันบูล)
+142	Müzekart (พลเมืองตุรกีและไซปรัสเหนือ 1 ปี)
+143	ค่าเข้าเอเฟซัส (นักท่องเที่ยวต่างชาติ)
+144	ค่าเข้าหอคอยกาลาตา (นักท่องเที่ยวต่างชาติ)
+145	กันยายน 2026
+146	กรกฎาคม 2026
+147	พฤศจิกายน 2026
+148	ที่ที่ไม่มีป้ายราคา ให้ถามราคาก่อน
+149	ในแท็กซี่ ตรวจดูให้แน่ใจว่ามิเตอร์ทำงาน
+150	การต่อราคาเป็นเรื่องปกติในแกรนด์บาซาร์และตลาด แต่ไม่ใช่ในร้านอาหาร
+151	ในย่านท่องเที่ยวราคาอาจสูงกว่าส่วนอื่นของเมืองอย่างเห็นได้ชัด
+152	ทิปเป็นทางเลือก (ปกติ 5–10%) ถ้าบิลรวมค่าบริการแล้วไม่ต้องให้เพิ่ม
+153	มีคนแชร์เส้นทางให้คุณ
+154	รายการทริปของคุณเต็มแล้ว (สูงสุด 24 แห่ง)
+@vi
+0	Đang kiểm tra cập nhật
+1	Ứng dụng đã là bản mới nhất
+2	Đang tải xuống
+3	Bạn có thể tiếp tục dùng ứng dụng; màn hình cài đặt sẽ mở khi tải xong.
+4	Sẵn sàng cài đặt
+5	Chạm "Cài đặt" trên màn hình hiện ra. Nếu điện thoại xin quyền, hãy bật "Cho phép từ nguồn này" rồi quay lại.
+6	Không tải được bản cập nhật
+7	Kiểm tra kết nối internet và thử lại, hoặc tải trong trình duyệt.
+8	Cập nhật
+9	Mở cài đặt
+10	Thử lại
+11	Tải trong trình duyệt
+12	OK
+13	Tiếp tục chạy nền
+14	Lộ trình của tôi
+15	Không còn điểm dừng nào trên lộ trình.
+16	Thêm điểm dừng
+17	Chia sẻ lộ trình
+18	Tắt các tùy chọn tránh rồi thử lại.
+19	gồm {1} ở các điểm dừng
+20	Điểm dừng
+21	Xuất phát: vị trí của bạn
+22	Xuất phát: điểm dừng đầu tiên
+23	ở lại {1}
+24	Thêm thời gian ở lại
+25	Xóa điểm dừng
+26	Thứ tự ngắn nhất
+27	Dừng chân dọc đường
+28	Những nơi có thể ghé mà không phải đi vòng xa.
+29	Đang tìm…
+30	Không tìm thấy gì gần lộ trình.
+31	cách lộ trình {1}
+32	Thêm
+33	Trên đường đi, đừng bỏ lỡ
+34	Điểm tham quan trong cẩm nang gần lộ trình của bạn.
+35	Ẩn
+36	Hiện ({1})
+37	Tìm địa điểm hoặc tỉnh
+38	Mục yêu thích và địa điểm nổi bật
+39	Bạn có thể thêm tối đa {1} điểm dừng
+40	Điểm dừng này đã có trong lộ trình
+41	Đã thêm {1} làm điểm dừng
+42	Các điểm dừng đã theo thứ tự ngắn nhất
+43	Hiện không tải được trạm dừng nghỉ
+44	Bạn đã lái xe 2 giờ. Nghỉ một chút nhé?
+45	Nghỉ
+46	Bạn đã lái xe 2 giờ. Nghỉ ngắn sẽ tốt cho bạn.
+47	Tìm trạm dừng nghỉ
+48	Trạm dừng nghỉ phía trước
+49	Không tìm thấy gì trong 45 km tới.
+50	đóng cửa
+51	ngày lễ
+52	Giờ mở cửa
+53	Dữ liệu OpenStreetMap; có thể khác vào ngày lễ và ngày đặc biệt. Hãy kiểm tra nguồn chính thức trước khi đi.
+54	Đang mở cửa cho khách tham quan
+55	có thể vào lại sau {1}
+56	Ngoài giờ tham quan
+57	Giờ tham quan
+58	Khung giờ phù hợp hôm nay
+59	Thứ Sáu, buổi cầu nguyện trưa dài và đông hơn; nên tránh giờ trưa.
+60	Cởi giày ở lối vào. Phụ nữ che tóc; vai và đầu gối phải được che. Đừng đi ngang trước người đang cầu nguyện và đừng dùng đèn flash.
+61	Giờ được tính toán và có thể lệch vài phút.
+62	Khẩn cấp
+63	Các số cũ như 155, 156 và 110 cũng được chuyển tới 112.
+64	Đại sứ quán và lãnh sự quán
+65	Nếu bị mất hộ chiếu, hãy liên hệ cơ quan đại diện của nước bạn.
+66	Gần bạn
+67	Cho phép truy cập vị trí để xem các địa điểm gần đó.
+68	Hiện không tải được. Kiểm tra kết nối internet.
+69	Không tìm thấy gì gần đây.
+70	Có khoa cấp cứu
+71	Gọi
+72	Ban đêm và ngày lễ, danh sách nhà thuốc trực được dán trên cửa mỗi nhà thuốc.
+73	Chuyển đổi tiền tệ
+74	Đổi chiều
+75	Tỷ giá bán của Ngân hàng Trung ương, {1}
+76	ngoại tuyến, tỷ giá gần nhất
+77	Tỷ giá ở điểm đổi tiền và thẻ có thể khác; giá trị hiển thị là ước tính.
+78	Hiện không lấy được tỷ giá.
+79	Hướng dẫn giá cả
+80	Hiện không tải được hướng dẫn giá cả.
+81	Giá ước tính; thay đổi thường xuyên do lạm phát. Thời điểm của mỗi giá nằm trong ngoặc.
+82	Mẹo
+83	Chưa có dự báo cho ngày này.
+84	Khả năng mưa {1}%
+85	Có vẻ mưa; hãy xếp các điểm trong nhà vào ngày này.
+86	Ngày mai
+87	theo tỷ giá Ngân hàng Trung ương
+88	Khi nào bạn đi?
+89	Dự báo thời tiết
+90	Hôm nay mở cửa 24 giờ
+91	đóng cửa sau {1} phút
+92	đóng cửa lúc {1}
+93	Đang mở cửa
+94	Đã đóng cửa
+95	mở cửa hôm nay lúc {1}
+96	mở cửa ngày mai lúc {1}
+97	mở cửa lúc {1}
+98	Trạm dừng nghỉ
+99	Tránh đường thu phí
+100	Tránh đường cao tốc
+101	Tránh phà
+102	Cuộc gọi khẩn cấp
+103	YİMER · Trung tâm liên lạc cho người nước ngoài
+104	Báo cháy rừng
+105	Bệnh viện
+106	Lễ cầu nguyện thứ Sáu
+107	Cầu nguyện trưa
+108	Cầu nguyện chiều
+109	Cầu nguyện hoàng hôn
+110	Fajr
+111	Mặt trời mọc
+112	Dhuhr
+113	Asr
+114	Maghrib
+115	Isha
+116	T2
+117	T3
+118	T4
+119	T5
+120	T6
+121	T7
+122	CN
+123	Thứ Hai
+124	Thứ Ba
+125	Thứ Tư
+126	Thứ Năm
+127	Thứ Sáu
+128	Thứ Bảy
+129	Chủ Nhật
+130	Cấp cứu, cảnh sát, cứu hỏa, hiến binh và tuần duyên: một số cho mọi trường hợp khẩn cấp. Gọi miễn phí.
+131	Hỗ trợ 24/7 cho người nước ngoài: tiếng Thổ Nhĩ Kỳ, Anh, Ả Rập, Nga, Đức và Ba Tư.
+132	Nếu bạn thấy khói hoặc lửa trong rừng.
+133	Quy đổi lira theo tỷ giá Ngân hàng Trung ương
+134	Giá simit, đi lại, taxi và bảo tàng
+135	112, bệnh viện và nhà thuốc gần nhất
+136	Kiểm tra cập nhật
+137	Simit (Istanbul)
+138	Istanbulkart giá vé đầy đủ
+139	Taxi giá mở cửa (Istanbul)
+140	Taxi mỗi km (Istanbul)
+141	Taxi giá tối thiểu quãng ngắn (Istanbul)
+142	Müzekart (công dân Thổ Nhĩ Kỳ và Bắc Síp, 1 năm)
+143	Vé vào Ephesus (khách nước ngoài)
+144	Vé vào Tháp Galata (khách nước ngoài)
+145	Tháng 9 năm 2026
+146	Tháng 7 năm 2026
+147	Tháng 11 năm 2026
+148	Ở nơi không có bảng giá, hãy hỏi giá trước.
+149	Khi đi taxi, hãy chắc chắn đồng hồ tính tiền đang chạy.
+150	Mặc cả là bình thường ở Grand Bazaar và chợ, nhưng không phải ở nhà hàng.
+151	Ở khu du lịch, giá có thể cao hơn đáng kể so với phần còn lại của thành phố.
+152	Tiền boa là tùy ý (thường 5–10%); nếu hóa đơn đã có phí phục vụ thì không cần thêm.
+153	Có người đã chia sẻ một lộ trình với bạn
+154	Danh sách chuyến đi của bạn đã đầy (tối đa 24 địa điểm).

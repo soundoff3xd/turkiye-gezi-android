@@ -351,17 +351,17 @@ renderDetail = function () {
   if (!HOURS && ONLINE()) loadHours().then(() => { if (S.sel === p.id && S.tab === 'ov' && HOURS.get(p.id)) renderDetail(); });
 };
 /* liste: "Şu an açık" süzgeci */
-S.open = false;
+S.openNow = false;
 const mp30 = matchPlace;
-matchPlace = function (p, q, ig) { return mp30(p, q, ig) && (!S.open || isOpenNow(p.id) === true); };
+matchPlace = function (p, q, ig) { return mp30(p, q, ig) && (!S.openNow || isOpenNow(p.id) === true); };
 const rc30 = renderChips;
 renderChips = function () {
   rc30();
   const s = $('regions').querySelector('[data-a="season"]');
-  const h = `<button class="chip" data-a="opennow" aria-pressed="${S.open}"><span aria-hidden="true">🕒</span> <span>Şu an açık</span></button>`;
+  const h = `<button class="chip" data-a="opennow" aria-pressed="${S.openNow}"><span aria-hidden="true">🕒</span> <span>Şu an açık</span></button>`;
   if (s) s.insertAdjacentHTML('afterend', h); else $('regions').insertAdjacentHTML('afterbegin', h);
 };
-A.opennow = async () => { if (!S.open && !HOURS) await loadHours(); S.open = !S.open; renderChips(); renderList(); if (S.sel) back(); fitResults(); };
+A.opennow = async () => { if (!S.openNow && !HOURS) await loadHours(); S.openNow = !S.openNow; renderChips(); renderList(); if (S.sel) back(); fitResults(); };
 setTimeout(() => { if (ONLINE()) loadHours(); }, 4000);
 
 /* ---------- acil durum, döviz çevirici, fiyat rehberi ---------- */

@@ -1,0 +1,768 @@
+@hi
+0	आप इस सूची से पहले ही जुड़ चुके हैं
+1	आप सूची {1} से जुड़ गए
+2	साझा सूचियाँ
+3	दोस्तों के साथ यात्रा सूची
+4	पैदल ट्रेल
+5	लाइकियन वे, काचकर पर्वत और भी बहुत कुछ
+6	ब्लू फ़्लैग समुद्र तट
+7	साफ़ और सुरक्षित समुद्र तट
+8	सामान की सूची
+9	क्षेत्र और मौसम के अनुसार सामान
+10	मज़ा और यादें
+11	संग्रह
+12	यूनेस्को धरोहर, 7 क्षेत्र और भी बहुत कुछ
+13	यह कहाँ है?
+14	फ़ोटो से जगह पहचानें, आज का सवाल हल करें
+15	साल भर की यात्रा का सारांश
+16	इस साल की यात्राएँ एक कार्ड में
+17	{1} की प्रोफ़ाइल खोलें
+18	आमंत्रण लिंक अमान्य है या सूची हटा दी गई है।
+19	यह सूची भर चुकी है (अधिकतम 20 लोग)।
+20	सूची भर चुकी है (अधिकतम 50 जगहें)।
+21	आप अधिकतम 20 साझा सूचियाँ बना सकते हैं।
+22	{1} ने आपको फ़ॉलो करना शुरू किया
+23	{1} आपकी साझा यात्रा सूची से जुड़े
+24	साझा सूची में जोड़ें
+25	मेरी यात्री प्रोफ़ाइल
+26	मेरा साल
+27	फ़ॉलो किए गए
+28	फ़ॉलो करने के लिए साइन इन करें
+29	यह यात्री नहीं मिला।
+30	फ़ॉलोअर
+31	फ़ॉलो कर रहे हैं
+32	{1} से यात्री
+33	फ़ॉलो कर रहे हैं
+34	फ़ॉलो करें
+35	इस यात्री ने कौन-सी जगहें देखीं, यह निजी है; सिर्फ़ संख्याएँ दिखती हैं।
+36	हाल की समीक्षाएँ
+37	अभी कोई समीक्षा नहीं।
+38	मेरा यात्रा वर्ष
+39	आप अभी किसी को फ़ॉलो नहीं करते।
+40	प्रोफ़ाइल खोलकर फ़ॉलो करने के लिए किसी समीक्षा में यात्री के नाम पर टैप करें।
+41	जिन्हें आप फ़ॉलो करते हैं, उन्होंने अभी कुछ साझा नहीं किया।
+42	साझा सूचियों के लिए साइन इन करें
+43	दोस्तों या परिवार के साथ मिलकर यात्रा सूची बनाएँ। लिंक साझा करें; जुड़ने वाला हर व्यक्ति जगहें जोड़ और हटा सकता है।
+44	सूची का नाम (जैसे कप्पादोकिया वीकेंड)
+45	आपकी अभी कोई साझा सूची नहीं है।
+46	आपने बनाई
+47	जिस सूची से आप जुड़े हैं
+48	अधिकतम {1} जगहें और {2} लोग।
+49	साझा सूची
+50	आप यह सूची नहीं देख सकते।
+51	सूची से जुड़ने के लिए आपको भेजा गया लिंक खोलें।
+52	यह जगह पहले से सूची में है
+53	सूची में जोड़ा गया
+54	सूची हटा दी गई
+55	आपने सूची छोड़ दी
+56	मेरी साझा यात्रा सूची से जुड़ें
+57	आमंत्रित करें
+58	अभी कोई जगह नहीं जोड़ी गई।
+59	{1} ने जोड़ा
+60	जगह जोड़ें
+61	सदस्य
+62	आप (सूची के मालिक)
+63	सूची के मालिक और आमंत्रित लोग
+64	अभी कोई नहीं जुड़ा। आमंत्रण लिंक साझा करें।
+65	बनाई गई: {1}
+66	सूची हटाएँ
+67	सूची छोड़ें
+68	सूची {1} में जोड़ा गया
+69	नई साझा सूची
+70	अपना सारांश देखने के लिए साइन इन करें
+71	मेरी {1} की यात्राएँ
+72	{1} प्रांत
+73	सबसे ज़्यादा घूमा प्रांत: {1}
+74	पसंदीदा प्रकार: {1}
+75	{1} डायरी नोट
+76	आपकी सबसे ज़्यादा पसंद की गई फ़ोटो
+77	इस साल आपने अभी किसी जगह को "गया था" नहीं चुना। यात्रा करने के साथ सारांश भरता जाएगा।
+78	मेरा सारांश साझा करें
+79	सूचियाँ पूरी करें और बैज पाएँ। हर "गया था" के साथ प्रगति बढ़ती है।
+80	पूरे हुए
+81	नहीं मिला।
+82	बधाई हो, आपने यह संग्रह पूरा कर लिया!
+83	2023 तक तुर्की के 21 यूनेस्को विश्व धरोहर स्थलों पर आधारित।
+84	सवाल {1}/{2}
+85	अंक {1}
+86	फ़ोटो देखें और अंदाज़ा लगाएँ कि यह तुर्की में कहाँ है।
+87	आज का सवाल
+88	सबके लिए वही 5 फ़ोटो; दिन में एक बार खेलें।
+89	आज आपके अंक: {1}/5
+90	आज का सवाल खेलें
+91	लीडरबोर्ड में आने के लिए साइन इन करें।
+92	मुक्त खेल
+93	10 बेतरतीब फ़ोटो। आपका सबसे अच्छा स्कोर: {1}/10
+94	खेलें
+95	आज का लीडरबोर्ड
+96	आज अभी तक किसी ने नहीं खेला।
+97	फ़ोटो: Wikimedia Commons
+98	वसंत
+99	गर्मी
+100	पतझड़
+101	सर्दी
+102	आसान
+103	मध्यम
+104	कठिन
+105	तुर्की के चिह्नित लंबे पैदल मार्ग और घाटियाँ।
+106	शुरुआत
+107	अंत
+108	सबसे अच्छा मौसम
+109	OpenStreetMap से ट्रेल लोड हो रहा है…
+110	अभी ट्रेल लोड नहीं हो सका; नक्शे पर शुरुआत और अंत दिखाए गए हैं।
+111	ट्रेल: © OpenStreetMap योगदानकर्ता। निकलने से पहले निशान और मौसम जाँच लें।
+112	Culture Routes in Turkey पर खोलें
+113	लंबे ट्रेल पर पर्याप्त पानी रखें, किसी को अपना रास्ता बताएँ और गर्मी में दोपहर को न चलें।
+114	ब्लू फ़्लैग
+115	इस इलाके का एक समुद्र तट {1} की ब्लू फ़्लैग सूची में है।
+116	{1} की ब्लू फ़्लैग सूची में।
+117	ब्लू फ़्लैग हर साल नए सिरे से दिया जाता है; ताज़ा स्थिति mavibayrak.org.tr पर देखें।
+118	गाइड के वे समुद्र तट जो ब्लू फ़्लैग सूचियों में हैं। यह हर साल साफ़ पानी, सुरक्षा और पर्यावरण प्रबंधन के आधार पर दिया जाता है।
+119	फ़ोटो के लिए सबसे अच्छा समय
+120	सुबह का गोल्डन आवर
+121	शाम का गोल्डन आवर
+122	ब्लू आवर
+123	पास के व्यू पॉइंट
+124	3 किमी के भीतर कोई चिह्नित व्यू पॉइंट नहीं मिला।
+125	समय आज के हैं, तुर्की समय के अनुसार।
+126	समुद्र और तट
+127	प्रकृति की सैर
+128	मस्जिद दर्शन
+129	बर्फ़ और स्कीइंग
+130	गुब्बारे की सैर
+131	दस्तावेज़
+132	पहचान पत्र या पासपोर्ट
+133	ड्राइविंग लाइसेंस (अगर गाड़ी चलाएँगे)
+134	क्रेडिट कार्ड और थोड़ी लीरा नकदी
+135	ठहरने और टिकट की जानकारी
+136	यात्रा स्वास्थ्य बीमा (विदेशी हों तो)
+137	कपड़े
+138	आरामदायक चलने वाले जूते
+139	शाम के लिए हल्की परत
+140	कोट या मोटी जैकेट
+141	स्वेटर
+142	टोपी और दस्ताने
+143	धूप की टोपी
+144	पतले, हल्के रंग के कपड़े
+145	रेनकोट और वॉटरप्रूफ़ जूते
+146	थर्मल इनरवियर
+147	बर्फ़ के जूते
+148	स्वास्थ्य और देखभाल
+149	आपकी अपनी दवाएँ
+150	दर्द निवारक और बैंडेज
+151	टूथब्रश और टूथपेस्ट
+152	गीले टिश्यू और हैंड सैनिटाइज़र
+153	सनस्क्रीन (SPF 30+)
+154	मच्छर भगाने वाली क्रीम
+155	इलेक्ट्रॉनिक्स
+156	फ़ोन और चार्जर
+157	पावर बैंक
+158	ऑफ़लाइन नक्शा (ऐप में डाउनलोड करें)
+159	स्विमसूट
+160	बीच तौलिया
+161	पानी वाले जूते
+162	धूप का चश्मा
+163	पानी की बोतल
+164	छोटा बैकपैक
+165	नाश्ता
+166	ट्रेकिंग स्टिक
+167	टॉर्च
+168	सिर ढकने का कपड़ा या शॉल
+169	घुटनों से नीचे तक के कपड़े
+170	आसानी से उतरने वाले जूते
+171	स्की जैकेट और पैंट
+172	स्की चश्मा
+173	वॉटरप्रूफ़ दस्ताने
+174	चेहरे के लिए सनस्क्रीन
+175	सुबह की ठंड के लिए गर्म कपड़ा
+176	बंद जूते
+177	कहाँ?
+178	कब?
+179	कितने दिन?
+180	क्या करेंगे?
+181	{1}/{2} तैयार
+182	{1} दिन के अंडरवियर और मोज़े
+183	निशान हटाएँ
+184	अनुवाद हो रहा है…
+185	मूल दिखाएँ
+186	अनुवाद करें
+187	अभी अनुवाद नहीं हो सका, बाद में फिर कोशिश करें।
+188	मशीन अनुवाद · MyMemory
+189	यूनेस्को विश्व धरोहर
+190	विश्व धरोहर सूची में तुर्की के 21 स्थल
+191	इस्तांबुल के ऐतिहासिक क्षेत्र
+192	गोरेमे और कप्पादोकिया
+193	दिव्रिगी की बड़ी मस्जिद और अस्पताल
+194	हत्तुशा
+195	नेमरुत पर्वत
+196	हिएरापोलिस-पामुक्काले
+197	ज़ैन्थोस-लेटून
+198	सफ़रानबोलू
+199	ट्रॉय का पुरातात्विक स्थल
+200	सेलिमिये मस्जिद, एदिर्ने
+201	चातालहोयुक
+202	बुर्सा और जुमालिकिज़िक
+203	पेरगामोन
+204	इफ़िसुस
+205	आनी
+206	अफ़्रोदिसियास
+207	गोबेकली तेपे
+208	दियारबकीर का किला और हेवसेल बाग़
+209	अर्सलानतेपे टीला
+210	गॉर्डियन
+211	लकड़ी के खंभों वाली सेल्जुक मस्जिदें
+212	7 क्षेत्र
+213	हर भौगोलिक क्षेत्र में कम से कम एक जगह
+214	एजियन के प्राचीन शहर
+215	एजियन क्षेत्र के प्राचीन शहर और खंडहर
+216	इस्तांबुल की मस्जिदें
+217	गाइड में इस्तांबुल की मस्जिदें
+218	नेवशेहिर की घाटियाँ, भूमिगत शहर और कस्बे
+219	महल
+220	गाइड के सभी महल
+221	मीनारें
+222	गाइड की सभी मीनारें
+223	गर्म पानी के झरने
+224	गाइड के सभी गर्म झरने
+225	घाटियाँ (कैन्यन)
+226	गाइड की सभी कैन्यन
+227	गुफ़ाएँ
+228	गाइड की सभी गुफ़ाएँ
+229	द्वीप
+230	गाइड के सभी द्वीप
+231	भूमध्यसागरीय तट के साथ प्राचीन लाइकियन शहरों, गाँवों और चीड़ के जंगलों से गुज़रता चिह्नित लंबा पैदल मार्ग। इसे एक बार में नहीं, चरणों में चलते हैं।
+232	टॉरस पर्वत पार करते हुए अंताल्या से एगिर्दिर झील के पास यालवाच तक पहाड़ी रास्ता; घाटियाँ, ऊँचे चरागाह और झील के किनारे।
+233	मुगला के बोडरम, दाच्चा और बोज़बुरुन प्रायद्वीपों का चक्कर लगाता तुर्की का सबसे लंबा चिह्नित मार्ग; खाड़ियाँ और प्राचीन कैरियन शहर।
+234	काला सागर के ऊँचे पहाड़ों में चरागाही गाँवों, हिमनद झीलों और दर्रों से होकर कई दिन की पहाड़ी यात्रा। मौसम जल्दी बदलता है; अनुभव और उपकरण ज़रूरी हैं।
+235	इज़मीर के पहाड़ी गाँवों, जैतून के बाग़ों और ऐतिहासिक बस्तियों को जोड़ने वाला चिह्नित रास्ता।
+236	तुर्की के सबसे ऊँचे पर्वत पर चढ़ाई और वापसी। गाइड और अनुमति के साथ; ऊँचाई का अनुभव ज़रूरी।
+237	टॉरस की चूना-पत्थर चोटियों के बीच येदिगोल्लेर पठार तक आना-जाना पैदल मार्ग।
+238	प्रसिद्ध यात्री ने 1671 में हज के दौरान जिस रास्ते से यात्रा की थी, उसका एक हिस्सा; पैदल या घोड़े पर चलने लायक ग्रामीण मार्ग।
+239	फ़्रीजियन घाटी के चट्टानी स्मारकों, परी चिमनियों और वीरान गाँवों से गुज़रता रास्ता; सबसे प्रसिद्ध पड़ाव याज़िलिकाया (मिडास स्मारक) है।
+240	मेलेंडिज़ नदी के किनारे चट्टानी गिरजाघरों के बीच चलने वाली कप्पादोकिया की घाटी; ज़्यादातर लोग छोटा हिस्सा चलते हैं।
+241	मध्य पूर्व के अब्राहम पथ का तुर्की खंड, शानलीउर्फ़ा के आसपास के गाँवों से हर्रान के गुंबददार घरों तक।
+242	वह ऐतिहासिक रास्ता जिससे स्वतंत्रता संग्राम में गोला-बारूद और स्वयंसेवक इनेबोलू से अंकारा ले जाए गए।
+243	वियना से इस्तांबुल तक के अंतरराष्ट्रीय पैदल मार्ग का थ्रेस खंड।
+244	लंबाई और अवधि: GoTürkiye / Culture Routes in Turkey
+245	पक्का? पुष्टि के लिए फिर से टैप करें
+246	कोई परिणाम नहीं
+247	आपकी प्रगति इस ब्राउज़र में सहेजी जाती है; खाते में सहेजने के लिए साइन इन करें।
+248	लीडरबोर्ड के लिए इंटरनेट कनेक्शन चाहिए।
+249	{1} से.
+250	{1} किमी
+251	पसंदीदा प्रकार:
+252	देखी गई जगहें
+253	मिली पसंद
+254	जगह खोजें और जोड़ें
+@ur
+0	آپ پہلے ہی اس فہرست میں شامل ہو چکے ہیں
+1	آپ فہرست {1} میں شامل ہو گئے
+2	مشترکہ فہرستیں
+3	دوستوں کے ساتھ سفر کی فہرست
+4	پیدل راستے
+5	لائسیئن راستہ، کاچکر پہاڑ اور مزید
+6	بلیو فلیگ ساحل
+7	صاف اور محفوظ ساحل
+8	سامان کی فہرست
+9	علاقے اور موسم کے مطابق سامان
+10	تفریح اور یادیں
+11	مجموعے
+12	یونیسکو ورثہ، 7 علاقے اور مزید
+13	یہ کہاں ہے؟
+14	تصویر سے جگہ پہچانیں، آج کا سوال حل کریں
+15	سال بھر کے سفر کا خلاصہ
+16	اس سال کے سفر ایک کارڈ میں
+17	{1} کی پروفائل کھولیں
+18	دعوتی لنک درست نہیں یا فہرست حذف ہو چکی ہے۔
+19	یہ فہرست بھر گئی ہے (زیادہ سے زیادہ 20 افراد)۔
+20	فہرست بھر گئی ہے (زیادہ سے زیادہ 50 جگہیں)۔
+21	آپ زیادہ سے زیادہ 20 مشترکہ فہرستیں بنا سکتے ہیں۔
+22	{1} نے آپ کو فالو کرنا شروع کیا
+23	{1} آپ کی مشترکہ سفری فہرست میں شامل ہوئے
+24	مشترکہ فہرست میں شامل کریں
+25	میری مسافر پروفائل
+26	میرا سال
+27	جنہیں فالو کرتا ہوں
+28	فالو کرنے کے لیے سائن ان کریں
+29	یہ مسافر نہیں ملا۔
+30	فالوورز
+31	فالو کر رہے ہیں
+32	{1} سے مسافر
+33	فالو کر رہے ہیں
+34	فالو کریں
+35	اس مسافر نے کون سی جگہیں دیکھیں یہ نجی ہے؛ صرف تعداد نظر آتی ہے۔
+36	حالیہ تبصرے
+37	ابھی کوئی تبصرہ نہیں۔
+38	میرا سفری سال
+39	آپ ابھی کسی کو فالو نہیں کرتے۔
+40	پروفائل کھول کر فالو کرنے کے لیے کسی تبصرے میں مسافر کے نام پر ٹیپ کریں۔
+41	جنہیں آپ فالو کرتے ہیں انہوں نے ابھی کچھ شیئر نہیں کیا۔
+42	مشترکہ فہرستوں کے لیے سائن ان کریں
+43	دوستوں یا گھر والوں کے ساتھ مل کر سفر کی فہرست بنائیں۔ لنک شیئر کریں؛ شامل ہونے والا ہر شخص جگہیں شامل اور حذف کر سکتا ہے۔
+44	فہرست کا نام (مثلاً کپادوکیا ویک اینڈ)
+45	آپ کی ابھی کوئی مشترکہ فہرست نہیں۔
+46	آپ نے بنائی
+47	جس فہرست میں آپ شامل ہیں
+48	زیادہ سے زیادہ {1} جگہیں اور {2} افراد۔
+49	مشترکہ فہرست
+50	آپ یہ فہرست نہیں دیکھ سکتے۔
+51	فہرست میں شامل ہونے کے لیے آپ کو بھیجا گیا لنک کھولیں۔
+52	یہ جگہ پہلے سے فہرست میں ہے
+53	فہرست میں شامل کر دیا
+54	فہرست حذف کر دی گئی
+55	آپ نے فہرست چھوڑ دی
+56	میری مشترکہ سفری فہرست میں شامل ہوں
+57	مدعو کریں
+58	ابھی کوئی جگہ شامل نہیں کی گئی۔
+59	{1} نے شامل کیا
+60	جگہ شامل کریں
+61	شرکاء
+62	آپ (فہرست کے مالک)
+63	فہرست کے مالک اور مدعو افراد
+64	ابھی کوئی شامل نہیں ہوا۔ دعوتی لنک شیئر کریں۔
+65	بنائی گئی: {1}
+66	فہرست حذف کریں
+67	فہرست چھوڑیں
+68	فہرست {1} میں شامل کر دیا
+69	نئی مشترکہ فہرست
+70	اپنا خلاصہ دیکھنے کے لیے سائن ان کریں
+71	میرا {1} کا سفری خلاصہ
+72	{1} صوبے
+73	سب سے زیادہ گھومے گئے صوبے: {1}
+74	پسندیدہ قسم: {1}
+75	{1} روزنامچہ نوٹس
+76	آپ کی سب سے زیادہ پسند کی گئی تصویر
+77	اس سال آپ نے ابھی کسی جگہ کو "گیا تھا" کا نشان نہیں دیا۔ سفر کے ساتھ خلاصہ بھرتا جائے گا۔
+78	اپنا خلاصہ شیئر کریں
+79	فہرستیں مکمل کریں اور بیجز حاصل کریں۔ ہر "گیا تھا" کے ساتھ پیش رفت بڑھتی ہے۔
+80	مکمل شدہ
+81	نہیں ملا۔
+82	مبارک ہو، آپ نے یہ مجموعہ مکمل کر لیا!
+83	2023 تک ترکیہ کے 21 یونیسکو عالمی ورثہ مقامات کی بنیاد پر۔
+84	سوال {1}/{2}
+85	پوائنٹس {1}
+86	تصویر دیکھیں اور اندازہ لگائیں کہ یہ ترکیہ میں کہاں ہے۔
+87	آج کا سوال
+88	سب کے لیے وہی 5 تصویریں؛ دن میں ایک بار کھیلیں۔
+89	آج آپ کے پوائنٹس: {1}/5
+90	آج کا سوال کھیلیں
+91	لیڈر بورڈ میں آنے کے لیے سائن ان کریں۔
+92	آزاد کھیل
+93	10 بے ترتیب تصویریں۔ آپ کا بہترین اسکور: {1}/10
+94	کھیلیں
+95	آج کا لیڈر بورڈ
+96	آج ابھی کسی نے نہیں کھیلا۔
+97	تصاویر: Wikimedia Commons
+98	بہار
+99	گرمی
+100	خزاں
+101	سردی
+102	آسان
+103	درمیانہ
+104	مشکل
+105	ترکیہ کے نشان زدہ لمبے پیدل راستے اور وادیاں۔
+106	آغاز
+107	اختتام
+108	بہترین موسم
+109	OpenStreetMap سے راستہ لوڈ ہو رہا ہے…
+110	راستہ ابھی لوڈ نہیں ہو سکا؛ نقشے پر آغاز اور اختتام دکھائے گئے ہیں۔
+111	راستہ: © OpenStreetMap کے معاونین۔ نکلنے سے پہلے نشانات اور موسم دیکھ لیں۔
+112	Culture Routes in Turkey پر کھولیں
+113	لمبے راستوں پر کافی پانی رکھیں، کسی کو اپنا راستہ بتائیں اور گرمیوں کی دوپہر میں نہ چلیں۔
+114	بلیو فلیگ
+115	اس علاقے کا ایک ساحل {1} کی بلیو فلیگ فہرست میں ہے۔
+116	{1} کی بلیو فلیگ فہرست میں۔
+117	بلیو فلیگ ہر سال نئے سرے سے دیا جاتا ہے؛ تازہ صورتحال mavibayrak.org.tr پر دیکھیں۔
+118	گائیڈ کے وہ ساحل جو بلیو فلیگ فہرستوں میں ہیں۔ یہ ہر سال صاف پانی، حفاظت اور ماحولیاتی انتظام کی بنیاد پر دیا جاتا ہے۔
+119	تصویروں کے لیے بہترین اوقات
+120	صبح کا سنہری وقت
+121	شام کا سنہری وقت
+122	نیلا وقت
+123	قریبی ویو پوائنٹس
+124	3 کلومیٹر کے اندر کوئی نشان زدہ ویو پوائنٹ نہیں ملا۔
+125	اوقات آج کے ہیں، ترکیہ کے وقت کے مطابق۔
+126	سمندر اور ساحل
+127	فطرت کی سیر
+128	مسجد کی زیارت
+129	برف اور اسکیئنگ
+130	غبارے کی سیر
+131	دستاویزات
+132	شناختی کارڈ یا پاسپورٹ
+133	ڈرائیونگ لائسنس (اگر گاڑی چلائیں گے)
+134	کریڈٹ کارڈ اور کچھ لیرا نقد
+135	رہائش اور ٹکٹ کی معلومات
+136	سفری ہیلتھ انشورنس (اگر غیر ملکی ہیں)
+137	کپڑے
+138	آرام دہ چلنے والے جوتے
+139	شام کے لیے ہلکی تہہ
+140	کوٹ یا موٹی جیکٹ
+141	سویٹر
+142	ٹوپی اور دستانے
+143	دھوپ کی ٹوپی
+144	پتلے، ہلکے رنگ کے کپڑے
+145	برساتی اور واٹر پروف جوتے
+146	تھرمل انڈر ویئر
+147	برف کے جوتے
+148	صحت اور نگہداشت
+149	آپ کی ذاتی دوائیں
+150	درد کش دوا اور پٹیاں
+151	ٹوتھ برش اور ٹوتھ پیسٹ
+152	گیلے ٹشو اور ہینڈ سینیٹائزر
+153	سن اسکرین (SPF 30+)
+154	مچھر بھگانے والی دوا
+155	الیکٹرانکس
+156	فون اور چارجر
+157	پاور بینک
+158	آف لائن نقشہ (ایپ میں ڈاؤن لوڈ کریں)
+159	سوئم سوٹ
+160	ساحلی تولیہ
+161	پانی کے جوتے
+162	دھوپ کا چشمہ
+163	پانی کی بوتل
+164	چھوٹا بیگ
+165	ہلکا ناشتہ
+166	ٹریکنگ اسٹکس
+167	ٹارچ
+168	دوپٹہ یا شال
+169	گھٹنوں سے نیچے تک کے کپڑے
+170	آسانی سے اترنے والے جوتے
+171	اسکی جیکٹ اور پتلون
+172	اسکی چشمہ
+173	واٹر پروف دستانے
+174	چہرے کے لیے سن اسکرین
+175	صبح کی ٹھنڈ کے لیے گرم کپڑا
+176	بند جوتے
+177	کہاں؟
+178	کب؟
+179	کتنے دن؟
+180	کیا کریں گے؟
+181	{1}/{2} تیار
+182	{1} دن کے انڈر ویئر اور موزے
+183	نشانات صاف کریں
+184	ترجمہ ہو رہا ہے…
+185	اصل دکھائیں
+186	ترجمہ کریں
+187	ابھی ترجمہ نہیں ہو سکا، بعد میں دوبارہ کوشش کریں۔
+188	مشینی ترجمہ · MyMemory
+189	یونیسکو عالمی ورثہ
+190	عالمی ورثہ فہرست میں ترکیہ کے 21 مقامات
+191	استنبول کے تاریخی علاقے
+192	گورمے اور کپادوکیا
+193	دیوریغی کی بڑی مسجد اور شفاخانہ
+194	ہتوشا
+195	کوہ نمرود
+196	ہیراپولس-پاموکالے
+197	زانتھوس-لیتون
+198	سفران بولو
+199	ٹرائے کا آثار قدیمہ کا مقام
+200	سلیمیہ مسجد، ادرنہ
+201	چاتال ہویوک
+202	بورصہ اور جمالی قیزیق
+203	پرگامون
+204	افسس
+205	آنی
+206	افروڈیسیاس
+207	گوبکلی تپہ
+208	دیار بکر کا قلعہ اور ہیوسل باغات
+209	ارسلان تپہ ٹیلا
+210	گوردیون
+211	لکڑی کے ستونوں والی سلجوقی مساجد
+212	7 علاقے
+213	ہر جغرافیائی علاقے میں کم از کم ایک جگہ
+214	بحیرہ ایجیئن کے قدیم شہر
+215	ایجیئن علاقے کے قدیم شہر اور کھنڈرات
+216	استنبول کی مساجد
+217	گائیڈ میں استنبول کی مساجد
+218	نوشہر کی وادیاں، زیر زمین شہر اور قصبے
+219	محلات
+220	گائیڈ کے تمام محلات
+221	مینار
+222	گائیڈ کے تمام مینار
+223	گرم چشمے
+224	گائیڈ کے تمام گرم چشمے
+225	گھاٹیاں
+226	گائیڈ کی تمام گھاٹیاں
+227	غار
+228	گائیڈ کے تمام غار
+229	جزائر
+230	گائیڈ کے تمام جزائر
+231	بحیرہ روم کے ساحل کے ساتھ قدیم لائسیئن شہروں، دیہات اور چیڑ کے جنگلات سے گزرنے والا نشان زدہ لمبا پیدل راستہ۔ اسے ایک ساتھ نہیں، مرحلہ وار چلا جاتا ہے۔
+232	طوروس پہاڑوں کو پار کرتے ہوئے انطالیہ سے ایغیردیر جھیل کے قریب یالواچ تک پہاڑی راستہ؛ گھاٹیاں، بلند چراگاہیں اور جھیل کے کنارے۔
+233	موغلا کے بودروم، داچا اور بوزبورون جزیرہ نماؤں کے گرد ترکیہ کا سب سے لمبا نشان زدہ راستہ؛ خلیجیں اور قدیم کاریائی شہر۔
+234	بحیرہ اسود کے بلند پہاڑوں میں چراگاہی دیہات، برفانی جھیلوں اور دروں سے گزرتا کئی دن کا پہاڑی سفر۔ موسم جلد بدلتا ہے؛ تجربہ اور سامان ضروری ہے۔
+235	ازمیر کے پہاڑی دیہات، زیتون کے باغات اور تاریخی بستیوں کو جوڑنے والا نشان زدہ راستہ۔
+236	ترکیہ کے سب سے اونچے پہاڑ پر چڑھائی اور واپسی۔ گائیڈ اور اجازت کے ساتھ؛ بلندی کا تجربہ ضروری ہے۔
+237	طوروس کی چونے کے پتھر کی چوٹیوں کے درمیان یدی گوللر سطح مرتفع تک آنا جانا۔
+238	مشہور سیاح نے 1671 میں حج کے سفر میں جو راستہ اختیار کیا اس کا ایک حصہ؛ پیدل یا گھوڑے پر چلنے والا دیہی راستہ۔
+239	فریجیائی وادی کی چٹانی یادگاروں، پریوں کی چمنیوں اور ویران دیہات سے گزرتا راستہ؛ سب سے مشہور پڑاؤ یازیلی قایا (میداس یادگار) ہے۔
+240	میلندیز ندی کے ساتھ چٹانی گرجا گھروں کے درمیان چلی جانے والی کپادوکیا کی وادی؛ زیادہ تر لوگ مختصر حصہ چلتے ہیں۔
+241	مشرق وسطیٰ کے ابراہیم راستے کا ترکیہ والا حصہ، شانلی عرفہ کے اطراف کے دیہات سے حران کے گنبد نما گھروں تک۔
+242	وہ تاریخی راستہ جس سے جنگ آزادی میں گولہ بارود اور رضاکار اینے بولو سے انقرہ لے جائے گئے۔
+243	ویانا سے استنبول تک کے بین الاقوامی پیدل راستے کا تھریس حصہ۔
+244	لمبائی اور دورانیہ: GoTürkiye / Culture Routes in Turkey
+245	کیا آپ کو یقین ہے؟ تصدیق کے لیے دوبارہ ٹیپ کریں
+246	کوئی نتیجہ نہیں
+247	آپ کی پیش رفت اس براؤزر میں محفوظ ہوتی ہے؛ اکاؤنٹ میں محفوظ کرنے کے لیے سائن ان کریں۔
+248	لیڈر بورڈ کے لیے انٹرنیٹ کنکشن ضروری ہے۔
+249	{1} سیکنڈ
+250	{1} کلومیٹر
+251	پسندیدہ قسم:
+252	دیکھی گئی جگہیں
+253	ملنے والی پسند
+254	جگہ تلاش کریں اور شامل کریں
+@id
+0	Kamu sudah bergabung dengan daftar ini
+1	Kamu bergabung dengan daftar {1}
+2	Daftar bersama
+3	Daftar perjalanan bersama teman
+4	Jalur pendakian
+5	Jalur Lycia, Pegunungan Kaçkar, dan lainnya
+6	Pantai Bendera Biru
+7	Pantai bersih dan aman
+8	Daftar barang bawaan
+9	Barang bawaan menurut wilayah dan musim
+10	Seru-seruan dan kenangan
+11	Koleksi
+12	Warisan UNESCO, 7 wilayah, dan lainnya
+13	Di mana ini?
+14	Tebak tempat dari foto, jawab soal hari ini
+15	Ringkasan tahun perjalanan
+16	Perjalanan tahun ini dalam satu kartu
+17	Buka profil {1}
+18	Tautan undangan tidak valid atau daftar sudah dihapus.
+19	Daftar ini penuh (maks. 20 orang).
+20	Daftar penuh (maks. 50 tempat).
+21	Kamu bisa membuat hingga 20 daftar bersama.
+22	{1} mulai mengikutimu
+23	{1} bergabung dengan daftar perjalanan bersamamu
+24	Tambahkan ke daftar bersama
+25	Profil pelancongku
+26	Tahunku
+27	Diikuti
+28	Masuk untuk mengikuti
+29	Pelancong tidak ditemukan.
+30	Pengikut
+31	Mengikuti
+32	Pelancong sejak {1}
+33	Mengikuti
+34	Ikuti
+35	Tempat yang dikunjungi pelancong ini bersifat pribadi; hanya angkanya yang terlihat.
+36	Ulasan terbaru
+37	Belum ada ulasan.
+38	Tahun perjalananku
+39	Kamu belum mengikuti siapa pun.
+40	Ketuk nama pelancong di ulasan untuk membuka profilnya dan mengikutinya.
+41	Orang yang kamu ikuti belum membagikan apa pun.
+42	Masuk untuk daftar bersama
+43	Buat daftar perjalanan bersama teman atau keluarga. Bagikan tautannya; semua yang bergabung bisa menambah dan menghapus tempat.
+44	Nama daftar (mis. Akhir pekan di Kapadokia)
+45	Kamu belum punya daftar bersama.
+46	Dibuat olehmu
+47	Daftar yang kamu ikuti
+48	Hingga {1} tempat dan {2} orang.
+49	Daftar bersama
+50	Kamu tidak bisa melihat daftar ini.
+51	Buka tautan yang dikirimkan kepadamu untuk bergabung.
+52	Tempat ini sudah ada di daftar
+53	Ditambahkan ke daftar
+54	Daftar dihapus
+55	Kamu keluar dari daftar
+56	Gabung ke daftar perjalanan bersamaku
+57	Undang
+58	Belum ada tempat yang ditambahkan.
+59	Ditambahkan oleh {1}
+60	Tambah tempat
+61	Peserta
+62	Kamu (pemilik daftar)
+63	Pemilik daftar dan undangan
+64	Belum ada yang bergabung. Bagikan tautan undangan.
+65	Dibuat: {1}
+66	Hapus daftar
+67	Keluar dari daftar
+68	Ditambahkan ke daftar {1}
+69	Daftar bersama baru
+70	Masuk untuk melihat ringkasanmu
+71	Perjalananku tahun {1}
+72	{1} provinsi
+73	Provinsi paling sering dijelajahi: {1}
+74	Jenis favorit: {1}
+75	{1} catatan jurnal
+76	Fotomu yang paling banyak disukai
+77	Tahun ini kamu belum menandai tempat mana pun sebagai "Sudah ke sana". Ringkasanmu akan terisi seiring perjalanan.
+78	Bagikan ringkasanku
+79	Lengkapi daftar dan dapatkan lencana. Kemajuan bertambah setiap "Sudah ke sana".
+80	Selesai
+81	Tidak ditemukan.
+82	Selamat, kamu melengkapi koleksi ini!
+83	Berdasarkan 21 Situs Warisan Dunia UNESCO di Turki per 2023.
+84	Soal {1}/{2}
+85	Skor {1}
+86	Lihat fotonya dan tebak di mana letaknya di Turki.
+87	Soal hari ini
+88	5 foto yang sama untuk semua orang; dimainkan sekali sehari.
+89	Skormu hari ini: {1}/5
+90	Mainkan soal hari ini
+91	Masuk agar tercantum di papan peringkat.
+92	Main bebas
+93	10 foto acak. Skor terbaikmu: {1}/10
+94	Main
+95	Papan peringkat hari ini
+96	Belum ada yang bermain hari ini.
+97	Foto: Wikimedia Commons
+98	Musim semi
+99	Musim panas
+100	Musim gugur
+101	Musim dingin
+102	Mudah
+103	Sedang
+104	Sulit
+105	Jalur jalan kaki jarak jauh bertanda dan lembah di Turki.
+106	Awal
+107	Akhir
+108	Musim terbaik
+109	Memuat jalur dari OpenStreetMap…
+110	Jalur tidak dapat dimuat sekarang; peta menampilkan titik awal dan akhir.
+111	Jalur: © kontributor OpenStreetMap. Periksa penanda dan cuaca sebelum berangkat.
+112	Buka di Culture Routes in Turkey
+113	Di jalur panjang bawalah cukup air, beri tahu seseorang rutemu, dan jangan berjalan di siang hari saat panas musim panas.
+114	Bendera Biru
+115	Ada pantai di area ini dalam daftar Bendera Biru {1}.
+116	Dalam daftar Bendera Biru {1}.
+117	Bendera Biru diberikan ulang setiap tahun; cek status terkini di mavibayrak.org.tr.
+118	Pantai dalam panduan yang masuk daftar Bendera Biru. Diberikan setiap tahun berdasarkan air bersih, keselamatan, dan pengelolaan lingkungan.
+119	Waktu terbaik untuk foto
+120	Golden hour pagi
+121	Golden hour sore
+122	Blue hour
+123	Titik pandang terdekat
+124	Tidak ada titik pandang bertanda dalam radius 3 km.
+125	Waktu untuk hari ini, waktu Turki.
+126	Laut dan pantai
+127	Jalan-jalan di alam
+128	Kunjungan ke masjid
+129	Salju dan ski
+130	Tur balon udara
+131	Dokumen
+132	KTP atau paspor
+133	SIM (jika menyetir)
+134	Kartu kredit dan sedikit uang tunai lira
+135	Info penginapan dan tiket
+136	Asuransi kesehatan perjalanan (jika kamu orang asing)
+137	Pakaian
+138	Sepatu jalan yang nyaman
+139	Lapisan tipis untuk malam
+140	Mantel atau jaket tebal
+141	Sweter
+142	Topi kupluk dan sarung tangan
+143	Topi matahari
+144	Pakaian tipis berwarna terang
+145	Jas hujan dan sepatu tahan air
+146	Pakaian dalam termal
+147	Sepatu bot salju
+148	Kesehatan dan perawatan
+149	Obat-obatan pribadimu
+150	Pereda nyeri dan plester
+151	Sikat dan pasta gigi
+152	Tisu basah dan hand sanitizer
+153	Tabir surya (SPF 30+)
+154	Losion antinyamuk
+155	Elektronik
+156	Ponsel dan pengisi daya
+157	Power bank
+158	Peta offline (unduh di aplikasi)
+159	Baju renang
+160	Handuk pantai
+161	Sepatu air
+162	Kacamata hitam
+163	Botol minum
+164	Ransel kecil
+165	Camilan
+166	Tongkat trekking
+167	Senter
+168	Kerudung atau selendang
+169	Pakaian sampai bawah lutut
+170	Sepatu yang mudah dilepas
+171	Jaket dan celana ski
+172	Kacamata ski
+173	Sarung tangan tahan air
+174	Tabir surya untuk wajah
+175	Lapisan hangat untuk dingin pagi
+176	Sepatu tertutup
+177	Ke mana?
+178	Kapan?
+179	Berapa hari?
+180	Mau melakukan apa?
+181	{1}/{2} siap
+182	Pakaian dalam dan kaus kaki untuk {1} hari
+183	Hapus centang
+184	Menerjemahkan…
+185	Tampilkan aslinya
+186	Terjemahkan
+187	Tidak bisa menerjemahkan sekarang, coba lagi nanti.
+188	Terjemahan mesin · MyMemory
+189	Warisan Dunia UNESCO
+190	21 situs Turki dalam Daftar Warisan Dunia
+191	Kawasan bersejarah Istanbul
+192	Göreme dan Kapadokia
+193	Masjid Agung dan Rumah Sakit Divriği
+194	Hattusa
+195	Gunung Nemrut
+196	Hierapolis-Pamukkale
+197	Xanthos-Letoon
+198	Safranbolu
+199	Situs arkeologi Troya
+200	Masjid Selimiye, Edirne
+201	Çatalhöyük
+202	Bursa dan Cumalıkızık
+203	Pergamon
+204	Efesus
+205	Ani
+206	Aphrodisias
+207	Göbekli Tepe
+208	Benteng Diyarbakır dan Taman Hevsel
+209	Gundukan Arslantepe
+210	Gordion
+211	Masjid Seljuk bertiang kayu
+212	7 wilayah
+213	Minimal satu tempat di setiap wilayah
+214	Kota kuno di Laut Aegea
+215	Kota kuno dan reruntuhan di wilayah Aegea
+216	Masjid-masjid Istanbul
+217	Masjid Istanbul dalam panduan
+218	Lembah, kota bawah tanah, dan kota kecil di Nevşehir
+219	Istana
+220	Semua istana dalam panduan
+221	Menara
+222	Semua menara dalam panduan
+223	Pemandian air panas
+224	Semua pemandian air panas dalam panduan
+225	Ngarai
+226	Semua ngarai dalam panduan
+227	Gua
+228	Semua gua dalam panduan
+229	Pulau
+230	Semua pulau dalam panduan
+231	Jalur jalan kaki jarak jauh bertanda di sepanjang pesisir Mediterania melewati kota kuno Lycia, desa, dan hutan pinus. Ditempuh per etape, bukan sekaligus.
+232	Jalur pegunungan melintasi Pegunungan Taurus dari Antalya ke Yalvaç dekat Danau Eğirdir; ngarai, padang rumput tinggi, dan tepi danau.
+233	Jalur bertanda terpanjang di Turki yang mengelilingi semenanjung Bodrum, Datça, dan Bozburun di Muğla; teluk kecil dan kota kuno Karia.
+234	Pendakian beberapa hari di pegunungan tinggi Laut Hitam melewati desa dataran tinggi, danau glasial, dan celah gunung. Cuaca cepat berubah; perlu pengalaman dan perlengkapan.
+235	Jalur bertanda yang menghubungkan desa pegunungan, kebun zaitun, dan permukiman bersejarah di İzmir.
+236	Pendakian pergi-pulang ke gunung tertinggi Turki. Harus dengan pemandu dan izin; perlu pengalaman di ketinggian.
+237	Pendakian pergi-pulang di antara puncak kapur Taurus menuju dataran tinggi Yedigöller.
+238	Sebagian rute yang ditempuh pelancong terkenal itu saat naik haji pada 1671; rute pedesaan untuk jalan kaki atau berkuda.
+239	Jalur melewati monumen batu, cerobong peri, dan desa terbengkalai di Lembah Frigia; perhentian paling terkenal adalah Yazılıkaya (Monumen Midas).
+240	Lembah di Kapadokia di sepanjang sungai Melendiz di antara gereja batu; kebanyakan orang hanya menyusuri sebagian pendek.
+241	Bagian Turki dari Jalur Ibrahim di Timur Tengah, dari desa-desa sekitar Şanlıurfa ke rumah berkubah di Harran.
+242	Rute bersejarah tempat amunisi dan relawan diangkut dari İnebolu ke Ankara pada Perang Kemerdekaan.
+243	Bagian Thrakia dari jalur internasional dari Wina ke Istanbul.
+244	Panjang dan durasi: GoTürkiye / Culture Routes in Turkey
+245	Yakin? Ketuk lagi untuk konfirmasi
+246	Tidak ada hasil
+247	Kemajuanmu disimpan di browser ini; masuk untuk menyimpannya di akunmu.
+248	Papan peringkat memerlukan koneksi internet.
+249	{1} dtk
+250	{1} km
+251	Jenis favorit:
+252	Tempat dikunjungi
+253	Suka yang diterima
+254	Cari dan tambahkan tempat

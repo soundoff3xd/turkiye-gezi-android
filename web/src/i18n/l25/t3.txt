@@ -1,0 +1,468 @@
+@pt
+0	A procurar atualizações
+1	A sua app está atualizada
+2	A transferir
+3	Pode continuar a usar a app; a instalação abre quando a transferência terminar.
+4	Pronta para instalar
+5	Toque em «Instalar» no ecrã que se abre. Se o telemóvel pedir permissão, ative «Permitir desta origem» e volte.
+6	Não foi possível transferir a atualização
+7	Verifique a ligação à internet e tente de novo, ou transfira no navegador.
+8	Atualizar
+9	Abrir instalação
+10	Tentar de novo
+11	Transferir no navegador
+12	OK
+13	Continuar em segundo plano
+14	A minha rota
+15	Já não há paragens na rota.
+16	Adicionar paragem
+17	Partilhar rota
+18	Desative as opções de evitar e tente de novo.
+19	incl. {1} em paragens
+20	Paragens
+21	Partida: a sua localização
+22	Partida: primeira paragem
+23	ficar {1}
+24	Adicionar tempo de visita
+25	Remover paragem
+26	Ordem mais curta
+27	Paragens pelo caminho
+28	Sítios onde parar sem grande desvio.
+29	A procurar…
+30	Nada encontrado perto da rota.
+31	a {1} da rota
+32	Adicionar
+33	No caminho, não perca
+34	Locais do guia perto da sua rota.
+35	Ocultar
+36	Mostrar ({1})
+37	Procurar um local ou província
+38	Os seus favoritos e locais em destaque
+39	Pode adicionar até {1} paragens
+40	Esta paragem já está na rota
+41	{1} adicionado como paragem
+42	As paragens já estão na ordem mais curta
+43	Não foi possível carregar as áreas de descanso
+44	Está a conduzir há 2 horas. Que tal uma pausa curta?
+45	Pausa
+46	Está a conduzir há 2 horas. Uma pausa curta faz bem.
+47	Encontrar área de descanso
+48	Áreas de descanso mais à frente
+49	Nada encontrado nos próximos 45 km.
+50	fechado
+51	feriado
+52	Horário
+53	Dados do OpenStreetMap; podem variar em feriados e dias especiais. Confirme na fonte oficial antes de ir.
+54	Aberta a visitantes agora
+55	de novo possível depois das {1}
+56	Fora do horário de visita
+57	Horário de visita
+58	Horas adequadas hoje
+59	À sexta-feira a oração do meio-dia é mais longa e concorrida; evite o meio-dia.
+60	Descalce-se à entrada. As mulheres cobrem o cabelo; ombros e joelhos devem estar cobertos. Não passe à frente de quem reza nem use flash.
+61	Os horários são calculados e podem variar alguns minutos.
+62	Emergência
+63	Os números antigos 155, 156 e 110 também são encaminhados para o 112.
+64	Embaixadas e consulados
+65	Se perdeu o passaporte, contacte a representação do seu país.
+66	Perto de si
+67	Permita o acesso à localização para ver locais próximos.
+68	Não foi possível carregar agora. Verifique a ligação à internet.
+69	Nada encontrado nas proximidades.
+70	Tem urgências
+71	Ligar
+72	À noite e nos feriados, a lista de farmácias de serviço está afixada na porta de cada farmácia.
+73	Conversor de moeda
+74	Inverter sentido
+75	Taxa de venda do Banco Central, {1}
+76	offline, última taxa conhecida
+77	As taxas de casas de câmbio e cartões podem diferir; o valor é aproximado.
+78	Não foi possível carregar as taxas.
+79	Guia de preços
+80	Não foi possível carregar o guia de preços.
+81	Preços aproximados; mudam muitas vezes devido à inflação. A data de cada preço está entre parênteses.
+82	Dicas
+83	Ainda não há previsão para este dia.
+84	Probabilidade de chuva {1}%
+85	Parece chuvoso; considere locais cobertos neste dia.
+86	Amanhã
+87	à taxa do Banco Central
+88	Quando vai?
+89	Previsão
+90	Aberto 24 horas hoje
+91	fecha dentro de {1} min
+92	fecha às {1}
+93	Aberto agora
+94	Fechado
+95	abre hoje às {1}
+96	abre amanhã às {1}
+97	abre às {1}
+98	Área de serviço
+99	Sem portagens
+100	Sem autoestradas
+101	Sem ferries
+102	Chamada de emergência
+103	YİMER · Centro de comunicação para estrangeiros
+104	Alerta de incêndio florestal
+105	Hospital
+106	Oração de sexta-feira
+107	Oração do meio-dia
+108	Oração da tarde
+109	Oração do pôr do sol
+110	Fajr
+111	Nascer do sol
+112	Dhuhr
+113	Asr
+114	Maghrib
+115	Isha
+116	seg
+117	ter
+118	qua
+119	qui
+120	sex
+121	sáb
+122	dom
+123	Segunda-feira
+124	Terça-feira
+125	Quarta-feira
+126	Quinta-feira
+127	Sexta-feira
+128	Sábado
+129	Domingo
+130	Ambulância, polícia, bombeiros, gendarmaria e guarda costeira: um só número para todas as emergências. Chamada gratuita.
+131	Ajuda 24/7 para estrangeiros: turco, inglês, árabe, russo, alemão e persa.
+132	Se vir fumo ou fogo numa floresta.
+133	Valores em liras à taxa do Banco Central
+134	Preços de simit, transportes, táxis e museus
+135	112, hospital e farmácia mais próximos
+136	Procurar atualizações
+137	Simit (Istambul)
+138	Istanbulkart, tarifa normal
+139	Bandeirada do táxi (Istambul)
+140	Táxi por km (Istambul)
+141	Táxi, viagem curta mínima (Istambul)
+142	Müzekart (cidadãos da Turquia e da RTCN, 1 ano)
+143	Entrada em Éfeso (visitantes estrangeiros)
+144	Entrada na Torre de Gálata (visitantes estrangeiros)
+145	Setembro de 2026
+146	Julho de 2026
+147	Novembro de 2026
+148	Onde não houver lista de preços, pergunte primeiro o preço.
+149	No táxi, confirme que o taxímetro está ligado.
+150	Regatear é normal no Grande Bazar e nos mercados, mas não nos restaurantes.
+151	Nas zonas turísticas os preços podem ser bem mais altos do que no resto da cidade.
+152	A gorjeta é opcional (normalmente 5–10%); se a conta incluir taxa de serviço, não é preciso mais.
+153	Partilharam uma rota consigo
+154	A sua lista de viagem está cheia (máximo 24 locais).
+@nl
+0	Zoeken naar updates
+1	Je app is up-to-date
+2	Downloaden
+3	Je kunt de app blijven gebruiken; de installatie opent als de download klaar is.
+4	Klaar om te installeren
+5	Tik op ‘Installeren’ op het scherm dat opent. Vraagt je telefoon om toestemming, zet dan ‘Toestaan van deze bron’ aan en ga terug.
+6	Update kon niet worden gedownload
+7	Controleer je internetverbinding en probeer opnieuw, of download hem in de browser.
+8	Bijwerken
+9	Installatie openen
+10	Opnieuw proberen
+11	Downloaden in browser
+12	OK
+13	Op de achtergrond doorgaan
+14	Mijn route
+15	Er staan geen stops meer op de route.
+16	Stop toevoegen
+17	Route delen
+18	Zet de vermijdopties uit en probeer opnieuw.
+19	incl. {1} aan stops
+20	Stops
+21	Start: je locatie
+22	Start: eerste stop
+23	{1} blijven
+24	Verblijfsduur toevoegen
+25	Stop verwijderen
+26	Kortste volgorde
+27	Stops onderweg
+28	Plekken die je zonder grote omweg kunt bezoeken.
+29	Zoeken…
+30	Niets gevonden in de buurt van de route.
+31	{1} van de route
+32	Toevoegen
+33	Onderweg, niet missen
+34	Bezienswaardigheden uit de gids dicht bij je route.
+35	Verbergen
+36	Tonen ({1})
+37	Zoek een plek of provincie
+38	Je favorieten en topplekken
+39	Je kunt tot {1} stops toevoegen
+40	Deze stop staat al op de route
+41	{1} toegevoegd als stop
+42	De stops staan al in de kortste volgorde
+43	Rustplaatsen konden nu niet worden geladen
+44	Je rijdt al 2 uur. Zin in een korte pauze?
+45	Pauze
+46	Je rijdt al 2 uur. Een korte pauze doet je goed.
+47	Rustplaats zoeken
+48	Rustplaatsen verderop
+49	Niets gevonden in de komende 45 km.
+50	gesloten
+51	feestdag
+52	Openingstijden
+53	OpenStreetMap-gegevens; kunnen afwijken op feestdagen en bijzondere dagen. Controleer de officiële bron voordat je gaat.
+54	Nu open voor bezoekers
+55	weer mogelijk na {1}
+56	Buiten de bezoektijden
+57	Bezoektijden
+58	Geschikte tijden vandaag
+59	Op vrijdag duurt het middaggebed langer en is het drukker; vermijd het middaguur.
+60	Schoenen uit bij de ingang. Vrouwen bedekken het haar; schouders en knieën moeten bedekt zijn. Loop niet voor biddende mensen langs en gebruik geen flits.
+61	De tijden zijn berekend en kunnen een paar minuten afwijken.
+62	Noodgeval
+63	Oude nummers zoals 155, 156 en 110 worden ook doorgeschakeld naar 112.
+64	Ambassades en consulaten
+65	Ben je je paspoort kwijt, neem dan contact op met de vertegenwoordiging van je land.
+66	Bij jou in de buurt
+67	Sta locatietoegang toe om plekken in de buurt te zien.
+68	Kon nu niet laden. Controleer je internetverbinding.
+69	Niets gevonden in de buurt.
+70	Met spoedeisende hulp
+71	Bellen
+72	’s Nachts en op feestdagen hangt de lijst met dienstapotheken op de deur van elke apotheek.
+73	Valutacalculator
+74	Richting omdraaien
+75	Verkoopkoers Centrale Bank, {1}
+76	offline, laatst bekende koers
+77	Koersen van wisselkantoren en kaarten kunnen verschillen; de waarde is bij benadering.
+78	Koersen konden nu niet worden geladen.
+79	Prijsgids
+80	De prijsgids kon nu niet worden geladen.
+81	Prijzen bij benadering; ze veranderen vaak door inflatie. De datum van elke prijs staat tussen haakjes.
+82	Tips
+83	Nog geen verwachting voor deze dag.
+84	Kans op regen {1}%
+85	Ziet er regenachtig uit; plan op deze dag overdekte plekken.
+86	Morgen
+87	tegen de koers van de Centrale Bank
+88	Wanneer ga je?
+89	Verwachting
+90	Vandaag 24 uur open
+91	sluit over {1} min
+92	sluit om {1}
+93	Nu open
+94	Gesloten
+95	gaat vandaag open om {1}
+96	gaat morgen open om {1}
+97	gaat open om {1}
+98	Verzorgingsplaats
+99	Geen tolwegen
+100	Geen snelwegen
+101	Geen veerboten
+102	Noodoproep
+103	YİMER · Communicatiecentrum voor buitenlanders
+104	Bosbrand melden
+105	Ziekenhuis
+106	Vrijdaggebed
+107	Middaggebed
+108	Namiddaggebed
+109	Avondgebed
+110	Fajr
+111	Zonsopgang
+112	Dhuhr
+113	Asr
+114	Maghrib
+115	Isha
+116	ma
+117	di
+118	wo
+119	do
+120	vr
+121	za
+122	zo
+123	Maandag
+124	Dinsdag
+125	Woensdag
+126	Donderdag
+127	Vrijdag
+128	Zaterdag
+129	Zondag
+130	Ambulance, politie, brandweer, gendarmerie en kustwacht: één nummer voor alle noodgevallen. Gratis te bellen.
+131	24/7 hulp voor buitenlanders: Turks, Engels, Arabisch, Russisch, Duits en Perzisch.
+132	Als je rook of vuur in een bos ziet.
+133	Bedragen in lira tegen de koers van de Centrale Bank
+134	Prijzen van simit, vervoer, taxi’s en musea
+135	112, dichtstbijzijnd ziekenhuis en apotheek
+136	Controleren op updates
+137	Simit (Istanbul)
+138	Istanbulkart, volledig tarief
+139	Taxi instaptarief (Istanbul)
+140	Taxi per km (Istanbul)
+141	Taxi minimumtarief korte rit (Istanbul)
+142	Müzekart (burgers van Turkije en de TRNC, 1 jaar)
+143	Toegang Efeze (buitenlandse bezoekers)
+144	Toegang Galatatoren (buitenlandse bezoekers)
+145	September 2026
+146	Juli 2026
+147	November 2026
+148	Waar geen prijslijst is, vraag eerst de prijs.
+149	Let in de taxi op dat de meter loopt.
+150	Afdingen is normaal in de Grote Bazaar en op markten, maar niet in restaurants.
+151	In toeristische gebieden kunnen prijzen flink hoger zijn dan in de rest van de stad.
+152	Fooi is vrijwillig (meestal 5–10%); staat er al servicekosten op de rekening, dan hoeft er niets bij.
+153	Er is een route met je gedeeld
+154	Je reislijst is vol (maximaal 24 plekken).
+@pl
+0	Sprawdzanie aktualizacji
+1	Aplikacja jest aktualna
+2	Pobieranie
+3	Możesz dalej korzystać z aplikacji; instalacja otworzy się po zakończeniu pobierania.
+4	Gotowe do instalacji
+5	Na otwartym ekranie stuknij „Zainstaluj”. Jeśli telefon poprosi o zgodę, włącz „Zezwalaj z tego źródła” i wróć.
+6	Nie udało się pobrać aktualizacji
+7	Sprawdź połączenie z internetem i spróbuj ponownie albo pobierz ją w przeglądarce.
+8	Aktualizuj
+9	Otwórz instalację
+10	Spróbuj ponownie
+11	Pobierz w przeglądarce
+12	OK
+13	Kontynuuj w tle
+14	Moja trasa
+15	Na trasie nie ma już przystanków.
+16	Dodaj przystanek
+17	Udostępnij trasę
+18	Wyłącz opcje omijania i spróbuj ponownie.
+19	w tym {1} na postojach
+20	Przystanki
+21	Start: Twoja lokalizacja
+22	Start: pierwszy przystanek
+23	zostań {1}
+24	Dodaj czas pobytu
+25	Usuń przystanek
+26	Najkrótsza kolejność
+27	Postoje po drodze
+28	Miejsca, do których zajedziesz bez dużego objazdu.
+29	Szukanie…
+30	Nic nie znaleziono w pobliżu trasy.
+31	{1} od trasy
+32	Dodaj
+33	Po drodze — nie przegap
+34	Atrakcje z przewodnika blisko Twojej trasy.
+35	Ukryj
+36	Pokaż ({1})
+37	Szukaj miejsca lub prowincji
+38	Twoje ulubione i najlepsze miejsca
+39	Możesz dodać do {1} przystanków
+40	Ten przystanek jest już na trasie
+41	Dodano przystanek: {1}
+42	Przystanki są już w najkrótszej kolejności
+43	Nie udało się teraz wczytać miejsc odpoczynku
+44	Jedziesz już 2 godziny. Może krótka przerwa?
+45	Przerwa
+46	Jedziesz już 2 godziny. Krótka przerwa dobrze Ci zrobi.
+47	Znajdź miejsce odpoczynku
+48	Miejsca odpoczynku przed Tobą
+49	Nic nie znaleziono na najbliższych 45 km.
+50	zamknięte
+51	święto
+52	Godziny otwarcia
+53	Dane OpenStreetMap; w święta i dni szczególne mogą się różnić. Przed wyjazdem sprawdź oficjalne źródło.
+54	Teraz otwarte dla zwiedzających
+55	znów można po {1}
+56	Poza godzinami zwiedzania
+57	Godziny zwiedzania
+58	Odpowiednie pory dzisiaj
+59	W piątki modlitwa południowa jest dłuższa i bardziej zatłoczona; unikaj południa.
+60	Przy wejściu zdejmuje się buty. Kobiety zakrywają włosy; ramiona i kolana powinny być zakryte. Nie przechodź przed modlącymi się i nie używaj lampy błyskowej.
+61	Godziny są obliczone i mogą różnić się o kilka minut.
+62	Pomoc w nagłych wypadkach
+63	Stare numery, np. 155, 156 i 110, też są przekierowywane na 112.
+64	Ambasady i konsulaty
+65	Jeśli zgubiłeś paszport, zgłoś się do przedstawicielstwa swojego kraju.
+66	W pobliżu
+67	Zezwól na dostęp do lokalizacji, aby zobaczyć miejsca w pobliżu.
+68	Nie udało się teraz wczytać. Sprawdź połączenie z internetem.
+69	Nic nie znaleziono w pobliżu.
+70	Ma SOR
+71	Zadzwoń
+72	W nocy i w święta lista dyżurnych aptek wisi na drzwiach każdej apteki.
+73	Przelicznik walut
+74	Zamień kierunek
+75	Kurs sprzedaży Banku Centralnego, {1}
+76	offline, ostatni znany kurs
+77	Kursy kantorów i kart mogą się różnić; wartość jest przybliżona.
+78	Nie udało się teraz wczytać kursów.
+79	Przewodnik cenowy
+80	Nie udało się teraz wczytać przewodnika cenowego.
+81	Ceny przybliżone; często się zmieniają z powodu inflacji. Data każdej ceny jest w nawiasie.
+82	Wskazówki
+83	Brak jeszcze prognozy na ten dzień.
+84	Szansa na deszcz {1}%
+85	Zapowiada się deszczowo; zaplanuj na ten dzień miejsca pod dachem.
+86	Jutro
+87	po kursie Banku Centralnego
+88	Kiedy jedziesz?
+89	Prognoza
+90	Dziś otwarte całą dobę
+91	zamknięcie za {1} min
+92	zamyka o {1}
+93	Teraz otwarte
+94	Zamknięte
+95	otwiera dziś o {1}
+96	otwiera jutro o {1}
+97	otwiera o {1}
+98	Miejsce obsługi podróżnych
+99	Bez dróg płatnych
+100	Bez autostrad
+101	Bez promów
+102	Numer alarmowy
+103	YİMER · Centrum komunikacji dla cudzoziemców
+104	Zgłoszenie pożaru lasu
+105	Szpital
+106	Modlitwa piątkowa
+107	Modlitwa południowa
+108	Modlitwa popołudniowa
+109	Modlitwa wieczorna
+110	Fadżr
+111	Wschód słońca
+112	Zuhr
+113	Asr
+114	Maghrib
+115	Isza
+116	pon
+117	wt
+118	śr
+119	czw
+120	pt
+121	sob
+122	niedz
+123	Poniedziałek
+124	Wtorek
+125	Środa
+126	Czwartek
+127	Piątek
+128	Sobota
+129	Niedziela
+130	Pogotowie, policja, straż pożarna, żandarmeria i straż przybrzeżna: jeden numer na wszystkie nagłe wypadki. Połączenie bezpłatne.
+131	Całodobowa pomoc dla cudzoziemców: turecki, angielski, arabski, rosyjski, niemiecki i perski.
+132	Jeśli widzisz dym lub ogień w lesie.
+133	Kwoty w lirach po kursie Banku Centralnego
+134	Ceny simitu, transportu, taksówek i muzeów
+135	112, najbliższy szpital i apteka
+136	Sprawdź aktualizacje
+137	Simit (Stambuł)
+138	Istanbulkart, bilet normalny
+139	Taksówka, opłata początkowa (Stambuł)
+140	Taksówka za km (Stambuł)
+141	Taksówka, minimalny kurs krótki (Stambuł)
+142	Müzekart (obywatele Turcji i TRCP, 1 rok)
+143	Wstęp do Efezu (turyści zagraniczni)
+144	Wstęp na Wieżę Galata (turyści zagraniczni)
+145	Wrzesień 2026
+146	Lipiec 2026
+147	Listopad 2026
+148	Gdzie nie ma cennika, najpierw zapytaj o cenę.
+149	W taksówce upewnij się, że taksometr jest włączony.
+150	Targowanie się jest normalne na Wielkim Bazarze i targach, ale nie w restauracjach.
+151	W miejscach turystycznych ceny mogą być wyraźnie wyższe niż w reszcie miasta.
+152	Napiwek jest dobrowolny (zwykle 5–10%); jeśli rachunek zawiera opłatę serwisową, dodatkowy napiwek nie jest potrzebny.
+153	Udostępniono Ci trasę
+154	Twoja lista podróży jest pełna (maks. 24 miejsca).

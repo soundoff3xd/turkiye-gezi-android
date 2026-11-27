@@ -329,6 +329,10 @@ export function PlanScreen() {
       ['🗺', 'Hazır rotalar', 'Gün gün planlanmış rotalar', () => push({ name: 'routes' })],
       ['🧭', 'Nereye gitmeliyim?', 'İlgi alanlarına göre şehir önerileri', () => push({ name: 'recommend' })],
       ['🎉', 'Festival takvimi', 'Her yıl tekrarlanan şenlikler', () => push({ name: 'festivals' })],
+      ['👥', 'Ortak listeler', 'Arkadaşlarınla birlikte gezi listesi', () => push({ name: 'sharedTrips' })],
+      ['🥾', 'Yürüyüş parkurları', 'Likya Yolu, Kaçkarlar ve daha fazlası', () => push({ name: 'trails' })],
+      ['🏳️', 'Mavi Bayraklı plajlar', 'Temiz ve güvenli plajlar', () => push({ name: 'blueflag' })],
+      ['🎒', 'Valiz listesi', 'Bölgeye ve mevsime göre eşya listesi', () => push({ name: 'packing' })],
     ]],
     ['Gezerken', [
       ['📔', 'Gezi günlüklerim', 'Gün gün notlar, fotoğraflar ve harcamalar', () => push({ name: me ? 'journals' : 'profile' })],
@@ -336,6 +340,11 @@ export function PlanScreen() {
       ['💱', 'Döviz çevirici', 'Merkez Bankası kuruyla TL hesabı', () => push({ name: 'fx' })],
       ['🏷', 'Fiyat rehberi', 'Simit, ulaşım, taksi ve müze fiyatları', () => push({ name: 'prices' })],
       ['🆘', 'Acil durum', '112, en yakın hastane ve eczane', () => push({ name: 'emergency' })],
+    ]],
+    ['Eğlence ve anılar', [
+      ['🏅', 'Koleksiyonlar', 'UNESCO mirasları, 7 bölge ve daha fazlası', () => push({ name: 'collections' })],
+      ['📸', 'Neresi bu?', 'Fotoğraftan yeri bil, günün sorusunu çöz', () => push({ name: 'quiz' })],
+      ['📅', 'Yıllık gezi özeti', 'Bu yıl gezdiklerin tek kartta', () => push({ name: me ? 'year' : 'profile' })],
     ]],
     ['Yardım', [
       ['❔', 'Yardım ve sık sorulanlar', 'Uygulamayı nasıl kullanırım?', () => push({ name: 'help' })],

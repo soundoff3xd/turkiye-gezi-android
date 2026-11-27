@@ -6,6 +6,7 @@ import { trError } from '../lib/auth';
 import { useNav, useToast } from '../lib/ui';
 import { Avatar, Stars, b } from './common';
 import ReportSheet, { type ReportReq } from './ReportSheet';
+import { TranslateLink } from './Translate';
 import { useAuth } from '../lib/auth';
 import { C, R } from '../theme';
 
@@ -34,9 +35,9 @@ export default function ReviewCard({ x, showPlace }: { x: Review; showPlace?: bo
   return (
     <View style={b.card}>
       <View style={{ flexDirection: 'row', alignItems: 'center', gap: 10 }}>
-        <Avatar name={x.author} url={x.av} size={38} />
+        <Pressable onPress={() => push({ name: 'traveler', id: x.uid })} accessibilityRole="button" accessibilityLabel={t('{1} profilini aç', x.author)}><Avatar name={x.author} url={x.av} size={38} /></Pressable>
         <View style={{ flex: 1 }}>
-          <Text style={{ fontWeight: '800', color: C.ink, fontSize: 15 }}>{x.author}</Text>
+          <Text onPress={() => push({ name: 'traveler', id: x.uid })} style={{ fontWeight: '800', color: C.ink, fontSize: 15 }}>{x.author}</Text>
           <Text style={{ color: C.muted, fontSize: 12.5 }}>{place ? `${place.n} · ${ago(x.at)}` : ago(x.at)}</Text>
         </View>
         {!mine && (
@@ -51,6 +52,7 @@ export default function ReviewCard({ x, showPlace }: { x: Review; showPlace?: bo
       )}
       <View style={{ marginTop: 8 }}><Stars value={x.rating} /></View>
       {!!x.text && <Text style={{ color: C.ink, fontSize: 15.5, lineHeight: 22, marginTop: 6 }}>{x.text}</Text>}
+      {!!x.text && <TranslateLink text={x.text} />}
       {!!x.photo && (
         <Pressable onPress={() => push({ name: 'photo', id: 'pp' + x.id })} accessibilityRole="imagebutton" accessibilityLabel={t('Fotoğrafı büyüt')}>
           <Image source={{ uri: x.photo }} style={{ width: '100%', aspectRatio: 4 / 3, borderRadius: R.sm, marginTop: 10, backgroundColor: C.line }} resizeMode="cover" />

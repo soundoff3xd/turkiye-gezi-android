@@ -7,6 +7,7 @@ import { trError } from '../lib/auth';
 import { useNav, useToast } from '../lib/ui';
 import { Avatar, Chip, Empty, b, Btn } from '../components/common';
 import { PhotoOfWeek } from '../components/Extras3';
+import { FollowFeed } from '../components/Extras5';
 import AccountMenu from '../components/AccountMenu';
 import { SkeletonGrid, useDeferred } from '../components/Anim';
 import { C, R } from '../theme';
@@ -18,7 +19,7 @@ export default function ShowcaseScreen() {
   const { photos, plikes, photoLike, byId } = useStore();
   const { push, setTab } = useNav();
   const toast = useToast();
-  const [sort, setSort] = useState<'top' | 'new'>('top');
+  const [sort, setSort] = useState<'top' | 'new' | 'follow'>('top');
   const [limit, setLimit] = useState(24);   // fotoğraflar 24'er 24'er yüklenir
 
   const list = useMemo(() => photos.slice().sort((a, b) => (sort === 'top' ? (b.likes - a.likes) || b.at.localeCompare(a.at) : b.at.localeCompare(a.at))), [photos, sort]);
@@ -40,9 +41,10 @@ export default function ShowcaseScreen() {
       <View style={{ flexDirection: 'row', gap: 8, marginTop: 12 }}>
         <Chip label={t('En çok beğenilen')} on={sort === 'top'} onPress={() => { setSort('top'); setLimit(24); }} />
         <Chip label={t('En yeni')} on={sort === 'new'} onPress={() => { setSort('new'); setLimit(24); }} />
+        <Chip label={`👥 ${t('Takip ettiklerim')}`} on={sort === 'follow'} onPress={() => setSort('follow')} />
       </View>
 
-      {!ready ? <View style={{ marginHorizontal: -16 }}><SkeletonGrid /></View> : list.length ? (
+      {sort === 'follow' ? <View style={{ marginTop: 12 }}><FollowFeed /></View> : !ready ? <View style={{ marginHorizontal: -16 }}><SkeletonGrid /></View> : list.length ? (
         <View style={{ flexDirection: 'row', flexWrap: 'wrap', gap: 10, marginTop: 14 }}>
           {list.slice(0, limit).map((ph, i) => {
             const p = byId(ph.pid), on = plikes.has(ph.rid);
@@ -59,7 +61,7 @@ export default function ShowcaseScreen() {
                 <View style={{ padding: 10 }}>
                   <Text style={{ fontWeight: '800', color: C.ink }} numberOfLines={1}>{p?.n}</Text>
                   <View style={{ flexDirection: 'row', alignItems: 'center', justifyContent: 'space-between', marginTop: 4 }}>
-                    <Text style={{ color: C.muted, fontSize: 12.5, flex: 1 }} numberOfLines={1}>{ph.by}</Text>
+                    <Text onPress={() => push({ name: 'traveler', id: ph.uid })} style={{ color: C.muted, fontSize: 12.5, flex: 1 }} numberOfLines={1}>{ph.by}</Text>
                     <Pressable onPress={() => photoLike(ph.rid).then((x) => x && toast('Fotoğrafı beğendin')).catch((e) => toast(trError(e)))} hitSlop={8}
                       accessibilityRole="button" accessibilityState={{ selected: on }} accessibilityLabel={on ? t('Beğenmekten vazgeç') : t('Fotoğrafı beğen')}>
                       <Text style={{ color: on ? C.accent : C.muted, fontWeight: '800' }}>{`${on ? '♥' : '♡'} ${num(ph.likes)}`}</Text>

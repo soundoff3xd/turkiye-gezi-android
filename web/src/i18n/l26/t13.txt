@@ -1,0 +1,768 @@
+@ms
+0	Anda sudah menyertai senarai ini
+1	Anda menyertai senarai {1}
+2	Senarai kongsi
+3	Senarai perjalanan bersama rakan
+4	Laluan mendaki
+5	Laluan Lycia, Pergunungan Kaçkar dan banyak lagi
+6	Pantai Bendera Biru
+7	Pantai bersih dan selamat
+8	Senarai barang
+9	Barang dibawa mengikut wilayah dan musim
+10	Keseronokan dan kenangan
+11	Koleksi
+12	Warisan UNESCO, 7 wilayah dan banyak lagi
+13	Di manakah ini?
+14	Teka tempat daripada foto, selesaikan soalan hari ini
+15	Ringkasan tahun perjalanan
+16	Perjalanan tahun ini dalam satu kad
+17	Buka profil {1}
+18	Pautan jemputan tidak sah atau senarai telah dipadam.
+19	Senarai ini penuh (maks. 20 orang).
+20	Senarai penuh (maks. 50 tempat).
+21	Anda boleh mencipta sehingga 20 senarai kongsi.
+22	{1} mula mengikuti anda
+23	{1} menyertai senarai perjalanan kongsi anda
+24	Tambah ke senarai kongsi
+25	Profil pengembara saya
+26	Tahun saya
+27	Diikuti
+28	Log masuk untuk mengikuti
+29	Pengembara tidak dijumpai.
+30	Pengikut
+31	Mengikuti
+32	Pengembara sejak {1}
+33	Mengikuti
+34	Ikuti
+35	Tempat yang dilawati pengembara ini adalah peribadi; hanya angka yang dipaparkan.
+36	Ulasan terkini
+37	Belum ada ulasan.
+38	Tahun perjalanan saya
+39	Anda belum mengikuti sesiapa.
+40	Ketik nama pengembara dalam ulasan untuk membuka profilnya dan mengikutinya.
+41	Orang yang anda ikuti belum berkongsi apa-apa.
+42	Log masuk untuk senarai kongsi
+43	Sediakan senarai perjalanan bersama rakan atau keluarga. Kongsi pautan; sesiapa yang menyertai boleh menambah dan membuang tempat.
+44	Nama senarai (cth. Hujung minggu di Cappadocia)
+45	Anda belum mempunyai senarai kongsi.
+46	Dicipta oleh anda
+47	Senarai yang anda sertai
+48	Sehingga {1} tempat dan {2} orang.
+49	Senarai kongsi
+50	Anda tidak boleh melihat senarai ini.
+51	Buka pautan yang dihantar kepada anda untuk menyertai senarai.
+52	Tempat ini sudah ada dalam senarai
+53	Ditambah ke senarai
+54	Senarai dipadam
+55	Anda telah keluar daripada senarai
+56	Sertai senarai perjalanan kongsi saya
+57	Jemput
+58	Belum ada tempat ditambah.
+59	Ditambah oleh {1}
+60	Tambah tempat
+61	Peserta
+62	Anda (pemilik senarai)
+63	Pemilik senarai dan jemputan
+64	Belum ada yang menyertai. Kongsi pautan jemputan.
+65	Dicipta: {1}
+66	Padam senarai
+67	Keluar daripada senarai
+68	Ditambah ke senarai {1}
+69	Senarai kongsi baharu
+70	Log masuk untuk melihat ringkasan anda
+71	Perjalanan saya {1}
+72	{1} wilayah
+73	Wilayah paling banyak dijelajah: {1}
+74	Jenis kegemaran: {1}
+75	{1} catatan jurnal
+76	Foto anda yang paling disukai
+77	Tahun ini anda belum menanda mana-mana tempat sebagai "Pernah ke sana". Ringkasan akan terisi semasa anda mengembara.
+78	Kongsi ringkasan saya
+79	Lengkapkan senarai dan dapatkan lencana. Kemajuan bertambah dengan setiap "Pernah ke sana".
+80	Selesai
+81	Tidak dijumpai.
+82	Tahniah, anda telah melengkapkan koleksi ini!
+83	Berdasarkan 21 Tapak Warisan Dunia UNESCO di Turkiye setakat 2023.
+84	Soalan {1}/{2}
+85	Mata {1}
+86	Lihat foto dan teka di mana ia di Turkiye.
+87	Soalan hari ini
+88	5 foto yang sama untuk semua; dimainkan sekali sehari.
+89	Mata anda hari ini: {1}/5
+90	Main soalan hari ini
+91	Log masuk untuk tersenarai dalam papan pendahulu.
+92	Main bebas
+93	10 foto rawak. Skor terbaik anda: {1}/10
+94	Main
+95	Papan pendahulu hari ini
+96	Belum ada yang bermain hari ini.
+97	Foto: Wikimedia Commons
+98	Musim bunga
+99	Musim panas
+100	Musim luruh
+101	Musim sejuk
+102	Mudah
+103	Sederhana
+104	Sukar
+105	Laluan mendaki jarak jauh bertanda dan lembah di Turkiye.
+106	Mula
+107	Tamat
+108	Musim terbaik
+109	Memuatkan laluan daripada OpenStreetMap…
+110	Laluan tidak dapat dimuatkan sekarang; peta menunjukkan titik mula dan tamat.
+111	Laluan: © penyumbang OpenStreetMap. Semak penanda dan cuaca sebelum bertolak.
+112	Buka di Culture Routes in Turkey
+113	Di laluan panjang bawa air secukupnya, beritahu seseorang laluan anda dan jangan berjalan tengah hari ketika panas musim panas.
+114	Bendera Biru
+115	Ada pantai di kawasan ini dalam senarai Bendera Biru {1}.
+116	Dalam senarai Bendera Biru {1}.
+117	Bendera Biru diberikan semula setiap tahun; semak status terkini di mavibayrak.org.tr.
+118	Pantai dalam panduan yang tersenarai dalam Bendera Biru. Ia diberikan setiap tahun untuk air bersih, keselamatan dan pengurusan alam sekitar.
+119	Waktu terbaik untuk bergambar
+120	Waktu keemasan pagi
+121	Waktu keemasan petang
+122	Waktu biru
+123	Tempat tinjau berdekatan
+124	Tiada tempat tinjau bertanda dalam lingkungan 3 km.
+125	Waktu untuk hari ini, mengikut waktu Turkiye.
+126	Laut dan pantai
+127	Bersiar-siar di alam
+128	Lawatan ke masjid
+129	Salji dan ski
+130	Lawatan belon udara panas
+131	Dokumen
+132	Kad pengenalan atau pasport
+133	Lesen memandu (jika memandu)
+134	Kad kredit dan sedikit tunai lira
+135	Maklumat penginapan dan tiket
+136	Insurans kesihatan perjalanan (jika anda warga asing)
+137	Pakaian
+138	Kasut berjalan yang selesa
+139	Lapisan nipis untuk waktu malam
+140	Kot atau jaket tebal
+141	Baju sejuk
+142	Topi dan sarung tangan
+143	Topi matahari
+144	Pakaian nipis berwarna cerah
+145	Baju hujan dan kasut kalis air
+146	Pakaian dalam terma
+147	But salji
+148	Kesihatan dan penjagaan
+149	Ubat-ubatan peribadi anda
+150	Ubat tahan sakit dan plaster
+151	Berus dan ubat gigi
+152	Tisu basah dan pembersih tangan
+153	Pelindung matahari (SPF 30+)
+154	Penghalau serangga
+155	Elektronik
+156	Telefon dan pengecas
+157	Power bank
+158	Peta luar talian (muat turun dalam aplikasi)
+159	Pakaian renang
+160	Tuala pantai
+161	Kasut air
+162	Cermin mata hitam
+163	Botol air
+164	Beg galas kecil
+165	Snek
+166	Tongkat mendaki
+167	Lampu suluh
+168	Tudung atau selendang
+169	Pakaian melepasi lutut
+170	Kasut yang mudah ditanggalkan
+171	Jaket dan seluar ski
+172	Gogal ski
+173	Sarung tangan kalis air
+174	Pelindung matahari untuk muka
+175	Lapisan hangat untuk kesejukan pagi
+176	Kasut bertutup
+177	Ke mana?
+178	Bila?
+179	Berapa hari?
+180	Apa yang akan anda lakukan?
+181	{1}/{2} siap
+182	Pakaian dalam dan stoking untuk {1} hari
+183	Kosongkan tanda
+184	Menterjemah…
+185	Tunjukkan asal
+186	Terjemah
+187	Tidak dapat menterjemah sekarang, cuba lagi nanti.
+188	Terjemahan mesin · MyMemory
+189	Warisan Dunia UNESCO
+190	21 tapak Turkiye dalam Senarai Warisan Dunia
+191	Kawasan bersejarah Istanbul
+192	Göreme dan Cappadocia
+193	Masjid Besar dan Hospital Divriği
+194	Hattusa
+195	Gunung Nemrut
+196	Hierapolis-Pamukkale
+197	Xanthos-Letoon
+198	Safranbolu
+199	Tapak arkeologi Troy
+200	Masjid Selimiye, Edirne
+201	Çatalhöyük
+202	Bursa dan Cumalıkızık
+203	Pergamon
+204	Ephesus
+205	Ani
+206	Aphrodisias
+207	Göbekli Tepe
+208	Kubu Diyarbakır dan Taman Hevsel
+209	Busut Arslantepe
+210	Gordion
+211	Masjid Seljuk bertiang kayu
+212	7 wilayah
+213	Sekurang-kurangnya satu tempat di setiap wilayah
+214	Kota purba Aegean
+215	Kota purba dan runtuhan di wilayah Aegean
+216	Masjid-masjid Istanbul
+217	Masjid Istanbul dalam panduan
+218	Lembah, kota bawah tanah dan pekan di Nevşehir
+219	Istana
+220	Semua istana dalam panduan
+221	Menara
+222	Semua menara dalam panduan
+223	Mata air panas
+224	Semua mata air panas dalam panduan
+225	Kanyon
+226	Semua kanyon dalam panduan
+227	Gua
+228	Semua gua dalam panduan
+229	Pulau
+230	Semua pulau dalam panduan
+231	Laluan mendaki jarak jauh bertanda di sepanjang pantai Mediterranean melalui kota purba Lycia, kampung dan hutan pain. Dilalui mengikut peringkat, bukan sekali gus.
+232	Laluan gunung merentasi Pergunungan Taurus dari Antalya ke Yalvaç berhampiran Tasik Eğirdir; kanyon, padang ragut tinggi dan tebing tasik.
+233	Laluan bertanda terpanjang di Turkiye yang mengelilingi semenanjung Bodrum, Datça dan Bozburun di Muğla; teluk kecil dan kota purba Caria.
+234	Pendakian beberapa hari di pergunungan tinggi Laut Hitam melalui kampung tanah tinggi, tasik glasier dan genting. Cuaca cepat berubah; perlu pengalaman dan peralatan.
+235	Laluan bertanda yang menghubungkan kampung pergunungan, kebun zaitun dan penempatan bersejarah İzmir.
+236	Pendakian pergi balik ke gunung tertinggi Turkiye. Dengan pemandu dan permit; perlu pengalaman altitud tinggi.
+237	Pendakian pergi balik di antara puncak batu kapur Taurus ke dataran tinggi Yedigöller.
+238	Sebahagian laluan yang dilalui pengembara terkenal itu ketika menunaikan haji pada 1671; laluan desa berjalan kaki atau menunggang kuda.
+239	Laluan melalui monumen batu, cerobong pari-pari dan kampung terbiar di Lembah Phrygia; perhentian paling terkenal ialah Yazılıkaya (Monumen Midas).
+240	Lembah Cappadocia di sepanjang anak sungai Melendiz di antara gereja batu; kebanyakan orang hanya berjalan sebahagian pendek.
+241	Bahagian Turkiye bagi Laluan Ibrahim di Timur Tengah, dari kampung sekitar Şanlıurfa ke rumah berkubah Harran.
+242	Laluan bersejarah tempat peluru dan sukarelawan dibawa dari İnebolu ke Ankara semasa Perang Kemerdekaan.
+243	Bahagian Thrace bagi laluan antarabangsa dari Vienna ke Istanbul.
+244	Panjang dan tempoh: GoTürkiye / Culture Routes in Turkey
+245	Pasti? Ketik sekali lagi untuk sahkan
+246	Tiada hasil
+247	Kemajuan anda disimpan dalam pelayar ini; log masuk untuk menyimpannya dalam akaun.
+248	Papan pendahulu memerlukan sambungan internet.
+249	{1} saat
+250	{1} km
+251	Jenis kegemaran:
+252	Tempat dilawati
+253	Suka diterima
+254	Cari dan tambah tempat
+@th
+0	คุณเข้าร่วมรายการนี้แล้ว
+1	คุณเข้าร่วมรายการ {1} แล้ว
+2	รายการร่วม
+3	รายการท่องเที่ยวกับเพื่อน
+4	เส้นทางเดินป่า
+5	เส้นทางลิเซีย เทือกเขากาชการ์ และอื่น ๆ
+6	ชายหาดธงน้ำเงิน
+7	ชายหาดที่สะอาดและปลอดภัย
+8	รายการของที่ต้องเตรียม
+9	ของที่ต้องเตรียมตามภูมิภาคและฤดูกาล
+10	ความสนุกและความทรงจำ
+11	คอลเลกชัน
+12	มรดกยูเนสโก 7 ภูมิภาค และอื่น ๆ
+13	ที่นี่คือที่ไหน?
+14	ทายสถานที่จากรูป ตอบคำถามประจำวัน
+15	สรุปการเดินทางประจำปี
+16	ทริปทั้งปีในการ์ดใบเดียว
+17	เปิดโปรไฟล์ของ {1}
+18	ลิงก์คำเชิญไม่ถูกต้อง หรือรายการถูกลบไปแล้ว
+19	รายการนี้เต็มแล้ว (สูงสุด 20 คน)
+20	รายการเต็มแล้ว (สูงสุด 50 แห่ง)
+21	คุณสร้างรายการร่วมได้สูงสุด 20 รายการ
+22	{1} เริ่มติดตามคุณ
+23	{1} เข้าร่วมรายการท่องเที่ยวร่วมของคุณ
+24	เพิ่มในรายการร่วม
+25	โปรไฟล์นักเดินทางของฉัน
+26	ปีของฉัน
+27	กำลังติดตาม
+28	เข้าสู่ระบบเพื่อติดตาม
+29	ไม่พบนักเดินทางคนนี้
+30	ผู้ติดตาม
+31	กำลังติดตาม
+32	นักเดินทางตั้งแต่ {1}
+33	ติดตามอยู่
+34	ติดตาม
+35	สถานที่ที่นักเดินทางคนนี้ไปเป็นข้อมูลส่วนตัว แสดงเฉพาะตัวเลข
+36	รีวิวล่าสุด
+37	ยังไม่มีรีวิว
+38	ปีแห่งการเดินทางของฉัน
+39	คุณยังไม่ได้ติดตามใคร
+40	แตะชื่อนักเดินทางในรีวิวเพื่อเปิดโปรไฟล์และติดตาม
+41	คนที่คุณติดตามยังไม่ได้แชร์อะไรเลย
+42	เข้าสู่ระบบเพื่อใช้รายการร่วม
+43	สร้างรายการท่องเที่ยวร่วมกับเพื่อนหรือครอบครัว แชร์ลิงก์ ทุกคนที่เข้าร่วมเพิ่มและลบสถานที่ได้
+44	ชื่อรายการ (เช่น สุดสัปดาห์ที่คัปปาโดเกีย)
+45	คุณยังไม่มีรายการร่วม
+46	คุณสร้าง
+47	รายการที่คุณเข้าร่วม
+48	สูงสุด {1} แห่งและ {2} คน
+49	รายการร่วม
+50	คุณดูรายการนี้ไม่ได้
+51	เปิดลิงก์ที่ส่งถึงคุณเพื่อเข้าร่วมรายการ
+52	สถานที่นี้อยู่ในรายการแล้ว
+53	เพิ่มในรายการแล้ว
+54	ลบรายการแล้ว
+55	คุณออกจากรายการแล้ว
+56	มาเข้าร่วมรายการท่องเที่ยวร่วมของฉัน
+57	เชิญ
+58	ยังไม่มีสถานที่ที่เพิ่ม
+59	{1} เพิ่ม
+60	เพิ่มสถานที่
+61	ผู้เข้าร่วม
+62	คุณ (เจ้าของรายการ)
+63	เจ้าของรายการและผู้ได้รับเชิญ
+64	ยังไม่มีใครเข้าร่วม แชร์ลิงก์คำเชิญได้เลย
+65	สร้างเมื่อ: {1}
+66	ลบรายการ
+67	ออกจากรายการ
+68	เพิ่มในรายการ {1} แล้ว
+69	รายการร่วมใหม่
+70	เข้าสู่ระบบเพื่อดูสรุปของคุณ
+71	ทริปของฉันปี {1}
+72	{1} จังหวัด
+73	จังหวัดที่เที่ยวมากที่สุด: {1}
+74	ประเภทที่ชอบ: {1}
+75	บันทึก {1} รายการ
+76	รูปที่ได้ไลก์มากที่สุดของคุณ
+77	ปีนี้คุณยังไม่ได้ทำเครื่องหมาย "ไปมาแล้ว" ที่ไหนเลย สรุปจะเพิ่มขึ้นเมื่อคุณเดินทาง
+78	แชร์สรุปของฉัน
+79	ทำรายการให้ครบแล้วรับเหรียญตรา ความคืบหน้าเพิ่มขึ้นทุกครั้งที่กด "ไปมาแล้ว"
+80	ทำครบแล้ว
+81	ไม่พบ
+82	ยินดีด้วย คุณทำคอลเลกชันนี้ครบแล้ว!
+83	อ้างอิงจากแหล่งมรดกโลกของยูเนสโก 21 แห่งในตุรกี ณ ปี 2023
+84	ข้อ {1}/{2}
+85	คะแนน {1}
+86	ดูรูปแล้วทายว่าอยู่ที่ไหนในตุรกี
+87	คำถามประจำวัน
+88	รูป 5 รูปเดียวกันสำหรับทุกคน เล่นได้วันละครั้ง
+89	คะแนนวันนี้ของคุณ: {1}/5
+90	เล่นคำถามประจำวัน
+91	เข้าสู่ระบบเพื่อขึ้นกระดานผู้นำ
+92	เล่นอิสระ
+93	รูปสุ่ม 10 รูป คะแนนสูงสุดของคุณ: {1}/10
+94	เล่น
+95	กระดานผู้นำวันนี้
+96	วันนี้ยังไม่มีใครเล่น
+97	รูปภาพ: Wikimedia Commons
+98	ฤดูใบไม้ผลิ
+99	ฤดูร้อน
+100	ฤดูใบไม้ร่วง
+101	ฤดูหนาว
+102	ง่าย
+103	ปานกลาง
+104	ยาก
+105	เส้นทางเดินระยะไกลที่มีป้ายและหุบเขาของตุรกี
+106	จุดเริ่มต้น
+107	จุดสิ้นสุด
+108	ฤดูที่ดีที่สุด
+109	กำลังโหลดเส้นทางจาก OpenStreetMap…
+110	โหลดเส้นทางไม่ได้ในขณะนี้ แผนที่แสดงจุดเริ่มต้นและจุดสิ้นสุด
+111	เส้นทาง: © ผู้ร่วมสร้าง OpenStreetMap ตรวจสอบป้ายและสภาพอากาศก่อนออกเดิน
+112	เปิดใน Culture Routes in Turkey
+113	บนเส้นทางยาว ๆ ควรพกน้ำให้พอ บอกเส้นทางให้ใครสักคนรู้ และอย่าเดินตอนเที่ยงในช่วงหน้าร้อน
+114	ธงน้ำเงิน
+115	ในพื้นที่นี้มีชายหาดที่อยู่ในรายการธงน้ำเงินปี {1}
+116	อยู่ในรายการธงน้ำเงินปี {1}
+117	ธงน้ำเงินมอบใหม่ทุกปี ตรวจสอบสถานะล่าสุดได้ที่ mavibayrak.org.tr
+118	ชายหาดในคู่มือที่อยู่ในรายการธงน้ำเงิน มอบให้ทุกปีตามเกณฑ์น้ำสะอาด ความปลอดภัย และการจัดการสิ่งแวดล้อม
+119	เวลาที่ดีที่สุดสำหรับถ่ายรูป
+120	ช่วงแสงทองยามเช้า
+121	ช่วงแสงทองยามเย็น
+122	ช่วงฟ้าสีคราม
+123	จุดชมวิวใกล้เคียง
+124	ไม่พบจุดชมวิวที่ระบุไว้ในรัศมี 3 กม.
+125	เวลาเป็นของวันนี้ ตามเวลาตุรกี
+126	ทะเลและชายหาด
+127	เดินเล่นธรรมชาติ
+128	เยี่ยมชมมัสยิด
+129	หิมะและสกี
+130	นั่งบอลลูน
+131	เอกสาร
+132	บัตรประชาชนหรือหนังสือเดินทาง
+133	ใบขับขี่ (ถ้าจะขับรถ)
+134	บัตรเครดิตและเงินสดลีราเล็กน้อย
+135	ข้อมูลที่พักและตั๋ว
+136	ประกันสุขภาพการเดินทาง (สำหรับชาวต่างชาติ)
+137	เสื้อผ้า
+138	รองเท้าเดินที่สบาย
+139	เสื้อบาง ๆ สำหรับตอนเย็น
+140	เสื้อโค้ทหรือแจ็กเก็ตหนา
+141	เสื้อสเวตเตอร์
+142	หมวกไหมพรมและถุงมือ
+143	หมวกกันแดด
+144	เสื้อผ้าบางสีอ่อน
+145	เสื้อกันฝนและรองเท้ากันน้ำ
+146	ชุดชั้นในกันหนาว
+147	รองเท้าบูทลุยหิมะ
+148	สุขภาพและการดูแล
+149	ยาประจำตัวของคุณ
+150	ยาแก้ปวดและพลาสเตอร์
+151	แปรงสีฟันและยาสีฟัน
+152	ทิชชูเปียกและเจลล้างมือ
+153	ครีมกันแดด (SPF 30+)
+154	ยากันยุง
+155	อุปกรณ์อิเล็กทรอนิกส์
+156	โทรศัพท์และที่ชาร์จ
+157	พาวเวอร์แบงก์
+158	แผนที่ออฟไลน์ (ดาวน์โหลดในแอป)
+159	ชุดว่ายน้ำ
+160	ผ้าเช็ดตัวชายหาด
+161	รองเท้าลุยน้ำ
+162	แว่นกันแดด
+163	ขวดน้ำ
+164	เป้ใบเล็ก
+165	ขนมขบเคี้ยว
+166	ไม้เท้าเดินป่า
+167	ไฟฉาย
+168	ผ้าคลุมศีรษะหรือผ้าคลุมไหล่
+169	เสื้อผ้ายาวเลยเข่า
+170	รองเท้าที่ถอดง่าย
+171	แจ็กเก็ตและกางเกงสกี
+172	แว่นสกี
+173	ถุงมือกันน้ำ
+174	ครีมกันแดดสำหรับหน้า
+175	เสื้ออุ่น ๆ สำหรับอากาศเย็นตอนเช้า
+176	รองเท้าหุ้มส้น
+177	ไปที่ไหน?
+178	เมื่อไร?
+179	กี่วัน?
+180	จะทำอะไรบ้าง?
+181	พร้อมแล้ว {1}/{2}
+182	ชุดชั้นในและถุงเท้าสำหรับ {1} วัน
+183	ล้างเครื่องหมาย
+184	กำลังแปล…
+185	แสดงต้นฉบับ
+186	แปล
+187	แปลไม่ได้ในตอนนี้ ลองอีกครั้งภายหลัง
+188	แปลด้วยเครื่อง · MyMemory
+189	มรดกโลกของยูเนสโก
+190	21 แหล่งของตุรกีในบัญชีมรดกโลก
+191	พื้นที่ประวัติศาสตร์ของอิสตันบูล
+192	เกอเรเมและคัปปาโดเกีย
+193	มัสยิดใหญ่และโรงพยาบาลแห่งดิฟริอี
+194	ฮัตตูซา
+195	ภูเขาเนมรุต
+196	ฮีเอราโพลิส-ปามุคคาเล
+197	ซานโทส-เลตูน
+198	ซาฟรันโบลู
+199	แหล่งโบราณคดีทรอย
+200	มัสยิดเซลิมิเย เอดีร์เน
+201	ชาทัลเฮอยุก
+202	บูร์ซาและจูมาลึกึซึก
+203	เพอร์กามอน
+204	เอเฟซัส
+205	อานี
+206	อะโฟรดิเซียส
+207	เกอเบคลีเตเป
+208	ป้อมดิยาร์บากีร์และสวนเฮฟเซล
+209	เนินอาร์สลันเตเป
+210	กอร์ดิออน
+211	มัสยิดเซลจุคเสาไม้
+212	7 ภูมิภาค
+213	อย่างน้อยหนึ่งแห่งในแต่ละภูมิภาค
+214	เมืองโบราณแห่งทะเลอีเจียน
+215	เมืองโบราณและซากปรักหักพังในภูมิภาคอีเจียน
+216	มัสยิดแห่งอิสตันบูล
+217	มัสยิดในอิสตันบูลในคู่มือ
+218	หุบเขา เมืองใต้ดิน และเมืองเล็ก ๆ ในเนฟเชฮีร์
+219	พระราชวัง
+220	พระราชวังทั้งหมดในคู่มือ
+221	หอคอย
+222	หอคอยทั้งหมดในคู่มือ
+223	บ่อน้ำพุร้อน
+224	บ่อน้ำพุร้อนทั้งหมดในคู่มือ
+225	หุบเขาลึก
+226	หุบเขาลึกทั้งหมดในคู่มือ
+227	ถ้ำ
+228	ถ้ำทั้งหมดในคู่มือ
+229	เกาะ
+230	เกาะทั้งหมดในคู่มือ
+231	เส้นทางเดินระยะไกลที่มีป้ายเลียบชายฝั่งเมดิเตอร์เรเนียน ผ่านเมืองโบราณลิเซีย หมู่บ้าน และป่าสน เดินเป็นช่วง ๆ ไม่ต้องเดินรวดเดียว
+232	ทางภูเขาข้ามเทือกเขาทอรัสจากอันตัลยาถึงยัลวาชใกล้ทะเลสาบเอยีร์ดีร์ มีหุบเขา ทุ่งหญ้าบนที่สูง และริมทะเลสาบ
+233	เส้นทางเดินที่มีป้ายยาวที่สุดในตุรกี วนรอบคาบสมุทรบอดรุม ดัตชา และบอซบูรุนในมูลา มีอ่าวเล็ก ๆ และเมืองโบราณคาเรีย
+234	เดินป่าหลายวันบนภูเขาสูงริมทะเลดำ ผ่านหมู่บ้านบนที่สูง ทะเลสาบธารน้ำแข็ง และช่องเขา อากาศเปลี่ยนเร็ว ต้องมีประสบการณ์และอุปกรณ์
+235	เส้นทางมีป้ายที่เชื่อมหมู่บ้านบนภูเขา สวนมะกอก และชุมชนเก่าแก่ของอิซมีร์
+236	ปีนขึ้นลงภูเขาที่สูงที่สุดของตุรกี ต้องมีไกด์และใบอนุญาต และต้องมีประสบการณ์ที่สูง
+237	เดินไปกลับระหว่างยอดเขาหินปูนของทอรัสไปยังที่ราบสูงเยดีเกิลแลร์
+238	ส่วนหนึ่งของเส้นทางที่นักเดินทางชื่อดังใช้ไปแสวงบุญในปี 1671 เส้นทางชนบทสำหรับเดินหรือขี่ม้า
+239	เส้นทางผ่านอนุสรณ์หิน ปล่องนางฟ้า และหมู่บ้านร้างในหุบเขาฟรีเจีย จุดที่โด่งดังที่สุดคือยาซีลึคายา (อนุสรณ์ไมดาส)
+240	หุบเขาในคัปปาโดเกียเลียบลำธารเมเลนดิซ ระหว่างโบสถ์ในหิน ส่วนใหญ่เดินแค่ช่วงสั้น ๆ
+241	ช่วงในตุรกีของเส้นทางอับราฮัมในตะวันออกกลาง จากหมู่บ้านรอบชานลืออูร์ฟาไปถึงบ้านทรงโดมของฮาร์ราน
+242	เส้นทางประวัติศาสตร์ที่ใช้ขนกระสุนและอาสาสมัครจากอีเนโบลูไปอังการาในสงครามประกาศอิสรภาพ
+243	ช่วงเทรซของเส้นทางเดินนานาชาติจากเวียนนาถึงอิสตันบูล
+244	ระยะทางและระยะเวลา: GoTürkiye / Culture Routes in Turkey
+245	แน่ใจไหม? แตะอีกครั้งเพื่อยืนยัน
+246	ไม่พบผลลัพธ์
+247	ความคืบหน้าบันทึกไว้ในเบราว์เซอร์นี้ เข้าสู่ระบบเพื่อบันทึกไว้ในบัญชี
+248	กระดานผู้นำต้องเชื่อมต่ออินเทอร์เน็ต
+249	{1} วินาที
+250	{1} กม.
+251	ประเภทที่ชอบ:
+252	สถานที่ที่ไปมา
+253	ไลก์ที่ได้รับ
+254	ค้นหาและเพิ่มสถานที่
+@vi
+0	Bạn đã tham gia danh sách này rồi
+1	Bạn đã tham gia danh sách {1}
+2	Danh sách chung
+3	Danh sách chuyến đi cùng bạn bè
+4	Cung đường đi bộ
+5	Con đường Lycia, dãy núi Kaçkar và hơn nữa
+6	Bãi biển Cờ Xanh
+7	Bãi biển sạch và an toàn
+8	Danh sách hành lý
+9	Đồ cần mang theo vùng và mùa
+10	Vui chơi và kỷ niệm
+11	Bộ sưu tập
+12	Di sản UNESCO, 7 vùng và hơn nữa
+13	Đây là đâu?
+14	Đoán địa điểm qua ảnh, giải câu đố hôm nay
+15	Tổng kết năm du lịch
+16	Các chuyến đi năm nay trong một thẻ
+17	Mở hồ sơ của {1}
+18	Liên kết mời không hợp lệ hoặc danh sách đã bị xóa.
+19	Danh sách này đã đầy (tối đa 20 người).
+20	Danh sách đã đầy (tối đa 50 địa điểm).
+21	Bạn có thể tạo tối đa 20 danh sách chung.
+22	{1} đã bắt đầu theo dõi bạn
+23	{1} đã tham gia danh sách chuyến đi chung của bạn
+24	Thêm vào danh sách chung
+25	Hồ sơ du khách của tôi
+26	Năm của tôi
+27	Đang theo dõi
+28	Đăng nhập để theo dõi
+29	Không tìm thấy du khách này.
+30	Người theo dõi
+31	Đang theo dõi
+32	Du khách từ {1}
+33	Đang theo dõi
+34	Theo dõi
+35	Những nơi du khách này đã đến được giữ riêng tư; chỉ hiển thị con số.
+36	Đánh giá gần đây
+37	Chưa có đánh giá.
+38	Năm du lịch của tôi
+39	Bạn chưa theo dõi ai.
+40	Chạm vào tên du khách trong một đánh giá để mở hồ sơ và theo dõi.
+41	Những người bạn theo dõi chưa chia sẻ gì.
+42	Đăng nhập để dùng danh sách chung
+43	Lập danh sách chuyến đi cùng bạn bè hoặc gia đình. Chia sẻ liên kết; ai tham gia cũng có thể thêm và bớt địa điểm.
+44	Tên danh sách (vd: Cuối tuần ở Cappadocia)
+45	Bạn chưa có danh sách chung nào.
+46	Do bạn tạo
+47	Danh sách bạn đã tham gia
+48	Tối đa {1} địa điểm và {2} người.
+49	Danh sách chung
+50	Bạn không thể xem danh sách này.
+51	Mở liên kết đã gửi cho bạn để tham gia danh sách.
+52	Địa điểm này đã có trong danh sách
+53	Đã thêm vào danh sách
+54	Đã xóa danh sách
+55	Bạn đã rời danh sách
+56	Tham gia danh sách chuyến đi chung của tôi nhé
+57	Mời
+58	Chưa có địa điểm nào.
+59	{1} đã thêm
+60	Thêm địa điểm
+61	Thành viên
+62	Bạn (chủ danh sách)
+63	Chủ danh sách và người được mời
+64	Chưa ai tham gia. Hãy chia sẻ liên kết mời.
+65	Tạo lúc: {1}
+66	Xóa danh sách
+67	Rời danh sách
+68	Đã thêm vào danh sách {1}
+69	Danh sách chung mới
+70	Đăng nhập để xem tổng kết
+71	Hành trình {1} của tôi
+72	{1} tỉnh
+73	Tỉnh bạn đi nhiều nhất: {1}
+74	Loại yêu thích: {1}
+75	{1} ghi chú nhật ký
+76	Ảnh được thích nhiều nhất của bạn
+77	Năm nay bạn chưa đánh dấu nơi nào là "Đã đến". Tổng kết sẽ đầy dần khi bạn đi.
+78	Chia sẻ tổng kết
+79	Hoàn thành danh sách và nhận huy hiệu. Mỗi lần "Đã đến" đều giúp bạn tiến thêm.
+80	Đã hoàn thành
+81	Không tìm thấy.
+82	Chúc mừng, bạn đã hoàn thành bộ sưu tập này!
+83	Dựa trên 21 Di sản Thế giới UNESCO tại Thổ Nhĩ Kỳ tính đến 2023.
+84	Câu {1}/{2}
+85	Điểm {1}
+86	Nhìn ảnh và đoán xem đó là nơi nào ở Thổ Nhĩ Kỳ.
+87	Câu đố hôm nay
+88	Cùng 5 ảnh cho mọi người; chơi mỗi ngày một lần.
+89	Điểm hôm nay của bạn: {1}/5
+90	Chơi câu đố hôm nay
+91	Đăng nhập để có tên trên bảng xếp hạng.
+92	Chơi tự do
+93	10 ảnh ngẫu nhiên. Điểm cao nhất của bạn: {1}/10
+94	Chơi
+95	Bảng xếp hạng hôm nay
+96	Hôm nay chưa ai chơi.
+97	Ảnh: Wikimedia Commons
+98	Mùa xuân
+99	Mùa hè
+100	Mùa thu
+101	Mùa đông
+102	Dễ
+103	Trung bình
+104	Khó
+105	Các cung đường đi bộ dài có đánh dấu và thung lũng của Thổ Nhĩ Kỳ.
+106	Điểm đầu
+107	Điểm cuối
+108	Mùa đẹp nhất
+109	Đang tải cung đường từ OpenStreetMap…
+110	Hiện không tải được cung đường; bản đồ hiển thị điểm đầu và điểm cuối.
+111	Cung đường: © cộng tác viên OpenStreetMap. Hãy kiểm tra biển chỉ dẫn và thời tiết trước khi đi.
+112	Mở trên Culture Routes in Turkey
+113	Trên cung đường dài, hãy mang đủ nước, báo lộ trình cho ai đó và đừng đi bộ giữa trưa nắng hè.
+114	Cờ Xanh
+115	Khu vực này có bãi biển trong danh sách Cờ Xanh {1}.
+116	Có trong danh sách Cờ Xanh {1}.
+117	Cờ Xanh được trao lại mỗi năm; xem tình trạng hiện tại tại mavibayrak.org.tr.
+118	Những bãi biển trong cẩm nang có tên trong danh sách Cờ Xanh. Cờ được trao hằng năm dựa trên nước sạch, an toàn và quản lý môi trường.
+119	Giờ chụp ảnh đẹp nhất
+120	Giờ vàng buổi sáng
+121	Giờ vàng buổi chiều
+122	Giờ xanh
+123	Điểm ngắm cảnh gần đây
+124	Không có điểm ngắm cảnh được đánh dấu trong bán kính 3 km.
+125	Giờ của hôm nay, theo giờ Thổ Nhĩ Kỳ.
+126	Biển và bãi biển
+127	Dạo bộ thiên nhiên
+128	Thăm nhà thờ Hồi giáo
+129	Tuyết và trượt tuyết
+130	Bay khinh khí cầu
+131	Giấy tờ
+132	CMND/CCCD hoặc hộ chiếu
+133	Bằng lái xe (nếu bạn lái)
+134	Thẻ tín dụng và ít tiền mặt lira
+135	Thông tin chỗ ở và vé
+136	Bảo hiểm y tế du lịch (nếu là người nước ngoài)
+137	Quần áo
+138	Giày đi bộ thoải mái
+139	Áo mỏng cho buổi tối
+140	Áo khoác dày hoặc măng tô
+141	Áo len
+142	Mũ len và găng tay
+143	Mũ che nắng
+144	Quần áo mỏng, sáng màu
+145	Áo mưa và giày chống nước
+146	Đồ lót giữ nhiệt
+147	Ủng đi tuyết
+148	Sức khỏe và chăm sóc
+149	Thuốc riêng của bạn
+150	Thuốc giảm đau và băng dán
+151	Bàn chải và kem đánh răng
+152	Khăn ướt và nước rửa tay khô
+153	Kem chống nắng (SPF 30+)
+154	Thuốc chống côn trùng
+155	Đồ điện tử
+156	Điện thoại và sạc
+157	Sạc dự phòng
+158	Bản đồ ngoại tuyến (tải trong ứng dụng)
+159	Đồ bơi
+160	Khăn tắm biển
+161	Giày đi nước
+162	Kính râm
+163	Bình nước
+164	Ba lô nhỏ
+165	Đồ ăn nhẹ
+166	Gậy leo núi
+167	Đèn pin
+168	Khăn trùm đầu hoặc khăn choàng
+169	Quần áo dài quá gối
+170	Giày dễ cởi
+171	Áo và quần trượt tuyết
+172	Kính trượt tuyết
+173	Găng tay chống nước
+174	Kem chống nắng cho mặt
+175	Áo ấm cho cái lạnh buổi sáng
+176	Giày kín mũi
+177	Đi đâu?
+178	Khi nào?
+179	Bao nhiêu ngày?
+180	Bạn sẽ làm gì?
+181	Đã chuẩn bị {1}/{2}
+182	Đồ lót và tất cho {1} ngày
+183	Xóa dấu tích
+184	Đang dịch…
+185	Xem bản gốc
+186	Dịch
+187	Hiện không dịch được, hãy thử lại sau.
+188	Bản dịch máy · MyMemory
+189	Di sản Thế giới UNESCO
+190	21 di sản của Thổ Nhĩ Kỳ trong Danh sách Di sản Thế giới
+191	Các khu lịch sử của Istanbul
+192	Göreme và Cappadocia
+193	Đại thánh đường và bệnh viện Divriği
+194	Hattusa
+195	Núi Nemrut
+196	Hierapolis-Pamukkale
+197	Xanthos-Letoon
+198	Safranbolu
+199	Di chỉ khảo cổ thành Troy
+200	Thánh đường Selimiye, Edirne
+201	Çatalhöyük
+202	Bursa và Cumalıkızık
+203	Pergamon
+204	Ephesus
+205	Ani
+206	Aphrodisias
+207	Göbekli Tepe
+208	Thành Diyarbakır và vườn Hevsel
+209	Gò Arslantepe
+210	Gordion
+211	Thánh đường Seljuk cột gỗ
+212	7 vùng
+213	Ít nhất một nơi ở mỗi vùng
+214	Thành cổ vùng Aegea
+215	Thành cổ và phế tích ở vùng Aegea
+216	Thánh đường Hồi giáo ở Istanbul
+217	Thánh đường Istanbul trong cẩm nang
+218	Thung lũng, thành phố ngầm và thị trấn ở Nevşehir
+219	Cung điện
+220	Tất cả cung điện trong cẩm nang
+221	Tháp
+222	Tất cả tháp trong cẩm nang
+223	Suối nước nóng
+224	Tất cả suối nước nóng trong cẩm nang
+225	Hẻm núi
+226	Tất cả hẻm núi trong cẩm nang
+227	Hang động
+228	Tất cả hang động trong cẩm nang
+229	Đảo
+230	Tất cả đảo trong cẩm nang
+231	Cung đường đi bộ dài có đánh dấu dọc bờ Địa Trung Hải, qua các thành cổ Lycia, làng mạc và rừng thông. Nên đi từng chặng thay vì một lần.
+232	Đường núi vượt dãy Taurus từ Antalya đến Yalvaç gần hồ Eğirdir; hẻm núi, đồng cỏ cao và bờ hồ.
+233	Cung đường có đánh dấu dài nhất Thổ Nhĩ Kỳ, vòng quanh các bán đảo Bodrum, Datça và Bozburun ở Muğla; vịnh nhỏ và thành cổ Caria.
+234	Chuyến đi bộ nhiều ngày trên núi cao vùng Biển Đen qua làng cao nguyên, hồ băng và đèo. Thời tiết đổi nhanh; cần kinh nghiệm và trang bị.
+235	Cung đường có đánh dấu nối các làng miền núi, vườn ô liu và khu dân cư lịch sử của İzmir.
+236	Leo lên và xuống ngọn núi cao nhất Thổ Nhĩ Kỳ. Cần hướng dẫn viên và giấy phép; phải có kinh nghiệm độ cao.
+237	Đi bộ khứ hồi giữa các đỉnh đá vôi của Taurus đến cao nguyên Yedigöller.
+238	Một phần con đường nhà du hành nổi tiếng đã đi khi hành hương năm 1671; tuyến đường nông thôn để đi bộ hoặc cưỡi ngựa.
+239	Cung đường qua các tượng đài đá, ống khói tiên và làng bỏ hoang của thung lũng Phrygia; điểm dừng nổi tiếng nhất là Yazılıkaya (Tượng đài Midas).
+240	Thung lũng ở Cappadocia dọc suối Melendiz giữa các nhà thờ đá; đa số chỉ đi một đoạn ngắn.
+241	Đoạn Thổ Nhĩ Kỳ của Con đường Abraham ở Trung Đông, từ các làng quanh Şanlıurfa đến những ngôi nhà mái vòm ở Harran.
+242	Tuyến đường lịch sử dùng để chở đạn dược và tình nguyện viên từ İnebolu đến Ankara trong Chiến tranh Giành độc lập.
+243	Đoạn Thrace của cung đường quốc tế từ Vienna đến Istanbul.
+244	Độ dài và thời gian: GoTürkiye / Culture Routes in Turkey
+245	Bạn chắc chứ? Chạm lần nữa để xác nhận
+246	Không có kết quả
+247	Tiến độ được lưu trong trình duyệt này; đăng nhập để lưu vào tài khoản.
+248	Bảng xếp hạng cần kết nối Internet.
+249	{1} giây
+250	{1} km
+251	Loại yêu thích:
+252	Nơi đã đến
+253	Lượt thích nhận được
+254	Tìm và thêm địa điểm

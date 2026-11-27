@@ -1,0 +1,155 @@
+0	Güncellemeler denetleniyor
+1	Uygulaman güncel
+2	İndiriliyor
+3	Uygulamayı kullanmaya devam edebilirsin; indirme bitince kurulum açılır.
+4	Kuruluma hazır
+5	Açılan ekranda "Yükle"ye dokun. Telefon izin isterse "Bu kaynağa izin ver"i açıp geri dön.
+6	Güncelleme indirilemedi
+7	İnternet bağlantını kontrol edip tekrar dene ya da tarayıcıdan indir.
+8	Güncelle
+9	Kurulumu aç
+10	Tekrar dene
+11	Tarayıcıda indir
+12	Tamam
+13	Arka planda devam et
+14	Rotam
+15	Rotada durak kalmadı.
+16	Durak ekle
+17	Rotayı paylaş
+18	Kaçınma seçeneklerini kapatıp tekrar dene.
+19	{1} mola dahil
+20	Duraklar
+21	Başlangıç: konumun
+22	Başlangıç: ilk durak
+23	{1} kal
+24	Kalma süresi ekle
+25	Durağı kaldır
+26	En kısa sıra
+27	Yol üstü mola
+28	Rotadan çok sapmadan uğrayabileceğin yerler.
+29	Aranıyor…
+30	Rotanın yakınında bulunamadı.
+31	rotadan {1}
+32	Ekle
+33	Yolun üstünde, kaçırma
+34	Rotana yakın, rehberdeki görülecek yerler.
+35	Gizle
+36	Göster ({1})
+37	Yer ya da il ara
+38	Favorilerin ve öne çıkan yerler
+39	En fazla {1} durak eklenebilir
+40	Bu durak zaten rotada
+41	{1} durak olarak eklendi
+42	Duraklar zaten en kısa sırada
+43	Mola yerleri şu an yüklenemedi
+44	2 saattir yoldasın. Kısa bir mola vermeye ne dersin?
+45	Mola
+46	2 saattir yoldasın. Kısa bir mola iyi gelir.
+47	Mola yeri bul
+48	İleride mola yerleri
+49	Önümüzdeki 45 km içinde bulunamadı.
+50	kapalı
+51	resmi tatil
+52	Açılış saatleri
+53	OpenStreetMap verisi; bayram ve özel günlerde değişebilir. Gitmeden önce resmi kaynaktan kontrol et.
+54	Şu an ziyarete uygun
+55	{1} sonrası tekrar uygun
+56	Ziyaret saatleri dışında
+57	Ziyaret saatleri
+58	Bugün uygun aralıklar
+59	Cuma günleri öğle namazı daha kalabalık ve uzundur; öğle saatlerinden kaçın.
+60	Ayakkabılar girişte çıkarılır. Kadınlar başını örter; omuzlar ve dizler kapalı olmalıdır. Namaz kılanların önünden geçme, fotoğraf çekerken flaş kullanma.
+61	Vakitler hesaplanmıştır ve birkaç dakika farklı olabilir.
+62	Acil durum
+63	155, 156 ve 110 gibi eski numaralar da 112’ye yönlendirilir.
+64	Büyükelçilik ve konsolosluklar
+65	Pasaportunu kaybettiysen ülkenin temsilciliğine başvur.
+66	Yakınındakiler
+67	Yakındaki yerleri görmek için konum izni ver.
+68	Şu an yüklenemedi. İnternet bağlantını kontrol et.
+69	Yakında bulunamadı.
+70	Acil servis var
+71	Ara
+72	Gece ve tatil günlerinde nöbetçi eczane listesi her eczanenin kapısında asılıdır.
+73	Döviz çevirici
+74	Yönü değiştir
+75	TCMB döviz satış kuru, {1}
+76	çevrimdışı, son bilinen kur
+77	Döviz bürosu ve kart kurları farklı olabilir; gösterilen değer yaklaşıktır.
+78	Kurlar şu an alınamadı.
+79	Fiyat rehberi
+80	Fiyat rehberi şu an yüklenemedi.
+81	Yaklaşık fiyatlar; enflasyon nedeniyle sık değişir. Parantez içinde fiyatın tarihi var.
+82	İpuçları
+83	Bu gün için hava tahmini henüz yok.
+84	Yağış olasılığı %{1}
+85	Yağmurlu görünüyor; kapalı mekânları bu güne koymayı düşün.
+86	Yarın
+87	TCMB kuruyla
+88	Ne zaman gidiyorsun?
+89	Hava tahmini
+90	Bugün 24 saat açık
+91	kapanmasına {1} dk
+92	{1} kapanır
+93	Şu an açık
+94	Kapalı
+95	bugün {1} açılır
+96	yarın {1} açılır
+97	{1} açılır
+98	Dinlenme tesisi
+99	Paralı yol yok
+100	Otoyol yok
+101	Feribot yok
+102	Acil çağrı
+103	YİMER · Yabancılar iletişim merkezi
+104	Orman yangını ihbar
+105	Hastane
+106	Cuma namazı
+107	Öğle namazı
+108	İkindi namazı
+109	Akşam namazı
+110	İmsak
+111	Güneş
+112	Öğle
+113	İkindi
+114	Akşam
+115	Yatsı
+116	Pzt
+117	Sal
+118	Çar
+119	Per
+120	Cum
+121	Cmt
+122	Paz
+123	Pazartesi
+124	Salı
+125	Çarşamba
+126	Perşembe
+127	Cuma
+128	Cumartesi
+129	Pazar
+130	Ambulans, polis, itfaiye, jandarma ve sahil güvenlik: tüm acil durumlar için tek numara. Ücretsiz aranır.
+131	Yabancılar için 7/24 danışma: Türkçe, İngilizce, Arapça, Rusça, Almanca ve Farsça.
+132	Ormanda duman ya da ateş görürsen.
+133	Merkez Bankası kuruyla TL hesabı
+134	Simit, ulaşım, taksi ve müze fiyatları
+135	112, en yakın hastane ve eczane
+136	Güncellemeleri denetle
+137	Simit (İstanbul)
+138	İstanbulkart tam bilet
+139	Taksi açılış (İstanbul)
+140	Taksi km ücreti (İstanbul)
+141	Taksi kısa mesafe en az (İstanbul)
+142	Müzekart (T.C. ve KKTC vatandaşları, 1 yıl)
+143	Efes Antik Kenti giriş (yabancı ziyaretçi)
+144	Galata Kulesi giriş (yabancı ziyaretçi)
+145	Eylül 2026
+146	Temmuz 2026
+147	Kasım 2026
+148	Fiyat listesi olmayan yerde önce fiyatı sor.
+149	Takside taksimetrenin açık olduğundan emin ol.
+150	Kapalıçarşı ve pazarlarda pazarlık olağandır; lokantalarda değildir.
+151	Turistik bölgelerde fiyatlar şehrin geri kalanından belirgin şekilde yüksek olabilir.
+152	Bahşiş isteğe bağlıdır (genelde %5–10); hesapta servis ücreti varsa ayrıca bahşiş gerekmez.
+153	Seninle bir rota paylaşıldı
+154	Gezi listen dolu (en fazla 24 yer).

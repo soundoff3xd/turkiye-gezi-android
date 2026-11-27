@@ -4,7 +4,7 @@ import AsyncStorage from '@react-native-async-storage/async-storage';
 import { StatusBar } from 'expo-status-bar';
 import { SafeAreaProvider, useSafeAreaInsets } from 'react-native-safe-area-context';
 import { LangProvider, useT } from './src/i18n';
-import { AuthProvider, useAuth } from './src/lib/auth';
+import { AuthProvider, trError, useAuth } from './src/lib/auth';
 import { StoreProvider, useStore } from './src/lib/store';
 import { UIProvider, useNav, useNavState, useToast, type Route, type Tab } from './src/lib/ui';
 import AuthScreen from './src/screens/AuthScreen';
@@ -36,6 +36,7 @@ import { PhrasesScreen, RoutesScreen } from './src/components/Extras2';
 import { FestivalScreen, HelpScreen, PlanScreen } from './src/components/Extras3';
 import { TripProvider } from './src/lib/trip';
 import { EmergencyScreen, FxScreen, PricesScreen } from './src/components/Extras4';
+import { BlueFlagScreen, CollectionScreen, CollectionsScreen, PackingScreen, QuizScreen, SharedTripScreen, SharedTripsScreen, TrailScreen, TrailsScreen, TravelerScreen, YearScreen, joinShared } from './src/components/Extras5';
 import { decodeRoute } from './src/lib/stops';
 import { checkForUpdate, install, later as updLater, openInBrowser, useAutoUpdateCheck, useUpdate, VERSION } from './src/lib/update';
 import { BADGES, earned } from './src/data/badges';
@@ -81,6 +82,17 @@ const ScreenM = React.memo(function Screen({ r }: { r: Route }) {
     case 'festivals': return <FestivalScreen />;
     case 'help': return <HelpScreen />;
     case 'emergency': return <EmergencyScreen />;
+    case 'traveler': return <TravelerScreen id={r.id} />;
+    case 'sharedTrips': return <SharedTripsScreen />;
+    case 'sharedTrip': return <SharedTripScreen id={r.id} />;
+    case 'year': return <YearScreen />;
+    case 'collections': return <CollectionsScreen />;
+    case 'collection': return <CollectionScreen id={r.id} />;
+    case 'quiz': return <QuizScreen />;
+    case 'trails': return <TrailsScreen />;
+    case 'trail': return <TrailScreen id={r.id} />;
+    case 'blueflag': return <BlueFlagScreen />;
+    case 'packing': return <PackingScreen />;
     case 'fx': return <FxScreen />;
     case 'prices': return <PricesScreen />;
     case 'journal': return <JournalScreen id={r.id} />;
@@ -193,13 +205,15 @@ function usePushOpen() {
 /* site bağlantıları uygulamada açılır: ?yer=… yer kartı, ?gezi=… paylaşılan gezi listesi */
 function useDeepLinks() {
   const { push } = useNav();
+  const toast = useToast();
   const { byId, loading } = useStore();
   const pending = useRef<string | null>(null);
   const handle = (url: string | null) => {
     if (!url) return;
     const l = parseLink(url); if (!l) return;
     track('act:open_link');
-    if (l.rota) { const d = decodeRoute(l.rota.r, l.rota.m, l.rota.k, byId); if (d.stops.length) push({ name: 'route', stops: d.stops, mode: d.mode, avoid: d.avoid }); }
+    if (l.ortak) { const o = l.ortak; joinShared(o.id, o.k).then((r) => { toast(r.already ? 'Bu listeye zaten katıldın' : '{1} listesine katıldın', r.title); push({ name: 'sharedTrip', id: o.id }); }, (e) => toast(trError(e))); }
+    else if (l.rota) { const d = decodeRoute(l.rota.r, l.rota.m, l.rota.k, byId); if (d.stops.length) push({ name: 'route', stops: d.stops, mode: d.mode, avoid: d.avoid }); }
     else if (l.gunluk) push({ name: 'journal', id: l.gunluk });
     else if (l.gezi && l.gezi.length) push({ name: 'trip', shared: l.gezi.filter((id) => !!byId(id)) });
     else if (l.yer && byId(l.yer)) push({ name: 'place', id: l.yer });

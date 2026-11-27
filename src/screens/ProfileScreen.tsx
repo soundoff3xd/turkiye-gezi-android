@@ -83,6 +83,10 @@ export default function ProfileScreen() {
         </View>
       </View>
 
+      <View style={{ flexDirection: 'row', gap: 8, marginTop: 12 }}>
+        <Btn small label={`👤 ${t('Gezgin profilim')}`} onPress={() => push({ name: 'traveler', id: me.id })} style={{ flex: 1 }} />
+        <Btn small label={`📅 ${t('Yıllık özetim')}`} onPress={() => push({ name: 'year' })} style={{ flex: 1 }} />
+      </View>
       <View style={b.box}>
         <Text style={b.boxH}>{t('Gezgin seviyesi')}</Text>
         <View style={{ flexDirection: 'row', justifyContent: 'space-between' }}>

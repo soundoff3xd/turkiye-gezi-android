@@ -1,0 +1,768 @@
+@fr
+0	Tu as déjà rejoint cette liste
+1	Tu as rejoint la liste {1}
+2	Listes partagées
+3	Liste de voyage entre amis
+4	Sentiers de randonnée
+5	Voie lycienne, monts Kaçkar et plus
+6	Plages Pavillon Bleu
+7	Plages propres et sûres
+8	Liste de bagages
+9	Liste d'affaires selon la région et la saison
+10	Jeux et souvenirs
+11	Collections
+12	Patrimoine UNESCO, 7 régions et plus
+13	C'est où ?
+14	Devine le lieu sur la photo, résous le quiz du jour
+15	Bilan de l'année
+16	Les voyages de l'année sur une carte
+17	Ouvrir le profil de {1}
+18	Le lien d'invitation n'est pas valide ou la liste a été supprimée.
+19	Cette liste est pleine (20 personnes max.).
+20	La liste est pleine (50 lieux max.).
+21	Tu peux créer jusqu'à 20 listes partagées.
+22	{1} a commencé à te suivre
+23	{1} a rejoint ta liste de voyage partagée
+24	Ajouter à une liste partagée
+25	Mon profil de voyageur
+26	Mon année
+27	Abonnements
+28	Connecte-toi pour suivre
+29	Voyageur introuvable.
+30	Abonnés
+31	Abonnements
+32	Voyageur depuis {1}
+33	Abonné
+34	Suivre
+35	Les lieux visités par ce voyageur sont privés ; seuls les chiffres sont visibles.
+36	Derniers avis
+37	Pas encore d'avis.
+38	Mon année de voyage
+39	Tu ne suis encore personne.
+40	Touche le nom d'un voyageur dans un avis pour ouvrir son profil et le suivre.
+41	Les personnes que tu suis n'ont encore rien partagé.
+42	Connecte-toi pour les listes partagées
+43	Prépare une liste de voyage avec tes amis ou ta famille. Partage le lien ; chaque membre peut ajouter ou retirer des lieux.
+44	Nom de la liste (ex. Week-end en Cappadoce)
+45	Tu n'as pas encore de liste partagée.
+46	Créée par toi
+47	Liste rejointe
+48	Jusqu'à {1} lieux et {2} personnes.
+49	Liste partagée
+50	Tu ne peux pas voir cette liste.
+51	Ouvre le lien qu'on t'a envoyé pour rejoindre la liste.
+52	Ce lieu est déjà dans la liste
+53	Ajouté à la liste
+54	Liste supprimée
+55	Tu as quitté la liste
+56	Rejoins ma liste de voyage partagée
+57	Inviter
+58	Aucun lieu ajouté pour l'instant.
+59	Ajouté par {1}
+60	Ajouter un lieu
+61	Membres
+62	Toi (propriétaire)
+63	Propriétaire et invités
+64	Personne n'a encore rejoint. Partage le lien d'invitation.
+65	Créée : {1}
+66	Supprimer la liste
+67	Quitter la liste
+68	Ajouté à la liste {1}
+69	Nouvelle liste partagée
+70	Connecte-toi pour voir ton bilan
+71	Mon année {1} en voyage
+72	{1} provinces
+73	Province la plus visitée : {1}
+74	Type préféré : {1}
+75	{1} notes de carnet
+76	Ta photo la plus aimée
+77	Tu n'as encore marqué aucun lieu « J'y suis allé » cette année. Ton bilan se remplira au fil des voyages.
+78	Partager mon bilan
+79	Complète des listes et gagne des badges. Ta progression avance avec chaque « J'y suis allé ».
+80	Terminées
+81	Introuvable.
+82	Bravo, tu as complété cette collection !
+83	Basé sur les 21 sites du patrimoine mondial de l'UNESCO en Turquie (2023).
+84	Question {1}/{2}
+85	Score {1}
+86	Regarde la photo et devine où c'est en Turquie.
+87	Quiz du jour
+88	Les mêmes 5 photos pour tout le monde ; une partie par jour.
+89	Ton score du jour : {1}/5
+90	Jouer au quiz du jour
+91	Connecte-toi pour entrer au classement.
+92	Partie libre
+93	10 photos au hasard. Ton meilleur score : {1}/10
+94	Jouer
+95	Classement du jour
+96	Personne n'a encore joué aujourd'hui.
+97	Photos : Wikimedia Commons
+98	Printemps
+99	Été
+100	Automne
+101	Hiver
+102	Facile
+103	Moyen
+104	Difficile
+105	Les sentiers de grande randonnée balisés et vallées de Turquie.
+106	Départ
+107	Arrivée
+108	Meilleure saison
+109	Chargement du tracé depuis OpenStreetMap…
+110	Le tracé n'a pas pu être chargé ; la carte montre le départ et l'arrivée.
+111	Tracé : © contributeurs OpenStreetMap. Vérifie le balisage et la météo avant de partir.
+112	Ouvrir sur Culture Routes in Turkey
+113	Sur les longs sentiers, emporte assez d'eau, indique ton itinéraire à quelqu'un et ne marche pas à midi en pleine chaleur d'été.
+114	Pavillon Bleu
+115	Une plage de ce secteur figure sur la liste Pavillon Bleu {1}.
+116	Sur la liste Pavillon Bleu {1}.
+117	Le Pavillon Bleu est attribué chaque année ; vérifie le statut actuel sur mavibayrak.org.tr.
+118	Les plages du guide figurant sur les listes Pavillon Bleu. Il est décerné chaque année pour la propreté de l'eau, la sécurité et la gestion environnementale.
+119	Meilleurs moments pour les photos
+120	Heure dorée du matin
+121	Heure dorée du soir
+122	Heure bleue
+123	Points de vue à proximité
+124	Aucun point de vue balisé dans un rayon de 3 km.
+125	Horaires du jour, heure de Turquie.
+126	Mer et plage
+127	Balade nature
+128	Visite de mosquée
+129	Neige et ski
+130	Vol en montgolfière
+131	Documents
+132	Carte d'identité ou passeport
+133	Permis de conduire (si tu conduis)
+134	Carte bancaire et un peu d'espèces en TL
+135	Infos d'hébergement et billets
+136	Assurance santé voyage (si tu es étranger)
+137	Vêtements
+138	Chaussures de marche confortables
+139	Petite couche pour le soir
+140	Manteau ou veste chaude
+141	Pull
+142	Bonnet et gants
+143	Chapeau de soleil
+144	Vêtements fins et clairs
+145	Imperméable et chaussures étanches
+146	Sous-vêtements thermiques
+147	Bottes de neige
+148	Santé et soins
+149	Tes médicaments
+150	Antidouleur et pansements
+151	Brosse à dents et dentifrice
+152	Lingettes et gel hydroalcoolique
+153	Crème solaire (SPF 30+)
+154	Anti-moustiques
+155	Électronique
+156	Téléphone et chargeur
+157	Batterie externe
+158	Carte hors ligne (à télécharger dans l'appli)
+159	Maillot de bain
+160	Serviette de plage
+161	Chaussures d'eau
+162	Lunettes de soleil
+163	Gourde
+164	Petit sac à dos
+165	En-cas
+166	Bâtons de marche
+167	Lampe de poche
+168	Foulard ou châle
+169	Vêtements sous le genou
+170	Chaussures faciles à enlever
+171	Veste et pantalon de ski
+172	Masque de ski
+173	Gants imperméables
+174	Crème solaire visage
+175	Haut chaud pour la fraîcheur matinale
+176	Chaussures fermées
+177	Où ?
+178	Quand ?
+179	Combien de jours ?
+180	Que vas-tu faire ?
+181	{1}/{2} prêts
+182	Sous-vêtements et chaussettes pour {1} jours
+183	Effacer les coches
+184	Traduction…
+185	Voir l'original
+186	Traduire
+187	Traduction impossible pour l'instant, réessaie plus tard.
+188	Traduction automatique · MyMemory
+189	Patrimoine mondial de l'UNESCO
+190	Les 21 sites turcs inscrits au patrimoine mondial
+191	Zones historiques d'Istanbul
+192	Göreme et la Cappadoce
+193	Grande mosquée et hôpital de Divriği
+194	Hattusa
+195	Mont Nemrut
+196	Hiérapolis-Pamukkale
+197	Xanthos-Létôon
+198	Safranbolu
+199	Site archéologique de Troie
+200	Mosquée Selimiye d'Edirne
+201	Çatalhöyük
+202	Bursa et Cumalıkızık
+203	Pergame
+204	Éphèse
+205	Ani
+206	Aphrodisias
+207	Göbekli Tepe
+208	Forteresse de Diyarbakır et jardins de l'Hevsel
+209	Arslantepe
+210	Gordion
+211	Mosquées seldjoukides à colonnes de bois
+212	7 régions
+213	Au moins un lieu dans chaque région
+214	Cités antiques de l'Égée
+215	Cités antiques et sites archéologiques de la région égéenne
+216	Mosquées d'Istanbul
+217	Les mosquées d'Istanbul du guide
+218	Vallées, villes souterraines et villages de Nevşehir
+219	Palais
+220	Tous les palais du guide
+221	Tours
+222	Toutes les tours du guide
+223	Sources chaudes
+224	Toutes les sources chaudes du guide
+225	Canyons
+226	Tous les canyons du guide
+227	Grottes
+228	Toutes les grottes du guide
+229	Îles
+230	Toutes les îles du guide
+231	Sentier balisé le long de la côte méditerranéenne, à travers cités lyciennes antiques, villages et pinèdes. Il se parcourt par étapes plutôt qu'en une fois.
+232	Route de montagne à travers le Taurus, d'Antalya à Yalvaç près du lac d'Eğirdir ; canyons, alpages et rives de lacs.
+233	Le plus long sentier balisé de Turquie, autour des presqu'îles de Bodrum, Datça et Bozburun (Muğla) ; criques et cités cariennes antiques.
+234	Trek de plusieurs jours dans les hautes montagnes de la mer Noire, par villages d'alpage, lacs glaciaires et cols. Le temps change vite ; expérience et équipement requis.
+235	Sentier balisé reliant villages de montagne, oliveraies et sites historiques d'İzmir.
+236	Ascension aller-retour du plus haut sommet de Turquie. Avec guide et permis ; expérience de la haute altitude requise.
+237	Randonnée aller-retour entre les sommets calcaires du Taurus jusqu'au plateau de Yedigöller.
+238	Une partie de la route du célèbre voyageur lors de son pèlerinage en 1671 ; itinéraire rural à pied ou à cheval.
+239	Sentier passant par les monuments rupestres, cheminées de fée et villages abandonnés de la vallée phrygienne ; Yazılıkaya (monument de Midas) en est l'étape phare.
+240	Vallée de Cappadoce parcourue entre églises rupestres le long du Melendiz ; la plupart en font une courte section.
+241	La section turque du chemin d'Abraham au Moyen-Orient, des villages autour de Şanlıurfa aux maisons à coupoles de Harran.
+242	Route historique par laquelle munitions et volontaires ont été acheminés d'İnebolu à Ankara pendant la guerre d'indépendance.
+243	La section thrace du sentier international de Vienne à Istanbul.
+244	Longueurs et durées : GoTürkiye / Culture Routes in Turkey
+245	Tu es sûr ? Touche encore pour confirmer
+246	Aucun résultat
+247	Ta progression est enregistrée dans ce navigateur ; connecte-toi pour la garder dans ton compte.
+248	Le classement nécessite une connexion Internet.
+249	{1} s
+250	{1} km
+251	Type préféré :
+252	Lieux visités
+253	J'aime reçus
+254	Rechercher et ajouter un lieu
+@es
+0	Ya te uniste a esta lista
+1	Te uniste a la lista {1}
+2	Listas compartidas
+3	Lista de viaje con amigos
+4	Rutas de senderismo
+5	Ruta Licia, montes Kaçkar y más
+6	Playas con Bandera Azul
+7	Playas limpias y seguras
+8	Lista de equipaje
+9	Equipaje según región y temporada
+10	Diversión y recuerdos
+11	Colecciones
+12	Patrimonio UNESCO, 7 regiones y más
+13	¿Dónde es esto?
+14	Adivina el lugar por la foto, resuelve el reto del día
+15	Tu año viajero
+16	Los viajes de este año en una tarjeta
+17	Abrir el perfil de {1}
+18	El enlace de invitación no es válido o la lista se eliminó.
+19	Esta lista está llena (máx. 20 personas).
+20	La lista está llena (máx. 50 lugares).
+21	Puedes crear hasta 20 listas compartidas.
+22	{1} empezó a seguirte
+23	{1} se unió a tu lista de viaje compartida
+24	Añadir a lista compartida
+25	Mi perfil viajero
+26	Mi año
+27	Siguiendo
+28	Inicia sesión para seguir
+29	No se encontró a este viajero.
+30	Seguidores
+31	Siguiendo
+32	Viajero desde {1}
+33	Siguiendo
+34	Seguir
+35	Los lugares que visitó este viajero son privados; solo se ven las cifras.
+36	Reseñas recientes
+37	Aún no hay reseñas.
+38	Mi año viajero
+39	Aún no sigues a nadie.
+40	Toca el nombre de un viajero en una reseña para abrir su perfil y seguirlo.
+41	Las personas que sigues aún no han compartido nada.
+42	Inicia sesión para usar listas compartidas
+43	Prepara una lista de viaje con amigos o familia. Comparte el enlace; todos los que se unan pueden añadir y quitar lugares.
+44	Nombre de la lista (p. ej., Fin de semana en Capadocia)
+45	Aún no tienes listas compartidas.
+46	Creada por ti
+47	Lista a la que te uniste
+48	Hasta {1} lugares y {2} personas.
+49	Lista compartida
+50	No puedes ver esta lista.
+51	Abre el enlace que te enviaron para unirte a la lista.
+52	Este lugar ya está en la lista
+53	Añadido a la lista
+54	Lista eliminada
+55	Saliste de la lista
+56	Únete a mi lista de viaje compartida
+57	Invitar
+58	Aún no se han añadido lugares.
+59	Añadido por {1}
+60	Añadir lugar
+61	Participantes
+62	Tú (propietario)
+63	Propietario e invitados
+64	Nadie se ha unido aún. Comparte el enlace de invitación.
+65	Creada: {1}
+66	Eliminar lista
+67	Salir de la lista
+68	Añadido a la lista {1}
+69	Nueva lista compartida
+70	Inicia sesión para ver tu resumen
+71	Mi {1} viajero
+72	{1} provincias
+73	Provincia más visitada: {1}
+74	Tipo favorito: {1}
+75	{1} notas de diario
+76	Tu foto con más me gusta
+77	Este año aún no marcaste ningún lugar como «Estuve». Tu resumen se llenará a medida que viajes.
+78	Compartir mi resumen
+79	Completa listas y gana insignias. Avanzas al marcar «Estuve».
+80	Completadas
+81	No encontrado.
+82	¡Enhorabuena, completaste esta colección!
+83	Basado en los 21 sitios del Patrimonio Mundial de la UNESCO en Turquía (2023).
+84	Pregunta {1}/{2}
+85	Puntos {1}
+86	Mira la foto y adivina dónde está en Turquía.
+87	Reto del día
+88	Las mismas 5 fotos para todos; se juega una vez al día.
+89	Tus puntos hoy: {1}/5
+90	Jugar el reto del día
+91	Inicia sesión para entrar en la clasificación.
+92	Juego libre
+93	10 fotos al azar. Tu mejor marca: {1}/10
+94	Jugar
+95	Clasificación de hoy
+96	Hoy nadie ha jugado todavía.
+97	Fotos: Wikimedia Commons
+98	Primavera
+99	Verano
+100	Otoño
+101	Invierno
+102	Fácil
+103	Media
+104	Difícil
+105	Los senderos de largo recorrido señalizados y valles de Turquía.
+106	Inicio
+107	Final
+108	Mejor época
+109	Cargando la ruta desde OpenStreetMap…
+110	No se pudo cargar la ruta; el mapa muestra el inicio y el final.
+111	Ruta: © colaboradores de OpenStreetMap. Revisa las señales y el tiempo antes de salir.
+112	Abrir en Culture Routes in Turkey
+113	En rutas largas lleva agua suficiente, avisa a alguien de tu recorrido y no camines a mediodía con el calor del verano.
+114	Bandera Azul
+115	Una playa de esta zona está en la lista Bandera Azul {1}.
+116	En la lista Bandera Azul {1}.
+117	La Bandera Azul se otorga cada año; consulta el estado actual en mavibayrak.org.tr.
+118	Playas de la guía que figuran en listas de Bandera Azul. Se concede cada año por agua limpia, seguridad y gestión ambiental.
+119	Mejores horas para fotos
+120	Hora dorada de la mañana
+121	Hora dorada de la tarde
+122	Hora azul
+123	Miradores cercanos
+124	No hay miradores señalizados a menos de 3 km.
+125	Horas de hoy, en horario de Turquía.
+126	Mar y playa
+127	Paseo por la naturaleza
+128	Visita a mezquita
+129	Nieve y esquí
+130	Vuelo en globo
+131	Documentos
+132	DNI o pasaporte
+133	Carné de conducir (si vas a conducir)
+134	Tarjeta y algo de efectivo en TL
+135	Datos de alojamiento y billetes
+136	Seguro médico de viaje (si eres extranjero)
+137	Ropa
+138	Calzado cómodo para caminar
+139	Prenda ligera para la noche
+140	Abrigo o chaqueta gruesa
+141	Jersey
+142	Gorro y guantes
+143	Sombrero
+144	Ropa fina y clara
+145	Impermeable y calzado impermeable
+146	Ropa interior térmica
+147	Botas de nieve
+148	Salud y cuidado
+149	Tus medicamentos
+150	Analgésicos y tiritas
+151	Cepillo y pasta de dientes
+152	Toallitas y gel desinfectante
+153	Protector solar (SPF 30+)
+154	Repelente de insectos
+155	Electrónica
+156	Teléfono y cargador
+157	Batería externa
+158	Mapa sin conexión (descárgalo en la app)
+159	Bañador
+160	Toalla de playa
+161	Escarpines
+162	Gafas de sol
+163	Botella de agua
+164	Mochila pequeña
+165	Tentempiés
+166	Bastones de senderismo
+167	Linterna
+168	Pañuelo o chal
+169	Ropa por debajo de la rodilla
+170	Zapatos fáciles de quitar
+171	Chaqueta y pantalón de esquí
+172	Gafas de esquí
+173	Guantes impermeables
+174	Protector solar facial
+175	Prenda abrigada para el frío de la mañana
+176	Calzado cerrado
+177	¿Adónde?
+178	¿Cuándo?
+179	¿Cuántos días?
+180	¿Qué vas a hacer?
+181	{1}/{2} listo
+182	Ropa interior y calcetines para {1} días
+183	Borrar marcas
+184	Traduciendo…
+185	Ver original
+186	Traducir
+187	No se pudo traducir ahora, inténtalo más tarde.
+188	Traducción automática · MyMemory
+189	Patrimonio Mundial de la UNESCO
+190	Los 21 sitios de Turquía en la Lista del Patrimonio Mundial
+191	Zonas históricas de Estambul
+192	Göreme y Capadocia
+193	Gran Mezquita y Hospital de Divriği
+194	Hattusa
+195	Monte Nemrut
+196	Hierápolis-Pamukkale
+197	Janto-Letoon
+198	Safranbolu
+199	Sitio arqueológico de Troya
+200	Mezquita Selimiye, Edirne
+201	Çatalhöyük
+202	Bursa y Cumalıkızık
+203	Pérgamo
+204	Éfeso
+205	Ani
+206	Afrodisias
+207	Göbekli Tepe
+208	Fortaleza de Diyarbakır y jardines de Hevsel
+209	Arslantepe
+210	Gordion
+211	Mezquitas selyúcidas de columnas de madera
+212	7 regiones
+213	Al menos un lugar en cada región
+214	Ciudades antiguas del Egeo
+215	Ciudades antiguas y ruinas de la región del Egeo
+216	Mezquitas de Estambul
+217	Mezquitas de Estambul en la guía
+218	Valles, ciudades subterráneas y pueblos de Nevşehir
+219	Palacios
+220	Todos los palacios de la guía
+221	Torres
+222	Todas las torres de la guía
+223	Aguas termales
+224	Todas las aguas termales de la guía
+225	Cañones
+226	Todos los cañones de la guía
+227	Cuevas
+228	Todas las cuevas de la guía
+229	Islas
+230	Todas las islas de la guía
+231	Sendero señalizado de largo recorrido por la costa mediterránea, entre ciudades licias antiguas, pueblos y pinares. Se recorre por etapas, no de una vez.
+232	Ruta de montaña por los montes Tauro de Antalya a Yalvaç, junto al lago Eğirdir; cañones, pastos de altura y orillas de lagos.
+233	El sendero señalizado más largo de Turquía, por las penínsulas de Bodrum, Datça y Bozburun (Muğla); calas y ciudades carias antiguas.
+234	Travesía de varios días por las altas montañas del mar Negro, entre aldeas de altura, lagos glaciares y collados. El tiempo cambia rápido; se necesita experiencia y equipo.
+235	Ruta señalizada que une aldeas de montaña, olivares y pueblos históricos de İzmir.
+236	Ascenso de ida y vuelta a la montaña más alta de Turquía. Con guía y permiso; requiere experiencia en altitud.
+237	Caminata de ida y vuelta entre las cumbres calizas del Tauro hasta la meseta de Yedigöller.
+238	Parte de la ruta que siguió el famoso viajero en su peregrinación de 1671; ruta rural a pie o a caballo.
+239	Ruta entre monumentos rupestres, chimeneas de hadas y aldeas abandonadas del valle frigio; Yazılıkaya (Monumento de Midas) es su parada más famosa.
+240	Valle de Capadocia junto al río Melendiz entre iglesias rupestres; la mayoría recorre un tramo corto.
+241	El tramo turco del Camino de Abraham de Oriente Medio, de aldeas cercanas a Şanlıurfa a las casas de cúpula de Harrán.
+242	Ruta histórica por la que se llevaron municiones y voluntarios de İnebolu a Ankara en la Guerra de Independencia.
+243	El tramo de Tracia del sendero internacional de Viena a Estambul.
+244	Longitudes y duraciones: GoTürkiye / Culture Routes in Turkey
+245	¿Seguro? Toca otra vez para confirmar
+246	Sin resultados
+247	Tu progreso se guarda en este navegador; inicia sesión para guardarlo en tu cuenta.
+248	La clasificación necesita conexión a Internet.
+249	{1} s
+250	{1} km
+251	Tipo favorito:
+252	Lugares visitados
+253	Me gusta recibidos
+254	Buscar y añadir un lugar
+@it
+0	Ti sei già unito a questa lista
+1	Ti sei unito alla lista {1}
+2	Liste condivise
+3	Lista di viaggio con gli amici
+4	Sentieri escursionistici
+5	Via Licia, monti Kaçkar e altro
+6	Spiagge Bandiera Blu
+7	Spiagge pulite e sicure
+8	Lista valigia
+9	Cosa portare per regione e stagione
+10	Giochi e ricordi
+11	Collezioni
+12	Patrimonio UNESCO, 7 regioni e altro
+13	Dov'è?
+14	Indovina il luogo dalla foto, risolvi il quiz del giorno
+15	Il tuo anno di viaggi
+16	I viaggi di quest'anno in una scheda
+17	Apri il profilo di {1}
+18	Il link d'invito non è valido o la lista è stata eliminata.
+19	Questa lista è piena (max 20 persone).
+20	La lista è piena (max 50 luoghi).
+21	Puoi creare fino a 20 liste condivise.
+22	{1} ha iniziato a seguirti
+23	{1} si è unito alla tua lista di viaggio condivisa
+24	Aggiungi a lista condivisa
+25	Il mio profilo da viaggiatore
+26	Il mio anno
+27	Seguiti
+28	Accedi per seguire
+29	Viaggiatore non trovato.
+30	Follower
+31	Seguiti
+32	Viaggiatore dal {1}
+33	Segui già
+34	Segui
+35	I luoghi visitati da questo viaggiatore sono privati; si vedono solo i numeri.
+36	Recensioni recenti
+37	Ancora nessuna recensione.
+38	Il mio anno di viaggi
+39	Non segui ancora nessuno.
+40	Tocca il nome di un viaggiatore in una recensione per aprire il profilo e seguirlo.
+41	Le persone che segui non hanno ancora condiviso nulla.
+42	Accedi per le liste condivise
+43	Prepara una lista di viaggio con amici o famiglia. Condividi il link: chi si unisce può aggiungere e togliere luoghi.
+44	Nome della lista (es. Weekend in Cappadocia)
+45	Non hai ancora liste condivise.
+46	Creata da te
+47	Lista a cui ti sei unito
+48	Fino a {1} luoghi e {2} persone.
+49	Lista condivisa
+50	Non puoi vedere questa lista.
+51	Apri il link che ti è stato inviato per unirti alla lista.
+52	Questo luogo è già nella lista
+53	Aggiunto alla lista
+54	Lista eliminata
+55	Hai lasciato la lista
+56	Unisciti alla mia lista di viaggio condivisa
+57	Invita
+58	Nessun luogo aggiunto.
+59	Aggiunto da {1}
+60	Aggiungi luogo
+61	Partecipanti
+62	Tu (proprietario)
+63	Proprietario e invitati
+64	Ancora nessuno si è unito. Condividi il link d'invito.
+65	Creata: {1}
+66	Elimina lista
+67	Lascia la lista
+68	Aggiunto alla lista {1}
+69	Nuova lista condivisa
+70	Accedi per vedere il riepilogo
+71	Il mio {1} in viaggio
+72	{1} province
+73	Provincia più visitata: {1}
+74	Tipo preferito: {1}
+75	{1} note di diario
+76	La tua foto più apprezzata
+77	Quest'anno non hai ancora segnato nessun luogo come «Ci sono stato». Il riepilogo si riempirà viaggiando.
+78	Condividi il riepilogo
+79	Completa le liste e guadagna badge. Avanzi segnando «Ci sono stato».
+80	Completate
+81	Non trovato.
+82	Complimenti, hai completato questa collezione!
+83	Basato sui 21 siti del Patrimonio Mondiale UNESCO in Turchia (2023).
+84	Domanda {1}/{2}
+85	Punti {1}
+86	Guarda la foto e indovina dove si trova in Turchia.
+87	Quiz del giorno
+88	Le stesse 5 foto per tutti; si gioca una volta al giorno.
+89	Il tuo punteggio oggi: {1}/5
+90	Gioca al quiz del giorno
+91	Accedi per entrare in classifica.
+92	Gioco libero
+93	10 foto a caso. Il tuo record: {1}/10
+94	Gioca
+95	Classifica di oggi
+96	Oggi non ha ancora giocato nessuno.
+97	Foto: Wikimedia Commons
+98	Primavera
+99	Estate
+100	Autunno
+101	Inverno
+102	Facile
+103	Media
+104	Difficile
+105	I sentieri a lunga percorrenza segnati e le valli della Turchia.
+106	Partenza
+107	Arrivo
+108	Stagione migliore
+109	Caricamento del percorso da OpenStreetMap…
+110	Impossibile caricare il percorso ora; la mappa mostra partenza e arrivo.
+111	Percorso: © contributori OpenStreetMap. Controlla segnavia e meteo prima di partire.
+112	Apri su Culture Routes in Turkey
+113	Sui sentieri lunghi porta abbastanza acqua, comunica a qualcuno il percorso e non camminare a mezzogiorno col caldo estivo.
+114	Bandiera Blu
+115	Una spiaggia di questa zona è nella lista Bandiera Blu {1}.
+116	Nella lista Bandiera Blu {1}.
+117	La Bandiera Blu viene assegnata ogni anno; controlla lo stato attuale su mavibayrak.org.tr.
+118	Le spiagge della guida presenti nelle liste Bandiera Blu. Viene assegnata ogni anno per acqua pulita, sicurezza e gestione ambientale.
+119	Orari migliori per le foto
+120	Ora d'oro del mattino
+121	Ora d'oro della sera
+122	Ora blu
+123	Punti panoramici vicini
+124	Nessun punto panoramico segnato entro 3 km.
+125	Orari di oggi, ora della Turchia.
+126	Mare e spiaggia
+127	Passeggiata nella natura
+128	Visita alla moschea
+129	Neve e sci
+130	Volo in mongolfiera
+131	Documenti
+132	Carta d'identità o passaporto
+133	Patente (se guidi)
+134	Carta di credito e un po' di contanti in TL
+135	Dati di alloggio e biglietti
+136	Assicurazione sanitaria di viaggio (se sei straniero)
+137	Abbigliamento
+138	Scarpe comode da camminata
+139	Strato leggero per la sera
+140	Cappotto o giacca pesante
+141	Maglione
+142	Berretto e guanti
+143	Cappello da sole
+144	Abiti leggeri e chiari
+145	Impermeabile e scarpe impermeabili
+146	Intimo termico
+147	Doposci
+148	Salute e cura
+149	I tuoi farmaci
+150	Antidolorifico e cerotti
+151	Spazzolino e dentifricio
+152	Salviette e gel igienizzante
+153	Crema solare (SPF 30+)
+154	Repellente per insetti
+155	Elettronica
+156	Telefono e caricabatterie
+157	Power bank
+158	Mappa offline (scaricala nell'app)
+159	Costume da bagno
+160	Telo mare
+161	Scarpette da scoglio
+162	Occhiali da sole
+163	Borraccia
+164	Zainetto
+165	Snack
+166	Bastoncini da trekking
+167	Torcia
+168	Foulard o scialle
+169	Abiti sotto il ginocchio
+170	Scarpe facili da togliere
+171	Giacca e pantaloni da sci
+172	Maschera da sci
+173	Guanti impermeabili
+174	Crema solare per il viso
+175	Capo caldo per il fresco del mattino
+176	Scarpe chiuse
+177	Dove?
+178	Quando?
+179	Quanti giorni?
+180	Cosa farai?
+181	{1}/{2} pronti
+182	Intimo e calzini per {1} giorni
+183	Cancella spunte
+184	Traduzione…
+185	Mostra originale
+186	Traduci
+187	Impossibile tradurre ora, riprova più tardi.
+188	Traduzione automatica · MyMemory
+189	Patrimonio Mondiale UNESCO
+190	I 21 siti della Turchia nella Lista del Patrimonio Mondiale
+191	Aree storiche di Istanbul
+192	Göreme e la Cappadocia
+193	Grande Moschea e Ospedale di Divriği
+194	Hattuša
+195	Monte Nemrut
+196	Hierapolis-Pamukkale
+197	Xanthos-Letoon
+198	Safranbolu
+199	Sito archeologico di Troia
+200	Moschea Selimiye, Edirne
+201	Çatalhöyük
+202	Bursa e Cumalıkızık
+203	Pergamo
+204	Efeso
+205	Ani
+206	Afrodisia
+207	Göbekli Tepe
+208	Fortezza di Diyarbakır e giardini di Hevsel
+209	Arslantepe
+210	Gordio
+211	Moschee selgiuchide a colonne lignee
+212	7 regioni
+213	Almeno un luogo in ogni regione
+214	Città antiche dell'Egeo
+215	Città antiche e rovine della regione egea
+216	Moschee di Istanbul
+217	Moschee di Istanbul nella guida
+218	Valli, città sotterranee e paesi di Nevşehir
+219	Palazzi
+220	Tutti i palazzi della guida
+221	Torri
+222	Tutte le torri della guida
+223	Terme
+224	Tutte le terme della guida
+225	Canyon
+226	Tutti i canyon della guida
+227	Grotte
+228	Tutte le grotte della guida
+229	Isole
+230	Tutte le isole della guida
+231	Sentiero segnato a lunga percorrenza lungo la costa mediterranea tra antiche città licie, villaggi e pinete. Si percorre a tappe, non tutto insieme.
+232	Percorso di montagna attraverso il Tauro da Antalya a Yalvaç, vicino al lago Eğirdir; canyon, alpeggi e rive di laghi.
+233	Il sentiero segnato più lungo della Turchia, intorno alle penisole di Bodrum, Datça e Bozburun (Muğla); calette e antiche città carie.
+234	Trekking di più giorni sulle alte montagne del Mar Nero tra villaggi d'alpeggio, laghi glaciali e passi. Il tempo cambia in fretta; servono esperienza e attrezzatura.
+235	Percorso segnato che collega villaggi di montagna, uliveti e centri storici di İzmir.
+236	Salita andata e ritorno alla montagna più alta della Turchia. Con guida e permesso; serve esperienza in alta quota.
+237	Escursione andata e ritorno tra le cime calcaree del Tauro fino all'altopiano di Yedigöller.
+238	Parte del percorso seguito dal celebre viaggiatore nel suo pellegrinaggio del 1671; itinerario rurale a piedi o a cavallo.
+239	Percorso tra monumenti rupestri, camini delle fate e villaggi abbandonati della valle frigia; Yazılıkaya (Monumento di Mida) è la tappa più famosa.
+240	Valle della Cappadocia lungo il torrente Melendiz tra chiese rupestri; i più ne percorrono un breve tratto.
+241	Il tratto turco del Cammino di Abramo in Medio Oriente, dai villaggi intorno a Şanlıurfa alle case a cupola di Harran.
+242	Percorso storico lungo cui munizioni e volontari furono portati da İnebolu ad Ankara durante la Guerra d'indipendenza.
+243	Il tratto in Tracia del sentiero internazionale da Vienna a Istanbul.
+244	Lunghezze e durate: GoTürkiye / Culture Routes in Turkey
+245	Sei sicuro? Tocca di nuovo per confermare
+246	Nessun risultato
+247	I progressi sono salvati in questo browser; accedi per salvarli nel tuo account.
+248	La classifica richiede una connessione Internet.
+249	{1} s
+250	{1} km
+251	Tipo preferito:
+252	Luoghi visitati
+253	Mi piace ricevuti
+254	Cerca e aggiungi un luogo

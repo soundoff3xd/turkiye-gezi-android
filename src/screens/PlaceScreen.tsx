@@ -13,6 +13,7 @@ import CorrectionSheet from '../components/CorrectionSheet';
 import { NeedsBox, SpeakButton, SunBox } from '../components/Extras2';
 import { QATab, VisitorInfoBox } from '../components/Extras3';
 import { HoursBox, MosqueBox } from '../components/Extras4';
+import { AddToShared, BlueFlagBox, PhotoSpotBox } from '../components/Extras5';
 import { Dishes, MuseumBox, NearbyFood, PlaceHero, SeasonBox } from '../components/Extras';
 import { SkeletonPage, useDeferred } from '../components/Anim';
 import { useTrip } from '../lib/trip';
@@ -30,6 +31,7 @@ export default function PlaceScreen({ id, initialTab = 'ov' }: { id: string; ini
   const toast = useToast();
   const [tab, setTab] = useState(initialTab);
   const [fix, setFix] = useState(false);
+  const [shared, setShared] = useState(false);
   const { distTo } = useLocation();
   const trip = useTrip();
   const ready = useDeferred(0);
@@ -76,6 +78,8 @@ export default function PlaceScreen({ id, initialTab = 'ov' }: { id: string; ini
             onPress={() => { if (trip.has(p.id)) { trip.remove(p.id); toast('Gezi listenden çıkarıldı'); } else if (trip.add(p.id)) toast('Gezi listene eklendi'); else toast('Gezi listen dolu (en fazla {1} yer).', 24); }} />
           <Btn label={`↗ ${t('Yeri paylaş')}`} onPress={() => sharePlace(p, t)} style={{ flex: 1 }} />
         </View>
+        <Btn small kind="ghost" label={`👥 ${t('Ortak listeye ekle')}`} onPress={() => setShared(true)} style={{ marginTop: 4 }} />
+        <AddToShared placeId={p.id} open={shared} onClose={() => setShared(false)} />
 
         <ScrollView horizontal showsHorizontalScrollIndicator={false} style={{ marginTop: 18, borderBottomWidth: 1, borderBottomColor: C.line, flexGrow: 0 }} accessibilityRole="tablist">
           {tabs.map(([k, l]) => (
@@ -96,6 +100,8 @@ export default function PlaceScreen({ id, initialTab = 'ov' }: { id: string; ini
             {!!p.h && <View style={b.box}><Text style={b.boxH}>{t('Nasıl gidilir')}</Text><Text style={b.boxT}>{t(p.h)}</Text></View>}
             <SeasonBox p={p} />
             <SunBox p={p} />
+            <PhotoSpotBox p={p} />
+            <BlueFlagBox p={p} />
             <HoursBox p={p} />
             <MosqueBox p={p} />
             <MuseumBox p={p} />
