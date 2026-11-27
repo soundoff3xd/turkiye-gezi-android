@@ -8,9 +8,9 @@ export type Profile = 'driving-car' | 'foot-walking' | 'cycling-regular';
 
 export class RouteError extends Error { constructor(public code: string) { super(code); } }
 
-export async function fetchRoute(profile: Profile, coords: [number, number][], language: string): Promise<RouteRes> {
+export async function fetchRoute(profile: Profile, coords: [number, number][], language: string, avoid: string[] = []): Promise<RouteRes> {
   let res;
-  try { res = await supabase.functions.invoke('route', { body: { profile, coordinates: coords, language } }); }
+  try { res = await supabase.functions.invoke('route', { body: { profile, coordinates: coords, language, ...(avoid.length && profile === 'driving-car' ? { avoid } : {}) } }); }
   catch { throw new RouteError('network'); }
   const { data, error } = res;
   if (error) {

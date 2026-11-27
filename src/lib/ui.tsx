@@ -3,6 +3,7 @@ import { BackHandler, StyleSheet, Text, View } from 'react-native';
 import { useSafeAreaInsets } from 'react-native-safe-area-context';
 import { useT } from '../i18n';
 import { C, R } from '../theme';
+import type { Stop } from './stops';
 
 /* Basit gezinme: alt sekmeler + üstte açılan ekran yığını (Android geri tuşu yığını kapatır) */
 export type Tab = 'map' | 'explore' | 'plan' | 'photos';
@@ -14,8 +15,8 @@ export type Route =
   | { name: 'photo'; id: string }
   | { name: 'lang' }
   | { name: 'support' }
-  | { name: 'route'; id?: string; ids?: string[] }
-  | { name: 'nav'; ids: string[]; mode: string }
+  | { name: 'route'; id?: string; ids?: string[]; stops?: Stop[]; mode?: string; avoid?: string[] }
+  | { name: 'nav'; stops: Stop[]; mode: string; avoid?: string[] }
   | { name: 'profile' }
   | { name: 'interests' }
   | { name: 'trip'; shared?: string[] }

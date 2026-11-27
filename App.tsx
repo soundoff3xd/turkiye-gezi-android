@@ -1,5 +1,5 @@
 import React, { useEffect, useRef } from 'react';
-import { Linking, Modal, Pressable, StyleSheet, Text, View } from 'react-native';
+import { ActivityIndicator, Linking, Modal, Pressable, StyleSheet, Text, View } from 'react-native';
 import AsyncStorage from '@react-native-async-storage/async-storage';
 import { StatusBar } from 'expo-status-bar';
 import { SafeAreaProvider, useSafeAreaInsets } from 'react-native-safe-area-context';
@@ -35,7 +35,8 @@ import JournalScreen, { JournalsScreen } from './src/screens/JournalScreen';
 import { PhrasesScreen, RoutesScreen } from './src/components/Extras2';
 import { FestivalScreen, HelpScreen, PlanScreen } from './src/components/Extras3';
 import { TripProvider } from './src/lib/trip';
-import { APK_URL, useUpdate } from './src/lib/update';
+import { decodeRoute } from './src/lib/stops';
+import { checkForUpdate, install, later as updLater, openInBrowser, useAutoUpdateCheck, useUpdate, VERSION } from './src/lib/update';
 import { BADGES, earned } from './src/data/badges';
 import { Btn } from './src/components/common';
 import { PageLoader, Splash, StackHost, TabIndicator, TabLayer } from './src/components/Anim';
@@ -62,8 +63,8 @@ const ScreenM = React.memo(function Screen({ r }: { r: Route }) {
     case 'photo': return <PhotoScreen id={r.id} />;
     case 'lang': return <LangScreen />;
     case 'support': return <SupportScreen />;
-    case 'route': return <RouteScreen id={r.id} ids={r.ids} />;
-    case 'nav': return <NavScreen ids={r.ids} mode={r.mode} />;
+    case 'route': return <RouteScreen id={r.id} ids={r.ids} stops={r.stops} mode={r.mode} avoid={r.avoid} />;
+    case 'nav': return <NavScreen stops={r.stops} mode={r.mode} avoid={r.avoid} />;
     case 'trip': return <TripScreen shared={r.shared} />;
     case 'recommend': return <RecommendScreen />;
     case 'city': return <CityScreen il={r.il} subs={r.subs} />;
@@ -109,7 +110,7 @@ function Shell() {
   useInboxPoll(true);
   useDeepLinks();
   usePushOpen();
-  const up = useUpdate();
+  useAutoUpdateCheck();
   return (
     <View style={{ flex: 1, backgroundColor: C.screen }}>
       <View style={{ flex: 1 }}>
@@ -130,18 +131,46 @@ function Shell() {
       </View>
       <StackHost stack={stack} render={(r) => <ErrorBoundary label={r.name} t={t}><ScreenM r={r} /></ErrorBoundary>} />
       <PageLoader signal={`${tab}|${stack.length}|${stack.length ? JSON.stringify(stack[stack.length - 1]) : ''}`} />
-      <Modal visible={up.show} transparent animationType="fade" onRequestClose={up.later}>
-        <View style={s.dim}>
-          <View style={s.card}>
-            <Text style={{ fontSize: 34 }}>🎉</Text>
-            <Text style={{ fontSize: 20, fontWeight: '900', color: C.ink, marginTop: 6 }}>{t('Yeni sürüm hazır')}</Text>
-            <Text style={{ color: C.muted, fontSize: 15, lineHeight: 21, marginTop: 6, textAlign: 'center' }}>{t('Yeni özellikler ve düzeltmeler içeren {1} indirilmeye hazır. İndirip kurman yeterli; hesabın ve kayıtların korunur.', up.tag)}</Text>
-            <Btn kind="pri" label={`⬇ ${t('Şimdi indir')}`} onPress={() => { up.later(); Linking.openURL(APK_URL); }} style={{ alignSelf: 'stretch', marginTop: 16 }} />
-            <Btn kind="ghost" label={t('Sonra')} onPress={up.later} style={{ alignSelf: 'stretch', marginTop: 4 }} />
-          </View>
-        </View>
-      </Modal>
+      <UpdateModal />
     </View>
+  );
+}
+
+/* güncelleme penceresi: hazır → indiriliyor (%) → yükleyici; hata olursa tarayıcıdan indir */
+function UpdateModal() {
+  const { t } = useT();
+  const u = useUpdate();
+  const busy = u.phase === 'checking' || u.phase === 'down';
+  let icon = '🎉', title = t('Yeni sürüm hazır'), body = t('Yeni özellikler ve düzeltmeler içeren {1} indirilmeye hazır. İndirip kurman yeterli; hesabın ve kayıtların korunur.', u.tag);
+  if (u.phase === 'checking') { icon = '🔎'; title = t('Güncellemeler denetleniyor'); body = ''; }
+  else if (u.phase === 'none') { icon = '✅'; title = t('Uygulaman güncel'); body = t('Sürüm {1}', VERSION); }
+  else if (u.phase === 'down') { icon = '⬇️'; title = t('İndiriliyor'); body = t('Uygulamayı kullanmaya devam edebilirsin; indirme bitince kurulum açılır.'); }
+  else if (u.phase === 'install') { icon = '📲'; title = t('Kuruluma hazır'); body = t('Açılan ekranda "Yükle"ye dokun. Telefon izin isterse "Bu kaynağa izin ver"i açıp geri dön.'); }
+  else if (u.phase === 'error') { icon = '⚠️'; title = t('Güncelleme indirilemedi'); body = t('İnternet bağlantını kontrol edip tekrar dene ya da tarayıcıdan indir.'); }
+  return (
+    <Modal visible={u.show} transparent animationType="fade" onRequestClose={updLater}>
+      <View style={s.dim}>
+        <View style={s.card}>
+          <Text style={{ fontSize: 34 }}>{icon}</Text>
+          <Text style={{ fontSize: 20, fontWeight: '900', color: C.ink, marginTop: 6, textAlign: 'center' }}>{title}</Text>
+          {!!body && <Text style={{ color: C.muted, fontSize: 15, lineHeight: 21, marginTop: 6, textAlign: 'center' }}>{body}</Text>}
+          {u.phase === 'down' && (
+            <View style={{ alignSelf: 'stretch', marginTop: 14 }}>
+              <View style={{ height: 10, borderRadius: 5, backgroundColor: C.line, overflow: 'hidden' }}>
+                <View style={{ width: `${u.pct}%`, height: 10, backgroundColor: C.accent }} />
+              </View>
+              <Text style={{ color: C.muted, marginTop: 6, textAlign: 'center', fontWeight: '700' }}>%{u.pct}</Text>
+            </View>
+          )}
+          {u.phase === 'checking' && <ActivityIndicator style={{ marginTop: 14 }} color={C.accent} />}
+          {u.phase === 'ready' && <Btn kind="pri" label={`⬇ ${t('Güncelle')}`} onPress={install} style={{ alignSelf: 'stretch', marginTop: 16 }} />}
+          {u.phase === 'install' && <Btn kind="pri" label={`📲 ${t('Kurulumu aç')}`} onPress={install} style={{ alignSelf: 'stretch', marginTop: 16 }} />}
+          {u.phase === 'error' && <Btn kind="pri" label={t('Tekrar dene')} onPress={u.run ? install : checkForUpdate} style={{ alignSelf: 'stretch', marginTop: 16 }} />}
+          {u.phase === 'error' && <Btn kind="ghost" label={t('Tarayıcıda indir')} onPress={() => { updLater(); openInBrowser(); }} style={{ alignSelf: 'stretch', marginTop: 4 }} />}
+          {!busy || u.phase === 'down' ? <Btn kind="ghost" label={u.phase === 'none' ? t('Tamam') : u.phase === 'down' ? t('Arka planda devam et') : t('Sonra')} onPress={updLater} style={{ alignSelf: 'stretch', marginTop: 4 }} /> : null}
+        </View>
+      </View>
+    </Modal>
   );
 }
 
@@ -166,7 +195,8 @@ function useDeepLinks() {
     if (!url) return;
     const l = parseLink(url); if (!l) return;
     track('act:open_link');
-    if (l.gunluk) push({ name: 'journal', id: l.gunluk });
+    if (l.rota) { const d = decodeRoute(l.rota.r, l.rota.m, l.rota.k, byId); if (d.stops.length) push({ name: 'route', stops: d.stops, mode: d.mode, avoid: d.avoid }); }
+    else if (l.gunluk) push({ name: 'journal', id: l.gunluk });
     else if (l.gezi && l.gezi.length) push({ name: 'trip', shared: l.gezi.filter((id) => !!byId(id)) });
     else if (l.yer && byId(l.yer)) push({ name: 'place', id: l.yer });
   };

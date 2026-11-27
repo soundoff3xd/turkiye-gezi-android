@@ -52,7 +52,7 @@ jobs:
           node -e "const f='app.json',j=require('./'+f);j.expo.version='0.1.${{ github.run_number }}';j.expo.android.versionCode=${{ github.run_number }};require('fs').writeFileSync(f,JSON.stringify(j,null,2))"
           echo '{ "run": ${{ github.run_number }} }' > src/build.json
           npm install
-          npx expo install @supabase/supabase-js @react-native-async-storage/async-storage react-native-url-polyfill react-native-safe-area-context expo-status-bar expo-image-picker expo-image-manipulator expo-location expo-speech expo-keep-awake react-native-svg react-native-view-shot expo-sharing expo-notifications expo-font
+          npx expo install @supabase/supabase-js @react-native-async-storage/async-storage react-native-url-polyfill react-native-safe-area-context expo-status-bar expo-image-picker expo-image-manipulator expo-location expo-speech expo-keep-awake react-native-svg react-native-view-shot expo-sharing expo-notifications expo-font expo-file-system expo-intent-launcher
           npm install @maplibre/maplibre-react-native@^11.3.3 base64-arraybuffer
           npm install -D @types/geojson
           # telefona bildirim: Firebase ayar dosyası GitHub gizli değişkeninden gelir (yoksa bildirimsiz derlenir)
@@ -103,6 +103,10 @@ jobs:
             const i=g.indexOf('release {', g.indexOf('buildTypes'));
             g=g.slice(0,i)+g.slice(i).replace('signingConfig signingConfigs.debug','signingConfig signingConfigs.upload');
             fs.writeFileSync(f,g);"
+          # Play sürümü: uygulama içi APK güncellemesi kapalı (Play politikası) — izin kaldırılır, buton Play Store'u açar
+          echo '{ "run": ${{ github.run_number }}, "store": "play" }' > "$APP_DIR/src/build.json"
+          sed -i '/android.permission.REQUEST_INSTALL_PACKAGES/d' app/src/main/AndroidManifest.xml
+          if grep -q REQUEST_INSTALL_PACKAGES app/src/main/AndroidManifest.xml; then echo "::error title=Play::REQUEST_INSTALL_PACKAGES kaldırılamadı"; exit 1; fi
           ./gradlew bundleRelease --no-daemon
           cp app/build/outputs/bundle/release/app-release.aab "$GITHUB_WORKSPACE/turkiye-gezi-rehberi.aab"
           rm -f "$RUNNER_TEMP/upload.jks"

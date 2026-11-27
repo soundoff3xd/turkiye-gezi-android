@@ -6,12 +6,12 @@ import * as Speech from 'expo-speech';
 import { useKeepAwake } from 'expo-keep-awake';
 import { Camera, GeoJSONSource, Layer, Map, type CameraRef } from '@maplibre/maplibre-react-native';
 import { useT } from '../i18n';
-import { useStore } from '../lib/store';
 import { fmtDist } from '../lib/location';
 import { useNav } from '../lib/ui';
 import { ARROW, aheadBearing, fetchRoute, prepTrack, routeErrorText, RouteError, snap, stepAt, type Profile, type RouteRes, type Snap, type Track } from '../lib/routing';
 import { MAP_STYLE } from './MapScreen';
 import { fmtDur } from './RouteScreen';
+import { fetchAlong, kindIcon, type AlongItem, type Stop } from '../lib/stops';
 import { C, R, shadow } from '../theme';
 
 /* sürüş / bisiklet / yürüyüş için: sesli uyarı mesafeleri ve rotadan sapma sınırı (metre) */
@@ -21,17 +21,19 @@ const TUNE: Record<Profile, { pre: number; now: number; off: number; zoom: numbe
   'foot-walking': { pre: 60, now: 15, off: 30, zoom: 17.6 },
 };
 
+const BREAK_MS = 2 * 3600 * 1000;
+
 /* Canlı navigasyon: haritada seni takip eder, sıradaki dönüşü gösterir ve sesli söyler, yoldan çıkınca rotayı yeniler */
-export default function NavScreen({ ids, mode }: { ids: string[]; mode: string }) {
+export default function NavScreen({ stops: initStops, mode, avoid = [] }: { stops: Stop[]; mode: string; avoid?: string[] }) {
   useKeepAwake();
   const { t, num, lang } = useT();
   const insets = useSafeAreaInsets();
   const { height } = useWindowDimensions();
-  const { byId } = useStore();
   const { pop } = useNav();
   const profile = (TUNE[mode as Profile] ? mode : 'driving-car') as Profile;
   const tune = TUNE[profile];
-  const stops = useMemo(() => ids.map((x) => byId(x)).filter(Boolean) as NonNullable<ReturnType<typeof byId>>[], [ids, byId]);
+  const [stops, setStops] = useState<Stop[]>(initStops || []);
+  const stopsRef = useRef(stops); stopsRef.current = stops;
   const cam = useRef<CameraRef>(null);
 
   const [route, setRoute] = useState<RouteRes | null>(null);
@@ -46,6 +48,10 @@ export default function NavScreen({ ids, mode }: { ids: string[]; mode: string }
   const spoken = useRef(new Set<string>());
   const offCount = useRef(0), lastReroute = useRef(0), lastLeg = useRef(0);
   const mutedRef = useRef(muted); mutedRef.current = muted;
+  // uzun yol molası: araba ile 2 saat aralıksız sürünce hatırlat (10 dk durmak mola sayılır)
+  const driveStart = useRef(Date.now()), lastMove = useRef<{ lat: number; lng: number; at: number } | null>(null), breakAsked = useRef(false);
+  const [brk, setBrk] = useState<null | 'ask' | 'list'>(null);
+  const [brItems, setBrItems] = useState<AlongItem[] | null>(null);
 
   const say = useCallback((text: string, language?: string) => {
     if (mutedRef.current || !text) return;
@@ -53,11 +59,11 @@ export default function NavScreen({ ids, mode }: { ids: string[]; mode: string }
   }, [lang]);
   useEffect(() => () => { Speech.stop(); }, []);
 
-  const load = useCallback(async (from: { lat: number; lng: number }, startLeg: number) => {
-    const rest = stops.slice(startLeg);
+  const load = useCallback(async (from: { lat: number; lng: number }, startLeg: number, list?: Stop[]) => {
+    const rest = (list || stopsRef.current).slice(startLeg);
     if (!rest.length) return;
     try {
-      const r = await fetchRoute(profile, [[from.lng, from.lat], ...rest.map((p) => [p.lng, p.lat] as [number, number])], lang);
+      const r = await fetchRoute(profile, [[from.lng, from.lat], ...rest.map((p) => [p.lng, p.lat] as [number, number])], lang, avoid);
       leg0.current = startLeg; lastLeg.current = 0; spoken.current = new Set();
       setRoute(r); setTrack(prepTrack(r.geometry)); setStatus('nav');
       if (r.steps[0]) say(r.steps[0].i, r.lang);
@@ -65,7 +71,7 @@ export default function NavScreen({ ids, mode }: { ids: string[]; mode: string }
       setStatus((s) => (s === 'reroute' ? 'nav' : 'error'));
       setErr(t(routeErrorText(e instanceof RouteError ? e.code : 'network')));
     }
-  }, [stops, profile, lang, say, t]);
+  }, [profile, lang, say, t]); // eslint-disable-line
 
   // yüksek doğrulukla konum dinle
   useEffect(() => {
@@ -119,6 +125,15 @@ export default function NavScreen({ ids, mode }: { ids: string[]; mode: string }
         say(sameLang ? `${t('{1} sonra', fmtDist(dist, (n, d) => num(n, d)))}, ${next.i}` : next.i, route.lang);
       }
     }
+    if (profile === 'driving-car') {
+      const now = Date.now(), lm = lastMove.current;
+      if (!lm || Math.hypot((me.lat - lm.lat) * 110540, (me.lng - lm.lng) * 111320 * Math.cos(me.lat * Math.PI / 180)) > 80) lastMove.current = { lat: me.lat, lng: me.lng, at: now };
+      else if (now - lm.at > 10 * 60000) { driveStart.current = now; breakAsked.current = false; }
+      if (now - driveStart.current > BREAK_MS && !breakAsked.current) {
+        breakAsked.current = true; setBrk('ask');
+        say(t('2 saattir yoldasın. Kısa bir mola vermeye ne dersin?'), lang);
+      }
+    }
     if (follow) {
       const on = s.off < 40;
       cam.current?.easeTo({ center: on ? [s.lng, s.lat] : [me.lng, me.lat], zoom: tune.zoom, bearing: aheadBearing(track, s), pitch: 45, duration: 900, easing: 'linear',
@@ -138,6 +153,18 @@ export default function NavScreen({ ids, mode }: { ids: string[]; mode: string }
     ] as any,
   }), [stops, me]);
 
+  async function findBreak() {
+    setBrk('list'); setBrItems(null);
+    if (!track || !sn) { setBrItems([]); return; }
+    try { setBrItems((await fetchAlong(track, ['rest', 'fuel', 'food'], sn.along + 300, sn.along + 45000)).slice(0, 5)); } catch { setBrItems([]); }
+  }
+  /* mola yerini sıradaki durak yap ve rotayı yeniden hesapla */
+  function addBreak(a: AlongItem) {
+    const at = leg0.current + lastLeg.current;
+    const next = stopsRef.current.slice(); next.splice(at, 0, { n: a.n || t('Mola'), lat: a.lat, lng: a.lng, k: a.k });
+    setStops(next); stopsRef.current = next; setBrk(null); driveStart.current = Date.now();
+    if (me) { setStatus('reroute'); load(me, at, next); }
+  }
   function overview() {
     setFollow(false);
     if (!route) return;
@@ -202,6 +229,35 @@ export default function NavScreen({ ids, mode }: { ids: string[]; mode: string }
         </Pressable>
       )}
 
+      {brk && status !== 'arrived' && (
+        <View style={[s.brk, { bottom: 140 + insets.bottom }]}>
+          {brk === 'ask' ? (
+            <>
+              <Text style={s.brkT}>{`☕ ${t('2 saattir yoldasın. Kısa bir mola iyi gelir.')}`}</Text>
+              <View style={{ flexDirection: 'row', gap: 8, marginTop: 10 }}>
+                <Pressable onPress={findBreak} style={[s.brkBtn, { backgroundColor: C.accent }]}><Text style={{ color: '#FFFFFF', fontWeight: '800' }}>{t('Mola yeri bul')}</Text></Pressable>
+                <Pressable onPress={() => { setBrk(null); driveStart.current = Date.now(); breakAsked.current = false; }} style={s.brkBtn}><Text style={{ color: C.ink, fontWeight: '800' }}>{t('Sonra')}</Text></Pressable>
+              </View>
+            </>
+          ) : (
+            <>
+              <View style={{ flexDirection: 'row', alignItems: 'center' }}>
+                <Text style={[s.brkT, { flex: 1 }]}>{t('İleride mola yerleri')}</Text>
+                <Pressable onPress={() => setBrk(null)} hitSlop={10}><Text style={{ color: C.muted, fontSize: 18, fontWeight: '800' }}>✕</Text></Pressable>
+              </View>
+              {!brItems ? <ActivityIndicator style={{ marginTop: 10 }} color={C.accent} /> : !brItems.length ? <Text style={{ color: C.muted, marginTop: 8 }}>{t('Önümüzdeki 45 km içinde bulunamadı.')}</Text> : brItems.map((a) => (
+                <Pressable key={`${a.lat},${a.lng}`} onPress={() => addBreak(a)} style={s.brkRow}>
+                  <Text style={{ fontSize: 18 }}>{kindIcon(a.k)}</Text>
+                  <Text style={{ flex: 1, color: C.ink, fontWeight: '700' }} numberOfLines={1}>{a.n || t('Mola')}</Text>
+                  <Text style={{ color: C.muted }}>{fmtDist(Math.max(0, a.along - (sn?.along || 0)), (n, d) => num(n, d))}</Text>
+                  <Text style={{ color: C.accent, fontWeight: '900' }}>＋</Text>
+                </Pressable>
+              ))}
+            </>
+          )}
+        </View>
+      )}
+
       {/* alt: kalan süre, mesafe, varış saati */}
       <View style={[s.panel, { paddingBottom: insets.bottom + 14 }]}>
         <View style={{ flex: 1 }}>
@@ -215,6 +271,11 @@ export default function NavScreen({ ids, mode }: { ids: string[]; mode: string }
         <Pressable onPress={() => { setMuted((m) => !m); Speech.stop(); }} style={s.icon} accessibilityRole="button" accessibilityLabel={muted ? t('Sesi aç') : t('Sesi kapat')}>
           <Text style={{ fontSize: 20 }}>{muted ? '🔇' : '🔊'}</Text>
         </Pressable>
+        {profile === 'driving-car' && status === 'nav' && (
+          <Pressable onPress={findBreak} style={s.icon} accessibilityRole="button" accessibilityLabel={t('Mola yeri bul')}>
+            <Text style={{ fontSize: 19 }}>☕</Text>
+          </Pressable>
+        )}
         <Pressable onPress={overview} style={s.icon} accessibilityRole="button" accessibilityLabel={t('Genel bakış')}>
           <Text style={{ fontSize: 19 }}>🗺</Text>
         </Pressable>
@@ -238,5 +299,9 @@ const s = StyleSheet.create({
   big: { fontSize: 24, fontWeight: '900', color: C.ok },
   small: { fontSize: 14.5, color: C.muted, marginTop: 2 },
   icon: { width: 46, height: 46, borderRadius: 23, backgroundColor: C.bg, alignItems: 'center', justifyContent: 'center' },
+  brk: { position: 'absolute', left: 12, right: 12, backgroundColor: C.surface, borderRadius: R.lg, padding: 14, ...shadow, elevation: 11 },
+  brkT: { color: C.ink, fontWeight: '800', fontSize: 15.5, lineHeight: 21 },
+  brkBtn: { flex: 1, borderRadius: R.pill, paddingVertical: 10, alignItems: 'center', backgroundColor: C.bg },
+  brkRow: { flexDirection: 'row', alignItems: 'center', gap: 10, paddingVertical: 9, borderTopWidth: 1, borderTopColor: C.line },
   end: { backgroundColor: C.danger, borderRadius: R.pill, paddingHorizontal: 18, height: 46, justifyContent: 'center' },
 });

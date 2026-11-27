@@ -5,6 +5,7 @@ import { LANGS, useT } from '../i18n';
 import { useAuth } from '../lib/auth';
 import { useNav } from '../lib/ui';
 import { useUnread } from '../lib/inbox';
+import { checkForUpdate, VERSION } from '../lib/update';
 import { Avatar } from './common';
 import { C, R, isDark, shadow } from '../theme';
 
@@ -32,6 +33,7 @@ export default function AccountMenu({ size = 50, top }: { size?: number; top?: n
     ]],
     ['Destek', [
       ['❔', 'Yardım', () => push({ name: 'help' })],
+      ['⟳', 'Güncellemeleri denetle', () => checkForUpdate(), VERSION],
       ['💬', 'Görüş ve öneri gönder', () => push({ name: 'feedback' })],
       ...(me.isMod ? [['🛡', 'Moderatör paneli', () => push({ name: 'mod' })] as [string, string, () => void]] : []),
       ['♥', 'Bize destek olun', () => push({ name: 'support' })],
