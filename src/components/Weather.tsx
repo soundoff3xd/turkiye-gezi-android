@@ -1,10 +1,10 @@
 import React, { useEffect, useState } from 'react';
-import { ActivityIndicator, Text, View } from 'react-native';
+import { ActivityIndicator, ScrollView, Text, View } from 'react-native';
 import { useT } from '../i18n';
 import { b } from './common';
 import { C, R } from '../theme';
 
-/* Hava durumu: Open-Meteo (ücretsiz, anahtarsız). Bugün + sonraki 3 gün. */
+/* Hava durumu: Open-Meteo (ücretsiz, anahtarsız). Bugün + sonraki 6 gün. */
 type W = { now: { t: number; c: number }; days: { d: string; c: number; hi: number; lo: number; p: number | null }[] };
 const cache: Record<string, { at: number; w: W }> = {};
 export function wmo(c: number): [string, string] {
@@ -21,7 +21,7 @@ export function wmo(c: number): [string, string] {
 export async function getWeather(lat: number, lng: number): Promise<W> {
   const key = `${lat.toFixed(2)},${lng.toFixed(2)}`, hit = cache[key];
   if (hit && Date.now() - hit.at < 30 * 60e3) return hit.w;
-  const u = `https://api.open-meteo.com/v1/forecast?latitude=${lat.toFixed(4)}&longitude=${lng.toFixed(4)}&current=temperature_2m,weather_code&daily=weather_code,temperature_2m_max,temperature_2m_min,precipitation_probability_max&timezone=auto&forecast_days=4`;
+  const u = `https://api.open-meteo.com/v1/forecast?latitude=${lat.toFixed(4)}&longitude=${lng.toFixed(4)}&current=temperature_2m,weather_code&daily=weather_code,temperature_2m_max,temperature_2m_min,precipitation_probability_max&timezone=auto&forecast_days=7`;
   const r = await fetch(u); if (!r.ok) throw new Error('weather');
   const j = await r.json();
   const w: W = {
@@ -30,6 +30,7 @@ export async function getWeather(lat: number, lng: number): Promise<W> {
   };
   cache[key] = { at: Date.now(), w }; return w;
 }
+export const getForecast = getWeather;
 
 export default function Weather({ lat, lng }: { lat: number; lng: number }) {
   const { t, num, lang } = useT();
@@ -54,16 +55,16 @@ export default function Weather({ lat, lng }: { lat: number; lng: number }) {
                   <Text style={{ color: C.muted }}>{t(wmo(w.now.c)[1])}</Text>
                 </View>
               </View>
-              <View style={{ flexDirection: 'row', gap: 6, marginTop: 10 }}>
+              <ScrollView horizontal showsHorizontalScrollIndicator={false} contentContainerStyle={{ gap: 6, marginTop: 10 }}>
                 {w.days.map((d, i) => (
-                  <View key={d.d} style={{ flex: 1, alignItems: 'center', backgroundColor: C.bg, borderRadius: R.sm, paddingVertical: 8 }} accessible accessibilityLabel={`${day(d.d, i)}: ${t(wmo(d.c)[1])}, ${num(Math.round(d.hi))}° / ${num(Math.round(d.lo))}°`}>
+                  <View key={d.d} style={{ width: 64, alignItems: 'center', backgroundColor: C.bg, borderRadius: R.sm, paddingVertical: 8 }} accessible accessibilityLabel={`${day(d.d, i)}: ${t(wmo(d.c)[1])}, ${num(Math.round(d.hi))}° / ${num(Math.round(d.lo))}°`}>
                     <Text style={{ fontSize: 12.5, fontWeight: '700', color: C.muted }}>{day(d.d, i)}</Text>
                     <Text style={{ fontSize: 22, marginVertical: 2 }}>{wmo(d.c)[0]}</Text>
                     <Text style={{ fontWeight: '800', color: C.ink }}>{`${num(Math.round(d.hi))}°`}<Text style={{ color: C.muted, fontWeight: '600' }}>{` ${num(Math.round(d.lo))}°`}</Text></Text>
                     {d.p != null && d.p >= 20 && <Text style={{ fontSize: 11.5, color: '#1F6FEB' }}>{`💧 %${num(d.p)}`}</Text>}
                   </View>
                 ))}
-              </View>
+              </ScrollView>
               <Text style={[b.fine, { marginTop: 6 }]}>{t('Kaynak: Open-Meteo')}</Text>
             </>
           )}

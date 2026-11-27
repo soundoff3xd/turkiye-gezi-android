@@ -15,6 +15,7 @@ import type { Place } from '../data/catalog';
 import FEST from '../data/festivals.json';
 import TRANSPORT from '../data/transport.json';
 import FAQ from '../data/faq.json';
+import { toTRY, useFx } from './Extras4';
 import { C, R } from '../theme';
 
 const MONTHS = ['Ocak', 'Şubat', 'Mart', 'Nisan', 'Mayıs', 'Haziran', 'Temmuz', 'Ağustos', 'Eylül', 'Ekim', 'Kasım', 'Aralık'];
@@ -267,6 +268,7 @@ export function Expenses({ journalId }: { journalId: string }) {
     (list || []).forEach((e) => { m[e.currency] = (m[e.currency] || 0) + e.amount; (byCat[e.cat] ||= {})[e.currency] = (byCat[e.cat][e.currency] || 0) + e.amount; });
     return { m, byCat };
   }, [list]);
+  const fx = useFx();
   const money = (o: Record<string, number>) => Object.entries(o).map(([c, v]) => `${num(Math.round(v * 100) / 100)} ${SYM[c] || c}`).join(' + ');
   if (!list) return null;
   return (
@@ -275,6 +277,11 @@ export function Expenses({ journalId }: { journalId: string }) {
         <View style={{ flex: 1 }}>
           <Text style={b.boxH}>{`💰 ${t('Harcamalar')}`}</Text>
           <Text style={{ color: C.ink, fontSize: 18, fontWeight: '800' }}>{list.length ? money(totals.m) : t('Henüz harcama yok')}</Text>
+          {list.length > 0 && Object.keys(totals.m).some((c) => c !== 'TRY') && (() => {
+            let sum = 0, ok = true;
+            for (const [c, v] of Object.entries(totals.m)) { const x = toTRY(fx, v, c); if (x == null) ok = false; else sum += x; }
+            return ok ? <Text style={{ color: C.muted, fontWeight: '700' }}>{`≈ ${num(Math.round(sum))} ₺ · ${t('TCMB kuruyla')}`}</Text> : null;
+          })()}
           <Text style={b.fine}>{t('Yalnızca sen görürsün; günlüğü paylaşsan da gizli kalır.')}</Text>
         </View>
         <Text style={{ color: C.muted, fontSize: 18 }}>{open ? '▴' : '▾'}</Text>
@@ -326,6 +333,9 @@ export function PlanScreen() {
     ['Gezerken', [
       ['📔', 'Gezi günlüklerim', 'Gün gün notlar, fotoğraflar ve harcamalar', () => push({ name: me ? 'journals' : 'profile' })],
       ['💬', 'Türkçe cep sözlüğü', 'Temel ifadeler, sesli okunuşuyla', () => push({ name: 'phrases' })],
+      ['💱', 'Döviz çevirici', 'Merkez Bankası kuruyla TL hesabı', () => push({ name: 'fx' })],
+      ['🏷', 'Fiyat rehberi', 'Simit, ulaşım, taksi ve müze fiyatları', () => push({ name: 'prices' })],
+      ['🆘', 'Acil durum', '112, en yakın hastane ve eczane', () => push({ name: 'emergency' })],
     ]],
     ['Yardım', [
       ['❔', 'Yardım ve sık sorulanlar', 'Uygulamayı nasıl kullanırım?', () => push({ name: 'help' })],

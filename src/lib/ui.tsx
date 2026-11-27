@@ -33,6 +33,9 @@ export type Route =
   | { name: 'phrases' }
   | { name: 'festivals' }
   | { name: 'help' }
+  | { name: 'emergency' }
+  | { name: 'fx' }
+  | { name: 'prices' }
   | { name: 'journal'; id: string };
 export type MapFocus = { id?: string; lat?: number; lng?: number; ts: number } | null;
 

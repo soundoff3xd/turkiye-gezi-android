@@ -14,6 +14,7 @@ import AccountMenu from '../components/AccountMenu';
 import { SkeletonRows, useDeferred } from '../components/Anim';
 import { inSeason } from '../lib/season';
 import { WeatherPicks } from '../components/Extras';
+import { isOpenNow, useHours } from '../components/Extras4';
 import { useTrip } from '../lib/trip';
 import { photoOf } from '../data/photos';
 
@@ -52,13 +53,15 @@ export default function ExploreScreen() {
   const [sub, setSub] = useState('all');
   const [reg, setReg] = useState(-1);
   const [now, setNow] = useState(false);
+  const [openNow, setOpenNow] = useState(false);
+  const hours = useHours();
 
   // her yerin arama metni bir kez hazırlanır (her tuşta 1340 yeri yeniden sadeleştirmemek için)
   const hay = useMemo(() => new Map(places.map((p) => [p.id, fold(`${p.n} ${p.il} ${p.semt || ''} ${catName(p.c)} ${t(catName(p.c))}`)])), [places, t]);
   const seasonOk = useMemo(() => new Set(places.filter((p) => inSeason(p)).map((p) => p.id)), [places]);
   const fq = fold(q.trim());
   const match = (p: typeof places[number], ignoreSub = false, ignoreCat = false) =>
-    (reg < 0 || p.r === reg) && (!now || seasonOk.has(p.id)) && (ignoreCat || inCat(p.c, cat)) && (ignoreSub || sub === 'all' || p.c === sub)
+    (reg < 0 || p.r === reg) && (!now || seasonOk.has(p.id)) && (!openNow || isOpenNow(hours, p.id) === true) && (ignoreCat || inCat(p.c, cat)) && (ignoreSub || sub === 'all' || p.c === sub)
       && (!fq || (hay.get(p.id) || '').includes(fq));
   const showDist = sort === 'near' || !!pos;
   const rows = useMemo(() => {
@@ -72,7 +75,7 @@ export default function ExploreScreen() {
     if (sort === 'gem') list = list.filter((x) => isGem(x.p, x.s)).map((x) => ({ ...x, g: gemScore(x.p, x.s) }));
     return list.sort(cmp[sort]);
     // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [places, stats, fq, sort, cat, sub, reg, now, hay, showDist ? distTo : null, mineG]);
+  }, [places, stats, fq, sort, cat, sub, reg, now, openNow, hours, hay, showDist ? distTo : null, mineG]);
   // kategori ve alt kategori sayıları: yalnızca filtreler değişince hesaplanır
   const counts = useMemo(() => {
     const g: Record<string, number> = {}, c: Record<string, number> = {};
@@ -84,7 +87,7 @@ export default function ExploreScreen() {
     });
     return { g, c };
     // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [places, fq, reg, now, hay, cat, mineG]);
+  }, [places, fq, reg, now, openNow, hours, hay, cat, mineG]);
   const groupCount = (g: string) => counts.g[g] || 0;
   const subs = cat === 'all' || cat === 'foryou' ? [] : Object.entries(SUBS).filter(([, v]) => v[0] === cat);
   const waiting = sugg.filter((g) => g.state === 'wait' || g.state === 'mod').length;
@@ -154,6 +157,7 @@ export default function ExploreScreen() {
       )}
       <ScrollView horizontal showsHorizontalScrollIndicator={false} contentContainerStyle={{ gap: 8, paddingVertical: 10 }}>
         <Chip label={`🗓 ${t('Bu mevsim')}`} on={now} onPress={() => setNow(!now)} />
+        <Chip label={`🕒 ${t('Şu an açık')}`} on={openNow} onPress={() => setOpenNow(!openNow)} />
         {[-1, ...REGIONS.map((_, i) => i)].map((i) => <Chip key={i} label={i < 0 ? t('Tüm Türkiye') : t(REGIONS[i])} on={reg === i} onPress={() => setReg(i)} />)}
       </ScrollView>
       <Text style={[b.boxH, { marginTop: 4, marginBottom: 6 }]}>{t('{1} yer', num(rows.length))}</Text>

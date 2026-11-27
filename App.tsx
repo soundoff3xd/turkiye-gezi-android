@@ -35,6 +35,7 @@ import JournalScreen, { JournalsScreen } from './src/screens/JournalScreen';
 import { PhrasesScreen, RoutesScreen } from './src/components/Extras2';
 import { FestivalScreen, HelpScreen, PlanScreen } from './src/components/Extras3';
 import { TripProvider } from './src/lib/trip';
+import { EmergencyScreen, FxScreen, PricesScreen } from './src/components/Extras4';
 import { decodeRoute } from './src/lib/stops';
 import { checkForUpdate, install, later as updLater, openInBrowser, useAutoUpdateCheck, useUpdate, VERSION } from './src/lib/update';
 import { BADGES, earned } from './src/data/badges';
@@ -79,6 +80,9 @@ const ScreenM = React.memo(function Screen({ r }: { r: Route }) {
     case 'phrases': return <PhrasesScreen />;
     case 'festivals': return <FestivalScreen />;
     case 'help': return <HelpScreen />;
+    case 'emergency': return <EmergencyScreen />;
+    case 'fx': return <FxScreen />;
+    case 'prices': return <PricesScreen />;
     case 'journal': return <JournalScreen id={r.id} />;
     case 'profile': return <ProfileScreen />;
     case 'interests': return <InterestsScreen />;

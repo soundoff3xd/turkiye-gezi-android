@@ -350,7 +350,7 @@ const wmo = c => c === 0 ? ['☀️', 'Açık'] : c <= 2 ? ['⛅', 'Parçalı bu
 async function getWeather(p) {
   const k = p.lat.toFixed(2) + ',' + p.lng.toFixed(2), hit = WX[k];
   if (hit && Date.now() - hit.at < 30 * 60e3) return hit.w;
-  const r = await fetch(`https://api.open-meteo.com/v1/forecast?latitude=${p.lat.toFixed(4)}&longitude=${p.lng.toFixed(4)}&current=temperature_2m,weather_code&daily=weather_code,temperature_2m_max,temperature_2m_min,precipitation_probability_max&timezone=auto&forecast_days=4`);
+  const r = await fetch(`https://api.open-meteo.com/v1/forecast?latitude=${p.lat.toFixed(4)}&longitude=${p.lng.toFixed(4)}&current=temperature_2m,weather_code&daily=weather_code,temperature_2m_max,temperature_2m_min,precipitation_probability_max&timezone=auto&forecast_days=7`);
   if (!r.ok) throw new Error('weather');
   const j = await r.json();
   const w = { now: { t: j.current.temperature_2m, c: j.current.weather_code }, days: j.daily.time.map((d, i) => ({ d, c: j.daily.weather_code[i], hi: j.daily.temperature_2m_max[i], lo: j.daily.temperature_2m_min[i], p: j.daily.precipitation_probability_max ? j.daily.precipitation_probability_max[i] : null })) };

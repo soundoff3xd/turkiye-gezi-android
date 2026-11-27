@@ -14,6 +14,7 @@ import { MARKER_IMAGES } from '../data/markers';
 import { Dishes } from '../components/Extras';
 import OfflineBox from '../components/OfflineBox';
 import { CityExtras } from '../components/Extras3';
+import { DayWeather, dateLabel } from '../components/Extras4';
 import { ilPack } from '../lib/offline';
 import { C, R } from '../theme';
 
@@ -90,7 +91,7 @@ export default function RecommendScreen() {
 
 /* Şehir sayfası: gün gün gezi planı ve ildeki yerler */
 export function CityScreen({ il, subs }: { il: string; subs: string[] }) {
-  const { t, num } = useT();
+  const { t, num, lang } = useT();
   const insets = useSafeAreaInsets();
   const { places, stats } = useStore();
   const { pos } = useLocation();
@@ -99,6 +100,7 @@ export function CityScreen({ il, subs }: { il: string; subs: string[] }) {
   const toast = useToast();
   const [days, setDays] = useState(2);
   const [day, setDay] = useState(0);
+  const [startDay, setStartDay] = useState<number | null>(null);
   const plan = useMemo(() => planCity(places, stats, il, subs, days, pos), [places, stats, il, subs, days, pos]);
   const cur = plan.days[Math.min(day, plan.days.length - 1)] || [];
   const all = useMemo(() => places.filter((p) => p.il === il).sort((a, b) => Number(subs.includes(b.c)) - Number(subs.includes(a.c))), [places, il, subs]);
@@ -113,6 +115,10 @@ export function CityScreen({ il, subs }: { il: string; subs: string[] }) {
           {[1, 2, 3].map((n) => <Chip key={n} label={t('{1} gün', num(n))} on={days === n} onPress={() => { setDays(n); setDay(0); }} />)}
         </View>
         {plan.days.length < days && <Text style={b.fine}>{t('Bu ilde şimdilik {1} yer var; plan buna göre kısaltıldı.', num(plan.total))}</Text>}
+        <Text style={[b.boxH, { marginTop: 14 }]}>{t('Ne zaman gidiyorsun?')}</Text>
+        <ScrollView horizontal showsHorizontalScrollIndicator={false} contentContainerStyle={{ gap: 8 }}>
+          {[0, 1, 2, 3, 4, 5, 6].map((o) => <Chip key={o} label={dateLabel(o, lang, t)} on={startDay === o} onPress={() => setStartDay(startDay === o ? null : o)} />)}
+        </ScrollView>
         {plan.days.length > 1 && (
           <View style={{ flexDirection: 'row', marginTop: 12, borderBottomWidth: 1, borderBottomColor: C.line }} accessibilityRole="tablist">
             {plan.days.map((_, i) => (
@@ -122,6 +128,9 @@ export function CityScreen({ il, subs }: { il: string; subs: string[] }) {
             ))}
           </View>
         )}
+        {startDay !== null && cur[0] && (startDay + day <= 6
+          ? <View><Text style={[b.boxH, { marginTop: 10 }]}>{`${dateLabel(startDay + day, lang, t)} · ${t('Hava tahmini')}`}</Text><DayWeather lat={cur[0].lat} lng={cur[0].lng} offset={startDay + day} /></View>
+          : <Text style={b.fine}>{t('Bu gün için hava tahmini henüz yok.')}</Text>)}
         <View style={{ marginTop: 8 }}>
           {cur.map((p, i) => (
             <Pressable key={p.id} onPress={() => push({ name: 'place', id: p.id })} style={{ flexDirection: 'row', gap: 12, paddingVertical: 10 }} accessibilityRole="button">

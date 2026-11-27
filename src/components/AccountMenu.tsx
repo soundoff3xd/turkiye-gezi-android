@@ -33,6 +33,7 @@ export default function AccountMenu({ size = 50, top }: { size?: number; top?: n
     ]],
     ['Destek', [
       ['❔', 'Yardım', () => push({ name: 'help' })],
+      ['🆘', 'Acil durum', () => push({ name: 'emergency' })],
       ['⟳', 'Güncellemeleri denetle', () => checkForUpdate(), VERSION],
       ['💬', 'Görüş ve öneri gönder', () => push({ name: 'feedback' })],
       ...(me.isMod ? [['🛡', 'Moderatör paneli', () => push({ name: 'mod' })] as [string, string, () => void]] : []),

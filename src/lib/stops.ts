@@ -1,6 +1,7 @@
 import { supabase } from './supabase';
 import { meters, type Place } from '../data/catalog';
 import { prepTrack, snap, type Track } from './routing';
+import { lineBoxes, osmInBoxes } from './overpass';
 
 /* Rota durakları: rehberdeki bir yer (id) ya da yol üstünden eklenen bir mola yeri (benzinlik, lokanta…).
    stay = durakta kalınacak dakika (varış saatlerine eklenir). */
@@ -34,14 +35,20 @@ export function simplify(track: Track, n = 70, from = 0, to = Infinity): [number
 export type AlongItem = Stop & { k: string; along: number; off: number; h?: number };
 /* rotanın (ya da bir bölümünün) çevresindeki mola yerleri, yol boyunca sıralı */
 export async function fetchAlong(track: Track, kinds: string[], from = 0, to = Infinity): Promise<AlongItem[]> {
-  const line = simplify(track, track.total > 300000 ? 78 : 60, from, to);
+  const line = simplify(track, Math.min(78, Math.max(12, Math.round((Math.min(track.total, to) - from) / 6000))), from, to);
   if (line.length < 2) return [];
-  const { data, error } = await supabase.functions.invoke('along', { body: { line, kinds, radius: 1200 } });
-  if (error) throw error;
-  const items = ((data as { items?: any[] })?.items || []).map((it) => {
+  let raw: { k: string; n: string; lat: number; lng: number; h?: number }[];
+  try {
+    raw = await osmInBoxes(lineBoxes(line, 1200), kinds); // önce telefondan doğrudan
+  } catch {
+    const { data, error } = await supabase.functions.invoke('along', { body: { line, kinds, radius: 1200 } });
+    if (error) throw error;
+    raw = (data as { items?: any[] })?.items || [];
+  }
+  const items = raw.map((it) => {
     const s = snap(track, it.lat, it.lng);
     return { ...it, along: s.along, off: s.off } as AlongItem;
-  }).filter((it) => it.off < 1600 && it.along >= from - 500);
+  }).filter((it) => it.off < 1300 && it.along >= from - 500 && it.along <= to + 500);
   // aynı yere yakın kopyaları ele (bir benzinliğin hem binası hem noktası olabiliyor)
   items.sort((x, y) => x.along - y.along);
   const out: AlongItem[] = [];

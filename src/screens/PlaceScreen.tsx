@@ -12,6 +12,7 @@ import Weather from '../components/Weather';
 import CorrectionSheet from '../components/CorrectionSheet';
 import { NeedsBox, SpeakButton, SunBox } from '../components/Extras2';
 import { QATab, VisitorInfoBox } from '../components/Extras3';
+import { HoursBox, MosqueBox } from '../components/Extras4';
 import { Dishes, MuseumBox, NearbyFood, PlaceHero, SeasonBox } from '../components/Extras';
 import { SkeletonPage, useDeferred } from '../components/Anim';
 import { useTrip } from '../lib/trip';
@@ -95,6 +96,8 @@ export default function PlaceScreen({ id, initialTab = 'ov' }: { id: string; ini
             {!!p.h && <View style={b.box}><Text style={b.boxH}>{t('Nasıl gidilir')}</Text><Text style={b.boxT}>{t(p.h)}</Text></View>}
             <SeasonBox p={p} />
             <SunBox p={p} />
+            <HoursBox p={p} />
+            <MosqueBox p={p} />
             <MuseumBox p={p} />
             <VisitorInfoBox p={p} />
             <Dishes il={p.il} />
