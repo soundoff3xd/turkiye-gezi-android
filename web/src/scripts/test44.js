@@ -1,0 +1,20 @@
+const { chromium } = require('playwright');
+const [file, outdir] = process.argv.slice(2);
+(async () => {
+  const b = await chromium.launch(); const errs = [];
+  const pg = await b.newPage({ viewport: { width: 390, height: 844 }, locale: 'tr-TR' });
+  pg.on('pageerror', e => errs.push(e.message));
+  await pg.addInitScript(() => { try { localStorage.setItem('gezi-onboarded', '1'); } catch (_) {} });
+  await pg.goto('file://' + file); await pg.waitForTimeout(350);
+  await pg.screenshot({ path: outdir + '/intro1.png' });
+  await pg.waitForTimeout(500); await pg.screenshot({ path: outdir + '/intro2.png' });
+  await pg.waitForTimeout(1500);
+  const gone = await pg.evaluate(() => !document.getElementById('intro'));
+  const fav = await pg.evaluate(() => (document.querySelector('link[rel="icon"]') || {}).href || '').then(h => h.slice(0, 40));
+  await pg.evaluate(() => { const bt = [...document.querySelectorAll('button')].find(x => x.dataset.a === 'demo'); bt && bt.click(); });
+  await pg.evaluate(() => { select(PLACES[0].id); }); await pg.waitForTimeout(120);
+  const pl = await pg.evaluate(() => ({ on: document.getElementById('ploader').className, n: document.querySelectorAll('#ploader path').length }));
+  await pg.screenshot({ path: outdir + '/ploader.png' });
+  console.log(JSON.stringify({ gone, fav, pl }), errs);
+  await b.close();
+})();

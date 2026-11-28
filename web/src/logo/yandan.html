@@ -1,0 +1,109 @@
+<!doctype html>
+<html lang="tr"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Ay-yıldız yörünge, yandan</title>
+<style>
+:root{--bg:#FBF7F2;--ink:#2B211C;--muted:#7A6C63;--red:#C0392B;--card:#FFFFFF;--line:#EADFD5}
+@media (prefers-color-scheme:dark){:root{--bg:#1C1715;--ink:#F3ECE6;--muted:#B3A69C;--card:#27201D;--line:#3A302B}}
+body{margin:0;background:var(--bg);color:var(--ink);font:15px/1.5 system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;padding:20px 16px 40px}
+h1{font-size:20px;margin:0 0 4px}p.n{color:var(--muted);margin:0 0 18px;max-width:660px}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:14px;max-width:900px}
+.c{background:var(--card);border:1px solid var(--line);border-radius:18px;padding:16px;text-align:center}
+.c b{display:block;font-size:17px}.c span{color:var(--muted);font-size:13.5px}
+.st{display:flex;justify-content:center;gap:14px;margin:14px 0 10px}
+.box{position:relative;width:150px;height:250px;border-radius:22px;overflow:hidden;display:flex;align-items:center;justify-content:center;border:1px solid var(--line)}
+.box svg{position:relative;z-index:1;filter:drop-shadow(0 1px 1.5px rgba(0,0,0,.18))}
+.mock{position:absolute;inset:0;padding:12px 10px;display:flex;flex-direction:column;gap:8px}
+.mock i{display:block;height:44px;border-radius:12px}.mock i:first-child{height:14px;width:60%;border-radius:6px}
+.lt{background:#FBF7F2}.lt .mock i{background:#fff;border:1px solid #EADFD5}.lt .mock i:first-child{background:#E5D9CE;border:0}
+.dk{background:#171311}.dk .mock i{background:#26201C;border:1px solid #352C27}.dk .mock i:first-child{background:#3A302B;border:0}
+.cap{display:flex;justify-content:center;gap:14px;color:var(--muted);font-size:12.5px;margin-top:-4px}.cap span{width:150px}
+.sm{display:flex;justify-content:center;align-items:center;gap:10px;color:var(--muted);font-size:13px}
+</style></head><body>
+<h1>Uygulama içinde, arka plansız</h1>
+<p class="n">Arkasında kart ya da kutu yok; sayfa yüklenirken doğrudan içeriğin üstünde dönüyor. Ortası boş. Yörünge çizgisi yok; hilaller ve yıldızlar yandan bakılmış gibi dönüyor ve üst üste binebiliyor: arkadan geçerken küçülüp soluklaşıyor, öne gelince büyüyor. Her parça hızlandıkça yumuşakça uzuyor, yavaşlayınca yaylanıp toparlanıyor; bütün sistem ağır ağır süzülüyor.</p>
+<div class="grid">
+  <div class="c"><b>F · Atom</b><span>Üç farklı açıda dönüyorlar, yer yer üst üste biniyorlar</span>
+    <div class="st"><div class="box lt" id="f1"></div><div class="box dk" id="f2"></div></div><div class="cap"><span>Açık tema</span><span>Koyu tema</span></div><div class="sm"><span id="f3"></span> küçük hali</div></div>
+  <div class="c"><b>G · Satürn halkası</b><span>Tek eğik düzlemde dönüyorlar, önden geçen arkadakinin üstüne biniyor</span>
+    <div class="st"><div class="box lt" id="g1"></div><div class="box dk" id="g2"></div></div><div class="cap"><span>Açık tema</span><span>Koyu tema</span></div><div class="sm"><span id="g3"></span> küçük hali</div></div>
+</div>
+<script>
+function crescent(R){const r=R*0.8,d=R*0.5,x=(R*R-r*r+d*d)/(2*d),y=Math.sqrt(R*R-x*x);return `M${x.toFixed(2)},${(-y).toFixed(2)} A${R},${R} 0 1 0 ${x.toFixed(2)},${y.toFixed(2)} A${r},${r} 0 1 1 ${x.toFixed(2)},${(-y).toFixed(2)}Z`;}
+function star(R){const p=[];for(let i=0;i<10;i++){const a=Math.PI+i*Math.PI/5,rr=i%2?R*0.4:R;p.push((rr*Math.cos(a)).toFixed(2)+','+(rr*Math.sin(a)).toFixed(2));}return 'M'+p.join('L')+'Z';}
+/* yörünge: rx yarıçap, tilt (yan bakış basıklığı 0..1), roll (yörüngenin ekrandaki eğimi, derece), hız (tur/sn), faz */
+const SYS = {
+  F: { lines: false, orbits: [
+    { rx: 32, tilt: 0.34, roll: -25, speed: 0.42, bodies: [{ k: 'c', s: 8.5, ph: 0 }, { k: 's', s: 6, ph: 0.5 }] },
+    { rx: 32, tilt: 0.34, roll: 30, speed: 0.34, bodies: [{ k: 's', s: 7, ph: 0.2 }, { k: 'c', s: 7.5, ph: 0.7 }] },
+    { rx: 22, tilt: 0.40, roll: 90, speed: 0.55, bodies: [{ k: 's', s: 5.5, ph: 0.35 }] },
+  ] },
+  G: { lines: false, orbits: [
+    { rx: 16, tilt: 0.32, roll: -14, speed: 0.62, bodies: [{ k: 's', s: 5.5, ph: 0.1 }] },
+    { rx: 26, tilt: 0.32, roll: -14, speed: 0.44, bodies: [{ k: 'c', s: 8, ph: 0.55 }, { k: 's', s: 5, ph: 0.05 }] },
+    { rx: 36, tilt: 0.32, roll: -14, speed: 0.32, bodies: [{ k: 's', s: 7, ph: 0.3 }, { k: 'c', s: 9, ph: 0.8 }] },
+  ] },
+};
+const TAU = Math.PI * 2;
+function mount(el, size, col, sys) {
+  const NS = 'http://www.w3.org/2000/svg';
+  const svg = document.createElementNS(NS, 'svg'); svg.setAttribute('width', size); svg.setAttribute('height', size); svg.setAttribute('viewBox', '-50 -50 100 100');
+  const world = document.createElementNS(NS, 'g'); svg.appendChild(world);
+  const back = document.createElementNS(NS, 'g'), lines = document.createElementNS(NS, 'g'), front = document.createElementNS(NS, 'g');
+  world.append(back, lines, front);
+  if (sys.lines) for (const o of sys.orbits) {
+    const e = document.createElementNS(NS, 'ellipse'); e.setAttribute('rx', o.rx); e.setAttribute('ry', o.rx * o.tilt);
+    e.setAttribute('transform', `rotate(${o.roll})`); e.setAttribute('fill', 'none'); e.setAttribute('stroke', col); e.setAttribute('stroke-opacity', '.2'); e.setAttribute('stroke-width', '1');
+    lines.appendChild(e);
+  }
+  const items = [];
+  sys.orbits.forEach((o, oi) => o.bodies.forEach((b, bi) => {
+    const g = document.createElementNS(NS, 'g'), p = document.createElementNS(NS, 'path');
+    p.setAttribute('d', b.k === 's' ? star(b.s) : crescent(b.s)); p.setAttribute('fill', col); g.appendChild(p);
+    items.push({ o, b, g, seed: oi * 1.7 + bi * 2.3, spin: b.k === 's' ? 1 : -0.6 });
+  }));
+  el.appendChild(svg);
+  /* yay (spring): hedefe yumuşakça gider, biraz taşıp geri döner — jöle hissi buradan gelir */
+  const spring = (st, target, dt, k, c) => { const acc = k * (target - st.x) - c * st.v; st.v += acc * dt; st.x += st.v * dt; return st.x; };
+  for (const it of items) { it.str = { x: 0, v: 0 }; it.lean = { x: 0, v: 0 }; it.px = null; it.dir = 0; it.rot = it.seed * 40; it.layer = null; }
+  const wobS = { x: 0, v: 0 };
+  let last = null;
+  return t => {
+    const dt = Math.min(0.05, last == null ? 0.016 : t - last); last = t;
+    /* bütün sistem: çok yavaş, yumuşak salınım (yayla süzülür) */
+    const wob = spring(wobS, Math.sin(t * 0.9) * 5, dt, 6, 3.5);
+    world.setAttribute('transform', `rotate(${wob.toFixed(3)}) translate(0,${(Math.sin(t * 1.1) * 1.4).toFixed(3)})`);
+    for (const it of items) {
+      const { o, b } = it;
+      /* hız arkada yavaşlar, önde hızlanır */
+      let a = (t * o.speed + b.ph) * TAU; a += 0.3 * Math.sin(a);
+      const x0 = Math.cos(a) * o.rx, y0 = Math.sin(a) * o.rx * o.tilt, z = Math.sin(a);
+      const rr = o.roll * Math.PI / 180, x = x0 * Math.cos(rr) - y0 * Math.sin(rr), y = x0 * Math.sin(rr) + y0 * Math.cos(rr);
+      /* derinlik: yumuşak geçiş (smoothstep) */
+      const d0 = (z + 1) / 2, depth = d0 * d0 * (3 - 2 * d0), sc = 0.6 + 0.5 * depth;
+      /* ekrandaki gerçek hız ve yön */
+      let spd = 0;
+      if (it.px) { const vx = (x - it.px[0]) / dt, vy = (y - it.px[1]) / dt; spd = Math.hypot(vx, vy); if (spd > 0.5) { let dd = Math.atan2(vy, vx) - it.dir; dd = Math.atan2(Math.sin(dd), Math.cos(dd)); it.dir += dd * Math.min(1, dt * 10); } }
+      it.px = [x, y];
+      /* esneme hıza göre, yayla: hızlanınca uzar, yavaşlayınca taşıp toparlanır */
+      const stretch = spring(it.str, Math.min(0.3, spd / 380), dt, 70, 7);
+      /* yön değişince arkada kalıp yetişen eğilme */
+      const lean = spring(it.lean, Math.sin(a) * 0.25, dt, 40, 5);
+      it.rot += dt * 70 * it.spin;
+      const sx = sc * (1 + stretch), sy = sc * (1 - stretch * 0.6);
+      const dirDeg = it.dir * 57.2958;
+      it.g.setAttribute('transform', `translate(${x.toFixed(3)},${y.toFixed(3)}) rotate(${dirDeg.toFixed(2)}) scale(${sx.toFixed(4)},${sy.toFixed(4)}) rotate(${(it.rot + lean * 57.3 - dirDeg).toFixed(2)})`);
+      it.g.setAttribute('opacity', (0.32 + 0.68 * depth).toFixed(3));
+      const layer = z < 0 ? back : front;
+      if (layer !== it.layer) { layer.appendChild(it.g); it.layer = layer; }
+    }
+  };
+}
+const red = getComputedStyle(document.documentElement).getPropertyValue('--red').trim() || '#C0392B';
+const ticks = [];
+const MOCK = '<div class="mock">' + '<i></i>'.repeat(5) + '</div>';
+document.querySelectorAll('.box').forEach(b => b.insertAdjacentHTML('afterbegin', MOCK));
+[['f', SYS.F], ['g', SYS.G]].forEach(([k, s]) => { ticks.push(mount(document.getElementById(k + '1'), 72, '#C0392B', s)); ticks.push(mount(document.getElementById(k + '2'), 72, '#F0806B', s)); ticks.push(mount(document.getElementById(k + '3'), 32, red, s)); });
+const t0 = performance.now();
+(function loop(now) { const t = (now - t0) / 1000; ticks.forEach(f => f(t)); requestAnimationFrame(loop); })(t0);
+</script>
+</body></html>

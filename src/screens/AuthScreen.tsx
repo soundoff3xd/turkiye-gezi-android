@@ -9,6 +9,7 @@ import LangScreen from './LangScreen';
 import PrivacyScreen from './PrivacyScreen';
 import { Modal } from 'react-native';
 import { C, R } from '../theme';
+import { LogoPin } from '../components/Anim';
 
 /* Uygulama hesapsız kullanılamaz: açılışta bu ekran gelir */
 export default function AuthScreen() {
@@ -51,7 +52,7 @@ export default function AuthScreen() {
         <Pressable onPress={() => setLangOpen(true)} style={s.langBtn} accessibilityRole="button" accessibilityLabel={t('Dil')}>
           <Text style={{ color: C.ink, fontWeight: '700' }}>{`🌐 ${LANGS[lang]}`}</Text>
         </Pressable>
-        <View style={s.logo}><Text style={s.logoTxt}>TR</Text></View>
+        <View style={s.logo}><LogoPin size={42} /></View>
         <Text style={s.title}>{t('Türkiye Gezi Rehberi')}</Text>
         <Text style={s.sub}>{t('Gezilecek yerleri keşfet, gittiğin yerleri işaretle, deneyimlerini paylaş.')}</Text>
 
@@ -102,7 +103,7 @@ export default function AuthScreen() {
 const s = StyleSheet.create({
   wrap: { paddingHorizontal: 24, maxWidth: 480, width: '100%', alignSelf: 'center' },
   langBtn: { alignSelf: 'flex-end', backgroundColor: C.surface, borderWidth: 1, borderColor: C.chipLine, borderRadius: R.pill, paddingHorizontal: 14, paddingVertical: 8, marginBottom: 16 },
-  logo: { width: 64, height: 64, borderRadius: 20, backgroundColor: C.accent, alignItems: 'center', justifyContent: 'center', marginBottom: 20 },
+  logo: { width: 64, height: 64, borderRadius: 20, backgroundColor: '#1E1A1A', alignItems: 'center', justifyContent: 'center', marginBottom: 20 },
   logoTxt: { color: C.onAccent, fontSize: 24, fontWeight: '800', letterSpacing: 1 },
   title: { fontSize: 30, fontWeight: '800', color: C.ink, fontFamily: Platform.select({ android: 'serif', ios: 'Georgia' }) },
   sub: { fontSize: 15.5, color: C.muted, marginTop: 8, lineHeight: 22 },

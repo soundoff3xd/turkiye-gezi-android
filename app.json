@@ -9,14 +9,14 @@
     "splash": {
       "image": "./assets/splash-icon.png",
       "resizeMode": "contain",
-      "backgroundColor": "#FBF8F1"
+      "backgroundColor": "#1E1A1A"
     },
     "android": {
       "package": "com.turkiyegezirehberi.app",
       "versionCode": 1,
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
-        "backgroundColor": "#B8321F"
+        "backgroundColor": "#1E1A1A"
       },
       "permissions": [
         "INTERNET",
@@ -71,7 +71,7 @@
         "expo-notifications",
         {
           "icon": "./assets/notification-icon.png",
-          "color": "#B8321F",
+          "color": "#E0453A",
           "defaultChannel": "default"
         }
       ]

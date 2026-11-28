@@ -151,7 +151,7 @@ body.navmode #panel,body.navmode #top,body.navmode #regions,body.navmode #layers
 body.navmode #app{grid-template-columns:1fr!important;grid-template-rows:1fr!important}
 body.navmode #mapwrap{grid-column:1/-1!important;grid-row:1/-1!important;position:fixed!important;inset:0!important}
 .wtop{display:flex;align-items:center;justify-content:space-between;gap:12px}
-.wlogo{width:52px;height:52px;border-radius:16px;background:var(--accent);color:var(--on-accent);display:flex;align-items:center;justify-content:center}
+.wlogo{width:52px;height:52px;border-radius:16px;background:#1E1A1A;color:var(--on-accent);display:flex;align-items:center;justify-content:center}
 .wtitle{font-size:30px;line-height:1.1;margin-top:14px}
 .wsub{margin:8px 0 0;font-size:15px;color:var(--muted);max-width:46ch}
 [dir="rtl"] .back svg{transform:scaleX(-1)}
@@ -402,7 +402,7 @@ textarea.in{height:auto;padding:12px;resize:none;line-height:1.45;width:100%}
 /* sayfa yükleme yıldızı */
 #ploader{position:fixed;z-index:60;transform:translate(-50%,-50%);pointer-events:none;display:none}
 #ploader.on{display:block}
-#ploader .plcard{padding:14px;border-radius:26px;background:var(--surface);box-shadow:0 8px 28px rgba(0,0,0,.18);animation:plin .16s cubic-bezier(.22,1,.36,1) both}
+#ploader .plcard{animation:plin .16s cubic-bezier(.22,1,.36,1) both}#ploader .plcard svg{filter:drop-shadow(0 1px 1.5px rgba(0,0,0,.18))}
 #ploader.out .plcard{animation:plout .22s ease-in both}
 #ploader svg{display:block;fill:var(--accent);overflow:visible}
 #ploader .plrays{animation:plspin .96s steps(12) infinite,plbreath 1.4s ease-in-out infinite;transform-origin:0 0}
@@ -442,7 +442,18 @@ textarea.in{height:auto;padding:12px;resize:none;line-height:1.45;width:100%}
 .yrcard{background:#B23A1E;color:#fff;border-radius:20px;padding:18px;margin-top:10px}.yrcard .yrk{display:block;color:#FFE8DC;font-weight:800;letter-spacing:.06em;font-size:13px}.yrcard .yrt{display:block;font-size:28px;font-weight:900;color:#fff;margin-top:2px}.yrcard .yrn{display:block;color:#FFE8DC}.yrg{display:grid;grid-template-columns:1fr 1fr;gap:8px;margin:14px 0 4px}.yrg>div{background:rgba(255,255,255,.14);border-radius:14px;padding:12px}.yrg b{display:block;font-size:28px;font-weight:900;color:#fff}.yrg span{color:#FFE8DC;font-weight:700;font-size:13.5px}.yrcard p{margin:8px 0 0;font-weight:700;color:#fff}.yrcard img{display:block;width:100%;aspect-ratio:16/10;object-fit:cover;border-radius:14px;margin-top:12px;background:rgba(255,255,255,.2)}.yrcard .yrs{color:#FFE8DC;font-weight:500;margin-top:4px}
 .qbig{font-size:44px;text-align:center;margin:6px 0 0}.qres{font-size:18px;font-weight:900;color:var(--ink);margin:8px 0 0}.qimg{margin-top:8px;border-radius:16px;overflow:hidden;background:var(--line);aspect-ratio:4/3}.qimg img{display:block;width:100%;height:100%;object-fit:cover}.qopt{display:flex;flex-direction:column;align-items:flex-start;width:100%;margin-top:8px;padding:12px 14px;border:1px solid var(--line);border-radius:16px;background:var(--surface);color:var(--ink);font:inherit;cursor:pointer;text-align:start}.qopt b{font-size:16px}.qopt span{font-size:13px;color:var(--muted)}.qopt.ok{border-color:#1E8E3E;background:#E6F4EA;color:#111}.qopt.bad{border-color:#C62828;background:#FDECEA;color:#111}.qopt.ok span,.qopt.bad span{color:#444}.qtop{list-style:none;margin:0;padding:0}.qtop li{display:flex;align-items:center;gap:10px;padding:7px 0;border-bottom:1px solid var(--line)}.qtop li b:first-of-type{flex:1;min-width:0;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
 a.btn{box-sizing:border-box;display:inline-flex;align-items:center;justify-content:center;text-decoration:none}.spot{display:block;padding:5px 0;color:var(--ink);font-weight:700;text-decoration:none}.bfbox{border-color:#1F6FEB}.pkdone{font-weight:900;color:var(--ink);margin:16px 0 0}.pklist{display:flex;flex-direction:column}.pkit{display:flex;align-items:center;gap:10px;width:100%;padding:8px 0;border:0;background:none;font:inherit;color:var(--ink);cursor:pointer;text-align:start}.pkit[aria-checked="true"] span:last-child{color:var(--muted);text-decoration:line-through}.pacts .btn{flex:1}
+#intro0{position:fixed;inset:0;z-index:9999;background:#1E1A1A}#intro0 .inwrap{height:100%;display:flex;flex-direction:column;align-items:center;justify-content:center}#intro{position:fixed;inset:0;width:100%;height:100%;max-width:none;max-height:none;margin:0;padding:0;border:0;background:#1E1A1A;transition:opacity .4s ease}#intro::backdrop{background:#1E1A1A}#intro.out,#intro.out::backdrop{opacity:0;pointer-events:none}.inwrap{height:100%;display:flex;flex-direction:column;align-items:center;justify-content:center}
+.inwrap .inbox{position:relative;width:160px;height:150px;display:flex;align-items:flex-end;justify-content:center;padding-bottom:18px;box-sizing:border-box;animation:inin .52s cubic-bezier(.22,1,.36,1) both}
+.inwrap .inpin{transform-origin:50% 100%;animation:inhop 1.5s infinite}.inwrap .inpin svg{display:block}
+.inwrap .inshadow{position:absolute;bottom:14px;left:58px;width:44px;height:10px;border-radius:5px;background:#E0453A;animation:inshadow 1.5s infinite}
+.inwrap .inring{position:absolute;bottom:6px;left:20px;width:120px;height:26px;border-radius:60px;border:2px solid #E0453A;box-sizing:border-box;animation:inring 1.5s cubic-bezier(.22,1,.36,1) infinite}
+.inwrap .inlbl{margin-top:12px;color:#EFE4DA;font:700 15px/1.3 var(--body);letter-spacing:.4px;animation:inin .52s ease both}
+@keyframes inin{from{opacity:0;transform:scale(.86)}to{opacity:1;transform:none}}
+@keyframes inhop{0%{transform:translateY(0) scale(1,1);animation-timing-function:cubic-bezier(.2,.7,.35,1)}8%{transform:translateY(-6px) scale(.95,1.07)}31%{transform:translateY(-26px) scale(1,1);animation-timing-function:cubic-bezier(.6,0,.85,.4)}58%{transform:translateY(0) scale(1,1)}64%{transform:translateY(0) scale(1.12,.84)}72%{transform:translateY(0) scale(.95,1.05)}80%{transform:translateY(0) scale(1.03,.97)}88%,100%{transform:translateY(0) scale(1,1)}}
+@keyframes inshadow{0%,58%,100%{opacity:.32;transform:scaleX(1)}31%{opacity:.1;transform:scaleX(.55)}}
+@keyframes inring{from{opacity:.55;transform:scale(.25)}to{opacity:0;transform:scale(1)}}
 </style>
+<div id="intro0" aria-hidden="true"><div class="inwrap"><div class="inbox"><i class="inring"></i><i class="inshadow"></i><div class="inpin"><svg width="55.6" height="76" viewBox="-10.25 -28.1 20.5 28.2" aria-hidden="true"><path d="M0,0 C-6,-8 -10,-12 -10,-18 A10,10 0 1 1 10,-18 C10,-12 6,-8 0,0Z" fill="#E0453A"/><g fill="#FFF6EE"><path transform="translate(-0.909,-18)" d="M3.466,-4.502 A5.681818181818182,5.681818181818182 0 1 0 3.466,4.502 A4.545454545454546,4.545454545454546 0 1 1 3.466,-4.502Z"/><path transform="translate(3.409,-18)" d="M-2.102,0.000L-0.680,-0.494L-0.650,-1.999L0.260,-0.800L1.701,-1.236L0.841,-0.000L1.701,1.236L0.260,0.800L-0.650,1.999L-0.680,0.494Z"/></g></svg></div></div><b class="inlbl">Türkiye Gezi Rehberi</b></div></div>
 <div id="app">
   <aside id="panel" aria-label="Gezilecek yerler">
     <button id="grip" data-a="grip" aria-label="Paneli küçült" aria-expanded="true"><span></span></button>
